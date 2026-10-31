@@ -7,7 +7,9 @@
       "kind": "figure",
       "label": "Fig1",
       "page": 0,
-      "caption": "Figure 1. Learning continuous spherical image representation. SphereSR leverages SLIIF to predict RGB values at given spheri- cal coordinates for SR with arbitrary image projection.",
+      "caption": "Figure1. Learningcontinuoussphericalimagerepresentation. SphereSR leverages SLIIF to predict RGB values at given spheri- cal coordinates for SR with arbitrary image projection.",
+      "caption_en": "Figure1. Learningcontinuoussphericalimagerepresentation. SphereSR leverages SLIIF to predict RGB values at given spheri- cal coordinates for SR with arbitrary image projection.",
+      "caption_zh": "",
       "caption_bbox": [
         308.862,
         378.273,
@@ -15,31 +17,39 @@
         409.157
       ],
       "content_bbox": [
-        81.618,
-        103.812,
+        315.886,
+        231.703,
         535.59,
         377.402
       ],
       "crop_bbox": [
-        81.618,
-        103.812,
+        315.886,
+        231.703,
         535.59,
-        412.157
+        377.402
       ],
       "original": "figures/original/Fig1_p000.png",
       "vector": [
-        "figures/vector/Fig1/Fig1.svg"
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
       ],
-      "vector_mode": "existing_svg_only",
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": []
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SphereSR_CVPR2022\\figures\\vector\\Fig1\\Fig1.svg (880x584 -> 1760x1168 px, scale 2.0, 17280 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  88.5% 画面  (10.00 x 6.64 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6068290 px\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig2",
       "page": 2,
-      "caption": "Figure 2. Overall framework of the proposed SphereSR.",
+      "caption": "Figure 2.Overall framework of the proposed SphereSR.",
+      "caption_en": "Figure 2.Overall framework of the proposed SphereSR.",
+      "caption_zh": "",
       "caption_bbox": [
         196.84,
         250.774,
@@ -56,22 +66,30 @@
         85.99,
         71.999,
         506.747,
-        262.74
+        244.921
       ],
       "original": "figures/original/Fig2_p002.png",
       "vector": [
-        "figures/vector/Fig2/Fig2.svg"
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
       ],
-      "vector_mode": "existing_svg_only",
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": []
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SphereSR_CVPR2022\\figures\\vector\\Fig2\\Fig2.svg (1684x693 -> 1684x693 px, scale 1.0, 4040 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  54.9% 画面  (10.00 x 4.12 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3762940 px\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig3",
       "page": 2,
       "caption": "Figure 3. Subdivision process of an icosahedron. We define a pixel as the face of a subdivided icosahedron.",
+      "caption_en": "Figure 3. Subdivision process of an icosahedron. We define a pixel as the face of a subdivided icosahedron.",
+      "caption_zh": "",
       "caption_bbox": [
         50.112,
         395.941,
@@ -88,16 +106,30 @@
         51.23,
         71.999,
         545.115,
-        418.866
+        396.736
       ],
       "original": "figures/original/Fig3_p002.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 8.80 in\n\n形状统计 (352 个):\n  FREEFORM (5)                 332\n  TEXT_BOX (17)                12\n  PICTURE (13)                 8\n\n矢量形状: 344\n位图图片: 8\n  44.4% 画面  (11.27 x 4.63 in)\n  0.8% 画面  (0.96 x 0.97 in)\n  0.8% 画面  (0.97 x 0.97 in)\n  0.8% 画面  (0.97 x 0.97 in)\n  0.7% 画面  (0.94 x 0.94 in)\n  0.7% 画面  (0.92 x 0.94 in)\n  2.6% 画面  (1.73 x 1.73 in)\n  0.8% 画面  (0.97 x 0.97 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 352 draws 331 fs 0 polys 4 rings 0 text 12 images 2 inline 6 canvas 1948 1286\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SphereSR_CVPR2022\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SphereSR_CVPR2022\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.80 in\n\n形状统计 (352 个):\n  FREEFORM (5)                 332\n  TEXT_BOX (17)                12\n  PICTURE (13)                 8\n\n矢量形状: 344\n位图图片: 8\n  44.4% 画面  (11.27 x 4.63 in)\n  0.8% 画面  (0.96 x 0.97 in)\n  0.8% 画面  (0.97 x 0.97 in)\n  0.8% 画面  (0.97 x 0.97 in)\n  0.7% 画面  (0.94 x 0.94 in)\n  0.7% 画面  (0.92 x 0.94 in)\n  2.6% 画面  (1.73 x 1.73 in)\n  0.8% 画面  (0.97 x 0.97 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig4",
       "page": 3,
-      "caption": "Figure 4. New kernel weight sharing. Left: proposed new data structure, Right: our kernel weight sharing scheme",
+      "caption": "Figure4.Newkernelweightsharing.Left:proposednewdata structure, Right:our kernel weight sharing scheme",
+      "caption_en": "Figure4.Newkernelweightsharing.Left:proposednewdata structure, Right:our kernel weight sharing scheme",
+      "caption_zh": "",
       "caption_bbox": [
         50.112,
         267.356,
@@ -107,23 +139,37 @@
       "content_bbox": [
         51.23,
         67.013,
-        545.114,
-        266.785
+        282.749,
+        261.897
       ],
       "crop_bbox": [
         51.23,
         67.013,
-        545.114,
-        290.281
+        282.749,
+        261.897
       ],
       "original": "figures/original/Fig4_p003.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 11.24 in\n\n形状统计 (577 个):\n  FREEFORM (5)                 408\n  TEXT_BOX (17)                169\n\n矢量形状: 577\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 577 draws 219 fs 128 polys 260 rings 0 text 169 images 0 inline 0 canvas 1948 1642\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SphereSR_CVPR2022\\figures\\vector\\Fig4\\Fig4.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SphereSR_CVPR2022\\figures\\vector\\Fig4\\Fig4.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.24 in\n\n形状统计 (577 个):\n  FREEFORM (5)                 408\n  TEXT_BOX (17)                169\n\n矢量形状: 577\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig5",
       "page": 3,
-      "caption": "Figure 5. Spherical local implicit image function.",
+      "caption": "Figure 5.Spherical local implicit image function.",
+      "caption_en": "Figure 5.Spherical local implicit image function.",
+      "caption_zh": "",
       "caption_bbox": [
         338.306,
         223.59,
@@ -140,16 +186,16 @@
         52.447,
         69.611,
         542.752,
-        235.556
+        225.569
       ],
       "original": "figures/original/Fig5_p003.png",
       "vector": [
         "figures/vector/Fig5/Fig5.svg",
         "figures/vector/Fig5/Fig5.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 4.32 in\n\n形状统计 (526 个):\n  FREEFORM (5)                 372\n  TEXT_BOX (17)                153\n  PICTURE (13)                 1\n\n矢量形状: 525\n位图图片: 1\n  43.1% 画面  (6.31 x 3.93 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 526 draws 199 fs 112 polys 242 rings 0 text 153 images 0 inline 1 canvas 1948 631\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SphereSR_CVPR2022\\figures\\vector\\Fig5\\Fig5.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SphereSR_CVPR2022\\figures\\vector\\Fig5\\Fig5.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
@@ -161,7 +207,9 @@
       "kind": "figure",
       "label": "Fig6",
       "page": 4,
-      "caption": "Figure 6. Sphere-oriented Cell Decoding.",
+      "caption": "Figure 6.Sphere-oriented Cell Decoding.",
+      "caption_en": "Figure 6.Sphere-oriented Cell Decoding.",
+      "caption_zh": "",
       "caption_bbox": [
         93.758,
         176.536,
@@ -178,16 +226,30 @@
         50.112,
         71.998,
         283.999,
-        188.502
+        175.665
       ],
       "original": "figures/original/Fig6_p004.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SphereSR_CVPR2022\\figures\\vector\\Fig6\\Fig6.svg (936x416 -> 1872x832 px, scale 2.0, 3175 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  59.3% 画面  (10.00 x 4.44 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4064000 px\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig7",
       "page": 4,
-      "caption": "Figure 7. Proposed feature loss between the spherical and ERP features.",
+      "caption": "Figure7.ProposedfeaturelossbetweenthesphericalandERP features.",
+      "caption_en": "Figure7.ProposedfeaturelossbetweenthesphericalandERP features.",
+      "caption_zh": "",
       "caption_bbox": [
         308.862,
         201.812,
@@ -195,31 +257,39 @@
         221.737
       ],
       "content_bbox": [
-        50.112,
-        71.998,
+        308.862,
+        72.001,
         545.111,
         190.978
       ],
       "crop_bbox": [
-        50.112,
-        71.998,
+        308.862,
+        72.001,
         545.111,
-        224.737
+        190.978
       ],
       "original": "figures/original/Fig7_p004.png",
       "vector": [
-        "figures/vector/Fig7/Fig7.svg"
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
       ],
-      "vector_mode": "existing_svg_only",
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": []
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SphereSR_CVPR2022\\figures\\vector\\Fig7\\Fig7.svg (946x476 -> 1892x952 px, scale 2.0, 3149 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  67.1% 画面  (10.00 x 5.03 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4600997 px\n"
+        }
+      ]
     },
     {
       "kind": "table",
       "label": "Table1",
       "page": 5,
-      "caption": "Table 1. ERP SR results on the ODI-SR and SUN 360 Panorama Dataset. Bold indicates the best results.",
+      "caption": "Table 1.ERP SR results on the ODI-SR and SUN 360 Panorama Dataset.Bold indicates the best results.",
+      "caption_en": "Table 1.ERP SR results on the ODI-SR and SUN 360 Panorama Dataset.Bold indicates the best results.",
+      "caption_zh": "",
       "caption_bbox": [
         109.468,
         72.789,
@@ -227,39 +297,69 @@
         81.837
       ],
       "content_bbox": [
-        50.112,
+        55.509,
         89.056,
-        545.115,
-        448.405
+        535.232,
+        246.546
       ],
       "crop_bbox": [
-        50.112,
-        69.789,
-        545.115,
-        448.405
+        55.509,
+        89.056,
+        535.232,
+        246.546
       ],
       "original": "tables/original/Table1_p005.png",
-      "vector": [
-        "tables/vector/Table1/Table1.svg",
-        "tables/vector/Table1/Table1.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 9.71 in\n\n形状统计 (364 个):\n  TEXT_BOX (17)                195\n  FREEFORM (5)                 169\n\n矢量形状: 364\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ],
+      "vector": [],
       "latex": "tables/latex/Table1.tex",
       "latex_mode": "extracted_tabular"
     },
     {
       "kind": "figure",
+      "label": "Fig10",
+      "page": 6,
+      "caption": "Figure 10. Visual comparison for x8 SR of fisheye images on ODI- SR dataset.",
+      "caption_en": "Figure 10. Visual comparison for x8 SR of fisheye images on ODI- SR dataset.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        519.3,
+        286.359,
+        539.225
+      ],
+      "content_bbox": [
+        50.112,
+        381.646,
+        284.005,
+        517.433
+      ],
+      "crop_bbox": [
+        50.112,
+        381.646,
+        284.005,
+        517.433
+      ],
+      "original": "figures/original/Fig10_p006.png",
+      "vector": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SphereSR_CVPR2022\\figures\\vector\\Fig10\\Fig10.svg (937x544 -> 1874x1088 px, scale 2.0, 18828 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  77.4% 画面  (10.00 x 5.81 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5308789 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
       "label": "Fig8",
       "page": 6,
-      "caption": "Figure 8. Visual comparisons of x8 SR results of different methods on ODI-SR dataset.",
+      "caption": "Figure 8.Visual comparisons of x8 SR results of different methods on ODI-SR dataset.",
+      "caption_en": "Figure 8.Visual comparisons of x8 SR results of different methods on ODI-SR dataset.",
+      "caption_zh": "",
       "caption_bbox": [
         140.953,
         196.903,
@@ -267,25 +367,39 @@
         205.869
       ],
       "content_bbox": [
-        0.0,
-        0.0,
-        612.0,
+        51.34,
+        71.999,
+        541.402,
         196.903
       ],
       "crop_bbox": [
-        0.0,
-        0.0,
-        612.0,
-        208.869
+        51.34,
+        71.999,
+        541.402,
+        196.903
       ],
       "original": "figures/original/Fig8_p006.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SphereSR_CVPR2022\\figures\\vector\\Fig8\\Fig8.svg (1961x501 -> 1961x501 px, scale 1.0, 16563 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  34.1% 画面  (10.00 x 2.55 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig9",
       "page": 6,
-      "caption": "Figure 9. Visual comparison for x8 SR of perspective images on ODI-SR dataset.",
+      "caption": "Figure9.Visualcomparisonforx8SRofperspectiveimageson ODI-SR dataset.",
+      "caption_en": "Figure9.Visualcomparisonforx8SRofperspectiveimageson ODI-SR dataset.",
+      "caption_zh": "",
       "caption_bbox": [
         50.112,
         352.339,
@@ -302,42 +416,30 @@
         50.112,
         71.999,
         541.402,
-        375.263
+        348.479
       ],
       "original": "figures/original/Fig9_p006.png",
-      "vector": []
-    },
-    {
-      "kind": "figure",
-      "label": "Fig10",
-      "page": 6,
-      "caption": "Figure 10. Visual comparison for x8 SR of fisheye images on ODI- SR dataset.",
-      "caption_bbox": [
-        50.112,
-        519.3,
-        286.359,
-        539.225
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
       ],
-      "content_bbox": [
-        50.112,
-        71.999,
-        545.115,
-        517.433
-      ],
-      "crop_bbox": [
-        50.112,
-        71.999,
-        545.115,
-        542.225
-      ],
-      "original": "figures/original/Fig10_p006.png",
-      "vector": []
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SphereSR_CVPR2022\\figures\\vector\\Fig9\\Fig9.svg (1966x1107 -> 1966x1107 px, scale 1.0, 24191 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  75.1% 画面  (10.00 x 5.63 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5148732 px\n"
+        }
+      ]
     },
     {
       "kind": "table",
       "label": "Table2",
       "page": 7,
-      "caption": "Table 2. Perspective and fisheye SR results on the ODI-SR and SUN 360 Panorama Dataset. Bold indicates the best results.",
+      "caption": "Table 2.Perspective and fisheye SR results on the ODI-SR and SUN 360 Panorama Dataset.Bold indicates the best results.",
+      "caption_en": "Table 2.Perspective and fisheye SR results on the ODI-SR and SUN 360 Panorama Dataset.Bold indicates the best results.",
+      "caption_zh": "",
       "caption_bbox": [
         75.853,
         72.789,
@@ -345,31 +447,19 @@
         81.837
       ],
       "content_bbox": [
-        50.112,
-        90.435,
-        545.115,
-        410.943
+        53.424,
+        90.132,
+        540.401,
+        227.914
       ],
       "crop_bbox": [
-        50.112,
-        69.789,
-        545.115,
-        410.943
+        53.424,
+        90.132,
+        540.401,
+        227.914
       ],
       "original": "tables/original/Table2_p007.png",
-      "vector": [
-        "tables/vector/Table2/Table2.svg",
-        "tables/vector/Table2/Table2.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 8.67 in\n\n形状统计 (416 个):\n  FREEFORM (5)                 215\n  TEXT_BOX (17)                201\n\n矢量形状: 416\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ],
+      "vector": [],
       "latex": "tables/latex/Table2.tex",
       "latex_mode": "extracted_tabular"
     },
@@ -377,7 +467,9 @@
       "kind": "table",
       "label": "Table3",
       "page": 7,
-      "caption": "Table 3. Ablation studies on ERP SR on ODI-SR and SUN360 Panorama Dataset for both ×8 and ×16 SR.",
+      "caption": "Table 3.Ablation studies on ERP SR on ODI-SR and SUN360 Panorama Dataset for both ×8 and ×16 SR.",
+      "caption_en": "Table 3.Ablation studies on ERP SR on ODI-SR and SUN360 Panorama Dataset for both ×8 and ×16 SR.",
+      "caption_zh": "",
       "caption_bbox": [
         104.559,
         233.642,
@@ -385,31 +477,19 @@
         242.932
       ],
       "content_bbox": [
-        50.112,
-        249.537,
-        545.115,
-        713.407
+        53.424,
+        90.132,
+        540.402,
+        227.914
       ],
       "crop_bbox": [
-        50.112,
-        230.642,
-        545.115,
-        713.407
+        53.424,
+        90.132,
+        540.402,
+        227.914
       ],
       "original": "tables/original/Table3_p007.png",
-      "vector": [
-        "tables/vector/Table3/Table3.svg",
-        "tables/vector/Table3/Table3.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 12.50 in\n\n形状统计 (202 个):\n  TEXT_BOX (17)                112\n  FREEFORM (5)                 90\n\n矢量形状: 202\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ],
+      "vector": [],
       "latex": "tables/latex/Table3.tex",
       "latex_mode": "extracted_tabular"
     },
@@ -417,7 +497,9 @@
       "kind": "table",
       "label": "Table4",
       "page": 7,
-      "caption": "Table 4. Comparisons of activation memory between SpherePHD and the proposed data structure. The network architectures of SpherePhD and ours have the same number of convolution layers (16) and hidden feature dimension (32).",
+      "caption": "Table 4.Comparisons of activation memory between SpherePHD andtheproposeddatastructure. Thenetworkarchitecturesof SpherePhD and ours have the same number of convolution layers (16) and hidden feature dimension (32).",
+      "caption_en": "Table 4.Comparisons of activation memory between SpherePHD andtheproposeddatastructure. Thenetworkarchitecturesof SpherePhD and ours have the same number of convolution layers (16) and hidden feature dimension (32).",
+      "caption_zh": "",
       "caption_bbox": [
         50.112,
         327.714,
@@ -425,80 +507,73 @@
         369.556
       ],
       "content_bbox": [
-        50.112,
-        381.911,
-        286.366,
-        713.407
+        53.424,
+        249.234,
+        540.402,
+        320.666
       ],
       "crop_bbox": [
-        50.112,
-        324.714,
-        286.366,
-        713.407
+        53.424,
+        249.234,
+        540.402,
+        320.666
       ],
       "original": "tables/original/Table4_p007.png",
-      "vector": [
-        "tables/vector/Table4/Table4.svg",
-        "tables/vector/Table4/Table4.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 18.67 in\n\n形状统计 (48 个):\n  TEXT_BOX (17)                32\n  FREEFORM (5)                 16\n\n矢量形状: 48\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ],
+      "vector": [],
       "latex": "tables/latex/Table4.tex",
       "latex_mode": "extracted_tabular"
     }
   ],
   "notes": [
     "Coordinates use PDF points and page indexes start at 0.",
-    "Original crops retain the caption for auditability.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
     "LaTeX tables generated by tools/build_latex_tables.py."
   ],
-  "metadata": {
-    "title": "SphereSR: 360° Image Super-Resolution With Arbitrary Projection via Continuous Spherical Image Representation",
-    "year": 2022,
-    "venue": "CVPR",
-    "classification": "CCF-A main conference",
-    "topic": [
-      "360-degree image",
-      "spherical representation",
-      "super-resolution"
-    ],
-    "relevance": "连续球面表示和任意投影输出，适合作为ERP失真和低码率恢复的几何基线。",
-    "official_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Yoon_SphereSR_360deg_Image_Super-Resolution_With_Arbitrary_Projection_via_Continuous_Spherical_CVPR_2022_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Yoon_SphereSR_360deg_Image_Super-Resolution_With_Arbitrary_Projection_via_Continuous_Spherical_CVPR_2022_paper.pdf",
-    "doi": "10.1109/CVPR52688.2022.00559",
-    "local_slug": "SphereSR_CVPR2022",
-    "access": "open_pdf"
-  },
   "vectorized": [
     {
       "label": "Fig1",
       "kind": "figure",
-      "mode": "existing_svg_only",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
-        "figures/vector/Fig1/Fig1.svg"
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
       ]
     },
     {
       "label": "Fig2",
       "kind": "figure",
-      "mode": "existing_svg_only",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
-        "figures/vector/Fig2/Fig2.svg"
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
       ]
     },
     {
       "label": "Fig5",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig5/Fig5.svg",
@@ -506,52 +581,53 @@
       ]
     },
     {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
       "label": "Fig7",
       "kind": "figure",
-      "mode": "existing_svg_only",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
-        "figures/vector/Fig7/Fig7.svg"
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
       ]
     },
     {
-      "label": "Table1",
-      "kind": "table",
-      "mode": "existing",
+      "label": "Fig10",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
-        "tables/vector/Table1/Table1.svg",
-        "tables/vector/Table1/Table1.pptx"
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
       ]
     },
     {
-      "label": "Table2",
-      "kind": "table",
-      "mode": "existing",
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
-        "tables/vector/Table2/Table2.svg",
-        "tables/vector/Table2/Table2.pptx"
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
       ]
     },
     {
-      "label": "Table3",
-      "kind": "table",
-      "mode": "existing",
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
-        "tables/vector/Table3/Table3.svg",
-        "tables/vector/Table3/Table3.pptx"
-      ]
-    },
-    {
-      "label": "Table4",
-      "kind": "table",
-      "mode": "existing",
-      "exit_code": 0,
-      "files": [
-        "tables/vector/Table4/Table4.svg",
-        "tables/vector/Table4/Table4.pptx"
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
       ]
     }
   ]

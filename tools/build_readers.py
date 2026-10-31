@@ -7,10 +7,15 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+PAPER_CATALOG = {
+    row.get("local_slug"): row
+    for row in json.loads((ROOT / "papers.json").read_text(encoding="utf-8"))
+    if row.get("local_slug")
+}
 
 
 def esc(value: object) -> str:
-    return html.escape(str(value or ""), quote=True)
+    return html.escape(str("" if value is None else value), quote=True)
 
 
 def rel(path: Path) -> str:
@@ -21,7 +26,8 @@ def load_assets(kind: str) -> list[dict]:
     rows = []
     for manifest_path in sorted(ROOT.glob("*/manifest.json")):
         data = json.loads(manifest_path.read_text(encoding="utf-8"))
-        metadata = data.get("metadata", {})
+        catalog = PAPER_CATALOG.get(manifest_path.parent.name, {})
+        metadata = {**catalog, **(data.get("metadata") or {})}
         for asset in data.get("assets", []):
             if asset.get("kind") != kind:
                 continue
@@ -29,10 +35,12 @@ def load_assets(kind: str) -> list[dict]:
             if not original_path.exists():
                 continue
             vectors = []
-            for vector in asset.get("vector", []):
-                vector_path = manifest_path.parent / vector
-                if vector_path.exists():
-                    vectors.append((vector_path.suffix.lower().lstrip("."), rel(vector_path)))
+            if kind == "figure":
+                for vector in asset.get("vector", []):
+                    vector_path = manifest_path.parent / vector
+                    if vector_path.exists():
+                        vectors.append((vector_path.suffix.lower().lstrip("."), rel(vector_path)))
+            latex_path = manifest_path.parent / asset.get("latex", "")
             rows.append({
                 "paper": data.get("paper", manifest_path.parent.name),
                 "title": metadata.get("title", data.get("paper", manifest_path.parent.name)),
@@ -40,11 +48,16 @@ def load_assets(kind: str) -> list[dict]:
                 "year": metadata.get("year", ""),
                 "classification": metadata.get("classification", ""),
                 "label": asset.get("label", ""),
-                "caption": asset.get("caption", ""),
+                "caption": asset.get("caption_en", asset.get("caption", "")),
+                "caption_en": asset.get("caption_en", asset.get("caption", "")),
+                "caption_zh": asset.get("caption_zh", ""),
                 "page": asset.get("page", ""),
                 "original": rel(original_path),
                 "vectors": vectors,
                 "vector_mode": asset.get("vector_mode", ""),
+                "latex": rel(latex_path) if kind == "table" and latex_path.exists() else "",
+                "latex_mode": asset.get("latex_mode", ""),
+                "official_url": metadata.get("official_url", "") or metadata.get("pdf_url", ""),
             })
     rows.sort(key=lambda r: (r["paper"].lower(), str(r["label"])))
     return rows
@@ -72,6 +85,8 @@ def page_css() -> str:
       .media img { display:block; width:100%; max-height:720px; object-fit:contain; background:#fff; }
       .body { padding:14px 15px 16px; }
       .paper { font-size:13px; font-weight:650; color:var(--accent); margin-bottom:5px; }
+      .paper-link { color:inherit; text-decoration:none; }
+      .paper-link:hover { color:var(--accent); text-decoration:underline; text-underline-offset:2px; }
       h2 { font-size:17px; line-height:1.35; margin:0 0 8px; }
       .meta { color:var(--muted); font-size:12px; line-height:1.5; margin-bottom:10px; }
       .caption { font-size:13px; line-height:1.55; white-space:pre-wrap; }
@@ -93,28 +108,35 @@ def page_html(kind: str, rows: list[dict]) -> str:
     data = json.dumps(rows, ensure_ascii=False)
     cards = []
     for i, row in enumerate(rows):
-        vector_links = "".join(f'<a class="link" href="{esc(path)}" target="_blank">打开 {esc(ext.upper())}</a>' for ext, path in row["vectors"])
-        mode = row["vector_mode"] or "未生成矢量文件"
+        vector_links = "".join(f'<a class="link" href="{esc(path)}" target="_blank">打开 {esc(ext.upper())}</a>' for ext, path in row["vectors"]) if is_fig else ""
+        if not is_fig and row["latex"]:
+            latex_label = "打开 LaTeX（可编辑）" if row["latex_mode"] == "extracted_tabular" else "打开 LaTeX（图像包装）"
+            vector_links = f'<a class="link" href="{esc(row["latex"])}" download>{esc(latex_label)}</a>'
+        title = f'<a class="paper-link" href="{esc(row["official_url"])}" target="_blank" rel="noopener noreferrer">{esc(row["title"])}</a>' if row["official_url"] else esc(row["title"])
+        caption = esc(row["caption_en"])
+        if row["caption_zh"] and row["caption_zh"] != row["caption_en"]:
+            caption = f'<span class="caption-label">EN</span>{caption}<br><span class="caption-label">中文</span>{esc(row["caption_zh"])}'
+        mode = (row["vector_mode"] if is_fig else row["latex_mode"]) or ("未生成矢量文件" if is_fig else "未生成 LaTeX")
         card = f'''<article data-index="{i}" data-search="{esc((row["title"] + " " + row["paper"] + " " + row["label"] + " " + row["caption"]).lower())}">
           <div class="media"><img loading="lazy" src="{esc(row["original"])}" alt="{esc(row["label"])} {esc(row["title"])}"></div>
           <div class="body">
             <div class="paper">{esc(row["paper"])}</div>
-            <h2>{esc(row["label"])} · {esc(row["title"])}</h2>
+            <h2>{esc(row["label"])} · {title}</h2>
             <div class="meta">{esc(row["venue"])} {esc(row["year"])} · PDF 第 {int(row["page"])+1} 页（页索引 {esc(row["page"])}）<br>{esc(row["classification"])}</div>
-            <div class="caption">{esc(row["caption"])}</div>
+            <div class="caption">{caption}</div>
             <div class="actions"><a class="link" href="{esc(row["original"])}" target="_blank">打开原始 PNG</a></div>
-            <details><summary>矢量/可编辑文件（{esc(mode)}）</summary><div class="vectors">{vector_links or '<span class="meta">暂无矢量文件</span>'}</div></details>
+            <details><summary>{'矢量/可编辑文件' if is_fig else 'LaTeX 表格代码'}（{esc(mode)}）</summary><div class="vectors">{vector_links or '<span class="meta">暂无文件</span>'}</div></details>
           </div>
         </article>'''
         cards.append(card)
     return f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title>
 <style>{page_css()}</style></head>
-<body><header><h1>{esc(title)}</h1><div class="sub">离线阅读 · 原始裁切、图注、页码和矢量文件均来自本目录 manifest</div>
-<nav><a href="index.html">资料首页</a><a href="figures.html">图片阅读器</a><a href="tables.html">表格阅读器</a><a href="catalog.md">论文索引</a></nav>
+<body><header><h1>{esc(title)}</h1><div class="sub">离线阅读 · 图片不含 caption，caption 在图片下方显示</div>
+<nav><a href="index.html">资料首页</a><a href="figures.html">图片阅读器</a><a href="tables.html">表格阅读器</a></nav>
 <div class="toolbar"><input id="search" type="search" placeholder="搜索论文、图表编号或图注"><select id="paper"><option value="">全部论文</option></select><select id="sort"><option value="paper">按论文排序</option><option value="label">按编号排序</option></select></div></header>
 <main><p id="summary" class="summary"></p><div id="grid" class="grid">{"".join(cards) if cards else '<div class="empty">没有找到可显示的资产。</div>'}</div><div id="empty" class="empty hidden">没有匹配的条目。</div></main>
-<footer>图片/表格原始 PNG 与 SVG/PPTX 文件均为本地相对链接。复杂位图的 SVG 是路径描摹，文字可能不是语义可编辑文本。</footer>
+<footer>图片原始 PNG 与 SVG/PPTX、表格 LaTeX 均为本地相对链接。复杂位图的 SVG 是路径描摹，文字可能不是语义可编辑文本。</footer>
 <script>
 const rows={data};
 const articles=[...document.querySelectorAll('article')];
@@ -126,7 +148,7 @@ function render() {{ const q=search.value.trim().toLowerCase(), p=paper.value, m
 
 
 def index_html(figures: list[dict], tables: list[dict]) -> str:
-    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>全景压缩恢复论文图表阅读器</title><style>{page_css()} .home{{max-width:900px;margin:70px auto;padding:0 22px}} .choice{{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:28px}} .choice a{{display:block;padding:24px;border:1px solid var(--line);border-radius:7px;text-decoration:none;color:var(--ink);background:var(--soft)}} .choice strong{{display:block;font-size:20px;margin-bottom:8px}} </style></head><body><main class="home"><h1>全景压缩恢复论文图表阅读器</h1><p class="sub">本地离线页面，按论文、编号和图注检索已截取的论文图片与表格。</p><div class="choice"><a href="figures.html"><strong>图片阅读器</strong><span>{len(figures)} 个图片条目，含主图、架构图和子图。</span></a><a href="tables.html"><strong>表格阅读器</strong><span>{len(tables)} 个表格条目，含原始 PNG 和可编辑文件链接。</span></a></div><nav><a href="catalog.md">论文索引</a><a href="validation_report.json">验证报告</a><a href="qa_summary.json">逐像素 QA</a></nav></main></body></html>'''
+    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>全景压缩恢复论文图表阅读器</title><style>{page_css()} .home{{max-width:900px;margin:70px auto;padding:0 22px}} .choice{{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:28px}} .choice a{{display:block;padding:24px;border:1px solid var(--line);border-radius:7px;text-decoration:none;color:var(--ink);background:var(--soft)}} .choice strong{{display:block;font-size:20px;margin-bottom:8px}} </style></head><body><main class="home"><h1>全景压缩恢复论文图表阅读器</h1><p class="sub">本地离线页面，按论文、编号和图注检索已截取的论文图片与表格。</p><div class="choice"><a href="figures.html"><strong>图片阅读器</strong><span>{len(figures)} 个图片条目，含主图、架构图和子图。</span></a><a href="tables.html"><strong>表格阅读器</strong><span>{len(tables)} 个表格条目，含原始 PNG 和可下载的 LaTeX 代码。</span></a></div></main></body></html>'''
 
 
 def main() -> None:

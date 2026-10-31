@@ -7,37 +7,39 @@
       "kind": "figure",
       "label": "Fig1",
       "page": 1,
-      "caption": "Fig. 1 | Reasons for efﬁcient coding. a One consequence of efﬁcient coding is that perceptual sensitivity reﬂects the empirical frequency of perceptual variables. b Efﬁcient coding can be justiﬁed normatively as the most effective way to allocate",
+      "caption": "Fig. 1 | Reasons for efﬁcient coding. a One consequence of efﬁcient coding is that perceptual sensitivity reﬂects the empirical frequency of perceptual variables. b Efﬁcient coding can be justiﬁed normatively as the most effective way to allocate ﬁnite neural resources to encode a stimulus ensemble. In this work we describe a mechanism for efﬁcient coding due to learning components of the inputs at dif- ferent rates dependent on their frequency.",
+      "caption_en": "Fig. 1 | Reasons for efﬁcient coding. a One consequence of efﬁcient coding is that perceptual sensitivity reﬂects the empirical frequency of perceptual variables. b Efﬁcient coding can be justiﬁed normatively as the most effective way to allocate ﬁnite neural resources to encode a stimulus ensemble. In this work we describe a mechanism for efﬁcient coding due to learning components of the inputs at dif- ferent rates dependent on their frequency.",
+      "caption_zh": "",
       "caption_bbox": [
         39.685,
         715.441,
-        293.492,
+        561.263,
         742.419
       ],
       "content_bbox": [
-        39.683,
-        47.071,
-        561.369,
+        138.469,
+        594.665,
+        462.467,
         707.0
       ],
       "crop_bbox": [
-        39.683,
-        47.071,
-        561.369,
-        745.419
+        138.469,
+        594.665,
+        462.467,
+        707.0
       ],
       "original": "figures/original/Fig1_p001.png",
       "vector": [
         "figures/vector/Fig1/Fig1.svg",
         "figures/vector/Fig1/Fig1.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 4.70 in\n\n形状统计 (296 个):\n  FREEFORM (5)                 232\n  AUTO_SHAPE (1)               61\n  PICTURE (13)                 3\n\n矢量形状: 293\n位图图片: 3\n  1.1% 画面  (4.37 x 0.16 in)\n  0.9% 画面  (4.37 x 0.12 in)\n  1.2% 画面  (4.65 x 0.16 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 296 draws 263 fs 22 polys 171 rings 61 text 0 images 0 inline 3 canvas 1948 686\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 16.84 in\n\n形状统计 (403 个):\n  FREEFORM (5)                 232\n  TEXT_BOX (17)                107\n  AUTO_SHAPE (1)               61\n  PICTURE (13)                 3\n\n矢量形状: 400\n位图图片: 3\n  0.1% 画面  (2.71 x 0.10 in)\n  0.1% 画面  (2.71 x 0.08 in)\n  0.1% 画面  (2.89 x 0.10 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.70 in\n\n形状统计 (296 个):\n  FREEFORM (5)                 232\n  AUTO_SHAPE (1)               61\n  PICTURE (13)                 3\n\n矢量形状: 293\n位图图片: 3\n  1.1% 画面  (4.37 x 0.16 in)\n  0.9% 画面  (4.37 x 0.12 in)\n  1.2% 画面  (4.65 x 0.16 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
       ]
     },
@@ -46,6 +48,8 @@
       "label": "Fig2",
       "page": 2,
       "caption": "Fig. 2 | Artiﬁcial neural networks trained to classify naturalistic images show similar patterns of sensitivity as humans. a Discrimination thresholds for orientation vary systematically in humans. The sensitivity of the underlying inter- nal representations, as the Fisher Information, can be inferred as the inverse square of the threshold6,9. Data from ref. 44. b We measured the sensitivity of each layer in",
+      "caption_en": "Fig. 2 | Artiﬁcial neural networks trained to classify naturalistic images show similar patterns of sensitivity as humans. a Discrimination thresholds for orientation vary systematically in humans. The sensitivity of the underlying inter- nal representations, as the Fisher Information, can be inferred as the inverse square of the threshold6,9. Data from ref. 44. b We measured the sensitivity of each layer in",
+      "caption_zh": "",
       "caption_bbox": [
         39.685,
         258.326,
@@ -53,81 +57,109 @@
         305.261
       ],
       "content_bbox": [
-        39.685,
-        23.52,
-        561.26,
+        56.886,
+        48.767,
+        543.923,
         249.977
       ],
       "crop_bbox": [
-        39.685,
-        23.52,
-        561.26,
-        308.261
+        56.886,
+        48.767,
+        543.923,
+        249.977
       ],
       "original": "figures/original/Fig2_p002.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 5.57 in\n\n形状统计 (749 个):\n  FREEFORM (5)                 698\n  AUTO_SHAPE (1)               50\n  PICTURE (13)                 1\n\n矢量形状: 748\n位图图片: 1\n  60.0% 画面  (9.08 x 4.90 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8307147 x 4484721 px\nops 749 draws 424 fs 126 polys 396 rings 50 text 0 images 0 inline 1 canvas 1948 814\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig2\\Fig2.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig2\\Fig2.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.57 in\n\n形状统计 (749 个):\n  FREEFORM (5)                 698\n  AUTO_SHAPE (1)               50\n  PICTURE (13)                 1\n\n矢量形状: 748\n位图图片: 1\n  60.0% 画面  (9.08 x 4.90 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8307147 x 4484721 px\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig3",
       "page": 2,
-      "caption": "Fig. 3 | The sensitivity of ANNs to hue also matches image statistics. a The color of a uniform image is varied; in HSV color space, saturation and value are held ﬁxed and the hue is varied. Results are averaged over possible saturations and values. b In humans, the sensitivity to the H axis can be inferred by the perceptual distance between uniformly spaced H values (calculated using the approximately",
+      "caption": "Fig. 3 | The sensitivity of ANNs to hue also matches image statistics. a The color of a uniform image is varied; in HSV color space, saturation and value are held ﬁxed and the hue is varied. Results are averaged over possible saturations and values. b In humans, the sensitivity to the H axis can be inferred by the perceptual distance between uniformly spaced H values (calculated using the approximately perceptually uniform color space CIELAB) at S=V=1. c The sensitivity to hue in each layer in a trained ResNet18 tracks the empirical frequency of hues in the ImageNet dataset. d Training ResNet18 on a version of ImageNet in which hues are rotated results in a corresponding shift in hue sensitivity.",
+      "caption_en": "Fig. 3 | The sensitivity of ANNs to hue also matches image statistics. a The color of a uniform image is varied; in HSV color space, saturation and value are held ﬁxed and the hue is varied. Results are averaged over possible saturations and values. b In humans, the sensitivity to the H axis can be inferred by the perceptual distance between uniformly spaced H values (calculated using the approximately perceptually uniform color space CIELAB) at S=V=1. c The sensitivity to hue in each layer in a trained ResNet18 tracks the empirical frequency of hues in the ImageNet dataset. d Training ResNet18 on a version of ImageNet in which hues are rotated results in a corresponding shift in hue sensitivity.",
+      "caption_zh": "",
       "caption_bbox": [
         39.685,
         540.009,
-        294.801,
+        561.346,
         586.854
       ],
       "content_bbox": [
         39.685,
-        55.278,
+        309.77,
         561.26,
         531.417
       ],
       "crop_bbox": [
         39.685,
-        55.278,
+        309.77,
         561.26,
-        589.854
+        531.417
       ],
       "original": "figures/original/Fig3_p002.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 5.73 in\n\n形状统计 (388 个):\n  FREEFORM (5)                 287\n  AUTO_SHAPE (1)               100\n  PICTURE (13)                 1\n\n矢量形状: 387\n位图图片: 1\n  67.9% 画面  (11.84 x 4.39 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 10822827 x 4009701 px\nops 388 draws 357 fs 21 polys 193 rings 100 text 0 images 0 inline 1 canvas 1948 837\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.73 in\n\n形状统计 (388 个):\n  FREEFORM (5)                 287\n  AUTO_SHAPE (1)               100\n  PICTURE (13)                 1\n\n矢量形状: 387\n位图图片: 1\n  67.9% 画面  (11.84 x 4.39 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 10822827 x 4009701 px\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig4",
       "page": 3,
-      "caption": "Fig. 4 | Schematic of how the learning dynamics of linear networks causes a correspondence between network sensitivity and input statistics. The learning problem is broken into components, each of which learns at a speciﬁc rate. The frequency or variance of a feature of the input data (e.g. the color red) in part",
+      "caption": "Fig. 4 | Schematic of how the learning dynamics of linear networks causes a correspondence between network sensitivity and input statistics. The learning problem is broken into components, each of which learns at a speciﬁc rate. The frequency or variance of a feature of the input data (e.g. the color red) in part determines the learning rate of the components that encode it. This means that the network becomes sensitive to frequent features ﬁrst. Training may end before all features are fully encoded.",
+      "caption_en": "Fig. 4 | Schematic of how the learning dynamics of linear networks causes a correspondence between network sensitivity and input statistics. The learning problem is broken into components, each of which learns at a speciﬁc rate. The frequency or variance of a feature of the input data (e.g. the color red) in part determines the learning rate of the components that encode it. This means that the network becomes sensitive to frequent features ﬁrst. Training may end before all features are fully encoded.",
+      "caption_zh": "",
       "caption_bbox": [
         39.685,
         165.099,
-        294.766,
+        561.334,
         201.967
       ],
       "content_bbox": [
-        39.685,
-        23.52,
-        561.26,
+        138.0,
+        48.767,
+        462.55,
         156.489
       ],
       "crop_bbox": [
-        39.685,
-        23.52,
-        561.26,
-        204.967
+        138.0,
+        48.767,
+        462.55,
+        156.489
       ],
       "original": "figures/original/Fig4_p003.png",
       "vector": [
         "figures/vector/Fig4/Fig4.svg",
         "figures/vector/Fig4/Fig4.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 4.50 in\n\n形状统计 (162 个):\n  FREEFORM (5)                 138\n  AUTO_SHAPE (1)               22\n  PICTURE (13)                 2\n\n矢量形状: 160\n位图图片: 2\n  0.7% 画面  (0.12 x 3.22 in)\n  1.1% 画面  (4.03 x 0.16 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 162 draws 155 fs 4 polys 75 rings 22 text 0 images 0 inline 2 canvas 1948 657\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig4\\Fig4.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig4\\Fig4.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 3.48 in\n\n形状统计 (166 个):\n  FREEFORM (5)                 140\n  AUTO_SHAPE (1)               22\n  PICTURE (13)                 2\n  TEXT_BOX (17)                2\n\n矢量形状: 164\n位图图片: 2\n  0.3% 画面  (0.08 x 2.00 in)\n  0.5% 画面  (2.51 x 0.10 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.50 in\n\n形状统计 (162 个):\n  FREEFORM (5)                 138\n  AUTO_SHAPE (1)               22\n  PICTURE (13)                 2\n\n矢量形状: 160\n位图图片: 2\n  0.7% 画面  (0.12 x 3.22 in)\n  1.1% 画面  (4.03 x 0.16 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
       ]
     },
@@ -136,6 +168,8 @@
       "label": "Fig5",
       "page": 4,
       "caption": "Fig. 5 | The effect of input statistics on network sensitivity can be understood with linear network models. Despite their simplicity, these show human-like learning phenomena. a We trained linear networks to reconstruct black and white patches of natural images. b The statistics of natural images can be analyzed with Principal Components Analysis (PCA); the variance of each successive PC decrea- ses with a characteristic power law decay. c When learning with gradient descent, the weight matrix W learns each PC separately and in order of their variance. The sharpness of the sigmoidal learning curve is controlled by the network depth (SI Fig. 2) d Human perceptual learning curves are also sigmoidal, and increasing task difﬁculty delays learning dynamics. Data replotted from ref. 49; subjects trained to detect the orientation of a line, and the difﬁculty of the task was controlled by a",
+      "caption_en": "Fig. 5 | The effect of input statistics on network sensitivity can be understood with linear network models. Despite their simplicity, these show human-like learning phenomena. a We trained linear networks to reconstruct black and white patches of natural images. b The statistics of natural images can be analyzed with Principal Components Analysis (PCA); the variance of each successive PC decrea- ses with a characteristic power law decay. c When learning with gradient descent, the weight matrix W learns each PC separately and in order of their variance. The sharpness of the sigmoidal learning curve is controlled by the network depth (SI Fig. 2) d Human perceptual learning curves are also sigmoidal, and increasing task difﬁculty delays learning dynamics. Data replotted from ref. 49; subjects trained to detect the orientation of a line, and the difﬁculty of the task was controlled by a",
+      "caption_zh": "",
       "caption_bbox": [
         39.685,
         450.094,
@@ -144,30 +178,38 @@
       ],
       "content_bbox": [
         54.468,
-        63.205,
+        48.767,
         546.466,
         441.651
       ],
       "crop_bbox": [
         54.468,
-        63.205,
+        48.767,
         546.466,
-        559.752
+        441.651
       ],
       "original": "figures/original/Fig5_p004.png",
       "vector": [
-        "figures/vector/Fig5/Fig5.svg"
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
       ],
-      "vector_mode": "existing_svg_only",
+      "vector_mode": "pdf_vector_svg_only+svg_pptx_wrapper",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": []
+      "vector_log_tail": "ops 4118 draws 2523 fs 1729 polys 1936 rings 231 text 0 images 8 inline 2 canvas 1948 1559\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig5\\Fig5.svg\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  93.9% 画面  (9.39 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8589950 x 6858000 px\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig6",
       "page": 5,
       "caption": "Fig. 6 | Dissociating the effect of frequency and information in supervised learning tasks. a We trained 3-layer nonlinear neural networks to classify the orientation of sinusoidal gratings into 3∘bins, varying either input frequency or output noise. b We controlled the informativeness of input orientations by injecting noise into the labels as a function of orientation (speciﬁcally, the binary labels are multiplied by a Bernoulli dropout with a rate that depends on orienta- tion). The sensitivity of the ﬁrst layer to input orientation is shown over learning. With uniform statistics, the more informative features are preferentially learned. c The effect of varying input frequency without applying label noise. In this case, the more frequent features are preferentially learned. d We then balanced noise and frequency such that the total information in the input dataset about each output label is uniform (see Methods). Learning with gradient descent still prefers common angles.",
+      "caption_en": "Fig. 6 | Dissociating the effect of frequency and information in supervised learning tasks. a We trained 3-layer nonlinear neural networks to classify the orientation of sinusoidal gratings into 3∘bins, varying either input frequency or output noise. b We controlled the informativeness of input orientations by injecting noise into the labels as a function of orientation (speciﬁcally, the binary labels are multiplied by a Bernoulli dropout with a rate that depends on orienta- tion). The sensitivity of the ﬁrst layer to input orientation is shown over learning. With uniform statistics, the more informative features are preferentially learned. c The effect of varying input frequency without applying label noise. In this case, the more frequent features are preferentially learned. d We then balanced noise and frequency such that the total information in the input dataset about each output label is uniform (see Methods). Learning with gradient descent still prefers common angles.",
+      "caption_zh": "",
       "caption_bbox": [
         39.685,
         382.516,
@@ -177,57 +219,40 @@
       "content_bbox": [
         47.241,
         48.767,
-        561.368,
+        287.239,
         373.9
       ],
       "crop_bbox": [
         47.241,
         48.767,
-        561.368,
-        512.072
+        287.239,
+        373.9
       ],
       "original": "figures/original/Fig6_p005.png",
       "vector": [
         "figures/vector/Fig6/Fig6.svg",
         "figures/vector/Fig6/Fig6.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 18.02 in\n\n形状统计 (437 个):\n  FREEFORM (5)                 292\n  AUTO_SHAPE (1)               144\n  PICTURE (13)                 1\n\n矢量形状: 436\n位图图片: 1\n  71.2% 画面  (10.30 x 16.61 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9421452 x 15189317 px\nops 437 draws 435 fs 1 polys 202 rings 144 text 0 images 0 inline 1 canvas 1948 2633\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig6\\Fig6.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig6\\Fig6.pptx\n\n",
       "vector_qa": [
         {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 8.47 in\n\n形状统计 (452 个):\n  FREEFORM (5)                 292\n  AUTO_SHAPE (1)               144\n  TEXT_BOX (17)                15\n  PICTURE (13)                 1\n\n矢量形状: 451\n位图图片: 1\n  33.0% 画面  (4.81 x 7.75 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 18.02 in\n\n形状统计 (437 个):\n  FREEFORM (5)                 292\n  AUTO_SHAPE (1)               144\n  PICTURE (13)                 1\n\n矢量形状: 436\n位图图片: 1\n  71.2% 画面  (10.30 x 16.61 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9421452 x 15189317 px\n"
         }
       ]
     }
   ],
   "notes": [
     "Coordinates use PDF points and page indexes start at 0.",
-    "Original crops retain the caption for auditability."
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer."
   ],
-  "metadata": {
-    "title": "Efficient neural codes naturally emerge through gradient descent learning",
-    "year": 2022,
-    "venue": "Nature Communications",
-    "classification": "Nature Portfolio journal",
-    "topic": [
-      "efficient coding",
-      "natural image statistics",
-      "ANN representation"
-    ],
-    "relevance": "梯度下降隐式优先学习自然图像中的高方差/高频成分，为频带容量分配和感知损失设计提供生物学解释。",
-    "official_url": "https://www.nature.com/articles/s41467-022-35659-7",
-    "pdf_url": "https://www.nature.com/articles/s41467-022-35659-7.pdf",
-    "doi": "10.1038/s41467-022-35659-7",
-    "local_slug": "EfficientNeuralCodes_NatCommun2022",
-    "access": "open_pdf"
-  },
   "vectorized": [
     {
       "label": "Fig1",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig1/Fig1.svg",
@@ -235,9 +260,29 @@
       ]
     },
     {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
       "label": "Fig4",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig4/Fig4.svg",
@@ -247,16 +292,17 @@
     {
       "label": "Fig5",
       "kind": "figure",
-      "mode": "existing_svg_only",
+      "mode": "pdf_vector_svg_only+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
-        "figures/vector/Fig5/Fig5.svg"
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
       ]
     },
     {
       "label": "Fig6",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig6/Fig6.svg",

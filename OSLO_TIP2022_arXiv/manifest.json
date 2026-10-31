@@ -7,7 +7,9 @@
       "kind": "figure",
       "label": "Fig1",
       "page": 0,
-      "caption": "Fig. 1. In a coherent ﬁltering, the kernel is translated by keeping orientation with respect to the north pole, interpixel correlation and surface area.",
+      "caption": "Fig.1.Inacoherentﬁltering,thekernelistranslatedbykeepingorientation withrespecttothenorthpole,interpixelcorrelationandsurfacearea.",
+      "caption_en": "Fig.1.Inacoherentﬁltering,thekernelistranslatedbykeepingorientation withrespecttothenorthpole,interpixelcorrelationandsurfacearea.",
+      "caption_zh": "",
       "caption_bbox": [
         311.978,
         413.015,
@@ -15,29 +17,29 @@
         430.093
       ],
       "content_bbox": [
-        48.964,
-        58.627,
-        563.035,
+        334.694,
+        199.5,
+        538.43,
         403.277
       ],
       "crop_bbox": [
-        48.964,
-        58.627,
-        563.035,
-        433.093
+        334.694,
+        199.5,
+        538.43,
+        403.277
       ],
       "original": "figures/original/Fig1_p000.png",
       "vector": [
         "figures/vector/Fig1/Fig1.svg",
         "figures/vector/Fig1/Fig1.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig1\\Fig1.svg (816x816 -> 1632x1632 px, scale 2.0, 8373 paths, 0 images)\n",
       "vector_qa": [
         {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 8.97 in\n\n形状统计 (9 个):\n  TEXT_BOX (17)                6\n  PICTURE (13)                 2\n  FREEFORM (5)                 1\n\n矢量形状: 7\n位图图片: 2\n  23.0% 画面  (5.24 x 5.24 in)\n  22.3% 画面  (5.17 x 5.17 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  75.0% 画面  (7.50 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 6858000 x 6858000 px\n"
         }
       ]
     },
@@ -45,7 +47,9 @@
       "kind": "figure",
       "label": "Fig2",
       "page": 4,
-      "caption": "Fig. 2. Desired sampling’s properties : (i) It should be regular such that each pixel has same number of neighbors, and we should be able to discriminate between neighboring pixels by assigning different directions to each neighbor (as shown in (a)); (ii) The sampling should be rigid (as shown in (b)) such that the distance between a speciﬁc neighbor (1 to 8) and the center pixel should be almost constant all over the sphere (e.g., d1 = d′ 1). Additionally, its relative orientation with respect to the center pixel should be constant over the sphere, (e.g., θ1 = θ′ 1). This orientation is computed with respect to the north pole.",
+      "caption": "Fig. 2.Desired sampling’s properties : (i) It should be regularsuch that each pixelhassamenumberofneighbors,andweshouldbeabletodiscriminate between neighboring pixels by assigning different directions to each neighbor (asshownin(a));(ii)Thesamplingshouldberigid(asshownin(b))such thatthedistancebetweenaspeciﬁcneighbor(1to8)andthecenterpixel shouldbealmostconstantalloverthesphere(e.g.,d1=d′ 1).Additionally, its relative orientation with respect to the center pixel should be constant over thesphere,(e.g.,θ1=θ′ 1).Thisorientationiscomputedwithrespecttothe northpole.",
+      "caption_en": "Fig. 2.Desired sampling’s properties : (i) It should be regularsuch that each pixelhassamenumberofneighbors,andweshouldbeabletodiscriminate between neighboring pixels by assigning different directions to each neighbor (asshownin(a));(ii)Thesamplingshouldberigid(asshownin(b))such thatthedistancebetweenaspeciﬁcneighbor(1to8)andthecenterpixel shouldbealmostconstantalloverthesphere(e.g.,d1=d′ 1).Additionally, its relative orientation with respect to the center pixel should be constant over thesphere,(e.g.,θ1=θ′ 1).Thisorientationiscomputedwithrespecttothe northpole.",
+      "caption_zh": "",
       "caption_bbox": [
         48.964,
         197.206,
@@ -54,24 +58,38 @@
       ],
       "content_bbox": [
         51.405,
-        25.932,
+        66.028,
         563.041,
         191.196
       ],
       "crop_bbox": [
         51.405,
-        25.932,
+        66.028,
         563.041,
-        280.049
+        191.196
       ],
       "original": "figures/original/Fig2_p004.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig2\\Fig2.svg (2048x501 -> 2048x501 px, scale 1.0, 2557 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  32.6% 画面  (10.00 x 2.45 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig3",
       "page": 4,
-      "caption": "Fig. 3. The distribution of neighboring pixels around the central pixel. Left column: ERP. Right column: HEALPix sampling. Top row: Pixel positions on the sphere when ERP and HEALPix have almost the same number of pixels with 3072 and 39×78 pixels. Bottom row: Pixel distributions on the tangent plane when ERP and HEALPix have almost the same number of pixels with 12582912 and 2508×5016 pixels. Marker × shows the central pixel, black circles represent the mean position of each neighbor. Each color corresponds to a neighbor pixel in a speciﬁc direction (SW, W, NW, N, NE, E, SE, and S) and the corresponding area’s size is set based on the standard deviation of pixel distribution in the plane tangent to the sphere at the central pixel.",
+      "caption": "Fig.3.Thedistributionofneighboringpixelsaroundthecentralpixel.Left column: ERP. Right column: HEALPix sampling. Top row: Pixel positions on thespherewhenERPandHEALPixhavealmostthesamenumberofpixels with3072and39×78pixels.Bottomrow:Pixeldistributionsonthetangent planewhenERPandHEALPixhavealmostthesamenumberofpixelswith 12582912and2508×5016pixels.Marker×showsthecentralpixel,black circlesrepresentthemeanpositionofeachneighbor.Eachcolorcorresponds toaneighborpixelinaspeciﬁcdirection(SW,W,NW,N,NE,E,SE,and S)andthecorrespondingarea’ssizeissetbasedonthestandarddeviationof pixeldistributionintheplanetangenttothesphereatthecentralpixel.",
+      "caption_en": "Fig.3.Thedistributionofneighboringpixelsaroundthecentralpixel.Left column: ERP. Right column: HEALPix sampling. Top row: Pixel positions on thespherewhenERPandHEALPixhavealmostthesamenumberofpixels with3072and39×78pixels.Bottomrow:Pixeldistributionsonthetangent planewhenERPandHEALPixhavealmostthesamenumberofpixelswith 12582912and2508×5016pixels.Marker×showsthecentralpixel,black circlesrepresentthemeanpositionofeachneighbor.Eachcolorcorresponds toaneighborpixelinaspeciﬁcdirection(SW,W,NW,N,NE,E,SE,and S)andthecorrespondingarea’ssizeissetbasedonthestandarddeviationof pixeldistributionintheplanetangenttothesphereatthecentralpixel.",
+      "caption_zh": "",
       "caption_bbox": [
         311.978,
         331.926,
@@ -80,24 +98,38 @@
       ],
       "content_bbox": [
         48.964,
-        25.932,
+        66.028,
         563.041,
         325.793
       ],
       "crop_bbox": [
         48.964,
-        25.932,
+        66.028,
         563.041,
-        423.594
+        325.793
       ],
       "original": "figures/original/Fig3_p004.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 6.79 in\n\n形状统计 (62 个):\n  TEXT_BOX (17)                54\n  PICTURE (13)                 6\n  FREEFORM (5)                 2\n\n矢量形状: 56\n位图图片: 6\n  9.3% 画面  (2.91 x 2.91 in)\n  9.3% 画面  (2.91 x 2.91 in)\n  9.3% 画面  (2.91 x 2.91 in)\n  9.3% 画面  (2.91 x 2.91 in)\n  9.2% 画面  (2.91 x 2.87 in)\n  9.2% 画面  (2.91 x 2.87 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 62 draws 2 fs 0 polys 0 rings 0 text 54 images 2 inline 4 canvas 1948 992\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.79 in\n\n形状统计 (62 个):\n  TEXT_BOX (17)                54\n  PICTURE (13)                 6\n  FREEFORM (5)                 2\n\n矢量形状: 56\n位图图片: 6\n  9.3% 画面  (2.91 x 2.91 in)\n  9.3% 画面  (2.91 x 2.91 in)\n  9.3% 画面  (2.91 x 2.91 in)\n  9.3% 画面  (2.91 x 2.91 in)\n  9.2% 画面  (2.91 x 2.87 in)\n  9.2% 画面  (2.91 x 2.87 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig4",
       "page": 5,
-      "caption": "Fig. 4. Our spherical convolution. (a) Kernel on the sphere at different positions. Each color corresponds to a different learnable kernel weight corresponding to a different orientation. (b) Convolution operation can be seen as a message-passing scheme. (c) The same pair of pixels contribute differently depending on the position of central pixel.",
+      "caption": "Fig.4. Oursphericalconvolution.(a)Kernelonthesphereatdifferent positions.Eachcolorcorrespondstoadifferentlearnablekernelweight correspondingtoadifferentorientation.(b)Convolutionoperationcanbe seenasamessage-passingscheme.(c)Thesamepairofpixelscontribute differentlydependingonthepositionofcentralpixel.",
+      "caption_en": "Fig.4. Oursphericalconvolution.(a)Kernelonthesphereatdifferent positions.Eachcolorcorrespondstoadifferentlearnablekernelweight correspondingtoadifferentorientation.(b)Convolutionoperationcanbe seenasamessage-passingscheme.(c)Thesamepairofpixelscontribute differentlydependingonthepositionofcentralpixel.",
+      "caption_zh": "",
       "caption_bbox": [
         311.978,
         241.293,
@@ -105,29 +137,29 @@
         285.128
       ],
       "content_bbox": [
-        53.819,
-        25.932,
-        563.036,
+        48.964,
+        56.069,
+        563.035,
         235.16
       ],
       "crop_bbox": [
-        53.819,
-        25.932,
-        563.036,
-        288.128
+        48.964,
+        56.069,
+        563.035,
+        235.16
       ],
       "original": "figures/original/Fig4_p005.png",
       "vector": [
         "figures/vector/Fig4/Fig4.svg",
         "figures/vector/Fig4/Fig4.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 4.72 in\n\n形状统计 (90 个):\n  TEXT_BOX (17)                51\n  FREEFORM (5)                 36\n  PICTURE (13)                 3\n\n矢量形状: 87\n位图图片: 3\n  15.3% 画面  (3.10 x 3.10 in)\n  9.1% 画面  (3.10 x 1.85 in)\n  9.1% 画面  (3.10 x 1.85 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 90 draws 36 fs 0 polys 0 rings 0 text 51 images 2 inline 1 canvas 1948 689\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig4\\Fig4.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig4\\Fig4.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 5.54 in\n\n形状统计 (89 个):\n  TEXT_BOX (17)                52\n  FREEFORM (5)                 34\n  PICTURE (13)                 3\n\n矢量形状: 86\n位图图片: 3\n  13.2% 画面  (3.13 x 3.13 in)\n  7.9% 画面  (3.13 x 1.87 in)\n  7.9% 画面  (3.13 x 1.87 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.72 in\n\n形状统计 (90 个):\n  TEXT_BOX (17)                51\n  FREEFORM (5)                 36\n  PICTURE (13)                 3\n\n矢量形状: 87\n位图图片: 3\n  15.3% 画面  (3.10 x 3.10 in)\n  9.1% 画面  (3.10 x 1.85 in)\n  9.1% 画面  (3.10 x 1.85 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
       ]
     },
@@ -135,7 +167,9 @@
       "kind": "figure",
       "label": "Fig5",
       "page": 6,
-      "caption": "Fig. 5. Proposed strategy to increase the local support (here 3-hop) in spher- ical convolution. Each convl, l = 1, 2, 3 performs neighborhood aggregation for each pixel as given in (2). Finally, the last layer aggregation module combines pixel-wise the generated feature maps of the intermediate layers.",
+      "caption": "Fig.5.Proposedstrategytoincreasethelocalsupport(here3-hop)inspher- icalconvolution.Eachconvl, l=1, 2, 3performsneighborhoodaggregation foreachpixelasgivenin(2).Finally,thelastlayeraggregationmodule combinespixel-wisethegeneratedfeaturemapsoftheintermediatelayers.",
+      "caption_en": "Fig.5.Proposedstrategytoincreasethelocalsupport(here3-hop)inspher- icalconvolution.Eachconvl, l=1, 2, 3performsneighborhoodaggregation foreachpixelasgivenin(2).Finally,thelastlayeraggregationmodule combinespixel-wisethegeneratedfeaturemapsoftheintermediatelayers.",
+      "caption_zh": "",
       "caption_bbox": [
         311.978,
         110.537,
@@ -144,28 +178,28 @@
       ],
       "content_bbox": [
         311.978,
-        25.932,
-        563.036,
+        48.055,
+        562.982,
         108.506
       ],
       "crop_bbox": [
         311.978,
-        25.932,
-        563.036,
-        148.591
+        48.055,
+        562.982,
+        108.506
       ],
       "original": "figures/original/Fig5_p006.png",
       "vector": [
         "figures/vector/Fig5/Fig5.svg",
         "figures/vector/Fig5/Fig5.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 3.29 in\n\n形状统计 (47 个):\n  FREEFORM (5)                 26\n  TEXT_BOX (17)                21\n\n矢量形状: 47\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 47 draws 21 fs 5 polys 8 rings 0 text 21 images 0 inline 0 canvas 1948 481\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig5\\Fig5.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig5\\Fig5.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 4.46 in\n\n形状统计 (48 个):\n  FREEFORM (5)                 26\n  TEXT_BOX (17)                22\n\n矢量形状: 48\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.29 in\n\n形状统计 (47 个):\n  FREEFORM (5)                 26\n  TEXT_BOX (17)                21\n\n矢量形状: 47\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
       ]
     },
@@ -173,33 +207,49 @@
       "kind": "figure",
       "label": "Fig6",
       "page": 7,
-      "caption": "Fig. 6. Hierarchical pixelization of the sphere together with the nested pixel numbering scheme. (a) HEALPix base resolution. Red lines show base-pixel boundaries. (b) HEALPix ﬁrst resolution each base pixel is divided into 2 × 2 pixels. Blue lines indicate the boundaries of child pixels for base-resolution (c) HEALPix second resolution. The black lines indicate the boundaries of child pixels. The pixel indices where the center of convolution ﬁlter is placed on them to have a stride of 2 × 2 are shown in red.",
+      "caption": "Fig.6.Hierarchicalpixelizationofthespheretogetherwiththenestedpixel numberingscheme.(a)HEALPixbaseresolution.Redlinesshowbase-pixel boundaries.(b)HEALPixﬁrstresolutioneachbasepixelisdividedinto2× 2pixels.Bluelinesindicatetheboundariesofchildpixelsforbase-resolution (c)HEALPixsecondresolution.Theblacklinesindicatetheboundariesof childpixels.Thepixelindiceswherethecenterofconvolutionﬁlterisplaced onthemtohaveastrideof2 × 2areshowninred. G.Patching",
+      "caption_en": "Fig.6.Hierarchicalpixelizationofthespheretogetherwiththenestedpixel numberingscheme.(a)HEALPixbaseresolution.Redlinesshowbase-pixel boundaries.(b)HEALPixﬁrstresolutioneachbasepixelisdividedinto2× 2pixels.Bluelinesindicatetheboundariesofchildpixelsforbase-resolution (c)HEALPixsecondresolution.Theblacklinesindicatetheboundariesof childpixels.Thepixelindiceswherethecenterofconvolutionﬁlterisplaced onthemtohaveastrideof2 × 2areshowninred. G.Patching",
+      "caption_zh": "",
       "caption_bbox": [
         48.964,
         162.631,
-        300.022,
-        224.399
+        361.672,
+        227.86
       ],
       "content_bbox": [
         51.405,
-        25.932,
-        563.036,
+        56.075,
+        563.008,
         156.498
       ],
       "crop_bbox": [
         51.405,
-        25.932,
-        563.036,
-        227.399
+        56.075,
+        563.008,
+        156.498
       ],
       "original": "figures/original/Fig6_p007.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig6\\Fig6.svg (2048x402 -> 2048x402 px, scale 1.0, 3105 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  26.2% 画面  (10.00 x 1.96 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig7",
       "page": 7,
-      "caption": "Fig. 7. Sub-pixel convolution on the sphere. Convolution is applied on the low-resolution sphere to produce “4n ·D” feature maps/channels (n, D ∈N). Then, the output feature maps are partitioned into D sets of 4n feature maps, and in each set, the 4n channels of the same parent pixel are organized into a speciﬁc channel of child pixels.",
+      "caption": "Fig.7.Sub-pixelconvolutiononthesphere.Convolutionisappliedonthe low-resolution sphere to produce “4n·D” feature maps/channels (n, D∈N). Then, the output feature maps are partitioned into Dsets of 4nfeature maps, andineachset,the4nchannelsofthesameparentpixelareorganizedinto aspeciﬁcchannelofchildpixels.",
+      "caption_en": "Fig.7.Sub-pixelconvolutiononthesphere.Convolutionisappliedonthe low-resolution sphere to produce “4n·D” feature maps/channels (n, D∈N). Then, the output feature maps are partitioned into Dsets of 4nfeature maps, andineachset,the4nchannelsofthesameparentpixelareorganizedinto aspeciﬁcchannelofchildpixels.",
+      "caption_zh": "",
       "caption_bbox": [
         311.978,
         150.651,
@@ -208,30 +258,38 @@
       ],
       "content_bbox": [
         51.405,
-        25.932,
-        563.036,
+        56.075,
+        563.008,
         146.541
       ],
       "crop_bbox": [
         51.405,
-        25.932,
-        563.036,
-        197.487
+        56.075,
+        563.008,
+        146.541
       ],
       "original": "figures/original/Fig7_p007.png",
       "vector": [
-        "figures/vector/Fig7/Fig7.svg"
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
       ],
-      "vector_mode": "existing_svg_only",
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": []
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig7\\Fig7.svg (2048x363 -> 2048x363 px, scale 1.0, 2910 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  23.6% 画面  (10.00 x 1.77 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig8",
       "page": 8,
-      "caption": "Fig. 8. Overview of the two network architectures used in our experiment [16], [17]. Q represents quantization, and AE, AD represent arithmetic encoder and arithmetic decoder, respectively.",
+      "caption": "Fig.8. Overviewofthetwonetworkarchitecturesusedinourexperiment [16], [17]. Q represents quantization, and AE, AD represent arithmetic encoder andarithmeticdecoder,respectively.",
+      "caption_en": "Fig.8. Overviewofthetwonetworkarchitecturesusedinourexperiment [16], [17]. Q represents quantization, and AE, AD represent arithmetic encoder andarithmeticdecoder,respectively.",
+      "caption_zh": "",
       "caption_bbox": [
         311.978,
         233.2,
@@ -240,28 +298,28 @@
       ],
       "content_bbox": [
         318.254,
-        25.932,
+        55.832,
         569.202,
         227.067
       ],
       "crop_bbox": [
         318.254,
-        25.932,
+        55.832,
         569.202,
-        262.103
+        227.067
       ],
       "original": "figures/original/Fig8_p008.png",
       "vector": [
         "figures/vector/Fig8/Fig8.svg",
         "figures/vector/Fig8/Fig8.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 9.13 in\n\n形状统计 (127 个):\n  FREEFORM (5)                 83\n  TEXT_BOX (17)                41\n  PICTURE (13)                 3\n\n矢量形状: 124\n位图图片: 3\n  0.3% 画面  (0.62 x 0.61 in)\n  0.3% 画面  (0.62 x 0.61 in)\n  0.3% 画面  (0.62 x 0.61 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 127 draws 61 fs 22 polys 30 rings 0 text 41 images 0 inline 3 canvas 1948 1334\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig8\\Fig8.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig8\\Fig8.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 10.70 in\n\n形状统计 (128 个):\n  FREEFORM (5)                 83\n  TEXT_BOX (17)                42\n  PICTURE (13)                 3\n\n矢量形状: 125\n位图图片: 3\n  0.3% 画面  (0.62 x 0.61 in)\n  0.3% 画面  (0.62 x 0.61 in)\n  0.3% 画面  (0.62 x 0.61 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.13 in\n\n形状统计 (127 个):\n  FREEFORM (5)                 83\n  TEXT_BOX (17)                41\n  PICTURE (13)                 3\n\n矢量形状: 124\n位图图片: 3\n  0.3% 画面  (0.62 x 0.61 in)\n  0.3% 画面  (0.62 x 0.61 in)\n  0.3% 画面  (0.62 x 0.61 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
       ]
     },
@@ -269,7 +327,9 @@
       "kind": "figure",
       "label": "Fig9",
       "page": 9,
-      "caption": "Fig. 9. Equivalent architectures of [16], [17] for spherical images. Convolution parameters are denoted as: “conv hk, ↓l × N” representing a k-hop convolution (see Fig. 5), downsampled by l × number of ﬁlters. Similarly, sub-pixel convolution parameters are denoted as: “spconv hk, ↑l × N” representing a k-hop convolution, followed by upsampling of l with pixel shufﬂe transformation (see Fig. 7) × number of ﬁlters.",
+      "caption": "Fig. 9.Equivalent architectures of [16], [17] for spherical images. Convolution parameters are denoted as: “conv hk, ↓l × N” representing a k-hop convolution (seeFig.5),downsampledbyl×numberofﬁlters.Similarly,sub-pixelconvolutionparametersaredenotedas:“spconvhk,↑l×N”representingak-hop convolution,followedbyupsamplingoflwithpixelshufﬂetransformation(seeFig.7)×numberofﬁlters.",
+      "caption_en": "Fig. 9.Equivalent architectures of [16], [17] for spherical images. Convolution parameters are denoted as: “conv hk, ↓l × N” representing a k-hop convolution (seeFig.5),downsampledbyl×numberofﬁlters.Similarly,sub-pixelconvolutionparametersaredenotedas:“spconvhk,↑l×N”representingak-hop convolution,followedbyupsamplingoflwithpixelshufﬂetransformation(seeFig.7)×numberofﬁlters.",
+      "caption_zh": "",
       "caption_bbox": [
         48.964,
         370.224,
@@ -286,16 +346,16 @@
         55.24,
         55.212,
         568.855,
-        399.415
+        364.28
       ],
       "original": "figures/original/Fig9_p009.png",
       "vector": [
         "figures/vector/Fig9/Fig9.svg",
         "figures/vector/Fig9/Fig9.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 8.07 in\n\n形状统计 (434 个):\n  FREEFORM (5)                 266\n  TEXT_BOX (17)                165\n  PICTURE (13)                 3\n\n矢量形状: 431\n位图图片: 3\n  0.0% 画面  (0.21 x 0.20 in)\n  0.0% 画面  (0.21 x 0.20 in)\n  0.0% 画面  (0.21 x 0.20 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 434 draws 170 fs 96 polys 98 rings 0 text 165 images 0 inline 3 canvas 1948 1179\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig9\\Fig9.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig9\\Fig9.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
@@ -307,7 +367,9 @@
       "kind": "figure",
       "label": "Fig10",
       "page": 11,
-      "caption": "Fig. 10. Rate-distortion curves aggregated over the test images. The solid, dashed, dotted, and dash-dotted lines represent OSLO implementation, 2D deep learning architectures on Equirectangular projections, Deepsphere architectures, and Equirectangular JPEG compression. Red color refers to the architecture of [17], blue color indicates [16] architecture, and green color indicates JPEG compression. (a) S-PSNR. (b) WS-PSNR.",
+      "caption": "Fig.10.Rate-distortioncurvesaggregatedoverthetestimages.Thesolid,dashed,dotted,anddash-dottedlinesrepresentOSLOimplementation,2Ddeep learningarchitecturesonEquirectangularprojections,Deepspherearchitectures,andEquirectangularJPEGcompression.Redcolorreferstothearchitecture of[17],bluecolorindicates[16]architecture,andgreencolorindicatesJPEGcompression.(a)S-PSNR.(b)WS-PSNR.",
+      "caption_en": "Fig.10.Rate-distortioncurvesaggregatedoverthetestimages.Thesolid,dashed,dotted,anddash-dottedlinesrepresentOSLOimplementation,2Ddeep learningarchitecturesonEquirectangularprojections,Deepspherearchitectures,andEquirectangularJPEGcompression.Redcolorreferstothearchitecture of[17],bluecolorindicates[16]architecture,andgreencolorindicatesJPEGcompression.(a)S-PSNR.(b)WS-PSNR.",
+      "caption_zh": "",
       "caption_bbox": [
         48.964,
         350.614,
@@ -315,25 +377,39 @@
         376.516
       ],
       "content_bbox": [
-        60.078,
-        25.932,
-        563.036,
+        84.201,
+        67.597,
+        560.05,
         344.481
       ],
       "crop_bbox": [
-        60.078,
-        25.932,
-        563.036,
-        379.516
+        84.201,
+        67.597,
+        560.05,
+        344.481
       ],
       "original": "figures/original/Fig10_p011.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 7.80 in\n\n形状统计 (426 个):\n  FREEFORM (5)                 370\n  TEXT_BOX (17)                56\n\n矢量形状: 426\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 426 draws 172 fs 90 polys 90 rings 0 text 56 images 0 inline 0 canvas 1948 1140\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig10\\Fig10.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig10\\Fig10.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.80 in\n\n形状统计 (426 个):\n  FREEFORM (5)                 370\n  TEXT_BOX (17)                56\n\n矢量形状: 426\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig11",
       "page": 12,
-      "caption": "Fig. 11. A viewport at a speciﬁc direction of spherical images compressed almost at the same rate. A zoom version of each colored rectangular region is shown on the right. (a) Equirectangular image compressed with [16] in 1980.89 KB. (b) The same image compressed with OSLO in 1920.86 KB.",
+      "caption": "Fig.11.Aviewportataspeciﬁcdirectionofsphericalimagescompressedalmostatthesamerate.Azoomversionofeachcoloredrectangularregionis shownontheright.(a)Equirectangularimagecompressedwith[16]in1980.89KB.(b)ThesameimagecompressedwithOSLOin1920.86KB.",
+      "caption_en": "Fig.11.Aviewportataspeciﬁcdirectionofsphericalimagescompressedalmostatthesamerate.Azoomversionofeachcoloredrectangularregionis shownontheright.(a)Equirectangularimagecompressedwith[16]in1980.89KB.(b)ThesameimagecompressedwithOSLOin1920.86KB.",
+      "caption_zh": "",
       "caption_bbox": [
         48.964,
         475.023,
@@ -350,16 +426,30 @@
         102.114,
         56.069,
         513.376,
-        494.959
+        468.89
       ],
       "original": "figures/original/Fig11_p012.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig11\\Fig11.svg (1646x1652 -> 1646x1652 px, scale 1.0, 15611 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  74.7% 画面  (7.47 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 6833092 x 6858000 px\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig12",
       "page": 13,
-      "caption": "Fig. 12. A viewport at a speciﬁc direction of spherical images compressed almost at the same rate. A zoom version of each colored rectangular region is shown on the right. (a) Equirectangular image compressed with [16] in 1766.94 KB. (b) The same image compressed with OSLO in 1613.62 KB.",
+      "caption": "Fig.12.Aviewportataspeciﬁcdirectionofsphericalimagescompressedalmostatthesamerate.Azoomversionofeachcoloredrectangularregionis shownontheright.(a)Equirectangularimagecompressedwith[16]in1766.94KB.(b)ThesameimagecompressedwithOSLOin1613.62KB.",
+      "caption_en": "Fig.12.Aviewportataspeciﬁcdirectionofsphericalimagescompressedalmostatthesamerate.Azoomversionofeachcoloredrectangularregionis shownontheright.(a)Equirectangularimagecompressedwith[16]in1766.94KB.(b)ThesameimagecompressedwithOSLOin1613.62KB.",
+      "caption_zh": "",
       "caption_bbox": [
         48.964,
         602.085,
@@ -376,16 +466,30 @@
         102.114,
         183.131,
         513.376,
-        622.021
+        595.952
       ],
       "original": "figures/original/Fig12_p013.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig12\\Fig12.svg (1646x1652 -> 1646x1652 px, scale 1.0, 42377 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  74.7% 画面  (7.47 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 6833092 x 6858000 px\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig13",
       "page": 14,
-      "caption": "Fig. 13. Frequency histogram for BD-rate gains of OSLO over 2D learning in ERP. Top row represents SPSNR and WSPSNR BD-rate gains for the architecture of [16]. Bottom row represents the results for [17].",
+      "caption": "Fig.13.FrequencyhistogramforBD-rategainsofOSLOover2Dlearning inERP.ToprowrepresentsSPSNRandWSPSNRBD-rategainsforthe architectureof[16].Bottomrowrepresentstheresultsfor[17].",
+      "caption_en": "Fig.13.FrequencyhistogramforBD-rategainsofOSLOover2Dlearning inERP.ToprowrepresentsSPSNRandWSPSNRBD-rategainsforthe architectureof[16].Bottomrowrepresentstheresultsfor[17].",
+      "caption_zh": "",
       "caption_bbox": [
         48.964,
         410.4,
@@ -393,25 +497,39 @@
         436.303
       ],
       "content_bbox": [
-        60.686,
+        64.672,
         93.602,
         567.404,
-        413.277
+        410.4
       ],
       "crop_bbox": [
-        60.686,
+        64.672,
         93.602,
         567.404,
-        439.303
+        410.4
       ],
       "original": "figures/original/Fig13_p014.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig13/Fig13.svg",
+        "figures/vector/Fig13/Fig13.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 8.44 in\n\n形状统计 (493 个):\n  FREEFORM (5)                 396\n  TEXT_BOX (17)                93\n  PICTURE (13)                 4\n\n矢量形状: 489\n位图图片: 4\n  0.6% 画面  (0.39 x 1.81 in)\n  0.7% 画面  (0.42 x 1.81 in)\n  0.6% 画面  (0.39 x 1.81 in)\n  0.7% 画面  (0.42 x 1.84 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 493 draws 188 fs 168 polys 168 rings 0 text 93 images 0 inline 4 canvas 1948 1233\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig13\\Fig13.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig13\\Fig13.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.44 in\n\n形状统计 (493 个):\n  FREEFORM (5)                 396\n  TEXT_BOX (17)                93\n  PICTURE (13)                 4\n\n矢量形状: 489\n位图图片: 4\n  0.6% 画面  (0.39 x 1.81 in)\n  0.7% 画面  (0.42 x 1.81 in)\n  0.6% 画面  (0.39 x 1.81 in)\n  0.7% 画面  (0.42 x 1.84 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig14",
       "page": 14,
-      "caption": "Fig. 14. Rate-distortion curves of different aggregation strategies to increase the local support of convolution.",
+      "caption": "Fig.14.Rate-distortioncurvesofdifferentaggregationstrategiestoincrease thelocalsupportofconvolution.",
+      "caption_en": "Fig.14.Rate-distortioncurvesofdifferentaggregationstrategiestoincrease thelocalsupportofconvolution.",
+      "caption_zh": "",
       "caption_bbox": [
         48.964,
         703.623,
@@ -420,24 +538,38 @@
       ],
       "content_bbox": [
         48.964,
-        360.776,
-        567.414,
+        93.602,
+        567.404,
         689.76
       ],
       "crop_bbox": [
         48.964,
-        360.776,
-        567.414,
-        723.559
+        93.602,
+        567.404,
+        689.76
       ],
       "original": "figures/original/Fig14_p014.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig14/Fig14.svg",
+        "figures/vector/Fig14/Fig14.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 15.32 in\n\n形状统计 (791 个):\n  FREEFORM (5)                 649\n  TEXT_BOX (17)                134\n  PICTURE (13)                 8\n\n矢量形状: 783\n位图图片: 8\n  0.3% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.76 in)\n  0.3% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.79 in)\n  0.3% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.79 in)\n  0.3% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.76 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 791 draws 310 fs 265 polys 265 rings 0 text 134 images 0 inline 8 canvas 1948 2238\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig14\\Fig14.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig14\\Fig14.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 15.32 in\n\n形状统计 (791 个):\n  FREEFORM (5)                 649\n  TEXT_BOX (17)                134\n  PICTURE (13)                 8\n\n矢量形状: 783\n位图图片: 8\n  0.3% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.76 in)\n  0.3% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.79 in)\n  0.3% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.79 in)\n  0.3% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.76 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig15",
       "page": 14,
-      "caption": "Fig. 15. Random selection of learned ﬁlters at different layers of e and s. The weight corresponding to the central pixels is not shown in the ﬁlter for better visibility. Left column represents ﬁlters learned with DeepSphere that results in isotropic ﬁlters. Right column represents the ﬁlters learned with OSLO solution. Two ﬁlters on the same row are taken from the exact same position in the architecture.",
+      "caption": "Fig.15. Randomselectionoflearnedﬁltersatdifferentlayersofeands. Theweightcorrespondingtothecentralpixelsisnotshownintheﬁlterfor bettervisibility.LeftcolumnrepresentsﬁlterslearnedwithDeepSpherethat resultsinisotropicﬁlters.Rightcolumnrepresentstheﬁlterslearnedwith OSLOsolution.Twoﬁltersonthesamerowaretakenfromtheexactsame positioninthearchitecture.",
+      "caption_en": "Fig.15. Randomselectionoflearnedﬁltersatdifferentlayersofeands. Theweightcorrespondingtothecentralpixelsisnotshownintheﬁlterfor bettervisibility.LeftcolumnrepresentsﬁlterslearnedwithDeepSpherethat resultsinisotropicﬁlters.Rightcolumnrepresentstheﬁlterslearnedwith OSLOsolution.Twoﬁltersonthesamerowaretakenfromtheexactsame positioninthearchitecture.",
+      "caption_zh": "",
       "caption_bbox": [
         311.978,
         578.261,
@@ -446,24 +578,38 @@
       ],
       "content_bbox": [
         48.964,
-        239.877,
-        567.414,
-        575.959
+        93.602,
+        567.404,
+        572.313
       ],
       "crop_bbox": [
         48.964,
-        239.877,
-        567.414,
-        634.248
+        93.602,
+        567.404,
+        572.313
       ],
       "original": "figures/original/Fig15_p014.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig15/Fig15.svg",
+        "figures/vector/Fig15/Fig15.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 12.32 in\n\n形状统计 (725 个):\n  FREEFORM (5)                 604\n  TEXT_BOX (17)                113\n  PICTURE (13)                 8\n\n矢量形状: 717\n位图图片: 8\n  0.4% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.76 in)\n  0.4% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.79 in)\n  0.4% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.79 in)\n  0.4% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.76 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 725 draws 288 fs 256 polys 256 rings 0 text 113 images 0 inline 8 canvas 1948 1800\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig15\\Fig15.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig15\\Fig15.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 12.32 in\n\n形状统计 (725 个):\n  FREEFORM (5)                 604\n  TEXT_BOX (17)                113\n  PICTURE (13)                 8\n\n矢量形状: 717\n位图图片: 8\n  0.4% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.76 in)\n  0.4% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.79 in)\n  0.4% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.79 in)\n  0.4% 画面  (0.38 x 1.76 in)\n  0.4% 画面  (0.41 x 1.76 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig16",
       "page": 15,
-      "caption": "Fig. 16. Decompressed images in Mollweide projection. The zoomed versions of red, green, and blue rectangular regions are shown in the bottom row. (a) DeepSphere result stored in 2408.43 KB with 29.54 dB and 29.51 dB for SPSNR and WSPSNR respectively. (b) OSLO result stored in 936.65 KB with 40.91 dB and 41.65 dB for SPSNR and WSPSNR respectively.",
+      "caption": "Fig.16.DecompressedimagesinMollweideprojection.Thezoomedversionsofred,green,andbluerectangularregionsareshowninthebottomrow.(a) DeepSphereresultstoredin2408.43KBwith29.54dBand29.51dBforSPSNRandWSPSNRrespectively.(b)OSLOresultstoredin936.65KBwith 40.91dBand41.65dBforSPSNRandWSPSNRrespectively.",
+      "caption_en": "Fig.16.DecompressedimagesinMollweideprojection.Thezoomedversionsofred,green,andbluerectangularregionsareshowninthebottomrow.(a) DeepSphereresultstoredin2408.43KBwith29.54dBand29.51dBforSPSNRandWSPSNRrespectively.(b)OSLOresultstoredin936.65KBwith 40.91dBand41.65dBforSPSNRandWSPSNRrespectively.",
+      "caption_zh": "",
       "caption_bbox": [
         48.964,
         480.936,
@@ -480,38 +626,33 @@
         52.451,
         305.275,
         563.028,
-        509.839
+        474.803
       ],
       "original": "figures/original/Fig16_p015.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig16/Fig16.svg",
+        "figures/vector/Fig16/Fig16.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\OSLO_TIP2022_arXiv\\figures\\vector\\Fig16\\Fig16.svg (2044x679 -> 2044x679 px, scale 1.0, 16016 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  44.3% 画面  (10.00 x 3.32 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
     }
   ],
   "notes": [
     "Coordinates use PDF points and page indexes start at 0.",
-    "Original crops retain the caption for auditability."
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer."
   ],
-  "metadata": {
-    "title": "OSLO: On-the-Sphere Learning for Omnidirectional images and its application to 360-degree image compression",
-    "year": 2022,
-    "venue": "IEEE Transactions on Image Processing",
-    "classification": "high-impact journal; CAS zone must be checked against the target year's school list",
-    "topic": [
-      "360-degree image compression",
-      "sphere convolution",
-      "rate-distortion"
-    ],
-    "relevance": "球面卷积、球面注意力和空间上下文熵模型，适合低码率全景压缩基线。",
-    "official_url": "https://arxiv.org/abs/2107.09179",
-    "pdf_url": "https://arxiv.org/pdf/2107.09179",
-    "code_url": "https://github.com/limuhit/360-Image-Compression",
-    "local_slug": "OSLO_TIP2022_arXiv",
-    "access": "open_author_pdf"
-  },
   "vectorized": [
     {
       "label": "Fig1",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig1/Fig1.svg",
@@ -519,9 +660,29 @@
       ]
     },
     {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
       "label": "Fig4",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig4/Fig4.svg",
@@ -531,7 +692,7 @@
     {
       "label": "Fig5",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig5/Fig5.svg",
@@ -539,18 +700,29 @@
       ]
     },
     {
-      "label": "Fig7",
+      "label": "Fig6",
       "kind": "figure",
-      "mode": "existing_svg_only",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
-        "figures/vector/Fig7/Fig7.svg"
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
       ]
     },
     {
       "label": "Fig8",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig8/Fig8.svg",
@@ -560,11 +732,81 @@
     {
       "label": "Fig9",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig9/Fig9.svg",
         "figures/vector/Fig9/Fig9.pptx"
+      ]
+    },
+    {
+      "label": "Fig10",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ]
+    },
+    {
+      "label": "Fig11",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ]
+    },
+    {
+      "label": "Fig12",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ]
+    },
+    {
+      "label": "Fig13",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig13/Fig13.svg",
+        "figures/vector/Fig13/Fig13.pptx"
+      ]
+    },
+    {
+      "label": "Fig14",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig14/Fig14.svg",
+        "figures/vector/Fig14/Fig14.pptx"
+      ]
+    },
+    {
+      "label": "Fig15",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig15/Fig15.svg",
+        "figures/vector/Fig15/Fig15.pptx"
+      ]
+    },
+    {
+      "label": "Fig16",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig16/Fig16.svg",
+        "figures/vector/Fig16/Fig16.pptx"
       ]
     }
   ]

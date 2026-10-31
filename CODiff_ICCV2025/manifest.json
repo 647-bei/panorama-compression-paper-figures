@@ -5,13 +5,55 @@
   "assets": [
     {
       "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1. Visual comparison of JPEG artifact removal (QF=5). We provide multiply accumulate operations (MACs) and time during inference. DiffBIR* [25], OSEDiff* [43] are retrained on the same dataset as our method.All models are tested with an input image sizeof1,024×1,024.OurCODiffreconstructsamorerealistic and faithful visual result than competing methods.",
+      "caption_en": "Figure 1. Visual comparison of JPEG artifact removal (QF=5). We provide multiply accumulate operations (MACs) and time during inference. DiffBIR* [25], OSEDiff* [43] are retrained on the same dataset as our method.All models are tested with an input image sizeof1,024×1,024.OurCODiffreconstructsamorerealistic and faithful visual result than competing methods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        314.516,
+        553.503,
+        389.342
+      ],
+      "content_bbox": [
+        315.358,
+        213.77,
+        553.898,
+        305.342
+      ],
+      "crop_bbox": [
+        315.358,
+        213.77,
+        553.898,
+        305.342
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig1\\Fig1.svg (955x367 -> 1910x734 px, scale 2.0, 16891 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  51.2% 画面  (10.00 x 3.84 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3513976 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
       "label": "Fig2",
       "page": 1,
-      "caption": "Figure 2. An illustration of the explicit learning approach with our dual learning strategy. We employ the t-SNE [36] method to visu- alize the clustering of output compression quality representations on the Urban100 [14] dataset, where QF=1 and QF=5 are unseen compression levels. Notably, the explicit learning method strug- gles to distinguish between these unseen QFs, whereas our dual learning strategy effectively differentiates them.",
+      "caption": "Figure 2.An illustration of the explicit learning approach with our dual learning strategy.We employ the t-SNE [36] method to visu- alize the clustering of output compression quality representations on the Urban100 [14] dataset, where QF=1 and QF=5 are unseen compressionlevels.Notably,theexplicitlearningmethodstrug- glestodistinguishbetweentheseunseenQFs,whereasourdual learning strategy effectively differentiates them. 2. Related Work",
+      "caption_en": "Figure 2.An illustration of the explicit learning approach with our dual learning strategy.We employ the t-SNE [36] method to visu- alize the clustering of output compression quality representations on the Urban100 [14] dataset, where QF=1 and QF=5 are unseen compressionlevels.Notably,theexplicitlearningmethodstrug- glestodistinguishbetweentheseunseenQFs,whereasourdual learning strategy effectively differentiates them. 2. Related Work",
+      "caption_zh": "",
       "caption_bbox": [
         58.5,
         330.794,
-        294.747,
+        400.363,
         405.513
       ],
       "content_bbox": [
@@ -24,16 +66,16 @@
         58.464,
         72.997,
         295.931,
-        408.513
+        325.103
       ],
       "original": "figures/original/Fig2_p001.png",
       "vector": [
         "figures/vector/Fig2/Fig2.svg",
         "figures/vector/Fig2/Fig2.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 14.15 in\n\n形状统计 (1855 个):\n  FREEFORM (5)                 1770\n  TEXT_BOX (17)                69\n  PICTURE (13)                 8\n  AUTO_SHAPE (1)               8\n\n矢量形状: 1847\n位图图片: 8\n  1.5% 画面  (2.17 x 1.29 in)\n  1.5% 画面  (2.17 x 1.29 in)\n  1.5% 画面  (2.17 x 1.30 in)\n  0.4% 画面  (1.16 x 0.69 in)\n  1.5% 画面  (2.17 x 1.29 in)\n  0.4% 画面  (1.16 x 0.69 in)\n  0.4% 画面  (1.16 x 0.69 in)\n  0.4% 画面  (1.16 x 0.69 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nfont ArialMT 无子集覆盖全部字符（缺 29 个），缺字回退系统字体 Arial\nops 1855 draws 957 fs 816 polys 862 rings 8 text 69 images 0 inline 8 canvas 1948 2067\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig2\\Fig2.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig2\\Fig2.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
@@ -45,7 +87,9 @@
       "kind": "figure",
       "label": "Fig3",
       "page": 2,
-      "caption": "Figure 3. Overview of our proposed CODiff. In the first stage, we train our compression-aware visual embedder (CaVE) via a dual learning strategy. In implicit learning, compression prior embeddings are fed into a UNet decoder to reconstruct high-quality (HQ) images. In explicit learning, they are input into a lightweight quality factor (QF) predictor. In the second stage, the priors from CaVE are then used by the generator Gθ to restore the HQ images: ˆIH = Gθ(IL; cL). The generator Gθ integrates a pre-trained VAE and UNet from StableDiffusion [29], with the VAE encoder and UNet fine-tuned via LoRA [13].",
+      "caption": "Figure3.OverviewofourproposedCODiff.Inthefirststage,wetrainourcompression-awarevisualembedder(CaVE)viaadual learning strategy.In implicit learning, compression prior embeddings are fed into a UNet decoder to reconstruct high-quality (HQ) images. Inexplicitlearning,theyareinputintoalightweightqualityfactor(QF)predictor.Inthesecondstage,thepriorsfromCaVEarethen usedbythegeneratorGθtorestoretheHQimages:ˆIH=Gθ(IL; cL).ThegeneratorGθintegratesapre-trainedVAEandUNetfrom StableDiffusion [29], with the VAE encoder and UNet fine-tuned via LoRA [13].",
+      "caption_en": "Figure3.OverviewofourproposedCODiff.Inthefirststage,wetrainourcompression-awarevisualembedder(CaVE)viaadual learning strategy.In implicit learning, compression prior embeddings are fed into a UNet decoder to reconstruct high-quality (HQ) images. Inexplicitlearning,theyareinputintoalightweightqualityfactor(QF)predictor.Inthesecondstage,thepriorsfromCaVEarethen usedbythegeneratorGθtorestoretheHQimages:ˆIH=Gθ(IL; cL).ThegeneratorGθintegratesapre-trainedVAEandUNetfrom StableDiffusion [29], with the VAE encoder and UNet fine-tuned via LoRA [13].",
+      "caption_zh": "",
       "caption_bbox": [
         58.5,
         351.308,
@@ -62,16 +106,16 @@
         58.5,
         71.997,
         553.505,
-        407.11
+        350.437
       ],
       "original": "figures/original/Fig3_p002.png",
       "vector": [
         "figures/vector/Fig3/Fig3.svg",
         "figures/vector/Fig3/Fig3.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 7.55 in\n\n形状统计 (1042 个):\n  FREEFORM (5)                 681\n  PICTURE (13)                 195\n  AUTO_SHAPE (1)               111\n  TEXT_BOX (17)                55\n\n矢量形状: 847\n位图图片: 195\n  0.9% 画面  (0.47 x 1.84 in)\n  0.3% 画面  (0.55 x 0.47 in)\n  0.9% 画面  (0.47 x 1.84 in)\n  0.3% 画面  (0.55 x 0.47 in)\n  0.4% 画面  (0.31 x 1.31 in)\n  0.2% 画面  (0.53 x 0.31 in)\n  0.4% 画面  (0.31 x 1.31 in)\n  0.2% 画面  (0.53 x 0.31 in)\n  0.2% 画面  (0.23 x 0.86 in)\n  0.1% 画面  (0.39 x 0.23 in)\n  ... 共 195 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nfont ArialMT 无子集覆盖全部字符（缺 51 个），缺字回退系统字体 Arial\nfont Calibri 无子集覆盖全部字符（缺 6 个），缺字回退系统字体 Calibri\nops 1042 draws 431 fs 0 polys 681 rings 111 text 55 images 4 inline 191 canvas 1948 1103\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
@@ -80,130 +124,162 @@
       ]
     },
     {
-      "kind": "table",
-      "label": "Table2",
-      "page": 7,
-      "caption": "Table 2. Complexity comparison among diffusion-based methods. Input image size is 1,024×1,024 for inference.",
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 3,
+      "caption": "Figure 4. Visualization of JPEG prior embeddings from CaVE under different training objectives. In (a) and (c), CaVE is trained using only explicit learning, whereas in (b) and (d), it incorporates both explicit and implicit learning.The clusters enclosed in the red box correspond to unseen compression levels (QF=1,5).Notably, clusters from CaVE with dual learning separate from each other more clearly.",
+      "caption_en": "Figure 4. Visualization of JPEG prior embeddings from CaVE under different training objectives. In (a) and (c), CaVE is trained using only explicit learning, whereas in (b) and (d), it incorporates both explicit and implicit learning.The clusters enclosed in the red box correspond to unseen compression levels (QF=1,5).Notably, clusters from CaVE with dual learning separate from each other more clearly.",
+      "caption_zh": "",
       "caption_bbox": [
         58.5,
-        130.973,
-        294.747,
-        150.898
+        159.357,
+        553.499,
+        202.613
       ],
       "content_bbox": [
-        56.325,
-        159.832,
-        294.753,
-        713.407
+        63.248,
+        72.995,
+        545.919,
+        155.408
       ],
       "crop_bbox": [
-        56.325,
-        127.973,
-        294.753,
-        713.407
+        63.248,
+        72.995,
+        545.919,
+        155.408
       ],
-      "original": "tables/original/Table2_p007.png",
+      "original": "figures/original/Fig4_p003.png",
       "vector": [
-        "tables/vector/Table2/Table2.svg",
-        "tables/vector/Table2/Table2.pptx"
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector_svg_only+svg_pptx_wrapper",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "ops 3328 draws 1677 fs 1627 polys 1606 rings 0 text 75 images 0 inline 0 canvas 1948 346\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig4\\Fig4.svg\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 30.81 in\n\n形状统计 (111 个):\n  TEXT_BOX (17)                77\n  FREEFORM (5)                 27\n  PICTURE (13)                 7\n\n矢量形状: 104\n位图图片: 7\n  4.6% 画面  (3.84 x 4.97 in)\n  1.6% 画面  (3.13 x 2.12 in)\n  1.6% 画面  (3.13 x 2.12 in)\n  1.6% 画面  (3.13 x 2.12 in)\n  1.6% 画面  (3.13 x 2.12 in)\n  1.6% 画面  (3.13 x 2.12 in)\n  1.6% 画面  (3.13 x 2.12 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  22.8% 画面  (10.00 x 1.71 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
-      ],
-      "latex": "tables/latex/Table2.tex",
-      "latex_mode": "extracted_tabular"
+      ]
     },
     {
       "kind": "table",
-      "label": "Table3",
-      "page": 7,
-      "caption": "Table 3. Ablation study of prompt embedding generation on LIVE-1 and DIV2K-val datasets. The best and second best re- sults are colored with red and blue, respectively.",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table 1.Quantitative comparison on LIVE-1, Urban100, and DIV2K-Val datasets with non-diffusion, MSD, and OSD methods.M-IQA standsforMANIQA,andC-IQAstandsforCLIPIQA.Thebestandsecondbestresultsarecoloredwithredandblue.DiffBIR*and OSEDiff* are retrained on the same dataset as our method for reference.",
+      "caption_en": "Table 1.Quantitative comparison on LIVE-1, Urban100, and DIV2K-Val datasets with non-diffusion, MSD, and OSD methods.M-IQA standsforMANIQA,andC-IQAstandsforCLIPIQA.Thebestandsecondbestresultsarecoloredwithredandblue.DiffBIR*and OSEDiff* are retrained on the same dataset as our method for reference.",
+      "caption_zh": "",
       "caption_bbox": [
         58.5,
-        226.712,
-        294.747,
-        257.596
+        397.129,
+        553.499,
+        440.501
       ],
       "content_bbox": [
-        56.325,
-        265.248,
-        294.753,
-        713.407
+        58.5,
+        297.396,
+        553.5,
+        393.722
       ],
       "crop_bbox": [
-        56.325,
-        223.712,
-        294.753,
-        713.407
+        58.5,
+        297.396,
+        553.5,
+        393.722
       ],
-      "original": "tables/original/Table3_p007.png",
-      "vector": [
-        "tables/vector/Table3/Table3.svg",
-        "tables/vector/Table3/Table3.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 24.96 in\n\n形状统计 (44 个):\n  TEXT_BOX (17)                35\n  PICTURE (13)                 7\n  FREEFORM (5)                 2\n\n矢量形状: 37\n位图图片: 7\n  5.7% 画面  (3.84 x 4.97 in)\n  2.0% 画面  (3.13 x 2.12 in)\n  2.0% 画面  (3.13 x 2.12 in)\n  2.0% 画面  (3.13 x 2.12 in)\n  2.0% 画面  (3.13 x 2.12 in)\n  2.0% 画面  (3.13 x 2.12 in)\n  2.0% 画面  (3.13 x 2.12 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ],
-      "latex": "tables/latex/Table3.tex",
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
       "latex_mode": "extracted_tabular"
     },
     {
-      "kind": "table",
-      "label": "Table7",
-      "page": 7,
-      "caption": "Table 7. Ablation study of the dual learning strategy. The best and second best results are colored with red and blue, respectively.",
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure 5.Visual comparison on different quality factors (QF=1, 5 and 10).DiffBIR* and OSEDiff* are retrained as references.",
+      "caption_en": "Figure 5.Visual comparison on different quality factors (QF=1, 5 and 10).DiffBIR* and OSEDiff* are retrained as references.",
+      "caption_zh": "",
       "caption_bbox": [
-        317.25,
-        339.023,
-        553.497,
-        358.948
+        78.233,
+        430.493,
+        533.771,
+        450.775
       ],
       "content_bbox": [
-        314.38,
-        362.675,
-        555.155,
-        713.407
+        62.068,
+        71.999,
+        549.556,
+        427.996
       ],
       "crop_bbox": [
-        314.38,
-        336.023,
-        555.155,
-        713.407
+        62.068,
+        71.999,
+        549.556,
+        427.996
       ],
-      "original": "tables/original/Table7_p007.png",
+      "original": "figures/original/Fig5_p006.png",
       "vector": [
-        "tables/vector/Table7/Table7.svg",
-        "tables/vector/Table7/Table7.pptx"
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig5\\Fig5.svg (1951x1425 -> 1951x1425 px, scale 1.0, 32820 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  97.4% 画面  (10.00 x 7.30 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6678728 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 7,
+      "caption": "Figure 6. Visual comparison of prompt embedding generation. We use Urban100 img023 as an example.",
+      "caption_en": "Figure 6. Visual comparison of prompt embedding generation. We use Urban100 img023 as an example.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        356.061,
+        294.747,
+        387.459
+      ],
+      "content_bbox": [
+        56.325,
+        64.209,
+        294.763,
+        354.843
+      ],
+      "crop_bbox": [
+        56.325,
+        64.209,
+        294.763,
+        354.843
+      ],
+      "original": "figures/original/Fig6_p007.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 16.23 in\n\n形状统计 (134 个):\n  TEXT_BOX (17)                74\n  FREEFORM (5)                 53\n  PICTURE (13)                 7\n\n矢量形状: 127\n位图图片: 7\n  8.8% 画面  (3.84 x 4.97 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 134 draws 53 fs 0 polys 21 rings 0 text 74 images 0 inline 7 canvas 1948 2371\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig6\\Fig6.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig6\\Fig6.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 19.37 in\n\n形状统计 (165 个):\n  FREEFORM (5)                 83\n  TEXT_BOX (17)                82\n\n矢量形状: 165\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 13.33 x 16.23 in\n\n形状统计 (134 个):\n  TEXT_BOX (17)                74\n  FREEFORM (5)                 53\n  PICTURE (13)                 7\n\n矢量形状: 127\n位图图片: 7\n  8.8% 画面  (3.84 x 4.97 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
-      ],
-      "latex": "tables/latex/Table7.tex",
-      "latex_mode": "extracted_tabular"
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig7",
       "page": 7,
-      "caption": "Figure 7. Comparison of CaVE’s QF prediction mean squared error (MSE) between explicit learning and dual learning on LIVE- 1 and DIV2K-val datasets. Tab. 8, using only L2 yields suboptimal perceptual results, while adding LDIST S brings significant improvement. In- corporating GAN loss further refines visual quality, demon- strating its complementary effect.",
+      "caption": "Figure7.ComparisonofCaVE’sQFpredictionmeansquared error (MSE) between explicit learning and dual learning on LIVE- 1 and DIV2K-val datasets. Tab. 8,using only L2yields suboptimal perceptual results, while adding LDIST Sbrings significant improvement.In- corporating GAN loss further refines visual quality, demon- strating its complementary effect.",
+      "caption_en": "Figure7.ComparisonofCaVE’sQFpredictionmeansquared error (MSE) between explicit learning and dual learning on LIVE- 1 and DIV2K-val datasets. Tab. 8,using only L2yields suboptimal perceptual results, while adding LDIST Sbrings significant improvement.In- corporating GAN loss further refines visual quality, demon- strating its complementary effect.",
+      "caption_zh": "",
       "caption_bbox": [
         317.25,
         451.102,
@@ -211,25 +287,219 @@
         530.495
       ],
       "content_bbox": [
-        56.325,
-        84.729,
+        314.38,
+        63.97,
         555.155,
         450.814
       ],
       "crop_bbox": [
-        56.325,
-        84.729,
+        314.38,
+        63.97,
         555.155,
-        533.495
+        450.814
       ],
       "original": "figures/original/Fig7_p007.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 21.36 in\n\n形状统计 (397 个):\n  TEXT_BOX (17)                205\n  FREEFORM (5)                 192\n\n矢量形状: 397\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 397 draws 190 fs 25 polys 98 rings 0 text 205 images 0 inline 0 canvas 1948 3120\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig7\\Fig7.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig7\\Fig7.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 21.36 in\n\n形状统计 (397 个):\n  TEXT_BOX (17)                205\n  FREEFORM (5)                 192\n\n矢量形状: 397\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 7,
+      "caption": "Table 2.Complexity comparison among diffusion-based methods. Input image size is 1,024×1,024 for inference.",
+      "caption_en": "Table 2.Complexity comparison among diffusion-based methods. Input image size is 1,024×1,024 for inference.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        130.973,
+        294.747,
+        150.898
+      ],
+      "content_bbox": [
+        60.456,
+        66.386,
+        294.756,
+        127.33
+      ],
+      "crop_bbox": [
+        60.456,
+        66.386,
+        294.756,
+        127.33
+      ],
+      "original": "tables/original/Table2_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "Table3. Ablationstudyofpromptembeddinggenerationon LIVE-1andDIV2K-valdatasets.Thebestandsecondbestre- sults are colored with red and blue, respectively.",
+      "caption_en": "Table3. Ablationstudyofpromptembeddinggenerationon LIVE-1andDIV2K-valdatasets.Thebestandsecondbestre- sults are colored with red and blue, respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        226.712,
+        294.747,
+        257.596
+      ],
+      "content_bbox": [
+        60.456,
+        161.474,
+        294.756,
+        221.301
+      ],
+      "crop_bbox": [
+        60.456,
+        161.474,
+        294.756,
+        221.301
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "Table4.PSNRresultsonLIVE-1,Urban100,andDIV2K-val. The best and second best results are colored with red.",
+      "caption_en": "Table4.PSNRresultsonLIVE-1,Urban100,andDIV2K-val. The best and second best results are colored with red.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        100.621,
+        553.497,
+        131.794
+      ],
+      "content_bbox": [
+        318.104,
+        66.386,
+        553.289,
+        109.293
+      ],
+      "crop_bbox": [
+        318.104,
+        66.386,
+        553.289,
+        109.293
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 7,
+      "caption": "Table5.ResultsunderhighQFsettingsonLIVE-1dataset.The best results are colored with red.",
+      "caption_en": "Table5.ResultsunderhighQFsettingsonLIVE-1dataset.The best results are colored with red.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        172.924,
+        553.497,
+        202.859
+      ],
+      "content_bbox": [
+        318.104,
+        135.675,
+        553.289,
+        180.947
+      ],
+      "crop_bbox": [
+        318.104,
+        135.675,
+        553.289,
+        180.947
+      ],
+      "original": "tables/original/Table5_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 7,
+      "caption": "Table6.ResultsunderhighQFsettingsonDI2VK-valdataset. The best results are colored with red.",
+      "caption_en": "Table6.ResultsunderhighQFsettingsonDI2VK-valdataset. The best results are colored with red.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        243.988,
+        553.497,
+        273.923
+      ],
+      "content_bbox": [
+        318.104,
+        206.739,
+        553.289,
+        251.455
+      ],
+      "crop_bbox": [
+        318.104,
+        206.739,
+        553.289,
+        251.455
+      ],
+      "original": "tables/original/Table6_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 7,
+      "caption": "Table 7.Ablation study of the dual learning strategy.The best and second best results are colored with red and blue, respectively.",
+      "caption_en": "Table 7.Ablation study of the dual learning strategy.The best and second best results are colored with red and blue, respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        339.023,
+        553.497,
+        358.948
+      ],
+      "content_bbox": [
+        318.104,
+        279.682,
+        553.289,
+        335.402
+      ],
+      "crop_bbox": [
+        318.104,
+        279.682,
+        553.289,
+        335.402
+      ],
+      "original": "tables/original/Table7_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
     },
     {
       "kind": "table",
       "label": "Table8",
       "page": 7,
-      "caption": "Table 8. Ablation studies on different loss functions. The best and second best results are colored with red and blue, respectively.",
+      "caption": "Table 8.Ablation studies on different loss functions.The best and second best results are colored with red and blue, respectively.",
+      "caption_en": "Table 8.Ablation studies on different loss functions.The best and second best results are colored with red and blue, respectively.",
+      "caption_zh": "",
       "caption_bbox": [
         317.25,
         598.313,
@@ -237,45 +507,43 @@
         618.237
       ],
       "content_bbox": [
-        270.0,
-        625.954,
-        553.503,
-        760.0
+        318.104,
+        536.366,
+        553.289,
+        595.684
       ],
       "crop_bbox": [
-        270.0,
-        595.313,
-        553.503,
-        760.0
+        318.104,
+        536.366,
+        553.289,
+        595.684
       ],
       "original": "tables/original/Table8_p007.png",
-      "vector": [
-        "tables/vector/Table8/Table8.svg",
-        "tables/vector/Table8/Table8.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 6.36 in\n\n形状统计 (4 个):\n  TEXT_BOX (17)                3\n  FREEFORM (5)                 1\n\n矢量形状: 4\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ],
+      "vector": [],
       "latex": "tables/latex/Table8.tex",
       "latex_mode": "extracted_tabular"
     }
   ],
   "notes": [
     "Coordinates use PDF points and page indexes start at 0.",
-    "Original crops retain the caption for auditability.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
     "LaTeX tables generated by tools/build_latex_tables.py."
   ],
   "vectorized": [
     {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
       "label": "Fig2",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig2/Fig2.svg",
@@ -285,7 +553,7 @@
     {
       "label": "Fig3",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig3/Fig3.svg",
@@ -293,61 +561,44 @@
       ]
     },
     {
-      "label": "Table2",
-      "kind": "table",
-      "mode": "existing",
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "pdf_vector_svg_only+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
-        "tables/vector/Table2/Table2.svg",
-        "tables/vector/Table2/Table2.pptx"
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
       ]
     },
     {
-      "label": "Table3",
-      "kind": "table",
-      "mode": "existing",
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
-        "tables/vector/Table3/Table3.svg",
-        "tables/vector/Table3/Table3.pptx"
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
       ]
     },
     {
-      "label": "Table7",
-      "kind": "table",
-      "mode": "existing",
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
-        "tables/vector/Table7/Table7.svg",
-        "tables/vector/Table7/Table7.pptx"
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
       ]
     },
     {
-      "label": "Table8",
-      "kind": "table",
-      "mode": "existing",
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
-        "tables/vector/Table8/Table8.svg",
-        "tables/vector/Table8/Table8.pptx"
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
       ]
     }
-  ],
-  "metadata": {
-    "title": "Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal",
-    "year": 2025,
-    "venue": "ICCV",
-    "classification": "CCF-A main conference",
-    "topic": [
-      "compression artifact removal",
-      "diffusion restoration",
-      "JPEG"
-    ],
-    "relevance": "压缩感知的一步扩散恢复，可作低码率后质量增强的生成式对比基线。",
-    "official_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Guo_Compression-Aware_One-Step_Diffusion_Model_for_JPEG_Artifact_Removal_ICCV_2025_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Guo_Compression-Aware_One-Step_Diffusion_Model_for_JPEG_Artifact_Removal_ICCV_2025_paper.pdf",
-    "code_url": "https://github.com/jp-guo/CODiff",
-    "local_slug": "CODiff_ICCV2025",
-    "access": "open_pdf"
-  }
+  ]
 }

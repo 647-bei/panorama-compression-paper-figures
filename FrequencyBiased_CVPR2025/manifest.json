@@ -7,7 +7,9 @@
       "kind": "figure",
       "label": "Fig1",
       "page": 0,
-      "caption": "Figure 1. Comparison of five compression and/or compensation frameworks at the same LPIPS 0.164. The proposed Lo-Hi framework achieves up to 60.29% and 43.75% BPP savings compared to JPEG and SOTA NN-based CAR method, respectively. Moreover, the proposed framework achieves 376.75× and 153× latency reduction compared with VVC and HEVC, respectively.",
+      "caption": "Figure 1.Comparison of five compression and/or compensation frameworks at the same LPIPS 0.164.The proposed Lo-Hi framework achievesupto60.29%and43.75%BPPsavingscomparedtoJPEGandSOTANN-basedCARmethod,respectively.Moreover,the proposed framework achieves 376.75× and 153× latency reduction compared with VVC and HEVC, respectively.",
+      "caption_en": "Figure 1.Comparison of five compression and/or compensation frameworks at the same LPIPS 0.164.The proposed Lo-Hi framework achievesupto60.29%and43.75%BPPsavingscomparedtoJPEGandSOTANN-basedCARmethod,respectively.Moreover,the proposed framework achieves 376.75× and 153× latency reduction compared with VVC and HEVC, respectively.",
+      "caption_zh": "",
       "caption_bbox": [
         58.5,
         288.592,
@@ -15,29 +17,29 @@
         319.684
       ],
       "content_bbox": [
-        48.406,
-        1.796,
-        563.594,
+        58.5,
+        144.12,
+        553.479,
         285.936
       ],
       "crop_bbox": [
-        48.406,
-        1.796,
-        563.594,
-        322.684
+        58.5,
+        144.12,
+        553.479,
+        285.936
       ],
       "original": "figures/original/Fig1_p000.png",
       "vector": [
         "figures/vector/Fig1/Fig1.svg",
         "figures/vector/Fig1/Fig1.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 3.90 in\n\n形状统计 (44 个):\n  TEXT_BOX (17)                34\n  FREEFORM (5)                 9\n  PICTURE (13)                 1\n\n矢量形状: 43\n位图图片: 1\n  55.3% 画面  (13.22 x 2.18 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 12091851 x 1990804 px\nops 44 draws 6 fs 0 polys 9 rings 0 text 34 images 0 inline 1 canvas 1948 570\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
       "vector_qa": [
         {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 7.41 in\n\n形状统计 (50 个):\n  TEXT_BOX (17)                36\n  FREEFORM (5)                 13\n  PICTURE (13)                 1\n\n矢量形状: 49\n位图图片: 1\n  26.9% 画面  (12.71 x 2.09 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.90 in\n\n形状统计 (44 个):\n  TEXT_BOX (17)                34\n  FREEFORM (5)                 9\n  PICTURE (13)                 1\n\n矢量形状: 43\n位图图片: 1\n  55.3% 画面  (13.22 x 2.18 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 12091851 x 1990804 px\n"
         }
       ]
     },
@@ -45,7 +47,9 @@
       "kind": "figure",
       "label": "Fig2",
       "page": 2,
-      "caption": "Figure 2. Datasets and results in our exploration. (a) FCs removal; (b) The compensation of regression/generative models on different FCs in PSNR and NIQE.",
+      "caption": "Figure 2.Datasets and results in our exploration.(a) FCs removal; (b) The compensation of regression/generative models on different FCs in PSNR and NIQE.",
+      "caption_en": "Figure 2.Datasets and results in our exploration.(a) FCs removal; (b) The compensation of regression/generative models on different FCs in PSNR and NIQE.",
+      "caption_zh": "",
       "caption_bbox": [
         316.954,
         199.978,
@@ -53,25 +57,39 @@
         230.845
       ],
       "content_bbox": [
-        58.311,
+        317.25,
         71.999,
         553.499,
         197.097
       ],
       "crop_bbox": [
-        58.311,
+        317.25,
         71.999,
         553.499,
-        233.845
+        197.097
       ],
       "original": "figures/original/Fig2_p002.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig2\\Fig2.svg (945x502 -> 1890x1004 px, scale 2.0, 10996 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  70.8% 画面  (10.00 x 5.31 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4857447 px\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig3",
       "page": 2,
-      "caption": "Figure 3. FC Coefficient distributions of different quantization.",
+      "caption": "Figure 3.FC Coefficient distributions of different quantization.",
+      "caption_en": "Figure 3.FC Coefficient distributions of different quantization.",
+      "caption_zh": "",
       "caption_bbox": [
         322.225,
         706.89,
@@ -79,25 +97,39 @@
         715.856
       ],
       "content_bbox": [
-        58.171,
-        244.755,
-        555.157,
+        327.818,
+        574.584,
+        540.443,
         706.019
       ],
       "crop_bbox": [
-        58.171,
-        244.755,
-        555.157,
-        718.856
+        327.818,
+        574.584,
+        540.443,
+        706.019
       ],
       "original": "figures/original/Fig3_p002.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig3\\Fig3.svg (851x527 -> 1702x1054 px, scale 2.0, 2065 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  82.6% 画面  (10.00 x 6.19 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5662618 px\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig4",
       "page": 3,
-      "caption": "Figure 4. Proposed synergistic design and two-step Lo-Hi compensation CNN framework, including Lo-regression model and Hi-generative model. Basis attention block is designed to compensate for frequency of interest.",
+      "caption": "Figure 4.Proposed synergistic design and two-step Lo-Hi compensation CNN framework, including Lo-regression model and Hi-generative model.Basis attention block is designed to compensate for frequency of interest.",
+      "caption_en": "Figure 4.Proposed synergistic design and two-step Lo-Hi compensation CNN framework, including Lo-regression model and Hi-generative model.Basis attention block is designed to compensate for frequency of interest.",
+      "caption_zh": "",
       "caption_bbox": [
         58.5,
         182.803,
@@ -114,20 +146,20 @@
         58.5,
         71.999,
         553.491,
-        205.667
+        177.885
       ],
       "original": "figures/original/Fig4_p003.png",
       "vector": [
         "figures/vector/Fig4/Fig4.svg",
         "figures/vector/Fig4/Fig4.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig4\\Fig4.svg (1980x425 -> 1980x425 px, scale 1.0, 2799 paths, 0 images)\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 3.61 in\n\n形状统计 (3473 个):\n  FREEFORM (5)                 3473\n\n矢量形状: 3473\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  28.6% 画面  (10.00 x 2.15 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
       ]
     },
@@ -135,7 +167,9 @@
       "kind": "figure",
       "label": "Fig5",
       "page": 5,
-      "caption": "Figure 5. Rate distortion curves under JPEG, HEVC, and VVC compression (from top to bottom, respectively). LPIPS, NIQE, FID, and PSNR are adopted to measure the compensation quality (from left to right, respectively). The corresponding BD rates are reported in Table 1.",
+      "caption": "Figure 5.Rate distortion curves under JPEG, HEVC, and VVC compression (from top to bottom, respectively).LPIPS, NIQE, FID, and PSNR are adopted to measure the compensation quality (from left to right, respectively).The corresponding BD rates are reported in Table 1.",
+      "caption_en": "Figure 5.Rate distortion curves under JPEG, HEVC, and VVC compression (from top to bottom, respectively).LPIPS, NIQE, FID, and PSNR are adopted to measure the compensation quality (from left to right, respectively).The corresponding BD rates are reported in Table 1.",
+      "caption_zh": "",
       "caption_bbox": [
         58.5,
         297.191,
@@ -152,142 +186,30 @@
         69.63,
         72.001,
         539.878,
-        320.146
+        296.371
       ],
       "original": "figures/original/Fig5_p005.png",
       "vector": [
-        "figures/vector/Fig5/Fig5.svg"
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
       ],
-      "vector_mode": "existing_svg_only",
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": []
-    },
-    {
-      "kind": "table",
-      "label": "Table1",
-      "page": 6,
-      "caption": "Table 1. BD rates and model sizes of compression and compensation frameworks. More negative BD-rate means higher savings.",
-      "caption_bbox": [
-        75.36,
-        72.871,
-        536.367,
-        81.837
-      ],
-      "content_bbox": [
-        58.222,
-        88.175,
-        555.158,
-        489.617
-      ],
-      "crop_bbox": [
-        58.222,
-        69.871,
-        555.158,
-        489.617
-      ],
-      "original": "tables/original/Table1_p006.png",
-      "vector": [
-        "tables/vector/Table1/Table1.svg",
-        "tables/vector/Table1/Table1.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig5\\Fig5.svg (1882x898 -> 1882x898 px, scale 1.0, 5825 paths, 0 images)\n",
       "vector_qa": [
         {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 10.79 in\n\n形状统计 (141 个):\n  TEXT_BOX (17)                106\n  FREEFORM (5)                 35\n\n矢量形状: 141\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  63.6% 画面  (10.00 x 4.77 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4363077 px\n"
         }
-      ],
-      "latex": "tables/latex/Table1.tex",
-      "latex_mode": "extracted_tabular"
-    },
-    {
-      "kind": "table",
-      "label": "Table2",
-      "page": 6,
-      "caption": "Table 2. BD rates and pure bitrate savings (PBS) of the Lo-Hi sensitive compression compared with default compression. For BD rates over LPIPS and PSNR, more negative indicates more savings. For PBS, more positive means more savings.",
-      "caption_bbox": [
-        58.222,
-        189.226,
-        294.899,
-        231.137
-      ],
-      "content_bbox": [
-        58.141,
-        237.693,
-        296.404,
-        611.384
-      ],
-      "crop_bbox": [
-        58.141,
-        186.226,
-        296.404,
-        611.384
-      ],
-      "original": "tables/original/Table2_p006.png",
-      "vector": [
-        "tables/vector/Table2/Table2.svg",
-        "tables/vector/Table2/Table2.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 20.85 in\n\n形状统计 (69 个):\n  TEXT_BOX (17)                49\n  FREEFORM (5)                 20\n\n矢量形状: 69\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ],
-      "latex": "tables/latex/Table2.tex",
-      "latex_mode": "extracted_tabular"
-    },
-    {
-      "kind": "table",
-      "label": "Table3",
-      "page": 6,
-      "caption": "Table 3. Ablation study of Lo-Hi Uformer framework",
-      "caption_bbox": [
-        80.116,
-        279.269,
-        272.858,
-        288.235
-      ],
-      "content_bbox": [
-        58.141,
-        295.094,
-        296.404,
-        611.384
-      ],
-      "crop_bbox": [
-        58.141,
-        276.269,
-        296.404,
-        611.384
-      ],
-      "original": "tables/original/Table3_p006.png",
-      "vector": [
-        "tables/vector/Table3/Table3.svg",
-        "tables/vector/Table3/Table3.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 17.67 in\n\n形状统计 (47 个):\n  TEXT_BOX (17)                39\n  FREEFORM (5)                 8\n\n矢量形状: 47\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ],
-      "latex": "tables/latex/Table3.tex",
-      "latex_mode": "extracted_tabular"
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig6",
       "page": 6,
-      "caption": "Figure 6. Qualitative comparisons of different generative models. Three Hi models are evaluated on images that are output from our Lo-regression model. Our GAN-based Hi-generative model exhibits faithful, clear, and visually pleasing results.",
+      "caption": "Figure 6.Qualitative comparisons of different generative models. ThreeHimodelsareevaluatedonimagesthatareoutputfrom our Lo-regression model.Our GAN-based Hi-generative model exhibits faithful, clear, and visually pleasing results.",
+      "caption_en": "Figure 6.Qualitative comparisons of different generative models. ThreeHimodelsareevaluatedonimagesthatareoutputfrom our Lo-regression model.Our GAN-based Hi-generative model exhibits faithful, clear, and visually pleasing results.",
+      "caption_zh": "",
       "caption_bbox": [
         58.222,
         682.926,
@@ -295,37 +217,129 @@
         724.822
       ],
       "content_bbox": [
-        58.141,
-        190.886,
-        555.158,
+        58.5,
+        621.37,
+        294.754,
         675.135
       ],
       "crop_bbox": [
-        58.141,
-        190.886,
-        555.158,
-        727.822
+        58.5,
+        621.37,
+        294.754,
+        675.135
       ],
       "original": "figures/original/Fig6_p006.png",
       "vector": [
         "figures/vector/Fig6/Fig6.svg",
         "figures/vector/Fig6/Fig6.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig6\\Fig6.svg (946x216 -> 1892x432 px, scale 2.0, 11540 paths, 0 images)\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 12.99 in\n\n形状统计 (123 个):\n  TEXT_BOX (17)                101\n  FREEFORM (5)                 21\n  PICTURE (13)                 1\n\n矢量形状: 122\n位图图片: 1\n  5.2% 画面  (6.29 x 1.43 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  30.4% 画面  (10.00 x 2.28 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
       ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 6,
+      "caption": "Table 1.BD rates and model sizes of compression and compensation frameworks.More negative BD-rate means higher savings.",
+      "caption_en": "Table 1.BD rates and model sizes of compression and compensation frameworks.More negative BD-rate means higher savings.",
+      "caption_zh": "",
+      "caption_bbox": [
+        75.36,
+        72.871,
+        536.367,
+        81.837
+      ],
+      "content_bbox": [
+        60.216,
+        85.327,
+        551.799,
+        175.095
+      ],
+      "crop_bbox": [
+        60.216,
+        85.327,
+        551.799,
+        175.095
+      ],
+      "original": "tables/original/Table1_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table2.BDratesandpurebitratesavings(PBS)oftheLo-Hi sensitivecompressioncomparedwithdefaultcompression.For BD rates over LPIPS and PSNR, more negative indicates more savings.For PBS, more positive means more savings.",
+      "caption_en": "Table2.BDratesandpurebitratesavings(PBS)oftheLo-Hi sensitivecompressioncomparedwithdefaultcompression.For BD rates over LPIPS and PSNR, more negative indicates more savings.For PBS, more positive means more savings.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.222,
+        189.226,
+        294.899,
+        231.137
+      ],
+      "content_bbox": [
+        62.491,
+        237.693,
+        288.94,
+        266.074
+      ],
+      "crop_bbox": [
+        62.491,
+        237.693,
+        288.94,
+        266.074
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table 3.Ablation study of Lo-Hi Uformer framework",
+      "caption_en": "Table 3.Ablation study of Lo-Hi Uformer framework",
+      "caption_zh": "",
+      "caption_bbox": [
+        80.116,
+        279.269,
+        272.858,
+        288.235
+      ],
+      "content_bbox": [
+        92.959,
+        294.935,
+        260.291,
+        355.849
+      ],
+      "crop_bbox": [
+        92.959,
+        294.935,
+        260.291,
+        355.849
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
     },
     {
       "kind": "figure",
       "label": "Fig7",
       "page": 7,
-      "caption": "Figure 7. Qualitative comparisons of compensation frameworks under different compression conditions. Images compressed with JPEG at QF = 10, JPEG at QF = 40, HEVC at QP = 45, HEVC at QP = 37, VVC at QP = 45, VVC at QP = 37, are illustrated from top to bottom. Our Lo-Hi synergistic design frameworks produce more clear, detailed, and faithful results. Zoom in for better visual comparison.",
+      "caption": "Figure 7.Qualitative comparisons of compensation frameworks under different compression conditions.Images compressed with JPEG at QF= 10, JPEG at QF= 40, HEVC at QP= 45, HEVC at QP= 37, VVC at QP= 45, VVC at QP= 37, are illustrated from top to bottom.Our Lo-Hi synergistic design frameworks produce more clear, detailed, and faithful results.Zoom in for better visual comparison.",
+      "caption_en": "Figure 7.Qualitative comparisons of compensation frameworks under different compression conditions.Images compressed with JPEG at QF= 10, JPEG at QF= 40, HEVC at QP= 45, HEVC at QP= 37, VVC at QP= 45, VVC at QP= 37, are illustrated from top to bottom.Our Lo-Hi synergistic design frameworks produce more clear, detailed, and faithful results.Zoom in for better visual comparison.",
+      "caption_zh": "",
       "caption_bbox": [
         58.5,
         354.415,
@@ -342,22 +356,30 @@
         58.5,
         72.0,
         553.501,
-        388.286
+        347.556
       ],
       "original": "figures/original/Fig7_p007.png",
       "vector": [
-        "figures/vector/Fig7/Fig7.svg"
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
       ],
-      "vector_mode": "existing_svg_only",
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": []
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig7\\Fig7.svg (1981x1103 -> 1981x1103 px, scale 1.0, 66150 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  74.2% 画面  (10.00 x 5.57 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5091283 px\n"
+        }
+      ]
     },
     {
       "kind": "table",
       "label": "Table4",
       "page": 7,
-      "caption": "Table 4. BD rates over mAP on the COCO dataset.",
+      "caption": "Table 4.BD rates over mAP on the COCO dataset.",
+      "caption_en": "Table 4.BD rates over mAP on the COCO dataset.",
+      "caption_zh": "",
       "caption_bbox": [
         84.698,
         395.17,
@@ -365,61 +387,33 @@
         404.218
       ],
       "content_bbox": [
-        58.191,
+        92.345,
         410.841,
-        296.408,
-        713.407
+        259.087,
+        449.117
       ],
       "crop_bbox": [
-        58.191,
-        392.17,
-        296.408,
-        713.407
+        92.345,
+        410.841,
+        259.087,
+        449.117
       ],
       "original": "tables/original/Table4_p007.png",
-      "vector": [
-        "tables/vector/Table4/Table4.svg",
-        "tables/vector/Table4/Table4.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 16.91 in\n\n形状统计 (47 个):\n  TEXT_BOX (17)                41\n  FREEFORM (5)                 6\n\n矢量形状: 47\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ],
+      "vector": [],
       "latex": "tables/latex/Table4.tex",
       "latex_mode": "extracted_tabular"
     }
   ],
   "notes": [
     "Coordinates use PDF points and page indexes start at 0.",
-    "Original crops retain the caption for auditability.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
     "LaTeX tables generated by tools/build_latex_tables.py."
   ],
-  "metadata": {
-    "title": "Frequency-Biased Synergistic Design for Image Compression and Compensation",
-    "year": 2025,
-    "venue": "CVPR",
-    "classification": "CCF-A main conference",
-    "topic": [
-      "low-bitrate compression",
-      "frequency bias",
-      "compensation"
-    ],
-    "relevance": "联合优化压缩和补偿，并显式利用低频/高频敏感性，和小波子带设计高度相关。",
-    "official_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Frequency-Biased_Synergistic_Design_for_Image_Compression_and_Compensation_CVPR_2025_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_Frequency-Biased_Synergistic_Design_for_Image_Compression_and_Compensation_CVPR_2025_paper.pdf",
-    "local_slug": "FrequencyBiased_CVPR2025",
-    "access": "open_pdf"
-  },
   "vectorized": [
     {
       "label": "Fig1",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig1/Fig1.svg",
@@ -427,9 +421,29 @@
       ]
     },
     {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
       "label": "Fig4",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig4/Fig4.svg",
@@ -439,16 +453,17 @@
     {
       "label": "Fig5",
       "kind": "figure",
-      "mode": "existing_svg_only",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
-        "figures/vector/Fig5/Fig5.svg"
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
       ]
     },
     {
       "label": "Fig6",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig6/Fig6.svg",
@@ -458,50 +473,11 @@
     {
       "label": "Fig7",
       "kind": "figure",
-      "mode": "existing_svg_only",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
-        "figures/vector/Fig7/Fig7.svg"
-      ]
-    },
-    {
-      "label": "Table1",
-      "kind": "table",
-      "mode": "existing",
-      "exit_code": 0,
-      "files": [
-        "tables/vector/Table1/Table1.svg",
-        "tables/vector/Table1/Table1.pptx"
-      ]
-    },
-    {
-      "label": "Table2",
-      "kind": "table",
-      "mode": "existing",
-      "exit_code": 0,
-      "files": [
-        "tables/vector/Table2/Table2.svg",
-        "tables/vector/Table2/Table2.pptx"
-      ]
-    },
-    {
-      "label": "Table3",
-      "kind": "table",
-      "mode": "existing",
-      "exit_code": 0,
-      "files": [
-        "tables/vector/Table3/Table3.svg",
-        "tables/vector/Table3/Table3.pptx"
-      ]
-    },
-    {
-      "label": "Table4",
-      "kind": "table",
-      "mode": "existing",
-      "exit_code": 0,
-      "files": [
-        "tables/vector/Table4/Table4.svg",
-        "tables/vector/Table4/Table4.pptx"
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
       ]
     }
   ]

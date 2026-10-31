@@ -1,14 +1,20 @@
 % Auto-extracted table snippet; requires \usepackage{booktabs}.
-% Caption: Table 3. Ablation studies on ERP SR on ODI-SR and SUN360 Panorama Dataset for both ×8 and ×16 SR.
-\begin{tabular}{llllllllllll}
+% Caption: Table 3.Ablation studies on ERP SR on ODI-SR and SUN360 Panorama Dataset for both ×8 and ×16 SR.
+\begin{tabular}{lllllllll}
 \toprule
-Scale & Component &  &  & x8 &  &  &  & x16 &  &  &  \\
+Projection Type & Perspective &  &  &  & Fisheye &  &  &  \\
 \midrule
-Model & GA-Conv & SLIIF & Feature loss & ODI-SR &  & SUN 360 Panorama &  & ODI-SR &  & SUN 360 Panorama &  \\
- &  &  &  & WS-PSNR & WS-SSIM & WS-PSNR & WS-SSIM & WS-PSNR & WS-SSIM & WS-PSNR & WS-SSIM \\
-1 & x & ✓ & x & 24.20 & 0.6688 & 23.98 & 0.6719 & 22.44 & 0.6341 & 21.92 & 0.6318 \\
-2 & ✓ & x & x & 24.31 & 0.6731 & 24.07 & 0.6749 & 22.47 & 0.6335 & 21.92 & 0.6294 \\
-3 & ✓ & ✓ & x & 24.34 & 0.6765 & 24.10 & 0.6816 & 22.47 & 0.6364 & 21.93 & 0.6336 \\
-4 & ✓ & ✓ & ✓ & 24.37 & 0.6777 & 24.17 & 0.6820 & 22.51 & 0.6370 & 21.95 & 0.6342 \\
+FOV & 90 &  &  &  & 180 &  &  &  \\
+Method & ODI-SR &  & SUN 360 Panorama &  & ODI-SR &  & SUN 360 Panorama &  \\
+ & PSNR & SSIM & PSNR & SSIM & PSNR & SSIM & PSNR & SSIM \\
+Bicubic & 25.40 & 0.6858 & 23.49 & 0.6516 & 23.27 & 0.7117 & 22.75 & 0.7157 \\
+SRCNN [11](+Bicubic) & 26.04 & 0.7005 & 23.98 & 0.6654 & 23.92 & 0.7246 & 23.47 & 0.7295 \\
+EDSR [21](+Bicubic) & 26.53 & 0.7192 & 24.91 & 0.6916 & 24.21 & 0.7323 & 23.98 & 0.7452 \\
+D-DBPN [12](+Bicubic) & 26.59 & 0.7139 & 24.63 & 0.6836 & 24.39 & 0.7308 & 24.02 & 0.7401 \\
+RCAN [44](+Bicubic) & 26.70 & 0.7191 & 24.81 & 0.6901 & 24.40 & 0.7348 & 24.08 & 0.7452 \\
+360-SS [28](+Bicubic) & 23.28 & 0.6528 & 21.95 & 0.6205 & 22.00 & 0.6957 & 21.61 & 0.6962 \\
+LAU-Net [10](+Bicubic) & 26.39 & 0.7197 & 24.72 & 0.6943 & 24.33 & 0.7346 & 24.97 & 0.7727 \\
+SphereSR(w/o SLIIF)(+Bicubic) & 26.66 & 0.7176 & 24.83 & 0.6930 & 24.32 & 0.7345 & 25.00 & 0.7477 \\
+SphereSR(Ours) & 26.76 & 0.7208 & 24.97 & 0.6962 & 24.46 & 0.7393 & 25.14 & 0.7780 \\
 \bottomrule
 \end{tabular}

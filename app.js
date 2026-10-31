@@ -18,6 +18,17 @@
   const paperName = (id) => paperMap.get(id)?.title || id;
   const yearValue = (paper) => Number(paper.year) || 0;
   const positionText = (asset) => `${asset.kind === "figure" ? "Fig." : "Table"} ${asset.position_key}`;
+  const paperTitle = (paper, className = "paper-link") => {
+    const title = escapeHtml(paper?.title || "");
+    const url = escapeHtml(paper?.official_url || paper?.pdf_url || "");
+    return url ? `<a class="${className}" href="${url}" target="_blank" rel="noopener noreferrer">${title}</a>` : title;
+  };
+  const captionHtml = (asset) => {
+    const en = asset.caption_en || asset.caption || "";
+    const zh = asset.caption_zh || "";
+    if (!zh || zh === en) return `<p>${escapeHtml(en)}</p>`;
+    return `<div class="caption-pair"><p><span class="caption-label">EN</span>${escapeHtml(en)}</p><p><span class="caption-label">中文</span>${escapeHtml(zh)}</p></div>`;
+  };
 
   function orderedPapers() {
     const ids = new Set(filteredAssets().map((asset) => asset.paper_id));
@@ -43,27 +54,33 @@
       const paper = paperMap.get(asset.paper_id) || {};
       if (state.year !== "all" && String(paper.year) !== state.year) return false;
       if (!q) return true;
-      const text = [paper.title, paper.venue, paper.year, asset.paper_id, asset.label, asset.position_key, asset.caption].join(" ").toLowerCase();
+      const text = [paper.title, paper.venue, paper.year, asset.paper_id, asset.label, asset.position_key, asset.caption_en, asset.caption_zh, asset.caption].join(" ").toLowerCase();
       return text.includes(q);
     });
   }
 
   function vectorLinks(asset) {
+    if (asset.kind !== "figure") return '<span class="muted">表格仅提供 LaTeX 下载</span>';
     if (!asset.vectors?.length) return '<span class="muted">暂无 SVG/PPTX</span>';
     return asset.vectors.map((item) => `<a class="small-link" href="${escapeHtml(item.path)}" target="_blank">打开 ${escapeHtml(item.type.toUpperCase())}</a>`).join("");
   }
 
   function downloadLinks(asset) {
     const links = [`<a class="download-link" href="${escapeHtml(asset.original)}" download>下载原始 PNG</a>`];
+    if (asset.kind === "table") {
+      if (asset.latex) {
+        const label = asset.latex_mode === "extracted_tabular" ? "下载 LaTeX（可编辑）" : "下载 LaTeX（图像包装）";
+        links.push(`<a class="download-link latex" href="${escapeHtml(asset.latex)}" download>${label}</a>`);
+      } else {
+        links.push('<span class="muted">暂无 LaTeX</span>');
+      }
+      return links.join("");
+    }
     const pptx = (asset.vectors || []).find((item) => item.type === "pptx");
     const svg = (asset.vectors || []).find((item) => item.type === "svg");
     if (pptx) links.push(`<a class="download-link primary" href="${escapeHtml(pptx.path)}" download>下载高清 PPTX</a>`);
     else links.push('<span class="muted">暂无可编辑 PPTX</span>');
     if (svg) links.push(`<a class="download-link" href="${escapeHtml(svg.path)}" download>下载 SVG</a>`);
-    if (asset.kind === "table" && asset.latex) {
-      const label = asset.latex_mode === "extracted_tabular" ? "下载 LaTeX（可编辑）" : "下载 LaTeX（图像包装）";
-      links.push(`<a class="download-link latex" href="${escapeHtml(asset.latex)}" download>${label}</a>`);
-    }
     return links.join("");
   }
 
@@ -74,17 +91,17 @@
       <a class="image-link" href="${escapeHtml(asset.original)}" target="_blank"><img loading="lazy" src="${escapeHtml(asset.original)}" alt="${escapeHtml(asset.label)} ${escapeHtml(paper.title)}"></a>
       <div class="tile-body">
         <div class="tile-label">${escapeHtml(asset.label)} · ${escapeHtml(paper.year || "")}</div>
-        <h3>${escapeHtml(paper.title || asset.paper_id)}</h3>
+        <h3>${paperTitle(paper)}</h3>
         <div class="tile-meta">${escapeHtml(paper.venue || "")} · PDF 第 ${asset.page + 1} 页（页索引 ${asset.page}）</div>
-        <p>${escapeHtml(asset.caption)}</p>
-        <div class="tile-actions"><div class="download-group"><span class="download-label">下载</span>${downloadLinks(asset)}</div><details><summary>矢量文件</summary><div class="vector-links">${vectorLinks(asset)}</div></details></div>
+        ${captionHtml(asset)}
+        <div class="tile-actions"><div class="download-group"><span class="download-label">下载</span>${downloadLinks(asset)}</div><details><summary>${state.kind === "figure" ? "矢量文件" : "LaTeX 文件"}</summary><div class="vector-links">${vectorLinks(asset)}</div></details></div>
       </div>
     </article>`;
   }
 
   function assetDownloadRow(asset) {
     const paper = paperMap.get(asset.paper_id) || {};
-    return `<article class="download-item"><div class="download-item-main"><strong>${escapeHtml(asset.label)}</strong><span>${escapeHtml(paper.year || "")} · PDF 第 ${asset.page + 1} 页</span><p>${escapeHtml(asset.caption)}</p></div><div class="download-group">${downloadLinks(asset)}</div></article>`;
+    return `<article class="download-item"><div class="download-item-main"><strong>${escapeHtml(asset.label)}</strong><span>${escapeHtml(paper.year || "")} · PDF 第 ${asset.page + 1} 页</span>${captionHtml(asset)}</div><div class="download-group">${downloadLinks(asset)}</div></article>`;
   }
 
   function renderPositionView(assets) {
@@ -117,7 +134,7 @@
     return orderedPapers().map((paper) => {
       const rows = (byPaper.get(paper.id) || []).sort(assetCompare);
       if (!rows.length) return "";
-      return `<section class="compare-row paper-row"><header class="row-header"><div><span class="eyebrow">同一论文内部浏览</span><h2>${escapeHtml(paper.title)}</h2><div class="row-meta">${escapeHtml(paper.venue || "")} · ${escapeHtml(paper.year || "")} · ${escapeHtml(paper.classification || "")}</div></div><span class="row-count">${rows.length} 个${state.kind === "figure" ? "图片" : "表格"}</span></header><div class="asset-grid">${rows.map(assetTile).join("")}</div></section>`;
+      return `<section class="compare-row paper-row"><header class="row-header"><div><span class="eyebrow">同一论文内部浏览</span><h2>${paperTitle(paper, "paper-heading-link")}</h2><div class="row-meta">${escapeHtml(paper.venue || "")} · ${escapeHtml(paper.year || "")} · ${escapeHtml(paper.classification || "")}</div></div><span class="row-count">${rows.length} 个${state.kind === "figure" ? "图片" : "表格"}</span></header><div class="asset-grid">${rows.map(assetTile).join("")}</div></section>`;
     }).join("");
   }
 
@@ -130,7 +147,7 @@
     return orderedPapers().map((paper) => {
       const rows = (byPaper.get(paper.id) || []).sort(assetCompare);
       if (!rows.length) return "";
-      return `<section class="download-section"><header class="row-header"><div><span class="eyebrow">下载中心</span><h2>${escapeHtml(paper.title)}</h2><div class="row-meta">${escapeHtml(paper.venue || "")} · ${escapeHtml(paper.year || "")} · ${rows.length} 个${state.kind === "figure" ? "图片" : "表格"}</div></div></header><div class="download-list">${rows.map(assetDownloadRow).join("")}</div></section>`;
+      return `<section class="download-section"><header class="row-header"><div><span class="eyebrow">下载中心</span><h2>${paperTitle(paper, "paper-heading-link")}</h2><div class="row-meta">${escapeHtml(paper.venue || "")} · ${escapeHtml(paper.year || "")} · ${rows.length} 个${state.kind === "figure" ? "图片" : "表格"}</div></div></header><div class="download-list">${rows.map(assetDownloadRow).join("")}</div></section>`;
     }).join("");
   }
 

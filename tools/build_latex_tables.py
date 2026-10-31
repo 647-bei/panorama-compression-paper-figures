@@ -123,12 +123,14 @@ def main() -> None:
             except Exception:
                 rows = []
             if len(rows) >= 1 and rows[0]:
-                content = tabular_tex(asset.get("caption", ""), rows)
+                caption = asset.get("caption_en") or asset.get("caption", "")
+                content = tabular_tex(caption, rows)
                 mode = "extracted_tabular"
                 extracted += 1
             else:
                 relative_image = Path("..") / "original" / original.name
-                content = image_wrapper_tex(asset.get("caption", ""), relative_image)
+                caption = asset.get("caption_en") or asset.get("caption", "")
+                content = image_wrapper_tex(caption, relative_image)
                 mode = "image_wrapper"
                 wrapped += 1
             output_path.write_text(content, encoding="utf-8")

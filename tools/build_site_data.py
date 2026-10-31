@@ -24,6 +24,7 @@ def position(label: str) -> tuple[str, int, str]:
 def main() -> None:
     papers_catalog = json.loads((ROOT / "papers.json").read_text(encoding="utf-8"))
     papers: dict[str, dict] = {}
+    catalog_by_slug = {p.get("local_slug"): p for p in papers_catalog if p.get("local_slug")}
     for p in papers_catalog:
         slug = p.get("local_slug")
         if slug:
@@ -42,7 +43,7 @@ def main() -> None:
     for manifest_path in sorted(ROOT.glob("*/manifest.json")):
         data = json.loads(manifest_path.read_text(encoding="utf-8"))
         slug = manifest_path.parent.name
-        metadata = data.get("metadata", {})
+        metadata = {**catalog_by_slug.get(slug, {}), **(data.get("metadata") or {})}
         papers[slug] = {
             "id": slug,
             "title": metadata.get("title", slug),
@@ -74,7 +75,9 @@ def main() -> None:
                 "position_number": number,
                 "position_suffix": suffix,
                 "page": asset.get("page", 0),
-                "caption": asset.get("caption", ""),
+                "caption": asset.get("caption_en", asset.get("caption", "")),
+                "caption_en": asset.get("caption_en", asset.get("caption", "")),
+                "caption_zh": asset.get("caption_zh", ""),
                 "original": original.relative_to(ROOT).as_posix(),
                 "vectors": vectors,
                 "vector_mode": asset.get("vector_mode", ""),

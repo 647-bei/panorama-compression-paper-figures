@@ -7,7 +7,9 @@
       "kind": "figure",
       "label": "Fig1",
       "page": 2,
-      "caption": "Fig. 1 | Network of TTFS neurons. a An image is processed in the brain through the rapid transmission of spikes between neurons34,71. Yellow color denotes active neurons, and red color represents the generated spikes (schematic). b A feed- forward TTFS-network architecture receives spikes, where earlier spiking times encode more salient information in the image30, e.g., receptive ﬁelds around a lotus ﬂower (dashed circle, bottom). c The potential V ðnÞ i for different neurons i varies as",
+      "caption": "Fig. 1 | Network of TTFS neurons. a An image is processed in the brain through the rapid transmission of spikes between neurons34,71. Yellow color denotes active neurons, and red color represents the generated spikes (schematic). b A feed- forward TTFS-network architecture receives spikes, where earlier spiking times encode more salient information in the image30, e.g., receptive ﬁelds around a lotus ﬂower (dashed circle, bottom). c The potential VðnÞ i for different neurons i varies as",
+      "caption_en": "Fig. 1 | Network of TTFS neurons. a An image is processed in the brain through the rapid transmission of spikes between neurons34,71. Yellow color denotes active neurons, and red color represents the generated spikes (schematic). b A feed- forward TTFS-network architecture receives spikes, where earlier spiking times encode more salient information in the image30, e.g., receptive ﬁelds around a lotus ﬂower (dashed circle, bottom). c The potential VðnÞ i for different neurons i varies as",
+      "caption_zh": "",
       "caption_bbox": [
         39.685,
         268.563,
@@ -15,29 +17,29 @@
         326.154
       ],
       "content_bbox": [
-        39.685,
-        23.52,
-        561.268,
+        95.802,
+        48.767,
+        510.503,
         259.94
       ],
       "crop_bbox": [
-        39.685,
-        23.52,
-        561.268,
-        329.154
+        95.802,
+        48.767,
+        510.503,
+        259.94
       ],
       "original": "figures/original/Fig1_p002.png",
       "vector": [
         "figures/vector/Fig1/Fig1.svg",
         "figures/vector/Fig1/Fig1.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 6.84 in\n\n形状统计 (500 个):\n  FREEFORM (5)                 444\n  TEXT_BOX (17)                44\n  AUTO_SHAPE (1)               7\n  PICTURE (13)                 5\n\n矢量形状: 495\n位图图片: 5\n  32.6% 画面  (6.13 x 4.85 in)\n  7.7% 画面  (1.68 x 4.21 in)\n  0.8% 画面  (1.26 x 0.59 in)\n  0.0% 画面  (0.09 x 0.04 in)\n  0.7% 画面  (1.08 x 0.59 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 500 draws 251 fs 19 polys 407 rings 7 text 44 images 1 inline 4 canvas 1948 1000\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 6.11 in\n\n形状统计 (505 个):\n  FREEFORM (5)                 446\n  TEXT_BOX (17)                47\n  AUTO_SHAPE (1)               7\n  PICTURE (13)                 5\n\n矢量形状: 500\n位图图片: 5\n  23.1% 画面  (4.88 x 3.86 in)\n  5.5% 画面  (1.33 x 3.35 in)\n  0.6% 画面  (1.00 x 0.47 in)\n  0.0% 画面  (0.07 x 0.03 in)\n  0.5% 画面  (0.86 x 0.47 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.84 in\n\n形状统计 (500 个):\n  FREEFORM (5)                 444\n  TEXT_BOX (17)                44\n  AUTO_SHAPE (1)               7\n  PICTURE (13)                 5\n\n矢量形状: 495\n位图图片: 5\n  32.6% 画面  (6.13 x 4.85 in)\n  7.7% 画面  (1.68 x 4.21 in)\n  0.8% 画面  (1.26 x 0.59 in)\n  0.0% 画面  (0.09 x 0.04 in)\n  0.7% 画面  (1.08 x 0.59 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
       ]
     },
@@ -45,7 +47,9 @@
       "kind": "figure",
       "label": "Fig2",
       "page": 3,
-      "caption": "Fig. 2 | Eigenvalues of the SNN Jacobian for different models under standard deep learning initialization. a In α1-model the initial slope is AðnÞ i = αðnÞ i = 1 and in the second regime the slopes of all neurons i are set to neuron-speciﬁc slopes derived from αðnÞ i = 1. Spikes are red, spiking threshold is purple, and three shades of green indicate evolution of V ðnÞ i for three different neurons i. b The eigenvalues of",
+      "caption": "Fig. 2 | Eigenvalues of the SNN Jacobian for different models under standard deep learning initialization. a In α1-model the initial slope is AðnÞ i = αðnÞ i = 1 and in the second regime the slopes of all neurons i are set to neuron-speciﬁc slopes derived from αðnÞ i = 1. Spikes are red, spiking threshold is purple, and three shades of green indicate evolution of VðnÞ i for three different neurons i. b The eigenvalues of",
+      "caption_en": "Fig. 2 | Eigenvalues of the SNN Jacobian for different models under standard deep learning initialization. a In α1-model the initial slope is AðnÞ i = αðnÞ i = 1 and in the second regime the slopes of all neurons i are set to neuron-speciﬁc slopes derived from αðnÞ i = 1. Spikes are red, spiking threshold is purple, and three shades of green indicate evolution of VðnÞ i for three different neurons i. b The eigenvalues of",
+      "caption_zh": "",
       "caption_bbox": [
         39.685,
         692.116,
@@ -53,31 +57,39 @@
         739.729
       ],
       "content_bbox": [
-        39.684,
-        324.068,
-        561.256,
+        90.43,
+        402.002,
+        326.513,
         670.917
       ],
       "crop_bbox": [
-        39.684,
-        324.068,
-        561.256,
-        742.729
+        90.43,
+        402.002,
+        326.513,
+        670.917
       ],
       "original": "figures/original/Fig2_p003.png",
       "vector": [
-        "figures/vector/Fig2/Fig2.svg"
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
       ],
-      "vector_mode": "existing_svg_only",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": []
+      "vector_log_tail": "幻灯片: 13.33 x 15.17 in\n\n形状统计 (341 个):\n  FREEFORM (5)                 281\n  TEXT_BOX (17)                47\n  AUTO_SHAPE (1)               13\n\n矢量形状: 341\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 341 draws 188 fs 0 polys 261 rings 13 text 47 images 0 inline 0 canvas 1948 2217\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig2\\Fig2.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig2\\Fig2.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 15.17 in\n\n形状统计 (341 个):\n  FREEFORM (5)                 281\n  TEXT_BOX (17)                47\n  AUTO_SHAPE (1)               13\n\n矢量形状: 341\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
     },
     {
       "kind": "figure",
       "label": "Fig3",
       "page": 4,
       "caption": "Fig. 3 | Learning in eight-layer SNNs on the MNIST dataset for different models and initializations. a A ReLU network with standard deep learning initialization w(n)",
+      "caption_en": "Fig. 3 | Learning in eight-layer SNNs on the MNIST dataset for different models and initializations. a A ReLU network with standard deep learning initialization w(n)",
+      "caption_zh": "",
       "caption_bbox": [
         39.685,
         171.505,
@@ -85,29 +97,29 @@
         188.473
       ],
       "content_bbox": [
-        39.685,
-        23.52,
-        561.268,
+        167.145,
+        49.641,
+        461.708,
         162.166
       ],
       "crop_bbox": [
-        39.685,
-        23.52,
-        561.268,
-        191.473
+        167.145,
+        49.641,
+        461.708,
+        162.166
       ],
       "original": "figures/original/Fig3_p004.png",
       "vector": [
         "figures/vector/Fig3/Fig3.svg",
         "figures/vector/Fig3/Fig3.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 5.16 in\n\n形状统计 (179 个):\n  FREEFORM (5)                 149\n  TEXT_BOX (17)                25\n  AUTO_SHAPE (1)               5\n\n矢量形状: 179\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 179 draws 147 fs 0 polys 39 rings 5 text 25 images 0 inline 0 canvas 1948 754\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 3.63 in\n\n形状统计 (187 个):\n  FREEFORM (5)                 151\n  TEXT_BOX (17)                31\n  AUTO_SHAPE (1)               5\n\n矢量形状: 187\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.16 in\n\n形状统计 (179 个):\n  FREEFORM (5)                 149\n  TEXT_BOX (17)                25\n  AUTO_SHAPE (1)               5\n\n矢量形状: 179\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
       ]
     },
@@ -116,6 +128,8 @@
       "label": "Fig4",
       "page": 5,
       "caption": "Fig. 4 | Conversion followed by ﬁne-tuning for a VGG16 network. A VGG16 SNN network (right) is initialized (curly blue arrow) with the weights and biases (red) of a pre-trained VGG16 ReLU network (left), and then ﬁne-tuned (FT) with gradient descent using the framework of the B1-model. The pre-trained ReLU network also undergoes further ﬁne-tuning using standard backpropagation optimization.",
+      "caption_en": "Fig. 4 | Conversion followed by ﬁne-tuning for a VGG16 network. A VGG16 SNN network (right) is initialized (curly blue arrow) with the weights and biases (red) of a pre-trained VGG16 ReLU network (left), and then ﬁne-tuned (FT) with gradient descent using the framework of the B1-model. The pre-trained ReLU network also undergoes further ﬁne-tuning using standard backpropagation optimization.",
+      "caption_zh": "",
       "caption_bbox": [
         39.684,
         545.193,
@@ -124,28 +138,28 @@
       ],
       "content_bbox": [
         39.685,
-        49.049,
-        561.377,
+        85.153,
+        294.803,
         535.59
       ],
       "crop_bbox": [
         39.685,
-        49.049,
-        561.377,
-        595.127
+        85.153,
+        294.803,
+        535.59
       ],
       "original": "figures/original/Fig4_p005.png",
       "vector": [
         "figures/vector/Fig4/Fig4.svg",
         "figures/vector/Fig4/Fig4.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 23.46 in\n\n形状统计 (208 个):\n  FREEFORM (5)                 164\n  TEXT_BOX (17)                43\n  AUTO_SHAPE (1)               1\n\n矢量形状: 208\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 208 draws 90 fs 57 polys 104 rings 1 text 43 images 0 inline 0 canvas 1948 3427\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig4\\Fig4.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig4\\Fig4.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 12.44 in\n\n形状统计 (258 个):\n  FREEFORM (5)                 164\n  TEXT_BOX (17)                93\n  AUTO_SHAPE (1)               1\n\n矢量形状: 258\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 13.33 x 23.46 in\n\n形状统计 (208 个):\n  FREEFORM (5)                 164\n  TEXT_BOX (17)                43\n  AUTO_SHAPE (1)               1\n\n矢量形状: 208\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
       ]
     },
@@ -154,6 +168,8 @@
       "label": "Table1",
       "page": 5,
       "caption": "Table 1 | Performance after training an SNN using the B1-model (ours), compared to trained ReLU networks and SNN baselines",
+      "caption_en": "Table 1 | Performance after training an SNN using the B1-model (ours), compared to trained ReLU networks and SNN baselines",
+      "caption_zh": "",
       "caption_bbox": [
         39.685,
         48.352,
@@ -162,38 +178,68 @@
       ],
       "content_bbox": [
         39.685,
-        85.153,
-        294.803,
-        402.919
+        86.338,
+        294.783,
+        527.953
       ],
       "crop_bbox": [
         39.685,
-        45.352,
-        294.803,
-        402.919
+        86.338,
+        294.783,
+        527.953
       ],
       "original": "tables/original/Table1_p005.png",
-      "vector": [
-        "tables/vector/Table1/Table1.svg",
-        "tables/vector/Table1/Table1.pptx"
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Fig. 5 | Fine-tuning for noise robustness, quantization, and latency. VGG16 SNN on CIFAR10. In all cases after only 10 epochs of ﬁne-tuning (w/ FT—purple squares) the accuracy of the initially mapped network (w/o FT—blue circles) is signiﬁcantly improved. a Accuracy as a function of the standard deviation (SD) of random noise values added to each spike time in the network (spiking time jitter). b Quantizing spiking times in the network to a given number of time steps per layer. c Representing all weights WðnÞ ij with given number of bits. d Reducing the latency by reducing the ranges ½tðnÞ min, tðnÞ maxÞ.",
+      "caption_en": "Fig. 5 | Fine-tuning for noise robustness, quantization, and latency. VGG16 SNN on CIFAR10. In all cases after only 10 epochs of ﬁne-tuning (w/ FT—purple squares) the accuracy of the initially mapped network (w/o FT—blue circles) is signiﬁcantly improved. a Accuracy as a function of the standard deviation (SD) of random noise values added to each spike time in the network (spiking time jitter). b Quantizing spiking times in the network to a given number of time steps per layer. c Representing all weights WðnÞ ij with given number of bits. d Reducing the latency by reducing the ranges ½tðnÞ min, tðnÞ maxÞ.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        482.579,
+        561.358,
+        521.321
       ],
-      "vector_mode": "existing",
+      "content_bbox": [
+        39.684,
+        48.352,
+        561.383,
+        477.578
+      ],
+      "crop_bbox": [
+        39.684,
+        48.352,
+        561.383,
+        477.578
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 10.99 in\n\n形状统计 (507 个):\n  FREEFORM (5)                 386\n  TEXT_BOX (17)                114\n  AUTO_SHAPE (1)               7\n\n矢量形状: 507\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 507 draws 269 fs 117 polys 203 rings 7 text 114 images 0 inline 0 canvas 1948 1606\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig5\\Fig5.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig5\\Fig5.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 16.58 in\n\n形状统计 (163 个):\n  FREEFORM (5)                 130\n  TEXT_BOX (17)                33\n\n矢量形状: 163\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.99 in\n\n形状统计 (507 个):\n  FREEFORM (5)                 386\n  TEXT_BOX (17)                114\n  AUTO_SHAPE (1)               7\n\n矢量形状: 507\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
-      ],
-      "latex": "tables/latex/Table1.tex",
-      "latex_mode": "extracted_tabular"
+      ]
     },
     {
       "kind": "table",
       "label": "Table2",
       "page": 6,
       "caption": "Table 2 | Test accuracy and spiking sparsity for a VGG16 architecture",
+      "caption_en": "Table 2 | Test accuracy and spiking sparsity for a VGG16 architecture",
+      "caption_zh": "",
       "caption_bbox": [
         39.685,
         48.352,
@@ -201,101 +247,33 @@
         57.318
       ],
       "content_bbox": [
-        39.684,
-        64.346,
-        561.383,
-        473.961
+        39.685,
+        64.516,
+        561.26,
+        198.066
       ],
       "crop_bbox": [
-        39.684,
-        45.352,
-        561.383,
-        473.961
+        39.685,
+        64.516,
+        561.26,
+        198.066
       ],
       "original": "tables/original/Table2_p006.png",
-      "vector": [
-        "tables/vector/Table2/Table2.svg",
-        "tables/vector/Table2/Table2.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 10.49 in\n\n形状统计 (506 个):\n  FREEFORM (5)                 386\n  TEXT_BOX (17)                113\n  AUTO_SHAPE (1)               7\n\n矢量形状: 506\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ],
+      "vector": [],
       "latex": "tables/latex/Table2.tex",
       "latex_mode": "extracted_tabular"
-    },
-    {
-      "kind": "figure",
-      "label": "Fig5",
-      "page": 6,
-      "caption": "Fig. 5 | Fine-tuning for noise robustness, quantization, and latency. VGG16 SNN on CIFAR10. In all cases after only 10 epochs of ﬁne-tuning (w/ FT—purple squares) the accuracy of the initially mapped network (w/o FT—blue circles) is signiﬁcantly improved. a Accuracy as a function of the standard deviation (SD) of random noise",
-      "caption_bbox": [
-        39.685,
-        482.579,
-        294.879,
-        519.446
-      ],
-      "content_bbox": [
-        39.684,
-        149.896,
-        561.383,
-        477.578
-      ],
-      "crop_bbox": [
-        39.684,
-        149.896,
-        561.383,
-        522.446
-      ],
-      "original": "figures/original/Fig5_p006.png",
-      "vector": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 8.41 in\n\n形状统计 (386 个):\n  FREEFORM (5)                 299\n  TEXT_BOX (17)                80\n  AUTO_SHAPE (1)               7\n\n矢量形状: 386\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
     }
   ],
   "notes": [
     "Coordinates use PDF points and page indexes start at 0.",
-    "Original crops retain the caption for auditability.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
     "LaTeX tables generated by tools/build_latex_tables.py."
   ],
-  "metadata": {
-    "title": "High-performance deep spiking neural networks with 0.3 spikes per neuron",
-    "year": 2024,
-    "venue": "Nature Communications",
-    "classification": "Nature Portfolio journal",
-    "topic": [
-      "SNN",
-      "temporal coding",
-      "sparse spikes",
-      "energy efficiency"
-    ],
-    "relevance": "TTFS脉冲时序、稀疏放电和低事件数，适合构建SNN低功耗质量增强模块。",
-    "official_url": "https://www.nature.com/articles/s41467-024-51110-5",
-    "pdf_url": "https://www.nature.com/articles/s41467-024-51110-5.pdf",
-    "doi": "10.1038/s41467-024-51110-5",
-    "local_slug": "DeepSNN_0p3Spikes_NC2024",
-    "access": "open_pdf"
-  },
   "vectorized": [
     {
       "label": "Fig1",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig1/Fig1.svg",
@@ -305,16 +283,17 @@
     {
       "label": "Fig2",
       "kind": "figure",
-      "mode": "existing_svg_only",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
-        "figures/vector/Fig2/Fig2.svg"
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
       ]
     },
     {
       "label": "Fig3",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig3/Fig3.svg",
@@ -324,7 +303,7 @@
     {
       "label": "Fig4",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig4/Fig4.svg",
@@ -334,31 +313,11 @@
     {
       "label": "Fig5",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig5/Fig5.svg",
         "figures/vector/Fig5/Fig5.pptx"
-      ]
-    },
-    {
-      "label": "Table1",
-      "kind": "table",
-      "mode": "existing",
-      "exit_code": 0,
-      "files": [
-        "tables/vector/Table1/Table1.svg",
-        "tables/vector/Table1/Table1.pptx"
-      ]
-    },
-    {
-      "label": "Table2",
-      "kind": "table",
-      "mode": "existing",
-      "exit_code": 0,
-      "files": [
-        "tables/vector/Table2/Table2.svg",
-        "tables/vector/Table2/Table2.pptx"
       ]
     }
   ]

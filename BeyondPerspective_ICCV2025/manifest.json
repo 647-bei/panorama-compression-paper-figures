@@ -7,7 +7,9 @@
       "kind": "figure",
       "label": "Fig1",
       "page": 0,
-      "caption": "Figure 1. 360-degree image in (a) spherical domain representation and (b) equirectangular projection format. Bjøntegaard Delta rate savings (c) of our proposed framework for optimizing neural video codecs for 360-degree video. Tested with DCVC-HEM [29] using the JVET360 [19], HEVC [7], and UVG [37] datasets. The anchor is DCVC-HEM trained on perspective video.",
+      "caption": "Figure 1.360-degree image in (a) spherical domain representation and (b) equirectangular projection format.Bjøntegaard Delta rate savings (c) of our proposed framework for optimizing neural video codecs for 360-degree video.Tested with DCVC-HEM [29] using the JVET360 [19], HEVC [7], and UVG [37] datasets. The anchor is DCVC-HEM trained on perspective video.",
+      "caption_en": "Figure 1.360-degree image in (a) spherical domain representation and (b) equirectangular projection format.Bjøntegaard Delta rate savings (c) of our proposed framework for optimizing neural video codecs for 360-degree video.Tested with DCVC-HEM [29] using the JVET360 [19], HEVC [7], and UVG [37] datasets. The anchor is DCVC-HEM trained on perspective video.",
+      "caption_zh": "",
       "caption_bbox": [
         317.25,
         467.308,
@@ -15,29 +17,29 @@
         531.068
       ],
       "content_bbox": [
-        132.351,
-        145.664,
+        327.295,
+        227.722,
         553.486,
         455.561
       ],
       "crop_bbox": [
-        132.351,
-        145.664,
+        327.295,
+        227.722,
         553.486,
-        534.068
+        455.561
       ],
       "original": "figures/original/Fig1_p000.png",
       "vector": [
         "figures/vector/Fig1/Fig1.svg",
         "figures/vector/Fig1/Fig1.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 13.43 in\n\n形状统计 (77 个):\n  FREEFORM (5)                 46\n  TEXT_BOX (17)                29\n  PICTURE (13)                 2\n\n矢量形状: 75\n位图图片: 2\n  17.9% 画面  (8.01 x 4.01 in)\n  9.0% 画面  (4.01 x 4.01 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 77 draws 23 fs 3 polys 13 rings 0 text 29 images 0 inline 2 canvas 1948 1962\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 9.84 in\n\n形状统计 (82 个):\n  FREEFORM (5)                 46\n  TEXT_BOX (17)                34\n  PICTURE (13)                 2\n\n矢量形状: 80\n位图图片: 2\n  7.1% 画面  (4.30 x 2.15 in)\n  3.5% 画面  (2.15 x 2.15 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 13.33 x 13.43 in\n\n形状统计 (77 个):\n  FREEFORM (5)                 46\n  TEXT_BOX (17)                29\n  PICTURE (13)                 2\n\n矢量形状: 75\n位图图片: 2\n  17.9% 画面  (8.01 x 4.01 in)\n  9.0% 画面  (4.01 x 4.01 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
       ]
     },
@@ -45,7 +47,9 @@
       "kind": "figure",
       "label": "Fig2",
       "page": 2,
-      "caption": "Figure 2. Sample frames from our UGC360 dataset showcasing its diverse content.",
+      "caption": "Figure 2.Sample frames from our UGC360 dataset showcasing its diverse content.",
+      "caption_en": "Figure 2.Sample frames from our UGC360 dataset showcasing its diverse content.",
+      "caption_zh": "",
       "caption_bbox": [
         157.227,
         257.222,
@@ -62,16 +66,30 @@
         67.77,
         75.184,
         541.734,
-        269.188
+        255.164
       ],
       "original": "figures/original/Fig2_p002.png",
-      "vector": []
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig2\\Fig2.svg (1896x721 -> 1896x721 px, scale 1.0, 33415 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  50.7% 画面  (10.00 x 3.80 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3477227 px\n"
+        }
+      ]
     },
     {
       "kind": "table",
       "label": "Table1",
       "page": 2,
-      "caption": "Table 1. UGC360 dataset subsets. Subsets split the overall dataset into smaller parts based on their resolution to ease data handling.",
+      "caption": "Table 1.UGC360 dataset subsets.Subsets split the overall dataset into smaller parts based on their resolution to ease data handling.",
+      "caption_en": "Table 1.UGC360 dataset subsets.Subsets split the overall dataset into smaller parts based on their resolution to ease data handling.",
+      "caption_zh": "",
       "caption_bbox": [
         317.25,
         288.106,
@@ -79,31 +97,19 @@
         308.031
       ],
       "content_bbox": [
-        317.25,
+        326.5,
         323.282,
-        553.505,
-        713.407
+        544.251,
+        364.647
       ],
       "crop_bbox": [
-        317.25,
-        285.106,
-        553.505,
-        713.407
+        326.5,
+        323.282,
+        544.251,
+        364.647
       ],
       "original": "tables/original/Table1_p002.png",
-      "vector": [
-        "tables/vector/Table1/Table1.svg",
-        "tables/vector/Table1/Table1.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 21.94 in\n\n形状统计 (43 个):\n  TEXT_BOX (17)                41\n  FREEFORM (5)                 2\n\n矢量形状: 43\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ],
+      "vector": [],
       "latex": "tables/latex/Table1.tex",
       "latex_mode": "image_wrapper"
     },
@@ -111,7 +117,9 @@
       "kind": "figure",
       "label": "Fig3",
       "page": 3,
-      "caption": "Figure 3. Visualization of our flow-guided reprojection. In a first step, the source position pc src and target position pc tar are sampled. The source position is uniformly sampled within the valid region defined by the flow guide. The target position is uniformly sampled in the entire image area. In a second step, the source and target positions are projected onto the unit sphere according to (1) and (2). To align the source position with the target position, the rotation matrix R is then derived according to (3). Applying this rotation to all pixels in the source image yields the reprojected image from which the target patch is extracted.",
+      "caption": "Figure 3.Visualization of our flow-guided reprojection.In a first step,the source position pc srcand target position pc tarare sampled.The sourcepositionisuniformlysampledwithinthevalidregiondefinedbytheflowguide.Thetargetpositionisuniformlysampledinthe entire image area.In a second step, the source and target positions are projected onto the unit sphere according to (1) and (2).To align the source position with the target position,the rotation matrix R is then derived according to (3).Applying this rotation to all pixels in the source image yields the reprojected image from which the target patch is extracted.",
+      "caption_en": "Figure 3.Visualization of our flow-guided reprojection.In a first step,the source position pc srcand target position pc tarare sampled.The sourcepositionisuniformlysampledwithinthevalidregiondefinedbytheflowguide.Thetargetpositionisuniformlysampledinthe entire image area.In a second step, the source and target positions are projected onto the unit sphere according to (1) and (2).To align the source position with the target position,the rotation matrix R is then derived according to (3).Applying this rotation to all pixels in the source image yields the reprojected image from which the target patch is extracted.",
+      "caption_zh": "",
       "caption_bbox": [
         58.499,
         287.434,
@@ -128,16 +136,16 @@
         64.185,
         74.036,
         547.806,
-        344.917
+        275.839
       ],
       "original": "figures/original/Fig3_p003.png",
       "vector": [
         "figures/vector/Fig3/Fig3.svg",
         "figures/vector/Fig3/Fig3.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 5.63 in\n\n形状统计 (188 个):\n  TEXT_BOX (17)                99\n  FREEFORM (5)                 83\n  PICTURE (13)                 6\n\n矢量形状: 182\n位图图片: 6\n  9.5% 画面  (3.77 x 1.88 in)\n  5.7% 画面  (2.07 x 2.07 in)\n  2.7% 画面  (1.41 x 1.41 in)\n  9.5% 画面  (3.77 x 1.88 in)\n  9.5% 画面  (3.77 x 1.88 in)\n  5.7% 画面  (2.07 x 2.07 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 188 draws 82 fs 1 polys 35 rings 0 text 99 images 0 inline 6 canvas 1948 822\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
@@ -149,7 +157,9 @@
       "kind": "figure",
       "label": "Fig4",
       "page": 4,
-      "caption": "Figure 4. Positional feature encoding at the example of the DCVC-HEM model [29].",
+      "caption": "Figure 4.Positional feature encoding at the example of the DCVC-HEM model [29].",
+      "caption_en": "Figure 4.Positional feature encoding at the example of the DCVC-HEM model [29].",
+      "caption_zh": "",
       "caption_bbox": [
         153.64,
         244.164,
@@ -166,16 +176,16 @@
         96.49,
         72.198,
         513.024,
-        256.13
+        233.132
       ],
       "original": "figures/original/Fig4_p004.png",
       "vector": [
         "figures/vector/Fig4/Fig4.svg",
         "figures/vector/Fig4/Fig4.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 5.22 in\n\n形状统计 (120 个):\n  FREEFORM (5)                 94\n  TEXT_BOX (17)                23\n  PICTURE (13)                 3\n\n矢量形状: 117\n位图图片: 3\n  3.4% 画面  (2.16 x 1.08 in)\n  3.4% 画面  (2.16 x 1.08 in)\n  3.4% 画面  (2.16 x 1.08 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 120 draws 83 fs 11 polys 45 rings 0 text 23 images 0 inline 3 canvas 1948 762\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig4\\Fig4.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig4\\Fig4.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
@@ -187,7 +197,9 @@
       "kind": "figure",
       "label": "Fig5",
       "page": 4,
-      "caption": "Figure 5. Depiction of (a) the insertion process of the additional positional feature encoding channel and (b) the extension of the respective convolution kernels.",
+      "caption": "Figure5.Depictionof(a)theinsertionprocessoftheadditional positionalfeatureencodingchanneland(b)theextensionofthe respective convolution kernels.",
+      "caption_en": "Figure5.Depictionof(a)theinsertionprocessoftheadditional positionalfeatureencodingchanneland(b)theextensionofthe respective convolution kernels.",
+      "caption_zh": "",
       "caption_bbox": [
         58.5,
         382.925,
@@ -196,28 +208,28 @@
       ],
       "content_bbox": [
         63.914,
-        72.198,
-        513.024,
+        279.446,
+        192.19,
         371.178
       ],
       "crop_bbox": [
         63.914,
-        72.198,
-        513.024,
-        416.809
+        279.446,
+        192.19,
+        371.178
       ],
       "original": "figures/original/Fig5_p004.png",
       "vector": [
         "figures/vector/Fig5/Fig5.svg",
         "figures/vector/Fig5/Fig5.pptx"
       ],
-      "vector_mode": "existing",
+      "vector_mode": "pdf_vector",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
+      "vector_log_tail": "幻灯片: 13.33 x 9.57 in\n\n形状统计 (80 个):\n  FREEFORM (5)                 49\n  PICTURE (13)                 27\n  TEXT_BOX (17)                4\n\n矢量形状: 53\n位图图片: 27\n  13.9% 画面  (5.96 x 2.98 in)\n  0.2% 画面  (0.10 x 3.07 in)\n  0.5% 画面  (6.05 x 0.10 in)\n  13.9% 画面  (5.96 x 2.98 in)\n  0.2% 画面  (0.10 x 3.07 in)\n  0.5% 画面  (6.05 x 0.10 in)\n  0.4% 画面  (6.05 x 0.09 in)\n  13.9% 画面  (5.96 x 2.98 in)\n  0.2% 画面  (0.09 x 3.07 in)\n  0.4% 画面  (6.05 x 0.09 in)\n  ... 共 27 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 80 draws 49 fs 0 polys 4 rings 0 text 4 images 0 inline 27 canvas 1948 1398\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig5\\Fig5.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig5\\Fig5.pptx\n\n",
       "vector_qa": [
         {
           "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 8.91 in\n\n形状统计 (286 个):\n  FREEFORM (5)                 198\n  PICTURE (13)                 51\n  TEXT_BOX (17)                37\n\n矢量形状: 235\n位图图片: 51\n  1.7% 画面  (2.00 x 1.00 in)\n  1.7% 画面  (2.00 x 1.00 in)\n  1.2% 画面  (1.70 x 0.85 in)\n  0.0% 画面  (0.03 x 0.88 in)\n  0.0% 画面  (1.73 x 0.03 in)\n  1.2% 画面  (1.70 x 0.85 in)\n  0.0% 画面  (0.03 x 0.88 in)\n  0.0% 画面  (1.73 x 0.03 in)\n  0.0% 画面  (1.73 x 0.03 in)\n  0.0% 画面  (0.37 x 0.03 in)\n  ... 共 51 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.57 in\n\n形状统计 (80 个):\n  FREEFORM (5)                 49\n  PICTURE (13)                 27\n  TEXT_BOX (17)                4\n\n矢量形状: 53\n位图图片: 27\n  13.9% 画面  (5.96 x 2.98 in)\n  0.2% 画面  (0.10 x 3.07 in)\n  0.5% 画面  (6.05 x 0.10 in)\n  13.9% 画面  (5.96 x 2.98 in)\n  0.2% 画面  (0.10 x 3.07 in)\n  0.5% 画面  (6.05 x 0.10 in)\n  0.4% 画面  (6.05 x 0.09 in)\n  13.9% 画面  (5.96 x 2.98 in)\n  0.2% 画面  (0.09 x 3.07 in)\n  0.4% 画面  (6.05 x 0.09 in)\n  ... 共 27 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
       ]
     },
@@ -225,7 +237,9 @@
       "kind": "table",
       "label": "Table2",
       "page": 5,
-      "caption": "Table 2. BD-Rate (%) in YUV color space with respect to the baseline DCVC-HEM finetuned on vimeo90k. Different models and training configurations. WS-PSNR used as quality metric for the 360-degree JVET360 dataset, PSNR for the remaining perspective datasets. Column Average shows the average BD-Rate over all perspective dataset sequences. Highest rate savings for each dataset are marked bold.",
+      "caption": "Table 2.BD-Rate (%) in YUV color space with respect to the baseline DCVC-HEM finetuned on vimeo90k.Different models and training configurations.WS-PSNRusedasqualitymetricforthe360-degreeJVET360dataset,PSNRfortheremainingperspectivedatasets. Column Average shows the average BD-Rate over all perspective dataset sequences.Highest rate savings for each dataset are marked bold.",
+      "caption_en": "Table 2.BD-Rate (%) in YUV color space with respect to the baseline DCVC-HEM finetuned on vimeo90k.Different models and training configurations.WS-PSNRusedasqualitymetricforthe360-degreeJVET360dataset,PSNRfortheremainingperspectivedatasets. Column Average shows the average BD-Rate over all perspective dataset sequences.Highest rate savings for each dataset are marked bold.",
+      "caption_zh": "",
       "caption_bbox": [
         58.5,
         72.871,
@@ -233,31 +247,19 @@
         103.755
       ],
       "content_bbox": [
-        58.5,
-        118.789,
-        553.503,
-        590.236
+        78.299,
+        115.197,
+        531.465,
+        270.003
       ],
       "crop_bbox": [
-        58.5,
-        69.871,
-        553.503,
-        590.236
+        78.299,
+        115.197,
+        531.465,
+        270.003
       ],
       "original": "tables/original/Table2_p005.png",
-      "vector": [
-        "tables/vector/Table2/Table2.svg",
-        "tables/vector/Table2/Table2.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 12.70 in\n\n形状统计 (173 个):\n  TEXT_BOX (17)                141\n  FREEFORM (5)                 32\n\n矢量形状: 173\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ],
+      "vector": [],
       "latex": "tables/latex/Table2.tex",
       "latex_mode": "extracted_tabular"
     },
@@ -265,7 +267,9 @@
       "kind": "table",
       "label": "Table3",
       "page": 6,
-      "caption": "Table 3. Ablation study investigating flow-guided reprojection. BD-Rate (%) in YUV color space with respect to default config- uration TA for each model individually. All instances trained on UGC360+vimeo90k.",
+      "caption": "Table3.Ablationstudyinvestigatingflow-guidedreprojection. BD-Rate(%)inYUVcolorspacewithrespecttodefaultconfig- urationTAforeachmodelindividually.Allinstancestrainedon UGC360+vimeo90k.",
+      "caption_en": "Table3.Ablationstudyinvestigatingflow-guidedreprojection. BD-Rate(%)inYUVcolorspacewithrespecttodefaultconfig- urationTAforeachmodelindividually.Allinstancestrainedon UGC360+vimeo90k.",
+      "caption_zh": "",
       "caption_bbox": [
         58.5,
         72.871,
@@ -273,31 +277,19 @@
         114.714
       ],
       "content_bbox": [
-        58.5,
+        63.717,
         129.636,
-        294.753,
-        713.407
+        284.901,
+        224.452
       ],
       "crop_bbox": [
-        58.5,
-        69.871,
-        294.753,
-        713.407
+        63.717,
+        129.636,
+        284.901,
+        224.452
       ],
       "original": "tables/original/Table3_p006.png",
-      "vector": [
-        "tables/vector/Table3/Table3.svg",
-        "tables/vector/Table3/Table3.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 32.79 in\n\n形状统计 (33 个):\n  TEXT_BOX (17)                29\n  FREEFORM (5)                 4\n\n矢量形状: 33\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ],
+      "vector": [],
       "latex": "tables/latex/Table3.tex",
       "latex_mode": "image_wrapper"
     },
@@ -305,7 +297,9 @@
       "kind": "table",
       "label": "Table4",
       "page": 6,
-      "caption": "Table 4. Per-frame complexity metrics for the default DCVC- HEM and DCVC-HEM-360 with positional feature encoding.",
+      "caption": "Table4. Per-framecomplexitymetricsforthedefaultDCVC- HEM and DCVC-HEM-360 with positional feature encoding.",
+      "caption_en": "Table4. Per-framecomplexitymetricsforthedefaultDCVC- HEM and DCVC-HEM-360 with positional feature encoding.",
+      "caption_zh": "",
       "caption_bbox": [
         317.25,
         72.871,
@@ -315,29 +309,17 @@
       "content_bbox": [
         317.25,
         107.584,
-        553.503,
-        556.974
+        548.48,
+        153.238
       ],
       "crop_bbox": [
         317.25,
-        69.871,
-        553.503,
-        556.974
+        107.584,
+        548.48,
+        153.238
       ],
       "original": "tables/original/Table4_p006.png",
-      "vector": [
-        "tables/vector/Table4/Table4.svg",
-        "tables/vector/Table4/Table4.pptx"
-      ],
-      "vector_mode": "existing",
-      "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 25.26 in\n\n形状统计 (33 个):\n  TEXT_BOX (17)                31\n  FREEFORM (5)                 2\n\n矢量形状: 33\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ],
+      "vector": [],
       "latex": "tables/latex/Table4.tex",
       "latex_mode": "image_wrapper"
     },
@@ -345,7 +327,9 @@
       "kind": "figure",
       "label": "Fig6",
       "page": 7,
-      "caption": "Figure 6. Visual results of our DCVC-HEM and DCVC-HEM-360 for the JVET360 ChairliftRide sequence finetuned on vimeo90k or UGC360+vimeo90k with flow-guided reprojection. The first column shows the bitrate allocation with the overall bitrate, the second column shows the reconstructed frame with the overall WS-PSNR, the third and fourth columns show two exemplary viewports with their allocated number of bits and corresponding viewport PSNR.",
+      "caption": "Figure6.VisualresultsofourDCVC-HEMandDCVC-HEM-360fortheJVET360ChairliftRidesequencefinetunedonvimeo90kor UGC360+vimeo90kwithflow-guidedreprojection.Thefirstcolumnshowsthebitrateallocationwiththeoverallbitrate,thesecond column shows the reconstructed frame with the overall WS-PSNR, the third and fourth columns show two exemplary viewports with their allocated number of bits and corresponding viewport PSNR.",
+      "caption_en": "Figure6.VisualresultsofourDCVC-HEMandDCVC-HEM-360fortheJVET360ChairliftRidesequencefinetunedonvimeo90kor UGC360+vimeo90kwithflow-guidedreprojection.Thefirstcolumnshowsthebitrateallocationwiththeoverallbitrate,thesecond column shows the reconstructed frame with the overall WS-PSNR, the third and fourth columns show two exemplary viewports with their allocated number of bits and corresponding viewport PSNR.",
+      "caption_zh": "",
       "caption_bbox": [
         58.5,
         365.823,
@@ -353,37 +337,43 @@
         407.825
       ],
       "content_bbox": [
-        58.762,
+        81.091,
         94.168,
         551.837,
         350.0
       ],
       "crop_bbox": [
-        58.762,
+        81.091,
         94.168,
         551.837,
-        410.825
+        350.0
       ],
       "original": "figures/original/Fig6_p007.png",
       "vector": [
-        "figures/vector/Fig6/Fig6.svg"
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
       ],
-      "vector_mode": "existing_svg_only",
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
       "vector_exit_code": 0,
-      "vector_log_tail": "existing output reused",
-      "vector_qa": []
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig6\\Fig6.svg (1884x1024 -> 1884x1024 px, scale 1.0, 28752 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  72.5% 画面  (10.00 x 5.44 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4969987 px\n"
+        }
+      ]
     }
   ],
   "notes": [
     "Coordinates use PDF points and page indexes start at 0.",
-    "Original crops retain the caption for auditability.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
     "LaTeX tables generated by tools/build_latex_tables.py."
   ],
   "vectorized": [
     {
       "label": "Fig1",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig1/Fig1.svg",
@@ -391,9 +381,19 @@
       ]
     },
     {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
       "label": "Fig3",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig3/Fig3.svg",
@@ -403,7 +403,7 @@
     {
       "label": "Fig4",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig4/Fig4.svg",
@@ -413,7 +413,7 @@
     {
       "label": "Fig5",
       "kind": "figure",
-      "mode": "existing",
+      "mode": "pdf_vector",
       "exit_code": 0,
       "files": [
         "figures/vector/Fig5/Fig5.svg",
@@ -423,68 +423,12 @@
     {
       "label": "Fig6",
       "kind": "figure",
-      "mode": "existing_svg_only",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
       "exit_code": 0,
       "files": [
-        "figures/vector/Fig6/Fig6.svg"
-      ]
-    },
-    {
-      "label": "Table1",
-      "kind": "table",
-      "mode": "existing",
-      "exit_code": 0,
-      "files": [
-        "tables/vector/Table1/Table1.svg",
-        "tables/vector/Table1/Table1.pptx"
-      ]
-    },
-    {
-      "label": "Table2",
-      "kind": "table",
-      "mode": "existing",
-      "exit_code": 0,
-      "files": [
-        "tables/vector/Table2/Table2.svg",
-        "tables/vector/Table2/Table2.pptx"
-      ]
-    },
-    {
-      "label": "Table3",
-      "kind": "table",
-      "mode": "existing",
-      "exit_code": 0,
-      "files": [
-        "tables/vector/Table3/Table3.svg",
-        "tables/vector/Table3/Table3.pptx"
-      ]
-    },
-    {
-      "label": "Table4",
-      "kind": "table",
-      "mode": "existing",
-      "exit_code": 0,
-      "files": [
-        "tables/vector/Table4/Table4.svg",
-        "tables/vector/Table4/Table4.pptx"
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
       ]
     }
-  ],
-  "metadata": {
-    "title": "Beyond Perspective: Neural 360-Degree Video Compression",
-    "year": 2025,
-    "venue": "ICCV",
-    "classification": "CCF-A main conference",
-    "topic": [
-      "360-degree video compression",
-      "neural compression",
-      "spherical augmentation"
-    ],
-    "relevance": "直接面向神经360°视频压缩，报告球面特征增强和位置特征编码的低码率收益。",
-    "official_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Regensky_Beyond_Perspective_Neural_360-Degree_Video_Compression_ICCV_2025_paper.html",
-    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Regensky_Beyond_Perspective_Neural_360-Degree_Video_Compression_ICCV_2025_paper.pdf",
-    "code_url": "https://github.com/FAU-LMS/NVC360",
-    "local_slug": "BeyondPerspective_ICCV2025",
-    "access": "open_pdf"
-  }
+  ]
 }
