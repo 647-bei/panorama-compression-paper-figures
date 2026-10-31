@@ -1,6 +1,12 @@
 # GitHub Pages 部署
 
-当前目录已经是可部署的静态站点，但本地目录还不是 Git 仓库，也没有远程地址。创建一个 GitHub 仓库后，在本目录执行：
+当前目录已经连接到 GitHub 仓库 [`647-bei/panorama-compression-paper-figures`](https://github.com/647-bei/panorama-compression-paper-figures)，GitHub Pages 地址为：
+
+```text
+https://647-bei.github.io/panorama-compression-paper-figures/
+```
+
+首次迁移到其他账号或仓库时，可在本目录执行：
 
 ```powershell
 git init
@@ -11,7 +17,7 @@ git remote add origin https://github.com/<your-account>/<your-repository>.git
 git push -u origin main
 ```
 
-仓库中的 `.github/workflows/pages.yml` 会自动使用 GitHub Pages 部署。首次推送后，在 GitHub 仓库的 **Settings → Pages** 中确认 Source 使用 **GitHub Actions**。部署完成后，访问：
+仓库中的 `.github/workflows/pages.yml` 会自动使用 GitHub Pages 部署。当前仓库已经启用 **GitHub Actions** 作为 Pages 来源；以后推送到 `main` 分支就会自动重新部署。部署地址格式为：
 
 ```text
 https://<your-account>.github.io/<your-repository>/
