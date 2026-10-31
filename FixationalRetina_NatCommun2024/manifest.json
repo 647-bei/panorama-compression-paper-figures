@@ -1,0 +1,257 @@
+{
+  "paper": "FixationalRetina_NatCommun2024",
+  "pdf": "pdf/FixationalRetina_NatCommun2024.pdf",
+  "pages": 15,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Fig. 1 | Reconstruction of ﬂashed natural images from RGC spikes. a Example of macaque retinal data. Receptive ﬁeld mosaics for the major RGC types (ON parasol, OFF parasol, ON midget, OFF midget). Natural images are ﬂashed for 100 ms, and spikes recorded from all 691 cells over a 150 ms interval (gray region) were used for LNBRC model ﬁtting and reconstruction. b LNBRC encoding model. Model cell responses are computed from the spatio-temporally ﬁltered visual stimulus, com- bined with ﬁltered spike trains from the cell and neighboring cells. These ﬁltered spiking inputs capture both spike train temporal structure and cell-to-cell corre- lations. c Bayesian reconstruction. The likelihood computed using the LNBRC encoding model is combined with a separately trained natural image prior to producing a posterior density for the stimuli given observed spike trains. d Half- quadratic variable splitting algorithm for approximate MAP optimization. The method alternates between optimizing the likelihood (a convex minimization problem, solved using gradient descent), and optimizing the prior probability (by applying an artiﬁcial neural network pre-trained to perform Gaussian denoising on",
+      "caption_bbox": [
+        39.685,
+        517.98,
+        294.906,
+        664.525
+      ],
+      "content_bbox": [
+        92.68,
+        70.128,
+        508.398,
+        509.484
+      ],
+      "crop_bbox": [
+        92.68,
+        70.128,
+        508.398,
+        667.525
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg"
+      ],
+      "vector_mode": "existing_svg_only",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Fig. 2 | Reconstruction of jittered natural images from RGC spikes. a Example reconstructed image from simulated noiseless RGC responses, with an example ﬁxational drift eye movement trajectory overlaid (red). The original stimulus is from the ImageNet dataset11 and is not displayed due to copyright restrictions. b Example ON parasol cell receptive ﬁeld mosaic (left) and ON midget cell mosaic (right), with drift trajectory (red). The simulated eye movements were typically comparable to the size of a midget RGC receptive ﬁeld. c Top: comparison of spikes recorded from an ON parasol RGC over repeated presentations of the same sti- mulus (black ticks) to simulated responses of the ﬁtted LNBRC model (red ticks). Bottom: average spike rates over time corresponding to the above rasters. d Schematic of joint-LNBRC-dCNN reconstruction. The algorithm alternates between an image estimation update step (left), in which the stimulus is recon- structed using the LNBRC model and denoiser CNN image prior to maximizing the expected log-posterior over a variational distribution for eye movements, and an eye movement update step (right), in which the variational distribution for eye movements is updated given the reconstructed image. e Example reconstructions, using LNBRC encoding model and dCNN prior. Columns: Simulated noiseless reconstruction, a reconstruction of the stimulus from linear projections onto the",
+      "caption_bbox": [
+        39.685,
+        542.447,
+        294.878,
+        718.78
+      ],
+      "content_bbox": [
+        62.142,
+        58.098,
+        538.793,
+        533.814
+      ],
+      "crop_bbox": [
+        62.142,
+        58.098,
+        538.793,
+        721.78
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 13.31 in\n\n形状统计 (2460 个):\n  FREEFORM (5)                 1950\n  PICTURE (13)                 312\n  AUTO_SHAPE (1)               198\n\n矢量形状: 2148\n位图图片: 312\n  92.5% 画面  (12.43 x 13.20 in)\n  0.1% 画面  (0.71 x 0.28 in)\n  0.0% 画面  (0.14 x 0.14 in)\n  0.0% 画面  (0.14 x 0.12 in)\n  0.0% 画面  (0.13 x 0.14 in)\n  0.0% 画面  (0.10 x 0.14 in)\n  5.0% 画面  (6.63 x 1.34 in)\n  0.8% 画面  (2.22 x 0.68 in)\n  0.8% 画面  (2.22 x 0.68 in)\n  0.9% 画面  (2.23 x 0.68 in)\n  ... 共 312 张\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 11367974 x 12068141 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 5,
+      "caption": "Fig. 3 | Effects of ﬁxational drift magnitude on reconstruction quality. a Image reconstruction performance for three preparations (delineated with different col- ors) as a function of the magnitude of eye movements simulated during the stimulus presentation, for joint-LNBRC-dCNN (solid line), known-LNBRC-dCNN (dashed line), and zero-LNBRC-dCNN (dotted line). The magnitude of drift eye movements was quantiﬁed as the standard deviation in the eye position occurring during each trial. The error bars in every panel correspond to the standard error of mean recon- struction quality. In all preparations, reconstruction quality for joint-LNBRC-dCNN and known-LNBRC-dCNN increased with eye position jitter, up to (but not including) the largest eye movements evaluated. Reconstructions for zero-LNBRC-dCNN were less accurate than both known-LNBRC-dCNN and joint-LNBRC-dCNN and further decreased with increasing eye movements. b Eye position estimation error as a function of the magnitude of movement, for the same experimental preparations.",
+      "caption_bbox": [
+        39.685,
+        425.344,
+        294.904,
+        551.932
+      ],
+      "content_bbox": [
+        60.408,
+        74.421,
+        527.171,
+        416.794
+      ],
+      "crop_bbox": [
+        60.408,
+        74.421,
+        527.171,
+        554.932
+      ],
+      "original": "figures/original/Fig3_p005.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "fallback_raster_trace_svg_only",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 9.81 in\n\n形状统计 (1935 个):\n  FREEFORM (5)                 1751\n  AUTO_SHAPE (1)               184\n\n矢量形状: 1935\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 1935 draws 1729 fs 371 polys 1190 rings 184 text 0 images 0 inline 0 canvas 1948 1433\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FixationalRetina_NatCommun2024\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FixationalRetina_NatCommun2024\\figures\\vector\\Fig3\\Fig3.pptx\n\n\n[FALLBACK]\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FixationalRetina_NatCommun2024\\figures\\vector\\Fig3\\Fig3.svg (1868x1923 -> 1868x1923 px, scale 1.0, 7874 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.81 in\n\n形状统计 (1935 个):\n  FREEFORM (5)                 1751\n  AUTO_SHAPE (1)               184\n\n矢量形状: 1935\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Fig. 4 | Effects of spike timing precision on reconstruction quality. a Reconstruction performance for ﬂashed images as a function of spike timing perturbation in four experimental preparations (colors). The x-axis is plotted on a log scale, with a broken axis to facilitate comparison with temporally unperturbed data. Error bars in all panels correspond to the standard error. Performance at each level of temporal perturbation was evaluated using N = 1500, N = 1750, N = 750, and N = 750 images for the blue, black, green, and yellow preparations, respectively. Reconstruction degraded modestly up to spike time perturbations of ~10 ms. b Reconstruction performance for the ﬁxational drift stimulus. Blue and green lines correspond to their color-matched preparations in (a). The dashed and faded lines correspond to estimation with known eye movement trajectories and the solid lines to joint estimation of the image and eye trajectory. Performance at each level of temporal perturbation was evaluated using N = 1992 images for each experimental preparation. Regardless of whether the eye movement trajectories were known or jointly estimated, performance declined smoothly starting at a temporal jitter of ~2–5 ms.",
+      "caption_bbox": [
+        39.684,
+        193.388,
+        294.881,
+        349.823
+      ],
+      "content_bbox": [
+        39.685,
+        23.52,
+        561.262,
+        184.761
+      ],
+      "crop_bbox": [
+        39.685,
+        23.52,
+        561.262,
+        352.823
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.20 in\n\n形状统计 (674 个):\n  FREEFORM (5)                 541\n  AUTO_SHAPE (1)               81\n  TEXT_BOX (17)                52\n\n矢量形状: 674\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 7,
+      "caption": "Fig. 5 | Effects of coupling. a Differences in reconstruction quality between the coupled model (LNBRC) and uncoupled model (LNBR) for ﬂashed natural images. Mean differences for four preparations: 0.023, 0.024, 0.037, and 0.023 (p-values 3.7 × 10−184, 1.2 × 10−211, 8.6 × 10−122, and 8.5 × 10−111, respectively, Wilcoxon one-sided ranked sign test). For panels (a-d), the box marks the median and the inter-quartile range (IQR), while the whiskers extend to 1.5 times the IQR. Outliers are marked with a +. b Same as (a), for reconstruction with ﬁxational drift using the joint approach. Mean differences for three preparations: 0.019, 0.010, and 0.039 (p-values 3.2 × 10−218, 4.2 × 10−62, and 2.5 × 10−307, respectively). The blue and green boxes correspond to the same experimental preparations as the blue and green boxes in (a). c Differences in reconstruction quality between the unshufﬂed and shufﬂed trials for ﬂashed image reconstructions, using LNBRCs ﬁtted to unshufﬂed data. Mean differences: 7.4 × 10−3, 6.6 × 10−3, 5.1 × 10−3, and 3.4 × 10−3 (p-values 4.5 × 10−23, 5.6 × 10−12, 3.1 × 10−20, and 3.4 × 10−12, respectively), substantially smaller than those in (a). (d) Same as (c), for reconstruction with ﬁxational drift using the",
+      "caption_bbox": [
+        39.684,
+        526.119,
+        294.876,
+        672.631
+      ],
+      "content_bbox": [
+        60.469,
+        204.317,
+        537.067,
+        513.78
+      ],
+      "crop_bbox": [
+        60.469,
+        204.317,
+        537.067,
+        675.631
+      ],
+      "original": "figures/original/Fig5_p007.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg"
+      ],
+      "vector_mode": "fallback_raster_trace_svg_only",
+      "vector_exit_code": 0,
+      "vector_log_tail": "ops 2700 draws 2660 fs 161 polys 601 rings 289 text 0 images 0 inline 0 canvas 1948 1270\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FixationalRetina_NatCommun2024\\figures\\vector\\Fig5\\Fig5.svg\n\n[FALLBACK]\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FixationalRetina_NatCommun2024\\figures\\vector\\Fig5\\Fig5.svg (1908x1886 -> 1908x1886 px, scale 1.0, 10421 paths, 0 images)\n",
+      "vector_qa": []
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops retain the caption for auditability."
+  ],
+  "metadata": {
+    "title": "Fixational eye movements enhance the precision of visual information transmitted by the primate retina",
+    "year": 2024,
+    "venue": "Nature Communications",
+    "classification": "Nature Portfolio journal",
+    "topic": [
+      "retina",
+      "spike timing",
+      "micro-movements",
+      "image reconstruction"
+    ],
+    "relevance": "视网膜脉冲与微小眼漂移带来的多相位采样可启发全景低码率后的时空联合重建。",
+    "official_url": "https://www.nature.com/articles/s41467-024-52304-7",
+    "pdf_url": "https://www.nature.com/articles/s41467-024-52304-7.pdf",
+    "doi": "10.1038/s41467-024-52304-7",
+    "local_slug": "FixationalRetina_NatCommun2024",
+    "access": "open_pdf"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing_svg_only",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "fallback_raster_trace_svg_only",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "fallback_raster_trace_svg_only",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg"
+      ]
+    }
+  ]
+}

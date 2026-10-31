@@ -1,0 +1,571 @@
+{
+  "paper": "OSLO_TIP2022_arXiv",
+  "pdf": "pdf/OSLO_TIP2022_arXiv.pdf",
+  "pages": 16,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Fig. 1. In a coherent ﬁltering, the kernel is translated by keeping orientation with respect to the north pole, interpixel correlation and surface area.",
+      "caption_bbox": [
+        311.978,
+        413.015,
+        563.033,
+        430.093
+      ],
+      "content_bbox": [
+        48.964,
+        58.627,
+        563.035,
+        403.277
+      ],
+      "crop_bbox": [
+        48.964,
+        58.627,
+        563.035,
+        433.093
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.97 in\n\n形状统计 (9 个):\n  TEXT_BOX (17)                6\n  PICTURE (13)                 2\n  FREEFORM (5)                 1\n\n矢量形状: 7\n位图图片: 2\n  23.0% 画面  (5.24 x 5.24 in)\n  22.3% 画面  (5.17 x 5.17 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 4,
+      "caption": "Fig. 2. Desired sampling’s properties : (i) It should be regular such that each pixel has same number of neighbors, and we should be able to discriminate between neighboring pixels by assigning different directions to each neighbor (as shown in (a)); (ii) The sampling should be rigid (as shown in (b)) such that the distance between a speciﬁc neighbor (1 to 8) and the center pixel should be almost constant all over the sphere (e.g., d1 = d′ 1). Additionally, its relative orientation with respect to the center pixel should be constant over the sphere, (e.g., θ1 = θ′ 1). This orientation is computed with respect to the north pole.",
+      "caption_bbox": [
+        48.964,
+        197.206,
+        300.026,
+        277.049
+      ],
+      "content_bbox": [
+        51.405,
+        25.932,
+        563.041,
+        191.196
+      ],
+      "crop_bbox": [
+        51.405,
+        25.932,
+        563.041,
+        280.049
+      ],
+      "original": "figures/original/Fig2_p004.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Fig. 3. The distribution of neighboring pixels around the central pixel. Left column: ERP. Right column: HEALPix sampling. Top row: Pixel positions on the sphere when ERP and HEALPix have almost the same number of pixels with 3072 and 39×78 pixels. Bottom row: Pixel distributions on the tangent plane when ERP and HEALPix have almost the same number of pixels with 12582912 and 2508×5016 pixels. Marker × shows the central pixel, black circles represent the mean position of each neighbor. Each color corresponds to a neighbor pixel in a speciﬁc direction (SW, W, NW, N, NE, E, SE, and S) and the corresponding area’s size is set based on the standard deviation of pixel distribution in the plane tangent to the sphere at the central pixel.",
+      "caption_bbox": [
+        311.978,
+        331.926,
+        563.037,
+        420.594
+      ],
+      "content_bbox": [
+        48.964,
+        25.932,
+        563.041,
+        325.793
+      ],
+      "crop_bbox": [
+        48.964,
+        25.932,
+        563.041,
+        423.594
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 5,
+      "caption": "Fig. 4. Our spherical convolution. (a) Kernel on the sphere at different positions. Each color corresponds to a different learnable kernel weight corresponding to a different orientation. (b) Convolution operation can be seen as a message-passing scheme. (c) The same pair of pixels contribute differently depending on the position of central pixel.",
+      "caption_bbox": [
+        311.978,
+        241.293,
+        563.036,
+        285.128
+      ],
+      "content_bbox": [
+        53.819,
+        25.932,
+        563.036,
+        235.16
+      ],
+      "crop_bbox": [
+        53.819,
+        25.932,
+        563.036,
+        288.128
+      ],
+      "original": "figures/original/Fig4_p005.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.54 in\n\n形状统计 (89 个):\n  TEXT_BOX (17)                52\n  FREEFORM (5)                 34\n  PICTURE (13)                 3\n\n矢量形状: 86\n位图图片: 3\n  13.2% 画面  (3.13 x 3.13 in)\n  7.9% 画面  (3.13 x 1.87 in)\n  7.9% 画面  (3.13 x 1.87 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Fig. 5. Proposed strategy to increase the local support (here 3-hop) in spher- ical convolution. Each convl, l = 1, 2, 3 performs neighborhood aggregation for each pixel as given in (2). Finally, the last layer aggregation module combines pixel-wise the generated feature maps of the intermediate layers.",
+      "caption_bbox": [
+        311.978,
+        110.537,
+        563.037,
+        145.591
+      ],
+      "content_bbox": [
+        311.978,
+        25.932,
+        563.036,
+        108.506
+      ],
+      "crop_bbox": [
+        311.978,
+        25.932,
+        563.036,
+        148.591
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.46 in\n\n形状统计 (48 个):\n  FREEFORM (5)                 26\n  TEXT_BOX (17)                22\n\n矢量形状: 48\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 7,
+      "caption": "Fig. 6. Hierarchical pixelization of the sphere together with the nested pixel numbering scheme. (a) HEALPix base resolution. Red lines show base-pixel boundaries. (b) HEALPix ﬁrst resolution each base pixel is divided into 2 × 2 pixels. Blue lines indicate the boundaries of child pixels for base-resolution (c) HEALPix second resolution. The black lines indicate the boundaries of child pixels. The pixel indices where the center of convolution ﬁlter is placed on them to have a stride of 2 × 2 are shown in red.",
+      "caption_bbox": [
+        48.964,
+        162.631,
+        300.022,
+        224.399
+      ],
+      "content_bbox": [
+        51.405,
+        25.932,
+        563.036,
+        156.498
+      ],
+      "crop_bbox": [
+        51.405,
+        25.932,
+        563.036,
+        227.399
+      ],
+      "original": "figures/original/Fig6_p007.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 7,
+      "caption": "Fig. 7. Sub-pixel convolution on the sphere. Convolution is applied on the low-resolution sphere to produce “4n ·D” feature maps/channels (n, D ∈N). Then, the output feature maps are partitioned into D sets of 4n feature maps, and in each set, the 4n channels of the same parent pixel are organized into a speciﬁc channel of child pixels.",
+      "caption_bbox": [
+        311.978,
+        150.651,
+        563.037,
+        194.487
+      ],
+      "content_bbox": [
+        51.405,
+        25.932,
+        563.036,
+        146.541
+      ],
+      "crop_bbox": [
+        51.405,
+        25.932,
+        563.036,
+        197.487
+      ],
+      "original": "figures/original/Fig7_p007.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg"
+      ],
+      "vector_mode": "existing_svg_only",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 8,
+      "caption": "Fig. 8. Overview of the two network architectures used in our experiment [16], [17]. Q represents quantization, and AE, AD represent arithmetic encoder and arithmetic decoder, respectively.",
+      "caption_bbox": [
+        311.978,
+        233.2,
+        563.036,
+        259.103
+      ],
+      "content_bbox": [
+        318.254,
+        25.932,
+        569.202,
+        227.067
+      ],
+      "crop_bbox": [
+        318.254,
+        25.932,
+        569.202,
+        262.103
+      ],
+      "original": "figures/original/Fig8_p008.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.70 in\n\n形状统计 (128 个):\n  FREEFORM (5)                 83\n  TEXT_BOX (17)                42\n  PICTURE (13)                 3\n\n矢量形状: 125\n位图图片: 3\n  0.3% 画面  (0.62 x 0.61 in)\n  0.3% 画面  (0.62 x 0.61 in)\n  0.3% 画面  (0.62 x 0.61 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 9,
+      "caption": "Fig. 9. Equivalent architectures of [16], [17] for spherical images. Convolution parameters are denoted as: “conv hk, ↓l × N” representing a k-hop convolution (see Fig. 5), downsampled by l × number of ﬁlters. Similarly, sub-pixel convolution parameters are denoted as: “spconv hk, ↑l × N” representing a k-hop convolution, followed by upsampling of l with pixel shufﬂe transformation (see Fig. 7) × number of ﬁlters.",
+      "caption_bbox": [
+        48.964,
+        370.224,
+        563.038,
+        396.415
+      ],
+      "content_bbox": [
+        55.24,
+        55.212,
+        568.855,
+        364.28
+      ],
+      "crop_bbox": [
+        55.24,
+        55.212,
+        568.855,
+        399.415
+      ],
+      "original": "figures/original/Fig9_p009.png",
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.07 in\n\n形状统计 (434 个):\n  FREEFORM (5)                 266\n  TEXT_BOX (17)                165\n  PICTURE (13)                 3\n\n矢量形状: 431\n位图图片: 3\n  0.0% 画面  (0.21 x 0.20 in)\n  0.0% 画面  (0.21 x 0.20 in)\n  0.0% 画面  (0.21 x 0.20 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 11,
+      "caption": "Fig. 10. Rate-distortion curves aggregated over the test images. The solid, dashed, dotted, and dash-dotted lines represent OSLO implementation, 2D deep learning architectures on Equirectangular projections, Deepsphere architectures, and Equirectangular JPEG compression. Red color refers to the architecture of [17], blue color indicates [16] architecture, and green color indicates JPEG compression. (a) S-PSNR. (b) WS-PSNR.",
+      "caption_bbox": [
+        48.964,
+        350.614,
+        563.035,
+        376.516
+      ],
+      "content_bbox": [
+        60.078,
+        25.932,
+        563.036,
+        344.481
+      ],
+      "crop_bbox": [
+        60.078,
+        25.932,
+        563.036,
+        379.516
+      ],
+      "original": "figures/original/Fig10_p011.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig11",
+      "page": 12,
+      "caption": "Fig. 11. A viewport at a speciﬁc direction of spherical images compressed almost at the same rate. A zoom version of each colored rectangular region is shown on the right. (a) Equirectangular image compressed with [16] in 1980.89 KB. (b) The same image compressed with OSLO in 1920.86 KB.",
+      "caption_bbox": [
+        48.964,
+        475.023,
+        563.036,
+        491.959
+      ],
+      "content_bbox": [
+        102.114,
+        56.069,
+        513.376,
+        468.89
+      ],
+      "crop_bbox": [
+        102.114,
+        56.069,
+        513.376,
+        494.959
+      ],
+      "original": "figures/original/Fig11_p012.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig12",
+      "page": 13,
+      "caption": "Fig. 12. A viewport at a speciﬁc direction of spherical images compressed almost at the same rate. A zoom version of each colored rectangular region is shown on the right. (a) Equirectangular image compressed with [16] in 1766.94 KB. (b) The same image compressed with OSLO in 1613.62 KB.",
+      "caption_bbox": [
+        48.964,
+        602.085,
+        563.036,
+        619.021
+      ],
+      "content_bbox": [
+        102.114,
+        183.131,
+        513.376,
+        595.952
+      ],
+      "crop_bbox": [
+        102.114,
+        183.131,
+        513.376,
+        622.021
+      ],
+      "original": "figures/original/Fig12_p013.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig13",
+      "page": 14,
+      "caption": "Fig. 13. Frequency histogram for BD-rate gains of OSLO over 2D learning in ERP. Top row represents SPSNR and WSPSNR BD-rate gains for the architecture of [16]. Bottom row represents the results for [17].",
+      "caption_bbox": [
+        48.964,
+        410.4,
+        300.022,
+        436.303
+      ],
+      "content_bbox": [
+        60.686,
+        93.602,
+        567.404,
+        413.277
+      ],
+      "crop_bbox": [
+        60.686,
+        93.602,
+        567.404,
+        439.303
+      ],
+      "original": "figures/original/Fig13_p014.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig14",
+      "page": 14,
+      "caption": "Fig. 14. Rate-distortion curves of different aggregation strategies to increase the local support of convolution.",
+      "caption_bbox": [
+        48.964,
+        703.623,
+        300.022,
+        720.559
+      ],
+      "content_bbox": [
+        48.964,
+        360.776,
+        567.414,
+        689.76
+      ],
+      "crop_bbox": [
+        48.964,
+        360.776,
+        567.414,
+        723.559
+      ],
+      "original": "figures/original/Fig14_p014.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig15",
+      "page": 14,
+      "caption": "Fig. 15. Random selection of learned ﬁlters at different layers of e and s. The weight corresponding to the central pixels is not shown in the ﬁlter for better visibility. Left column represents ﬁlters learned with DeepSphere that results in isotropic ﬁlters. Right column represents the ﬁlters learned with OSLO solution. Two ﬁlters on the same row are taken from the exact same position in the architecture.",
+      "caption_bbox": [
+        311.978,
+        578.261,
+        563.037,
+        631.248
+      ],
+      "content_bbox": [
+        48.964,
+        239.877,
+        567.414,
+        575.959
+      ],
+      "crop_bbox": [
+        48.964,
+        239.877,
+        567.414,
+        634.248
+      ],
+      "original": "figures/original/Fig15_p014.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig16",
+      "page": 15,
+      "caption": "Fig. 16. Decompressed images in Mollweide projection. The zoomed versions of red, green, and blue rectangular regions are shown in the bottom row. (a) DeepSphere result stored in 2408.43 KB with 29.54 dB and 29.51 dB for SPSNR and WSPSNR respectively. (b) OSLO result stored in 936.65 KB with 40.91 dB and 41.65 dB for SPSNR and WSPSNR respectively.",
+      "caption_bbox": [
+        48.964,
+        480.936,
+        563.036,
+        506.839
+      ],
+      "content_bbox": [
+        52.451,
+        305.275,
+        563.028,
+        474.803
+      ],
+      "crop_bbox": [
+        52.451,
+        305.275,
+        563.028,
+        509.839
+      ],
+      "original": "figures/original/Fig16_p015.png",
+      "vector": []
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops retain the caption for auditability."
+  ],
+  "metadata": {
+    "title": "OSLO: On-the-Sphere Learning for Omnidirectional images and its application to 360-degree image compression",
+    "year": 2022,
+    "venue": "IEEE Transactions on Image Processing",
+    "classification": "high-impact journal; CAS zone must be checked against the target year's school list",
+    "topic": [
+      "360-degree image compression",
+      "sphere convolution",
+      "rate-distortion"
+    ],
+    "relevance": "球面卷积、球面注意力和空间上下文熵模型，适合低码率全景压缩基线。",
+    "official_url": "https://arxiv.org/abs/2107.09179",
+    "pdf_url": "https://arxiv.org/pdf/2107.09179",
+    "code_url": "https://github.com/limuhit/360-Image-Compression",
+    "local_slug": "OSLO_TIP2022_arXiv",
+    "access": "open_author_pdf"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing_svg_only",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    },
+    {
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ]
+    }
+  ]
+}

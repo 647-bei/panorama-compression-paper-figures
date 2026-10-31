@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>全景压缩恢复论文图表对比</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <h1>全景压缩恢复论文图表对比</h1>
+      <p class="subtitle">按图片位置横向对比不同论文，或按论文查看其内部图片和表格。两个排序维度可以独立调整。</p>
+      <nav class="nav">
+        <a href="index.html">对比工作台</a>
+        <a href="figures.html">图片阅读器</a>
+        <a href="tables.html">表格阅读器</a>
+        <a href="catalog.md">论文索引</a>
+        <a href="validation_report.json">验证报告</a>
+      </nav>
+      <div class="module-switch" role="tablist" aria-label="功能模块">
+        <button id="mode-browse" class="mode-tab active" type="button" role="tab" aria-selected="true">浏览/对比</button>
+        <button id="mode-download" class="mode-tab" type="button" role="tab" aria-selected="false">下载中心</button>
+      </div>
+      <div class="controls">
+        <div class="control search-control"><label for="search">搜索</label><input id="search" type="search" placeholder="论文、图号、图注、期刊或年份"></div>
+        <div class="control"><label for="kind">资料类型</label><select id="kind"><option value="figure">图片</option><option value="table">表格</option></select></div>
+        <div class="control"><label for="view">查看方式</label><select id="view"><option value="position">按图片位置对比论文</option><option value="paper">按论文浏览内部图片</option></select></div>
+        <div class="control"><label for="paper-sort">论文排序</label><select id="paper-sort"><option value="year_desc">年份：新到旧</option><option value="year_asc">年份：旧到新</option><option value="title">论文标题</option><option value="venue">期刊/会议</option></select></div>
+        <div class="control"><label for="asset-sort">图片/表格排序</label><select id="asset-sort"><option value="number_asc">编号：小到大</option><option value="number_desc">编号：大到小</option><option value="page_asc">PDF 页码</option><option value="label">标签</option></select></div>
+        <div class="control"><label for="year">年份筛选</label><select id="year"><option value="all">全部年份</option></select></div>
+        <div class="control"><label for="paper-filter">论文筛选</label><select id="paper-filter"><option value="all">全部论文</option></select></div>
+        <button class="reset" id="reset" type="button">重置筛选</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="summary-bar"><p id="summary" class="summary"></p><span id="view-label"></span></div>
+    <div id="content"></div>
+  </main>
+  <footer class="footer">原始 PNG、SVG 和 PPTX 使用本地相对路径，可直接部署到 GitHub Pages。复杂位图的 SVG 是路径描摹，文字可能不是语义可编辑文本。</footer>
+  <script src="site_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,406 @@
+{
+  "paper": "HEAL-SWIN_CVPR2024",
+  "pdf": "pdf/HEAL-SWIN_CVPR2024.pdf",
+  "pages": 11,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1. Our HEAL-SWIN model uses the nested structure of the HEALPix grid to lift the windowed self-attention of the SWIN model onto the sphere.",
+      "caption_bbox": [
+        308.862,
+        445.353,
+        545.109,
+        478.075
+      ],
+      "content_bbox": [
+        56.231,
+        105.922,
+        543.353,
+        438.183
+      ],
+      "crop_bbox": [
+        56.231,
+        105.922,
+        543.353,
+        481.075
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.13 in\n\n形状统计 (41 个):\n  TEXT_BOX (17)                27\n  FREEFORM (5)                 8\n  PICTURE (13)                 6\n\n矢量形状: 35\n位图图片: 6\n  2.9% 画面  (2.86 x 1.23 in)\n  2.9% 画面  (2.86 x 1.23 in)\n  2.9% 画面  (2.86 x 1.23 in)\n  2.8% 画面  (1.85 x 1.85 in)\n  2.8% 画面  (1.85 x 1.85 in)\n  2.8% 画面  (1.85 x 1.83 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 1,
+      "caption": "Figure 2. Chamfer distance (lower is better) and mIoU (higher is better) for HEAL-SWIN (HS) and SWIN (S). Details are provided in Section 4.3 and in Section 4.1.2.",
+      "caption_bbox": [
+        308.862,
+        173.798,
+        545.109,
+        206.521
+      ],
+      "content_bbox": [
+        318.09,
+        75.458,
+        528.37,
+        163.523
+      ],
+      "crop_bbox": [
+        318.09,
+        75.458,
+        528.37,
+        209.521
+      ],
+      "original": "figures/original/Fig2_p001.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure 3. Grid shifting scheme for window size 16: The windows before the shift are framed in red and the patches are numbered in the nested scheme. After a shift by half a window size, the patches are divided into the windows framed in blue, so that e.g. patch 0 becomes patch 12 after the shift. The hashed regions are masked in the attention layer. The patches hashed horizontally correspond to the pixels marked in yellow in Figure 4 (left). They are filled with patches hashed vertically which correspond to the pixels lost in the center of Figure 4 (left).",
+      "caption_bbox": [
+        50.112,
+        199.083,
+        286.359,
+        297.558
+      ],
+      "content_bbox": [
+        121.506,
+        72.419,
+        214.964,
+        189.192
+      ],
+      "crop_bbox": [
+        121.506,
+        72.419,
+        214.964,
+        300.558
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure 4. Grid (left) and spiral (right) shifting strategies for the HEAL-SWIN transformer, projected onto the plane for visualiza- tion. The grid lines outline the eight base pixels used for this dataset, arrows indicate the directions in which pixels move. High- lighted regions are masked in the attention layers. Note that in grid shifting, pixels at boundaries of colliding base pixels are moved to the outer edge. In ring shifting, distortions are introduced towards the pole (center). For better visibility, the amount of shifting in these images is exaggerated.",
+      "caption_bbox": [
+        50.112,
+        149.72,
+        286.359,
+        248.196
+      ],
+      "content_bbox": [
+        53.593,
+        71.999,
+        545.115,
+        140.371
+      ],
+      "crop_bbox": [
+        53.593,
+        71.999,
+        545.115,
+        251.196
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table 1. Mean intersection over union on the sphere for seman- tic segmentation of fisheye street scenes with HEAL-SWIN and SWIN, averaged over three runs.",
+      "caption_bbox": [
+        50.112,
+        71.386,
+        286.359,
+        104.109
+      ],
+      "content_bbox": [
+        50.112,
+        117.588,
+        286.365,
+        427.049
+      ],
+      "crop_bbox": [
+        50.112,
+        68.386,
+        286.365,
+        427.049
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [
+        "tables/vector/Table1/Table1.svg",
+        "tables/vector/Table1/Table1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 17.43 in\n\n形状统计 (19 个):\n  TEXT_BOX (17)                15\n  FREEFORM (5)                 4\n\n矢量形状: 19\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Figure 5. Example of segmentation using SWIN (left) and HEAL- SWIN (right) on the Woodscape dataset of real automotive images. Overlays correspond to predicted segmentation masks. The pedes- trian (overlayed in red) is only recognized by HEAL-SWIN.",
+      "caption_bbox": [
+        308.862,
+        164.04,
+        545.109,
+        207.722
+      ],
+      "content_bbox": [
+        50.112,
+        71.386,
+        525.981,
+        158.505
+      ],
+      "crop_bbox": [
+        50.112,
+        71.386,
+        525.981,
+        210.722
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table 2. Inference times for semantic segmentation models on a single A40 GPU. Measurements are taken from first to last model operation in a forward pass with an input tensor of batch size one available on the GPU. Mean and standard deviation over 200 iter- ations with 10 iteration warm-up.",
+      "caption_bbox": [
+        50.112,
+        71.386,
+        286.359,
+        126.027
+      ],
+      "content_bbox": [
+        50.112,
+        139.506,
+        286.366,
+        443.986
+      ],
+      "crop_bbox": [
+        50.112,
+        68.386,
+        286.366,
+        443.986
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [
+        "tables/vector/Table2/Table2.svg",
+        "tables/vector/Table2/Table2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 17.15 in\n\n形状统计 (63 个):\n  TEXT_BOX (17)                61\n  FREEFORM (5)                 2\n\n矢量形状: 63\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Figure 6. Semantic Segmentation for varying training set sizes. Performance is measured as the mean intersection over union (higher is better) computed on the HEALPix grid (spherical mIoU).",
+      "caption_bbox": [
+        308.862,
+        200.735,
+        545.109,
+        244.417
+      ],
+      "content_bbox": [
+        50.112,
+        71.386,
+        509.683,
+        191.386
+      ],
+      "crop_bbox": [
+        50.112,
+        71.386,
+        509.683,
+        247.417
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.56 in\n\n形状统计 (92 个):\n  TEXT_BOX (17)                67\n  FREEFORM (5)                 25\n\n矢量形状: 92\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table 3. Performance of spherical models on the Stanford 2D-3D segmentation task of indoor fisheye images evaluated using the official three-fold cross-validation.",
+      "caption_bbox": [
+        308.862,
+        257.01,
+        545.109,
+        289.733
+      ],
+      "content_bbox": [
+        308.862,
+        303.212,
+        545.117,
+        614.211
+      ],
+      "crop_bbox": [
+        308.862,
+        254.01,
+        545.117,
+        614.211
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [
+        "tables/vector/Table3/Table3.svg",
+        "tables/vector/Table3/Table3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 17.52 in\n\n形状统计 (35 个):\n  TEXT_BOX (17)                33\n  FREEFORM (5)                 2\n\n矢量形状: 35\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 7,
+      "caption": "Figure 7. Depth-map ground truth for the image in Appendix Fig- ure 8 (left) and corresponding point cloud (right). The red arrow indicates the orientation of the camera.",
+      "caption_bbox": [
+        50.112,
+        173.04,
+        286.359,
+        205.762
+      ],
+      "content_bbox": [
+        50.112,
+        67.356,
+        403.487,
+        168.339
+      ],
+      "crop_bbox": [
+        50.112,
+        67.356,
+        403.487,
+        208.762
+      ],
+      "original": "figures/original/Fig7_p007.png",
+      "vector": []
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops retain the caption for auditability.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "title": "HEAL-SWIN: A Vision Transformer On The Sphere",
+    "year": 2024,
+    "venue": "CVPR",
+    "classification": "CCF-A main conference",
+    "topic": [
+      "HEALPix",
+      "spherical grid",
+      "window attention"
+    ],
+    "relevance": "等面积球面网格和球面窗口注意力可迁移到ERP压缩恢复的采样和特征聚合。",
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Carlsson_HEAL-SWIN_A_Vision_Transformer_On_The_Sphere_CVPR_2024_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Carlsson_HEAL-SWIN_A_Vision_Transformer_On_The_Sphere_CVPR_2024_paper.pdf",
+    "local_slug": "HEAL-SWIN_CVPR2024",
+    "access": "open_pdf"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Table1",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table1/Table1.svg",
+        "tables/vector/Table1/Table1.pptx"
+      ]
+    },
+    {
+      "label": "Table2",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table2/Table2.svg",
+        "tables/vector/Table2/Table2.pptx"
+      ]
+    },
+    {
+      "label": "Table3",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table3/Table3.svg",
+        "tables/vector/Table3/Table3.pptx"
+      ]
+    }
+  ]
+}

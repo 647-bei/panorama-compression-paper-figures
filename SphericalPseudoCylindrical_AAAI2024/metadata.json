@@ -1,0 +1,17 @@
+{
+  "title": "Spherical Pseudo-Cylindrical Representation for Omnidirectional Image Super-resolution",
+  "year": 2024,
+  "venue": "AAAI",
+  "classification": "CCF-A main conference",
+  "topic": [
+    "spherical sampling",
+    "omnidirectional image",
+    "super-resolution"
+  ],
+  "relevance": "用球面伪柱面表示缓解ERP采样密度不均匀和纬度失真；官方页面可核验，当前目录仅保留元数据。",
+  "official_url": "https://ojs.aaai.org/index.php/AAAI/article/view/27846",
+  "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/27846/27718",
+  "doi": "10.1609/aaai.v38i2.27846",
+  "local_slug": "SphericalPseudoCylindrical_AAAI2024",
+  "access": "metadata_only_pdf_route_blocked"
+}

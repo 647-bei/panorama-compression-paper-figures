@@ -1,0 +1,23 @@
+% Auto-extracted table snippet; requires \usepackage{booktabs}.
+% Caption: Table 9: Special functions
+\begin{tabular}{lllllll}
+\toprule
+Name & scipy.special API & Minimal KAN shape test RMSE < 10−2 & Minimal KAN test RMSE & Best KAN shape & Best KAN test RMSE & MLP test RMSE \\
+\midrule
+Jacobian elliptic functions & ellipj(x, y) & [2,2,1] & 7.29 × 10−3 & [2,3,2,1,1,1] & 1.33 × 10−4 & 6.48 × 10−4 \\
+Incomplete elliptic integral of the first kind & ellipkinc(x, y) & [2,2,1,1] & 1.00 × 10−3 & [2,2,1,1,1] & 1.24 × 10−4 & 5.52 × 10−4 \\
+Incomplete elliptic integral of the second kind & ellipeinc(x, y) & [2,2,1,1] & 8.36 × 10−5 & [2,2,1,1] & 8.26 × 10−5 & 3.04 × 10−4 \\
+Bessel function of the first kind & jv(x, y) & [2,2,1] & 4.93 × 10−3 & [2,3,1,1,1] & 1.64 × 10−3 & 5.52 × 10−3 \\
+Bessel function of the second kind & yv(x, y) & [2,3,1] & 1.89 × 10−3 & [2,2,2,1] & 1.49 × 10−5 & 3.45 × 10−4 \\
+Modified Bessel function of the second kind & kv(x, y) & [2,1,1] & 4.89 × 10−3 & [2,2,1] & 2.52 × 10−5 & 1.67 × 10−4 \\
+Modified Bessel function of the first kind & iv(x, y) & [2,4,3,2,1,1] & 9.28 × 10−3 & [2,4,3,2,1,1] & 9.28 × 10−3 & 1.07 × 10−2 \\
+Associated Legendre function (m = 0) & lpmv(0, x, y) & [2,2,1] & 5.25 × 10−5 & [2,2,1] & 5.25 × 10−5 & 1.74 × 10−2 \\
+Associated Legendre function (m = 1) & lpmv(1, x, y) & [2,4,1] & 6.90 × 10−4 & [2,4,1] & 6.90 × 10−4 & 1.50 × 10−3 \\
+Associated Legendre function (m = 2) & lpmv(2, x, y) & [2,2,1] & 4.88 × 10−3 & [2,3,2,1] & 2.26 × 10−4 & 9.43 × 10−4 \\
+spherical harmonics (m = 0, n = 1) & sph\_harm(0, 1, x, y) & [2,1,1] & 2.21 × 10−7 & [2,1,1] & 2.21 × 10−7 & 1.25 × 10−6 \\
+spherical harmonics (m = 1, n = 1) & sph\_harm(1, 1, x, y) & [2,2,1] & 7.86 × 10−4 & [2,3,2,1] & 1.22 × 10−4 & 6.70 × 10−4 \\
+spherical harmonics (m = 0, n = 2) & sph\_harm(0, 2, x, y) & [2,1,1] & 1.95 × 10−7 & [2,1,1] & 1.95 × 10−7 & 2.85 × 10−6 \\
+spherical harmonics (m = 1, n = 2) & sph\_harm(1, 2, x, y) & [2,2,1] & 4.70 × 10−4 & [2,2,1,1] & 1.50 × 10−5 & 1.84 × 10−3 \\
+spherical harmonics (m = 2, n = 2) & sph\_harm(2, 2, x, y) & [2,2,1] & 1.12 × 10−3 & [2,2,3,2,1] & 9.45 × 10−5 & 6.21 × 10−4 \\
+\bottomrule
+\end{tabular}

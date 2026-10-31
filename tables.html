@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>全景压缩恢复论文表格阅读器</title>
+<style>
+      :root { color-scheme: light; --ink:#17202a; --muted:#5f6b76; --line:#d9e0e6; --accent:#165d8d; --soft:#f5f8fa; }
+      * { box-sizing:border-box; }
+      body { margin:0; color:var(--ink); background:#fff; font-family:Segoe UI,Microsoft YaHei,Arial,sans-serif; }
+      header { position:sticky; top:0; z-index:5; background:rgba(255,255,255,.96); border-bottom:1px solid var(--line); padding:18px clamp(18px,4vw,56px) 14px; }
+      h1 { margin:0 0 6px; font-size:26px; line-height:1.2; }
+      .sub { color:var(--muted); font-size:14px; }
+      nav { display:flex; gap:10px; margin-top:14px; flex-wrap:wrap; }
+      nav a, .link { color:var(--accent); text-decoration:none; border:1px solid #b9ccda; background:#f7fbfe; padding:7px 11px; border-radius:5px; font-size:13px; }
+      nav a:hover, .link:hover { background:#eaf4fa; }
+      .toolbar { display:flex; gap:10px; align-items:center; margin-top:14px; flex-wrap:wrap; }
+      input { flex:1 1 320px; min-height:38px; border:1px solid #b9c4cc; border-radius:5px; padding:0 12px; font-size:14px; }
+      select { min-height:38px; border:1px solid #b9c4cc; border-radius:5px; padding:0 10px; background:#fff; }
+      main { padding:26px clamp(18px,4vw,56px) 60px; max-width:1800px; margin:auto; }
+      .summary { color:var(--muted); margin:0 0 18px; font-size:14px; }
+      .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:18px; align-items:start; }
+      article { border:1px solid var(--line); border-radius:7px; overflow:hidden; background:#fff; box-shadow:0 2px 10px rgba(25,45,60,.06); }
+      .media { background:var(--soft); border-bottom:1px solid var(--line); padding:10px; text-align:center; }
+      .media img { display:block; width:100%; max-height:720px; object-fit:contain; background:#fff; }
+      .body { padding:14px 15px 16px; }
+      .paper { font-size:13px; font-weight:650; color:var(--accent); margin-bottom:5px; }
+      h2 { font-size:17px; line-height:1.35; margin:0 0 8px; }
+      .meta { color:var(--muted); font-size:12px; line-height:1.5; margin-bottom:10px; }
+      .caption { font-size:13px; line-height:1.55; white-space:pre-wrap; }
+      .actions { display:flex; gap:8px; flex-wrap:wrap; margin-top:13px; }
+      details { margin-top:12px; border-top:1px solid var(--line); padding-top:10px; }
+      summary { cursor:pointer; color:var(--accent); font-size:13px; }
+      .vectors { display:flex; gap:8px; flex-wrap:wrap; margin-top:9px; }
+      .empty { padding:30px; border:1px dashed var(--line); color:var(--muted); text-align:center; }
+      .hidden { display:none !important; }
+      footer { border-top:1px solid var(--line); color:var(--muted); padding:18px clamp(18px,4vw,56px) 30px; font-size:12px; }
+      @media (max-width:600px) { h1 { font-size:22px; } .grid { grid-template-columns:1fr; } header { position:static; } }
+    </style></head>
+<body><header><h1>全景压缩恢复论文表格阅读器</h1><div class="sub">离线阅读 · 原始裁切、图注、页码和矢量文件均来自本目录 manifest</div>
+<nav><a href="index.html">资料首页</a><a href="figures.html">图片阅读器</a><a href="tables.html">表格阅读器</a><a href="catalog.md">论文索引</a></nav>
+<div class="toolbar"><input id="search" type="search" placeholder="搜索论文、图表编号或图注"><select id="paper"><option value="">全部论文</option></select><select id="sort"><option value="paper">按论文排序</option><option value="label">按编号排序</option></select></div></header>
+<main><p id="summary" class="summary"></p><div id="grid" class="grid"><article data-index="0" data-search="beyond perspective: neural 360-degree video compression beyondperspective_iccv2025 table1 table 1. ugc360 dataset subsets. subsets split the overall dataset into smaller parts based on their resolution to ease data handling.">
+          <div class="media"><img loading="lazy" src="BeyondPerspective_ICCV2025/tables/original/Table1_p002.png" alt="Table1 Beyond Perspective: Neural 360-Degree Video Compression"></div>
+          <div class="body">
+            <div class="paper">BeyondPerspective_ICCV2025</div>
+            <h2>Table1 · Beyond Perspective: Neural 360-Degree Video Compression</h2>
+            <div class="meta">ICCV 2025 · PDF 第 3 页（页索引 2）<br>CCF-A main conference</div>
+            <div class="caption">Table 1. UGC360 dataset subsets. Subsets split the overall dataset into smaller parts based on their resolution to ease data handling.</div>
+            <div class="actions"><a class="link" href="BeyondPerspective_ICCV2025/tables/original/Table1_p002.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="BeyondPerspective_ICCV2025/tables/vector/Table1/Table1.svg" target="_blank">打开 SVG</a><a class="link" href="BeyondPerspective_ICCV2025/tables/vector/Table1/Table1.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="1" data-search="beyond perspective: neural 360-degree video compression beyondperspective_iccv2025 table2 table 2. bd-rate (%) in yuv color space with respect to the baseline dcvc-hem finetuned on vimeo90k. different models and training configurations. ws-psnr used as quality metric for the 360-degree jvet360 dataset, psnr for the remaining perspective datasets. column average shows the average bd-rate over all perspective dataset sequences. highest rate savings for each dataset are marked bold.">
+          <div class="media"><img loading="lazy" src="BeyondPerspective_ICCV2025/tables/original/Table2_p005.png" alt="Table2 Beyond Perspective: Neural 360-Degree Video Compression"></div>
+          <div class="body">
+            <div class="paper">BeyondPerspective_ICCV2025</div>
+            <h2>Table2 · Beyond Perspective: Neural 360-Degree Video Compression</h2>
+            <div class="meta">ICCV 2025 · PDF 第 6 页（页索引 5）<br>CCF-A main conference</div>
+            <div class="caption">Table 2. BD-Rate (%) in YUV color space with respect to the baseline DCVC-HEM finetuned on vimeo90k. Different models and training configurations. WS-PSNR used as quality metric for the 360-degree JVET360 dataset, PSNR for the remaining perspective datasets. Column Average shows the average BD-Rate over all perspective dataset sequences. Highest rate savings for each dataset are marked bold.</div>
+            <div class="actions"><a class="link" href="BeyondPerspective_ICCV2025/tables/original/Table2_p005.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="BeyondPerspective_ICCV2025/tables/vector/Table2/Table2.svg" target="_blank">打开 SVG</a><a class="link" href="BeyondPerspective_ICCV2025/tables/vector/Table2/Table2.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="2" data-search="beyond perspective: neural 360-degree video compression beyondperspective_iccv2025 table3 table 3. ablation study investigating flow-guided reprojection. bd-rate (%) in yuv color space with respect to default config- uration ta for each model individually. all instances trained on ugc360+vimeo90k.">
+          <div class="media"><img loading="lazy" src="BeyondPerspective_ICCV2025/tables/original/Table3_p006.png" alt="Table3 Beyond Perspective: Neural 360-Degree Video Compression"></div>
+          <div class="body">
+            <div class="paper">BeyondPerspective_ICCV2025</div>
+            <h2>Table3 · Beyond Perspective: Neural 360-Degree Video Compression</h2>
+            <div class="meta">ICCV 2025 · PDF 第 7 页（页索引 6）<br>CCF-A main conference</div>
+            <div class="caption">Table 3. Ablation study investigating flow-guided reprojection. BD-Rate (%) in YUV color space with respect to default config- uration TA for each model individually. All instances trained on UGC360+vimeo90k.</div>
+            <div class="actions"><a class="link" href="BeyondPerspective_ICCV2025/tables/original/Table3_p006.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="BeyondPerspective_ICCV2025/tables/vector/Table3/Table3.svg" target="_blank">打开 SVG</a><a class="link" href="BeyondPerspective_ICCV2025/tables/vector/Table3/Table3.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="3" data-search="beyond perspective: neural 360-degree video compression beyondperspective_iccv2025 table4 table 4. per-frame complexity metrics for the default dcvc- hem and dcvc-hem-360 with positional feature encoding.">
+          <div class="media"><img loading="lazy" src="BeyondPerspective_ICCV2025/tables/original/Table4_p006.png" alt="Table4 Beyond Perspective: Neural 360-Degree Video Compression"></div>
+          <div class="body">
+            <div class="paper">BeyondPerspective_ICCV2025</div>
+            <h2>Table4 · Beyond Perspective: Neural 360-Degree Video Compression</h2>
+            <div class="meta">ICCV 2025 · PDF 第 7 页（页索引 6）<br>CCF-A main conference</div>
+            <div class="caption">Table 4. Per-frame complexity metrics for the default DCVC- HEM and DCVC-HEM-360 with positional feature encoding.</div>
+            <div class="actions"><a class="link" href="BeyondPerspective_ICCV2025/tables/original/Table4_p006.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="BeyondPerspective_ICCV2025/tables/vector/Table4/Table4.svg" target="_blank">打开 SVG</a><a class="link" href="BeyondPerspective_ICCV2025/tables/vector/Table4/Table4.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="4" data-search="compression-aware one-step diffusion model for jpeg artifact removal codiff_iccv2025 table2 table 2. complexity comparison among diffusion-based methods. input image size is 1,024×1,024 for inference.">
+          <div class="media"><img loading="lazy" src="CODiff_ICCV2025/tables/original/Table2_p007.png" alt="Table2 Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal"></div>
+          <div class="body">
+            <div class="paper">CODiff_ICCV2025</div>
+            <h2>Table2 · Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal</h2>
+            <div class="meta">ICCV 2025 · PDF 第 8 页（页索引 7）<br>CCF-A main conference</div>
+            <div class="caption">Table 2. Complexity comparison among diffusion-based methods. Input image size is 1,024×1,024 for inference.</div>
+            <div class="actions"><a class="link" href="CODiff_ICCV2025/tables/original/Table2_p007.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="CODiff_ICCV2025/tables/vector/Table2/Table2.svg" target="_blank">打开 SVG</a><a class="link" href="CODiff_ICCV2025/tables/vector/Table2/Table2.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="5" data-search="compression-aware one-step diffusion model for jpeg artifact removal codiff_iccv2025 table3 table 3. ablation study of prompt embedding generation on live-1 and div2k-val datasets. the best and second best re- sults are colored with red and blue, respectively.">
+          <div class="media"><img loading="lazy" src="CODiff_ICCV2025/tables/original/Table3_p007.png" alt="Table3 Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal"></div>
+          <div class="body">
+            <div class="paper">CODiff_ICCV2025</div>
+            <h2>Table3 · Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal</h2>
+            <div class="meta">ICCV 2025 · PDF 第 8 页（页索引 7）<br>CCF-A main conference</div>
+            <div class="caption">Table 3. Ablation study of prompt embedding generation on LIVE-1 and DIV2K-val datasets. The best and second best re- sults are colored with red and blue, respectively.</div>
+            <div class="actions"><a class="link" href="CODiff_ICCV2025/tables/original/Table3_p007.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="CODiff_ICCV2025/tables/vector/Table3/Table3.svg" target="_blank">打开 SVG</a><a class="link" href="CODiff_ICCV2025/tables/vector/Table3/Table3.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="6" data-search="compression-aware one-step diffusion model for jpeg artifact removal codiff_iccv2025 table7 table 7. ablation study of the dual learning strategy. the best and second best results are colored with red and blue, respectively.">
+          <div class="media"><img loading="lazy" src="CODiff_ICCV2025/tables/original/Table7_p007.png" alt="Table7 Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal"></div>
+          <div class="body">
+            <div class="paper">CODiff_ICCV2025</div>
+            <h2>Table7 · Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal</h2>
+            <div class="meta">ICCV 2025 · PDF 第 8 页（页索引 7）<br>CCF-A main conference</div>
+            <div class="caption">Table 7. Ablation study of the dual learning strategy. The best and second best results are colored with red and blue, respectively.</div>
+            <div class="actions"><a class="link" href="CODiff_ICCV2025/tables/original/Table7_p007.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="CODiff_ICCV2025/tables/vector/Table7/Table7.svg" target="_blank">打开 SVG</a><a class="link" href="CODiff_ICCV2025/tables/vector/Table7/Table7.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="7" data-search="compression-aware one-step diffusion model for jpeg artifact removal codiff_iccv2025 table8 table 8. ablation studies on different loss functions. the best and second best results are colored with red and blue, respectively.">
+          <div class="media"><img loading="lazy" src="CODiff_ICCV2025/tables/original/Table8_p007.png" alt="Table8 Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal"></div>
+          <div class="body">
+            <div class="paper">CODiff_ICCV2025</div>
+            <h2>Table8 · Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal</h2>
+            <div class="meta">ICCV 2025 · PDF 第 8 页（页索引 7）<br>CCF-A main conference</div>
+            <div class="caption">Table 8. Ablation studies on different loss functions. The best and second best results are colored with red and blue, respectively.</div>
+            <div class="actions"><a class="link" href="CODiff_ICCV2025/tables/original/Table8_p007.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="CODiff_ICCV2025/tables/vector/Table8/Table8.svg" target="_blank">打开 SVG</a><a class="link" href="CODiff_ICCV2025/tables/vector/Table8/Table8.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="8" data-search="high-performance deep spiking neural networks with 0.3 spikes per neuron deepsnn_0p3spikes_nc2024 table1 table 1 | performance after training an snn using the b1-model (ours), compared to trained relu networks and snn baselines">
+          <div class="media"><img loading="lazy" src="DeepSNN_0p3Spikes_NC2024/tables/original/Table1_p005.png" alt="Table1 High-performance deep spiking neural networks with 0.3 spikes per neuron"></div>
+          <div class="body">
+            <div class="paper">DeepSNN_0p3Spikes_NC2024</div>
+            <h2>Table1 · High-performance deep spiking neural networks with 0.3 spikes per neuron</h2>
+            <div class="meta">Nature Communications 2024 · PDF 第 6 页（页索引 5）<br>Nature Portfolio journal</div>
+            <div class="caption">Table 1 | Performance after training an SNN using the B1-model (ours), compared to trained ReLU networks and SNN baselines</div>
+            <div class="actions"><a class="link" href="DeepSNN_0p3Spikes_NC2024/tables/original/Table1_p005.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="DeepSNN_0p3Spikes_NC2024/tables/vector/Table1/Table1.svg" target="_blank">打开 SVG</a><a class="link" href="DeepSNN_0p3Spikes_NC2024/tables/vector/Table1/Table1.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="9" data-search="high-performance deep spiking neural networks with 0.3 spikes per neuron deepsnn_0p3spikes_nc2024 table2 table 2 | test accuracy and spiking sparsity for a vgg16 architecture">
+          <div class="media"><img loading="lazy" src="DeepSNN_0p3Spikes_NC2024/tables/original/Table2_p006.png" alt="Table2 High-performance deep spiking neural networks with 0.3 spikes per neuron"></div>
+          <div class="body">
+            <div class="paper">DeepSNN_0p3Spikes_NC2024</div>
+            <h2>Table2 · High-performance deep spiking neural networks with 0.3 spikes per neuron</h2>
+            <div class="meta">Nature Communications 2024 · PDF 第 7 页（页索引 6）<br>Nature Portfolio journal</div>
+            <div class="caption">Table 2 | Test accuracy and spiking sparsity for a VGG16 architecture</div>
+            <div class="actions"><a class="link" href="DeepSNN_0p3Spikes_NC2024/tables/original/Table2_p006.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="DeepSNN_0p3Spikes_NC2024/tables/vector/Table2/Table2.svg" target="_blank">打开 SVG</a><a class="link" href="DeepSNN_0p3Spikes_NC2024/tables/vector/Table2/Table2.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="10" data-search="dinn360: deformable invertible neural network for latitude-aware 360deg image rescaling dinn360_cvpr2023 table1 table 1. results of ws-psnr / ws-ssim (×10−2) on the rescaled hr images of our dinn360 and compared methods over four datasets. the best results are in bold and the underline scores represent the second-best results.">
+          <div class="media"><img loading="lazy" src="DINN360_CVPR2023/tables/original/Table1_p006.png" alt="Table1 DINN360: Deformable Invertible Neural Network for Latitude-Aware 360deg Image Rescaling"></div>
+          <div class="body">
+            <div class="paper">DINN360_CVPR2023</div>
+            <h2>Table1 · DINN360: Deformable Invertible Neural Network for Latitude-Aware 360deg Image Rescaling</h2>
+            <div class="meta">CVPR 2023 · PDF 第 7 页（页索引 6）<br>CCF-A main conference</div>
+            <div class="caption">Table 1. Results of WS-PSNR / WS-SSIM (×10−2) on the rescaled HR images of our DINN360 and compared methods over four datasets. The best results are in bold and the underline scores represent the second-best results.</div>
+            <div class="actions"><a class="link" href="DINN360_CVPR2023/tables/original/Table1_p006.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="DINN360_CVPR2023/tables/vector/Table1/Table1.svg" target="_blank">打开 SVG</a><a class="link" href="DINN360_CVPR2023/tables/vector/Table1/Table1.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="11" data-search="dinn360: deformable invertible neural network for latitude-aware 360deg image rescaling dinn360_cvpr2023 table2 table 2. results of ws-psnr and ws-ssim (×10−2) in ablation experiments for 4× image rescaling on odisr dataset.">
+          <div class="media"><img loading="lazy" src="DINN360_CVPR2023/tables/original/Table2_p007.png" alt="Table2 DINN360: Deformable Invertible Neural Network for Latitude-Aware 360deg Image Rescaling"></div>
+          <div class="body">
+            <div class="paper">DINN360_CVPR2023</div>
+            <h2>Table2 · DINN360: Deformable Invertible Neural Network for Latitude-Aware 360deg Image Rescaling</h2>
+            <div class="meta">CVPR 2023 · PDF 第 8 页（页索引 7）<br>CCF-A main conference</div>
+            <div class="caption">Table 2. Results of WS-PSNR and WS-SSIM (×10−2) in ablation experiments for 4× image rescaling on ODISR dataset.</div>
+            <div class="actions"><a class="link" href="DINN360_CVPR2023/tables/original/Table2_p007.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="DINN360_CVPR2023/tables/vector/Table2/Table2.svg" target="_blank">打开 SVG</a><a class="link" href="DINN360_CVPR2023/tables/vector/Table2/Table2.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="12" data-search="exploiting neuro-inspired dynamic sparsity for energy-efficient intelligent perception dynamicsparsity_natcommun2025 table1 table 1 | limitations and opportunities for dynamically sparse perception systems">
+          <div class="media"><img loading="lazy" src="DynamicSparsity_NatCommun2025/tables/original/Table1_p008.png" alt="Table1 Exploiting neuro-inspired dynamic sparsity for energy-efficient intelligent perception"></div>
+          <div class="body">
+            <div class="paper">DynamicSparsity_NatCommun2025</div>
+            <h2>Table1 · Exploiting neuro-inspired dynamic sparsity for energy-efficient intelligent perception</h2>
+            <div class="meta">Nature Communications 2025 · PDF 第 9 页（页索引 8）<br>Nature Portfolio Perspective; not a primary research article</div>
+            <div class="caption">Table 1 | Limitations and opportunities for dynamically sparse perception systems</div>
+            <div class="actions"><a class="link" href="DynamicSparsity_NatCommun2025/tables/original/Table1_p008.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="DynamicSparsity_NatCommun2025/tables/vector/Table1/Table1.svg" target="_blank">打开 SVG</a><a class="link" href="DynamicSparsity_NatCommun2025/tables/vector/Table1/Table1.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="13" data-search="frequency-biased synergistic design for image compression and compensation frequencybiased_cvpr2025 table1 table 1. bd rates and model sizes of compression and compensation frameworks. more negative bd-rate means higher savings.">
+          <div class="media"><img loading="lazy" src="FrequencyBiased_CVPR2025/tables/original/Table1_p006.png" alt="Table1 Frequency-Biased Synergistic Design for Image Compression and Compensation"></div>
+          <div class="body">
+            <div class="paper">FrequencyBiased_CVPR2025</div>
+            <h2>Table1 · Frequency-Biased Synergistic Design for Image Compression and Compensation</h2>
+            <div class="meta">CVPR 2025 · PDF 第 7 页（页索引 6）<br>CCF-A main conference</div>
+            <div class="caption">Table 1. BD rates and model sizes of compression and compensation frameworks. More negative BD-rate means higher savings.</div>
+            <div class="actions"><a class="link" href="FrequencyBiased_CVPR2025/tables/original/Table1_p006.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="FrequencyBiased_CVPR2025/tables/vector/Table1/Table1.svg" target="_blank">打开 SVG</a><a class="link" href="FrequencyBiased_CVPR2025/tables/vector/Table1/Table1.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="14" data-search="frequency-biased synergistic design for image compression and compensation frequencybiased_cvpr2025 table2 table 2. bd rates and pure bitrate savings (pbs) of the lo-hi sensitive compression compared with default compression. for bd rates over lpips and psnr, more negative indicates more savings. for pbs, more positive means more savings.">
+          <div class="media"><img loading="lazy" src="FrequencyBiased_CVPR2025/tables/original/Table2_p006.png" alt="Table2 Frequency-Biased Synergistic Design for Image Compression and Compensation"></div>
+          <div class="body">
+            <div class="paper">FrequencyBiased_CVPR2025</div>
+            <h2>Table2 · Frequency-Biased Synergistic Design for Image Compression and Compensation</h2>
+            <div class="meta">CVPR 2025 · PDF 第 7 页（页索引 6）<br>CCF-A main conference</div>
+            <div class="caption">Table 2. BD rates and pure bitrate savings (PBS) of the Lo-Hi sensitive compression compared with default compression. For BD rates over LPIPS and PSNR, more negative indicates more savings. For PBS, more positive means more savings.</div>
+            <div class="actions"><a class="link" href="FrequencyBiased_CVPR2025/tables/original/Table2_p006.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="FrequencyBiased_CVPR2025/tables/vector/Table2/Table2.svg" target="_blank">打开 SVG</a><a class="link" href="FrequencyBiased_CVPR2025/tables/vector/Table2/Table2.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="15" data-search="frequency-biased synergistic design for image compression and compensation frequencybiased_cvpr2025 table3 table 3. ablation study of lo-hi uformer framework">
+          <div class="media"><img loading="lazy" src="FrequencyBiased_CVPR2025/tables/original/Table3_p006.png" alt="Table3 Frequency-Biased Synergistic Design for Image Compression and Compensation"></div>
+          <div class="body">
+            <div class="paper">FrequencyBiased_CVPR2025</div>
+            <h2>Table3 · Frequency-Biased Synergistic Design for Image Compression and Compensation</h2>
+            <div class="meta">CVPR 2025 · PDF 第 7 页（页索引 6）<br>CCF-A main conference</div>
+            <div class="caption">Table 3. Ablation study of Lo-Hi Uformer framework</div>
+            <div class="actions"><a class="link" href="FrequencyBiased_CVPR2025/tables/original/Table3_p006.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="FrequencyBiased_CVPR2025/tables/vector/Table3/Table3.svg" target="_blank">打开 SVG</a><a class="link" href="FrequencyBiased_CVPR2025/tables/vector/Table3/Table3.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="16" data-search="frequency-biased synergistic design for image compression and compensation frequencybiased_cvpr2025 table4 table 4. bd rates over map on the coco dataset.">
+          <div class="media"><img loading="lazy" src="FrequencyBiased_CVPR2025/tables/original/Table4_p007.png" alt="Table4 Frequency-Biased Synergistic Design for Image Compression and Compensation"></div>
+          <div class="body">
+            <div class="paper">FrequencyBiased_CVPR2025</div>
+            <h2>Table4 · Frequency-Biased Synergistic Design for Image Compression and Compensation</h2>
+            <div class="meta">CVPR 2025 · PDF 第 8 页（页索引 7）<br>CCF-A main conference</div>
+            <div class="caption">Table 4. BD rates over mAP on the COCO dataset.</div>
+            <div class="actions"><a class="link" href="FrequencyBiased_CVPR2025/tables/original/Table4_p007.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="FrequencyBiased_CVPR2025/tables/vector/Table4/Table4.svg" target="_blank">打开 SVG</a><a class="link" href="FrequencyBiased_CVPR2025/tables/vector/Table4/Table4.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="17" data-search="heal-swin: a vision transformer on the sphere heal-swin_cvpr2024 table1 table 1. mean intersection over union on the sphere for seman- tic segmentation of fisheye street scenes with heal-swin and swin, averaged over three runs.">
+          <div class="media"><img loading="lazy" src="HEAL-SWIN_CVPR2024/tables/original/Table1_p005.png" alt="Table1 HEAL-SWIN: A Vision Transformer On The Sphere"></div>
+          <div class="body">
+            <div class="paper">HEAL-SWIN_CVPR2024</div>
+            <h2>Table1 · HEAL-SWIN: A Vision Transformer On The Sphere</h2>
+            <div class="meta">CVPR 2024 · PDF 第 6 页（页索引 5）<br>CCF-A main conference</div>
+            <div class="caption">Table 1. Mean intersection over union on the sphere for seman- tic segmentation of fisheye street scenes with HEAL-SWIN and SWIN, averaged over three runs.</div>
+            <div class="actions"><a class="link" href="HEAL-SWIN_CVPR2024/tables/original/Table1_p005.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="HEAL-SWIN_CVPR2024/tables/vector/Table1/Table1.svg" target="_blank">打开 SVG</a><a class="link" href="HEAL-SWIN_CVPR2024/tables/vector/Table1/Table1.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="18" data-search="heal-swin: a vision transformer on the sphere heal-swin_cvpr2024 table2 table 2. inference times for semantic segmentation models on a single a40 gpu. measurements are taken from first to last model operation in a forward pass with an input tensor of batch size one available on the gpu. mean and standard deviation over 200 iter- ations with 10 iteration warm-up.">
+          <div class="media"><img loading="lazy" src="HEAL-SWIN_CVPR2024/tables/original/Table2_p006.png" alt="Table2 HEAL-SWIN: A Vision Transformer On The Sphere"></div>
+          <div class="body">
+            <div class="paper">HEAL-SWIN_CVPR2024</div>
+            <h2>Table2 · HEAL-SWIN: A Vision Transformer On The Sphere</h2>
+            <div class="meta">CVPR 2024 · PDF 第 7 页（页索引 6）<br>CCF-A main conference</div>
+            <div class="caption">Table 2. Inference times for semantic segmentation models on a single A40 GPU. Measurements are taken from first to last model operation in a forward pass with an input tensor of batch size one available on the GPU. Mean and standard deviation over 200 iter- ations with 10 iteration warm-up.</div>
+            <div class="actions"><a class="link" href="HEAL-SWIN_CVPR2024/tables/original/Table2_p006.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="HEAL-SWIN_CVPR2024/tables/vector/Table2/Table2.svg" target="_blank">打开 SVG</a><a class="link" href="HEAL-SWIN_CVPR2024/tables/vector/Table2/Table2.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="19" data-search="heal-swin: a vision transformer on the sphere heal-swin_cvpr2024 table3 table 3. performance of spherical models on the stanford 2d-3d segmentation task of indoor fisheye images evaluated using the official three-fold cross-validation.">
+          <div class="media"><img loading="lazy" src="HEAL-SWIN_CVPR2024/tables/original/Table3_p006.png" alt="Table3 HEAL-SWIN: A Vision Transformer On The Sphere"></div>
+          <div class="body">
+            <div class="paper">HEAL-SWIN_CVPR2024</div>
+            <h2>Table3 · HEAL-SWIN: A Vision Transformer On The Sphere</h2>
+            <div class="meta">CVPR 2024 · PDF 第 7 页（页索引 6）<br>CCF-A main conference</div>
+            <div class="caption">Table 3. Performance of spherical models on the Stanford 2D-3D segmentation task of indoor fisheye images evaluated using the official three-fold cross-validation.</div>
+            <div class="actions"><a class="link" href="HEAL-SWIN_CVPR2024/tables/original/Table3_p006.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="HEAL-SWIN_CVPR2024/tables/vector/Table3/Table3.svg" target="_blank">打开 SVG</a><a class="link" href="HEAL-SWIN_CVPR2024/tables/vector/Table3/Table3.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="20" data-search="kan: kolmogorov-arnold networks kan_iclr2025 table1 table 1: image fitting: comparing various methods">
+          <div class="media"><img loading="lazy" src="KAN_ICLR2025/tables/original/Table1_p009.png" alt="Table1 KAN: Kolmogorov-Arnold Networks"></div>
+          <div class="body">
+            <div class="paper">KAN_ICLR2025</div>
+            <h2>Table1 · KAN: Kolmogorov-Arnold Networks</h2>
+            <div class="meta">ICLR 2025 · PDF 第 10 页（页索引 9）<br>CCF-A main conference</div>
+            <div class="caption">Table 1: Image Fitting: Comparing various methods</div>
+            <div class="actions"><a class="link" href="KAN_ICLR2025/tables/original/Table1_p009.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="KAN_ICLR2025/tables/vector/Table1/Table1.svg" target="_blank">打开 SVG</a><a class="link" href="KAN_ICLR2025/tables/vector/Table1/Table1.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="21" data-search="kan: kolmogorov-arnold networks kan_iclr2025 table10 table 10: feynman dataset">
+          <div class="media"><img loading="lazy" src="KAN_ICLR2025/tables/original/Table10_p034.png" alt="Table10 KAN: Kolmogorov-Arnold Networks"></div>
+          <div class="body">
+            <div class="paper">KAN_ICLR2025</div>
+            <h2>Table10 · KAN: Kolmogorov-Arnold Networks</h2>
+            <div class="meta">ICLR 2025 · PDF 第 35 页（页索引 34）<br>CCF-A main conference</div>
+            <div class="caption">Table 10: Feynman dataset</div>
+            <div class="actions"><a class="link" href="KAN_ICLR2025/tables/original/Table10_p034.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="KAN_ICLR2025/tables/vector/Table10/Table10.svg" target="_blank">打开 SVG</a><a class="link" href="KAN_ICLR2025/tables/vector/Table10/Table10.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="22" data-search="kan: kolmogorov-arnold networks kan_iclr2025 table11 table 11: symbolic formulas of signature as a function of meridinal translation µ (real µr, imag µi) and longitudinal translation λ. in davies et al. (2021), formula a was discovered by human scientists inspired by neural network attribution results. formulas b-f are auto-discovered by kans. kans can trade-off between simplicity and accuracy (b, c, d). by adding more inductive biases, kan is able to discover formula e which is not too dissimilar from formula a. kans also discovered a formula f which only involves two variables (µr and λ) instead of all three variables, with little sacrifice in accuracy.">
+          <div class="media"><img loading="lazy" src="KAN_ICLR2025/tables/original/Table11_p038.png" alt="Table11 KAN: Kolmogorov-Arnold Networks"></div>
+          <div class="body">
+            <div class="paper">KAN_ICLR2025</div>
+            <h2>Table11 · KAN: Kolmogorov-Arnold Networks</h2>
+            <div class="meta">ICLR 2025 · PDF 第 39 页（页索引 38）<br>CCF-A main conference</div>
+            <div class="caption">Table 11: Symbolic formulas of signature as a function of meridinal translation µ (real µr, imag µi) and longitudinal translation λ. In Davies et al. (2021), formula A was discovered by human scientists inspired by neural network attribution results. Formulas B-F are auto-discovered by KANs. KANs can trade-off between simplicity and accuracy (B, C, D). By adding more inductive biases, KAN is able to discover formula E which is not too dissimilar from formula A. KANs also discovered a formula F which only involves two variables (µr and λ) instead of all three variables, with little sacrifice in accuracy.</div>
+            <div class="actions"><a class="link" href="KAN_ICLR2025/tables/original/Table11_p038.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="KAN_ICLR2025/tables/vector/Table11/Table11.svg" target="_blank">打开 SVG</a><a class="link" href="KAN_ICLR2025/tables/vector/Table11/Table11.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="23" data-search="kan: kolmogorov-arnold networks kan_iclr2025 table12 table 12: symbolic formulas for two systems gaam and maam, ground truth ones and kan- discovered ones.">
+          <div class="media"><img loading="lazy" src="KAN_ICLR2025/tables/original/Table12_p039.png" alt="Table12 KAN: Kolmogorov-Arnold Networks"></div>
+          <div class="body">
+            <div class="paper">KAN_ICLR2025</div>
+            <h2>Table12 · KAN: Kolmogorov-Arnold Networks</h2>
+            <div class="meta">ICLR 2025 · PDF 第 40 页（页索引 39）<br>CCF-A main conference</div>
+            <div class="caption">Table 12: Symbolic formulas for two systems GAAM and MAAM, ground truth ones and KAN- discovered ones.</div>
+            <div class="actions"><a class="link" href="KAN_ICLR2025/tables/original/Table12_p039.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing_svg_only）</summary><div class="vectors"><a class="link" href="KAN_ICLR2025/tables/vector/Table12/Table12.svg" target="_blank">打开 SVG</a></div></details>
+          </div>
+        </article><article data-index="24" data-search="kan: kolmogorov-arnold networks kan_iclr2025 table13 table 13: kan functionalities">
+          <div class="media"><img loading="lazy" src="KAN_ICLR2025/tables/original/Table13_p043.png" alt="Table13 KAN: Kolmogorov-Arnold Networks"></div>
+          <div class="body">
+            <div class="paper">KAN_ICLR2025</div>
+            <h2>Table13 · KAN: Kolmogorov-Arnold Networks</h2>
+            <div class="meta">ICLR 2025 · PDF 第 44 页（页索引 43）<br>CCF-A main conference</div>
+            <div class="caption">Table 13: KAN functionalities</div>
+            <div class="actions"><a class="link" href="KAN_ICLR2025/tables/original/Table13_p043.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="KAN_ICLR2025/tables/vector/Table13/Table13.svg" target="_blank">打开 SVG</a><a class="link" href="KAN_ICLR2025/tables/vector/Table13/Table13.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="25" data-search="kan: kolmogorov-arnold networks kan_iclr2025 table2 table 2: comparing various method on solving 2d poisson equations. all mlps (including mlp_rffs) have shapes [2,128,128,128,1].">
+          <div class="media"><img loading="lazy" src="KAN_ICLR2025/tables/original/Table2_p019.png" alt="Table2 KAN: Kolmogorov-Arnold Networks"></div>
+          <div class="body">
+            <div class="paper">KAN_ICLR2025</div>
+            <h2>Table2 · KAN: Kolmogorov-Arnold Networks</h2>
+            <div class="meta">ICLR 2025 · PDF 第 20 页（页索引 19）<br>CCF-A main conference</div>
+            <div class="caption">Table 2: Comparing various method on solving 2D Poisson equations. All MLPs (including MLP_RFFs) have shapes [2,128,128,128,1].</div>
+            <div class="actions"><a class="link" href="KAN_ICLR2025/tables/original/Table2_p019.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="KAN_ICLR2025/tables/vector/Table2/Table2.svg" target="_blank">打开 SVG</a><a class="link" href="KAN_ICLR2025/tables/vector/Table2/Table2.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="26" data-search="kan: kolmogorov-arnold networks kan_iclr2025 table3 table 3: comparing various models on the 1d allen-cahn equation. all mlps including mlp_rffs have the shape [2,128,128,128,1].">
+          <div class="media"><img loading="lazy" src="KAN_ICLR2025/tables/original/Table3_p020.png" alt="Table3 KAN: Kolmogorov-Arnold Networks"></div>
+          <div class="body">
+            <div class="paper">KAN_ICLR2025</div>
+            <h2>Table3 · KAN: Kolmogorov-Arnold Networks</h2>
+            <div class="meta">ICLR 2025 · PDF 第 21 页（页索引 20）<br>CCF-A main conference</div>
+            <div class="caption">Table 3: Comparing various models on the 1D Allen-Cahn equation. All MLPs including MLP_RFFs have the shape [2,128,128,128,1].</div>
+            <div class="actions"><a class="link" href="KAN_ICLR2025/tables/original/Table3_p020.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing_svg_only）</summary><div class="vectors"><a class="link" href="KAN_ICLR2025/tables/vector/Table3/Table3.svg" target="_blank">打开 SVG</a></div></details>
+          </div>
+        </article><article data-index="27" data-search="kan: kolmogorov-arnold networks kan_iclr2025 table4 table 4: comparing various models on darcy flow. all mlps including mlp_rffs have the shape [2,128,128,128,1].">
+          <div class="media"><img loading="lazy" src="KAN_ICLR2025/tables/original/Table4_p021.png" alt="Table4 KAN: Kolmogorov-Arnold Networks"></div>
+          <div class="body">
+            <div class="paper">KAN_ICLR2025</div>
+            <h2>Table4 · KAN: Kolmogorov-Arnold Networks</h2>
+            <div class="meta">ICLR 2025 · PDF 第 22 页（页索引 21）<br>CCF-A main conference</div>
+            <div class="caption">Table 4: Comparing various models on darcy flow. All MLPs including MLP_RFFs have the shape [2,128,128,128,1].</div>
+            <div class="actions"><a class="link" href="KAN_ICLR2025/tables/original/Table4_p021.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="KAN_ICLR2025/tables/vector/Table4/Table4.svg" target="_blank">打开 SVG</a><a class="link" href="KAN_ICLR2025/tables/vector/Table4/Table4.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="28" data-search="kan: kolmogorov-arnold networks kan_iclr2025 table5 table 5: comparing kans and mlps on mnist">
+          <div class="media"><img loading="lazy" src="KAN_ICLR2025/tables/original/Table5_p022.png" alt="Table5 KAN: Kolmogorov-Arnold Networks"></div>
+          <div class="body">
+            <div class="paper">KAN_ICLR2025</div>
+            <h2>Table5 · KAN: Kolmogorov-Arnold Networks</h2>
+            <div class="meta">ICLR 2025 · PDF 第 23 页（页索引 22）<br>CCF-A main conference</div>
+            <div class="caption">Table 5: Comparing KANs and MLPs on MNIST</div>
+            <div class="actions"><a class="link" href="KAN_ICLR2025/tables/original/Table5_p022.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="KAN_ICLR2025/tables/vector/Table5/Table5.svg" target="_blank">打开 SVG</a><a class="link" href="KAN_ICLR2025/tables/vector/Table5/Table5.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="29" data-search="kan: kolmogorov-arnold networks kan_iclr2025 table6 table 6: results for the example: f(x, y) = exp(sin(πx + y2)) and the lbfgs optimizer. grid search width, depth, and learning rate.">
+          <div class="media"><img loading="lazy" src="KAN_ICLR2025/tables/original/Table6_p024.png" alt="Table6 KAN: Kolmogorov-Arnold Networks"></div>
+          <div class="body">
+            <div class="paper">KAN_ICLR2025</div>
+            <h2>Table6 · KAN: Kolmogorov-Arnold Networks</h2>
+            <div class="meta">ICLR 2025 · PDF 第 25 页（页索引 24）<br>CCF-A main conference</div>
+            <div class="caption">Table 6: Results for the example: f(x, y) = exp(sin(πx + y2)) and the LBFGS optimizer. Grid search width, depth, and learning rate.</div>
+            <div class="actions"><a class="link" href="KAN_ICLR2025/tables/original/Table6_p024.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="KAN_ICLR2025/tables/vector/Table6/Table6.svg" target="_blank">打开 SVG</a><a class="link" href="KAN_ICLR2025/tables/vector/Table6/Table6.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="30" data-search="kan: kolmogorov-arnold networks kan_iclr2025 table7 table 7: results for the example: f(x, y) = exp(sin(πx + y2)) and the adam optimizer. grid search width, depth, and learning rate.">
+          <div class="media"><img loading="lazy" src="KAN_ICLR2025/tables/original/Table7_p024.png" alt="Table7 KAN: Kolmogorov-Arnold Networks"></div>
+          <div class="body">
+            <div class="paper">KAN_ICLR2025</div>
+            <h2>Table7 · KAN: Kolmogorov-Arnold Networks</h2>
+            <div class="meta">ICLR 2025 · PDF 第 25 页（页索引 24）<br>CCF-A main conference</div>
+            <div class="caption">Table 7: Results for the example: f(x, y) = exp(sin(πx + y2)) and the Adam optimizer. Grid search width, depth, and learning rate.</div>
+            <div class="actions"><a class="link" href="KAN_ICLR2025/tables/original/Table7_p024.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="KAN_ICLR2025/tables/vector/Table7/Table7.svg" target="_blank">打开 SVG</a><a class="link" href="KAN_ICLR2025/tables/vector/Table7/Table7.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="31" data-search="kan: kolmogorov-arnold networks kan_iclr2025 table8 table 8: scaling exponents from different theories ℓ∝n −α. ℓ: test rmse loss, n: number of model parameters, d: input intrinsic dimension, k: order of piecewise polynomial, m: derivative order as in function class wm.">
+          <div class="media"><img loading="lazy" src="KAN_ICLR2025/tables/original/Table8_p028.png" alt="Table8 KAN: Kolmogorov-Arnold Networks"></div>
+          <div class="body">
+            <div class="paper">KAN_ICLR2025</div>
+            <h2>Table8 · KAN: Kolmogorov-Arnold Networks</h2>
+            <div class="meta">ICLR 2025 · PDF 第 29 页（页索引 28）<br>CCF-A main conference</div>
+            <div class="caption">Table 8: Scaling exponents from different theories ℓ∝N −α. ℓ: test RMSE loss, N: number of model parameters, d: input intrinsic dimension, k: order of piecewise polynomial, m: derivative order as in function class Wm.</div>
+            <div class="actions"><a class="link" href="KAN_ICLR2025/tables/original/Table8_p028.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="KAN_ICLR2025/tables/vector/Table8/Table8.svg" target="_blank">打开 SVG</a><a class="link" href="KAN_ICLR2025/tables/vector/Table8/Table8.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="32" data-search="kan: kolmogorov-arnold networks kan_iclr2025 table9 table 9: special functions">
+          <div class="media"><img loading="lazy" src="KAN_ICLR2025/tables/original/Table9_p033.png" alt="Table9 KAN: Kolmogorov-Arnold Networks"></div>
+          <div class="body">
+            <div class="paper">KAN_ICLR2025</div>
+            <h2>Table9 · KAN: Kolmogorov-Arnold Networks</h2>
+            <div class="meta">ICLR 2025 · PDF 第 34 页（页索引 33）<br>CCF-A main conference</div>
+            <div class="caption">Table 9: Special functions</div>
+            <div class="actions"><a class="link" href="KAN_ICLR2025/tables/original/Table9_p033.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="KAN_ICLR2025/tables/vector/Table9/Table9.svg" target="_blank">打开 SVG</a><a class="link" href="KAN_ICLR2025/tables/vector/Table9/Table9.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="33" data-search="multi-resolution enhancement for full-spectrum neural representations nmi_multiresolution_2026 table1 table 1 | encoding latency">
+          <div class="media"><img loading="lazy" src="NMI_MultiResolution_2026/tables/original/Table1_p007.png" alt="Table1 Multi-resolution enhancement for full-spectrum neural representations"></div>
+          <div class="body">
+            <div class="paper">NMI_MultiResolution_2026</div>
+            <h2>Table1 · Multi-resolution enhancement for full-spectrum neural representations</h2>
+            <div class="meta">Nature Machine Intelligence 2026 · PDF 第 8 页（页索引 7）<br>Nature Portfolio journal; CAS zone must be checked against the target year&#x27;s list</div>
+            <div class="caption">Table 1 | Encoding latency</div>
+            <div class="actions"><a class="link" href="NMI_MultiResolution_2026/tables/original/Table1_p007.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="NMI_MultiResolution_2026/tables/vector/Table1/Table1.svg" target="_blank">打开 SVG</a><a class="link" href="NMI_MultiResolution_2026/tables/vector/Table1/Table1.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="34" data-search="multi-resolution enhancement for full-spectrum neural representations nmi_multiresolution_2026 table2 table 2 | decoding latency">
+          <div class="media"><img loading="lazy" src="NMI_MultiResolution_2026/tables/original/Table2_p008.png" alt="Table2 Multi-resolution enhancement for full-spectrum neural representations"></div>
+          <div class="body">
+            <div class="paper">NMI_MultiResolution_2026</div>
+            <h2>Table2 · Multi-resolution enhancement for full-spectrum neural representations</h2>
+            <div class="meta">Nature Machine Intelligence 2026 · PDF 第 9 页（页索引 8）<br>Nature Portfolio journal; CAS zone must be checked against the target year&#x27;s list</div>
+            <div class="caption">Table 2 | Decoding latency</div>
+            <div class="actions"><a class="link" href="NMI_MultiResolution_2026/tables/original/Table2_p008.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="NMI_MultiResolution_2026/tables/vector/Table2/Table2.svg" target="_blank">打开 SVG</a><a class="link" href="NMI_MultiResolution_2026/tables/vector/Table2/Table2.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="35" data-search="osrt: omnidirectional image super-resolution with distortion-aware transformer osrt_cvpr2023 table1 table 1. sr results under fisheye downsampling. † denotes applying df2k-erp as augmented dataset. best results are shown in bold.">
+          <div class="media"><img loading="lazy" src="OSRT_CVPR2023/tables/original/Table1_p005.png" alt="Table1 OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer"></div>
+          <div class="body">
+            <div class="paper">OSRT_CVPR2023</div>
+            <h2>Table1 · OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer</h2>
+            <div class="meta">CVPR 2023 · PDF 第 6 页（页索引 5）<br>CCF-A main conference</div>
+            <div class="caption">Table 1. SR results under Fisheye downsampling. † denotes applying DF2K-ERP as augmented dataset. Best results are shown in Bold.</div>
+            <div class="actions"><a class="link" href="OSRT_CVPR2023/tables/original/Table1_p005.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing_svg_only）</summary><div class="vectors"><a class="link" href="OSRT_CVPR2023/tables/vector/Table1/Table1.svg" target="_blank">打开 SVG</a></div></details>
+          </div>
+        </article><article data-index="36" data-search="osrt: omnidirectional image super-resolution with distortion-aware transformer osrt_cvpr2023 table2 table 2. sr results under erp downsampling.">
+          <div class="media"><img loading="lazy" src="OSRT_CVPR2023/tables/original/Table2_p006.png" alt="Table2 OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer"></div>
+          <div class="body">
+            <div class="paper">OSRT_CVPR2023</div>
+            <h2>Table2 · OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer</h2>
+            <div class="meta">CVPR 2023 · PDF 第 7 页（页索引 6）<br>CCF-A main conference</div>
+            <div class="caption">Table 2. SR results under ERP downsampling.</div>
+            <div class="actions"><a class="link" href="OSRT_CVPR2023/tables/original/Table2_p006.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="OSRT_CVPR2023/tables/vector/Table2/Table2.svg" target="_blank">打开 SVG</a><a class="link" href="OSRT_CVPR2023/tables/vector/Table2/Table2.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="37" data-search="osrt: omnidirectional image super-resolution with distortion-aware transformer osrt_cvpr2023 table3 table 3. ablation study on osrt components. all models are trained on ×2 sr task under fisheye downsampling. and makes the odisr task identical to the standard plain image super-resolution task. the evidence is that a stan- dard sisr model (swinir) trained on a plain image dataset (df2k) can outperform previous sota in the odisr task, which yields ws-psnr results of 24.63db/24.49db (22.68db/22.13db) on ×8 (×16) odi-sr/sun360 testing set, respectively. in conclusion, when the intrinsic property of odis is broken by erp downsampling, the odisr task degenerates into a plain image super-resolution task with a particular data distribution.">
+          <div class="media"><img loading="lazy" src="OSRT_CVPR2023/tables/original/Table3_p006.png" alt="Table3 OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer"></div>
+          <div class="body">
+            <div class="paper">OSRT_CVPR2023</div>
+            <h2>Table3 · OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer</h2>
+            <div class="meta">CVPR 2023 · PDF 第 7 页（页索引 6）<br>CCF-A main conference</div>
+            <div class="caption">Table 3. Ablation study on OSRT components. All models are trained on ×2 SR task under Fisheye downsampling. and makes the ODISR task identical to the standard plain image super-resolution task. The evidence is that a stan- dard SISR model (SwinIR) trained on a plain image dataset (DF2K) can outperform previous SOTA in the ODISR task, which yields WS-PSNR results of 24.63dB/24.49dB (22.68dB/22.13dB) on ×8 (×16) ODI-SR/SUN360 testing set, respectively. In conclusion, when the intrinsic property of ODIs is broken by ERP downsampling, the ODISR task degenerates into a plain image super-resolution task with a particular data distribution.</div>
+            <div class="actions"><a class="link" href="OSRT_CVPR2023/tables/original/Table3_p006.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing_svg_only）</summary><div class="vectors"><a class="link" href="OSRT_CVPR2023/tables/vector/Table3/Table3.svg" target="_blank">打开 SVG</a></div></details>
+          </div>
+        </article><article data-index="38" data-search="osrt: omnidirectional image super-resolution with distortion-aware transformer osrt_cvpr2023 table4 table 4. ablation study on data augmentation. the results of odi- sr (in the supplementary ﬁle) are in the same trend as sun360.">
+          <div class="media"><img loading="lazy" src="OSRT_CVPR2023/tables/original/Table4_p007.png" alt="Table4 OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer"></div>
+          <div class="body">
+            <div class="paper">OSRT_CVPR2023</div>
+            <h2>Table4 · OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer</h2>
+            <div class="meta">CVPR 2023 · PDF 第 8 页（页索引 7）<br>CCF-A main conference</div>
+            <div class="caption">Table 4. Ablation study on data augmentation. The results of ODI- SR (In the supplementary ﬁle) are in the same trend as SUN360.</div>
+            <div class="actions"><a class="link" href="OSRT_CVPR2023/tables/original/Table4_p007.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="OSRT_CVPR2023/tables/vector/Table4/Table4.svg" target="_blank">打开 SVG</a><a class="link" href="OSRT_CVPR2023/tables/vector/Table4/Table4.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="39" data-search="spheresr: 360° image super-resolution with arbitrary projection via continuous spherical image representation spheresr_cvpr2022 table1 table 1. erp sr results on the odi-sr and sun 360 panorama dataset. bold indicates the best results.">
+          <div class="media"><img loading="lazy" src="SphereSR_CVPR2022/tables/original/Table1_p005.png" alt="Table1 SphereSR: 360° Image Super-Resolution With Arbitrary Projection via Continuous Spherical Image Representation"></div>
+          <div class="body">
+            <div class="paper">SphereSR_CVPR2022</div>
+            <h2>Table1 · SphereSR: 360° Image Super-Resolution With Arbitrary Projection via Continuous Spherical Image Representation</h2>
+            <div class="meta">CVPR 2022 · PDF 第 6 页（页索引 5）<br>CCF-A main conference</div>
+            <div class="caption">Table 1. ERP SR results on the ODI-SR and SUN 360 Panorama Dataset. Bold indicates the best results.</div>
+            <div class="actions"><a class="link" href="SphereSR_CVPR2022/tables/original/Table1_p005.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="SphereSR_CVPR2022/tables/vector/Table1/Table1.svg" target="_blank">打开 SVG</a><a class="link" href="SphereSR_CVPR2022/tables/vector/Table1/Table1.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="40" data-search="spheresr: 360° image super-resolution with arbitrary projection via continuous spherical image representation spheresr_cvpr2022 table2 table 2. perspective and fisheye sr results on the odi-sr and sun 360 panorama dataset. bold indicates the best results.">
+          <div class="media"><img loading="lazy" src="SphereSR_CVPR2022/tables/original/Table2_p007.png" alt="Table2 SphereSR: 360° Image Super-Resolution With Arbitrary Projection via Continuous Spherical Image Representation"></div>
+          <div class="body">
+            <div class="paper">SphereSR_CVPR2022</div>
+            <h2>Table2 · SphereSR: 360° Image Super-Resolution With Arbitrary Projection via Continuous Spherical Image Representation</h2>
+            <div class="meta">CVPR 2022 · PDF 第 8 页（页索引 7）<br>CCF-A main conference</div>
+            <div class="caption">Table 2. Perspective and fisheye SR results on the ODI-SR and SUN 360 Panorama Dataset. Bold indicates the best results.</div>
+            <div class="actions"><a class="link" href="SphereSR_CVPR2022/tables/original/Table2_p007.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="SphereSR_CVPR2022/tables/vector/Table2/Table2.svg" target="_blank">打开 SVG</a><a class="link" href="SphereSR_CVPR2022/tables/vector/Table2/Table2.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="41" data-search="spheresr: 360° image super-resolution with arbitrary projection via continuous spherical image representation spheresr_cvpr2022 table3 table 3. ablation studies on erp sr on odi-sr and sun360 panorama dataset for both ×8 and ×16 sr.">
+          <div class="media"><img loading="lazy" src="SphereSR_CVPR2022/tables/original/Table3_p007.png" alt="Table3 SphereSR: 360° Image Super-Resolution With Arbitrary Projection via Continuous Spherical Image Representation"></div>
+          <div class="body">
+            <div class="paper">SphereSR_CVPR2022</div>
+            <h2>Table3 · SphereSR: 360° Image Super-Resolution With Arbitrary Projection via Continuous Spherical Image Representation</h2>
+            <div class="meta">CVPR 2022 · PDF 第 8 页（页索引 7）<br>CCF-A main conference</div>
+            <div class="caption">Table 3. Ablation studies on ERP SR on ODI-SR and SUN360 Panorama Dataset for both ×8 and ×16 SR.</div>
+            <div class="actions"><a class="link" href="SphereSR_CVPR2022/tables/original/Table3_p007.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="SphereSR_CVPR2022/tables/vector/Table3/Table3.svg" target="_blank">打开 SVG</a><a class="link" href="SphereSR_CVPR2022/tables/vector/Table3/Table3.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="42" data-search="spheresr: 360° image super-resolution with arbitrary projection via continuous spherical image representation spheresr_cvpr2022 table4 table 4. comparisons of activation memory between spherephd and the proposed data structure. the network architectures of spherephd and ours have the same number of convolution layers (16) and hidden feature dimension (32).">
+          <div class="media"><img loading="lazy" src="SphereSR_CVPR2022/tables/original/Table4_p007.png" alt="Table4 SphereSR: 360° Image Super-Resolution With Arbitrary Projection via Continuous Spherical Image Representation"></div>
+          <div class="body">
+            <div class="paper">SphereSR_CVPR2022</div>
+            <h2>Table4 · SphereSR: 360° Image Super-Resolution With Arbitrary Projection via Continuous Spherical Image Representation</h2>
+            <div class="meta">CVPR 2022 · PDF 第 8 页（页索引 7）<br>CCF-A main conference</div>
+            <div class="caption">Table 4. Comparisons of activation memory between SpherePHD and the proposed data structure. The network architectures of SpherePhD and ours have the same number of convolution layers (16) and hidden feature dimension (32).</div>
+            <div class="actions"><a class="link" href="SphereSR_CVPR2022/tables/original/Table4_p007.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="SphereSR_CVPR2022/tables/vector/Table4/Table4.svg" target="_blank">打开 SVG</a><a class="link" href="SphereSR_CVPR2022/tables/vector/Table4/Table4.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="43" data-search="wavelet feature maps compression for image-to-image cnns waveletcompressedconv_neurips2022 table1 table 1: validation results on ms coco using efﬁcientdet-d1. degradation from the baseline is in parentheses.">
+          <div class="media"><img loading="lazy" src="WaveletCompressedConv_NeurIPS2022/tables/original/Table1_p007.png" alt="Table1 Wavelet Feature Maps Compression for Image-to-Image CNNs"></div>
+          <div class="body">
+            <div class="paper">WaveletCompressedConv_NeurIPS2022</div>
+            <h2>Table1 · Wavelet Feature Maps Compression for Image-to-Image CNNs</h2>
+            <div class="meta">NeurIPS 2022 · PDF 第 8 页（页索引 7）<br>CCF-A main conference</div>
+            <div class="caption">Table 1: Validation results on MS COCO using EfﬁcientDet-D1. Degradation from the baseline is in parentheses.</div>
+            <div class="actions"><a class="link" href="WaveletCompressedConv_NeurIPS2022/tables/original/Table1_p007.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="WaveletCompressedConv_NeurIPS2022/tables/vector/Table1/Table1.svg" target="_blank">打开 SVG</a><a class="link" href="WaveletCompressedConv_NeurIPS2022/tables/vector/Table1/Table1.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="44" data-search="wavelet feature maps compression for image-to-image cnns waveletcompressedconv_neurips2022 table2 table 2: validation results for pascal voc us- ing deeplabv3plus(mobilenetv2). degrada- tion from the baseline is in parentheses.">
+          <div class="media"><img loading="lazy" src="WaveletCompressedConv_NeurIPS2022/tables/original/Table2_p007.png" alt="Table2 Wavelet Feature Maps Compression for Image-to-Image CNNs"></div>
+          <div class="body">
+            <div class="paper">WaveletCompressedConv_NeurIPS2022</div>
+            <h2>Table2 · Wavelet Feature Maps Compression for Image-to-Image CNNs</h2>
+            <div class="meta">NeurIPS 2022 · PDF 第 8 页（页索引 7）<br>CCF-A main conference</div>
+            <div class="caption">Table 2: Validation results for Pascal VOC us- ing DeepLabV3plus(MobileNetV2). Degrada- tion from the baseline is in parentheses.</div>
+            <div class="actions"><a class="link" href="WaveletCompressedConv_NeurIPS2022/tables/original/Table2_p007.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="WaveletCompressedConv_NeurIPS2022/tables/vector/Table2/Table2.svg" target="_blank">打开 SVG</a><a class="link" href="WaveletCompressedConv_NeurIPS2022/tables/vector/Table2/Table2.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="45" data-search="wavelet feature maps compression for image-to-image cnns waveletcompressedconv_neurips2022 table3 table 3: monodepth2(mobilenetv2) results mea- sured by absrel and rmse.">
+          <div class="media"><img loading="lazy" src="WaveletCompressedConv_NeurIPS2022/tables/original/Table3_p008.png" alt="Table3 Wavelet Feature Maps Compression for Image-to-Image CNNs"></div>
+          <div class="body">
+            <div class="paper">WaveletCompressedConv_NeurIPS2022</div>
+            <h2>Table3 · Wavelet Feature Maps Compression for Image-to-Image CNNs</h2>
+            <div class="meta">NeurIPS 2022 · PDF 第 9 页（页索引 8）<br>CCF-A main conference</div>
+            <div class="caption">Table 3: Monodepth2(MobileNetV2) results mea- sured by AbsRel and RMSE.</div>
+            <div class="actions"><a class="link" href="WaveletCompressedConv_NeurIPS2022/tables/original/Table3_p008.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="WaveletCompressedConv_NeurIPS2022/tables/vector/Table3/Table3.svg" target="_blank">打开 SVG</a><a class="link" href="WaveletCompressedConv_NeurIPS2022/tables/vector/Table3/Table3.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article><article data-index="46" data-search="wavelet feature maps compression for image-to-image cnns waveletcompressedconv_neurips2022 table4 table 4: edsr compression results for the task of 2x super-resolution. note that the ﬁrst row is the reported result from [38], while the second is our reproduction of it using separable convolutions.">
+          <div class="media"><img loading="lazy" src="WaveletCompressedConv_NeurIPS2022/tables/original/Table4_p009.png" alt="Table4 Wavelet Feature Maps Compression for Image-to-Image CNNs"></div>
+          <div class="body">
+            <div class="paper">WaveletCompressedConv_NeurIPS2022</div>
+            <h2>Table4 · Wavelet Feature Maps Compression for Image-to-Image CNNs</h2>
+            <div class="meta">NeurIPS 2022 · PDF 第 10 页（页索引 9）<br>CCF-A main conference</div>
+            <div class="caption">Table 4: EDSR compression results for the task of 2x super-resolution. Note that the ﬁrst row is the reported result from [38], while the second is our reproduction of it using separable convolutions.</div>
+            <div class="actions"><a class="link" href="WaveletCompressedConv_NeurIPS2022/tables/original/Table4_p009.png" target="_blank">打开原始 PNG</a></div>
+            <details><summary>矢量/可编辑文件（existing）</summary><div class="vectors"><a class="link" href="WaveletCompressedConv_NeurIPS2022/tables/vector/Table4/Table4.svg" target="_blank">打开 SVG</a><a class="link" href="WaveletCompressedConv_NeurIPS2022/tables/vector/Table4/Table4.pptx" target="_blank">打开 PPTX</a></div></details>
+          </div>
+        </article></div><div id="empty" class="empty hidden">没有匹配的条目。</div></main>
+<footer>图片/表格原始 PNG 与 SVG/PPTX 文件均为本地相对链接。复杂位图的 SVG 是路径描摹，文字可能不是语义可编辑文本。</footer>
+<script>
+const rows=[{"paper": "BeyondPerspective_ICCV2025", "title": "Beyond Perspective: Neural 360-Degree Video Compression", "venue": "ICCV", "year": 2025, "classification": "CCF-A main conference", "label": "Table1", "caption": "Table 1. UGC360 dataset subsets. Subsets split the overall dataset into smaller parts based on their resolution to ease data handling.", "page": 2, "original": "BeyondPerspective_ICCV2025/tables/original/Table1_p002.png", "vectors": [["svg", "BeyondPerspective_ICCV2025/tables/vector/Table1/Table1.svg"], ["pptx", "BeyondPerspective_ICCV2025/tables/vector/Table1/Table1.pptx"]], "vector_mode": "existing"}, {"paper": "BeyondPerspective_ICCV2025", "title": "Beyond Perspective: Neural 360-Degree Video Compression", "venue": "ICCV", "year": 2025, "classification": "CCF-A main conference", "label": "Table2", "caption": "Table 2. BD-Rate (%) in YUV color space with respect to the baseline DCVC-HEM finetuned on vimeo90k. Different models and training configurations. WS-PSNR used as quality metric for the 360-degree JVET360 dataset, PSNR for the remaining perspective datasets. Column Average shows the average BD-Rate over all perspective dataset sequences. Highest rate savings for each dataset are marked bold.", "page": 5, "original": "BeyondPerspective_ICCV2025/tables/original/Table2_p005.png", "vectors": [["svg", "BeyondPerspective_ICCV2025/tables/vector/Table2/Table2.svg"], ["pptx", "BeyondPerspective_ICCV2025/tables/vector/Table2/Table2.pptx"]], "vector_mode": "existing"}, {"paper": "BeyondPerspective_ICCV2025", "title": "Beyond Perspective: Neural 360-Degree Video Compression", "venue": "ICCV", "year": 2025, "classification": "CCF-A main conference", "label": "Table3", "caption": "Table 3. Ablation study investigating flow-guided reprojection. BD-Rate (%) in YUV color space with respect to default config- uration TA for each model individually. All instances trained on UGC360+vimeo90k.", "page": 6, "original": "BeyondPerspective_ICCV2025/tables/original/Table3_p006.png", "vectors": [["svg", "BeyondPerspective_ICCV2025/tables/vector/Table3/Table3.svg"], ["pptx", "BeyondPerspective_ICCV2025/tables/vector/Table3/Table3.pptx"]], "vector_mode": "existing"}, {"paper": "BeyondPerspective_ICCV2025", "title": "Beyond Perspective: Neural 360-Degree Video Compression", "venue": "ICCV", "year": 2025, "classification": "CCF-A main conference", "label": "Table4", "caption": "Table 4. Per-frame complexity metrics for the default DCVC- HEM and DCVC-HEM-360 with positional feature encoding.", "page": 6, "original": "BeyondPerspective_ICCV2025/tables/original/Table4_p006.png", "vectors": [["svg", "BeyondPerspective_ICCV2025/tables/vector/Table4/Table4.svg"], ["pptx", "BeyondPerspective_ICCV2025/tables/vector/Table4/Table4.pptx"]], "vector_mode": "existing"}, {"paper": "CODiff_ICCV2025", "title": "Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal", "venue": "ICCV", "year": 2025, "classification": "CCF-A main conference", "label": "Table2", "caption": "Table 2. Complexity comparison among diffusion-based methods. Input image size is 1,024×1,024 for inference.", "page": 7, "original": "CODiff_ICCV2025/tables/original/Table2_p007.png", "vectors": [["svg", "CODiff_ICCV2025/tables/vector/Table2/Table2.svg"], ["pptx", "CODiff_ICCV2025/tables/vector/Table2/Table2.pptx"]], "vector_mode": "existing"}, {"paper": "CODiff_ICCV2025", "title": "Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal", "venue": "ICCV", "year": 2025, "classification": "CCF-A main conference", "label": "Table3", "caption": "Table 3. Ablation study of prompt embedding generation on LIVE-1 and DIV2K-val datasets. The best and second best re- sults are colored with red and blue, respectively.", "page": 7, "original": "CODiff_ICCV2025/tables/original/Table3_p007.png", "vectors": [["svg", "CODiff_ICCV2025/tables/vector/Table3/Table3.svg"], ["pptx", "CODiff_ICCV2025/tables/vector/Table3/Table3.pptx"]], "vector_mode": "existing"}, {"paper": "CODiff_ICCV2025", "title": "Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal", "venue": "ICCV", "year": 2025, "classification": "CCF-A main conference", "label": "Table7", "caption": "Table 7. Ablation study of the dual learning strategy. The best and second best results are colored with red and blue, respectively.", "page": 7, "original": "CODiff_ICCV2025/tables/original/Table7_p007.png", "vectors": [["svg", "CODiff_ICCV2025/tables/vector/Table7/Table7.svg"], ["pptx", "CODiff_ICCV2025/tables/vector/Table7/Table7.pptx"]], "vector_mode": "existing"}, {"paper": "CODiff_ICCV2025", "title": "Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal", "venue": "ICCV", "year": 2025, "classification": "CCF-A main conference", "label": "Table8", "caption": "Table 8. Ablation studies on different loss functions. The best and second best results are colored with red and blue, respectively.", "page": 7, "original": "CODiff_ICCV2025/tables/original/Table8_p007.png", "vectors": [["svg", "CODiff_ICCV2025/tables/vector/Table8/Table8.svg"], ["pptx", "CODiff_ICCV2025/tables/vector/Table8/Table8.pptx"]], "vector_mode": "existing"}, {"paper": "DeepSNN_0p3Spikes_NC2024", "title": "High-performance deep spiking neural networks with 0.3 spikes per neuron", "venue": "Nature Communications", "year": 2024, "classification": "Nature Portfolio journal", "label": "Table1", "caption": "Table 1 | Performance after training an SNN using the B1-model (ours), compared to trained ReLU networks and SNN baselines", "page": 5, "original": "DeepSNN_0p3Spikes_NC2024/tables/original/Table1_p005.png", "vectors": [["svg", "DeepSNN_0p3Spikes_NC2024/tables/vector/Table1/Table1.svg"], ["pptx", "DeepSNN_0p3Spikes_NC2024/tables/vector/Table1/Table1.pptx"]], "vector_mode": "existing"}, {"paper": "DeepSNN_0p3Spikes_NC2024", "title": "High-performance deep spiking neural networks with 0.3 spikes per neuron", "venue": "Nature Communications", "year": 2024, "classification": "Nature Portfolio journal", "label": "Table2", "caption": "Table 2 | Test accuracy and spiking sparsity for a VGG16 architecture", "page": 6, "original": "DeepSNN_0p3Spikes_NC2024/tables/original/Table2_p006.png", "vectors": [["svg", "DeepSNN_0p3Spikes_NC2024/tables/vector/Table2/Table2.svg"], ["pptx", "DeepSNN_0p3Spikes_NC2024/tables/vector/Table2/Table2.pptx"]], "vector_mode": "existing"}, {"paper": "DINN360_CVPR2023", "title": "DINN360: Deformable Invertible Neural Network for Latitude-Aware 360deg Image Rescaling", "venue": "CVPR", "year": 2023, "classification": "CCF-A main conference", "label": "Table1", "caption": "Table 1. Results of WS-PSNR / WS-SSIM (×10−2) on the rescaled HR images of our DINN360 and compared methods over four datasets. The best results are in bold and the underline scores represent the second-best results.", "page": 6, "original": "DINN360_CVPR2023/tables/original/Table1_p006.png", "vectors": [["svg", "DINN360_CVPR2023/tables/vector/Table1/Table1.svg"], ["pptx", "DINN360_CVPR2023/tables/vector/Table1/Table1.pptx"]], "vector_mode": "existing"}, {"paper": "DINN360_CVPR2023", "title": "DINN360: Deformable Invertible Neural Network for Latitude-Aware 360deg Image Rescaling", "venue": "CVPR", "year": 2023, "classification": "CCF-A main conference", "label": "Table2", "caption": "Table 2. Results of WS-PSNR and WS-SSIM (×10−2) in ablation experiments for 4× image rescaling on ODISR dataset.", "page": 7, "original": "DINN360_CVPR2023/tables/original/Table2_p007.png", "vectors": [["svg", "DINN360_CVPR2023/tables/vector/Table2/Table2.svg"], ["pptx", "DINN360_CVPR2023/tables/vector/Table2/Table2.pptx"]], "vector_mode": "existing"}, {"paper": "DynamicSparsity_NatCommun2025", "title": "Exploiting neuro-inspired dynamic sparsity for energy-efficient intelligent perception", "venue": "Nature Communications", "year": 2025, "classification": "Nature Portfolio Perspective; not a primary research article", "label": "Table1", "caption": "Table 1 | Limitations and opportunities for dynamically sparse perception systems", "page": 8, "original": "DynamicSparsity_NatCommun2025/tables/original/Table1_p008.png", "vectors": [["svg", "DynamicSparsity_NatCommun2025/tables/vector/Table1/Table1.svg"], ["pptx", "DynamicSparsity_NatCommun2025/tables/vector/Table1/Table1.pptx"]], "vector_mode": "existing"}, {"paper": "FrequencyBiased_CVPR2025", "title": "Frequency-Biased Synergistic Design for Image Compression and Compensation", "venue": "CVPR", "year": 2025, "classification": "CCF-A main conference", "label": "Table1", "caption": "Table 1. BD rates and model sizes of compression and compensation frameworks. More negative BD-rate means higher savings.", "page": 6, "original": "FrequencyBiased_CVPR2025/tables/original/Table1_p006.png", "vectors": [["svg", "FrequencyBiased_CVPR2025/tables/vector/Table1/Table1.svg"], ["pptx", "FrequencyBiased_CVPR2025/tables/vector/Table1/Table1.pptx"]], "vector_mode": "existing"}, {"paper": "FrequencyBiased_CVPR2025", "title": "Frequency-Biased Synergistic Design for Image Compression and Compensation", "venue": "CVPR", "year": 2025, "classification": "CCF-A main conference", "label": "Table2", "caption": "Table 2. BD rates and pure bitrate savings (PBS) of the Lo-Hi sensitive compression compared with default compression. For BD rates over LPIPS and PSNR, more negative indicates more savings. For PBS, more positive means more savings.", "page": 6, "original": "FrequencyBiased_CVPR2025/tables/original/Table2_p006.png", "vectors": [["svg", "FrequencyBiased_CVPR2025/tables/vector/Table2/Table2.svg"], ["pptx", "FrequencyBiased_CVPR2025/tables/vector/Table2/Table2.pptx"]], "vector_mode": "existing"}, {"paper": "FrequencyBiased_CVPR2025", "title": "Frequency-Biased Synergistic Design for Image Compression and Compensation", "venue": "CVPR", "year": 2025, "classification": "CCF-A main conference", "label": "Table3", "caption": "Table 3. Ablation study of Lo-Hi Uformer framework", "page": 6, "original": "FrequencyBiased_CVPR2025/tables/original/Table3_p006.png", "vectors": [["svg", "FrequencyBiased_CVPR2025/tables/vector/Table3/Table3.svg"], ["pptx", "FrequencyBiased_CVPR2025/tables/vector/Table3/Table3.pptx"]], "vector_mode": "existing"}, {"paper": "FrequencyBiased_CVPR2025", "title": "Frequency-Biased Synergistic Design for Image Compression and Compensation", "venue": "CVPR", "year": 2025, "classification": "CCF-A main conference", "label": "Table4", "caption": "Table 4. BD rates over mAP on the COCO dataset.", "page": 7, "original": "FrequencyBiased_CVPR2025/tables/original/Table4_p007.png", "vectors": [["svg", "FrequencyBiased_CVPR2025/tables/vector/Table4/Table4.svg"], ["pptx", "FrequencyBiased_CVPR2025/tables/vector/Table4/Table4.pptx"]], "vector_mode": "existing"}, {"paper": "HEAL-SWIN_CVPR2024", "title": "HEAL-SWIN: A Vision Transformer On The Sphere", "venue": "CVPR", "year": 2024, "classification": "CCF-A main conference", "label": "Table1", "caption": "Table 1. Mean intersection over union on the sphere for seman- tic segmentation of fisheye street scenes with HEAL-SWIN and SWIN, averaged over three runs.", "page": 5, "original": "HEAL-SWIN_CVPR2024/tables/original/Table1_p005.png", "vectors": [["svg", "HEAL-SWIN_CVPR2024/tables/vector/Table1/Table1.svg"], ["pptx", "HEAL-SWIN_CVPR2024/tables/vector/Table1/Table1.pptx"]], "vector_mode": "existing"}, {"paper": "HEAL-SWIN_CVPR2024", "title": "HEAL-SWIN: A Vision Transformer On The Sphere", "venue": "CVPR", "year": 2024, "classification": "CCF-A main conference", "label": "Table2", "caption": "Table 2. Inference times for semantic segmentation models on a single A40 GPU. Measurements are taken from first to last model operation in a forward pass with an input tensor of batch size one available on the GPU. Mean and standard deviation over 200 iter- ations with 10 iteration warm-up.", "page": 6, "original": "HEAL-SWIN_CVPR2024/tables/original/Table2_p006.png", "vectors": [["svg", "HEAL-SWIN_CVPR2024/tables/vector/Table2/Table2.svg"], ["pptx", "HEAL-SWIN_CVPR2024/tables/vector/Table2/Table2.pptx"]], "vector_mode": "existing"}, {"paper": "HEAL-SWIN_CVPR2024", "title": "HEAL-SWIN: A Vision Transformer On The Sphere", "venue": "CVPR", "year": 2024, "classification": "CCF-A main conference", "label": "Table3", "caption": "Table 3. Performance of spherical models on the Stanford 2D-3D segmentation task of indoor fisheye images evaluated using the official three-fold cross-validation.", "page": 6, "original": "HEAL-SWIN_CVPR2024/tables/original/Table3_p006.png", "vectors": [["svg", "HEAL-SWIN_CVPR2024/tables/vector/Table3/Table3.svg"], ["pptx", "HEAL-SWIN_CVPR2024/tables/vector/Table3/Table3.pptx"]], "vector_mode": "existing"}, {"paper": "KAN_ICLR2025", "title": "KAN: Kolmogorov-Arnold Networks", "venue": "ICLR", "year": 2025, "classification": "CCF-A main conference", "label": "Table1", "caption": "Table 1: Image Fitting: Comparing various methods", "page": 9, "original": "KAN_ICLR2025/tables/original/Table1_p009.png", "vectors": [["svg", "KAN_ICLR2025/tables/vector/Table1/Table1.svg"], ["pptx", "KAN_ICLR2025/tables/vector/Table1/Table1.pptx"]], "vector_mode": "existing"}, {"paper": "KAN_ICLR2025", "title": "KAN: Kolmogorov-Arnold Networks", "venue": "ICLR", "year": 2025, "classification": "CCF-A main conference", "label": "Table10", "caption": "Table 10: Feynman dataset", "page": 34, "original": "KAN_ICLR2025/tables/original/Table10_p034.png", "vectors": [["svg", "KAN_ICLR2025/tables/vector/Table10/Table10.svg"], ["pptx", "KAN_ICLR2025/tables/vector/Table10/Table10.pptx"]], "vector_mode": "existing"}, {"paper": "KAN_ICLR2025", "title": "KAN: Kolmogorov-Arnold Networks", "venue": "ICLR", "year": 2025, "classification": "CCF-A main conference", "label": "Table11", "caption": "Table 11: Symbolic formulas of signature as a function of meridinal translation µ (real µr, imag µi) and longitudinal translation λ. In Davies et al. (2021), formula A was discovered by human scientists inspired by neural network attribution results. Formulas B-F are auto-discovered by KANs. KANs can trade-off between simplicity and accuracy (B, C, D). By adding more inductive biases, KAN is able to discover formula E which is not too dissimilar from formula A. KANs also discovered a formula F which only involves two variables (µr and λ) instead of all three variables, with little sacrifice in accuracy.", "page": 38, "original": "KAN_ICLR2025/tables/original/Table11_p038.png", "vectors": [["svg", "KAN_ICLR2025/tables/vector/Table11/Table11.svg"], ["pptx", "KAN_ICLR2025/tables/vector/Table11/Table11.pptx"]], "vector_mode": "existing"}, {"paper": "KAN_ICLR2025", "title": "KAN: Kolmogorov-Arnold Networks", "venue": "ICLR", "year": 2025, "classification": "CCF-A main conference", "label": "Table12", "caption": "Table 12: Symbolic formulas for two systems GAAM and MAAM, ground truth ones and KAN- discovered ones.", "page": 39, "original": "KAN_ICLR2025/tables/original/Table12_p039.png", "vectors": [["svg", "KAN_ICLR2025/tables/vector/Table12/Table12.svg"]], "vector_mode": "existing_svg_only"}, {"paper": "KAN_ICLR2025", "title": "KAN: Kolmogorov-Arnold Networks", "venue": "ICLR", "year": 2025, "classification": "CCF-A main conference", "label": "Table13", "caption": "Table 13: KAN functionalities", "page": 43, "original": "KAN_ICLR2025/tables/original/Table13_p043.png", "vectors": [["svg", "KAN_ICLR2025/tables/vector/Table13/Table13.svg"], ["pptx", "KAN_ICLR2025/tables/vector/Table13/Table13.pptx"]], "vector_mode": "existing"}, {"paper": "KAN_ICLR2025", "title": "KAN: Kolmogorov-Arnold Networks", "venue": "ICLR", "year": 2025, "classification": "CCF-A main conference", "label": "Table2", "caption": "Table 2: Comparing various method on solving 2D Poisson equations. All MLPs (including MLP_RFFs) have shapes [2,128,128,128,1].", "page": 19, "original": "KAN_ICLR2025/tables/original/Table2_p019.png", "vectors": [["svg", "KAN_ICLR2025/tables/vector/Table2/Table2.svg"], ["pptx", "KAN_ICLR2025/tables/vector/Table2/Table2.pptx"]], "vector_mode": "existing"}, {"paper": "KAN_ICLR2025", "title": "KAN: Kolmogorov-Arnold Networks", "venue": "ICLR", "year": 2025, "classification": "CCF-A main conference", "label": "Table3", "caption": "Table 3: Comparing various models on the 1D Allen-Cahn equation. All MLPs including MLP_RFFs have the shape [2,128,128,128,1].", "page": 20, "original": "KAN_ICLR2025/tables/original/Table3_p020.png", "vectors": [["svg", "KAN_ICLR2025/tables/vector/Table3/Table3.svg"]], "vector_mode": "existing_svg_only"}, {"paper": "KAN_ICLR2025", "title": "KAN: Kolmogorov-Arnold Networks", "venue": "ICLR", "year": 2025, "classification": "CCF-A main conference", "label": "Table4", "caption": "Table 4: Comparing various models on darcy flow. All MLPs including MLP_RFFs have the shape [2,128,128,128,1].", "page": 21, "original": "KAN_ICLR2025/tables/original/Table4_p021.png", "vectors": [["svg", "KAN_ICLR2025/tables/vector/Table4/Table4.svg"], ["pptx", "KAN_ICLR2025/tables/vector/Table4/Table4.pptx"]], "vector_mode": "existing"}, {"paper": "KAN_ICLR2025", "title": "KAN: Kolmogorov-Arnold Networks", "venue": "ICLR", "year": 2025, "classification": "CCF-A main conference", "label": "Table5", "caption": "Table 5: Comparing KANs and MLPs on MNIST", "page": 22, "original": "KAN_ICLR2025/tables/original/Table5_p022.png", "vectors": [["svg", "KAN_ICLR2025/tables/vector/Table5/Table5.svg"], ["pptx", "KAN_ICLR2025/tables/vector/Table5/Table5.pptx"]], "vector_mode": "existing"}, {"paper": "KAN_ICLR2025", "title": "KAN: Kolmogorov-Arnold Networks", "venue": "ICLR", "year": 2025, "classification": "CCF-A main conference", "label": "Table6", "caption": "Table 6: Results for the example: f(x, y) = exp(sin(πx + y2)) and the LBFGS optimizer. Grid search width, depth, and learning rate.", "page": 24, "original": "KAN_ICLR2025/tables/original/Table6_p024.png", "vectors": [["svg", "KAN_ICLR2025/tables/vector/Table6/Table6.svg"], ["pptx", "KAN_ICLR2025/tables/vector/Table6/Table6.pptx"]], "vector_mode": "existing"}, {"paper": "KAN_ICLR2025", "title": "KAN: Kolmogorov-Arnold Networks", "venue": "ICLR", "year": 2025, "classification": "CCF-A main conference", "label": "Table7", "caption": "Table 7: Results for the example: f(x, y) = exp(sin(πx + y2)) and the Adam optimizer. Grid search width, depth, and learning rate.", "page": 24, "original": "KAN_ICLR2025/tables/original/Table7_p024.png", "vectors": [["svg", "KAN_ICLR2025/tables/vector/Table7/Table7.svg"], ["pptx", "KAN_ICLR2025/tables/vector/Table7/Table7.pptx"]], "vector_mode": "existing"}, {"paper": "KAN_ICLR2025", "title": "KAN: Kolmogorov-Arnold Networks", "venue": "ICLR", "year": 2025, "classification": "CCF-A main conference", "label": "Table8", "caption": "Table 8: Scaling exponents from different theories ℓ∝N −α. ℓ: test RMSE loss, N: number of model parameters, d: input intrinsic dimension, k: order of piecewise polynomial, m: derivative order as in function class Wm.", "page": 28, "original": "KAN_ICLR2025/tables/original/Table8_p028.png", "vectors": [["svg", "KAN_ICLR2025/tables/vector/Table8/Table8.svg"], ["pptx", "KAN_ICLR2025/tables/vector/Table8/Table8.pptx"]], "vector_mode": "existing"}, {"paper": "KAN_ICLR2025", "title": "KAN: Kolmogorov-Arnold Networks", "venue": "ICLR", "year": 2025, "classification": "CCF-A main conference", "label": "Table9", "caption": "Table 9: Special functions", "page": 33, "original": "KAN_ICLR2025/tables/original/Table9_p033.png", "vectors": [["svg", "KAN_ICLR2025/tables/vector/Table9/Table9.svg"], ["pptx", "KAN_ICLR2025/tables/vector/Table9/Table9.pptx"]], "vector_mode": "existing"}, {"paper": "NMI_MultiResolution_2026", "title": "Multi-resolution enhancement for full-spectrum neural representations", "venue": "Nature Machine Intelligence", "year": 2026, "classification": "Nature Portfolio journal; CAS zone must be checked against the target year's list", "label": "Table1", "caption": "Table 1 | Encoding latency", "page": 7, "original": "NMI_MultiResolution_2026/tables/original/Table1_p007.png", "vectors": [["svg", "NMI_MultiResolution_2026/tables/vector/Table1/Table1.svg"], ["pptx", "NMI_MultiResolution_2026/tables/vector/Table1/Table1.pptx"]], "vector_mode": "existing"}, {"paper": "NMI_MultiResolution_2026", "title": "Multi-resolution enhancement for full-spectrum neural representations", "venue": "Nature Machine Intelligence", "year": 2026, "classification": "Nature Portfolio journal; CAS zone must be checked against the target year's list", "label": "Table2", "caption": "Table 2 | Decoding latency", "page": 8, "original": "NMI_MultiResolution_2026/tables/original/Table2_p008.png", "vectors": [["svg", "NMI_MultiResolution_2026/tables/vector/Table2/Table2.svg"], ["pptx", "NMI_MultiResolution_2026/tables/vector/Table2/Table2.pptx"]], "vector_mode": "existing"}, {"paper": "OSRT_CVPR2023", "title": "OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer", "venue": "CVPR", "year": 2023, "classification": "CCF-A main conference", "label": "Table1", "caption": "Table 1. SR results under Fisheye downsampling. † denotes applying DF2K-ERP as augmented dataset. Best results are shown in Bold.", "page": 5, "original": "OSRT_CVPR2023/tables/original/Table1_p005.png", "vectors": [["svg", "OSRT_CVPR2023/tables/vector/Table1/Table1.svg"]], "vector_mode": "existing_svg_only"}, {"paper": "OSRT_CVPR2023", "title": "OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer", "venue": "CVPR", "year": 2023, "classification": "CCF-A main conference", "label": "Table2", "caption": "Table 2. SR results under ERP downsampling.", "page": 6, "original": "OSRT_CVPR2023/tables/original/Table2_p006.png", "vectors": [["svg", "OSRT_CVPR2023/tables/vector/Table2/Table2.svg"], ["pptx", "OSRT_CVPR2023/tables/vector/Table2/Table2.pptx"]], "vector_mode": "existing"}, {"paper": "OSRT_CVPR2023", "title": "OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer", "venue": "CVPR", "year": 2023, "classification": "CCF-A main conference", "label": "Table3", "caption": "Table 3. Ablation study on OSRT components. All models are trained on ×2 SR task under Fisheye downsampling. and makes the ODISR task identical to the standard plain image super-resolution task. The evidence is that a stan- dard SISR model (SwinIR) trained on a plain image dataset (DF2K) can outperform previous SOTA in the ODISR task, which yields WS-PSNR results of 24.63dB/24.49dB (22.68dB/22.13dB) on ×8 (×16) ODI-SR/SUN360 testing set, respectively. In conclusion, when the intrinsic property of ODIs is broken by ERP downsampling, the ODISR task degenerates into a plain image super-resolution task with a particular data distribution.", "page": 6, "original": "OSRT_CVPR2023/tables/original/Table3_p006.png", "vectors": [["svg", "OSRT_CVPR2023/tables/vector/Table3/Table3.svg"]], "vector_mode": "existing_svg_only"}, {"paper": "OSRT_CVPR2023", "title": "OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer", "venue": "CVPR", "year": 2023, "classification": "CCF-A main conference", "label": "Table4", "caption": "Table 4. Ablation study on data augmentation. The results of ODI- SR (In the supplementary ﬁle) are in the same trend as SUN360.", "page": 7, "original": "OSRT_CVPR2023/tables/original/Table4_p007.png", "vectors": [["svg", "OSRT_CVPR2023/tables/vector/Table4/Table4.svg"], ["pptx", "OSRT_CVPR2023/tables/vector/Table4/Table4.pptx"]], "vector_mode": "existing"}, {"paper": "SphereSR_CVPR2022", "title": "SphereSR: 360° Image Super-Resolution With Arbitrary Projection via Continuous Spherical Image Representation", "venue": "CVPR", "year": 2022, "classification": "CCF-A main conference", "label": "Table1", "caption": "Table 1. ERP SR results on the ODI-SR and SUN 360 Panorama Dataset. Bold indicates the best results.", "page": 5, "original": "SphereSR_CVPR2022/tables/original/Table1_p005.png", "vectors": [["svg", "SphereSR_CVPR2022/tables/vector/Table1/Table1.svg"], ["pptx", "SphereSR_CVPR2022/tables/vector/Table1/Table1.pptx"]], "vector_mode": "existing"}, {"paper": "SphereSR_CVPR2022", "title": "SphereSR: 360° Image Super-Resolution With Arbitrary Projection via Continuous Spherical Image Representation", "venue": "CVPR", "year": 2022, "classification": "CCF-A main conference", "label": "Table2", "caption": "Table 2. Perspective and fisheye SR results on the ODI-SR and SUN 360 Panorama Dataset. Bold indicates the best results.", "page": 7, "original": "SphereSR_CVPR2022/tables/original/Table2_p007.png", "vectors": [["svg", "SphereSR_CVPR2022/tables/vector/Table2/Table2.svg"], ["pptx", "SphereSR_CVPR2022/tables/vector/Table2/Table2.pptx"]], "vector_mode": "existing"}, {"paper": "SphereSR_CVPR2022", "title": "SphereSR: 360° Image Super-Resolution With Arbitrary Projection via Continuous Spherical Image Representation", "venue": "CVPR", "year": 2022, "classification": "CCF-A main conference", "label": "Table3", "caption": "Table 3. Ablation studies on ERP SR on ODI-SR and SUN360 Panorama Dataset for both ×8 and ×16 SR.", "page": 7, "original": "SphereSR_CVPR2022/tables/original/Table3_p007.png", "vectors": [["svg", "SphereSR_CVPR2022/tables/vector/Table3/Table3.svg"], ["pptx", "SphereSR_CVPR2022/tables/vector/Table3/Table3.pptx"]], "vector_mode": "existing"}, {"paper": "SphereSR_CVPR2022", "title": "SphereSR: 360° Image Super-Resolution With Arbitrary Projection via Continuous Spherical Image Representation", "venue": "CVPR", "year": 2022, "classification": "CCF-A main conference", "label": "Table4", "caption": "Table 4. Comparisons of activation memory between SpherePHD and the proposed data structure. The network architectures of SpherePhD and ours have the same number of convolution layers (16) and hidden feature dimension (32).", "page": 7, "original": "SphereSR_CVPR2022/tables/original/Table4_p007.png", "vectors": [["svg", "SphereSR_CVPR2022/tables/vector/Table4/Table4.svg"], ["pptx", "SphereSR_CVPR2022/tables/vector/Table4/Table4.pptx"]], "vector_mode": "existing"}, {"paper": "WaveletCompressedConv_NeurIPS2022", "title": "Wavelet Feature Maps Compression for Image-to-Image CNNs", "venue": "NeurIPS", "year": 2022, "classification": "CCF-A main conference", "label": "Table1", "caption": "Table 1: Validation results on MS COCO using EfﬁcientDet-D1. Degradation from the baseline is in parentheses.", "page": 7, "original": "WaveletCompressedConv_NeurIPS2022/tables/original/Table1_p007.png", "vectors": [["svg", "WaveletCompressedConv_NeurIPS2022/tables/vector/Table1/Table1.svg"], ["pptx", "WaveletCompressedConv_NeurIPS2022/tables/vector/Table1/Table1.pptx"]], "vector_mode": "existing"}, {"paper": "WaveletCompressedConv_NeurIPS2022", "title": "Wavelet Feature Maps Compression for Image-to-Image CNNs", "venue": "NeurIPS", "year": 2022, "classification": "CCF-A main conference", "label": "Table2", "caption": "Table 2: Validation results for Pascal VOC us- ing DeepLabV3plus(MobileNetV2). Degrada- tion from the baseline is in parentheses.", "page": 7, "original": "WaveletCompressedConv_NeurIPS2022/tables/original/Table2_p007.png", "vectors": [["svg", "WaveletCompressedConv_NeurIPS2022/tables/vector/Table2/Table2.svg"], ["pptx", "WaveletCompressedConv_NeurIPS2022/tables/vector/Table2/Table2.pptx"]], "vector_mode": "existing"}, {"paper": "WaveletCompressedConv_NeurIPS2022", "title": "Wavelet Feature Maps Compression for Image-to-Image CNNs", "venue": "NeurIPS", "year": 2022, "classification": "CCF-A main conference", "label": "Table3", "caption": "Table 3: Monodepth2(MobileNetV2) results mea- sured by AbsRel and RMSE.", "page": 8, "original": "WaveletCompressedConv_NeurIPS2022/tables/original/Table3_p008.png", "vectors": [["svg", "WaveletCompressedConv_NeurIPS2022/tables/vector/Table3/Table3.svg"], ["pptx", "WaveletCompressedConv_NeurIPS2022/tables/vector/Table3/Table3.pptx"]], "vector_mode": "existing"}, {"paper": "WaveletCompressedConv_NeurIPS2022", "title": "Wavelet Feature Maps Compression for Image-to-Image CNNs", "venue": "NeurIPS", "year": 2022, "classification": "CCF-A main conference", "label": "Table4", "caption": "Table 4: EDSR compression results for the task of 2x super-resolution. Note that the ﬁrst row is the reported result from [38], while the second is our reproduction of it using separable convolutions.", "page": 9, "original": "WaveletCompressedConv_NeurIPS2022/tables/original/Table4_p009.png", "vectors": [["svg", "WaveletCompressedConv_NeurIPS2022/tables/vector/Table4/Table4.svg"], ["pptx", "WaveletCompressedConv_NeurIPS2022/tables/vector/Table4/Table4.pptx"]], "vector_mode": "existing"}];
+const articles=[...document.querySelectorAll('article')];
+const search=document.getElementById('search'), paper=document.getElementById('paper'), sort=document.getElementById('sort'), grid=document.getElementById('grid'), empty=document.getElementById('empty'), summary=document.getElementById('summary');
+const papers=[...new Set(rows.map(r=>r.paper))].sort(); papers.forEach(p=>{const o=document.createElement('option');o.value=p;o.textContent=p;paper.appendChild(o);});
+function render() { const q=search.value.trim().toLowerCase(), p=paper.value, mode=sort.value; const order=[...articles].sort((a,b)=>{const ra=rows[+a.dataset.index], rb=rows[+b.dataset.index]; return mode==='label'?ra.label.localeCompare(rb.label,undefined,{numeric:true}):ra.paper.localeCompare(rb.paper);}); order.forEach(a=>grid.appendChild(a)); let n=0; order.forEach(a=>{const r=rows[+a.dataset.index], ok=(!q||a.dataset.search.includes(q))&&(!p||r.paper===p); a.classList.toggle('hidden',!ok); if(ok)n++;}); summary.textContent=`共 ${rows.length} 个表格，当前显示 ${n} 个`; empty.classList.toggle('hidden',n!==0);}
+[search,paper,sort].forEach(x=>x.addEventListener('input',render)); render();
+</script></body></html>

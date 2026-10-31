@@ -1,0 +1,353 @@
+{
+  "paper": "CODiff_ICCV2025",
+  "pdf": "pdf/CODiff_ICCV2025.pdf",
+  "pages": 10,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 1,
+      "caption": "Figure 2. An illustration of the explicit learning approach with our dual learning strategy. We employ the t-SNE [36] method to visu- alize the clustering of output compression quality representations on the Urban100 [14] dataset, where QF=1 and QF=5 are unseen compression levels. Notably, the explicit learning method strug- gles to distinguish between these unseen QFs, whereas our dual learning strategy effectively differentiates them.",
+      "caption_bbox": [
+        58.5,
+        330.794,
+        294.747,
+        405.513
+      ],
+      "content_bbox": [
+        58.464,
+        72.997,
+        295.931,
+        325.103
+      ],
+      "crop_bbox": [
+        58.464,
+        72.997,
+        295.931,
+        408.513
+      ],
+      "original": "figures/original/Fig2_p001.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 14.15 in\n\n形状统计 (1855 个):\n  FREEFORM (5)                 1770\n  TEXT_BOX (17)                69\n  PICTURE (13)                 8\n  AUTO_SHAPE (1)               8\n\n矢量形状: 1847\n位图图片: 8\n  1.5% 画面  (2.17 x 1.29 in)\n  1.5% 画面  (2.17 x 1.29 in)\n  1.5% 画面  (2.17 x 1.30 in)\n  0.4% 画面  (1.16 x 0.69 in)\n  1.5% 画面  (2.17 x 1.29 in)\n  0.4% 画面  (1.16 x 0.69 in)\n  0.4% 画面  (1.16 x 0.69 in)\n  0.4% 画面  (1.16 x 0.69 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 2,
+      "caption": "Figure 3. Overview of our proposed CODiff. In the first stage, we train our compression-aware visual embedder (CaVE) via a dual learning strategy. In implicit learning, compression prior embeddings are fed into a UNet decoder to reconstruct high-quality (HQ) images. In explicit learning, they are input into a lightweight quality factor (QF) predictor. In the second stage, the priors from CaVE are then used by the generator Gθ to restore the HQ images: ˆIH = Gθ(IL; cL). The generator Gθ integrates a pre-trained VAE and UNet from StableDiffusion [29], with the VAE encoder and UNet fine-tuned via LoRA [13].",
+      "caption_bbox": [
+        58.5,
+        351.308,
+        553.499,
+        404.11
+      ],
+      "content_bbox": [
+        58.5,
+        71.997,
+        553.505,
+        350.437
+      ],
+      "crop_bbox": [
+        58.5,
+        71.997,
+        553.505,
+        407.11
+      ],
+      "original": "figures/original/Fig3_p002.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.55 in\n\n形状统计 (1042 个):\n  FREEFORM (5)                 681\n  PICTURE (13)                 195\n  AUTO_SHAPE (1)               111\n  TEXT_BOX (17)                55\n\n矢量形状: 847\n位图图片: 195\n  0.9% 画面  (0.47 x 1.84 in)\n  0.3% 画面  (0.55 x 0.47 in)\n  0.9% 画面  (0.47 x 1.84 in)\n  0.3% 画面  (0.55 x 0.47 in)\n  0.4% 画面  (0.31 x 1.31 in)\n  0.2% 画面  (0.53 x 0.31 in)\n  0.4% 画面  (0.31 x 1.31 in)\n  0.2% 画面  (0.53 x 0.31 in)\n  0.2% 画面  (0.23 x 0.86 in)\n  0.1% 画面  (0.39 x 0.23 in)\n  ... 共 195 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 7,
+      "caption": "Table 2. Complexity comparison among diffusion-based methods. Input image size is 1,024×1,024 for inference.",
+      "caption_bbox": [
+        58.5,
+        130.973,
+        294.747,
+        150.898
+      ],
+      "content_bbox": [
+        56.325,
+        159.832,
+        294.753,
+        713.407
+      ],
+      "crop_bbox": [
+        56.325,
+        127.973,
+        294.753,
+        713.407
+      ],
+      "original": "tables/original/Table2_p007.png",
+      "vector": [
+        "tables/vector/Table2/Table2.svg",
+        "tables/vector/Table2/Table2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 30.81 in\n\n形状统计 (111 个):\n  TEXT_BOX (17)                77\n  FREEFORM (5)                 27\n  PICTURE (13)                 7\n\n矢量形状: 104\n位图图片: 7\n  4.6% 画面  (3.84 x 4.97 in)\n  1.6% 画面  (3.13 x 2.12 in)\n  1.6% 画面  (3.13 x 2.12 in)\n  1.6% 画面  (3.13 x 2.12 in)\n  1.6% 画面  (3.13 x 2.12 in)\n  1.6% 画面  (3.13 x 2.12 in)\n  1.6% 画面  (3.13 x 2.12 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "Table 3. Ablation study of prompt embedding generation on LIVE-1 and DIV2K-val datasets. The best and second best re- sults are colored with red and blue, respectively.",
+      "caption_bbox": [
+        58.5,
+        226.712,
+        294.747,
+        257.596
+      ],
+      "content_bbox": [
+        56.325,
+        265.248,
+        294.753,
+        713.407
+      ],
+      "crop_bbox": [
+        56.325,
+        223.712,
+        294.753,
+        713.407
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [
+        "tables/vector/Table3/Table3.svg",
+        "tables/vector/Table3/Table3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 24.96 in\n\n形状统计 (44 个):\n  TEXT_BOX (17)                35\n  PICTURE (13)                 7\n  FREEFORM (5)                 2\n\n矢量形状: 37\n位图图片: 7\n  5.7% 画面  (3.84 x 4.97 in)\n  2.0% 画面  (3.13 x 2.12 in)\n  2.0% 画面  (3.13 x 2.12 in)\n  2.0% 画面  (3.13 x 2.12 in)\n  2.0% 画面  (3.13 x 2.12 in)\n  2.0% 画面  (3.13 x 2.12 in)\n  2.0% 画面  (3.13 x 2.12 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 7,
+      "caption": "Table 7. Ablation study of the dual learning strategy. The best and second best results are colored with red and blue, respectively.",
+      "caption_bbox": [
+        317.25,
+        339.023,
+        553.497,
+        358.948
+      ],
+      "content_bbox": [
+        314.38,
+        362.675,
+        555.155,
+        713.407
+      ],
+      "crop_bbox": [
+        314.38,
+        336.023,
+        555.155,
+        713.407
+      ],
+      "original": "tables/original/Table7_p007.png",
+      "vector": [
+        "tables/vector/Table7/Table7.svg",
+        "tables/vector/Table7/Table7.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 19.37 in\n\n形状统计 (165 个):\n  FREEFORM (5)                 83\n  TEXT_BOX (17)                82\n\n矢量形状: 165\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 7,
+      "caption": "Figure 7. Comparison of CaVE’s QF prediction mean squared error (MSE) between explicit learning and dual learning on LIVE- 1 and DIV2K-val datasets. Tab. 8, using only L2 yields suboptimal perceptual results, while adding LDIST S brings significant improvement. In- corporating GAN loss further refines visual quality, demon- strating its complementary effect.",
+      "caption_bbox": [
+        317.25,
+        451.102,
+        553.503,
+        530.495
+      ],
+      "content_bbox": [
+        56.325,
+        84.729,
+        555.155,
+        450.814
+      ],
+      "crop_bbox": [
+        56.325,
+        84.729,
+        555.155,
+        533.495
+      ],
+      "original": "figures/original/Fig7_p007.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 7,
+      "caption": "Table 8. Ablation studies on different loss functions. The best and second best results are colored with red and blue, respectively.",
+      "caption_bbox": [
+        317.25,
+        598.313,
+        553.497,
+        618.237
+      ],
+      "content_bbox": [
+        270.0,
+        625.954,
+        553.503,
+        760.0
+      ],
+      "crop_bbox": [
+        270.0,
+        595.313,
+        553.503,
+        760.0
+      ],
+      "original": "tables/original/Table8_p007.png",
+      "vector": [
+        "tables/vector/Table8/Table8.svg",
+        "tables/vector/Table8/Table8.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.36 in\n\n形状统计 (4 个):\n  TEXT_BOX (17)                3\n  FREEFORM (5)                 1\n\n矢量形状: 4\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops retain the caption for auditability.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "vectorized": [
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Table2",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table2/Table2.svg",
+        "tables/vector/Table2/Table2.pptx"
+      ]
+    },
+    {
+      "label": "Table3",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table3/Table3.svg",
+        "tables/vector/Table3/Table3.pptx"
+      ]
+    },
+    {
+      "label": "Table7",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table7/Table7.svg",
+        "tables/vector/Table7/Table7.pptx"
+      ]
+    },
+    {
+      "label": "Table8",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table8/Table8.svg",
+        "tables/vector/Table8/Table8.pptx"
+      ]
+    }
+  ],
+  "metadata": {
+    "title": "Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal",
+    "year": 2025,
+    "venue": "ICCV",
+    "classification": "CCF-A main conference",
+    "topic": [
+      "compression artifact removal",
+      "diffusion restoration",
+      "JPEG"
+    ],
+    "relevance": "压缩感知的一步扩散恢复，可作低码率后质量增强的生成式对比基线。",
+    "official_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Guo_Compression-Aware_One-Step_Diffusion_Model_for_JPEG_Artifact_Removal_ICCV_2025_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Guo_Compression-Aware_One-Step_Diffusion_Model_for_JPEG_Artifact_Removal_ICCV_2025_paper.pdf",
+    "code_url": "https://github.com/jp-guo/CODiff",
+    "local_slug": "CODiff_ICCV2025",
+    "access": "open_pdf"
+  }
+}

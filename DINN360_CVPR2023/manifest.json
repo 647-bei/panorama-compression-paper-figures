@@ -1,0 +1,479 @@
+{
+  "paper": "DINN360_CVPR2023",
+  "pdf": "pdf/DINN360_CVPR2023.pdf",
+  "pages": 10,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1. Motivation and pipeline of our DINN360 method. The non-uniform sampling density causes various deformations at dif- ferent latitude regions, and this guides the design of our DINN360 model. Finally, the HR 360◦image can be rescaled from the cor- responding LR image and latent space.",
+      "caption_bbox": [
+        308.862,
+        368.36,
+        545.112,
+        421.161
+      ],
+      "content_bbox": [
+        84.946,
+        105.922,
+        534.484,
+        361.483
+      ],
+      "crop_bbox": [
+        84.946,
+        105.922,
+        534.484,
+        424.161
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.62 in\n\n形状统计 (150 个):\n  FREEFORM (5)                 69\n  TEXT_BOX (17)                58\n  PICTURE (13)                 23\n\n矢量形状: 127\n位图图片: 23\n  0.6% 画面  (1.10 x 0.54 in)\n  4.9% 画面  (3.17 x 1.58 in)\n  0.5% 画面  (0.69 x 0.69 in)\n  0.5% 画面  (0.69 x 0.69 in)\n  0.3% 画面  (1.36 x 0.23 in)\n  0.6% 画面  (1.64 x 0.39 in)\n  2.2% 画面  (1.50 x 1.50 in)\n  0.6% 画面  (1.12 x 0.54 in)\n  0.9% 画面  (2.44 x 0.37 in)\n  0.2% 画面  (0.95 x 0.24 in)\n  ... 共 23 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2. Magnitude of HF components and GLCM entropy at different latitude regions of 360◦images.",
+      "caption_bbox": [
+        50.112,
+        154.651,
+        286.359,
+        174.576
+      ],
+      "content_bbox": [
+        55.275,
+        62.352,
+        537.171,
+        157.452
+      ],
+      "crop_bbox": [
+        55.275,
+        62.352,
+        537.171,
+        177.576
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 2,
+      "caption": "Figure 3. Results of PSNRs and HF components of 4× rescaled HR images by 2D methods at different latitude regions.",
+      "caption_bbox": [
+        308.862,
+        158.955,
+        545.113,
+        179.204
+      ],
+      "content_bbox": [
+        55.275,
+        62.352,
+        537.618,
+        157.764
+      ],
+      "crop_bbox": [
+        55.275,
+        62.352,
+        537.618,
+        182.204
+      ],
+      "original": "figures/original/Fig3_p002.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 2,
+      "caption": "Figure 4. Error maps of the GT and rescaled HR images from the existing methods, over F-360iSOD and SUN360 datasets. to flow-based models [7,11,15,19], our DINN360 learns to project the HF component h into a latent variable z follow- ing a prior distribution, and then recover h during upscal- ing. This way, the rescaling procedure can be formulated as a bijective transformation: ˆx ↔[y; z]. The pipeline of DINN360 is illustrated in Fig. 5 and introduced below. (1) Deformable downscaling ˆx →[y; h]. In this stage, the input HR image ˆx is decomposed into the downscaled LR image y and HF component h. Specifically, as shown in Fig. 5, the Haar wavelet transformation is first conducted over ˆx to obtain the HF and LF information. Then, the in- vertible deformable (ID) blocks are developed in DINN360 to fuse both HF and LF components in an invertible manner, and generate the refined HF and LF components, denoted as h and y. The refined LF component is also output as the downscaled LR image. (2) Latitude-aware HF projection [y; h] →z ∼N(0, 1). Subsequently, the HF component h is learned to project to the latent variable z, considering the spherical characteris- tics of the downscaled image y. To be specific, as shown in Fig. 5, the content and latitude conditions are extracted from y, and then concatenated with h, as the input to a set of developed invertible projection (IP) blocks. Finally, the projected latent variable z is supervised to fit a normalized Gaussian distribution N(0, 1). (3) Reverse upscaling [y;ez∼N(0, 1)] →x. For the re- verse upscaling procedure, the downscaled image y is com- bined with a randomly sampled latent variable ez ∼N(0, 1), and then input into the reverse IP blocks, to recover the HF component eh. Finally, after the reverse ID blocks and Haar transformation, the HF component and downscaled image are inversely transformed to reconstruct the HR image x.",
+      "caption_bbox": [
+        308.862,
+        305.65,
+        545.116,
+        713.407
+      ],
+      "content_bbox": [
+        50.112,
+        62.352,
+        545.113,
+        301.734
+      ],
+      "crop_bbox": [
+        50.112,
+        62.352,
+        545.113,
+        716.407
+      ],
+      "original": "figures/original/Fig4_p002.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.50 in\n\n形状统计 (599 个):\n  FREEFORM (5)                 457\n  TEXT_BOX (17)                69\n  AUTO_SHAPE (1)               61\n  PICTURE (13)                 12\n\n矢量形状: 587\n位图图片: 12\n  0.2% 画面  (0.09 x 1.83 in)\n  1.3% 画面  (5.14 x 0.22 in)\n  4.9% 画面  (2.92 x 1.46 in)\n  1.2% 画面  (1.43 x 0.71 in)\n  1.2% 画面  (1.43 x 0.71 in)\n  1.2% 画面  (1.43 x 0.71 in)\n  1.2% 画面  (1.43 x 0.71 in)\n  4.9% 画面  (2.92 x 1.46 in)\n  1.2% 画面  (1.43 x 0.71 in)\n  1.2% 画面  (1.43 x 0.71 in)\n  ... 共 12 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 3,
+      "caption": "Figure 5. Pipeline of DINN360 in the setting of 2× rescaling. Here, ∼ID block and ∼IP block indicate the corresponding reverse structures.",
+      "caption_bbox": [
+        50.112,
+        166.601,
+        545.114,
+        175.891
+      ],
+      "content_bbox": [
+        64.837,
+        62.754,
+        529.427,
+        162.495
+      ],
+      "crop_bbox": [
+        64.837,
+        62.754,
+        529.427,
+        178.891
+      ],
+      "original": "figures/original/Fig5_p003.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 2.95 in\n\n形状统计 (307 个):\n  FREEFORM (5)                 197\n  TEXT_BOX (17)                84\n  PICTURE (13)                 26\n\n矢量形状: 281\n位图图片: 26\n  0.9% 画面  (0.58 x 0.58 in)\n  0.7% 画面  (0.52 x 0.52 in)\n  6.4% 画面  (1.85 x 1.35 in)\n  0.6% 画面  (0.68 x 0.34 in)\n  0.6% 画面  (0.68 x 0.34 in)\n  0.6% 画面  (0.68 x 0.34 in)\n  0.6% 画面  (0.68 x 0.34 in)\n  1.9% 画面  (0.80 x 0.92 in)\n  1.4% 画面  (0.28 x 1.93 in)\n  1.9% 画面  (0.80 x 0.92 in)\n  ... 共 26 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 4,
+      "caption": "Figure 6. Architectures of (a) functions ρ(·) and ρ′(·) in ID blocks; (b) DST module.",
+      "caption_bbox": [
+        145.31,
+        167.806,
+        449.915,
+        178.53
+      ],
+      "content_bbox": [
+        63.245,
+        63.664,
+        529.907,
+        168.022
+      ],
+      "crop_bbox": [
+        63.245,
+        63.664,
+        529.907,
+        181.53
+      ],
+      "original": "figures/original/Fig6_p004.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 5,
+      "caption": "Figure 7. Framework of our backflow training protocol for the invertible structure of HF projection.",
+      "caption_bbox": [
+        308.862,
+        135.286,
+        545.109,
+        155.211
+      ],
+      "content_bbox": [
+        54.318,
+        0.0,
+        543.642,
+        138.2
+      ],
+      "crop_bbox": [
+        54.318,
+        0.0,
+        543.642,
+        158.211
+      ],
+      "original": "figures/original/Fig7_p005.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.85 in\n\n形状统计 (136 个):\n  TEXT_BOX (17)                86\n  FREEFORM (5)                 49\n  PICTURE (13)                 1\n\n矢量形状: 135\n位图图片: 1\n  0.7% 画面  (0.64 x 0.59 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 6,
+      "caption": "Table 1. Results of WS-PSNR / WS-SSIM (×10−2) on the rescaled HR images of our DINN360 and compared methods over four datasets. The best results are in bold and the underline scores represent the second-best results.",
+      "caption_bbox": [
+        50.112,
+        62.147,
+        545.113,
+        83.83
+      ],
+      "content_bbox": [
+        44.301,
+        92.15,
+        542.588,
+        644.671
+      ],
+      "crop_bbox": [
+        44.301,
+        59.147,
+        542.588,
+        644.671
+      ],
+      "original": "tables/original/Table1_p006.png",
+      "vector": [
+        "tables/vector/Table1/Table1.svg",
+        "tables/vector/Table1/Table1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 14.77 in\n\n形状统计 (917 个):\n  TEXT_BOX (17)                736\n  FREEFORM (5)                 180\n  PICTURE (13)                 1\n\n矢量形状: 916\n位图图片: 1\n  34.8% 画面  (12.86 x 5.32 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 6,
+      "caption": "Figure 8. Quantitative results of 4× and 8× image rescaling on ODISR dataset.",
+      "caption_bbox": [
+        154.508,
+        566.379,
+        440.718,
+        575.669
+      ],
+      "content_bbox": [
+        51.172,
+        182.155,
+        535.718,
+        567.037
+      ],
+      "crop_bbox": [
+        51.172,
+        182.155,
+        535.718,
+        578.669
+      ],
+      "original": "figures/original/Fig8_p006.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 7,
+      "caption": "Table 2. Results of WS-PSNR and WS-SSIM (×10−2) in ablation experiments for 4× image rescaling on ODISR dataset.",
+      "caption_bbox": [
+        50.112,
+        62.147,
+        286.363,
+        83.83
+      ],
+      "content_bbox": [
+        50.112,
+        91.634,
+        286.365,
+        386.785
+      ],
+      "crop_bbox": [
+        50.112,
+        59.147,
+        286.365,
+        386.785
+      ],
+      "original": "tables/original/Table2_p007.png",
+      "vector": [
+        "tables/vector/Table2/Table2.svg",
+        "tables/vector/Table2/Table2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 16.63 in\n\n形状统计 (65 个):\n  TEXT_BOX (17)                52\n  FREEFORM (5)                 13\n\n矢量形状: 65\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 7,
+      "caption": "Figure 9. Ablation results on numbers of ID/IP blocks.",
+      "caption_bbox": [
+        328.842,
+        152.147,
+        525.134,
+        161.113
+      ],
+      "content_bbox": [
+        50.112,
+        61.901,
+        531.708,
+        152.554
+      ],
+      "crop_bbox": [
+        50.112,
+        61.901,
+        531.708,
+        164.113
+      ],
+      "original": "figures/original/Fig9_p007.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 7,
+      "caption": "Figure 10. Ablation results on feedback ratio α in Eq. (13).",
+      "caption_bbox": [
+        320.788,
+        258.745,
+        533.186,
+        267.919
+      ],
+      "content_bbox": [
+        50.112,
+        58.42,
+        536.676,
+        257.868
+      ],
+      "crop_bbox": [
+        50.112,
+        58.42,
+        536.676,
+        270.919
+      ],
+      "original": "figures/original/Fig10_p007.png",
+      "vector": []
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops retain the caption for auditability.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "title": "DINN360: Deformable Invertible Neural Network for Latitude-Aware 360deg Image Rescaling",
+    "year": 2023,
+    "venue": "CVPR",
+    "classification": "CCF-A main conference",
+    "topic": [
+      "360-degree image",
+      "invertible network",
+      "latitude-aware rescaling"
+    ],
+    "relevance": "以纬度感知的可逆结构恢复全景图高频细节，和压缩后质量增强直接相关。",
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Guo_DINN360_Deformable_Invertible_Neural_Network_for_Latitude-Aware_360deg_Image_Rescaling_CVPR_2023_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Guo_DINN360_Deformable_Invertible_Neural_Network_for_Latitude-Aware_360deg_Image_Rescaling_CVPR_2023_paper.pdf",
+    "code_url": "https://github.com/gyc9709/DINN360",
+    "local_slug": "DINN360_CVPR2023",
+    "access": "open_pdf"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Table1",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table1/Table1.svg",
+        "tables/vector/Table1/Table1.pptx"
+      ]
+    },
+    {
+      "label": "Table2",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table2/Table2.svg",
+        "tables/vector/Table2/Table2.pptx"
+      ]
+    }
+  ]
+}

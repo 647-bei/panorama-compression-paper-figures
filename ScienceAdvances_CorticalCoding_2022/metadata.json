@@ -1,0 +1,18 @@
+{
+  "title": "Internally generated population activity in cortical networks hinders information transmission",
+  "year": 2022,
+  "venue": "Science Advances",
+  "classification": "Science family journal; open-access biological/information-theoretic reference",
+  "topic": [
+    "spiking networks",
+    "information transmission",
+    "Fisher information",
+    "excitation-inhibition dynamics"
+  ],
+  "relevance": "用空间有序兴奋/抑制脉冲网络分析内部动态、噪声相关和信息传输，可支撑SNN稀疏编码与低码率信息保真目标。",
+  "official_url": "https://www.science.org/doi/10.1126/sciadv.abg5244",
+  "pdf_url": "https://www.science.org/doi/pdf/10.1126/sciadv.abg5244?download=true",
+  "doi": "10.1126/sciadv.abg5244",
+  "local_slug": "ScienceAdvances_CorticalCoding_2022",
+  "access": "metadata_only_pdf_route_blocked"
+}

@@ -1,0 +1,21 @@
+% Auto-extracted table snippet; requires \usepackage{booktabs}.
+% Caption: Table 4: Comparing various models on darcy flow. All MLPs including MLP\_RFFs have the shape [2,128,128,128,1].
+\begin{tabular}{lll}
+\toprule
+Model & l 22 error ↓ & Training wall time (s) ↓ \\
+\midrule
+KAN [2,10,1] G = 5 & 3.9 × 10−3 & 71 \\
+KAN [2,10,1] G = 10 & 1.3 × 10−3 & 66 \\
+KAN [2,10,1] G = 20 & 3.9 × 10−4 & 66 \\
+KAN [2,100,1] G = 5 & 1.7 × 10−5 & 81 \\
+KAN [2,100,1] G = 10 & 4.3 × 10−6 & 107 \\
+KAN [2,100,1] G = 20 & 1.9 × 10−2 & 136 \\
+KAN [2,10,10,10,10,1] G = 5 & 8.5 × 10−5 & 123 \\
+KAN [2,10,10,10,10,1] G = 10 & 1.2 & 123 \\
+KAN [2,10,10,10,10,1] G = 20 & 1.3 & 125 \\
+MLP & 3.0 × 10−5 & 30 \\
+MLP (10x training) & 4.5 × 10−6 & 277 \\
+MLP RFF (s = 3) \_ & 5.9 × 10−6 & 31 \\
+MLP RFF (s = 30) \_ & 4.0 × 10−1 & 31 \\
+\bottomrule
+\end{tabular}

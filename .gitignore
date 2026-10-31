@@ -1,0 +1,5 @@
+# The hosted viewer only needs extracted assets and metadata.
+**/pdf/
+**/page_renders/
+__pycache__/
+*.pyc

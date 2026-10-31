@@ -1,0 +1,365 @@
+{
+  "paper": "NMI_MultiResolution_2026",
+  "pdf": "pdf/NMI_MultiResolution_2026.pdf",
+  "pages": 27,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Fig. 1 | Efficient INRs preserve HF and physics-related details. Comparison of INRs of raw volumetric data (36 × 550 × 550, float32) collected from a high-resolution wide-angle coherent X-ray scattering experiment from the intermetallic alloy Cu3Au (ref. 19). Each trained network serves as a compressed surrogate for the original volume: instead of storing the raw voxel array, the information is encoded in the network weights. a, Representative slice decoded by querying the trained INRs at the corresponding spatial coordinates and rendering the network outputs as pixel intensities. In all cases, the network size is smaller than the raw data representation, with parameter counts labelled beneath each panel. A unique challenge for coherent X-ray scattering datasets such as this is that fine-structure speckle constitutes the signal of interest, whereas in many other imaging modalities, this is treated as noise. Insets: zoomed-in regions of high-speckle intensity, highlighting the superior ability of our method to capture fine details and textures. Competing INRs either over- smooth the data (frequency encoding16, wavelet activation33, hash encoding13,",
+      "caption_bbox": [
+        39.112,
+        548.081,
+        290.066,
+        696.864
+      ],
+      "content_bbox": [
+        0.0,
+        214.418,
+        561.833,
+        542.794
+      ],
+      "crop_bbox": [
+        0.0,
+        214.418,
+        561.833,
+        699.864
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.84 in\n\n形状统计 (245 个):\n  FREEFORM (5)                 200\n  TEXT_BOX (17)                44\n  PICTURE (13)                 1\n\n矢量形状: 244\n位图图片: 1\n  34.1% 画面  (12.24 x 2.91 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Fig. 2 | Schematic of the WIEN-INR architecture. a, We design a hierarchical encoding process. Encoding begins with the input of p-dimensional coordinates (for example, detector coordinates x = [i, j]), which are normalized and passed to separate MLPs, each trained to predict the wavelet coefficients (coarse to fine) of the signal at different resolution scales. b, Within each MLP, we introduce a novel enhancement module that refines the output of the previous coarser-scale MLP by (1) extracting a local neighbourhood of size (2nr + 1) per input dimension, centred at the input coordinate x in coefficients space; (2) inputting the extracted local neighbourhood to two INRs—one uses coordinates upsampled from the neighbourhood to query the coarser-scale MLP to provide an approximation of the higher resolution (this network is fixed), and the other, a learnable INR that acts as local refinement; (3) and then applying the dot product to the outputs",
+      "caption_bbox": [
+        39.678,
+        283.672,
+        295.65,
+        402.437
+      ],
+      "content_bbox": [
+        39.685,
+        20.316,
+        561.26,
+        275.621
+      ],
+      "crop_bbox": [
+        39.685,
+        20.316,
+        561.26,
+        405.437
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.58 in\n\n形状统计 (249 个):\n  FREEFORM (5)                 192\n  TEXT_BOX (17)                43\n  PICTURE (13)                 12\n  AUTO_SHAPE (1)               2\n\n矢量形状: 237\n位图图片: 12\n  3.5% 画面  (1.76 x 1.76 in)\n  1.9% 画面  (1.21 x 1.37 in)\n  1.5% 画面  (1.15 x 1.15 in)\n  0.4% 画面  (0.57 x 0.57 in)\n  0.4% 画面  (0.57 x 0.57 in)\n  4.2% 画面  (1.89 x 1.95 in)\n  1.0% 画面  (2.06 x 0.44 in)\n  2.0% 画面  (1.94 x 0.92 in)\n  0.9% 画面  (0.95 x 0.83 in)\n  1.0% 画面  (0.93 x 0.92 in)\n  ... 共 12 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Fig. 3 | Improved rate distortion. a, An important metric to quantify whether representations preserve the full spectrum of information is how well the decoded wavelet coefficients match those of the original signal. The wavelet transform is known to be superior to Fourier analysis in transient or localized phenomena, as different scales capture more complete information: coarser bands represent broad, low-frequency trends, whereas finer bands capture localized phenomena, such as sharp transitions and HF details25. We quantify fidelity across scales by comparing the ℓ2 norm of the wavelet coefficients between the decoded and original signals. Results are shown across four scales and the approximation coefficients of the reconstructed DWT (Haar), sub-bands for four benchmark scientific datasets. Although all baselines remain close to the ground truth at coarse levels, they deviate for finer scales, WIEN-INR closely follows the true DWT distribution (black line), demonstrating robust recovery of fine-scale content and full-spectrum fidelity. b, Rate-distortion comparison across four scientific datasets, showing compression rate versus PSNR, with",
+      "caption_bbox": [
+        39.685,
+        360.631,
+        292.283,
+        509.402
+      ],
+      "content_bbox": [
+        38.4,
+        20.316,
+        561.26,
+        352.786
+      ],
+      "crop_bbox": [
+        38.4,
+        20.316,
+        561.26,
+        512.402
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.51 in\n\n形状统计 (2162 个):\n  FREEFORM (5)                 2001\n  TEXT_BOX (17)                161\n\n矢量形状: 2162\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Fig. 4 | Robustness of WIEN-INR across datasets measured at different physics experiments. a–c, Reconstruction results are shown for three distinct datasets collected at XFEL (a), neutron (b) and synchrotron (c) facilities20,21, corresponding to the ultrafast scattering, neutron scattering and coherent X-ray diffraction columns from Fig. 3. Each volume is encoded and decoded to visualize if the network can focus training on physically important features. The representative two-dimensional visualizations of the decoded three- dimensional/4D volumes with zoomed-in views are shown on the right. The",
+      "caption_bbox": [
+        39.678,
+        663.304,
+        285.823,
+        742.069
+      ],
+      "content_bbox": [
+        56.938,
+        264.034,
+        545.618,
+        659.717
+      ],
+      "crop_bbox": [
+        56.938,
+        264.034,
+        545.618,
+        745.069
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.81 in\n\n形状统计 (93 个):\n  FREEFORM (5)                 49\n  TEXT_BOX (17)                40\n  PICTURE (13)                 4\n\n矢量形状: 89\n位图图片: 4\n  8.6% 画面  (3.59 x 3.46 in)\n  30.2% 画面  (8.91 x 4.89 in)\n  8.5% 画面  (3.83 x 3.19 in)\n  30.2% 画面  (8.90 x 4.89 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 7,
+      "caption": "Fig. 5 | Reconstruction quality using the decoded signal. For tasks in which information is revealed through subsequent reconstruction, it is crucial that the decoded signal minimally distorts reconstruction. This task is highly non-trivial because during encoding/training, losses are typically minimized only in the measurement space, which does not directly translate into reconstruction fidelity. a, A use case of reconstructing an ESRF logo from INR-encoded and INR-decoded coherent diffraction data22, using a combination of error reduction and hybrid input–output algorithm. We plot the magnitude of the reconstruction space: the top row shows the reconstruction using the original measurements without neural compression; the middle row shows reconstruction using the best-performing baseline network (SIREN, 0.14 MB); and the bottom row shows",
+      "caption_bbox": [
+        39.678,
+        367.305,
+        295.57,
+        476.067
+      ],
+      "content_bbox": [
+        108.749,
+        48.07,
+        495.371,
+        362.099
+      ],
+      "crop_bbox": [
+        108.749,
+        48.07,
+        495.371,
+        479.067
+      ],
+      "original": "figures/original/Fig5_p007.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg"
+      ],
+      "vector_mode": "existing_svg_only",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": []
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 7,
+      "caption": "Table 1 | Encoding latency",
+      "caption_bbox": [
+        39.685,
+        495.583,
+        147.838,
+        508.003
+      ],
+      "content_bbox": [
+        39.685,
+        515.296,
+        562.677,
+        771.798
+      ],
+      "crop_bbox": [
+        39.685,
+        492.583,
+        562.677,
+        771.798
+      ],
+      "original": "tables/original/Table1_p007.png",
+      "vector": [
+        "tables/vector/Table1/Table1.svg",
+        "tables/vector/Table1/Table1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.60 in\n\n形状统计 (191 个):\n  FREEFORM (5)                 161\n  TEXT_BOX (17)                30\n\n矢量形状: 191\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 8,
+      "caption": "Table 2 | Decoding latency",
+      "caption_bbox": [
+        39.685,
+        46.17,
+        150.223,
+        58.59
+      ],
+      "content_bbox": [
+        39.685,
+        65.883,
+        296.297,
+        391.026
+      ],
+      "crop_bbox": [
+        39.685,
+        43.17,
+        296.297,
+        391.026
+      ],
+      "original": "tables/original/Table2_p008.png",
+      "vector": [
+        "tables/vector/Table2/Table2.svg",
+        "tables/vector/Table2/Table2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 16.87 in\n\n形状统计 (107 个):\n  FREEFORM (5)                 58\n  TEXT_BOX (17)                49\n\n矢量形状: 107\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops retain the caption for auditability.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "title": "Multi-resolution enhancement for full-spectrum neural representations",
+    "year": 2026,
+    "venue": "Nature Machine Intelligence",
+    "classification": "Nature Portfolio journal; CAS zone must be checked against the target year's list",
+    "topic": [
+      "wavelet",
+      "multi-resolution representation",
+      "rate-distortion",
+      "INR"
+    ],
+    "relevance": "WIEN-INR 使用DWT多分辨率编码和增强模块保存高频及物理细节，和小波低码率恢复最直接。",
+    "official_url": "https://www.nature.com/articles/s42256-026-01287-9",
+    "pdf_url": "https://www.nature.com/articles/s42256-026-01287-9.pdf",
+    "doi": "10.1038/s42256-026-01287-9",
+    "local_slug": "NMI_MultiResolution_2026",
+    "access": "local_publisher_pdf"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing_svg_only",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg"
+      ]
+    },
+    {
+      "label": "Table1",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table1/Table1.svg",
+        "tables/vector/Table1/Table1.pptx"
+      ]
+    },
+    {
+      "label": "Table2",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table2/Table2.svg",
+        "tables/vector/Table2/Table2.pptx"
+      ]
+    }
+  ]
+}

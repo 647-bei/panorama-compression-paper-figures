@@ -1,0 +1,3842 @@
+window.SITE_DATA = {
+  "generated": "2026-10-31",
+  "papers": [
+    {
+      "id": "BeyondPerspective_ICCV2025",
+      "title": "Beyond Perspective: Neural 360-Degree Video Compression",
+      "venue": "ICCV",
+      "year": 2025,
+      "classification": "CCF-A main conference",
+      "official_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Regensky_Beyond_Perspective_Neural_360-Degree_Video_Compression_ICCV_2025_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Regensky_Beyond_Perspective_Neural_360-Degree_Video_Compression_ICCV_2025_paper.pdf",
+      "access": "open_pdf",
+      "metadata_only": false,
+      "asset_count": 10
+    },
+    {
+      "id": "CODiff_ICCV2025",
+      "title": "Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal",
+      "venue": "ICCV",
+      "year": 2025,
+      "classification": "CCF-A main conference",
+      "official_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Guo_Compression-Aware_One-Step_Diffusion_Model_for_JPEG_Artifact_Removal_ICCV_2025_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Guo_Compression-Aware_One-Step_Diffusion_Model_for_JPEG_Artifact_Removal_ICCV_2025_paper.pdf",
+      "access": "open_pdf",
+      "metadata_only": false,
+      "asset_count": 7
+    },
+    {
+      "id": "DeepSNN_0p3Spikes_NC2024",
+      "title": "High-performance deep spiking neural networks with 0.3 spikes per neuron",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "classification": "Nature Portfolio journal",
+      "official_url": "https://www.nature.com/articles/s41467-024-51110-5",
+      "pdf_url": "https://www.nature.com/articles/s41467-024-51110-5.pdf",
+      "access": "open_pdf",
+      "metadata_only": false,
+      "asset_count": 7
+    },
+    {
+      "id": "DINN360_CVPR2023",
+      "title": "DINN360: Deformable Invertible Neural Network for Latitude-Aware 360deg Image Rescaling",
+      "venue": "CVPR",
+      "year": 2023,
+      "classification": "CCF-A main conference",
+      "official_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Guo_DINN360_Deformable_Invertible_Neural_Network_for_Latitude-Aware_360deg_Image_Rescaling_CVPR_2023_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Guo_DINN360_Deformable_Invertible_Neural_Network_for_Latitude-Aware_360deg_Image_Rescaling_CVPR_2023_paper.pdf",
+      "access": "open_pdf",
+      "metadata_only": false,
+      "asset_count": 12
+    },
+    {
+      "id": "DynamicSparsity_NatCommun2025",
+      "title": "Exploiting neuro-inspired dynamic sparsity for energy-efficient intelligent perception",
+      "venue": "Nature Communications",
+      "year": 2025,
+      "classification": "Nature Portfolio Perspective; not a primary research article",
+      "official_url": "https://www.nature.com/articles/s41467-025-65387-7",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-65387-7.pdf",
+      "access": "open_pdf",
+      "metadata_only": false,
+      "asset_count": 7
+    },
+    {
+      "id": "EfficientNeuralCodes_NatCommun2022",
+      "title": "Efficient neural codes naturally emerge through gradient descent learning",
+      "venue": "Nature Communications",
+      "year": 2022,
+      "classification": "Nature Portfolio journal",
+      "official_url": "https://www.nature.com/articles/s41467-022-35659-7",
+      "pdf_url": "https://www.nature.com/articles/s41467-022-35659-7.pdf",
+      "access": "open_pdf",
+      "metadata_only": false,
+      "asset_count": 6
+    },
+    {
+      "id": "FixationalRetina_NatCommun2024",
+      "title": "Fixational eye movements enhance the precision of visual information transmitted by the primate retina",
+      "venue": "Nature Communications",
+      "year": 2024,
+      "classification": "Nature Portfolio journal",
+      "official_url": "https://www.nature.com/articles/s41467-024-52304-7",
+      "pdf_url": "https://www.nature.com/articles/s41467-024-52304-7.pdf",
+      "access": "open_pdf",
+      "metadata_only": false,
+      "asset_count": 5
+    },
+    {
+      "id": "FrequencyBiased_CVPR2025",
+      "title": "Frequency-Biased Synergistic Design for Image Compression and Compensation",
+      "venue": "CVPR",
+      "year": 2025,
+      "classification": "CCF-A main conference",
+      "official_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Frequency-Biased_Synergistic_Design_for_Image_Compression_and_Compensation_CVPR_2025_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_Frequency-Biased_Synergistic_Design_for_Image_Compression_and_Compensation_CVPR_2025_paper.pdf",
+      "access": "open_pdf",
+      "metadata_only": false,
+      "asset_count": 11
+    },
+    {
+      "id": "HEAL-SWIN_CVPR2024",
+      "title": "HEAL-SWIN: A Vision Transformer On The Sphere",
+      "venue": "CVPR",
+      "year": 2024,
+      "classification": "CCF-A main conference",
+      "official_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Carlsson_HEAL-SWIN_A_Vision_Transformer_On_The_Sphere_CVPR_2024_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Carlsson_HEAL-SWIN_A_Vision_Transformer_On_The_Sphere_CVPR_2024_paper.pdf",
+      "access": "open_pdf",
+      "metadata_only": false,
+      "asset_count": 10
+    },
+    {
+      "id": "KAN_ICLR2025",
+      "title": "KAN: Kolmogorov-Arnold Networks",
+      "venue": "ICLR",
+      "year": 2025,
+      "classification": "CCF-A main conference",
+      "official_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/afaed89642ea100935e39d39a4da602c-Abstract-Conference.html",
+      "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/afaed89642ea100935e39d39a4da602c-Paper-Conference.pdf",
+      "access": "open_pdf",
+      "metadata_only": false,
+      "asset_count": 40
+    },
+    {
+      "id": "NMI_MultiResolution_2026",
+      "title": "Multi-resolution enhancement for full-spectrum neural representations",
+      "venue": "Nature Machine Intelligence",
+      "year": 2026,
+      "classification": "Nature Portfolio journal; CAS zone must be checked against the target year's list",
+      "official_url": "https://www.nature.com/articles/s42256-026-01287-9",
+      "pdf_url": "https://www.nature.com/articles/s42256-026-01287-9.pdf",
+      "access": "local_publisher_pdf",
+      "metadata_only": false,
+      "asset_count": 7
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv",
+      "title": "OSLO: On-the-Sphere Learning for Omnidirectional images and its application to 360-degree image compression",
+      "venue": "IEEE Transactions on Image Processing",
+      "year": 2022,
+      "classification": "high-impact journal; CAS zone must be checked against the target year's school list",
+      "official_url": "https://arxiv.org/abs/2107.09179",
+      "pdf_url": "https://arxiv.org/pdf/2107.09179",
+      "access": "open_author_pdf",
+      "metadata_only": false,
+      "asset_count": 16
+    },
+    {
+      "id": "OSRT_CVPR2023",
+      "title": "OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer",
+      "venue": "CVPR",
+      "year": 2023,
+      "classification": "CCF-A main conference",
+      "official_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Yu_OSRT_Omnidirectional_Image_Super-Resolution_With_Distortion-Aware_Transformer_CVPR_2023_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_OSRT_Omnidirectional_Image_Super-Resolution_With_Distortion-Aware_Transformer_CVPR_2023_paper.pdf",
+      "access": "open_pdf",
+      "metadata_only": false,
+      "asset_count": 11
+    },
+    {
+      "id": "ScienceAdvances_CorticalCoding_2022",
+      "title": "Internally generated population activity in cortical networks hinders information transmission",
+      "venue": "Science Advances",
+      "year": 2022,
+      "classification": "Science family journal; open-access biological/information-theoretic reference",
+      "official_url": "https://www.science.org/doi/10.1126/sciadv.abg5244",
+      "pdf_url": "https://www.science.org/doi/pdf/10.1126/sciadv.abg5244?download=true",
+      "access": "metadata_only_pdf_route_blocked",
+      "metadata_only": true,
+      "asset_count": 0
+    },
+    {
+      "id": "SphereSR_CVPR2022",
+      "title": "SphereSR: 360° Image Super-Resolution With Arbitrary Projection via Continuous Spherical Image Representation",
+      "venue": "CVPR",
+      "year": 2022,
+      "classification": "CCF-A main conference",
+      "official_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Yoon_SphereSR_360deg_Image_Super-Resolution_With_Arbitrary_Projection_via_Continuous_Spherical_CVPR_2022_paper.html",
+      "pdf_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Yoon_SphereSR_360deg_Image_Super-Resolution_With_Arbitrary_Projection_via_Continuous_Spherical_CVPR_2022_paper.pdf",
+      "access": "open_pdf",
+      "metadata_only": false,
+      "asset_count": 14
+    },
+    {
+      "id": "SphericalPseudoCylindrical_AAAI2024",
+      "title": "Spherical Pseudo-Cylindrical Representation for Omnidirectional Image Super-resolution",
+      "venue": "AAAI",
+      "year": 2024,
+      "classification": "CCF-A main conference",
+      "official_url": "https://ojs.aaai.org/index.php/AAAI/article/view/27846",
+      "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/27846/27718",
+      "access": "metadata_only_pdf_route_blocked",
+      "metadata_only": true,
+      "asset_count": 0
+    },
+    {
+      "id": "WaveletCompressedConv_NeurIPS2022",
+      "title": "Wavelet Feature Maps Compression for Image-to-Image CNNs",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "classification": "CCF-A main conference",
+      "official_url": "https://papers.neurips.cc/paper_files/paper/2022/hash/81f19c0e9f3e06c831630ab6662fd8ea-Abstract.html",
+      "pdf_url": "https://papers.neurips.cc/paper_files/paper/2022/file/81f19c0e9f3e06c831630ab6662fd8ea-Paper-Conference.pdf",
+      "access": "open_pdf",
+      "metadata_only": false,
+      "asset_count": 9
+    }
+  ],
+  "assets": [
+    {
+      "id": "BeyondPerspective_ICCV2025:figure:Fig1:0",
+      "kind": "figure",
+      "paper_id": "BeyondPerspective_ICCV2025",
+      "label": "Fig1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 0,
+      "caption": "Figure 1. 360-degree image in (a) spherical domain representation and (b) equirectangular projection format. Bjøntegaard Delta rate savings (c) of our proposed framework for optimizing neural video codecs for 360-degree video. Tested with DCVC-HEM [29] using the JVET360 [19], HEVC [7], and UVG [37] datasets. The anchor is DCVC-HEM trained on perspective video.",
+      "original": "BeyondPerspective_ICCV2025/figures/original/Fig1_p000.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "BeyondPerspective_ICCV2025/figures/vector/Fig1/Fig1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "BeyondPerspective_ICCV2025/figures/vector/Fig1/Fig1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "BeyondPerspective_ICCV2025:figure:Fig2:2",
+      "kind": "figure",
+      "paper_id": "BeyondPerspective_ICCV2025",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Figure 2. Sample frames from our UGC360 dataset showcasing its diverse content.",
+      "original": "BeyondPerspective_ICCV2025/figures/original/Fig2_p002.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "BeyondPerspective_ICCV2025:table:Table1:2",
+      "kind": "table",
+      "paper_id": "BeyondPerspective_ICCV2025",
+      "label": "Table1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Table 1. UGC360 dataset subsets. Subsets split the overall dataset into smaller parts based on their resolution to ease data handling.",
+      "original": "BeyondPerspective_ICCV2025/tables/original/Table1_p002.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "BeyondPerspective_ICCV2025/tables/vector/Table1/Table1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "BeyondPerspective_ICCV2025/tables/vector/Table1/Table1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "BeyondPerspective_ICCV2025/tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "id": "BeyondPerspective_ICCV2025:figure:Fig3:3",
+      "kind": "figure",
+      "paper_id": "BeyondPerspective_ICCV2025",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 3,
+      "caption": "Figure 3. Visualization of our flow-guided reprojection. In a first step, the source position pc src and target position pc tar are sampled. The source position is uniformly sampled within the valid region defined by the flow guide. The target position is uniformly sampled in the entire image area. In a second step, the source and target positions are projected onto the unit sphere according to (1) and (2). To align the source position with the target position, the rotation matrix R is then derived according to (3). Applying this rotation to all pixels in the source image yields the reprojected image from which the target patch is extracted.",
+      "original": "BeyondPerspective_ICCV2025/figures/original/Fig3_p003.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "BeyondPerspective_ICCV2025/figures/vector/Fig3/Fig3.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "BeyondPerspective_ICCV2025/figures/vector/Fig3/Fig3.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "BeyondPerspective_ICCV2025:figure:Fig4:4",
+      "kind": "figure",
+      "paper_id": "BeyondPerspective_ICCV2025",
+      "label": "Fig4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Figure 4. Positional feature encoding at the example of the DCVC-HEM model [29].",
+      "original": "BeyondPerspective_ICCV2025/figures/original/Fig4_p004.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "BeyondPerspective_ICCV2025/figures/vector/Fig4/Fig4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "BeyondPerspective_ICCV2025/figures/vector/Fig4/Fig4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "BeyondPerspective_ICCV2025:figure:Fig5:4",
+      "kind": "figure",
+      "paper_id": "BeyondPerspective_ICCV2025",
+      "label": "Fig5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Figure 5. Depiction of (a) the insertion process of the additional positional feature encoding channel and (b) the extension of the respective convolution kernels.",
+      "original": "BeyondPerspective_ICCV2025/figures/original/Fig5_p004.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "BeyondPerspective_ICCV2025/figures/vector/Fig5/Fig5.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "BeyondPerspective_ICCV2025/figures/vector/Fig5/Fig5.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "BeyondPerspective_ICCV2025:table:Table2:5",
+      "kind": "table",
+      "paper_id": "BeyondPerspective_ICCV2025",
+      "label": "Table2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 5,
+      "caption": "Table 2. BD-Rate (%) in YUV color space with respect to the baseline DCVC-HEM finetuned on vimeo90k. Different models and training configurations. WS-PSNR used as quality metric for the 360-degree JVET360 dataset, PSNR for the remaining perspective datasets. Column Average shows the average BD-Rate over all perspective dataset sequences. Highest rate savings for each dataset are marked bold.",
+      "original": "BeyondPerspective_ICCV2025/tables/original/Table2_p005.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "BeyondPerspective_ICCV2025/tables/vector/Table2/Table2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "BeyondPerspective_ICCV2025/tables/vector/Table2/Table2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "BeyondPerspective_ICCV2025/tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "BeyondPerspective_ICCV2025:table:Table3:6",
+      "kind": "table",
+      "paper_id": "BeyondPerspective_ICCV2025",
+      "label": "Table3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Table 3. Ablation study investigating flow-guided reprojection. BD-Rate (%) in YUV color space with respect to default config- uration TA for each model individually. All instances trained on UGC360+vimeo90k.",
+      "original": "BeyondPerspective_ICCV2025/tables/original/Table3_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "BeyondPerspective_ICCV2025/tables/vector/Table3/Table3.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "BeyondPerspective_ICCV2025/tables/vector/Table3/Table3.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "BeyondPerspective_ICCV2025/tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "id": "BeyondPerspective_ICCV2025:table:Table4:6",
+      "kind": "table",
+      "paper_id": "BeyondPerspective_ICCV2025",
+      "label": "Table4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Table 4. Per-frame complexity metrics for the default DCVC- HEM and DCVC-HEM-360 with positional feature encoding.",
+      "original": "BeyondPerspective_ICCV2025/tables/original/Table4_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "BeyondPerspective_ICCV2025/tables/vector/Table4/Table4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "BeyondPerspective_ICCV2025/tables/vector/Table4/Table4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "BeyondPerspective_ICCV2025/tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "id": "BeyondPerspective_ICCV2025:figure:Fig6:7",
+      "kind": "figure",
+      "paper_id": "BeyondPerspective_ICCV2025",
+      "label": "Fig6",
+      "position_key": "6",
+      "position_number": 6,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Figure 6. Visual results of our DCVC-HEM and DCVC-HEM-360 for the JVET360 ChairliftRide sequence finetuned on vimeo90k or UGC360+vimeo90k with flow-guided reprojection. The first column shows the bitrate allocation with the overall bitrate, the second column shows the reconstructed frame with the overall WS-PSNR, the third and fourth columns show two exemplary viewports with their allocated number of bits and corresponding viewport PSNR.",
+      "original": "BeyondPerspective_ICCV2025/figures/original/Fig6_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "BeyondPerspective_ICCV2025/figures/vector/Fig6/Fig6.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "CODiff_ICCV2025:figure:Fig2:1",
+      "kind": "figure",
+      "paper_id": "CODiff_ICCV2025",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 1,
+      "caption": "Figure 2. An illustration of the explicit learning approach with our dual learning strategy. We employ the t-SNE [36] method to visu- alize the clustering of output compression quality representations on the Urban100 [14] dataset, where QF=1 and QF=5 are unseen compression levels. Notably, the explicit learning method strug- gles to distinguish between these unseen QFs, whereas our dual learning strategy effectively differentiates them.",
+      "original": "CODiff_ICCV2025/figures/original/Fig2_p001.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "CODiff_ICCV2025/figures/vector/Fig2/Fig2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "CODiff_ICCV2025/figures/vector/Fig2/Fig2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "CODiff_ICCV2025:figure:Fig3:2",
+      "kind": "figure",
+      "paper_id": "CODiff_ICCV2025",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Figure 3. Overview of our proposed CODiff. In the first stage, we train our compression-aware visual embedder (CaVE) via a dual learning strategy. In implicit learning, compression prior embeddings are fed into a UNet decoder to reconstruct high-quality (HQ) images. In explicit learning, they are input into a lightweight quality factor (QF) predictor. In the second stage, the priors from CaVE are then used by the generator Gθ to restore the HQ images: ˆIH = Gθ(IL; cL). The generator Gθ integrates a pre-trained VAE and UNet from StableDiffusion [29], with the VAE encoder and UNet fine-tuned via LoRA [13].",
+      "original": "CODiff_ICCV2025/figures/original/Fig3_p002.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "CODiff_ICCV2025/figures/vector/Fig3/Fig3.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "CODiff_ICCV2025/figures/vector/Fig3/Fig3.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "CODiff_ICCV2025:table:Table2:7",
+      "kind": "table",
+      "paper_id": "CODiff_ICCV2025",
+      "label": "Table2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Table 2. Complexity comparison among diffusion-based methods. Input image size is 1,024×1,024 for inference.",
+      "original": "CODiff_ICCV2025/tables/original/Table2_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "CODiff_ICCV2025/tables/vector/Table2/Table2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "CODiff_ICCV2025/tables/vector/Table2/Table2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "CODiff_ICCV2025/tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "CODiff_ICCV2025:table:Table3:7",
+      "kind": "table",
+      "paper_id": "CODiff_ICCV2025",
+      "label": "Table3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Table 3. Ablation study of prompt embedding generation on LIVE-1 and DIV2K-val datasets. The best and second best re- sults are colored with red and blue, respectively.",
+      "original": "CODiff_ICCV2025/tables/original/Table3_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "CODiff_ICCV2025/tables/vector/Table3/Table3.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "CODiff_ICCV2025/tables/vector/Table3/Table3.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "CODiff_ICCV2025/tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "CODiff_ICCV2025:table:Table7:7",
+      "kind": "table",
+      "paper_id": "CODiff_ICCV2025",
+      "label": "Table7",
+      "position_key": "7",
+      "position_number": 7,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Table 7. Ablation study of the dual learning strategy. The best and second best results are colored with red and blue, respectively.",
+      "original": "CODiff_ICCV2025/tables/original/Table7_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "CODiff_ICCV2025/tables/vector/Table7/Table7.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "CODiff_ICCV2025/tables/vector/Table7/Table7.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "CODiff_ICCV2025/tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "CODiff_ICCV2025:figure:Fig7:7",
+      "kind": "figure",
+      "paper_id": "CODiff_ICCV2025",
+      "label": "Fig7",
+      "position_key": "7",
+      "position_number": 7,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Figure 7. Comparison of CaVE’s QF prediction mean squared error (MSE) between explicit learning and dual learning on LIVE- 1 and DIV2K-val datasets. Tab. 8, using only L2 yields suboptimal perceptual results, while adding LDIST S brings significant improvement. In- corporating GAN loss further refines visual quality, demon- strating its complementary effect.",
+      "original": "CODiff_ICCV2025/figures/original/Fig7_p007.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "CODiff_ICCV2025:table:Table8:7",
+      "kind": "table",
+      "paper_id": "CODiff_ICCV2025",
+      "label": "Table8",
+      "position_key": "8",
+      "position_number": 8,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Table 8. Ablation studies on different loss functions. The best and second best results are colored with red and blue, respectively.",
+      "original": "CODiff_ICCV2025/tables/original/Table8_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "CODiff_ICCV2025/tables/vector/Table8/Table8.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "CODiff_ICCV2025/tables/vector/Table8/Table8.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "CODiff_ICCV2025/tables/latex/Table8.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "DeepSNN_0p3Spikes_NC2024:figure:Fig1:2",
+      "kind": "figure",
+      "paper_id": "DeepSNN_0p3Spikes_NC2024",
+      "label": "Fig1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Fig. 1 | Network of TTFS neurons. a An image is processed in the brain through the rapid transmission of spikes between neurons34,71. Yellow color denotes active neurons, and red color represents the generated spikes (schematic). b A feed- forward TTFS-network architecture receives spikes, where earlier spiking times encode more salient information in the image30, e.g., receptive ﬁelds around a lotus ﬂower (dashed circle, bottom). c The potential V ðnÞ i for different neurons i varies as",
+      "original": "DeepSNN_0p3Spikes_NC2024/figures/original/Fig1_p002.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DeepSNN_0p3Spikes_NC2024/figures/vector/Fig1/Fig1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DeepSNN_0p3Spikes_NC2024/figures/vector/Fig1/Fig1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DeepSNN_0p3Spikes_NC2024:figure:Fig2:3",
+      "kind": "figure",
+      "paper_id": "DeepSNN_0p3Spikes_NC2024",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 3,
+      "caption": "Fig. 2 | Eigenvalues of the SNN Jacobian for different models under standard deep learning initialization. a In α1-model the initial slope is AðnÞ i = αðnÞ i = 1 and in the second regime the slopes of all neurons i are set to neuron-speciﬁc slopes derived from αðnÞ i = 1. Spikes are red, spiking threshold is purple, and three shades of green indicate evolution of V ðnÞ i for three different neurons i. b The eigenvalues of",
+      "original": "DeepSNN_0p3Spikes_NC2024/figures/original/Fig2_p003.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DeepSNN_0p3Spikes_NC2024/figures/vector/Fig2/Fig2.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DeepSNN_0p3Spikes_NC2024:figure:Fig3:4",
+      "kind": "figure",
+      "paper_id": "DeepSNN_0p3Spikes_NC2024",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Fig. 3 | Learning in eight-layer SNNs on the MNIST dataset for different models and initializations. a A ReLU network with standard deep learning initialization w(n)",
+      "original": "DeepSNN_0p3Spikes_NC2024/figures/original/Fig3_p004.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DeepSNN_0p3Spikes_NC2024/figures/vector/Fig3/Fig3.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DeepSNN_0p3Spikes_NC2024/figures/vector/Fig3/Fig3.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DeepSNN_0p3Spikes_NC2024:figure:Fig4:5",
+      "kind": "figure",
+      "paper_id": "DeepSNN_0p3Spikes_NC2024",
+      "label": "Fig4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 5,
+      "caption": "Fig. 4 | Conversion followed by ﬁne-tuning for a VGG16 network. A VGG16 SNN network (right) is initialized (curly blue arrow) with the weights and biases (red) of a pre-trained VGG16 ReLU network (left), and then ﬁne-tuned (FT) with gradient descent using the framework of the B1-model. The pre-trained ReLU network also undergoes further ﬁne-tuning using standard backpropagation optimization.",
+      "original": "DeepSNN_0p3Spikes_NC2024/figures/original/Fig4_p005.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DeepSNN_0p3Spikes_NC2024/figures/vector/Fig4/Fig4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DeepSNN_0p3Spikes_NC2024/figures/vector/Fig4/Fig4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DeepSNN_0p3Spikes_NC2024:table:Table1:5",
+      "kind": "table",
+      "paper_id": "DeepSNN_0p3Spikes_NC2024",
+      "label": "Table1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 5,
+      "caption": "Table 1 | Performance after training an SNN using the B1-model (ours), compared to trained ReLU networks and SNN baselines",
+      "original": "DeepSNN_0p3Spikes_NC2024/tables/original/Table1_p005.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DeepSNN_0p3Spikes_NC2024/tables/vector/Table1/Table1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DeepSNN_0p3Spikes_NC2024/tables/vector/Table1/Table1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "DeepSNN_0p3Spikes_NC2024/tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "DeepSNN_0p3Spikes_NC2024:table:Table2:6",
+      "kind": "table",
+      "paper_id": "DeepSNN_0p3Spikes_NC2024",
+      "label": "Table2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Table 2 | Test accuracy and spiking sparsity for a VGG16 architecture",
+      "original": "DeepSNN_0p3Spikes_NC2024/tables/original/Table2_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DeepSNN_0p3Spikes_NC2024/tables/vector/Table2/Table2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DeepSNN_0p3Spikes_NC2024/tables/vector/Table2/Table2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "DeepSNN_0p3Spikes_NC2024/tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "DeepSNN_0p3Spikes_NC2024:figure:Fig5:6",
+      "kind": "figure",
+      "paper_id": "DeepSNN_0p3Spikes_NC2024",
+      "label": "Fig5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Fig. 5 | Fine-tuning for noise robustness, quantization, and latency. VGG16 SNN on CIFAR10. In all cases after only 10 epochs of ﬁne-tuning (w/ FT—purple squares) the accuracy of the initially mapped network (w/o FT—blue circles) is signiﬁcantly improved. a Accuracy as a function of the standard deviation (SD) of random noise",
+      "original": "DeepSNN_0p3Spikes_NC2024/figures/original/Fig5_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DeepSNN_0p3Spikes_NC2024/figures/vector/Fig5/Fig5.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DeepSNN_0p3Spikes_NC2024/figures/vector/Fig5/Fig5.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DINN360_CVPR2023:figure:Fig1:0",
+      "kind": "figure",
+      "paper_id": "DINN360_CVPR2023",
+      "label": "Fig1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 0,
+      "caption": "Figure 1. Motivation and pipeline of our DINN360 method. The non-uniform sampling density causes various deformations at dif- ferent latitude regions, and this guides the design of our DINN360 model. Finally, the HR 360◦image can be rescaled from the cor- responding LR image and latent space.",
+      "original": "DINN360_CVPR2023/figures/original/Fig1_p000.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DINN360_CVPR2023/figures/vector/Fig1/Fig1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DINN360_CVPR2023/figures/vector/Fig1/Fig1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DINN360_CVPR2023:figure:Fig2:2",
+      "kind": "figure",
+      "paper_id": "DINN360_CVPR2023",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Figure 2. Magnitude of HF components and GLCM entropy at different latitude regions of 360◦images.",
+      "original": "DINN360_CVPR2023/figures/original/Fig2_p002.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DINN360_CVPR2023:figure:Fig3:2",
+      "kind": "figure",
+      "paper_id": "DINN360_CVPR2023",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Figure 3. Results of PSNRs and HF components of 4× rescaled HR images by 2D methods at different latitude regions.",
+      "original": "DINN360_CVPR2023/figures/original/Fig3_p002.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DINN360_CVPR2023:figure:Fig4:2",
+      "kind": "figure",
+      "paper_id": "DINN360_CVPR2023",
+      "label": "Fig4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Figure 4. Error maps of the GT and rescaled HR images from the existing methods, over F-360iSOD and SUN360 datasets. to flow-based models [7,11,15,19], our DINN360 learns to project the HF component h into a latent variable z follow- ing a prior distribution, and then recover h during upscal- ing. This way, the rescaling procedure can be formulated as a bijective transformation: ˆx ↔[y; z]. The pipeline of DINN360 is illustrated in Fig. 5 and introduced below. (1) Deformable downscaling ˆx →[y; h]. In this stage, the input HR image ˆx is decomposed into the downscaled LR image y and HF component h. Specifically, as shown in Fig. 5, the Haar wavelet transformation is first conducted over ˆx to obtain the HF and LF information. Then, the in- vertible deformable (ID) blocks are developed in DINN360 to fuse both HF and LF components in an invertible manner, and generate the refined HF and LF components, denoted as h and y. The refined LF component is also output as the downscaled LR image. (2) Latitude-aware HF projection [y; h] →z ∼N(0, 1). Subsequently, the HF component h is learned to project to the latent variable z, considering the spherical characteris- tics of the downscaled image y. To be specific, as shown in Fig. 5, the content and latitude conditions are extracted from y, and then concatenated with h, as the input to a set of developed invertible projection (IP) blocks. Finally, the projected latent variable z is supervised to fit a normalized Gaussian distribution N(0, 1). (3) Reverse upscaling [y;ez∼N(0, 1)] →x. For the re- verse upscaling procedure, the downscaled image y is com- bined with a randomly sampled latent variable ez ∼N(0, 1), and then input into the reverse IP blocks, to recover the HF component eh. Finally, after the reverse ID blocks and Haar transformation, the HF component and downscaled image are inversely transformed to reconstruct the HR image x.",
+      "original": "DINN360_CVPR2023/figures/original/Fig4_p002.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DINN360_CVPR2023/figures/vector/Fig4/Fig4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DINN360_CVPR2023/figures/vector/Fig4/Fig4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DINN360_CVPR2023:figure:Fig5:3",
+      "kind": "figure",
+      "paper_id": "DINN360_CVPR2023",
+      "label": "Fig5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 3,
+      "caption": "Figure 5. Pipeline of DINN360 in the setting of 2× rescaling. Here, ∼ID block and ∼IP block indicate the corresponding reverse structures.",
+      "original": "DINN360_CVPR2023/figures/original/Fig5_p003.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DINN360_CVPR2023/figures/vector/Fig5/Fig5.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DINN360_CVPR2023/figures/vector/Fig5/Fig5.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DINN360_CVPR2023:figure:Fig6:4",
+      "kind": "figure",
+      "paper_id": "DINN360_CVPR2023",
+      "label": "Fig6",
+      "position_key": "6",
+      "position_number": 6,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Figure 6. Architectures of (a) functions ρ(·) and ρ′(·) in ID blocks; (b) DST module.",
+      "original": "DINN360_CVPR2023/figures/original/Fig6_p004.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DINN360_CVPR2023:figure:Fig7:5",
+      "kind": "figure",
+      "paper_id": "DINN360_CVPR2023",
+      "label": "Fig7",
+      "position_key": "7",
+      "position_number": 7,
+      "position_suffix": "",
+      "page": 5,
+      "caption": "Figure 7. Framework of our backflow training protocol for the invertible structure of HF projection.",
+      "original": "DINN360_CVPR2023/figures/original/Fig7_p005.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DINN360_CVPR2023/figures/vector/Fig7/Fig7.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DINN360_CVPR2023/figures/vector/Fig7/Fig7.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DINN360_CVPR2023:table:Table1:6",
+      "kind": "table",
+      "paper_id": "DINN360_CVPR2023",
+      "label": "Table1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Table 1. Results of WS-PSNR / WS-SSIM (×10−2) on the rescaled HR images of our DINN360 and compared methods over four datasets. The best results are in bold and the underline scores represent the second-best results.",
+      "original": "DINN360_CVPR2023/tables/original/Table1_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DINN360_CVPR2023/tables/vector/Table1/Table1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DINN360_CVPR2023/tables/vector/Table1/Table1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "DINN360_CVPR2023/tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "DINN360_CVPR2023:figure:Fig8:6",
+      "kind": "figure",
+      "paper_id": "DINN360_CVPR2023",
+      "label": "Fig8",
+      "position_key": "8",
+      "position_number": 8,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Figure 8. Quantitative results of 4× and 8× image rescaling on ODISR dataset.",
+      "original": "DINN360_CVPR2023/figures/original/Fig8_p006.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DINN360_CVPR2023:table:Table2:7",
+      "kind": "table",
+      "paper_id": "DINN360_CVPR2023",
+      "label": "Table2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Table 2. Results of WS-PSNR and WS-SSIM (×10−2) in ablation experiments for 4× image rescaling on ODISR dataset.",
+      "original": "DINN360_CVPR2023/tables/original/Table2_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DINN360_CVPR2023/tables/vector/Table2/Table2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DINN360_CVPR2023/tables/vector/Table2/Table2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "DINN360_CVPR2023/tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "DINN360_CVPR2023:figure:Fig9:7",
+      "kind": "figure",
+      "paper_id": "DINN360_CVPR2023",
+      "label": "Fig9",
+      "position_key": "9",
+      "position_number": 9,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Figure 9. Ablation results on numbers of ID/IP blocks.",
+      "original": "DINN360_CVPR2023/figures/original/Fig9_p007.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DINN360_CVPR2023:figure:Fig10:7",
+      "kind": "figure",
+      "paper_id": "DINN360_CVPR2023",
+      "label": "Fig10",
+      "position_key": "10",
+      "position_number": 10,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Figure 10. Ablation results on feedback ratio α in Eq. (13).",
+      "original": "DINN360_CVPR2023/figures/original/Fig10_p007.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DynamicSparsity_NatCommun2025:figure:Fig1:2",
+      "kind": "figure",
+      "paper_id": "DynamicSparsity_NatCommun2025",
+      "label": "Fig1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Fig. 1 | Examples of dynamic sparsity. A Sparse spiking activity (arrows) observed through calcium imaging of a brain slice from mouse frontal cortex (courtesy R. Loidl). B Muybridge’s 1878 Horse in Motion sequence repeats nearly exactly the same information across frames, albeit with severe aliasing. C Driving sequence is",
+      "original": "DynamicSparsity_NatCommun2025/figures/original/Fig1_p002.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DynamicSparsity_NatCommun2025/figures/vector/Fig1/Fig1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DynamicSparsity_NatCommun2025/figures/vector/Fig1/Fig1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DynamicSparsity_NatCommun2025:figure:Fig2:2",
+      "kind": "figure",
+      "paper_id": "DynamicSparsity_NatCommun2025",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Fig. 2 | Dynamic sparsity in neuromorphic vision sensors. A The three layers of the biological retina25. Left to right: photoreceptors, bipolar cells, and ganglion cells. B Silicon implementation of the retina cells in a neuromorphic event camera",
+      "original": "DynamicSparsity_NatCommun2025/figures/original/Fig2_p002.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DynamicSparsity_NatCommun2025:figure:Fig3:3",
+      "kind": "figure",
+      "paper_id": "DynamicSparsity_NatCommun2025",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 3,
+      "caption": "Fig. 3 | Taxonomy of sparsity. Sparsity is classiﬁed based on whether it is data- dependent. A Static sparsity is ﬁxed and leads to a static processing ﬂow. Weight sparsity, commonly employed in neural network compression, falls into this cate- gory. B Dynamic sparsity is data-dependent and leads to a dynamic processing ﬂow. Rooted in data redundancy, it can be further categorized based on its dimension, structuredness, and statefulness. C Dynamic sparsity can be spatial, temporal, or",
+      "original": "DynamicSparsity_NatCommun2025/figures/original/Fig3_p003.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DynamicSparsity_NatCommun2025/figures/vector/Fig3/Fig3.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DynamicSparsity_NatCommun2025:figure:Fig4:4",
+      "kind": "figure",
+      "paper_id": "DynamicSparsity_NatCommun2025",
+      "label": "Fig4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Fig. 4 | Enhancing and exploiting dynamic sparsity in perception systems. A The sensor subsystem uses methods such as sparse coding and event-based representation to suppress data redundancy at the very ﬁrst stage of perception. B The memory subsystem provides storage for both activations and weights. It exploits dynamic sparsity by reducing the data trafﬁc to and from the memory, using methods such as activation compression, sparse in-memory computing",
+      "original": "DynamicSparsity_NatCommun2025/figures/original/Fig4_p004.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DynamicSparsity_NatCommun2025/figures/vector/Fig4/Fig4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DynamicSparsity_NatCommun2025/figures/vector/Fig4/Fig4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DynamicSparsity_NatCommun2025:table:Table1:8",
+      "kind": "table",
+      "paper_id": "DynamicSparsity_NatCommun2025",
+      "label": "Table1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 8,
+      "caption": "Table 1 | Limitations and opportunities for dynamically sparse perception systems",
+      "original": "DynamicSparsity_NatCommun2025/tables/original/Table1_p008.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "DynamicSparsity_NatCommun2025/tables/vector/Table1/Table1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "DynamicSparsity_NatCommun2025/tables/vector/Table1/Table1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "DynamicSparsity_NatCommun2025/tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "id": "DynamicSparsity_NatCommun2025:figure:Fig5:8",
+      "kind": "figure",
+      "paper_id": "DynamicSparsity_NatCommun2025",
+      "label": "Fig5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 8,
+      "caption": "Fig. 5 | Brain-inspired perception with stateful dynamic sparsity. Thinner arrows indicate sparser data ﬂow. Boxes ﬁlled in grey indicate stateful modules. Boxes ﬁlled in blue are activated modules, where lighter ﬁll color indicates fewer activated neurons. A Hierarchical updating of the modules across time for a stateless system. Neurons within each module are sparsely activated (see Fig. 3). B More dynamic sparsity enabled through stateful systems. Bidirectional connections across",
+      "original": "DynamicSparsity_NatCommun2025/figures/original/Fig5_p008.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "DynamicSparsity_NatCommun2025:figure:Fig6:9",
+      "kind": "figure",
+      "paper_id": "DynamicSparsity_NatCommun2025",
+      "label": "Fig6",
+      "position_key": "6",
+      "position_number": 6,
+      "position_suffix": "",
+      "page": 9,
+      "caption": "Fig. 6 | Directions for further research. Realizing dynamic sparsity’s full potential calls for a cross-layer research effort spanning applications, algorithms, architectures, circuits, and device technologies, with neuroscience providing the foundational inspiration.",
+      "original": "DynamicSparsity_NatCommun2025/figures/original/Fig6_p009.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "EfficientNeuralCodes_NatCommun2022:figure:Fig1:1",
+      "kind": "figure",
+      "paper_id": "EfficientNeuralCodes_NatCommun2022",
+      "label": "Fig1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 1,
+      "caption": "Fig. 1 | Reasons for efﬁcient coding. a One consequence of efﬁcient coding is that perceptual sensitivity reﬂects the empirical frequency of perceptual variables. b Efﬁcient coding can be justiﬁed normatively as the most effective way to allocate",
+      "original": "EfficientNeuralCodes_NatCommun2022/figures/original/Fig1_p001.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "EfficientNeuralCodes_NatCommun2022/figures/vector/Fig1/Fig1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "EfficientNeuralCodes_NatCommun2022/figures/vector/Fig1/Fig1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "EfficientNeuralCodes_NatCommun2022:figure:Fig2:2",
+      "kind": "figure",
+      "paper_id": "EfficientNeuralCodes_NatCommun2022",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Fig. 2 | Artiﬁcial neural networks trained to classify naturalistic images show similar patterns of sensitivity as humans. a Discrimination thresholds for orientation vary systematically in humans. The sensitivity of the underlying inter- nal representations, as the Fisher Information, can be inferred as the inverse square of the threshold6,9. Data from ref. 44. b We measured the sensitivity of each layer in",
+      "original": "EfficientNeuralCodes_NatCommun2022/figures/original/Fig2_p002.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "EfficientNeuralCodes_NatCommun2022:figure:Fig3:2",
+      "kind": "figure",
+      "paper_id": "EfficientNeuralCodes_NatCommun2022",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Fig. 3 | The sensitivity of ANNs to hue also matches image statistics. a The color of a uniform image is varied; in HSV color space, saturation and value are held ﬁxed and the hue is varied. Results are averaged over possible saturations and values. b In humans, the sensitivity to the H axis can be inferred by the perceptual distance between uniformly spaced H values (calculated using the approximately",
+      "original": "EfficientNeuralCodes_NatCommun2022/figures/original/Fig3_p002.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "EfficientNeuralCodes_NatCommun2022:figure:Fig4:3",
+      "kind": "figure",
+      "paper_id": "EfficientNeuralCodes_NatCommun2022",
+      "label": "Fig4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 3,
+      "caption": "Fig. 4 | Schematic of how the learning dynamics of linear networks causes a correspondence between network sensitivity and input statistics. The learning problem is broken into components, each of which learns at a speciﬁc rate. The frequency or variance of a feature of the input data (e.g. the color red) in part",
+      "original": "EfficientNeuralCodes_NatCommun2022/figures/original/Fig4_p003.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "EfficientNeuralCodes_NatCommun2022/figures/vector/Fig4/Fig4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "EfficientNeuralCodes_NatCommun2022/figures/vector/Fig4/Fig4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "EfficientNeuralCodes_NatCommun2022:figure:Fig5:4",
+      "kind": "figure",
+      "paper_id": "EfficientNeuralCodes_NatCommun2022",
+      "label": "Fig5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Fig. 5 | The effect of input statistics on network sensitivity can be understood with linear network models. Despite their simplicity, these show human-like learning phenomena. a We trained linear networks to reconstruct black and white patches of natural images. b The statistics of natural images can be analyzed with Principal Components Analysis (PCA); the variance of each successive PC decrea- ses with a characteristic power law decay. c When learning with gradient descent, the weight matrix W learns each PC separately and in order of their variance. The sharpness of the sigmoidal learning curve is controlled by the network depth (SI Fig. 2) d Human perceptual learning curves are also sigmoidal, and increasing task difﬁculty delays learning dynamics. Data replotted from ref. 49; subjects trained to detect the orientation of a line, and the difﬁculty of the task was controlled by a",
+      "original": "EfficientNeuralCodes_NatCommun2022/figures/original/Fig5_p004.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "EfficientNeuralCodes_NatCommun2022/figures/vector/Fig5/Fig5.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "EfficientNeuralCodes_NatCommun2022:figure:Fig6:5",
+      "kind": "figure",
+      "paper_id": "EfficientNeuralCodes_NatCommun2022",
+      "label": "Fig6",
+      "position_key": "6",
+      "position_number": 6,
+      "position_suffix": "",
+      "page": 5,
+      "caption": "Fig. 6 | Dissociating the effect of frequency and information in supervised learning tasks. a We trained 3-layer nonlinear neural networks to classify the orientation of sinusoidal gratings into 3∘bins, varying either input frequency or output noise. b We controlled the informativeness of input orientations by injecting noise into the labels as a function of orientation (speciﬁcally, the binary labels are multiplied by a Bernoulli dropout with a rate that depends on orienta- tion). The sensitivity of the ﬁrst layer to input orientation is shown over learning. With uniform statistics, the more informative features are preferentially learned. c The effect of varying input frequency without applying label noise. In this case, the more frequent features are preferentially learned. d We then balanced noise and frequency such that the total information in the input dataset about each output label is uniform (see Methods). Learning with gradient descent still prefers common angles.",
+      "original": "EfficientNeuralCodes_NatCommun2022/figures/original/Fig6_p005.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "EfficientNeuralCodes_NatCommun2022/figures/vector/Fig6/Fig6.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "EfficientNeuralCodes_NatCommun2022/figures/vector/Fig6/Fig6.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "FixationalRetina_NatCommun2024:figure:Fig1:2",
+      "kind": "figure",
+      "paper_id": "FixationalRetina_NatCommun2024",
+      "label": "Fig1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Fig. 1 | Reconstruction of ﬂashed natural images from RGC spikes. a Example of macaque retinal data. Receptive ﬁeld mosaics for the major RGC types (ON parasol, OFF parasol, ON midget, OFF midget). Natural images are ﬂashed for 100 ms, and spikes recorded from all 691 cells over a 150 ms interval (gray region) were used for LNBRC model ﬁtting and reconstruction. b LNBRC encoding model. Model cell responses are computed from the spatio-temporally ﬁltered visual stimulus, com- bined with ﬁltered spike trains from the cell and neighboring cells. These ﬁltered spiking inputs capture both spike train temporal structure and cell-to-cell corre- lations. c Bayesian reconstruction. The likelihood computed using the LNBRC encoding model is combined with a separately trained natural image prior to producing a posterior density for the stimuli given observed spike trains. d Half- quadratic variable splitting algorithm for approximate MAP optimization. The method alternates between optimizing the likelihood (a convex minimization problem, solved using gradient descent), and optimizing the prior probability (by applying an artiﬁcial neural network pre-trained to perform Gaussian denoising on",
+      "original": "FixationalRetina_NatCommun2024/figures/original/Fig1_p002.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "FixationalRetina_NatCommun2024/figures/vector/Fig1/Fig1.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "FixationalRetina_NatCommun2024:figure:Fig2:3",
+      "kind": "figure",
+      "paper_id": "FixationalRetina_NatCommun2024",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 3,
+      "caption": "Fig. 2 | Reconstruction of jittered natural images from RGC spikes. a Example reconstructed image from simulated noiseless RGC responses, with an example ﬁxational drift eye movement trajectory overlaid (red). The original stimulus is from the ImageNet dataset11 and is not displayed due to copyright restrictions. b Example ON parasol cell receptive ﬁeld mosaic (left) and ON midget cell mosaic (right), with drift trajectory (red). The simulated eye movements were typically comparable to the size of a midget RGC receptive ﬁeld. c Top: comparison of spikes recorded from an ON parasol RGC over repeated presentations of the same sti- mulus (black ticks) to simulated responses of the ﬁtted LNBRC model (red ticks). Bottom: average spike rates over time corresponding to the above rasters. d Schematic of joint-LNBRC-dCNN reconstruction. The algorithm alternates between an image estimation update step (left), in which the stimulus is recon- structed using the LNBRC model and denoiser CNN image prior to maximizing the expected log-posterior over a variational distribution for eye movements, and an eye movement update step (right), in which the variational distribution for eye movements is updated given the reconstructed image. e Example reconstructions, using LNBRC encoding model and dCNN prior. Columns: Simulated noiseless reconstruction, a reconstruction of the stimulus from linear projections onto the",
+      "original": "FixationalRetina_NatCommun2024/figures/original/Fig2_p003.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "FixationalRetina_NatCommun2024/figures/vector/Fig2/Fig2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "FixationalRetina_NatCommun2024/figures/vector/Fig2/Fig2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "FixationalRetina_NatCommun2024:figure:Fig3:5",
+      "kind": "figure",
+      "paper_id": "FixationalRetina_NatCommun2024",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 5,
+      "caption": "Fig. 3 | Effects of ﬁxational drift magnitude on reconstruction quality. a Image reconstruction performance for three preparations (delineated with different col- ors) as a function of the magnitude of eye movements simulated during the stimulus presentation, for joint-LNBRC-dCNN (solid line), known-LNBRC-dCNN (dashed line), and zero-LNBRC-dCNN (dotted line). The magnitude of drift eye movements was quantiﬁed as the standard deviation in the eye position occurring during each trial. The error bars in every panel correspond to the standard error of mean recon- struction quality. In all preparations, reconstruction quality for joint-LNBRC-dCNN and known-LNBRC-dCNN increased with eye position jitter, up to (but not including) the largest eye movements evaluated. Reconstructions for zero-LNBRC-dCNN were less accurate than both known-LNBRC-dCNN and joint-LNBRC-dCNN and further decreased with increasing eye movements. b Eye position estimation error as a function of the magnitude of movement, for the same experimental preparations.",
+      "original": "FixationalRetina_NatCommun2024/figures/original/Fig3_p005.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "FixationalRetina_NatCommun2024/figures/vector/Fig3/Fig3.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "FixationalRetina_NatCommun2024/figures/vector/Fig3/Fig3.pptx"
+        }
+      ],
+      "vector_mode": "fallback_raster_trace_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "FixationalRetina_NatCommun2024:figure:Fig4:6",
+      "kind": "figure",
+      "paper_id": "FixationalRetina_NatCommun2024",
+      "label": "Fig4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Fig. 4 | Effects of spike timing precision on reconstruction quality. a Reconstruction performance for ﬂashed images as a function of spike timing perturbation in four experimental preparations (colors). The x-axis is plotted on a log scale, with a broken axis to facilitate comparison with temporally unperturbed data. Error bars in all panels correspond to the standard error. Performance at each level of temporal perturbation was evaluated using N = 1500, N = 1750, N = 750, and N = 750 images for the blue, black, green, and yellow preparations, respectively. Reconstruction degraded modestly up to spike time perturbations of ~10 ms. b Reconstruction performance for the ﬁxational drift stimulus. Blue and green lines correspond to their color-matched preparations in (a). The dashed and faded lines correspond to estimation with known eye movement trajectories and the solid lines to joint estimation of the image and eye trajectory. Performance at each level of temporal perturbation was evaluated using N = 1992 images for each experimental preparation. Regardless of whether the eye movement trajectories were known or jointly estimated, performance declined smoothly starting at a temporal jitter of ~2–5 ms.",
+      "original": "FixationalRetina_NatCommun2024/figures/original/Fig4_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "FixationalRetina_NatCommun2024/figures/vector/Fig4/Fig4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "FixationalRetina_NatCommun2024/figures/vector/Fig4/Fig4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "FixationalRetina_NatCommun2024:figure:Fig5:7",
+      "kind": "figure",
+      "paper_id": "FixationalRetina_NatCommun2024",
+      "label": "Fig5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Fig. 5 | Effects of coupling. a Differences in reconstruction quality between the coupled model (LNBRC) and uncoupled model (LNBR) for ﬂashed natural images. Mean differences for four preparations: 0.023, 0.024, 0.037, and 0.023 (p-values 3.7 × 10−184, 1.2 × 10−211, 8.6 × 10−122, and 8.5 × 10−111, respectively, Wilcoxon one-sided ranked sign test). For panels (a-d), the box marks the median and the inter-quartile range (IQR), while the whiskers extend to 1.5 times the IQR. Outliers are marked with a +. b Same as (a), for reconstruction with ﬁxational drift using the joint approach. Mean differences for three preparations: 0.019, 0.010, and 0.039 (p-values 3.2 × 10−218, 4.2 × 10−62, and 2.5 × 10−307, respectively). The blue and green boxes correspond to the same experimental preparations as the blue and green boxes in (a). c Differences in reconstruction quality between the unshufﬂed and shufﬂed trials for ﬂashed image reconstructions, using LNBRCs ﬁtted to unshufﬂed data. Mean differences: 7.4 × 10−3, 6.6 × 10−3, 5.1 × 10−3, and 3.4 × 10−3 (p-values 4.5 × 10−23, 5.6 × 10−12, 3.1 × 10−20, and 3.4 × 10−12, respectively), substantially smaller than those in (a). (d) Same as (c), for reconstruction with ﬁxational drift using the",
+      "original": "FixationalRetina_NatCommun2024/figures/original/Fig5_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "FixationalRetina_NatCommun2024/figures/vector/Fig5/Fig5.svg"
+        }
+      ],
+      "vector_mode": "fallback_raster_trace_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "FrequencyBiased_CVPR2025:figure:Fig1:0",
+      "kind": "figure",
+      "paper_id": "FrequencyBiased_CVPR2025",
+      "label": "Fig1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 0,
+      "caption": "Figure 1. Comparison of five compression and/or compensation frameworks at the same LPIPS 0.164. The proposed Lo-Hi framework achieves up to 60.29% and 43.75% BPP savings compared to JPEG and SOTA NN-based CAR method, respectively. Moreover, the proposed framework achieves 376.75× and 153× latency reduction compared with VVC and HEVC, respectively.",
+      "original": "FrequencyBiased_CVPR2025/figures/original/Fig1_p000.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "FrequencyBiased_CVPR2025/figures/vector/Fig1/Fig1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "FrequencyBiased_CVPR2025/figures/vector/Fig1/Fig1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "FrequencyBiased_CVPR2025:figure:Fig2:2",
+      "kind": "figure",
+      "paper_id": "FrequencyBiased_CVPR2025",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Figure 2. Datasets and results in our exploration. (a) FCs removal; (b) The compensation of regression/generative models on different FCs in PSNR and NIQE.",
+      "original": "FrequencyBiased_CVPR2025/figures/original/Fig2_p002.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "FrequencyBiased_CVPR2025:figure:Fig3:2",
+      "kind": "figure",
+      "paper_id": "FrequencyBiased_CVPR2025",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Figure 3. FC Coefficient distributions of different quantization.",
+      "original": "FrequencyBiased_CVPR2025/figures/original/Fig3_p002.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "FrequencyBiased_CVPR2025:figure:Fig4:3",
+      "kind": "figure",
+      "paper_id": "FrequencyBiased_CVPR2025",
+      "label": "Fig4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 3,
+      "caption": "Figure 4. Proposed synergistic design and two-step Lo-Hi compensation CNN framework, including Lo-regression model and Hi-generative model. Basis attention block is designed to compensate for frequency of interest.",
+      "original": "FrequencyBiased_CVPR2025/figures/original/Fig4_p003.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "FrequencyBiased_CVPR2025/figures/vector/Fig4/Fig4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "FrequencyBiased_CVPR2025/figures/vector/Fig4/Fig4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "FrequencyBiased_CVPR2025:figure:Fig5:5",
+      "kind": "figure",
+      "paper_id": "FrequencyBiased_CVPR2025",
+      "label": "Fig5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 5,
+      "caption": "Figure 5. Rate distortion curves under JPEG, HEVC, and VVC compression (from top to bottom, respectively). LPIPS, NIQE, FID, and PSNR are adopted to measure the compensation quality (from left to right, respectively). The corresponding BD rates are reported in Table 1.",
+      "original": "FrequencyBiased_CVPR2025/figures/original/Fig5_p005.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "FrequencyBiased_CVPR2025/figures/vector/Fig5/Fig5.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "FrequencyBiased_CVPR2025:table:Table1:6",
+      "kind": "table",
+      "paper_id": "FrequencyBiased_CVPR2025",
+      "label": "Table1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Table 1. BD rates and model sizes of compression and compensation frameworks. More negative BD-rate means higher savings.",
+      "original": "FrequencyBiased_CVPR2025/tables/original/Table1_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "FrequencyBiased_CVPR2025/tables/vector/Table1/Table1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "FrequencyBiased_CVPR2025/tables/vector/Table1/Table1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "FrequencyBiased_CVPR2025/tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "FrequencyBiased_CVPR2025:table:Table2:6",
+      "kind": "table",
+      "paper_id": "FrequencyBiased_CVPR2025",
+      "label": "Table2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Table 2. BD rates and pure bitrate savings (PBS) of the Lo-Hi sensitive compression compared with default compression. For BD rates over LPIPS and PSNR, more negative indicates more savings. For PBS, more positive means more savings.",
+      "original": "FrequencyBiased_CVPR2025/tables/original/Table2_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "FrequencyBiased_CVPR2025/tables/vector/Table2/Table2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "FrequencyBiased_CVPR2025/tables/vector/Table2/Table2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "FrequencyBiased_CVPR2025/tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "FrequencyBiased_CVPR2025:table:Table3:6",
+      "kind": "table",
+      "paper_id": "FrequencyBiased_CVPR2025",
+      "label": "Table3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Table 3. Ablation study of Lo-Hi Uformer framework",
+      "original": "FrequencyBiased_CVPR2025/tables/original/Table3_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "FrequencyBiased_CVPR2025/tables/vector/Table3/Table3.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "FrequencyBiased_CVPR2025/tables/vector/Table3/Table3.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "FrequencyBiased_CVPR2025/tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "FrequencyBiased_CVPR2025:figure:Fig6:6",
+      "kind": "figure",
+      "paper_id": "FrequencyBiased_CVPR2025",
+      "label": "Fig6",
+      "position_key": "6",
+      "position_number": 6,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Figure 6. Qualitative comparisons of different generative models. Three Hi models are evaluated on images that are output from our Lo-regression model. Our GAN-based Hi-generative model exhibits faithful, clear, and visually pleasing results.",
+      "original": "FrequencyBiased_CVPR2025/figures/original/Fig6_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "FrequencyBiased_CVPR2025/figures/vector/Fig6/Fig6.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "FrequencyBiased_CVPR2025/figures/vector/Fig6/Fig6.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "FrequencyBiased_CVPR2025:figure:Fig7:7",
+      "kind": "figure",
+      "paper_id": "FrequencyBiased_CVPR2025",
+      "label": "Fig7",
+      "position_key": "7",
+      "position_number": 7,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Figure 7. Qualitative comparisons of compensation frameworks under different compression conditions. Images compressed with JPEG at QF = 10, JPEG at QF = 40, HEVC at QP = 45, HEVC at QP = 37, VVC at QP = 45, VVC at QP = 37, are illustrated from top to bottom. Our Lo-Hi synergistic design frameworks produce more clear, detailed, and faithful results. Zoom in for better visual comparison.",
+      "original": "FrequencyBiased_CVPR2025/figures/original/Fig7_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "FrequencyBiased_CVPR2025/figures/vector/Fig7/Fig7.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "FrequencyBiased_CVPR2025:table:Table4:7",
+      "kind": "table",
+      "paper_id": "FrequencyBiased_CVPR2025",
+      "label": "Table4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Table 4. BD rates over mAP on the COCO dataset.",
+      "original": "FrequencyBiased_CVPR2025/tables/original/Table4_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "FrequencyBiased_CVPR2025/tables/vector/Table4/Table4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "FrequencyBiased_CVPR2025/tables/vector/Table4/Table4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "FrequencyBiased_CVPR2025/tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "HEAL-SWIN_CVPR2024:figure:Fig1:0",
+      "kind": "figure",
+      "paper_id": "HEAL-SWIN_CVPR2024",
+      "label": "Fig1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 0,
+      "caption": "Figure 1. Our HEAL-SWIN model uses the nested structure of the HEALPix grid to lift the windowed self-attention of the SWIN model onto the sphere.",
+      "original": "HEAL-SWIN_CVPR2024/figures/original/Fig1_p000.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "HEAL-SWIN_CVPR2024/figures/vector/Fig1/Fig1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "HEAL-SWIN_CVPR2024/figures/vector/Fig1/Fig1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "HEAL-SWIN_CVPR2024:figure:Fig2:1",
+      "kind": "figure",
+      "paper_id": "HEAL-SWIN_CVPR2024",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 1,
+      "caption": "Figure 2. Chamfer distance (lower is better) and mIoU (higher is better) for HEAL-SWIN (HS) and SWIN (S). Details are provided in Section 4.3 and in Section 4.1.2.",
+      "original": "HEAL-SWIN_CVPR2024/figures/original/Fig2_p001.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "HEAL-SWIN_CVPR2024:figure:Fig3:3",
+      "kind": "figure",
+      "paper_id": "HEAL-SWIN_CVPR2024",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 3,
+      "caption": "Figure 3. Grid shifting scheme for window size 16: The windows before the shift are framed in red and the patches are numbered in the nested scheme. After a shift by half a window size, the patches are divided into the windows framed in blue, so that e.g. patch 0 becomes patch 12 after the shift. The hashed regions are masked in the attention layer. The patches hashed horizontally correspond to the pixels marked in yellow in Figure 4 (left). They are filled with patches hashed vertically which correspond to the pixels lost in the center of Figure 4 (left).",
+      "original": "HEAL-SWIN_CVPR2024/figures/original/Fig3_p003.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "HEAL-SWIN_CVPR2024:figure:Fig4:4",
+      "kind": "figure",
+      "paper_id": "HEAL-SWIN_CVPR2024",
+      "label": "Fig4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Figure 4. Grid (left) and spiral (right) shifting strategies for the HEAL-SWIN transformer, projected onto the plane for visualiza- tion. The grid lines outline the eight base pixels used for this dataset, arrows indicate the directions in which pixels move. High- lighted regions are masked in the attention layers. Note that in grid shifting, pixels at boundaries of colliding base pixels are moved to the outer edge. In ring shifting, distortions are introduced towards the pole (center). For better visibility, the amount of shifting in these images is exaggerated.",
+      "original": "HEAL-SWIN_CVPR2024/figures/original/Fig4_p004.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "HEAL-SWIN_CVPR2024:table:Table1:5",
+      "kind": "table",
+      "paper_id": "HEAL-SWIN_CVPR2024",
+      "label": "Table1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 5,
+      "caption": "Table 1. Mean intersection over union on the sphere for seman- tic segmentation of fisheye street scenes with HEAL-SWIN and SWIN, averaged over three runs.",
+      "original": "HEAL-SWIN_CVPR2024/tables/original/Table1_p005.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "HEAL-SWIN_CVPR2024/tables/vector/Table1/Table1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "HEAL-SWIN_CVPR2024/tables/vector/Table1/Table1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "HEAL-SWIN_CVPR2024/tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "id": "HEAL-SWIN_CVPR2024:figure:Fig5:5",
+      "kind": "figure",
+      "paper_id": "HEAL-SWIN_CVPR2024",
+      "label": "Fig5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 5,
+      "caption": "Figure 5. Example of segmentation using SWIN (left) and HEAL- SWIN (right) on the Woodscape dataset of real automotive images. Overlays correspond to predicted segmentation masks. The pedes- trian (overlayed in red) is only recognized by HEAL-SWIN.",
+      "original": "HEAL-SWIN_CVPR2024/figures/original/Fig5_p005.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "HEAL-SWIN_CVPR2024:table:Table2:6",
+      "kind": "table",
+      "paper_id": "HEAL-SWIN_CVPR2024",
+      "label": "Table2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Table 2. Inference times for semantic segmentation models on a single A40 GPU. Measurements are taken from first to last model operation in a forward pass with an input tensor of batch size one available on the GPU. Mean and standard deviation over 200 iter- ations with 10 iteration warm-up.",
+      "original": "HEAL-SWIN_CVPR2024/tables/original/Table2_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "HEAL-SWIN_CVPR2024/tables/vector/Table2/Table2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "HEAL-SWIN_CVPR2024/tables/vector/Table2/Table2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "HEAL-SWIN_CVPR2024/tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "id": "HEAL-SWIN_CVPR2024:figure:Fig6:6",
+      "kind": "figure",
+      "paper_id": "HEAL-SWIN_CVPR2024",
+      "label": "Fig6",
+      "position_key": "6",
+      "position_number": 6,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Figure 6. Semantic Segmentation for varying training set sizes. Performance is measured as the mean intersection over union (higher is better) computed on the HEALPix grid (spherical mIoU).",
+      "original": "HEAL-SWIN_CVPR2024/figures/original/Fig6_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "HEAL-SWIN_CVPR2024/figures/vector/Fig6/Fig6.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "HEAL-SWIN_CVPR2024/figures/vector/Fig6/Fig6.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "HEAL-SWIN_CVPR2024:table:Table3:6",
+      "kind": "table",
+      "paper_id": "HEAL-SWIN_CVPR2024",
+      "label": "Table3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Table 3. Performance of spherical models on the Stanford 2D-3D segmentation task of indoor fisheye images evaluated using the official three-fold cross-validation.",
+      "original": "HEAL-SWIN_CVPR2024/tables/original/Table3_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "HEAL-SWIN_CVPR2024/tables/vector/Table3/Table3.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "HEAL-SWIN_CVPR2024/tables/vector/Table3/Table3.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "HEAL-SWIN_CVPR2024/tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "id": "HEAL-SWIN_CVPR2024:figure:Fig7:7",
+      "kind": "figure",
+      "paper_id": "HEAL-SWIN_CVPR2024",
+      "label": "Fig7",
+      "position_key": "7",
+      "position_number": 7,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Figure 7. Depth-map ground truth for the image in Appendix Fig- ure 8 (left) and corresponding point cloud (right). The red arrow indicates the orientation of the camera.",
+      "original": "HEAL-SWIN_CVPR2024/figures/original/Fig7_p007.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig1:0",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 0,
+      "caption": "Figure 1: Multi-Layer Perceptrons (MLPs) vs. Kolmogorov-Arnold Networks (KANs)",
+      "original": "KAN_ICLR2025/figures/original/Fig1_p000.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/figures/vector/Fig1/Fig1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "KAN_ICLR2025/figures/vector/Fig1/Fig1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig2:5",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 5,
+      "caption": "Figure 2: Fitting the function f(x1, x2, x3, x4) = exp( 1",
+      "original": "KAN_ICLR2025/figures/original/Fig2_p005.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig3:5",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 5,
+      "caption": "Figure 3: KANs are interpretable for simple symbolic tasks.",
+      "original": "KAN_ICLR2025/figures/original/Fig3_p005.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig4:6",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Figure 4: Knot dataset. Supervised mode (left): we rediscover DeepMind’s three important vari- ables. Unsupervised mode (right): we discover three “new” relations without supervision.",
+      "original": "KAN_ICLR2025/figures/original/Fig4_p006.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig5:7",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Figure 5: Compare KANs to MLPs on five toy examples. KANs can almost saturate the fastest scaling law predicted by our theory (α = 4), while MLPs scales slowly and plateau quickly.",
+      "original": "KAN_ICLR2025/figures/original/Fig5_p007.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig6:8",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig6",
+      "position_key": "6",
+      "position_number": 6,
+      "position_suffix": "",
+      "page": 8,
+      "caption": "Figure 6: Fitting special functions. We show the Pareto Frontier of KANs and MLPs in the plane spanned by the number of model parameters and RMSE loss. Consistently accross all special func- tions, KANs have better Pareto Frontiers than MLPs. The definitions of these special functions are in Table 9.",
+      "original": "KAN_ICLR2025/figures/original/Fig6_p008.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/figures/vector/Fig6/Fig6.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "KAN_ICLR2025/figures/vector/Fig6/Fig6.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig7:8",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig7",
+      "position_key": "7",
+      "position_number": 7,
+      "position_suffix": "",
+      "page": 8,
+      "caption": "Figure 7: Image fitting task (a PDE solution from PDEBench Takamoto et al. (2022)). KAN outper- forms baseline methods in terms of PSNR.",
+      "original": "KAN_ICLR2025/figures/original/Fig7_p008.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:table:Table1:9",
+      "kind": "table",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Table1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 9,
+      "caption": "Table 1: Image Fitting: Comparing various methods",
+      "original": "KAN_ICLR2025/tables/original/Table1_p009.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/tables/vector/Table1/Table1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "KAN_ICLR2025/tables/vector/Table1/Table1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "KAN_ICLR2025/tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig8:9",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig8",
+      "position_key": "8",
+      "position_number": 8,
+      "position_suffix": "",
+      "page": 9,
+      "caption": "Figure 8: The PDE example. We plot L2 squared and H1 squared losses between the predicted solution and ground truth solution. First and second: training dynamics of losses. Third and fourth: scaling laws of losses against the number of parameters. KANs converge faster, achieve lower losses, and have steeper scaling laws than MLPs.",
+      "original": "KAN_ICLR2025/figures/original/Fig8_p009.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig9:17",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig9",
+      "position_key": "9",
+      "position_number": 9,
+      "position_suffix": "",
+      "page": 17,
+      "caption": "Figure 9: Comparing various methods for fitting the picture of Cameraman (top), turbulent flow (middle,from PDEBench Takamoto et al. (2022)), and Van Gogh’s the starry night (bottom).",
+      "original": "KAN_ICLR2025/figures/original/Fig9_p017.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig10:18",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig10",
+      "position_key": "10",
+      "position_number": 10,
+      "position_suffix": "",
+      "page": 18,
+      "caption": "Figure 10: Comparing various methods on solving 2D Poisson equation with a high-frequency solution (n = 4).",
+      "original": "KAN_ICLR2025/figures/original/Fig10_p018.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/figures/vector/Fig10/Fig10.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "KAN_ICLR2025/figures/vector/Fig10/Fig10.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:table:Table2:19",
+      "kind": "table",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Table2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 19,
+      "caption": "Table 2: Comparing various method on solving 2D Poisson equations. All MLPs (including MLP_RFFs) have shapes [2,128,128,128,1].",
+      "original": "KAN_ICLR2025/tables/original/Table2_p019.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/tables/vector/Table2/Table2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "KAN_ICLR2025/tables/vector/Table2/Table2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "KAN_ICLR2025/tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig11:19",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig11",
+      "position_key": "11",
+      "position_number": 11,
+      "position_suffix": "",
+      "page": 19,
+      "caption": "Figure 11: Solving the 1D Allen-Cahn equation.",
+      "original": "KAN_ICLR2025/figures/original/Fig11_p019.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:table:Table3:20",
+      "kind": "table",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Table3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 20,
+      "caption": "Table 3: Comparing various models on the 1D Allen-Cahn equation. All MLPs including MLP_RFFs have the shape [2,128,128,128,1].",
+      "original": "KAN_ICLR2025/tables/original/Table3_p020.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/tables/vector/Table3/Table3.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "KAN_ICLR2025/tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig12:20",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig12",
+      "position_key": "12",
+      "position_number": 12,
+      "position_suffix": "",
+      "page": 20,
+      "caption": "Figure 12: Prediction of various models on Darcy flow",
+      "original": "KAN_ICLR2025/figures/original/Fig12_p020.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:table:Table4:21",
+      "kind": "table",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Table4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 21,
+      "caption": "Table 4: Comparing various models on darcy flow. All MLPs including MLP_RFFs have the shape [2,128,128,128,1].",
+      "original": "KAN_ICLR2025/tables/original/Table4_p021.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/tables/vector/Table4/Table4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "KAN_ICLR2025/tables/vector/Table4/Table4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "KAN_ICLR2025/tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "KAN_ICLR2025:table:Table5:22",
+      "kind": "table",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Table5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 22,
+      "caption": "Table 5: Comparing KANs and MLPs on MNIST",
+      "original": "KAN_ICLR2025/tables/original/Table5_p022.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/tables/vector/Table5/Table5.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "KAN_ICLR2025/tables/vector/Table5/Table5.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "KAN_ICLR2025/tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig13:23",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig13",
+      "position_key": "13",
+      "position_number": 13,
+      "position_suffix": "",
+      "page": 23,
+      "caption": "Figure 13: Hyperparameter search for KANs and MLPs. Hyperparameters include depths, widths, optimization methods, and learning rates.",
+      "original": "KAN_ICLR2025/figures/original/Fig13_p023.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:table:Table6:24",
+      "kind": "table",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Table6",
+      "position_key": "6",
+      "position_number": 6,
+      "position_suffix": "",
+      "page": 24,
+      "caption": "Table 6: Results for the example: f(x, y) = exp(sin(πx + y2)) and the LBFGS optimizer. Grid search width, depth, and learning rate.",
+      "original": "KAN_ICLR2025/tables/original/Table6_p024.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/tables/vector/Table6/Table6.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "KAN_ICLR2025/tables/vector/Table6/Table6.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "KAN_ICLR2025/tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "KAN_ICLR2025:table:Table7:24",
+      "kind": "table",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Table7",
+      "position_key": "7",
+      "position_number": 7,
+      "position_suffix": "",
+      "page": 24,
+      "caption": "Table 7: Results for the example: f(x, y) = exp(sin(πx + y2)) and the Adam optimizer. Grid search width, depth, and learning rate.",
+      "original": "KAN_ICLR2025/tables/original/Table7_p024.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/tables/vector/Table7/Table7.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "KAN_ICLR2025/tables/vector/Table7/Table7.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "KAN_ICLR2025/tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig14:25",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig14",
+      "position_key": "14",
+      "position_number": 14,
+      "position_suffix": "",
+      "page": 25,
+      "caption": "Figure 14: Fitting a 2D function f(x, y) = exp(sin(πx) + y2). We know that a 2L KAN can smoothly represent the function (left). When we attempt to fit the function with more layers (with sparsity penalty), some edges would become (nearly) identities, shown for 3L (middle) and 4L (right). The identity shortcuts are easy to form with linear residuals, while SiLU residuals can lead to a complex network structure even under sparsity penalty.",
+      "original": "KAN_ICLR2025/figures/original/Fig14_p025.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/figures/vector/Fig14/Fig14.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig15:25",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig15",
+      "position_key": "15",
+      "position_number": 15,
+      "position_suffix": "",
+      "page": 25,
+      "caption": "Figure 15: Existence of redundant neurons/edges with small or no sparsity penalty. λ is the sparsity penalty strength.",
+      "original": "KAN_ICLR2025/figures/original/Fig15_p025.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig16:25",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig16",
+      "position_key": "16",
+      "position_number": 16,
+      "position_suffix": "",
+      "page": 25,
+      "caption": "Figure 16: Skip connections (either SiLU or linear) make training landscapes smoother, leading to faster training. The visualizations are for KANs at step 10.",
+      "original": "KAN_ICLR2025/figures/original/Fig16_p025.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig17:26",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig17",
+      "position_key": "17",
+      "position_number": 17,
+      "position_suffix": "",
+      "page": 26,
+      "caption": "Figure 17: Grid extension is needed to avoid bad loss landscapes when initial grid sizes are large.",
+      "original": "KAN_ICLR2025/figures/original/Fig17_p026.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig18:26",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig18",
+      "position_key": "18",
+      "position_number": 18,
+      "position_suffix": "",
+      "page": 26,
+      "caption": "Figure 18: Left: Notations of activations that flow through the network. Right: an activation function is parameterized as a B-spline, which allows switching between coarse-grained and fine-grained grids.",
+      "original": "KAN_ICLR2025/figures/original/Fig18_p026.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/figures/vector/Fig18/Fig18.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:table:Table8:28",
+      "kind": "table",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Table8",
+      "position_key": "8",
+      "position_number": 8,
+      "position_suffix": "",
+      "page": 28,
+      "caption": "Table 8: Scaling exponents from different theories ℓ∝N −α. ℓ: test RMSE loss, N: number of model parameters, d: input intrinsic dimension, k: order of piecewise polynomial, m: derivative order as in function class Wm.",
+      "original": "KAN_ICLR2025/tables/original/Table8_p028.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/tables/vector/Table8/Table8.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "KAN_ICLR2025/tables/vector/Table8/Table8.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "KAN_ICLR2025/tables/latex/Table8.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig19:29",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig19",
+      "position_key": "19",
+      "position_number": 19,
+      "position_suffix": "",
+      "page": 29,
+      "caption": "Figure 19: We can make KANs more accurate by grid extension (fine-graining spline grids). Top left (right): training dynamics of a [2, 5, 1] ([2, 1, 1]) KAN. Both models display staircases in their loss curves, i.e., loss suddently drops then plateaus after grid extension. Bottom left: test RMSE follows scaling laws against grid size G. Bottom right: training time scales favorably with grid size G.",
+      "original": "KAN_ICLR2025/figures/original/Fig19_p029.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig20:32",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig20",
+      "position_key": "20",
+      "position_number": 20,
+      "position_suffix": "",
+      "page": 32,
+      "caption": "Figure 20: An example of how to do symbolic regression with KAN.",
+      "original": "KAN_ICLR2025/figures/original/Fig20_p032.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:table:Table9:33",
+      "kind": "table",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Table9",
+      "position_key": "9",
+      "position_number": 9,
+      "position_suffix": "",
+      "page": 33,
+      "caption": "Table 9: Special functions",
+      "original": "KAN_ICLR2025/tables/original/Table9_p033.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/tables/vector/Table9/Table9.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "KAN_ICLR2025/tables/vector/Table9/Table9.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "KAN_ICLR2025/tables/latex/Table9.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "KAN_ICLR2025:table:Table10:34",
+      "kind": "table",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Table10",
+      "position_key": "10",
+      "position_number": 10,
+      "position_suffix": "",
+      "page": 34,
+      "caption": "Table 10: Feynman dataset",
+      "original": "KAN_ICLR2025/tables/original/Table10_p034.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/tables/vector/Table10/Table10.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "KAN_ICLR2025/tables/vector/Table10/Table10.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "KAN_ICLR2025/tables/latex/Table10.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig21:35",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig21",
+      "position_key": "21",
+      "position_number": 21,
+      "position_suffix": "",
+      "page": 35,
+      "caption": "Figure 21: A toy continual learning problem. The dataset is a 1D regression task with 5 Gaussian peaks (top row). Data around each peak is presented sequentially (instead of all at once) to KANs and MLPs. KANs (middle row) can perfectly avoid catastrophic forgetting, while MLPs (bottom row) display severe catastrophic forgetting.",
+      "original": "KAN_ICLR2025/figures/original/Fig21_p035.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig22:35",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig22",
+      "position_key": "22",
+      "position_number": 22,
+      "position_suffix": "",
+      "page": 35,
+      "caption": "Figure 22: When KANs become deep, the continual learning ability is partially lost. Top: grid size 200; bottom: grid size 10.",
+      "original": "KAN_ICLR2025/figures/original/Fig22_p035.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig23:36",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig23",
+      "position_key": "23",
+      "position_number": 23,
+      "position_suffix": "",
+      "page": 36,
+      "caption": "Figure 23: KANs are interepretable for simple symbolic tasks.",
+      "original": "KAN_ICLR2025/figures/original/Fig23_p036.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig24:37",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig24",
+      "position_key": "24",
+      "position_number": 24,
+      "position_suffix": "",
+      "page": 37,
+      "caption": "Figure 24: Unsupervised learning of a toy task. KANs can identify groups of dependent variables, i.e., (x1, x2, x3) and (x4, x5) in this case.",
+      "original": "KAN_ICLR2025/figures/original/Fig24_p037.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:table:Table11:38",
+      "kind": "table",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Table11",
+      "position_key": "11",
+      "position_number": 11,
+      "position_suffix": "",
+      "page": 38,
+      "caption": "Table 11: Symbolic formulas of signature as a function of meridinal translation µ (real µr, imag µi) and longitudinal translation λ. In Davies et al. (2021), formula A was discovered by human scientists inspired by neural network attribution results. Formulas B-F are auto-discovered by KANs. KANs can trade-off between simplicity and accuracy (B, C, D). By adding more inductive biases, KAN is able to discover formula E which is not too dissimilar from formula A. KANs also discovered a formula F which only involves two variables (µr and λ) instead of all three variables, with little sacrifice in accuracy.",
+      "original": "KAN_ICLR2025/tables/original/Table11_p038.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/tables/vector/Table11/Table11.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "KAN_ICLR2025/tables/vector/Table11/Table11.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "KAN_ICLR2025/tables/latex/Table11.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "KAN_ICLR2025:table:Table12:39",
+      "kind": "table",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Table12",
+      "position_key": "12",
+      "position_number": 12,
+      "position_suffix": "",
+      "page": 39,
+      "caption": "Table 12: Symbolic formulas for two systems GAAM and MAAM, ground truth ones and KAN- discovered ones.",
+      "original": "KAN_ICLR2025/tables/original/Table12_p039.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/tables/vector/Table12/Table12.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "KAN_ICLR2025/tables/latex/Table12.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig25:39",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig25",
+      "position_key": "25",
+      "position_number": 25,
+      "position_suffix": "",
+      "page": 39,
+      "caption": "Figure 25: Human-KAN collaboration to discover mobility edges of GAAM and MAAM. The human user can choose to be lazy (using the auto mode) or more involved (using the manual mode).",
+      "original": "KAN_ICLR2025/figures/original/Fig25_p039.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig26:41",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig26",
+      "position_key": "26",
+      "position_number": 26,
+      "position_suffix": "",
+      "page": 41,
+      "caption": "Figure 26: Results for the Mosaic Model. Top: phase diagram. Middle and Bottom: KANs can obtain both qualitative intuition (bottom) and extract quantitative results (middle). φ = 1+ √",
+      "original": "KAN_ICLR2025/figures/original/Fig26_p041.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/figures/vector/Fig26/Fig26.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "KAN_ICLR2025:table:Table13:43",
+      "kind": "table",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Table13",
+      "position_key": "13",
+      "position_number": 13,
+      "position_suffix": "",
+      "page": 43,
+      "caption": "Table 13: KAN functionalities",
+      "original": "KAN_ICLR2025/tables/original/Table13_p043.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "KAN_ICLR2025/tables/vector/Table13/Table13.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "KAN_ICLR2025/tables/vector/Table13/Table13.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "KAN_ICLR2025/tables/latex/Table13.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "KAN_ICLR2025:figure:Fig27:44",
+      "kind": "figure",
+      "paper_id": "KAN_ICLR2025",
+      "label": "Fig27",
+      "position_key": "27",
+      "position_number": 27,
+      "position_suffix": "",
+      "page": 44,
+      "caption": "Figure 27: Effects of hyperparameters on interpretability results.",
+      "original": "KAN_ICLR2025/figures/original/Fig27_p044.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "NMI_MultiResolution_2026:figure:Fig1:2",
+      "kind": "figure",
+      "paper_id": "NMI_MultiResolution_2026",
+      "label": "Fig1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Fig. 1 | Efficient INRs preserve HF and physics-related details. Comparison of INRs of raw volumetric data (36 × 550 × 550, float32) collected from a high-resolution wide-angle coherent X-ray scattering experiment from the intermetallic alloy Cu3Au (ref. 19). Each trained network serves as a compressed surrogate for the original volume: instead of storing the raw voxel array, the information is encoded in the network weights. a, Representative slice decoded by querying the trained INRs at the corresponding spatial coordinates and rendering the network outputs as pixel intensities. In all cases, the network size is smaller than the raw data representation, with parameter counts labelled beneath each panel. A unique challenge for coherent X-ray scattering datasets such as this is that fine-structure speckle constitutes the signal of interest, whereas in many other imaging modalities, this is treated as noise. Insets: zoomed-in regions of high-speckle intensity, highlighting the superior ability of our method to capture fine details and textures. Competing INRs either over- smooth the data (frequency encoding16, wavelet activation33, hash encoding13,",
+      "original": "NMI_MultiResolution_2026/figures/original/Fig1_p002.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "NMI_MultiResolution_2026/figures/vector/Fig1/Fig1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "NMI_MultiResolution_2026/figures/vector/Fig1/Fig1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "NMI_MultiResolution_2026:figure:Fig2:3",
+      "kind": "figure",
+      "paper_id": "NMI_MultiResolution_2026",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 3,
+      "caption": "Fig. 2 | Schematic of the WIEN-INR architecture. a, We design a hierarchical encoding process. Encoding begins with the input of p-dimensional coordinates (for example, detector coordinates x = [i, j]), which are normalized and passed to separate MLPs, each trained to predict the wavelet coefficients (coarse to fine) of the signal at different resolution scales. b, Within each MLP, we introduce a novel enhancement module that refines the output of the previous coarser-scale MLP by (1) extracting a local neighbourhood of size (2nr + 1) per input dimension, centred at the input coordinate x in coefficients space; (2) inputting the extracted local neighbourhood to two INRs—one uses coordinates upsampled from the neighbourhood to query the coarser-scale MLP to provide an approximation of the higher resolution (this network is fixed), and the other, a learnable INR that acts as local refinement; (3) and then applying the dot product to the outputs",
+      "original": "NMI_MultiResolution_2026/figures/original/Fig2_p003.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "NMI_MultiResolution_2026/figures/vector/Fig2/Fig2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "NMI_MultiResolution_2026/figures/vector/Fig2/Fig2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "NMI_MultiResolution_2026:figure:Fig3:4",
+      "kind": "figure",
+      "paper_id": "NMI_MultiResolution_2026",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Fig. 3 | Improved rate distortion. a, An important metric to quantify whether representations preserve the full spectrum of information is how well the decoded wavelet coefficients match those of the original signal. The wavelet transform is known to be superior to Fourier analysis in transient or localized phenomena, as different scales capture more complete information: coarser bands represent broad, low-frequency trends, whereas finer bands capture localized phenomena, such as sharp transitions and HF details25. We quantify fidelity across scales by comparing the ℓ2 norm of the wavelet coefficients between the decoded and original signals. Results are shown across four scales and the approximation coefficients of the reconstructed DWT (Haar), sub-bands for four benchmark scientific datasets. Although all baselines remain close to the ground truth at coarse levels, they deviate for finer scales, WIEN-INR closely follows the true DWT distribution (black line), demonstrating robust recovery of fine-scale content and full-spectrum fidelity. b, Rate-distortion comparison across four scientific datasets, showing compression rate versus PSNR, with",
+      "original": "NMI_MultiResolution_2026/figures/original/Fig3_p004.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "NMI_MultiResolution_2026/figures/vector/Fig3/Fig3.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "NMI_MultiResolution_2026/figures/vector/Fig3/Fig3.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "NMI_MultiResolution_2026:figure:Fig4:6",
+      "kind": "figure",
+      "paper_id": "NMI_MultiResolution_2026",
+      "label": "Fig4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Fig. 4 | Robustness of WIEN-INR across datasets measured at different physics experiments. a–c, Reconstruction results are shown for three distinct datasets collected at XFEL (a), neutron (b) and synchrotron (c) facilities20,21, corresponding to the ultrafast scattering, neutron scattering and coherent X-ray diffraction columns from Fig. 3. Each volume is encoded and decoded to visualize if the network can focus training on physically important features. The representative two-dimensional visualizations of the decoded three- dimensional/4D volumes with zoomed-in views are shown on the right. The",
+      "original": "NMI_MultiResolution_2026/figures/original/Fig4_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "NMI_MultiResolution_2026/figures/vector/Fig4/Fig4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "NMI_MultiResolution_2026/figures/vector/Fig4/Fig4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "NMI_MultiResolution_2026:figure:Fig5:7",
+      "kind": "figure",
+      "paper_id": "NMI_MultiResolution_2026",
+      "label": "Fig5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Fig. 5 | Reconstruction quality using the decoded signal. For tasks in which information is revealed through subsequent reconstruction, it is crucial that the decoded signal minimally distorts reconstruction. This task is highly non-trivial because during encoding/training, losses are typically minimized only in the measurement space, which does not directly translate into reconstruction fidelity. a, A use case of reconstructing an ESRF logo from INR-encoded and INR-decoded coherent diffraction data22, using a combination of error reduction and hybrid input–output algorithm. We plot the magnitude of the reconstruction space: the top row shows the reconstruction using the original measurements without neural compression; the middle row shows reconstruction using the best-performing baseline network (SIREN, 0.14 MB); and the bottom row shows",
+      "original": "NMI_MultiResolution_2026/figures/original/Fig5_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "NMI_MultiResolution_2026/figures/vector/Fig5/Fig5.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "NMI_MultiResolution_2026:table:Table1:7",
+      "kind": "table",
+      "paper_id": "NMI_MultiResolution_2026",
+      "label": "Table1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Table 1 | Encoding latency",
+      "original": "NMI_MultiResolution_2026/tables/original/Table1_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "NMI_MultiResolution_2026/tables/vector/Table1/Table1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "NMI_MultiResolution_2026/tables/vector/Table1/Table1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "NMI_MultiResolution_2026/tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "NMI_MultiResolution_2026:table:Table2:8",
+      "kind": "table",
+      "paper_id": "NMI_MultiResolution_2026",
+      "label": "Table2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 8,
+      "caption": "Table 2 | Decoding latency",
+      "original": "NMI_MultiResolution_2026/tables/original/Table2_p008.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "NMI_MultiResolution_2026/tables/vector/Table2/Table2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "NMI_MultiResolution_2026/tables/vector/Table2/Table2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "NMI_MultiResolution_2026/tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig1:0",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 0,
+      "caption": "Fig. 1. In a coherent ﬁltering, the kernel is translated by keeping orientation with respect to the north pole, interpixel correlation and surface area.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig1_p000.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "OSLO_TIP2022_arXiv/figures/vector/Fig1/Fig1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "OSLO_TIP2022_arXiv/figures/vector/Fig1/Fig1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig2:4",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Fig. 2. Desired sampling’s properties : (i) It should be regular such that each pixel has same number of neighbors, and we should be able to discriminate between neighboring pixels by assigning different directions to each neighbor (as shown in (a)); (ii) The sampling should be rigid (as shown in (b)) such that the distance between a speciﬁc neighbor (1 to 8) and the center pixel should be almost constant all over the sphere (e.g., d1 = d′ 1). Additionally, its relative orientation with respect to the center pixel should be constant over the sphere, (e.g., θ1 = θ′ 1). This orientation is computed with respect to the north pole.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig2_p004.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig3:4",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Fig. 3. The distribution of neighboring pixels around the central pixel. Left column: ERP. Right column: HEALPix sampling. Top row: Pixel positions on the sphere when ERP and HEALPix have almost the same number of pixels with 3072 and 39×78 pixels. Bottom row: Pixel distributions on the tangent plane when ERP and HEALPix have almost the same number of pixels with 12582912 and 2508×5016 pixels. Marker × shows the central pixel, black circles represent the mean position of each neighbor. Each color corresponds to a neighbor pixel in a speciﬁc direction (SW, W, NW, N, NE, E, SE, and S) and the corresponding area’s size is set based on the standard deviation of pixel distribution in the plane tangent to the sphere at the central pixel.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig3_p004.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig4:5",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 5,
+      "caption": "Fig. 4. Our spherical convolution. (a) Kernel on the sphere at different positions. Each color corresponds to a different learnable kernel weight corresponding to a different orientation. (b) Convolution operation can be seen as a message-passing scheme. (c) The same pair of pixels contribute differently depending on the position of central pixel.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig4_p005.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "OSLO_TIP2022_arXiv/figures/vector/Fig4/Fig4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "OSLO_TIP2022_arXiv/figures/vector/Fig4/Fig4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig5:6",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Fig. 5. Proposed strategy to increase the local support (here 3-hop) in spher- ical convolution. Each convl, l = 1, 2, 3 performs neighborhood aggregation for each pixel as given in (2). Finally, the last layer aggregation module combines pixel-wise the generated feature maps of the intermediate layers.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig5_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "OSLO_TIP2022_arXiv/figures/vector/Fig5/Fig5.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "OSLO_TIP2022_arXiv/figures/vector/Fig5/Fig5.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig6:7",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig6",
+      "position_key": "6",
+      "position_number": 6,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Fig. 6. Hierarchical pixelization of the sphere together with the nested pixel numbering scheme. (a) HEALPix base resolution. Red lines show base-pixel boundaries. (b) HEALPix ﬁrst resolution each base pixel is divided into 2 × 2 pixels. Blue lines indicate the boundaries of child pixels for base-resolution (c) HEALPix second resolution. The black lines indicate the boundaries of child pixels. The pixel indices where the center of convolution ﬁlter is placed on them to have a stride of 2 × 2 are shown in red.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig6_p007.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig7:7",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig7",
+      "position_key": "7",
+      "position_number": 7,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Fig. 7. Sub-pixel convolution on the sphere. Convolution is applied on the low-resolution sphere to produce “4n ·D” feature maps/channels (n, D ∈N). Then, the output feature maps are partitioned into D sets of 4n feature maps, and in each set, the 4n channels of the same parent pixel are organized into a speciﬁc channel of child pixels.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig7_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "OSLO_TIP2022_arXiv/figures/vector/Fig7/Fig7.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig8:8",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig8",
+      "position_key": "8",
+      "position_number": 8,
+      "position_suffix": "",
+      "page": 8,
+      "caption": "Fig. 8. Overview of the two network architectures used in our experiment [16], [17]. Q represents quantization, and AE, AD represent arithmetic encoder and arithmetic decoder, respectively.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig8_p008.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "OSLO_TIP2022_arXiv/figures/vector/Fig8/Fig8.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "OSLO_TIP2022_arXiv/figures/vector/Fig8/Fig8.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig9:9",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig9",
+      "position_key": "9",
+      "position_number": 9,
+      "position_suffix": "",
+      "page": 9,
+      "caption": "Fig. 9. Equivalent architectures of [16], [17] for spherical images. Convolution parameters are denoted as: “conv hk, ↓l × N” representing a k-hop convolution (see Fig. 5), downsampled by l × number of ﬁlters. Similarly, sub-pixel convolution parameters are denoted as: “spconv hk, ↑l × N” representing a k-hop convolution, followed by upsampling of l with pixel shufﬂe transformation (see Fig. 7) × number of ﬁlters.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig9_p009.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "OSLO_TIP2022_arXiv/figures/vector/Fig9/Fig9.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "OSLO_TIP2022_arXiv/figures/vector/Fig9/Fig9.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig10:11",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig10",
+      "position_key": "10",
+      "position_number": 10,
+      "position_suffix": "",
+      "page": 11,
+      "caption": "Fig. 10. Rate-distortion curves aggregated over the test images. The solid, dashed, dotted, and dash-dotted lines represent OSLO implementation, 2D deep learning architectures on Equirectangular projections, Deepsphere architectures, and Equirectangular JPEG compression. Red color refers to the architecture of [17], blue color indicates [16] architecture, and green color indicates JPEG compression. (a) S-PSNR. (b) WS-PSNR.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig10_p011.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig11:12",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig11",
+      "position_key": "11",
+      "position_number": 11,
+      "position_suffix": "",
+      "page": 12,
+      "caption": "Fig. 11. A viewport at a speciﬁc direction of spherical images compressed almost at the same rate. A zoom version of each colored rectangular region is shown on the right. (a) Equirectangular image compressed with [16] in 1980.89 KB. (b) The same image compressed with OSLO in 1920.86 KB.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig11_p012.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig12:13",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig12",
+      "position_key": "12",
+      "position_number": 12,
+      "position_suffix": "",
+      "page": 13,
+      "caption": "Fig. 12. A viewport at a speciﬁc direction of spherical images compressed almost at the same rate. A zoom version of each colored rectangular region is shown on the right. (a) Equirectangular image compressed with [16] in 1766.94 KB. (b) The same image compressed with OSLO in 1613.62 KB.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig12_p013.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig13:14",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig13",
+      "position_key": "13",
+      "position_number": 13,
+      "position_suffix": "",
+      "page": 14,
+      "caption": "Fig. 13. Frequency histogram for BD-rate gains of OSLO over 2D learning in ERP. Top row represents SPSNR and WSPSNR BD-rate gains for the architecture of [16]. Bottom row represents the results for [17].",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig13_p014.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig14:14",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig14",
+      "position_key": "14",
+      "position_number": 14,
+      "position_suffix": "",
+      "page": 14,
+      "caption": "Fig. 14. Rate-distortion curves of different aggregation strategies to increase the local support of convolution.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig14_p014.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig15:14",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig15",
+      "position_key": "15",
+      "position_number": 15,
+      "position_suffix": "",
+      "page": 14,
+      "caption": "Fig. 15. Random selection of learned ﬁlters at different layers of e and s. The weight corresponding to the central pixels is not shown in the ﬁlter for better visibility. Left column represents ﬁlters learned with DeepSphere that results in isotropic ﬁlters. Right column represents the ﬁlters learned with OSLO solution. Two ﬁlters on the same row are taken from the exact same position in the architecture.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig15_p014.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSLO_TIP2022_arXiv:figure:Fig16:15",
+      "kind": "figure",
+      "paper_id": "OSLO_TIP2022_arXiv",
+      "label": "Fig16",
+      "position_key": "16",
+      "position_number": 16,
+      "position_suffix": "",
+      "page": 15,
+      "caption": "Fig. 16. Decompressed images in Mollweide projection. The zoomed versions of red, green, and blue rectangular regions are shown in the bottom row. (a) DeepSphere result stored in 2408.43 KB with 29.54 dB and 29.51 dB for SPSNR and WSPSNR respectively. (b) OSLO result stored in 936.65 KB with 40.91 dB and 41.65 dB for SPSNR and WSPSNR respectively.",
+      "original": "OSLO_TIP2022_arXiv/figures/original/Fig16_p015.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSRT_CVPR2023:figure:Fig2:2",
+      "kind": "figure",
+      "paper_id": "OSRT_CVPR2023",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Figure 2. Geometric explanation of transforming between ERP, Fisheye, and the ideal spherical surface. To simplify, we discuss the horizontal spliced Fisheye with an aperture degree of π.",
+      "original": "OSRT_CVPR2023/figures/original/Fig2_p002.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "OSRT_CVPR2023/figures/vector/Fig2/Fig2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "OSRT_CVPR2023/figures/vector/Fig2/Fig2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSRT_CVPR2023:figure:Fig3:3",
+      "kind": "figure",
+      "paper_id": "OSRT_CVPR2023",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 3,
+      "caption": "Figure 3. Downsampling process of ODIs (left) and imaging pro- cess in real world (right). * denotes that LR images synthesized from different downsampling processes are inconsistent.",
+      "original": "OSRT_CVPR2023/figures/original/Fig3_p003.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSRT_CVPR2023:figure:Fig4:4",
+      "kind": "figure",
+      "paper_id": "OSRT_CVPR2023",
+      "label": "Fig4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Figure 4. Overall illustration of OSRT. From SwinIR [23], we replace the standard multi-head self-attention block with DAAB and insert DACB behind the end of the RSTB. Channel dimensions of θoﬀsets in DAAB and DACB are 2 and 18, respectively.",
+      "original": "OSRT_CVPR2023/figures/original/Fig4_p004.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSRT_CVPR2023:figure:Fig5:4",
+      "kind": "figure",
+      "paper_id": "OSRT_CVPR2023",
+      "label": "Fig5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Figure 5. Synthetic process of DF2K-ERP.",
+      "original": "OSRT_CVPR2023/figures/original/Fig5_p004.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSRT_CVPR2023:table:Table1:5",
+      "kind": "table",
+      "paper_id": "OSRT_CVPR2023",
+      "label": "Table1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 5,
+      "caption": "Table 1. SR results under Fisheye downsampling. † denotes applying DF2K-ERP as augmented dataset. Best results are shown in Bold.",
+      "original": "OSRT_CVPR2023/tables/original/Table1_p005.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "OSRT_CVPR2023/tables/vector/Table1/Table1.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "OSRT_CVPR2023/tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "OSRT_CVPR2023:table:Table2:6",
+      "kind": "table",
+      "paper_id": "OSRT_CVPR2023",
+      "label": "Table2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Table 2. SR results under ERP downsampling.",
+      "original": "OSRT_CVPR2023/tables/original/Table2_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "OSRT_CVPR2023/tables/vector/Table2/Table2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "OSRT_CVPR2023/tables/vector/Table2/Table2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "OSRT_CVPR2023/tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "OSRT_CVPR2023:table:Table3:6",
+      "kind": "table",
+      "paper_id": "OSRT_CVPR2023",
+      "label": "Table3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Table 3. Ablation study on OSRT components. All models are trained on ×2 SR task under Fisheye downsampling. and makes the ODISR task identical to the standard plain image super-resolution task. The evidence is that a stan- dard SISR model (SwinIR) trained on a plain image dataset (DF2K) can outperform previous SOTA in the ODISR task, which yields WS-PSNR results of 24.63dB/24.49dB (22.68dB/22.13dB) on ×8 (×16) ODI-SR/SUN360 testing set, respectively. In conclusion, when the intrinsic property of ODIs is broken by ERP downsampling, the ODISR task degenerates into a plain image super-resolution task with a particular data distribution.",
+      "original": "OSRT_CVPR2023/tables/original/Table3_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "OSRT_CVPR2023/tables/vector/Table3/Table3.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "OSRT_CVPR2023/tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "OSRT_CVPR2023:figure:Fig7:6",
+      "kind": "figure",
+      "paper_id": "OSRT_CVPR2023",
+      "label": "Fig7",
+      "position_key": "7",
+      "position_number": 7,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Figure 7. Visual comparisons for SR of Fisheye and Perspective images. † denotes applying DF2K-ERP as augmented dataset.",
+      "original": "OSRT_CVPR2023/figures/original/Fig7_p006.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSRT_CVPR2023:figure:Fig8:7",
+      "kind": "figure",
+      "paper_id": "OSRT_CVPR2023",
+      "label": "Fig8",
+      "position_key": "8",
+      "position_number": 8,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Figure 8. Visualizations of offset maps in OSRT. Reference and deformed points are depicted in green and red, respectively. The deformable kernel is sparse in the polar area.",
+      "original": "OSRT_CVPR2023/figures/original/Fig8_p007.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSRT_CVPR2023:figure:Fig9:7",
+      "kind": "figure",
+      "paper_id": "OSRT_CVPR2023",
+      "label": "Fig9",
+      "position_key": "9",
+      "position_number": 9,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Figure 9. Training process of Transformers on ×4 ODISR task. The overﬁtting issue is tackled by our augmentation scheme.",
+      "original": "OSRT_CVPR2023/figures/original/Fig9_p007.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "OSRT_CVPR2023:table:Table4:7",
+      "kind": "table",
+      "paper_id": "OSRT_CVPR2023",
+      "label": "Table4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Table 4. Ablation study on data augmentation. The results of ODI- SR (In the supplementary ﬁle) are in the same trend as SUN360.",
+      "original": "OSRT_CVPR2023/tables/original/Table4_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "OSRT_CVPR2023/tables/vector/Table4/Table4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "OSRT_CVPR2023/tables/vector/Table4/Table4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "OSRT_CVPR2023/tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "SphereSR_CVPR2022:figure:Fig1:0",
+      "kind": "figure",
+      "paper_id": "SphereSR_CVPR2022",
+      "label": "Fig1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 0,
+      "caption": "Figure 1. Learning continuous spherical image representation. SphereSR leverages SLIIF to predict RGB values at given spheri- cal coordinates for SR with arbitrary image projection.",
+      "original": "SphereSR_CVPR2022/figures/original/Fig1_p000.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "SphereSR_CVPR2022/figures/vector/Fig1/Fig1.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "SphereSR_CVPR2022:figure:Fig2:2",
+      "kind": "figure",
+      "paper_id": "SphereSR_CVPR2022",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Figure 2. Overall framework of the proposed SphereSR.",
+      "original": "SphereSR_CVPR2022/figures/original/Fig2_p002.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "SphereSR_CVPR2022/figures/vector/Fig2/Fig2.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "SphereSR_CVPR2022:figure:Fig3:2",
+      "kind": "figure",
+      "paper_id": "SphereSR_CVPR2022",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 2,
+      "caption": "Figure 3. Subdivision process of an icosahedron. We define a pixel as the face of a subdivided icosahedron.",
+      "original": "SphereSR_CVPR2022/figures/original/Fig3_p002.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "SphereSR_CVPR2022:figure:Fig4:3",
+      "kind": "figure",
+      "paper_id": "SphereSR_CVPR2022",
+      "label": "Fig4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 3,
+      "caption": "Figure 4. New kernel weight sharing. Left: proposed new data structure, Right: our kernel weight sharing scheme",
+      "original": "SphereSR_CVPR2022/figures/original/Fig4_p003.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "SphereSR_CVPR2022:figure:Fig5:3",
+      "kind": "figure",
+      "paper_id": "SphereSR_CVPR2022",
+      "label": "Fig5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 3,
+      "caption": "Figure 5. Spherical local implicit image function.",
+      "original": "SphereSR_CVPR2022/figures/original/Fig5_p003.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "SphereSR_CVPR2022/figures/vector/Fig5/Fig5.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "SphereSR_CVPR2022/figures/vector/Fig5/Fig5.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "SphereSR_CVPR2022:figure:Fig6:4",
+      "kind": "figure",
+      "paper_id": "SphereSR_CVPR2022",
+      "label": "Fig6",
+      "position_key": "6",
+      "position_number": 6,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Figure 6. Sphere-oriented Cell Decoding.",
+      "original": "SphereSR_CVPR2022/figures/original/Fig6_p004.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "SphereSR_CVPR2022:figure:Fig7:4",
+      "kind": "figure",
+      "paper_id": "SphereSR_CVPR2022",
+      "label": "Fig7",
+      "position_key": "7",
+      "position_number": 7,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Figure 7. Proposed feature loss between the spherical and ERP features.",
+      "original": "SphereSR_CVPR2022/figures/original/Fig7_p004.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "SphereSR_CVPR2022/figures/vector/Fig7/Fig7.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "SphereSR_CVPR2022:table:Table1:5",
+      "kind": "table",
+      "paper_id": "SphereSR_CVPR2022",
+      "label": "Table1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 5,
+      "caption": "Table 1. ERP SR results on the ODI-SR and SUN 360 Panorama Dataset. Bold indicates the best results.",
+      "original": "SphereSR_CVPR2022/tables/original/Table1_p005.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "SphereSR_CVPR2022/tables/vector/Table1/Table1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "SphereSR_CVPR2022/tables/vector/Table1/Table1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "SphereSR_CVPR2022/tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "SphereSR_CVPR2022:figure:Fig8:6",
+      "kind": "figure",
+      "paper_id": "SphereSR_CVPR2022",
+      "label": "Fig8",
+      "position_key": "8",
+      "position_number": 8,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Figure 8. Visual comparisons of x8 SR results of different methods on ODI-SR dataset.",
+      "original": "SphereSR_CVPR2022/figures/original/Fig8_p006.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "SphereSR_CVPR2022:figure:Fig9:6",
+      "kind": "figure",
+      "paper_id": "SphereSR_CVPR2022",
+      "label": "Fig9",
+      "position_key": "9",
+      "position_number": 9,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Figure 9. Visual comparison for x8 SR of perspective images on ODI-SR dataset.",
+      "original": "SphereSR_CVPR2022/figures/original/Fig9_p006.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "SphereSR_CVPR2022:figure:Fig10:6",
+      "kind": "figure",
+      "paper_id": "SphereSR_CVPR2022",
+      "label": "Fig10",
+      "position_key": "10",
+      "position_number": 10,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Figure 10. Visual comparison for x8 SR of fisheye images on ODI- SR dataset.",
+      "original": "SphereSR_CVPR2022/figures/original/Fig10_p006.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "SphereSR_CVPR2022:table:Table2:7",
+      "kind": "table",
+      "paper_id": "SphereSR_CVPR2022",
+      "label": "Table2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Table 2. Perspective and fisheye SR results on the ODI-SR and SUN 360 Panorama Dataset. Bold indicates the best results.",
+      "original": "SphereSR_CVPR2022/tables/original/Table2_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "SphereSR_CVPR2022/tables/vector/Table2/Table2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "SphereSR_CVPR2022/tables/vector/Table2/Table2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "SphereSR_CVPR2022/tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "SphereSR_CVPR2022:table:Table3:7",
+      "kind": "table",
+      "paper_id": "SphereSR_CVPR2022",
+      "label": "Table3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Table 3. Ablation studies on ERP SR on ODI-SR and SUN360 Panorama Dataset for both ×8 and ×16 SR.",
+      "original": "SphereSR_CVPR2022/tables/original/Table3_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "SphereSR_CVPR2022/tables/vector/Table3/Table3.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "SphereSR_CVPR2022/tables/vector/Table3/Table3.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "SphereSR_CVPR2022/tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "SphereSR_CVPR2022:table:Table4:7",
+      "kind": "table",
+      "paper_id": "SphereSR_CVPR2022",
+      "label": "Table4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Table 4. Comparisons of activation memory between SpherePHD and the proposed data structure. The network architectures of SpherePhD and ours have the same number of convolution layers (16) and hidden feature dimension (32).",
+      "original": "SphereSR_CVPR2022/tables/original/Table4_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "SphereSR_CVPR2022/tables/vector/Table4/Table4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "SphereSR_CVPR2022/tables/vector/Table4/Table4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "SphereSR_CVPR2022/tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "WaveletCompressedConv_NeurIPS2022:figure:Fig1:1",
+      "kind": "figure",
+      "paper_id": "WaveletCompressedConv_NeurIPS2022",
+      "label": "Fig1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 1,
+      "caption": "Figure 1: Comparison of standard quantization and our proposed wavelet compression. The ordinate represents MSE between the quantized and original activation maps based on 103 activation maps from the second hidden layer of MobileNetV3 (small) using the ImageNet data set.",
+      "original": "WaveletCompressedConv_NeurIPS2022/figures/original/Fig1_p001.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "WaveletCompressedConv_NeurIPS2022/figures/vector/Fig1/Fig1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "WaveletCompressedConv_NeurIPS2022/figures/vector/Fig1/Fig1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "WaveletCompressedConv_NeurIPS2022:figure:Fig2:4",
+      "kind": "figure",
+      "paper_id": "WaveletCompressedConv_NeurIPS2022",
+      "label": "Fig2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 4,
+      "caption": "Figure 2: The workﬂow of WCC on a 3-channel input from the Cityscapes dataset. A: Haar-wavelet transform; B: Joint shrinkage, transforming the input into equally sized 1D vectors and a single bit-map to represent the spatial location of the top k entries; C: 1×1 convolution over the 1D vectors; D: Inverse shrinkage (zero ﬁlling); E: Inverse Haar transform.",
+      "original": "WaveletCompressedConv_NeurIPS2022/figures/original/Fig2_p004.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "WaveletCompressedConv_NeurIPS2022/figures/vector/Fig2/Fig2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "WaveletCompressedConv_NeurIPS2022/figures/vector/Fig2/Fig2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "WaveletCompressedConv_NeurIPS2022:figure:Fig3:6",
+      "kind": "figure",
+      "paper_id": "WaveletCompressedConv_NeurIPS2022",
+      "label": "Fig3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 6,
+      "caption": "Figure 3: Feature maps from layers 2 and 3 (top and bottom triplets, respectively) of a pre-trained ResNet50 on ImageNet. The maps are compressed with uniform quantization (2-bit) and wavelet compression (25% shrinkage + 8-bit quantization, equivalent to 2-bit quantization). Clearly, the wavelet compression loses much less information than aggressive quantization.",
+      "original": "WaveletCompressedConv_NeurIPS2022/figures/original/Fig3_p006.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "WaveletCompressedConv_NeurIPS2022/figures/vector/Fig3/Fig3.svg"
+        }
+      ],
+      "vector_mode": "existing_svg_only",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "WaveletCompressedConv_NeurIPS2022:table:Table1:7",
+      "kind": "table",
+      "paper_id": "WaveletCompressedConv_NeurIPS2022",
+      "label": "Table1",
+      "position_key": "1",
+      "position_number": 1,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Table 1: Validation results on MS COCO using EfﬁcientDet-D1. Degradation from the baseline is in parentheses.",
+      "original": "WaveletCompressedConv_NeurIPS2022/tables/original/Table1_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "WaveletCompressedConv_NeurIPS2022/tables/vector/Table1/Table1.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "WaveletCompressedConv_NeurIPS2022/tables/vector/Table1/Table1.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "WaveletCompressedConv_NeurIPS2022/tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "WaveletCompressedConv_NeurIPS2022:table:Table2:7",
+      "kind": "table",
+      "paper_id": "WaveletCompressedConv_NeurIPS2022",
+      "label": "Table2",
+      "position_key": "2",
+      "position_number": 2,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Table 2: Validation results for Pascal VOC us- ing DeepLabV3plus(MobileNetV2). Degrada- tion from the baseline is in parentheses.",
+      "original": "WaveletCompressedConv_NeurIPS2022/tables/original/Table2_p007.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "WaveletCompressedConv_NeurIPS2022/tables/vector/Table2/Table2.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "WaveletCompressedConv_NeurIPS2022/tables/vector/Table2/Table2.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "WaveletCompressedConv_NeurIPS2022/tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "WaveletCompressedConv_NeurIPS2022:figure:Fig4:7",
+      "kind": "figure",
+      "paper_id": "WaveletCompressedConv_NeurIPS2022",
+      "label": "Fig4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 7,
+      "caption": "Figure 4: Validation results for Cityscapes using DeepLabV3plus(MobileNetV2) compared to BOPs for different bit-rate quantizations and WCC conﬁgurations.",
+      "original": "WaveletCompressedConv_NeurIPS2022/figures/original/Fig4_p007.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "WaveletCompressedConv_NeurIPS2022:figure:Fig5:8",
+      "kind": "figure",
+      "paper_id": "WaveletCompressedConv_NeurIPS2022",
+      "label": "Fig5",
+      "position_key": "5",
+      "position_number": 5,
+      "position_suffix": "",
+      "page": 8,
+      "caption": "Figure 5: Cityscapes segmentation results. All networks use weight quantization of 8-bits. (a) input image. (b) ground truth. (c), (d) normal quantization with 8- and 4-bits activations respectively. (e)-(h) WCC with 8-bits activations and shrinkage rate of 100%, 50%, 25% and 12.5% respectively.",
+      "original": "WaveletCompressedConv_NeurIPS2022/figures/original/Fig5_p008.png",
+      "vectors": [],
+      "vector_mode": "",
+      "latex": "",
+      "latex_mode": ""
+    },
+    {
+      "id": "WaveletCompressedConv_NeurIPS2022:table:Table3:8",
+      "kind": "table",
+      "paper_id": "WaveletCompressedConv_NeurIPS2022",
+      "label": "Table3",
+      "position_key": "3",
+      "position_number": 3,
+      "position_suffix": "",
+      "page": 8,
+      "caption": "Table 3: Monodepth2(MobileNetV2) results mea- sured by AbsRel and RMSE.",
+      "original": "WaveletCompressedConv_NeurIPS2022/tables/original/Table3_p008.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "WaveletCompressedConv_NeurIPS2022/tables/vector/Table3/Table3.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "WaveletCompressedConv_NeurIPS2022/tables/vector/Table3/Table3.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "WaveletCompressedConv_NeurIPS2022/tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "id": "WaveletCompressedConv_NeurIPS2022:table:Table4:9",
+      "kind": "table",
+      "paper_id": "WaveletCompressedConv_NeurIPS2022",
+      "label": "Table4",
+      "position_key": "4",
+      "position_number": 4,
+      "position_suffix": "",
+      "page": 9,
+      "caption": "Table 4: EDSR compression results for the task of 2x super-resolution. Note that the ﬁrst row is the reported result from [38], while the second is our reproduction of it using separable convolutions.",
+      "original": "WaveletCompressedConv_NeurIPS2022/tables/original/Table4_p009.png",
+      "vectors": [
+        {
+          "type": "svg",
+          "path": "WaveletCompressedConv_NeurIPS2022/tables/vector/Table4/Table4.svg"
+        },
+        {
+          "type": "pptx",
+          "path": "WaveletCompressedConv_NeurIPS2022/tables/vector/Table4/Table4.pptx"
+        }
+      ],
+      "vector_mode": "existing",
+      "latex": "WaveletCompressedConv_NeurIPS2022/tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ]
+};

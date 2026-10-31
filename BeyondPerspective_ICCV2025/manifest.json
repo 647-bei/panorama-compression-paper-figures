@@ -1,0 +1,490 @@
+{
+  "paper": "BeyondPerspective_ICCV2025",
+  "pdf": "pdf/BeyondPerspective_ICCV2025.pdf",
+  "pages": 11,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1. 360-degree image in (a) spherical domain representation and (b) equirectangular projection format. Bjøntegaard Delta rate savings (c) of our proposed framework for optimizing neural video codecs for 360-degree video. Tested with DCVC-HEM [29] using the JVET360 [19], HEVC [7], and UVG [37] datasets. The anchor is DCVC-HEM trained on perspective video.",
+      "caption_bbox": [
+        317.25,
+        467.308,
+        553.497,
+        531.068
+      ],
+      "content_bbox": [
+        132.351,
+        145.664,
+        553.486,
+        455.561
+      ],
+      "crop_bbox": [
+        132.351,
+        145.664,
+        553.486,
+        534.068
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.84 in\n\n形状统计 (82 个):\n  FREEFORM (5)                 46\n  TEXT_BOX (17)                34\n  PICTURE (13)                 2\n\n矢量形状: 80\n位图图片: 2\n  7.1% 画面  (4.30 x 2.15 in)\n  3.5% 画面  (2.15 x 2.15 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2. Sample frames from our UGC360 dataset showcasing its diverse content.",
+      "caption_bbox": [
+        157.227,
+        257.222,
+        454.777,
+        266.188
+      ],
+      "content_bbox": [
+        67.77,
+        75.184,
+        541.734,
+        255.164
+      ],
+      "crop_bbox": [
+        67.77,
+        75.184,
+        541.734,
+        269.188
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 2,
+      "caption": "Table 1. UGC360 dataset subsets. Subsets split the overall dataset into smaller parts based on their resolution to ease data handling.",
+      "caption_bbox": [
+        317.25,
+        288.106,
+        553.497,
+        308.031
+      ],
+      "content_bbox": [
+        317.25,
+        323.282,
+        553.505,
+        713.407
+      ],
+      "crop_bbox": [
+        317.25,
+        285.106,
+        553.505,
+        713.407
+      ],
+      "original": "tables/original/Table1_p002.png",
+      "vector": [
+        "tables/vector/Table1/Table1.svg",
+        "tables/vector/Table1/Table1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 21.94 in\n\n形状统计 (43 个):\n  TEXT_BOX (17)                41\n  FREEFORM (5)                 2\n\n矢量形状: 43\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure 3. Visualization of our flow-guided reprojection. In a first step, the source position pc src and target position pc tar are sampled. The source position is uniformly sampled within the valid region defined by the flow guide. The target position is uniformly sampled in the entire image area. In a second step, the source and target positions are projected onto the unit sphere according to (1) and (2). To align the source position with the target position, the rotation matrix R is then derived according to (3). Applying this rotation to all pixels in the source image yields the reprojected image from which the target patch is extracted.",
+      "caption_bbox": [
+        58.499,
+        287.434,
+        553.498,
+        341.917
+      ],
+      "content_bbox": [
+        64.185,
+        74.036,
+        547.806,
+        275.839
+      ],
+      "crop_bbox": [
+        64.185,
+        74.036,
+        547.806,
+        344.917
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.63 in\n\n形状统计 (188 个):\n  TEXT_BOX (17)                99\n  FREEFORM (5)                 83\n  PICTURE (13)                 6\n\n矢量形状: 182\n位图图片: 6\n  9.5% 画面  (3.77 x 1.88 in)\n  5.7% 画面  (2.07 x 2.07 in)\n  2.7% 画面  (1.41 x 1.41 in)\n  9.5% 画面  (3.77 x 1.88 in)\n  9.5% 画面  (3.77 x 1.88 in)\n  5.7% 画面  (2.07 x 2.07 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure 4. Positional feature encoding at the example of the DCVC-HEM model [29].",
+      "caption_bbox": [
+        153.64,
+        244.164,
+        458.363,
+        253.13
+      ],
+      "content_bbox": [
+        96.49,
+        72.198,
+        513.024,
+        233.132
+      ],
+      "crop_bbox": [
+        96.49,
+        72.198,
+        513.024,
+        256.13
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.22 in\n\n形状统计 (120 个):\n  FREEFORM (5)                 94\n  TEXT_BOX (17)                23\n  PICTURE (13)                 3\n\n矢量形状: 117\n位图图片: 3\n  3.4% 画面  (2.16 x 1.08 in)\n  3.4% 画面  (2.16 x 1.08 in)\n  3.4% 画面  (2.16 x 1.08 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 4,
+      "caption": "Figure 5. Depiction of (a) the insertion process of the additional positional feature encoding channel and (b) the extension of the respective convolution kernels.",
+      "caption_bbox": [
+        58.5,
+        382.925,
+        294.747,
+        413.809
+      ],
+      "content_bbox": [
+        63.914,
+        72.198,
+        513.024,
+        371.178
+      ],
+      "crop_bbox": [
+        63.914,
+        72.198,
+        513.024,
+        416.809
+      ],
+      "original": "figures/original/Fig5_p004.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.91 in\n\n形状统计 (286 个):\n  FREEFORM (5)                 198\n  PICTURE (13)                 51\n  TEXT_BOX (17)                37\n\n矢量形状: 235\n位图图片: 51\n  1.7% 画面  (2.00 x 1.00 in)\n  1.7% 画面  (2.00 x 1.00 in)\n  1.2% 画面  (1.70 x 0.85 in)\n  0.0% 画面  (0.03 x 0.88 in)\n  0.0% 画面  (1.73 x 0.03 in)\n  1.2% 画面  (1.70 x 0.85 in)\n  0.0% 画面  (0.03 x 0.88 in)\n  0.0% 画面  (1.73 x 0.03 in)\n  0.0% 画面  (1.73 x 0.03 in)\n  0.0% 画面  (0.37 x 0.03 in)\n  ... 共 51 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table 2. BD-Rate (%) in YUV color space with respect to the baseline DCVC-HEM finetuned on vimeo90k. Different models and training configurations. WS-PSNR used as quality metric for the 360-degree JVET360 dataset, PSNR for the remaining perspective datasets. Column Average shows the average BD-Rate over all perspective dataset sequences. Highest rate savings for each dataset are marked bold.",
+      "caption_bbox": [
+        58.5,
+        72.871,
+        553.499,
+        103.755
+      ],
+      "content_bbox": [
+        58.5,
+        118.789,
+        553.503,
+        590.236
+      ],
+      "crop_bbox": [
+        58.5,
+        69.871,
+        553.503,
+        590.236
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [
+        "tables/vector/Table2/Table2.svg",
+        "tables/vector/Table2/Table2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 12.70 in\n\n形状统计 (173 个):\n  TEXT_BOX (17)                141\n  FREEFORM (5)                 32\n\n矢量形状: 173\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table 3. Ablation study investigating flow-guided reprojection. BD-Rate (%) in YUV color space with respect to default config- uration TA for each model individually. All instances trained on UGC360+vimeo90k.",
+      "caption_bbox": [
+        58.5,
+        72.871,
+        294.75,
+        114.714
+      ],
+      "content_bbox": [
+        58.5,
+        129.636,
+        294.753,
+        713.407
+      ],
+      "crop_bbox": [
+        58.5,
+        69.871,
+        294.753,
+        713.407
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [
+        "tables/vector/Table3/Table3.svg",
+        "tables/vector/Table3/Table3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 32.79 in\n\n形状统计 (33 个):\n  TEXT_BOX (17)                29\n  FREEFORM (5)                 4\n\n矢量形状: 33\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 6,
+      "caption": "Table 4. Per-frame complexity metrics for the default DCVC- HEM and DCVC-HEM-360 with positional feature encoding.",
+      "caption_bbox": [
+        317.25,
+        72.871,
+        553.497,
+        92.796
+      ],
+      "content_bbox": [
+        317.25,
+        107.584,
+        553.503,
+        556.974
+      ],
+      "crop_bbox": [
+        317.25,
+        69.871,
+        553.503,
+        556.974
+      ],
+      "original": "tables/original/Table4_p006.png",
+      "vector": [
+        "tables/vector/Table4/Table4.svg",
+        "tables/vector/Table4/Table4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 25.26 in\n\n形状统计 (33 个):\n  TEXT_BOX (17)                31\n  FREEFORM (5)                 2\n\n矢量形状: 33\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 7,
+      "caption": "Figure 6. Visual results of our DCVC-HEM and DCVC-HEM-360 for the JVET360 ChairliftRide sequence finetuned on vimeo90k or UGC360+vimeo90k with flow-guided reprojection. The first column shows the bitrate allocation with the overall bitrate, the second column shows the reconstructed frame with the overall WS-PSNR, the third and fourth columns show two exemplary viewports with their allocated number of bits and corresponding viewport PSNR.",
+      "caption_bbox": [
+        58.5,
+        365.823,
+        553.499,
+        407.825
+      ],
+      "content_bbox": [
+        58.762,
+        94.168,
+        551.837,
+        350.0
+      ],
+      "crop_bbox": [
+        58.762,
+        94.168,
+        551.837,
+        410.825
+      ],
+      "original": "figures/original/Fig6_p007.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg"
+      ],
+      "vector_mode": "existing_svg_only",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": []
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops retain the caption for auditability.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing_svg_only",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg"
+      ]
+    },
+    {
+      "label": "Table1",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table1/Table1.svg",
+        "tables/vector/Table1/Table1.pptx"
+      ]
+    },
+    {
+      "label": "Table2",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table2/Table2.svg",
+        "tables/vector/Table2/Table2.pptx"
+      ]
+    },
+    {
+      "label": "Table3",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table3/Table3.svg",
+        "tables/vector/Table3/Table3.pptx"
+      ]
+    },
+    {
+      "label": "Table4",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table4/Table4.svg",
+        "tables/vector/Table4/Table4.pptx"
+      ]
+    }
+  ],
+  "metadata": {
+    "title": "Beyond Perspective: Neural 360-Degree Video Compression",
+    "year": 2025,
+    "venue": "ICCV",
+    "classification": "CCF-A main conference",
+    "topic": [
+      "360-degree video compression",
+      "neural compression",
+      "spherical augmentation"
+    ],
+    "relevance": "直接面向神经360°视频压缩，报告球面特征增强和位置特征编码的低码率收益。",
+    "official_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Regensky_Beyond_Perspective_Neural_360-Degree_Video_Compression_ICCV_2025_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Regensky_Beyond_Perspective_Neural_360-Degree_Video_Compression_ICCV_2025_paper.pdf",
+    "code_url": "https://github.com/FAU-LMS/NVC360",
+    "local_slug": "BeyondPerspective_ICCV2025",
+    "access": "open_pdf"
+  }
+}

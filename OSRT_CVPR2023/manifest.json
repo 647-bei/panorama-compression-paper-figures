@@ -1,0 +1,421 @@
+{
+  "paper": "OSRT_CVPR2023",
+  "pdf": "pdf/OSRT_CVPR2023.pdf",
+  "pages": 10,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2. Geometric explanation of transforming between ERP, Fisheye, and the ideal spherical surface. To simplify, we discuss the horizontal spliced Fisheye with an aperture degree of π.",
+      "caption_bbox": [
+        41.712,
+        476.247,
+        277.958,
+        507.13
+      ],
+      "content_bbox": [
+        41.7,
+        98.986,
+        536.728,
+        473.221
+      ],
+      "crop_bbox": [
+        41.7,
+        98.986,
+        536.728,
+        510.13
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.11 in\n\n形状统计 (386 个):\n  TEXT_BOX (17)                225\n  FREEFORM (5)                 153\n  PICTURE (13)                 8\n\n矢量形状: 378\n位图图片: 8\n  0.0% 画面  (0.11 x 0.13 in)\n  0.0% 画面  (0.07 x 0.08 in)\n  0.4% 画面  (0.48 x 1.24 in)\n  0.0% 画面  (0.16 x 0.17 in)\n  0.0% 画面  (0.17 x 0.18 in)\n  0.0% 画面  (0.04 x 0.14 in)\n  0.0% 画面  (0.07 x 0.08 in)\n  0.0% 画面  (0.12 x 0.03 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure 3. Downsampling process of ODIs (left) and imaging pro- cess in real world (right). * denotes that LR images synthesized from different downsampling processes are inconsistent.",
+      "caption_bbox": [
+        41.712,
+        230.399,
+        277.959,
+        261.283
+      ],
+      "content_bbox": [
+        41.712,
+        96.989,
+        536.715,
+        224.538
+      ],
+      "crop_bbox": [
+        41.712,
+        96.989,
+        536.715,
+        264.283
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure 4. Overall illustration of OSRT. From SwinIR [23], we replace the standard multi-head self-attention block with DAAB and insert DACB behind the end of the RSTB. Channel dimensions of θoﬀsets in DAAB and DACB are 2 and 18, respectively.",
+      "caption_bbox": [
+        41.712,
+        328.403,
+        536.711,
+        349.391
+      ],
+      "content_bbox": [
+        42.951,
+        85.65,
+        535.477,
+        328.211
+      ],
+      "crop_bbox": [
+        42.951,
+        85.65,
+        535.477,
+        352.391
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 4,
+      "caption": "Figure 5. Synthetic process of DF2K-ERP.",
+      "caption_bbox": [
+        341.984,
+        725.983,
+        495.193,
+        734.949
+      ],
+      "content_bbox": [
+        41.712,
+        354.783,
+        536.722,
+        720.122
+      ],
+      "crop_bbox": [
+        41.712,
+        354.783,
+        536.722,
+        737.949
+      ],
+      "original": "figures/original/Fig5_p004.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table 1. SR results under Fisheye downsampling. † denotes applying DF2K-ERP as augmented dataset. Best results are shown in Bold.",
+      "caption_bbox": [
+        45.554,
+        248.952,
+        532.87,
+        258.372
+      ],
+      "content_bbox": [
+        48.954,
+        265.634,
+        516.906,
+        562.207
+      ],
+      "crop_bbox": [
+        45.554,
+        245.952,
+        516.906,
+        562.207
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [
+        "tables/vector/Table1/Table1.svg"
+      ],
+      "vector_mode": "existing_svg_only",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table 2. SR results under ERP downsampling.",
+      "caption_bbox": [
+        205.978,
+        206.008,
+        372.449,
+        214.974
+      ],
+      "content_bbox": [
+        41.71,
+        224.264,
+        536.716,
+        560.458
+      ],
+      "crop_bbox": [
+        41.71,
+        203.008,
+        536.716,
+        560.458
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [
+        "tables/vector/Table2/Table2.svg",
+        "tables/vector/Table2/Table2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.09 in\n\n形状统计 (144 个):\n  TEXT_BOX (17)                92\n  FREEFORM (5)                 46\n  PICTURE (13)                 6\n\n矢量形状: 138\n位图图片: 6\n  7.0% 画面  (2.91 x 2.90 in)\n  1.7% 画面  (1.45 x 1.45 in)\n  1.7% 画面  (1.45 x 1.45 in)\n  1.7% 画面  (1.45 x 1.45 in)\n  1.7% 画面  (1.45 x 1.45 in)\n  1.7% 画面  (1.45 x 1.45 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table 3. Ablation study on OSRT components. All models are trained on ×2 SR task under Fisheye downsampling. and makes the ODISR task identical to the standard plain image super-resolution task. The evidence is that a stan- dard SISR model (SwinIR) trained on a plain image dataset (DF2K) can outperform previous SOTA in the ODISR task, which yields WS-PSNR results of 24.63dB/24.49dB (22.68dB/22.13dB) on ×8 (×16) ODI-SR/SUN360 testing set, respectively. In conclusion, when the intrinsic property of ODIs is broken by ERP downsampling, the ODISR task degenerates into a plain image super-resolution task with a particular data distribution.",
+      "caption_bbox": [
+        300.463,
+        301.873,
+        536.716,
+        444.31
+      ],
+      "content_bbox": [
+        300.463,
+        448.214,
+        536.709,
+        734.949
+      ],
+      "crop_bbox": [
+        300.463,
+        298.873,
+        536.709,
+        734.949
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [
+        "tables/vector/Table3/Table3.svg"
+      ],
+      "vector_mode": "existing_svg_only",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 6,
+      "caption": "Figure 7. Visual comparisons for SR of Fisheye and Perspective images. † denotes applying DF2K-ERP as augmented dataset.",
+      "caption_bbox": [
+        300.463,
+        715.024,
+        536.709,
+        734.949
+      ],
+      "content_bbox": [
+        41.71,
+        224.264,
+        536.716,
+        710.974
+      ],
+      "crop_bbox": [
+        41.71,
+        224.264,
+        536.716,
+        737.949
+      ],
+      "original": "figures/original/Fig7_p006.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 7,
+      "caption": "Figure 8. Visualizations of offset maps in OSRT. Reference and deformed points are depicted in green and red, respectively. The deformable kernel is sparse in the polar area.",
+      "caption_bbox": [
+        41.712,
+        318.231,
+        277.967,
+        349.115
+      ],
+      "content_bbox": [
+        41.712,
+        96.989,
+        536.709,
+        312.37
+      ],
+      "crop_bbox": [
+        41.712,
+        96.989,
+        536.709,
+        352.115
+      ],
+      "original": "figures/original/Fig8_p007.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 7,
+      "caption": "Figure 9. Training process of Transformers on ×4 ODISR task. The overﬁtting issue is tackled by our augmentation scheme.",
+      "caption_bbox": [
+        41.712,
+        714.571,
+        277.962,
+        734.949
+      ],
+      "content_bbox": [
+        41.712,
+        240.977,
+        536.731,
+        711.998
+      ],
+      "crop_bbox": [
+        41.712,
+        240.977,
+        536.731,
+        737.949
+      ],
+      "original": "figures/original/Fig9_p007.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "Table 4. Ablation study on data augmentation. The results of ODI- SR (In the supplementary ﬁle) are in the same trend as SUN360.",
+      "caption_bbox": [
+        300.463,
+        211.143,
+        536.709,
+        231.068
+      ],
+      "content_bbox": [
+        300.462,
+        240.977,
+        536.731,
+        738.488
+      ],
+      "crop_bbox": [
+        300.462,
+        208.143,
+        536.731,
+        738.488
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [
+        "tables/vector/Table4/Table4.svg",
+        "tables/vector/Table4/Table4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 27.95 in\n\n形状统计 (16 个):\n  TEXT_BOX (17)                16\n\n矢量形状: 16\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops retain the caption for auditability.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "title": "OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer",
+    "year": 2023,
+    "venue": "CVPR",
+    "classification": "CCF-A main conference",
+    "topic": [
+      "omnidirectional image",
+      "distortion-aware attention",
+      "super-resolution"
+    ],
+    "relevance": "直接处理全向图像的纬度失真和注意力建模。",
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Yu_OSRT_Omnidirectional_Image_Super-Resolution_With_Distortion-Aware_Transformer_CVPR_2023_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_OSRT_Omnidirectional_Image_Super-Resolution_With_Distortion-Aware_Transformer_CVPR_2023_paper.pdf",
+    "code_url": "https://github.com/Fanghua-Yu/OSRT",
+    "local_slug": "OSRT_CVPR2023",
+    "access": "open_pdf"
+  },
+  "vectorized": [
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Table1",
+      "kind": "table",
+      "mode": "existing_svg_only",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table1/Table1.svg"
+      ]
+    },
+    {
+      "label": "Table2",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table2/Table2.svg",
+        "tables/vector/Table2/Table2.pptx"
+      ]
+    },
+    {
+      "label": "Table3",
+      "kind": "table",
+      "mode": "existing_svg_only",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table3/Table3.svg"
+      ]
+    },
+    {
+      "label": "Table4",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table4/Table4.svg",
+        "tables/vector/Table4/Table4.pptx"
+      ]
+    }
+  ]
+}

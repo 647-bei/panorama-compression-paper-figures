@@ -1,0 +1,19 @@
+% Auto-extracted table snippet; requires \usepackage{booktabs}.
+% Caption: Table 2: Comparing various method on solving 2D Poisson equations. All MLPs (including MLP\_RFFs) have shapes [2,128,128,128,1].
+\begin{tabular}{lllllll}
+\toprule
+Method & n = 1 &  & n = 2 &  & n = 4 &  \\
+\midrule
+ & l error↓ 2 & time (s) ↓ & l error↓ 2 & time (s) ↓ & l error↓ 2 & time (s) ↓ \\
+MLP & 0.003 & 28 & 0.027 & 19 & 0.553 & 19 \\
+MLP (10x training) & 0.001 & 184 & 0.328 & 184 & 0.022 & 202 \\
+MLP RFF (s = 3) \_ & 0.001 & 254 & 0.001 & 233 & 0.084 & 232 \\
+MLP RFF (s = 30) \_ & 1.000 & 250 & 0.999 & 242 & 0.934 & 249 \\
+KAN [2,10,1] G = 10 & 0.006 & 28 & 0.135 & 29 & 0.729 & 24 \\
+KAN [2,10,1] G = 20 & 0.221 & 33 & 0.082 & 33 & 0.295 & 34 \\
+KAN [2,100,1] G = 10 & 0.001 & 51 & 0.006 & 52 & 0.099 & 51 \\
+KAN [2,100,1] G = 20 & 0.326 & 72 & 0.135 & 71 & 0.090 & 74 \\
+KAN [2,10,10,10,1] G = 10 & 0.012 & 89 & 0.117 & 95 & 0.576 & 92 \\
+KAN [2,10,10,10,1] G = 20 & 0.995 & 127 & 0.993 & 130 & 0.982 & 125 \\
+\bottomrule
+\end{tabular}

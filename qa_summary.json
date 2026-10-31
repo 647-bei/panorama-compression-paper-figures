@@ -1,0 +1,12 @@
+{
+  "tool": "C:/Users/Admin/.codex/skills/pdf-figure-vector/scripts/compare.py",
+  "metric": "MAE / 255",
+  "samples": [
+    {"paper": "BeyondPerspective_ICCV2025", "asset": "Fig1", "mae": 7.98, "status": "near_pixel"},
+    {"paper": "SphereSR_CVPR2022", "asset": "Fig2", "mae": 53.23, "status": "mixed_raster_and_font_risk"},
+    {"paper": "WaveletCompressedConv_NeurIPS2022", "asset": "Fig2", "mae": 5.00, "status": "near_pixel"},
+    {"paper": "NMI_MultiResolution_2026", "asset": "Fig2", "mae": 5.82, "status": "near_pixel"},
+    {"paper": "DeepSNN_0p3Spikes_NC2024", "asset": "Fig1", "mae": 5.05, "status": "near_pixel"}
+  ],
+  "note": "SphereSR Fig2 contains embedded photographic panels and mixed projection/font elements; keep its original PNG beside the editable SVG."
+}

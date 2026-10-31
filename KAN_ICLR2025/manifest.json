@@ -1,0 +1,1479 @@
+{
+  "paper": "KAN_ICLR2025",
+  "pdf": "pdf/KAN_ICLR2025.pdf",
+  "pages": 47,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1: Multi-Layer Perceptrons (MLPs) vs. Kolmogorov-Arnold Networks (KANs)",
+      "caption_bbox": [
+        133.18,
+        643.802,
+        478.822,
+        653.765
+      ],
+      "content_bbox": [
+        108.0,
+        234.342,
+        503.981,
+        630.436
+      ],
+      "crop_bbox": [
+        108.0,
+        234.342,
+        503.981,
+        656.765
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 13.34 in\n\n形状统计 (224 个):\n  TEXT_BOX (17)                168\n  FREEFORM (5)                 52\n  PICTURE (13)                 4\n\n矢量形状: 220\n位图图片: 4\n  2.4% 画面  (2.32 x 1.86 in)\n  2.8% 画面  (2.03 x 2.41 in)\n  1.7% 画面  (1.92 x 1.55 in)\n  2.5% 画面  (1.94 x 2.29 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 5,
+      "caption": "Figure 2: Fitting the function f(x1, x2, x3, x4) = exp( 1",
+      "caption_bbox": [
+        108.0,
+        217.358,
+        340.203,
+        229.749
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        484.197,
+        205.809
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        484.197,
+        232.749
+      ],
+      "original": "figures/original/Fig2_p005.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 5,
+      "caption": "Figure 3: KANs are interpretable for simple symbolic tasks.",
+      "caption_bbox": [
+        186.305,
+        399.241,
+        425.696,
+        409.204
+      ],
+      "content_bbox": [
+        108.0,
+        81.862,
+        504.003,
+        385.875
+      ],
+      "crop_bbox": [
+        108.0,
+        81.862,
+        504.003,
+        412.204
+      ],
+      "original": "figures/original/Fig3_p005.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Figure 4: Knot dataset. Supervised mode (left): we rediscover DeepMind’s three important vari- ables. Unsupervised mode (right): we discover three “new” relations without supervision.",
+      "caption_bbox": [
+        108.0,
+        278.114,
+        504.003,
+        299.036
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        484.203,
+        264.748
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        484.203,
+        302.036
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 7,
+      "caption": "Figure 5: Compare KANs to MLPs on five toy examples. KANs can almost saturate the fastest scaling law predicted by our theory (α = 4), while MLPs scales slowly and plateau quickly.",
+      "caption_bbox": [
+        108.0,
+        213.923,
+        504.003,
+        234.844
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.003,
+        200.556
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.003,
+        237.844
+      ],
+      "original": "figures/original/Fig5_p007.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 8,
+      "caption": "Figure 6: Fitting special functions. We show the Pareto Frontier of KANs and MLPs in the plane spanned by the number of model parameters and RMSE loss. Consistently accross all special func- tions, KANs have better Pareto Frontiers than MLPs. The definitions of these special functions are in Table 9.",
+      "caption_bbox": [
+        108.0,
+        287.533,
+        504.003,
+        330.373
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        503.993,
+        274.168
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        503.993,
+        333.373
+      ],
+      "original": "figures/original/Fig6_p008.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.34 in\n\n形状统计 (1869 个):\n  FREEFORM (5)                 1777\n  TEXT_BOX (17)                92\n\n矢量形状: 1869\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 8,
+      "caption": "Figure 7: Image fitting task (a PDE solution from PDEBench Takamoto et al. (2022)). KAN outper- forms baseline methods in terms of PSNR.",
+      "caption_bbox": [
+        108.0,
+        506.106,
+        504.003,
+        527.028
+      ],
+      "content_bbox": [
+        108.0,
+        81.863,
+        504.003,
+        492.74
+      ],
+      "crop_bbox": [
+        108.0,
+        81.863,
+        504.003,
+        530.028
+      ],
+      "original": "figures/original/Fig7_p008.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 9,
+      "caption": "Table 1: Image Fitting: Comparing various methods",
+      "caption_bbox": [
+        202.151,
+        91.023,
+        409.851,
+        100.986
+      ],
+      "content_bbox": [
+        108.0,
+        101.887,
+        519.902,
+        420.853
+      ],
+      "crop_bbox": [
+        108.0,
+        88.023,
+        519.902,
+        420.853
+      ],
+      "original": "tables/original/Table1_p009.png",
+      "vector": [
+        "tables/vector/Table1/Table1.svg",
+        "tables/vector/Table1/Table1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.35 in\n\n形状统计 (921 个):\n  FREEFORM (5)                 698\n  TEXT_BOX (17)                223\n\n矢量形状: 921\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 9,
+      "caption": "Figure 8: The PDE example. We plot L2 squared and H1 squared losses between the predicted solution and ground truth solution. First and second: training dynamics of losses. Third and fourth: scaling laws of losses against the number of parameters. KANs converge faster, achieve lower losses, and have steeper scaling laws than MLPs.",
+      "caption_bbox": [
+        108.0,
+        378.014,
+        504.003,
+        420.853
+      ],
+      "content_bbox": [
+        107.642,
+        91.023,
+        519.902,
+        364.648
+      ],
+      "crop_bbox": [
+        107.642,
+        91.023,
+        519.902,
+        423.853
+      ],
+      "original": "figures/original/Fig8_p009.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 17,
+      "caption": "Figure 9: Comparing various methods for fitting the picture of Cameraman (top), turbulent flow (middle,from PDEBench Takamoto et al. (2022)), and Van Gogh’s the starry night (bottom).",
+      "caption_bbox": [
+        108.0,
+        547.045,
+        504.003,
+        567.967
+      ],
+      "content_bbox": [
+        108.0,
+        81.861,
+        504.003,
+        533.68
+      ],
+      "crop_bbox": [
+        108.0,
+        81.861,
+        504.003,
+        570.967
+      ],
+      "original": "figures/original/Fig9_p017.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 18,
+      "caption": "Figure 10: Comparing various methods on solving 2D Poisson equation with a high-frequency solution (n = 4).",
+      "caption_bbox": [
+        108.0,
+        703.586,
+        504.003,
+        724.508
+      ],
+      "content_bbox": [
+        108.0,
+        321.497,
+        504.004,
+        690.22
+      ],
+      "crop_bbox": [
+        108.0,
+        321.497,
+        504.004,
+        727.508
+      ],
+      "original": "figures/original/Fig10_p018.png",
+      "vector": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 12.42 in\n\n形状统计 (134 个):\n  TEXT_BOX (17)                131\n  FREEFORM (5)                 2\n  PICTURE (13)                 1\n\n矢量形状: 133\n位图图片: 1\n  37.3% 画面  (13.22 x 4.68 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 19,
+      "caption": "Table 2: Comparing various method on solving 2D Poisson equations. All MLPs (including MLP_RFFs) have shapes [2,128,128,128,1].",
+      "caption_bbox": [
+        108.0,
+        228.308,
+        504.003,
+        249.23
+      ],
+      "content_bbox": [
+        108.0,
+        263.313,
+        504.003,
+        608.814
+      ],
+      "crop_bbox": [
+        108.0,
+        225.308,
+        504.003,
+        608.814
+      ],
+      "original": "tables/original/Table2_p019.png",
+      "vector": [
+        "tables/vector/Table2/Table2.svg",
+        "tables/vector/Table2/Table2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.65 in\n\n形状统计 (126 个):\n  TEXT_BOX (17)                124\n  PICTURE (13)                 1\n  FREEFORM (5)                 1\n\n矢量形状: 125\n位图图片: 1\n  19.6% 画面  (13.22 x 2.31 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig11",
+      "page": 19,
+      "caption": "Figure 11: Solving the 1D Allen-Cahn equation.",
+      "caption_bbox": [
+        209.538,
+        345.715,
+        402.464,
+        355.678
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        519.958,
+        332.349
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        519.958,
+        358.678
+      ],
+      "original": "figures/original/Fig11_p019.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 20,
+      "caption": "Table 3: Comparing various models on the 1D Allen-Cahn equation. All MLPs including MLP_RFFs have the shape [2,128,128,128,1].",
+      "caption_bbox": [
+        108.0,
+        163.193,
+        504.003,
+        184.115
+      ],
+      "content_bbox": [
+        108.0,
+        236.367,
+        503.999,
+        631.64
+      ],
+      "crop_bbox": [
+        108.0,
+        160.193,
+        503.999,
+        631.64
+      ],
+      "original": "tables/original/Table3_p020.png",
+      "vector": [
+        "tables/vector/Table3/Table3.svg"
+      ],
+      "vector_mode": "existing_svg_only",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig12",
+      "page": 20,
+      "caption": "Figure 12: Prediction of various models on Darcy flow",
+      "caption_bbox": [
+        197.0,
+        645.006,
+        415.002,
+        654.969
+      ],
+      "content_bbox": [
+        108.0,
+        331.678,
+        503.999,
+        631.64
+      ],
+      "crop_bbox": [
+        108.0,
+        331.678,
+        503.999,
+        657.969
+      ],
+      "original": "figures/original/Fig12_p020.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 21,
+      "caption": "Table 4: Comparing various models on darcy flow. All MLPs including MLP_RFFs have the shape [2,128,128,128,1].",
+      "caption_bbox": [
+        108.0,
+        256.682,
+        504.003,
+        277.604
+      ],
+      "content_bbox": [
+        108.0,
+        314.076,
+        537.58,
+        619.411
+      ],
+      "crop_bbox": [
+        108.0,
+        253.682,
+        537.58,
+        619.411
+      ],
+      "original": "tables/original/Table4_p021.png",
+      "vector": [
+        "tables/vector/Table4/Table4.svg",
+        "tables/vector/Table4/Table4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.51 in\n\n形状统计 (152 个):\n  TEXT_BOX (17)                150\n  FREEFORM (5)                 2\n\n矢量形状: 152\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 22,
+      "caption": "Table 5: Comparing KANs and MLPs on MNIST",
+      "caption_bbox": [
+        207.171,
+        461.412,
+        404.829,
+        471.375
+      ],
+      "content_bbox": [
+        108.0,
+        487.365,
+        504.003,
+        762.157
+      ],
+      "crop_bbox": [
+        108.0,
+        458.412,
+        504.003,
+        762.157
+      ],
+      "original": "tables/original/Table5_p022.png",
+      "vector": [
+        "tables/vector/Table5/Table5.svg",
+        "tables/vector/Table5/Table5.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.29 in\n\n形状统计 (80 个):\n  TEXT_BOX (17)                80\n\n矢量形状: 80\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig13",
+      "page": 23,
+      "caption": "Figure 13: Hyperparameter search for KANs and MLPs. Hyperparameters include depths, widths, optimization methods, and learning rates.",
+      "caption_bbox": [
+        108.0,
+        561.839,
+        504.003,
+        582.761
+      ],
+      "content_bbox": [
+        108.0,
+        122.17,
+        503.998,
+        548.474
+      ],
+      "crop_bbox": [
+        108.0,
+        122.17,
+        503.998,
+        585.761
+      ],
+      "original": "figures/original/Fig13_p023.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 24,
+      "caption": "Table 6: Results for the example: f(x, y) = exp(sin(πx + y2)) and the LBFGS optimizer. Grid search width, depth, and learning rate.",
+      "caption_bbox": [
+        108.0,
+        256.13,
+        504.002,
+        278.561
+      ],
+      "content_bbox": [
+        108.0,
+        291.427,
+        559.388,
+        596.209
+      ],
+      "crop_bbox": [
+        108.0,
+        253.13,
+        559.388,
+        596.209
+      ],
+      "original": "tables/original/Table6_p024.png",
+      "vector": [
+        "tables/vector/Table6/Table6.svg",
+        "tables/vector/Table6/Table6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.04 in\n\n形状统计 (676 个):\n  TEXT_BOX (17)                563\n  FREEFORM (5)                 113\n\n矢量形状: 676\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 24,
+      "caption": "Table 7: Results for the example: f(x, y) = exp(sin(πx + y2)) and the Adam optimizer. Grid search width, depth, and learning rate.",
+      "caption_bbox": [
+        108.0,
+        465.181,
+        503.996,
+        487.613
+      ],
+      "content_bbox": [
+        108.0,
+        508.831,
+        504.008,
+        762.157
+      ],
+      "crop_bbox": [
+        108.0,
+        462.181,
+        504.008,
+        762.157
+      ],
+      "original": "tables/original/Table7_p024.png",
+      "vector": [
+        "tables/vector/Table7/Table7.svg",
+        "tables/vector/Table7/Table7.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.57 in\n\n形状统计 (77 个):\n  TEXT_BOX (17)                77\n\n矢量形状: 77\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig14",
+      "page": 25,
+      "caption": "Figure 14: Fitting a 2D function f(x, y) = exp(sin(πx) + y2). We know that a 2L KAN can smoothly represent the function (left). When we attempt to fit the function with more layers (with sparsity penalty), some edges would become (nearly) identities, shown for 3L (middle) and 4L (right). The identity shortcuts are easy to form with linear residuals, while SiLU residuals can lead to a complex network structure even under sparsity penalty.",
+      "caption_bbox": [
+        108.0,
+        230.124,
+        504.004,
+        285.432
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        503.996,
+        218.268
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        503.996,
+        288.432
+      ],
+      "original": "figures/original/Fig14_p025.png",
+      "vector": [
+        "figures/vector/Fig14/Fig14.svg"
+      ],
+      "vector_mode": "existing_svg_only",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig15",
+      "page": 25,
+      "caption": "Figure 15: Existence of redundant neurons/edges with small or no sparsity penalty. λ is the sparsity penalty strength.",
+      "caption_bbox": [
+        108.0,
+        449.199,
+        503.997,
+        470.351
+      ],
+      "content_bbox": [
+        108.0,
+        81.865,
+        504.004,
+        436.064
+      ],
+      "crop_bbox": [
+        108.0,
+        81.865,
+        504.004,
+        473.351
+      ],
+      "original": "figures/original/Fig15_p025.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig16",
+      "page": 25,
+      "caption": "Figure 16: Skip connections (either SiLU or linear) make training landscapes smoother, leading to faster training. The visualizations are for KANs at step 10.",
+      "caption_bbox": [
+        108.0,
+        709.19,
+        504.003,
+        730.112
+      ],
+      "content_bbox": [
+        108.0,
+        313.156,
+        504.003,
+        695.824
+      ],
+      "crop_bbox": [
+        108.0,
+        313.156,
+        504.003,
+        733.112
+      ],
+      "original": "figures/original/Fig16_p025.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig17",
+      "page": 26,
+      "caption": "Figure 17: Grid extension is needed to avoid bad loss landscapes when initial grid sizes are large.",
+      "caption_bbox": [
+        112.239,
+        342.526,
+        499.764,
+        352.489
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.005,
+        329.161
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.005,
+        355.489
+      ],
+      "original": "figures/original/Fig17_p026.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig18",
+      "page": 26,
+      "caption": "Figure 18: Left: Notations of activations that flow through the network. Right: an activation function is parameterized as a B-spline, which allows switching between coarse-grained and fine-grained grids.",
+      "caption_bbox": [
+        108.0,
+        577.3,
+        504.003,
+        609.181
+      ],
+      "content_bbox": [
+        108.0,
+        198.836,
+        503.996,
+        563.934
+      ],
+      "crop_bbox": [
+        108.0,
+        198.836,
+        503.996,
+        612.181
+      ],
+      "original": "figures/original/Fig18_p026.png",
+      "vector": [
+        "figures/vector/Fig18/Fig18.svg"
+      ],
+      "vector_mode": "existing_svg_only",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": []
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 28,
+      "caption": "Table 8: Scaling exponents from different theories ℓ∝N −α. ℓ: test RMSE loss, N: number of model parameters, d: input intrinsic dimension, k: order of piecewise polynomial, m: derivative order as in function class Wm.",
+      "caption_bbox": [
+        108.0,
+        154.452,
+        504.004,
+        188.544
+      ],
+      "content_bbox": [
+        108.0,
+        208.627,
+        504.005,
+        542.666
+      ],
+      "crop_bbox": [
+        108.0,
+        151.452,
+        504.005,
+        542.666
+      ],
+      "original": "tables/original/Table8_p028.png",
+      "vector": [
+        "tables/vector/Table8/Table8.svg",
+        "tables/vector/Table8/Table8.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.27 in\n\n形状统计 (117 个):\n  TEXT_BOX (17)                115\n  FREEFORM (5)                 2\n\n矢量形状: 117\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig19",
+      "page": 29,
+      "caption": "Figure 19: We can make KANs more accurate by grid extension (fine-graining spline grids). Top left (right): training dynamics of a [2, 5, 1] ([2, 1, 1]) KAN. Both models display staircases in their loss curves, i.e., loss suddently drops then plateaus after grid extension. Bottom left: test RMSE follows scaling laws against grid size G. Bottom right: training time scales favorably with grid size G.",
+      "caption_bbox": [
+        108.0,
+        444.324,
+        504.003,
+        498.123
+      ],
+      "content_bbox": [
+        108.0,
+        84.268,
+        504.003,
+        430.958
+      ],
+      "crop_bbox": [
+        108.0,
+        84.268,
+        504.003,
+        501.123
+      ],
+      "original": "figures/original/Fig19_p029.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig20",
+      "page": 32,
+      "caption": "Figure 20: An example of how to do symbolic regression with KAN.",
+      "caption_bbox": [
+        168.726,
+        288.677,
+        443.275,
+        298.64
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        275.311
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        301.64
+      ],
+      "original": "figures/original/Fig20_p032.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table9",
+      "page": 33,
+      "caption": "Table 9: Special functions",
+      "caption_bbox": [
+        253.941,
+        241.15,
+        358.06,
+        251.113
+      ],
+      "content_bbox": [
+        108.0,
+        275.416,
+        504.004,
+        550.371
+      ],
+      "crop_bbox": [
+        108.0,
+        238.15,
+        504.004,
+        550.371
+      ],
+      "original": "tables/original/Table9_p033.png",
+      "vector": [
+        "tables/vector/Table9/Table9.svg",
+        "tables/vector/Table9/Table9.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.29 in\n\n形状统计 (59 个):\n  TEXT_BOX (17)                59\n\n矢量形状: 59\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table9.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table10",
+      "page": 34,
+      "caption": "Table 10: Feynman dataset",
+      "caption_bbox": [
+        252.357,
+        333.837,
+        359.644,
+        343.8
+      ],
+      "content_bbox": [
+        108.0,
+        367.0,
+        504.004,
+        667.74
+      ],
+      "crop_bbox": [
+        108.0,
+        330.837,
+        504.004,
+        667.74
+      ],
+      "original": "tables/original/Table10_p034.png",
+      "vector": [
+        "tables/vector/Table10/Table10.svg",
+        "tables/vector/Table10/Table10.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.15 in\n\n形状统计 (93 个):\n  TEXT_BOX (17)                91\n  FREEFORM (5)                 2\n\n矢量形状: 93\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table10.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig21",
+      "page": 35,
+      "caption": "Figure 21: A toy continual learning problem. The dataset is a 1D regression task with 5 Gaussian peaks (top row). Data around each peak is presented sequentially (instead of all at once) to KANs and MLPs. KANs (middle row) can perfectly avoid catastrophic forgetting, while MLPs (bottom row) display severe catastrophic forgetting.",
+      "caption_bbox": [
+        108.0,
+        266.088,
+        504.003,
+        308.928
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        503.999,
+        252.722
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        503.999,
+        311.928
+      ],
+      "original": "figures/original/Fig21_p035.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig22",
+      "page": 35,
+      "caption": "Figure 22: When KANs become deep, the continual learning ability is partially lost. Top: grid size 200; bottom: grid size 10.",
+      "caption_bbox": [
+        108.0,
+        703.212,
+        504.003,
+        724.134
+      ],
+      "content_bbox": [
+        108.0,
+        342.303,
+        504.003,
+        689.847
+      ],
+      "crop_bbox": [
+        108.0,
+        342.303,
+        504.003,
+        727.134
+      ],
+      "original": "figures/original/Fig22_p035.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig23",
+      "page": 36,
+      "caption": "Figure 23: KANs are interepretable for simple symbolic tasks.",
+      "caption_bbox": [
+        181.603,
+        339.101,
+        430.399,
+        349.064
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.009,
+        325.735
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.009,
+        352.064
+      ],
+      "original": "figures/original/Fig23_p036.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig24",
+      "page": 37,
+      "caption": "Figure 24: Unsupervised learning of a toy task. KANs can identify groups of dependent variables, i.e., (x1, x2, x3) and (x4, x5) in this case.",
+      "caption_bbox": [
+        108.0,
+        213.23,
+        504.003,
+        234.763
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        424.804,
+        199.864
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        424.804,
+        237.763
+      ],
+      "original": "figures/original/Fig24_p037.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table11",
+      "page": 38,
+      "caption": "Table 11: Symbolic formulas of signature as a function of meridinal translation µ (real µr, imag µi) and longitudinal translation λ. In Davies et al. (2021), formula A was discovered by human scientists inspired by neural network attribution results. Formulas B-F are auto-discovered by KANs. KANs can trade-off between simplicity and accuracy (B, C, D). By adding more inductive biases, KAN is able to discover formula E which is not too dissimilar from formula A. KANs also discovered a formula F which only involves two variables (µr and λ) instead of all three variables, with little sacrifice in accuracy.",
+      "caption_bbox": [
+        108.0,
+        255.28,
+        504.003,
+        331.226
+      ],
+      "content_bbox": [
+        108.0,
+        354.723,
+        504.005,
+        644.874
+      ],
+      "crop_bbox": [
+        108.0,
+        252.28,
+        504.005,
+        644.874
+      ],
+      "original": "tables/original/Table11_p038.png",
+      "vector": [
+        "tables/vector/Table11/Table11.svg",
+        "tables/vector/Table11/Table11.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.80 in\n\n形状统计 (110 个):\n  TEXT_BOX (17)                110\n\n矢量形状: 110\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table11.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table12",
+      "page": 39,
+      "caption": "Table 12: Symbolic formulas for two systems GAAM and MAAM, ground truth ones and KAN- discovered ones.",
+      "caption_bbox": [
+        108.0,
+        272.408,
+        504.003,
+        293.33
+      ],
+      "content_bbox": [
+        108.0,
+        305.365,
+        504.003,
+        594.997
+      ],
+      "crop_bbox": [
+        108.0,
+        269.408,
+        504.003,
+        594.997
+      ],
+      "original": "tables/original/Table12_p039.png",
+      "vector": [
+        "tables/vector/Table12/Table12.svg"
+      ],
+      "vector_mode": "existing_svg_only",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [],
+      "latex": "tables/latex/Table12.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig25",
+      "page": 39,
+      "caption": "Figure 25: Human-KAN collaboration to discover mobility edges of GAAM and MAAM. The human user can choose to be lazy (using the auto mode) or more involved (using the manual mode).",
+      "caption_bbox": [
+        108.0,
+        517.728,
+        504.003,
+        538.65
+      ],
+      "content_bbox": [
+        108.0,
+        167.062,
+        504.003,
+        504.362
+      ],
+      "crop_bbox": [
+        108.0,
+        167.062,
+        504.003,
+        541.65
+      ],
+      "original": "figures/original/Fig25_p039.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig26",
+      "page": 41,
+      "caption": "Figure 26: Results for the Mosaic Model. Top: phase diagram. Middle and Bottom: KANs can obtain both qualitative intuition (bottom) and extract quantitative results (middle). φ = 1+ √",
+      "caption_bbox": [
+        108.0,
+        495.725,
+        504.003,
+        519.242
+      ],
+      "content_bbox": [
+        108.0,
+        134.676,
+        504.004,
+        482.359
+      ],
+      "crop_bbox": [
+        108.0,
+        134.676,
+        504.004,
+        522.242
+      ],
+      "original": "figures/original/Fig26_p041.png",
+      "vector": [
+        "figures/vector/Fig26/Fig26.svg"
+      ],
+      "vector_mode": "existing_svg_only",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": []
+    },
+    {
+      "kind": "table",
+      "label": "Table13",
+      "page": 43,
+      "caption": "Table 13: KAN functionalities",
+      "caption_bbox": [
+        245.363,
+        226.027,
+        366.638,
+        235.99
+      ],
+      "content_bbox": [
+        108.0,
+        259.349,
+        504.004,
+        526.538
+      ],
+      "crop_bbox": [
+        108.0,
+        223.027,
+        504.004,
+        526.538
+      ],
+      "original": "tables/original/Table13_p043.png",
+      "vector": [
+        "tables/vector/Table13/Table13.svg",
+        "tables/vector/Table13/Table13.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.03 in\n\n形状统计 (38 个):\n  TEXT_BOX (17)                38\n\n矢量形状: 38\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ],
+      "latex": "tables/latex/Table13.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig27",
+      "page": 44,
+      "caption": "Figure 27: Effects of hyperparameters on interpretability results.",
+      "caption_bbox": [
+        177.469,
+        324.528,
+        434.534,
+        334.491
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.013,
+        311.162
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.013,
+        337.491
+      ],
+      "original": "figures/original/Fig27_p044.png",
+      "vector": []
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops retain the caption for auditability.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "title": "KAN: Kolmogorov-Arnold Networks",
+    "year": 2025,
+    "venue": "ICLR",
+    "classification": "CCF-A main conference",
+    "topic": [
+      "KAN",
+      "learnable edge functions",
+      "interpretable neural representation"
+    ],
+    "relevance": "边上的可学习函数为频带自适应映射和恢复非线性提供方法参考；不是全景压缩专门论文。",
+    "official_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/afaed89642ea100935e39d39a4da602c-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/afaed89642ea100935e39d39a4da602c-Paper-Conference.pdf",
+    "local_slug": "KAN_ICLR2025",
+    "access": "open_pdf"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig10",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ]
+    },
+    {
+      "label": "Fig14",
+      "kind": "figure",
+      "mode": "existing_svg_only",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig14/Fig14.svg"
+      ]
+    },
+    {
+      "label": "Fig18",
+      "kind": "figure",
+      "mode": "existing_svg_only",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig18/Fig18.svg"
+      ]
+    },
+    {
+      "label": "Fig26",
+      "kind": "figure",
+      "mode": "existing_svg_only",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig26/Fig26.svg"
+      ]
+    },
+    {
+      "label": "Table1",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table1/Table1.svg",
+        "tables/vector/Table1/Table1.pptx"
+      ]
+    },
+    {
+      "label": "Table2",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table2/Table2.svg",
+        "tables/vector/Table2/Table2.pptx"
+      ]
+    },
+    {
+      "label": "Table3",
+      "kind": "table",
+      "mode": "existing_svg_only",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table3/Table3.svg"
+      ]
+    },
+    {
+      "label": "Table4",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table4/Table4.svg",
+        "tables/vector/Table4/Table4.pptx"
+      ]
+    },
+    {
+      "label": "Table5",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table5/Table5.svg",
+        "tables/vector/Table5/Table5.pptx"
+      ]
+    },
+    {
+      "label": "Table6",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table6/Table6.svg",
+        "tables/vector/Table6/Table6.pptx"
+      ]
+    },
+    {
+      "label": "Table7",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table7/Table7.svg",
+        "tables/vector/Table7/Table7.pptx"
+      ]
+    },
+    {
+      "label": "Table8",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table8/Table8.svg",
+        "tables/vector/Table8/Table8.pptx"
+      ]
+    },
+    {
+      "label": "Table9",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table9/Table9.svg",
+        "tables/vector/Table9/Table9.pptx"
+      ]
+    },
+    {
+      "label": "Table10",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table10/Table10.svg",
+        "tables/vector/Table10/Table10.pptx"
+      ]
+    },
+    {
+      "label": "Table11",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table11/Table11.svg",
+        "tables/vector/Table11/Table11.pptx"
+      ]
+    },
+    {
+      "label": "Table12",
+      "kind": "table",
+      "mode": "existing_svg_only",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table12/Table12.svg"
+      ]
+    },
+    {
+      "label": "Table13",
+      "kind": "table",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "tables/vector/Table13/Table13.svg",
+        "tables/vector/Table13/Table13.pptx"
+      ]
+    }
+  ]
+}
