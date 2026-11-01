@@ -1,0 +1,210 @@
+{
+  "generated_at": "2026-11-01",
+  "ccf_edition": "2026 第七版",
+  "cas_edition": "2025 升级版",
+  "venues": [
+    {
+      "venue": "CVPR",
+      "venue_short": "CVPR",
+      "venue_full": "IEEE/CVF Computer Vision and Pattern Recognition Conference",
+      "venue_type": "会议",
+      "cas_zone": null,
+      "cas_top": null,
+      "cas_display": "中科院分区：不适用（会议）",
+      "ccf_rank": "A",
+      "ccf_scope": "会议",
+      "ccf_display": "CCF会议 A类（2026）",
+      "sources": {
+        "ccf_official": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+        "ccf_pdf": "https://kyc.lsu.edu.cn/_upload/article/files/20/77/2cbaa3754eb9aff9ed74cafed8ff/23a8de02-594c-445f-b084-69b0193c05b3.pdf",
+        "cas_platform": "https://www.fenqubiao.com/",
+        "cas_2025_file": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx"
+      }
+    },
+    {
+      "venue": "ICCV",
+      "venue_short": "ICCV",
+      "venue_full": "International Conference on Computer Vision",
+      "venue_type": "会议",
+      "cas_zone": null,
+      "cas_top": null,
+      "cas_display": "中科院分区：不适用（会议）",
+      "ccf_rank": "A",
+      "ccf_scope": "会议",
+      "ccf_display": "CCF会议 A类（2026）",
+      "sources": {
+        "ccf_official": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+        "ccf_pdf": "https://kyc.lsu.edu.cn/_upload/article/files/20/77/2cbaa3754eb9aff9ed74cafed8ff/23a8de02-594c-445f-b084-69b0193c05b3.pdf",
+        "cas_platform": "https://www.fenqubiao.com/",
+        "cas_2025_file": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx"
+      }
+    },
+    {
+      "venue": "AAAI",
+      "venue_short": "AAAI",
+      "venue_full": "AAAI Conference on Artificial Intelligence",
+      "venue_type": "会议",
+      "cas_zone": null,
+      "cas_top": null,
+      "cas_display": "中科院分区：不适用（会议）",
+      "ccf_rank": "A",
+      "ccf_scope": "会议",
+      "ccf_display": "CCF会议 A类（2026）",
+      "sources": {
+        "ccf_official": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+        "ccf_pdf": "https://kyc.lsu.edu.cn/_upload/article/files/20/77/2cbaa3754eb9aff9ed74cafed8ff/23a8de02-594c-445f-b084-69b0193c05b3.pdf",
+        "cas_platform": "https://www.fenqubiao.com/",
+        "cas_2025_file": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx"
+      }
+    },
+    {
+      "venue": "ICLR",
+      "venue_short": "ICLR",
+      "venue_full": "International Conference on Learning Representations",
+      "venue_type": "会议",
+      "cas_zone": null,
+      "cas_top": null,
+      "cas_display": "中科院分区：不适用（会议）",
+      "ccf_rank": "A",
+      "ccf_scope": "会议",
+      "ccf_display": "CCF会议 A类（2026）",
+      "sources": {
+        "ccf_official": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+        "ccf_pdf": "https://kyc.lsu.edu.cn/_upload/article/files/20/77/2cbaa3754eb9aff9ed74cafed8ff/23a8de02-594c-445f-b084-69b0193c05b3.pdf",
+        "cas_platform": "https://www.fenqubiao.com/",
+        "cas_2025_file": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx"
+      }
+    },
+    {
+      "venue": "ICML",
+      "venue_short": "ICML",
+      "venue_full": "International Conference on Machine Learning",
+      "venue_type": "会议",
+      "cas_zone": null,
+      "cas_top": null,
+      "cas_display": "中科院分区：不适用（会议）",
+      "ccf_rank": "A",
+      "ccf_scope": "会议",
+      "ccf_display": "CCF会议 A类（2026）",
+      "sources": {
+        "ccf_official": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+        "ccf_pdf": "https://kyc.lsu.edu.cn/_upload/article/files/20/77/2cbaa3754eb9aff9ed74cafed8ff/23a8de02-594c-445f-b084-69b0193c05b3.pdf",
+        "cas_platform": "https://www.fenqubiao.com/",
+        "cas_2025_file": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx"
+      }
+    },
+    {
+      "venue": "NeurIPS",
+      "venue_short": "NeurIPS",
+      "venue_full": "Conference on Neural Information Processing Systems",
+      "venue_type": "会议",
+      "cas_zone": null,
+      "cas_top": null,
+      "cas_display": "中科院分区：不适用（会议）",
+      "ccf_rank": "A",
+      "ccf_scope": "会议",
+      "ccf_display": "CCF会议 A类（2026）",
+      "sources": {
+        "ccf_official": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+        "ccf_pdf": "https://kyc.lsu.edu.cn/_upload/article/files/20/77/2cbaa3754eb9aff9ed74cafed8ff/23a8de02-594c-445f-b084-69b0193c05b3.pdf",
+        "cas_platform": "https://www.fenqubiao.com/",
+        "cas_2025_file": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx"
+      }
+    },
+    {
+      "venue": "IEEE Transactions on Image Processing",
+      "venue_short": "TIP",
+      "venue_full": "IEEE Transactions on Image Processing",
+      "venue_type": "期刊",
+      "cas_zone": "1区",
+      "cas_top": true,
+      "cas_category": "计算机科学",
+      "cas_display": "中科院 1区 · Top（2025，计算机科学）",
+      "ccf_rank": "A",
+      "ccf_scope": "期刊",
+      "ccf_display": "CCF期刊 A类（2026）",
+      "sources": {
+        "ccf_official": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+        "ccf_pdf": "https://kyc.lsu.edu.cn/_upload/article/files/20/77/2cbaa3754eb9aff9ed74cafed8ff/23a8de02-594c-445f-b084-69b0193c05b3.pdf",
+        "cas_platform": "https://www.fenqubiao.com/",
+        "cas_2025_file": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx"
+      }
+    },
+    {
+      "venue": "Nature Machine Intelligence",
+      "venue_short": "NMI",
+      "venue_full": "Nature Machine Intelligence",
+      "venue_type": "期刊",
+      "cas_zone": "1区",
+      "cas_top": true,
+      "cas_category": "计算机科学",
+      "cas_display": "中科院 1区 · Top（2025，计算机科学）",
+      "ccf_rank": null,
+      "ccf_scope": null,
+      "ccf_display": "CCF：未收录（2026目录）",
+      "sources": {
+        "ccf_official": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+        "ccf_pdf": "https://kyc.lsu.edu.cn/_upload/article/files/20/77/2cbaa3754eb9aff9ed74cafed8ff/23a8de02-594c-445f-b084-69b0193c05b3.pdf",
+        "cas_platform": "https://www.fenqubiao.com/",
+        "cas_2025_file": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx"
+      }
+    },
+    {
+      "venue": "Nature Communications",
+      "venue_short": "Nat Commun",
+      "venue_full": "Nature Communications",
+      "venue_type": "期刊",
+      "cas_zone": "1区",
+      "cas_top": true,
+      "cas_category": "综合性期刊",
+      "cas_display": "中科院 1区 · Top（2025，综合性期刊）",
+      "ccf_rank": null,
+      "ccf_scope": null,
+      "ccf_display": "CCF：未收录（2026目录）",
+      "sources": {
+        "ccf_official": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+        "ccf_pdf": "https://kyc.lsu.edu.cn/_upload/article/files/20/77/2cbaa3754eb9aff9ed74cafed8ff/23a8de02-594c-445f-b084-69b0193c05b3.pdf",
+        "cas_platform": "https://www.fenqubiao.com/",
+        "cas_2025_file": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx"
+      }
+    },
+    {
+      "venue": "Nature Neuroscience",
+      "venue_short": "Nat Neurosci",
+      "venue_full": "Nature Neuroscience",
+      "venue_type": "期刊",
+      "cas_zone": "1区",
+      "cas_top": true,
+      "cas_category": "医学",
+      "cas_display": "中科院 1区 · Top（2025，医学）",
+      "ccf_rank": null,
+      "ccf_scope": null,
+      "ccf_display": "CCF：未收录（2026目录）",
+      "sources": {
+        "ccf_official": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+        "ccf_pdf": "https://kyc.lsu.edu.cn/_upload/article/files/20/77/2cbaa3754eb9aff9ed74cafed8ff/23a8de02-594c-445f-b084-69b0193c05b3.pdf",
+        "cas_platform": "https://www.fenqubiao.com/",
+        "cas_2025_file": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx"
+      }
+    },
+    {
+      "venue": "Science Advances",
+      "venue_short": "Sci Adv",
+      "venue_full": "Science Advances",
+      "venue_type": "期刊",
+      "cas_zone": "1区",
+      "cas_top": true,
+      "cas_category": "综合性期刊",
+      "cas_display": "中科院 1区 · Top（2025，综合性期刊）",
+      "ccf_rank": null,
+      "ccf_scope": null,
+      "ccf_display": "CCF：未收录（2026目录）",
+      "sources": {
+        "ccf_official": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+        "ccf_pdf": "https://kyc.lsu.edu.cn/_upload/article/files/20/77/2cbaa3754eb9aff9ed74cafed8ff/23a8de02-594c-445f-b084-69b0193c05b3.pdf",
+        "cas_platform": "https://www.fenqubiao.com/",
+        "cas_2025_file": "https://cce.ncepu.edu.cn/docs//2026-09/0e77800bf2744596a26e43c83acceed0.xlsx"
+      }
+    }
+  ]
+}

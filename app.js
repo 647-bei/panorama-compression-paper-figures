@@ -23,6 +23,19 @@
     const url = escapeHtml(paper?.official_url || paper?.pdf_url || "");
     return url ? `<a class="${className}" href="${url}" target="_blank" rel="noopener noreferrer">${title}</a>` : title;
   };
+  const paperBadgesHtml = (paper) => {
+    const values = [
+      paper?.year ? String(paper.year) : "",
+      paper?.venue_short ? `${paper.venue_type || "载体"} ${paper.venue_short}` : (paper?.venue || ""),
+      paper?.cas_display || "",
+      paper?.ccf_display || "",
+    ].filter(Boolean);
+    return values.map((value, index) => `<span class="paper-badge badge-${index}">${escapeHtml(value)}</span>`).join("");
+  };
+  const paperVenueMeta = (paper) => {
+    const full = paper?.venue_full || paper?.venue || "";
+    return full ? `${full} · ` : "";
+  };
   const captionHtml = (asset) => {
     const en = asset.caption_en || asset.caption || "";
     const zh = asset.caption_zh || "";
@@ -54,7 +67,7 @@
       const paper = paperMap.get(asset.paper_id) || {};
       if (state.year !== "all" && String(paper.year) !== state.year) return false;
       if (!q) return true;
-      const text = [paper.title, paper.venue, paper.year, asset.paper_id, asset.label, asset.position_key, asset.caption_en, asset.caption_zh, asset.caption].join(" ").toLowerCase();
+      const text = [paper.title, paper.venue, paper.venue_short, paper.cas_display, paper.ccf_display, paper.year, asset.paper_id, asset.label, asset.position_key, asset.caption_en, asset.caption_zh, asset.caption].join(" ").toLowerCase();
       return text.includes(q);
     });
   }
@@ -90,9 +103,9 @@
     return `<article class="asset-tile ${maxHeight}">
       <a class="image-link" href="${escapeHtml(asset.original)}" target="_blank"><img loading="lazy" src="${escapeHtml(asset.original)}" alt="${escapeHtml(asset.label)} ${escapeHtml(paper.title)}"></a>
       <div class="tile-body">
-        <div class="tile-label">${escapeHtml(asset.label)} · ${escapeHtml(paper.year || "")}</div>
+        <div class="tile-label"><span class="asset-position">${escapeHtml(asset.label)}</span><span class="paper-badges">${paperBadgesHtml(paper)}</span></div>
         <h3>${paperTitle(paper)}</h3>
-        <div class="tile-meta">${escapeHtml(paper.venue || "")} · PDF 第 ${asset.page + 1} 页（页索引 ${asset.page}）</div>
+        <div class="tile-meta">${escapeHtml(paperVenueMeta(paper))}PDF 第 ${asset.page + 1} 页（页索引 ${asset.page}）</div>
         ${captionHtml(asset)}
         <div class="tile-actions"><div class="download-group"><span class="download-label">下载</span>${downloadLinks(asset)}</div><details><summary>${state.kind === "figure" ? "矢量文件" : "LaTeX 文件"}</summary><div class="vector-links">${vectorLinks(asset)}</div></details></div>
       </div>
@@ -101,7 +114,7 @@
 
   function assetDownloadRow(asset) {
     const paper = paperMap.get(asset.paper_id) || {};
-    return `<article class="download-item"><div class="download-item-main"><strong>${escapeHtml(asset.label)}</strong><span>${escapeHtml(paper.year || "")} · PDF 第 ${asset.page + 1} 页</span>${captionHtml(asset)}</div><div class="download-group">${downloadLinks(asset)}</div></article>`;
+    return `<article class="download-item"><div class="download-item-main"><strong>${escapeHtml(asset.label)}</strong><span class="paper-badges">${paperBadgesHtml(paper)}</span><span>${escapeHtml(paperVenueMeta(paper))}PDF 第 ${asset.page + 1} 页</span>${captionHtml(asset)}</div><div class="download-group">${downloadLinks(asset)}</div></article>`;
   }
 
   function renderPositionView(assets) {
@@ -134,7 +147,7 @@
     return orderedPapers().map((paper) => {
       const rows = (byPaper.get(paper.id) || []).sort(assetCompare);
       if (!rows.length) return "";
-      return `<section class="compare-row paper-row"><header class="row-header"><div><span class="eyebrow">同一论文内部浏览</span><h2>${paperTitle(paper, "paper-heading-link")}</h2><div class="row-meta">${escapeHtml(paper.venue || "")} · ${escapeHtml(paper.year || "")} · ${escapeHtml(paper.classification || "")}</div></div><span class="row-count">${rows.length} 个${state.kind === "figure" ? "图片" : "表格"}</span></header><div class="asset-grid">${rows.map(assetTile).join("")}</div></section>`;
+      return `<section class="compare-row paper-row"><header class="row-header"><div><span class="eyebrow">同一论文内部浏览</span><h2>${paperTitle(paper, "paper-heading-link")}</h2><div class="row-meta"><span class="paper-badges">${paperBadgesHtml(paper)}</span>${escapeHtml(paperVenueMeta(paper))}${escapeHtml(paper.classification || "")}</div></div><span class="row-count">${rows.length} 个${state.kind === "figure" ? "图片" : "表格"}</span></header><div class="asset-grid">${rows.map(assetTile).join("")}</div></section>`;
     }).join("");
   }
 
@@ -147,7 +160,7 @@
     return orderedPapers().map((paper) => {
       const rows = (byPaper.get(paper.id) || []).sort(assetCompare);
       if (!rows.length) return "";
-      return `<section class="download-section"><header class="row-header"><div><span class="eyebrow">下载中心</span><h2>${paperTitle(paper, "paper-heading-link")}</h2><div class="row-meta">${escapeHtml(paper.venue || "")} · ${escapeHtml(paper.year || "")} · ${rows.length} 个${state.kind === "figure" ? "图片" : "表格"}</div></div></header><div class="download-list">${rows.map(assetDownloadRow).join("")}</div></section>`;
+      return `<section class="download-section"><header class="row-header"><div><span class="eyebrow">下载中心</span><h2>${paperTitle(paper, "paper-heading-link")}</h2><div class="row-meta"><span class="paper-badges">${paperBadgesHtml(paper)}</span>${escapeHtml(paperVenueMeta(paper))}${rows.length} 个${state.kind === "figure" ? "图片" : "表格"}</div></div></header><div class="download-list">${rows.map(assetDownloadRow).join("")}</div></section>`;
     }).join("");
   }
 

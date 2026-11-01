@@ -45,8 +45,13 @@ def load_assets(kind: str) -> list[dict]:
                 "paper": data.get("paper", manifest_path.parent.name),
                 "title": metadata.get("title", data.get("paper", manifest_path.parent.name)),
                 "venue": metadata.get("venue", ""),
+                "venue_short": metadata.get("venue_short", metadata.get("venue", "")),
+                "venue_full": metadata.get("venue_full", metadata.get("venue", "")),
+                "venue_type": metadata.get("venue_type", ""),
                 "year": metadata.get("year", ""),
                 "classification": metadata.get("classification", ""),
+                "cas_display": metadata.get("cas_display", ""),
+                "ccf_display": metadata.get("ccf_display", ""),
                 "label": asset.get("label", ""),
                 "caption": asset.get("caption_en", asset.get("caption", "")),
                 "caption_en": asset.get("caption_en", asset.get("caption", "")),
@@ -87,6 +92,12 @@ def page_css() -> str:
       .paper { font-size:13px; font-weight:650; color:var(--accent); margin-bottom:5px; }
       .paper-link { color:inherit; text-decoration:none; }
       .paper-link:hover { color:var(--accent); text-decoration:underline; text-underline-offset:2px; }
+      .paper-badges { display:flex; gap:5px; flex-wrap:wrap; margin:5px 0 7px; }
+      .paper-badge { display:inline-flex; border:1px solid #c4d5df; border-radius:999px; padding:2px 7px; background:#f7fbfe; color:var(--muted); font-size:11px; line-height:1.35; }
+      .paper-badge:nth-child(1) { color:var(--accent); font-weight:700; }
+      .paper-badge:nth-child(2) { color:var(--accent); }
+      .paper-badge:nth-child(3) { background:#f5faf7; border-color:#b9d8c4; color:#276b3a; }
+      .paper-badge:nth-child(4) { background:#fff9ed; border-color:#e5c98b; color:#7b5b16; }
       h2 { font-size:17px; line-height:1.35; margin:0 0 8px; }
       .meta { color:var(--muted); font-size:12px; line-height:1.5; margin-bottom:10px; }
       .caption { font-size:13px; line-height:1.55; white-space:pre-wrap; }
@@ -108,6 +119,13 @@ def page_html(kind: str, rows: list[dict]) -> str:
     data = json.dumps(rows, ensure_ascii=False)
     cards = []
     for i, row in enumerate(rows):
+        badges = [
+            str(row["year"]) if row["year"] else "",
+            f'{row["venue_type"]} {row["venue_short"]}'.strip() if row["venue_short"] else row["venue"],
+            row["cas_display"],
+            row["ccf_display"],
+        ]
+        badge_html = "".join(f'<span class="paper-badge">{esc(value)}</span>' for value in badges if value)
         vector_links = "".join(f'<a class="link" href="{esc(path)}" target="_blank">打开 {esc(ext.upper())}</a>' for ext, path in row["vectors"]) if is_fig else ""
         if not is_fig and row["latex"]:
             latex_label = "打开 LaTeX（可编辑）" if row["latex_mode"] == "extracted_tabular" else "打开 LaTeX（图像包装）"
@@ -122,7 +140,8 @@ def page_html(kind: str, rows: list[dict]) -> str:
           <div class="body">
             <div class="paper">{esc(row["paper"])}</div>
             <h2>{esc(row["label"])} · {title}</h2>
-            <div class="meta">{esc(row["venue"])} {esc(row["year"])} · PDF 第 {int(row["page"])+1} 页（页索引 {esc(row["page"])}）<br>{esc(row["classification"])}</div>
+            <div class="paper-badges">{badge_html}</div>
+            <div class="meta">{esc(row["venue_full"] or row["venue"])} · PDF 第 {int(row["page"])+1} 页（页索引 {esc(row["page"])}）<br>{esc(row["classification"])}</div>
             <div class="caption">{caption}</div>
             <div class="actions"><a class="link" href="{esc(row["original"])}" target="_blank">打开原始 PNG</a></div>
             <details><summary>{'矢量/可编辑文件' if is_fig else 'LaTeX 表格代码'}（{esc(mode)}）</summary><div class="vectors">{vector_links or '<span class="meta">暂无文件</span>'}</div></details>
