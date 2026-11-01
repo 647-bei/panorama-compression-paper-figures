@@ -23,7 +23,8 @@
     "cas_display": "中科院分区：不适用（会议）",
     "ccf_rank": "A",
     "ccf_scope": "会议",
-    "ccf_display": "CCF会议 A类（2026）"
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
   },
   {
     "title": "OSRT: Omnidirectional Image Super-Resolution With Distortion-Aware Transformer",
@@ -49,7 +50,8 @@
     "cas_display": "中科院分区：不适用（会议）",
     "ccf_rank": "A",
     "ccf_scope": "会议",
-    "ccf_display": "CCF会议 A类（2026）"
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
   },
   {
     "title": "DINN360: Deformable Invertible Neural Network for Latitude-Aware 360deg Image Rescaling",
@@ -75,7 +77,8 @@
     "cas_display": "中科院分区：不适用（会议）",
     "ccf_rank": "A",
     "ccf_scope": "会议",
-    "ccf_display": "CCF会议 A类（2026）"
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
   },
   {
     "title": "Spherical Pseudo-Cylindrical Representation for Omnidirectional Image Super-resolution",
@@ -101,7 +104,8 @@
     "cas_display": "中科院分区：不适用（会议）",
     "ccf_rank": "A",
     "ccf_scope": "会议",
-    "ccf_display": "CCF会议 A类（2026）"
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
   },
   {
     "title": "Beyond Perspective: Neural 360-Degree Video Compression",
@@ -127,7 +131,8 @@
     "cas_display": "中科院分区：不适用（会议）",
     "ccf_rank": "A",
     "ccf_scope": "会议",
-    "ccf_display": "CCF会议 A类（2026）"
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
   },
   {
     "title": "OSLO: On-the-Sphere Learning for Omnidirectional images and its application to 360-degree image compression",
@@ -154,7 +159,8 @@
     "cas_display": "中科院 1区 · Top（2025，计算机科学）",
     "ccf_rank": "A",
     "ccf_scope": "期刊",
-    "ccf_display": "CCF期刊 A类（2026）"
+    "ccf_display": "CCF期刊 A类（2026）",
+    "ranking_display": "中科院 1区 · Top（2025，计算机科学）"
   },
   {
     "title": "End-to-End Optimized 360° Image Compression",
@@ -179,7 +185,8 @@
     "cas_display": "中科院 1区 · Top（2025，计算机科学）",
     "ccf_rank": "A",
     "ccf_scope": "期刊",
-    "ccf_display": "CCF期刊 A类（2026）"
+    "ccf_display": "CCF期刊 A类（2026）",
+    "ranking_display": "中科院 1区 · Top（2025，计算机科学）"
   },
   {
     "title": "Learning Content-Weighted Pseudocylindrical Representation for 360° Image Compression",
@@ -204,7 +211,8 @@
     "cas_display": "中科院 1区 · Top（2025，计算机科学）",
     "ccf_rank": "A",
     "ccf_scope": "期刊",
-    "ccf_display": "CCF期刊 A类（2026）"
+    "ccf_display": "CCF期刊 A类（2026）",
+    "ranking_display": "中科院 1区 · Top（2025，计算机科学）"
   },
   {
     "title": "Learned Spherical Image Compression With Spherical Convolution-Self-Attention and Transformer Context Model",
@@ -230,7 +238,8 @@
     "cas_display": "中科院 1区 · Top（2025，计算机科学）",
     "ccf_rank": "A",
     "ccf_scope": "期刊",
-    "ccf_display": "CCF期刊 A类（2026）"
+    "ccf_display": "CCF期刊 A类（2026）",
+    "ranking_display": "中科院 1区 · Top（2025，计算机科学）"
   },
   {
     "title": "HEAL-SWIN: A Vision Transformer On The Sphere",
@@ -255,7 +264,8 @@
     "cas_display": "中科院分区：不适用（会议）",
     "ccf_rank": "A",
     "ccf_scope": "会议",
-    "ccf_display": "CCF会议 A类（2026）"
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
   },
   {
     "title": "Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal",
@@ -281,7 +291,8 @@
     "cas_display": "中科院分区：不适用（会议）",
     "ccf_rank": "A",
     "ccf_scope": "会议",
-    "ccf_display": "CCF会议 A类（2026）"
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
   },
   {
     "title": "Frequency-Biased Synergistic Design for Image Compression and Compensation",
@@ -306,7 +317,8 @@
     "cas_display": "中科院分区：不适用（会议）",
     "ccf_rank": "A",
     "ccf_scope": "会议",
-    "ccf_display": "CCF会议 A类（2026）"
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
   },
   {
     "title": "Wavelet Feature Maps Compression for Image-to-Image CNNs",
@@ -332,7 +344,8 @@
     "cas_display": "中科院分区：不适用（会议）",
     "ccf_rank": "A",
     "ccf_scope": "会议",
-    "ccf_display": "CCF会议 A类（2026）"
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
   },
   {
     "title": "KAN: Kolmogorov-Arnold Networks",
@@ -357,7 +370,8 @@
     "cas_display": "中科院分区：不适用（会议）",
     "ccf_rank": "A",
     "ccf_scope": "会议",
-    "ccf_display": "CCF会议 A类（2026）"
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
   },
   {
     "title": "Multi-resolution enhancement for full-spectrum neural representations",
@@ -385,7 +399,8 @@
     "cas_display": "中科院 1区 · Top（2025，计算机科学）",
     "ccf_rank": null,
     "ccf_scope": null,
-    "ccf_display": "CCF：未收录（2026目录）"
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院 1区 · Top（2025，计算机科学）"
   },
   {
     "title": "High-performance deep spiking neural networks with 0.3 spikes per neuron",
@@ -413,7 +428,8 @@
     "cas_display": "中科院 1区 · Top（2025，综合性期刊）",
     "ccf_rank": null,
     "ccf_scope": null,
-    "ccf_display": "CCF：未收录（2026目录）"
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院 1区 · Top（2025，综合性期刊）"
   },
   {
     "title": "Exploiting neuro-inspired dynamic sparsity for energy-efficient intelligent perception",
@@ -440,7 +456,8 @@
     "cas_display": "中科院 1区 · Top（2025，综合性期刊）",
     "ccf_rank": null,
     "ccf_scope": null,
-    "ccf_display": "CCF：未收录（2026目录）"
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院 1区 · Top（2025，综合性期刊）"
   },
   {
     "title": "Fixational eye movements enhance the precision of visual information transmitted by the primate retina",
@@ -468,7 +485,8 @@
     "cas_display": "中科院 1区 · Top（2025，综合性期刊）",
     "ccf_rank": null,
     "ccf_scope": null,
-    "ccf_display": "CCF：未收录（2026目录）"
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院 1区 · Top（2025，综合性期刊）"
   },
   {
     "title": "Efficient neural codes naturally emerge through gradient descent learning",
@@ -495,7 +513,8 @@
     "cas_display": "中科院 1区 · Top（2025，综合性期刊）",
     "ccf_rank": null,
     "ccf_scope": null,
-    "ccf_display": "CCF：未收录（2026目录）"
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院 1区 · Top（2025，综合性期刊）"
   },
   {
     "title": "Panoramic visual statistics shape retina-wide organization of receptive fields",
@@ -520,7 +539,8 @@
     "cas_display": "中科院 1区 · Top（2025，医学）",
     "ccf_rank": null,
     "ccf_scope": null,
-    "ccf_display": "CCF：未收录（2026目录）"
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院 1区 · Top（2025，医学）"
   },
   {
     "title": "Rethinking Lossy Compression: The Rate-Distortion-Perception Tradeoff",
@@ -544,7 +564,8 @@
     "cas_display": "中科院分区：不适用（会议）",
     "ccf_rank": "A",
     "ccf_scope": "会议",
-    "ccf_display": "CCF会议 A类（2026）"
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
   },
   {
     "title": "Wavelet-based Fourier Information Interaction with Frequency Diffusion Adjustment for Underwater Image Restoration",
@@ -567,7 +588,8 @@
     "cas_display": "中科院分区：不适用（会议）",
     "ccf_rank": "A",
     "ccf_scope": "会议",
-    "ccf_display": "CCF会议 A类（2026）"
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
   },
   {
     "title": "Internally generated population activity in cortical networks hinders information transmission",
@@ -595,6 +617,7 @@
     "cas_display": "中科院 1区 · Top（2025，综合性期刊）",
     "ccf_rank": null,
     "ccf_scope": null,
-    "ccf_display": "CCF：未收录（2026目录）"
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院 1区 · Top（2025，综合性期刊）"
   }
 ]

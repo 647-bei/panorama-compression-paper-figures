@@ -52,6 +52,7 @@ def load_assets(kind: str) -> list[dict]:
                 "classification": metadata.get("classification", ""),
                 "cas_display": metadata.get("cas_display", ""),
                 "ccf_display": metadata.get("ccf_display", ""),
+                "ranking_display": metadata.get("ranking_display", ""),
                 "label": asset.get("label", ""),
                 "caption": asset.get("caption_en", asset.get("caption", "")),
                 "caption_en": asset.get("caption_en", asset.get("caption", "")),
@@ -96,8 +97,8 @@ def page_css() -> str:
       .paper-badge { display:inline-flex; border:1px solid #c4d5df; border-radius:999px; padding:2px 7px; background:#f7fbfe; color:var(--muted); font-size:11px; line-height:1.35; }
       .paper-badge:nth-child(1) { color:var(--accent); font-weight:700; }
       .paper-badge:nth-child(2) { color:var(--accent); }
-      .paper-badge:nth-child(3) { background:#f5faf7; border-color:#b9d8c4; color:#276b3a; }
-      .paper-badge:nth-child(4) { background:#fff9ed; border-color:#e5c98b; color:#7b5b16; }
+      .paper-badge.badge-cas { background:#f5faf7; border-color:#b9d8c4; color:#276b3a; }
+      .paper-badge.badge-ccf { background:#fff9ed; border-color:#e5c98b; color:#7b5b16; }
       h2 { font-size:17px; line-height:1.35; margin:0 0 8px; }
       .meta { color:var(--muted); font-size:12px; line-height:1.5; margin-bottom:10px; }
       .caption { font-size:13px; line-height:1.55; white-space:pre-wrap; }
@@ -122,10 +123,12 @@ def page_html(kind: str, rows: list[dict]) -> str:
         badges = [
             str(row["year"]) if row["year"] else "",
             f'{row["venue_type"]} {row["venue_short"]}'.strip() if row["venue_short"] else row["venue"],
-            row["cas_display"],
-            row["ccf_display"],
+            row["ranking_display"] or (row["ccf_display"] if row["venue_type"] == "会议" else row["cas_display"]),
         ]
-        badge_html = "".join(f'<span class="paper-badge">{esc(value)}</span>' for value in badges if value)
+        badge_html = "".join(
+            f'<span class="paper-badge {"badge-cas" if index == 2 and row["venue_type"] == "期刊" else "badge-ccf" if index == 2 else f"badge-{index}"}">{esc(value)}</span>'
+            for index, value in enumerate(badges) if value
+        )
         vector_links = "".join(f'<a class="link" href="{esc(path)}" target="_blank">打开 {esc(ext.upper())}</a>' for ext, path in row["vectors"]) if is_fig else ""
         if not is_fig and row["latex"]:
             latex_label = "打开 LaTeX（可编辑）" if row["latex_mode"] == "extracted_tabular" else "打开 LaTeX（图像包装）"

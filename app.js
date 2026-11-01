@@ -24,13 +24,18 @@
     return url ? `<a class="${className}" href="${url}" target="_blank" rel="noopener noreferrer">${title}</a>` : title;
   };
   const paperBadgesHtml = (paper) => {
+    const ranking = paper?.ranking_display || (
+      paper?.venue_type === "会议" ? paper?.ccf_display : paper?.cas_display
+    ) || "";
     const values = [
       paper?.year ? String(paper.year) : "",
       paper?.venue_short ? `${paper.venue_type || "载体"} ${paper.venue_short}` : (paper?.venue || ""),
-      paper?.cas_display || "",
-      paper?.ccf_display || "",
+      ranking,
     ].filter(Boolean);
-    return values.map((value, index) => `<span class="paper-badge badge-${index}">${escapeHtml(value)}</span>`).join("");
+    return values.map((value, index) => {
+      const roleClass = index === 2 ? (paper?.venue_type === "会议" ? "badge-ccf" : "badge-cas") : `badge-${index}`;
+      return `<span class="paper-badge ${roleClass}">${escapeHtml(value)}</span>`;
+    }).join("");
   };
   const paperVenueMeta = (paper) => {
     const full = paper?.venue_full || paper?.venue || "";

@@ -29,6 +29,7 @@ def conference(short: str, full: str) -> dict[str, object]:
         "ccf_rank": "A",
         "ccf_scope": "会议",
         "ccf_display": "CCF会议 A类（2026）",
+        "ranking_display": "CCF会议 A类（2026）",
     }
 
 
@@ -55,6 +56,7 @@ def journal(
         "ccf_rank": ccf_rank,
         "ccf_scope": ccf_scope,
         "ccf_display": ccf_display,
+        "ranking_display": f"中科院 1区 · Top（2025，{category}）",
     }
 
 
@@ -93,13 +95,13 @@ def markdown(index: dict[str, object]) -> str:
         "- 中科院：2025 年升级版《中国科学院文献情报中心期刊分区表》。",
         "- `CCF：未收录` 表示该 venue 未出现在 CCF 计算机目录中，不等同于学术质量判断。",
         "",
-        "| 原始 venue | 展示简称 | 类型 | 中科院 2025 | CCF 2026 |",
-        "|---|---|---|---|---|",
+        "| 原始 venue | 展示简称 | 类型 | 对应分区/等级 |",
+        "|---|---|---|---|",
     ]
     for row in index["venues"]:  # type: ignore[index]
         lines.append(
             f"| {row['venue_full']} | {row['venue_short']} | {row['venue_type']} | "
-            f"{row['cas_display']} | {row['ccf_display']} |"
+            f"{row['ranking_display']} |"
         )
     lines.extend(
         [
