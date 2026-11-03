@@ -1,0 +1,536 @@
+{
+  "paper": "H_IERARCHICAL_F_REQUENCY_BASED_U_PSAMPLING_AND_Local_reference_0",
+  "pdf": "pdf/paper.pdf",
+  "pages": 14,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Figure 1:Blurring (blue patch) and artifacts (red patch) in compressed video.Existing methods fall short in reconstruct- ing visually-pleasant outcomes, yielding results that are excessively smooth or still exhibit some artifacts.",
+      "caption_en": "Figure 1:Blurring (blue patch) and artifacts (red patch) in compressed video.Existing methods fall short in reconstruct- ing visually-pleasant outcomes, yielding results that are excessively smooth or still exhibit some artifacts.",
+      "caption_zh": "",
+      "caption_bbox": [
+        72.0,
+        293.196,
+        541.656,
+        313.993
+      ],
+      "content_bbox": [
+        187.755,
+        71.998,
+        421.755,
+        282.794
+      ],
+      "crop_bbox": [
+        187.755,
+        71.998,
+        421.755,
+        282.794
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  83.2% 画面  (8.32 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 7604669 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Figure 2:Overview of HFUR for compressed video quality enhancement.HFUR consists of two modules:implicit frequency upsampling module and hierarchical and iterative refinement module.Note that ImpFreqUp∗is a special upsampling module that achieves ×1 upsampling.",
+      "caption_en": "Figure 2:Overview of HFUR for compressed video quality enhancement.HFUR consists of two modules:implicit frequency upsampling module and hierarchical and iterative refinement module.Note that ImpFreqUp∗is a special upsampling module that achieves ×1 upsampling.",
+      "caption_zh": "",
+      "caption_bbox": [
+        72.0,
+        330.828,
+        540.004,
+        362.684
+      ],
+      "content_bbox": [
+        117.554,
+        71.999,
+        491.949,
+        320.576
+      ],
+      "crop_bbox": [
+        117.554,
+        71.999,
+        491.949,
+        320.576
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  88.7% 画面  (10.00 x 6.65 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6079722 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Figure 3:Architecture of ImpFreqUp.",
+      "caption_en": "Figure 3:Architecture of ImpFreqUp.",
+      "caption_zh": "",
+      "caption_bbox": [
+        230.305,
+        469.459,
+        381.697,
+        479.422
+      ],
+      "content_bbox": [
+        117.554,
+        191.646,
+        491.962,
+        459.132
+      ],
+      "crop_bbox": [
+        117.554,
+        191.646,
+        491.962,
+        459.132
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  95.3% 画面  (10.00 x 7.15 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6537532 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 5,
+      "caption": "Figure 4:Architecture of HIR",
+      "caption_en": "Figure 4:Architecture of HIR",
+      "caption_zh": "",
+      "caption_bbox": [
+        246.215,
+        315.516,
+        365.786,
+        325.479
+      ],
+      "content_bbox": [
+        72.0,
+        132.713,
+        540.0,
+        294.28
+      ],
+      "crop_bbox": [
+        72.0,
+        132.713,
+        540.0,
+        294.28
+      ],
+      "original": "figures/original/Fig4_p005.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  46.1% 画面  (10.00 x 3.46 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 5,
+      "caption": "Fig. 3 illustrates the details of the proposed implicit frequency upsampling module (ImpFreqUp).First, we extract",
+      "caption_en": "Fig. 3 illustrates the details of the proposed implicit frequency upsampling module (ImpFreqUp).First, we extract",
+      "caption_zh": "",
+      "caption_bbox": [
+        74.628,
+        132.713,
+        540.0,
+        142.775
+      ],
+      "content_bbox": [
+        72.0,
+        154.245,
+        539.994,
+        294.28
+      ],
+      "crop_bbox": [
+        72.0,
+        154.245,
+        539.994,
+        294.28
+      ],
+      "original": "tables/original/Table3_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 7,
+      "caption": "Table 2:Overall performance comparison of ∆PSNR (dB) over the test sequences at constant QP mode.",
+      "caption_en": "Table 2:Overall performance comparison of ∆PSNR (dB) over the test sequences at constant QP mode.",
+      "caption_zh": "",
+      "caption_bbox": [
+        98.254,
+        462.113,
+        513.747,
+        472.306
+      ],
+      "content_bbox": [
+        176.738,
+        486.606,
+        435.262,
+        608.07
+      ],
+      "crop_bbox": [
+        176.738,
+        486.606,
+        435.262,
+        608.07
+      ],
+      "original": "tables/original/Table2_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 8,
+      "caption": "Figure 5:Qualitative results on the state-of-the-art methods and our method on CBR. The test video name (from top to bottom):BasketballPass, PartyScene, and RaceHorses.",
+      "caption_en": "Figure 5:Qualitative results on the state-of-the-art methods and our method on CBR. The test video name (from top to bottom):BasketballPass, PartyScene, and RaceHorses.",
+      "caption_zh": "",
+      "caption_bbox": [
+        72.0,
+        568.274,
+        539.999,
+        589.104
+      ],
+      "content_bbox": [
+        94.156,
+        300.958,
+        515.356,
+        557.905
+      ],
+      "crop_bbox": [
+        94.156,
+        300.958,
+        515.356,
+        557.905
+      ],
+      "original": "figures/original/Fig5_p008.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.18 in\n\n形状统计 (16 个):\n  TEXT_BOX (17)                9\n  FREEFORM (5)                 6\n  PICTURE (13)                 1\n\n矢量形状: 15\n位图图片: 1\n  56.6% 画面  (13.22 x 4.67 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 12091850 x 4268157 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 8,
+      "caption": "Table 1 and 2 present the ∆PSNR in CBR mode and CQP mode.The results show that our method performs best in both two modes for average ∆PSNR. Comparing to the CBREN which is specially designed for CBR Videos quality enhancement,ourmethodbeatitby0.07dBand0.13dB(upto20%)inCBRmode.Meanwhile,ourHFURalso achieve the best performance on all test sequences and beat the second best BasicVSR++ by 0.13dB and 0.17dB in CQP mode.We also provide the visualized results of compared methods in Fig. 5.The compressed patches suffer from various compression artifacts including blocking (in BasketballPass), color bleeding (in PartyScene), and ringing (in RaceHorses).Existing methods fail to recognize the artifacts and cannot appropriately suppress the artifacts (e.g., wrong texture on the wall, ringing effect in the horses) or restore the missing details (e.g., border between the clothes and the background).Thanks to the powerful frequency-domain information reconstruction, our HFUR could accurately recover the details or textures through the frequency domain and produce more visual pleased results.Further experimental and visualized results are available in the Supplementary Material.",
+      "caption_en": "Table 1 and 2 present the ∆PSNR in CBR mode and CQP mode.The results show that our method performs best in both two modes for average ∆PSNR. Comparing to the CBREN which is specially designed for CBR Videos quality enhancement,ourmethodbeatitby0.07dBand0.13dB(upto20%)inCBRmode.Meanwhile,ourHFURalso achieve the best performance on all test sequences and beat the second best BasicVSR++ by 0.13dB and 0.17dB in CQP mode.We also provide the visualized results of compared methods in Fig. 5.The compressed patches suffer from various compression artifacts including blocking (in BasketballPass), color bleeding (in PartyScene), and ringing (in RaceHorses).Existing methods fail to recognize the artifacts and cannot appropriately suppress the artifacts (e.g., wrong texture on the wall, ringing effect in the horses) or restore the missing details (e.g., border between the clothes and the background).Thanks to the powerful frequency-domain information reconstruction, our HFUR could accurately recover the details or textures through the frequency domain and produce more visual pleased results.Further experimental and visualized results are available in the Supplementary Material.",
+      "caption_zh": "",
+      "caption_bbox": [
+        71.691,
+        603.123,
+        540.349,
+        722.407
+      ],
+      "content_bbox": [
+        94.156,
+        384.918,
+        515.356,
+        557.905
+      ],
+      "crop_bbox": [
+        94.156,
+        384.918,
+        515.356,
+        557.905
+      ],
+      "original": "tables/original/Table1_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 8,
+      "caption": "Table 4:Ablation investigation for HIR and ImpFreqUp at QP=37 and BR=800kbps.The results of ∆PSNR (dB) calculated on the class D is reported.Flops are tested on a 1 × 5 × 96 × 96 input.",
+      "caption_en": "Table 4:Ablation investigation for HIR and ImpFreqUp at QP=37 and BR=800kbps.The results of ∆PSNR (dB) calculated on the class D is reported.Flops are tested on a 1 × 5 × 96 × 96 input.",
+      "caption_zh": "",
+      "caption_bbox": [
+        71.691,
+        271.738,
+        540.668,
+        292.84
+      ],
+      "content_bbox": [
+        94.156,
+        300.958,
+        515.356,
+        557.905
+      ],
+      "crop_bbox": [
+        94.156,
+        300.958,
+        515.356,
+        557.905
+      ],
+      "original": "tables/original/Table4_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 9,
+      "caption": "Figure 6:Visual comparison of our ImpFreqUp with other upsampling methods.",
+      "caption_en": "Figure 6:Visual comparison of our ImpFreqUp with other upsampling methods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        145.917,
+        301.005,
+        466.085,
+        310.968
+      ],
+      "content_bbox": [
+        140.955,
+        72.0,
+        468.549,
+        290.678
+      ],
+      "crop_bbox": [
+        140.955,
+        72.0,
+        468.549,
+        290.678
+      ],
+      "original": "figures/original/Fig6_p009.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  88.9% 画面  (10.00 x 6.67 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6098323 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 9,
+      "caption": "Table 5:Ablation study of our upsampling strategy at QP=37 and BR=800.Experiments are shown with ∆PSNR on D test sequence.",
+      "caption_en": "Table 5:Ablation study of our upsampling strategy at QP=37 and BR=800.Experiments are shown with ∆PSNR on D test sequence.",
+      "caption_zh": "",
+      "caption_bbox": [
+        71.691,
+        568.067,
+        539.998,
+        589.169
+      ],
+      "content_bbox": [
+        198.439,
+        603.47,
+        413.561,
+        640.457
+      ],
+      "crop_bbox": [
+        198.439,
+        603.47,
+        413.561,
+        640.457
+      ],
+      "original": "tables/original/Table5_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 10,
+      "caption": "Figure 7:The visual examples for illustrating the effectiveness of our HIR and ImpFreqUp.The ImpFreqUp enhances the clarity of edges and details, while the HIR aids in mitigating unnatural artifacts.",
+      "caption_en": "Figure 7:The visual examples for illustrating the effectiveness of our HIR and ImpFreqUp.The ImpFreqUp enhances the clarity of edges and details, while the HIR aids in mitigating unnatural artifacts.",
+      "caption_zh": "",
+      "caption_bbox": [
+        72.0,
+        359.954,
+        539.998,
+        380.803
+      ],
+      "content_bbox": [
+        140.955,
+        72.0,
+        468.556,
+        349.604
+      ],
+      "crop_bbox": [
+        140.955,
+        72.0,
+        468.556,
+        349.604
+      ],
+      "original": "figures/original/Fig7_p010.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  88.6% 画面  (8.86 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8098736 x 6858000 px\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "H_IERARCHICAL_F_REQUENCY_BASED_U_PSAMPLING_AND_Local_reference_0",
+    "title": "H IERARCHICAL F REQUENCY- BASED U PSAMPLING AND R EFINING FOR C OMPRESSED V IDEO Q UALITY E NHANCEMENT Qianyu Zhang Bolun Zheng Xinying Chen",
+    "venue": "arXiv",
+    "venue_full": "arXiv",
+    "venue_short": "arXiv",
+    "venue_type": "期刊",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "568f90b67501aa0c792bc723c81cb3882fe599fe61dfc6ab9c6337036864359d",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\5D83IJEM\\基于分层频率的上采样和细化，用于压缩视频质量的增强.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\DTQ44YXK\\基于分层频率的上采样和细化，用于压缩视频质量的增强.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "",
+    "cas_display": "",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    }
+  ]
+}

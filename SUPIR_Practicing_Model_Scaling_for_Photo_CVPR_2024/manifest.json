@@ -1,0 +1,430 @@
+{
+  "paper": "SUPIR_Practicing_Model_Scaling_for_Photo_CVPR_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 12,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1.Our SUPIR model demonstrates remarkable restoration effects on real-world low-quality images, as illustrated in (a).Addition- ally, SUPIR features targeted restoration capability driven by textual prompts.For instance, it can specify the restoration of blurry objects in the distance (case 1), deﬁne the material texture of objects (case 2), and adjust restoration based on high-level semantics (case 3).",
+      "caption_en": "Figure 1.Our SUPIR model demonstrates remarkable restoration effects on real-world low-quality images, as illustrated in (a).Addition- ally, SUPIR features targeted restoration capability driven by textual prompts.For instance, it can specify the restoration of blurry objects in the distance (case 1), deﬁne the material texture of objects (case 2), and adjust restoration based on high-level semantics (case 3).",
+      "caption_zh": "",
+      "caption_bbox": [
+        71.891,
+        538.611,
+        524.583,
+        578.04
+      ],
+      "content_bbox": [
+        71.394,
+        236.387,
+        524.646,
+        538.567
+      ],
+      "crop_bbox": [
+        71.394,
+        236.387,
+        524.646,
+        538.567
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2.This ﬁgure brieﬂy shows the workﬂow of the proposed SUPIR model.",
+      "caption_en": "Figure 2.This ﬁgure brieﬂy shows the workﬂow of the proposed SUPIR model.",
+      "caption_zh": "",
+      "caption_bbox": [
+        167.271,
+        209.145,
+        429.2,
+        217.345
+      ],
+      "content_bbox": [
+        71.892,
+        99.628,
+        524.587,
+        202.244
+      ],
+      "crop_bbox": [
+        71.892,
+        99.628,
+        524.587,
+        202.244
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 3,
+      "caption": "Figure 4.CFG introduces artifacts without negative training sam- ples, hindering visual quality improvement.Adding negative sam- ples allows further quality enhancement through CFG.",
+      "caption_en": "Figure 4.CFG introduces artifacts without negative training sam- ples, hindering visual quality improvement.Adding negative sam- ples allows further quality enhancement through CFG.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.525,
+        379.944,
+        524.58,
+        408.187
+      ],
+      "content_bbox": [
+        73.606,
+        96.482,
+        525.246,
+        374.528
+      ],
+      "crop_bbox": [
+        73.606,
+        96.482,
+        525.246,
+        374.528
+      ],
+      "original": "figures/original/Fig4_p003.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 4,
+      "caption": "Figure5. (a)Weshowtherelativesizeofourdatacompared tootherwell-knowndatasets.ComparedwithSA-1B[44],our datasethashigherqualityandmoreimagediversity. (b)We demonstrate our restoration-guided sampling mechanism.",
+      "caption_en": "Figure5. (a)Weshowtherelativesizeofourdatacompared tootherwell-knowndatasets.ComparedwithSA-1B[44],our datasethashigherqualityandmoreimagediversity. (b)We demonstrate our restoration-guided sampling mechanism.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.525,
+        301.113,
+        524.575,
+        349.742
+      ],
+      "content_bbox": [
+        308.525,
+        99.994,
+        524.581,
+        303.005
+      ],
+      "crop_bbox": [
+        308.525,
+        99.994,
+        524.581,
+        303.005
+      ],
+      "original": "figures/original/Fig5_p004.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 5,
+      "caption": "Figure 6.Qualitative comparison with different methods.Our method can accurately restore the texture and details of the corresponding object under challenging degradation.Other methods fail to recover semantically correct details such as broken beaks and irregular faces.",
+      "caption_en": "Figure 6.Qualitative comparison with different methods.Our method can accurately restore the texture and details of the corresponding object under challenging degradation.Other methods fail to recover semantically correct details such as broken beaks and irregular faces.",
+      "caption_zh": "",
+      "caption_bbox": [
+        71.891,
+        381.526,
+        524.574,
+        407.681
+      ],
+      "content_bbox": [
+        74.754,
+        88.824,
+        525.786,
+        379.836
+      ],
+      "crop_bbox": [
+        74.754,
+        88.824,
+        525.786,
+        379.836
+      ],
+      "original": "figures/original/Fig6_p005.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 5,
+      "caption": "Figure 7.These examples show the misalignment between metric evaluationandhumanevaluation.SUPIRgeneratesimageswith high-ﬁdelity textures, but obtains lower metrics.",
+      "caption_en": "Figure 7.These examples show the misalignment between metric evaluationandhumanevaluation.SUPIRgeneratesimageswith high-ﬁdelity textures, but obtains lower metrics.",
+      "caption_zh": "",
+      "caption_bbox": [
+        71.891,
+        550.028,
+        287.942,
+        578.27
+      ],
+      "content_bbox": [
+        73.748,
+        416.526,
+        272.502,
+        547.216
+      ],
+      "crop_bbox": [
+        73.748,
+        416.526,
+        272.502,
+        547.216
+      ],
+      "original": "figures/original/Fig7_p005.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 6,
+      "caption": "Figure8.(a)Theseplotsillustratethequantitativeresultsasa function of the variable τr.“No τr” means not to use the proposed sampling method.(b) The results of our user study.",
+      "caption_en": "Figure8.(a)Theseplotsillustratethequantitativeresultsasa function of the variable τr.“No τr” means not to use the proposed sampling method.(b) The results of our user study.",
+      "caption_zh": "",
+      "caption_bbox": [
+        71.891,
+        580.85,
+        287.949,
+        617.94
+      ],
+      "content_bbox": [
+        87.531,
+        527.052,
+        139.024,
+        580.85
+      ],
+      "crop_bbox": [
+        87.531,
+        527.052,
+        139.024,
+        580.85
+      ],
+      "original": "figures/original/Fig8_p006.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 6,
+      "caption": "Figure 9.We compare the proposed ZeroSFT with zero convolu- tion.Directly using zero convolution results in redundant details. The low-ﬁdelity details can be effectively mitigated by ZeroSFT.",
+      "caption_en": "Figure 9.We compare the proposed ZeroSFT with zero convolu- tion.Directly using zero convolution results in redundant details. The low-ﬁdelity details can be effectively mitigated by ZeroSFT.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.525,
+        153.955,
+        524.575,
+        192.826
+      ],
+      "content_bbox": [
+        308.454,
+        98.964,
+        524.946,
+        152.796
+      ],
+      "crop_bbox": [
+        308.454,
+        98.964,
+        524.946,
+        152.796
+      ],
+      "original": "figures/original/Fig9_p006.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 6,
+      "caption": "Table 1.Quantitative comparison.Red and blue colors represent the best and second best performance.↓represents the smaller the better, and for the others, the bigger the better.",
+      "caption_en": "Table 1.Quantitative comparison.Red and blue colors represent the best and second best performance.↓represents the smaller the better, and for the others, the bigger the better.",
+      "caption_zh": "",
+      "caption_bbox": [
+        71.891,
+        323.14,
+        287.949,
+        351.419
+      ],
+      "content_bbox": [
+        70.918,
+        362.411,
+        281.809,
+        419.068
+      ],
+      "crop_bbox": [
+        70.918,
+        362.411,
+        281.809,
+        419.068
+      ],
+      "original": "tables/original/Table1_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table 2.Real-world comparison results and ablation studies.",
+      "caption_en": "Table 2.Real-world comparison results and ablation studies.",
+      "caption_zh": "",
+      "caption_bbox": [
+        78.948,
+        497.99,
+        279.208,
+        516.453
+      ],
+      "content_bbox": [
+        71.891,
+        521.253,
+        287.949,
+        617.94
+      ],
+      "crop_bbox": [
+        71.891,
+        521.253,
+        287.949,
+        617.94
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 7,
+      "caption": "Figure 10.Qualitative comparison on real-world LQ images.SUPIR successfully recovers structured buildings and lifelike rivers.It also maintains the details existing in LQ, such as the horizontal planks in the beach chairs.Zoom in for better view.",
+      "caption_en": "Figure 10.Qualitative comparison on real-world LQ images.SUPIR successfully recovers structured buildings and lifelike rivers.It also maintains the details existing in LQ, such as the horizontal planks in the beach chairs.Zoom in for better view.",
+      "caption_zh": "",
+      "caption_bbox": [
+        71.891,
+        186.832,
+        524.572,
+        205.054
+      ],
+      "content_bbox": [
+        71.874,
+        99.504,
+        524.706,
+        175.296
+      ],
+      "crop_bbox": [
+        71.874,
+        99.504,
+        524.706,
+        175.296
+      ],
+      "original": "figures/original/Fig10_p007.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig11",
+      "page": 7,
+      "caption": "Figure 11.Inﬂuences of text prompts.(a) Negative prompts lead to detailed and sharp restoration results.(b) Given a positive prompt with hallucinations, SUPIR avoids generating content absent in the LQ images.Zoom in for better view.",
+      "caption_en": "Figure 11.Inﬂuences of text prompts.(a) Negative prompts lead to detailed and sharp restoration results.(b) Given a positive prompt with hallucinations, SUPIR avoids generating content absent in the LQ images.Zoom in for better view.",
+      "caption_zh": "",
+      "caption_bbox": [
+        71.891,
+        298.993,
+        524.561,
+        317.215
+      ],
+      "content_bbox": [
+        71.454,
+        209.205,
+        525.186,
+        297.238
+      ],
+      "crop_bbox": [
+        71.454,
+        209.205,
+        525.186,
+        297.238
+      ],
+      "original": "figures/original/Fig11_p007.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig12",
+      "page": 7,
+      "caption": "Figure 12.Qualitative comparison for SUPIR training on datasets with different scales.Zoom in for better view.",
+      "caption_en": "Figure 12.Qualitative comparison for SUPIR training on datasets with different scales.Zoom in for better view.",
+      "caption_zh": "",
+      "caption_bbox": [
+        71.891,
+        377.774,
+        287.939,
+        406.627
+      ],
+      "content_bbox": [
+        71.874,
+        322.824,
+        288.486,
+        376.716
+      ],
+      "crop_bbox": [
+        71.874,
+        322.824,
+        288.486,
+        376.716
+      ],
+      "original": "figures/original/Fig12_p007.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig13",
+      "page": 7,
+      "caption": "Figure 13.The effect of the proposed restoration-guided sampling method.Asmallerτrmakestheresultmorebiasedtowardthe LQ image, which emphasizes the ﬁdelity.A larger τremphasizes perceived quality, but with lower ﬁdelity.Zoom in for better view.",
+      "caption_en": "Figure 13.The effect of the proposed restoration-guided sampling method.Asmallerτrmakestheresultmorebiasedtowardthe LQ image, which emphasizes the ﬁdelity.A larger τremphasizes perceived quality, but with lower ﬁdelity.Zoom in for better view.",
+      "caption_zh": "",
+      "caption_bbox": [
+        71.891,
+        464.144,
+        287.949,
+        510.478
+      ],
+      "content_bbox": [
+        71.874,
+        409.404,
+        288.126,
+        464.144
+      ],
+      "crop_bbox": [
+        71.874,
+        409.404,
+        288.126,
+        464.144
+      ],
+      "original": "figures/original/Fig13_p007.png",
+      "vector": []
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "SUPIR_Practicing_Model_Scaling_for_Photo_CVPR_2024",
+    "title": "Project Page: https://supir.xpixel.group (a) Real-World Image Restoration Results Low Quality Input SUPIR output Low Quality Input SUPIR output Low Quality Input SUPIR output (b) Controllable Image Restoration with Textual Prompts",
+    "venue": "CVPR",
+    "venue_full": "CVPR",
+    "venue_short": "CVPR",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://supir.xpixel.group",
+    "pdf_url": "https://supir.xpixel.group",
+    "access": "local_pdf",
+    "source_sha256": "6f7fd8b9de6f7e830450781442c716549c2f939da632bb8fa9207911f11ece7c",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\CVPR 2024-2024-照片级真实世界图像恢复-SUPIR Practicing Model Scaling for Photo-Realistic Image Restoration in the Wild.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\U8M8JAZT\\Yu 等 - Scaling Up to Excellence Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  }
+}

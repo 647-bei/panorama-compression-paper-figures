@@ -1,0 +1,10 @@
+% Auto-extracted table snippet; requires \usepackage{booktabs}.
+% Caption: TABLEV:ImagenetNetworkTopologiesforConversiontraining.NotationsaresameasthatofTableIII.Layerswith BackResconnectionsandrepeatedcomputationshavebeenhighligtedinred.
+\begin{tabular}{lll}
+\toprule
+Model & Configuration & BackRes \\
+\midrule
+VGG16 & Input–Conv1(3,64,3x3/1)–Conv2(64,64,3x3/1)– –Pool(2x2/2)–Conv3(64,128,3x3/1)–Pool(2x2/2)–Conv4(128,256,3x3/1)– –Conv5(256,256,3x3/1)–Conv6(256,256,3x3/1)–Pool(2x2/2)–Conv7(256,512,3x3/1)– –Conv8(512,512,3x3/1)–Conv9(512,512,3x3/1)–Conv10(512,512,3x3/1)–Conv11(512,512,3x3/1)– –Conv12(512,512,3x3/1)–Conv13(512,512,3x3/1)–Pool(2x2/2)–Pool(2x2/2)– –FC1(25088,4096)–FC2(4096,1000) & Not Applicable \\
+VGG11x2 & Input–Conv1(3,64,3x3/1)–Conv2(64,64,3x3/1)– –Pool(2x2/2)–Conv3(64,128,3x3/1)–Pool(2x2/2)–Conv4(128,256,3x3/1)–Conv5(256,256,3x3/1)– –Conv5(256,256,3x3/1)–Pool(2x2/2)–Conv6(256,512,3x3/1)–Conv7(512,512,3x3/1)– –Conv8(512,512,3x3/1)–Conv9(512,512,3x3/1)–Conv7(512,512,3x3/1)–Conv8(512,512,3x3/1)– –Conv9(512,512,3x3/1)–Pool(2x2/2)–Pool(2x2/2)– –FC1(25088,4096)–FC2(4096,1000) & [Conv5]\& [Conv7- Conv8- Conv9] repeated 2 times \\
+\bottomrule
+\end{tabular}

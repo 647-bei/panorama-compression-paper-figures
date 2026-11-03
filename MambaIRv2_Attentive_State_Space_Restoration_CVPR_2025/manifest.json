@@ -1,0 +1,526 @@
+{
+  "paper": "MambaIRv2_Attentive_State_Space_Restoration_CVPR_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 15,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure1.(a)Theexistingmethod[24]suffersfromtheadverse effects of the causal nature of Mamba (the multi-directional scans arenotshownforpresentationclarity).(b)TheproposedMam- baIRv2canachieveattentivestate-spacemodelingthatembeds ViT-like non-causal properties into Mamba.",
+      "caption_en": "Figure1.(a)Theexistingmethod[24]suffersfromtheadverse effects of the causal nature of Mamba (the multi-directional scans arenotshownforpresentationclarity).(b)TheproposedMam- baIRv2canachieveattentivestate-spacemodelingthatembeds ViT-like non-causal properties into Mamba.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        356.112,
+        553.497,
+        408.913
+      ],
+      "content_bbox": [
+        322.178,
+        238.801,
+        544.624,
+        350.493
+      ],
+      "crop_bbox": [
+        322.178,
+        238.801,
+        544.624,
+        350.493
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.75 in\n\n形状统计 (230 个):\n  FREEFORM (5)                 167\n  TEXT_BOX (17)                58\n  AUTO_SHAPE (1)               3\n  PICTURE (13)                 2\n\n矢量形状: 228\n位图图片: 2\n  26.4% 画面  (5.75 x 4.14 in)\n  26.4% 画面  (5.75 x 4.14 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2. (a) We compute the cosine similarity of scanned features acrossall4directionsandalllayersinMambaIR[24].(b)The kernel density estimation of the distribution of the control matrix in MambaIR [24].",
+      "caption_en": "Figure 2. (a) We compute the cosine similarity of scanned features acrossall4directionsandalllayersinMambaIR[24].(b)The kernel density estimation of the distribution of the control matrix in MambaIR [24].",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        147.756,
+        294.747,
+        189.598
+      ],
+      "content_bbox": [
+        67.825,
+        71.814,
+        287.059,
+        142.95
+      ],
+      "crop_bbox": [
+        67.825,
+        71.814,
+        287.059,
+        142.95
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  43.3% 画面  (10.00 x 3.25 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure3.TheoverallarchitectureofourproposedMambaIRv2,aswellasthe(a)AttentiveStateSpaceModule(ASSM),(b)Attentive State-space Equition (ASE), and (c) Semantic Guided Neighboring (SGN).",
+      "caption_en": "Figure3.TheoverallarchitectureofourproposedMambaIRv2,aswellasthe(a)AttentiveStateSpaceModule(ASSM),(b)Attentive State-space Equition (ASE), and (c) Semantic Guided Neighboring (SGN).",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        279.786,
+        553.499,
+        299.711
+      ],
+      "content_bbox": [
+        67.715,
+        74.31,
+        540.795,
+        270.937
+      ],
+      "crop_bbox": [
+        67.715,
+        74.31,
+        540.795,
+        270.937
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.61 in\n\n形状统计 (833 个):\n  FREEFORM (5)                 622\n  TEXT_BOX (17)                198\n  PICTURE (13)                 13\n\n矢量形状: 820\n位图图片: 13\n  0.7% 画面  (0.62 x 0.80 in)\n  5.2% 画面  (1.74 x 2.22 in)\n  0.0% 画面  (0.16 x 0.16 in)\n  0.4% 画面  (1.62 x 0.20 in)\n  0.4% 画面  (1.28 x 0.24 in)\n  0.5% 画面  (1.52 x 0.26 in)\n  0.4% 画面  (1.62 x 0.20 in)\n  0.4% 画面  (1.28 x 0.24 in)\n  0.5% 画面  (1.52 x 0.26 in)\n  0.0% 画面  (0.16 x 0.17 in)\n  ... 共 13 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table 1.Ablation on the effectiveness of different components.",
+      "caption_en": "Table 1.Ablation on the effectiveness of different components.",
+      "caption_zh": "",
+      "caption_bbox": [
+        322.319,
+        72.871,
+        548.434,
+        81.837
+      ],
+      "content_bbox": [
+        327.947,
+        84.717,
+        542.155,
+        136.042
+      ],
+      "crop_bbox": [
+        327.947,
+        84.717,
+        542.155,
+        136.042
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 4,
+      "caption": "Table2.Ablationexperimentsondifferentinjectionpositionsof the learnable prompts in the ASE.",
+      "caption_en": "Table2.Ablationexperimentsondifferentinjectionpositionsof the learnable prompts in the ASE.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        144.462,
+        553.497,
+        164.386
+      ],
+      "content_bbox": [
+        327.947,
+        84.717,
+        542.155,
+        136.042
+      ],
+      "crop_bbox": [
+        327.947,
+        84.717,
+        542.155,
+        136.042
+      ],
+      "original": "tables/original/Table2_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 5,
+      "caption": "Figure 4.Qualitative comparison of our MambaIRv2 with different methods on 4× classic image SR.",
+      "caption_en": "Figure 4.Qualitative comparison of our MambaIRv2 with different methods on 4× classic image SR.",
+      "caption_zh": "",
+      "caption_bbox": [
+        123.566,
+        461.795,
+        488.435,
+        471.085
+      ],
+      "content_bbox": [
+        56.886,
+        95.675,
+        550.933,
+        461.357
+      ],
+      "crop_bbox": [
+        56.886,
+        95.675,
+        550.933,
+        461.357
+      ],
+      "original": "figures/original/Fig4_p005.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.90 in\n\n形状统计 (586 个):\n  TEXT_BOX (17)                319\n  FREEFORM (5)                 231\n  PICTURE (13)                 36\n\n矢量形状: 550\n位图图片: 36\n  0.5% 画面  (1.02 x 0.64 in)\n  0.5% 画面  (1.02 x 0.64 in)\n  0.5% 画面  (1.02 x 0.64 in)\n  0.5% 画面  (1.02 x 0.64 in)\n  0.5% 画面  (1.02 x 0.64 in)\n  0.5% 画面  (1.02 x 0.64 in)\n  0.5% 画面  (1.02 x 0.64 in)\n  4.7% 画面  (2.10 x 2.97 in)\n  0.5% 画面  (1.02 x 0.64 in)\n  0.5% 画面  (1.02 x 0.64 in)\n  ... 共 36 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 5,
+      "caption": "Table3.Quantitativecomparisononlightweightimagesuper-resolutionwithstate-of-the-artmethods.Thebestandthesecondbest results are in red and blue.",
+      "caption_en": "Table3.Quantitativecomparisononlightweightimagesuper-resolutionwithstate-of-the-artmethods.Thebestandthesecondbest results are in red and blue.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        72.794,
+        553.499,
+        92.796
+      ],
+      "content_bbox": [
+        63.498,
+        95.675,
+        550.37,
+        315.745
+      ],
+      "crop_bbox": [
+        63.498,
+        95.675,
+        550.37,
+        315.745
+      ],
+      "original": "tables/original/Table3_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 6,
+      "caption": "Table 4.Quantitative comparison on classic image super-resolution with state-of-the-art methods.",
+      "caption_en": "Table 4.Quantitative comparison on classic image super-resolution with state-of-the-art methods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        129.199,
+        72.794,
+        482.802,
+        81.837
+      ],
+      "content_bbox": [
+        71.279,
+        84.713,
+        540.07,
+        461.105
+      ],
+      "crop_bbox": [
+        71.279,
+        84.713,
+        540.07,
+        461.105
+      ],
+      "original": "tables/original/Table4_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 6,
+      "caption": "Table 5.Complexity comparison with state-of-the-art methods on the 2× classic SR with output size 256 × 256.",
+      "caption_en": "Table 5.Complexity comparison with state-of-the-art methods on the 2× classic SR with output size 256 × 256.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        472.215,
+        294.747,
+        492.14
+      ],
+      "content_bbox": [
+        71.279,
+        84.713,
+        540.07,
+        461.105
+      ],
+      "crop_bbox": [
+        71.279,
+        84.713,
+        540.07,
+        461.105
+      ],
+      "original": "tables/original/Table5_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 7,
+      "caption": "Figure 5.The visualization of the attentive state space.We com- pute the cosine similarity between the prompt corresponding to the query pixel and the matrix C.We filter out low-similarity points for presentation clarity.More examples are provided in the Suppl..",
+      "caption_en": "Figure 5.The visualization of the attentive state space.We com- pute the cosine similarity between the prompt corresponding to the query pixel and the matrix C.We filter out low-similarity points for presentation clarity.More examples are provided in the Suppl..",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        259.699,
+        553.501,
+        301.542
+      ],
+      "content_bbox": [
+        58.5,
+        72.663,
+        554.12,
+        259.699
+      ],
+      "crop_bbox": [
+        58.5,
+        72.663,
+        554.12,
+        259.699
+      ],
+      "original": "figures/original/Fig5_p007.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.10 in\n\n形状统计 (267 个):\n  TEXT_BOX (17)                149\n  FREEFORM (5)                 104\n  PICTURE (13)                 14\n\n矢量形状: 253\n位图图片: 14\n  1.3% 画面  (0.96 x 0.92 in)\n  1.3% 画面  (0.92 x 0.97 in)\n  1.3% 画面  (0.95 x 0.94 in)\n  1.3% 画面  (0.94 x 0.96 in)\n  1.3% 画面  (0.94 x 0.96 in)\n  1.3% 画面  (0.94 x 0.92 in)\n  1.2% 画面  (0.90 x 0.90 in)\n  1.2% 画面  (0.90 x 0.90 in)\n  1.2% 画面  (0.90 x 0.90 in)\n  1.2% 画面  (0.90 x 0.90 in)\n  ... 共 14 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 7,
+      "caption": "Table 6.Quantitative comparison on JPEG compression artifact reduction under different quality factors q.",
+      "caption_en": "Table 6.Quantitative comparison on JPEG compression artifact reduction under different quality factors q.",
+      "caption_zh": "",
+      "caption_bbox": [
+        111.575,
+        72.663,
+        500.426,
+        81.837
+      ],
+      "content_bbox": [
+        73.649,
+        84.72,
+        537.895,
+        162.042
+      ],
+      "crop_bbox": [
+        73.649,
+        84.72,
+        537.895,
+        162.042
+      ],
+      "original": "tables/original/Table6_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 7,
+      "caption": "Table 7.Quantitative comparison of PSNR on gaussian color im- age denoising σ= 15 with state-of-the-art methods.",
+      "caption_en": "Table 7.Quantitative comparison of PSNR on gaussian color im- age denoising σ= 15 with state-of-the-art methods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        183.064,
+        294.746,
+        203.066
+      ],
+      "content_bbox": [
+        73.649,
+        84.72,
+        537.895,
+        162.042
+      ],
+      "crop_bbox": [
+        73.649,
+        84.72,
+        537.895,
+        162.042
+      ],
+      "original": "tables/original/Table7_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 7,
+      "caption": "Table 8.Comparison to MambaIR with different scanning modes on2×lightweightSR.The“MambaIR-n”indicatestheMam- baIR [24] variant with n scanning directions.",
+      "caption_en": "Table 8.Comparison to MambaIR with different scanning modes on2×lightweightSR.The“MambaIR-n”indicatestheMam- baIR [24] variant with n scanning directions.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        335.88,
+        294.754,
+        366.764
+      ],
+      "content_bbox": [
+        64.497,
+        206.005,
+        289.725,
+        321.514
+      ],
+      "crop_bbox": [
+        64.497,
+        206.005,
+        289.725,
+        321.514
+      ],
+      "original": "tables/original/Table8_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "MambaIRv2_Attentive_State_Space_Restoration_CVPR_2025",
+    "title": "query pixel scanned pixels unscanned pixels scan order",
+    "venue": "CVPR",
+    "venue_full": "CVPR",
+    "venue_short": "CVPR",
+    "venue_type": "会议",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "4b01bc6a06010df96fc6ae712aae8c9b64c1c81a80ae5c8a135a079df8846093",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\CVPR 2025-2025-通用图像恢复 状态空间模型-MambaIRv2 Attentive State Space Restoration.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\AV6FU5U8\\Guo 等 - 2025 - MambaIRv2 Attentive State Space Restoration.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    }
+  ]
+}

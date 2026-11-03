@@ -1,0 +1,11 @@
+% Auto-extracted table snippet; requires \usepackage{booktabs}.
+% Caption: Table 4.DiffBIR has achieved the highest FID score on both the LFW and Wider datasets, demonstrating its ability to generate more realistic faces. Regarding IQA metrics, DiffBIR also obtains the high- est scores in CLIP-IQA and MANIQA, while the MUSIQ scores are close to the highest ones.Although the IRCon- trolNet is not finetuned on face dataset (e.g., FFHQ), it out- performs all other baseline methods, indicating the excellent generalization ability of our proposed restoration pipeline. The visual comparisons are shown in Fig.8.From the first example, it can be seen that only DiffBIR could restore the hand correctly, while other methods are influenced by facial priors thus distorting the hand area.In the second example, only DiffBIR successfully restores the side face, while other methods fail in restoring areas such as teeth, nose, and chin. Both two cases have demonstrated the superiority of using generativepriorsforgeneralimagesratherthanjustface images. BID on real-world datasets.The quantitative comparisons are shown in Table 5.We can see that DiffBIR significantly outperforms the baseline methods across all metrics.This remarkable difference can be attributed to DiffBIR’s intro- duction of powerful generative diffusion prior, which allows for effective high-quality image restoration.Fig.9 illustrates visual comparisons between DiffBIR and baseline methods. It is observed that only DiffBIR can remove noise as well as generate realistic textures.Although SwinIR and SCUNet- GANcouldsuccessfullyremovethenoises,theyproduce smoothed results without vivid texture details.
+\begin{tabular}{llll}
+\toprule
+seline methods Methods QA, and CLIP- CBDNet [17] DeamNet [41] n the best PSNR Restormer [69] cale is set to 1, SwinIR [29] IQA) still rank SCUNet-GAN [74] the restoration DiffBIR (s=0) &  &  &  \\
+\midrule
+ & 55.0493 & 0.1595 &  \\
+ & 58.2170 & 0.1822 & 0.5045 \\
+ & 69.7278 & 0.3404 & 0.7420 \\
+\bottomrule
+\end{tabular}

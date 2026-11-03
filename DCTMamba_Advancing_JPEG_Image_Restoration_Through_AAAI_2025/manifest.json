@@ -1,0 +1,406 @@
+{
+  "paper": "DCTMamba_Advancing_JPEG_Image_Restoration_Through_AAAI_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 9,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Figure1:Directpixel-by-pixelscanninginthespatialdo- main faces challenges due to the absence of causality. How- ever,byapplyingtheDiscreteCosineTransform(DCT) totheimageandscanningfromlowtohighfrequencies, causalitycanbeestablished.Thismeansthatthenetwork canfirstoutlinethebasicstructureoftheimageandthen graduallyaddtexturedetailsattheedges.Thesecondand third columns show the low and high-frequency components after the DCT transformation.",
+      "caption_en": "Figure1:Directpixel-by-pixelscanninginthespatialdo- main faces challenges due to the absence of causality. How- ever,byapplyingtheDiscreteCosineTransform(DCT) totheimageandscanningfromlowtohighfrequencies, causalitycanbeestablished.Thismeansthatthenetwork canfirstoutlinethebasicstructureoftheimageandthen graduallyaddtexturedetailsattheedges.Thesecondand third columns show the low and high-frequency components after the DCT transformation.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        158.63,
+        292.514,
+        256.265
+      ],
+      "content_bbox": [
+        54.117,
+        54.187,
+        292.156,
+        148.34
+      ],
+      "crop_bbox": [
+        54.117,
+        54.187,
+        292.156,
+        148.34
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.34 in\n\n形状统计 (137 个):\n  FREEFORM (5)                 131\n  PICTURE (13)                 6\n\n矢量形状: 131\n位图图片: 6\n  15.2% 画面  (4.30 x 2.51 in)\n  15.2% 画面  (4.30 x 2.51 in)\n  15.2% 画面  (4.30 x 2.51 in)\n  15.2% 画面  (4.30 x 2.51 in)\n  15.2% 画面  (4.30 x 2.51 in)\n  15.2% 画面  (4.30 x 2.51 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Figure 2: The overall architecture of our proposed DCTMamba for image restoration includes the following key components: Global-to-Local Block, Coarse-to-Fine State Space Block and Scale-Adaptive State Space Block.",
+      "caption_en": "Figure 2: The overall architecture of our proposed DCTMamba for image restoration includes the following key components: Global-to-Local Block, Coarse-to-Fine State Space Block and Scale-Adaptive State Space Block.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        310.212,
+        558.019,
+        331.134
+      ],
+      "content_bbox": [
+        54.839,
+        54.987,
+        557.299,
+        299.215
+      ],
+      "crop_bbox": [
+        54.839,
+        54.987,
+        557.299,
+        299.215
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.54 in\n\n形状统计 (316 个):\n  FREEFORM (5)                 243\n  AUTO_SHAPE (1)               36\n  TEXT_BOX (17)                28\n  PICTURE (13)                 9\n\n矢量形状: 307\n位图图片: 9\n  2.4% 画面  (1.78 x 1.19 in)\n  1.4% 画面  (1.36 x 0.91 in)\n  1.4% 画面  (1.37 x 0.91 in)\n  1.4% 画面  (1.37 x 0.92 in)\n  2.3% 画面  (1.75 x 1.16 in)\n  0.3% 画面  (0.34 x 0.82 in)\n  0.4% 画面  (0.37 x 0.84 in)\n  3.0% 画面  (2.04 x 1.29 in)\n  4.1% 画面  (1.71 x 2.07 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Figure 3: To demonstrate the impact of different sizes on im- ageDCT,wecroppatchesofsizes64,128,and256(from lefttoright)fromthesameimage.Thetoprowshowsthe DCT results before normalization, while the bottom row dis- playstheresultsafternormalization.Afternormalization, the distribution of DCT coefficients becomes more uniform.",
+      "caption_en": "Figure 3: To demonstrate the impact of different sizes on im- ageDCT,wecroppatchesofsizes64,128,and256(from lefttoright)fromthesameimage.Thetoprowshowsthe DCT results before normalization, while the bottom row dis- playstheresultsafternormalization.Afternormalization, the distribution of DCT coefficients becomes more uniform.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        213.339,
+        292.514,
+        278.097
+      ],
+      "content_bbox": [
+        47.368,
+        37.648,
+        558.015,
+        205.265
+      ],
+      "crop_bbox": [
+        47.368,
+        37.648,
+        558.015,
+        205.265
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.45 in\n\n形状统计 (48 个):\n  TEXT_BOX (17)                38\n  FREEFORM (5)                 7\n  PICTURE (13)                 3\n\n矢量形状: 45\n位图图片: 3\n  47.6% 画面  (6.51 x 4.34 in)\n  1.6% 画面  (6.15 x 0.16 in)\n  1.2% 画面  (6.21 x 0.11 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table 1: Quantitative comparisons of different methods on grayscale JPEG images. PSNR↑/ SSIM↑/ PSNR-B↑format. The best results are boldfaced.",
+      "caption_en": "Table 1: Quantitative comparisons of different methods on grayscale JPEG images. PSNR↑/ SSIM↑/ PSNR-B↑format. The best results are boldfaced.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        433.097,
+        558.003,
+        454.379
+      ],
+      "content_bbox": [
+        59.515,
+        231.681,
+        555.745,
+        422.861
+      ],
+      "crop_bbox": [
+        59.515,
+        231.681,
+        555.745,
+        422.861
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Figure 4: Visual comparisons on the ‘Classic5’ dataset.",
+      "caption_en": "Figure 4: Visual comparisons on the ‘Classic5’ dataset.",
+      "caption_zh": "",
+      "caption_bbox": [
+        196.168,
+        184.851,
+        533.141,
+        209.12
+      ],
+      "content_bbox": [
+        54.383,
+        54.236,
+        557.715,
+        177.877
+      ],
+      "crop_bbox": [
+        54.383,
+        54.236,
+        557.715,
+        177.877
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  32.8% 画面  (10.00 x 2.46 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure5:Weperformvisualcomparisonsonreal-world imagesfromthe‘Twitter’dataset,employingresidualim- ages for visualization. It can be seen that our method yields smaller residuals in edge details.",
+      "caption_en": "Figure5:Weperformvisualcomparisonsonreal-world imagesfromthe‘Twitter’dataset,employingresidualim- ages for visualization. It can be seen that our method yields smaller residuals in edge details.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        324.982,
+        292.514,
+        382.128
+      ],
+      "content_bbox": [
+        51.822,
+        10.447,
+        558.606,
+        324.982
+      ],
+      "crop_bbox": [
+        51.822,
+        10.447,
+        558.606,
+        324.982
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.32 in\n\n形状统计 (91 个):\n  PICTURE (13)                 40\n  TEXT_BOX (17)                22\n  AUTO_SHAPE (1)               16\n  FREEFORM (5)                 13\n\n矢量形状: 51\n位图图片: 40\n  0.7% 画面  (0.86 x 0.86 in)\n  0.7% 画面  (0.86 x 0.86 in)\n  0.7% 画面  (0.86 x 0.86 in)\n  0.7% 画面  (0.86 x 0.86 in)\n  0.7% 画面  (0.86 x 0.86 in)\n  0.7% 画面  (0.86 x 0.86 in)\n  0.7% 画面  (0.86 x 0.86 in)\n  0.7% 画面  (0.86 x 0.86 in)\n  0.7% 画面  (0.86 x 0.86 in)\n  0.7% 画面  (0.86 x 0.86 in)\n  ... 共 40 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table 2: Ablation studies on the design of blocks.",
+      "caption_en": "Table 2: Ablation studies on the design of blocks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        74.72,
+        472.164,
+        271.788,
+        482.127
+      ],
+      "content_bbox": [
+        48.016,
+        10.447,
+        557.897,
+        461.688
+      ],
+      "crop_bbox": [
+        48.016,
+        10.447,
+        557.897,
+        461.688
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table 3: Quantitative results of different loss combinations. Here, ‘1’ indicates the use of this loss function.",
+      "caption_en": "Table 3: Quantitative results of different loss combinations. Here, ‘1’ indicates the use of this loss function.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        286.75,
+        558.014,
+        307.671
+      ],
+      "content_bbox": [
+        321.287,
+        321.297,
+        556.219,
+        331.776
+      ],
+      "crop_bbox": [
+        321.287,
+        321.297,
+        556.219,
+        331.776
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 6,
+      "caption": "Table4:ComparisonofparametersandPSNRinClassic5 Q10 across different methods.",
+      "caption_en": "Table4:ComparisonofparametersandPSNRinClassic5 Q10 across different methods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        363.721,
+        558.014,
+        384.643
+      ],
+      "content_bbox": [
+        54.0,
+        395.814,
+        295.191,
+        461.688
+      ],
+      "crop_bbox": [
+        54.0,
+        395.814,
+        295.191,
+        461.688
+      ],
+      "original": "tables/original/Table4_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "DCTMamba_Advancing_JPEG_Image_Restoration_Through_AAAI_2025",
+    "title": "DCTMamba: Advancing JPEG Image Restoration Through Long-Sequence Modeling and Adaptive Frequency Strategy",
+    "venue": "AAAI",
+    "venue_full": "AAAI",
+    "venue_short": "AAAI",
+    "venue_type": "会议",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "d1c3777e3fcaf5d93bffc1cbf9e0482914f22396f7124a6a32a1c61e89d4db96",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\AAAI 2025-2025-JPEG图像恢复 频域建模-DCTMamba Advancing JPEG Image Restoration Through Long-Sequence Modeling and Adaptive Frequency Strategy.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\K6J72FYL\\Wang 等 - DCTMamba Advancing JPEG Image Restoration Through Long-Sequence Modeling and Adaptive Frequency Str.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    }
+  ]
+}

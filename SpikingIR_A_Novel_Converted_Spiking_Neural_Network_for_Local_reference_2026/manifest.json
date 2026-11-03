@@ -1,0 +1,405 @@
+{
+  "paper": "SpikingIR_A_Novel_Converted_Spiking_Neural_Network_for_Local_reference_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 9,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure1:Performancecomparisonondifferentimage restoration tasks and datasets.",
+      "caption_en": "Figure1:Performancecomparisonondifferentimage restoration tasks and datasets.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        363.972,
+        558.015,
+        384.894
+      ],
+      "content_bbox": [
+        331.643,
+        215.73,
+        513.337,
+        353.291
+      ],
+      "crop_bbox": [
+        331.643,
+        215.73,
+        513.337,
+        353.291
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.12 in\n\n形状统计 (42 个):\n  TEXT_BOX (17)                23\n  FREEFORM (5)                 19\n\n矢量形状: 42\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 1,
+      "caption": "Figure2:Theimageundergoesseveredegradationafter passingthroughIFneuronsduetoinformationlossand quantization error.",
+      "caption_en": "Figure2:Theimageundergoesseveredegradationafter passingthroughIFneuronsduetoinformationlossand quantization error.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        133.766,
+        558.015,
+        165.647
+      ],
+      "content_bbox": [
+        323.056,
+        57.82,
+        552.435,
+        120.198
+      ],
+      "crop_bbox": [
+        323.056,
+        57.82,
+        552.435,
+        120.198
+      ],
+      "original": "figures/original/Fig2_p001.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  36.3% 画面  (10.00 x 2.72 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 2,
+      "caption": "Figure3:a)TheproposedSpikingIR.OntheleftistheconversionprocessfromANNtoSNN,whereparametertransfer occurs and ReLU is replaced by spiking neurons. On the right is the fine-tuning process, where the CPM is added to the out- putlayeraftertheinitialSNN,followedbybackpropagationtrainingusingthesurrogategradientmethodtooptimizemodel performance under energy constraints. b) CPM design. CPM consists of a convolutional layer and a Residual Potential Mem- brane Information Shortcut (RMPIS). The convolution maps discrete spikes to the continuous space, while RMPIS preserves the residual information of the final IF neuron. c) MPRN design. MPRN adds one post-processing step after the last timestep, allowing neurons with membrane potential exceeding αVthto continue firing and better utilize residual potential. Shown is a comparison between IF and MPRN under α = 0.9, T= 4, Vth= 1.",
+      "caption_en": "Figure3:a)TheproposedSpikingIR.OntheleftistheconversionprocessfromANNtoSNN,whereparametertransfer occurs and ReLU is replaced by spiking neurons. On the right is the fine-tuning process, where the CPM is added to the out- putlayeraftertheinitialSNN,followedbybackpropagationtrainingusingthesurrogategradientmethodtooptimizemodel performance under energy constraints. b) CPM design. CPM consists of a convolutional layer and a Residual Potential Mem- brane Information Shortcut (RMPIS). The convolution maps discrete spikes to the continuous space, while RMPIS preserves the residual information of the final IF neuron. c) MPRN design. MPRN adds one post-processing step after the last timestep, allowing neurons with membrane potential exceeding αVthto continue firing and better utilize residual potential. Shown is a comparison between IF and MPRN under α = 0.9, T= 4, Vth= 1.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        323.356,
+        558.019,
+        410.733
+      ],
+      "content_bbox": [
+        44.628,
+        0.0,
+        567.88,
+        323.356
+      ],
+      "crop_bbox": [
+        44.628,
+        0.0,
+        567.88,
+        323.356
+      ],
+      "original": "figures/original/Fig3_p002.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.28 in\n\n形状统计 (959 个):\n  TEXT_BOX (17)                377\n  PICTURE (13)                 370\n  FREEFORM (5)                 212\n\n矢量形状: 589\n位图图片: 370\n  1.4% 画面  (0.75 x 2.02 in)\n  1.4% 画面  (0.75 x 2.03 in)\n  0.0% 画面  (0.18 x 0.20 in)\n  0.0% 画面  (0.13 x 0.11 in)\n  0.0% 画面  (0.18 x 0.20 in)\n  0.0% 画面  (0.13 x 0.11 in)\n  0.1% 画面  (0.27 x 0.24 in)\n  0.1% 画面  (0.36 x 0.20 in)\n  0.1% 画面  (0.36 x 0.20 in)\n  0.1% 画面  (0.33 x 0.19 in)\n  ... 共 370 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 3,
+      "caption": "Figure4:ThedistributionofResidualMembranePoten- tial(RMP)afterinferenceinAOD-Net.Left:proportionof RMP ≥0.5Vth; Right: proportion of RMP ≥Vth.",
+      "caption_en": "Figure4:ThedistributionofResidualMembranePoten- tial(RMP)afterinferenceinAOD-Net.Left:proportionof RMP ≥0.5Vth; Right: proportion of RMP ≥Vth.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        171.985,
+        292.514,
+        204.477
+      ],
+      "content_bbox": [
+        72.532,
+        55.884,
+        558.013,
+        161.547
+      ],
+      "crop_bbox": [
+        72.532,
+        55.884,
+        558.013,
+        161.547
+      ],
+      "original": "figures/original/Fig4_p003.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 2.98 in\n\n形状统计 (140 个):\n  TEXT_BOX (17)                60\n  FREEFORM (5)                 56\n  PICTURE (13)                 24\n\n矢量形状: 116\n位图图片: 24\n  0.0% 画面  (0.08 x 0.08 in)\n  0.0% 画面  (0.08 x 0.08 in)\n  0.0% 画面  (0.08 x 0.08 in)\n  0.0% 画面  (0.08 x 0.08 in)\n  0.0% 画面  (0.08 x 0.08 in)\n  0.0% 画面  (0.08 x 0.08 in)\n  0.0% 画面  (0.08 x 0.08 in)\n  0.0% 画面  (0.08 x 0.08 in)\n  0.0% 画面  (0.08 x 0.08 in)\n  0.0% 画面  (0.08 x 0.08 in)\n  ... 共 24 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 4,
+      "caption": "Figure5:Thevisualresultsoftheproposedmethodand ANNs, from top to bottom, correspond to the image dehaz- ing, denoising, and 4× super-resolution tasks, respectively.",
+      "caption_en": "Figure5:Thevisualresultsoftheproposedmethodand ANNs, from top to bottom, correspond to the image dehaz- ing, denoising, and 4× super-resolution tasks, respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        233.115,
+        558.015,
+        264.996
+      ],
+      "content_bbox": [
+        289.33,
+        55.09,
+        572.237,
+        230.239
+      ],
+      "crop_bbox": [
+        289.33,
+        55.09,
+        572.237,
+        230.239
+      ],
+      "original": "figures/original/Fig5_p004.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  82.6% 画面  (10.00 x 6.19 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5662494 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table 1: The baseline ANN dehazing model uses AOD-Net, with results on the TestSet A and SOTS-outdoor datasets. Rate(%) represents the average of the PSNR and SSIM conversion rate relative to the ANN.",
+      "caption_en": "Table 1: The baseline ANN dehazing model uses AOD-Net, with results on the TestSet A and SOTS-outdoor datasets. Rate(%) represents the average of the PSNR and SSIM conversion rate relative to the ANN.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        285.336,
+        558.019,
+        306.258
+      ],
+      "content_bbox": [
+        70.023,
+        319.492,
+        541.978,
+        466.141
+      ],
+      "crop_bbox": [
+        70.023,
+        319.492,
+        541.978,
+        466.141
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table 2: Quantitative results on Set12 and BSD68 for image denoising under different noise levels.",
+      "caption_en": "Table 2: Quantitative results on Set12 and BSD68 for image denoising under different noise levels.",
+      "caption_zh": "",
+      "caption_bbox": [
+        109.215,
+        476.618,
+        502.804,
+        486.581
+      ],
+      "content_bbox": [
+        70.023,
+        274.86,
+        541.978,
+        466.141
+      ],
+      "crop_bbox": [
+        70.023,
+        274.86,
+        541.978,
+        466.141
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table 3: Quantitative comparison at different super-resolution scales on the Set5 and Urban100 datasets.",
+      "caption_en": "Table 3: Quantitative comparison at different super-resolution scales on the Set5 and Urban100 datasets.",
+      "caption_zh": "",
+      "caption_bbox": [
+        98.475,
+        191.174,
+        513.544,
+        201.137
+      ],
+      "content_bbox": [
+        343.913,
+        222.341,
+        533.588,
+        285.622
+      ],
+      "crop_bbox": [
+        343.913,
+        222.341,
+        533.588,
+        285.622
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 6,
+      "caption": "Table4:AblationStudyofDifferentTechniquesofour SpikingIR. Timestep is set to 10.",
+      "caption_en": "Table4:AblationStudyofDifferentTechniquesofour SpikingIR. Timestep is set to 10.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        296.098,
+        558.014,
+        317.02
+      ],
+      "content_bbox": [
+        79.482,
+        81.838,
+        533.588,
+        285.622
+      ],
+      "crop_bbox": [
+        79.482,
+        81.838,
+        533.588,
+        285.622
+      ],
+      "original": "tables/original/Table4_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "SpikingIR_A_Novel_Converted_Spiking_Neural_Network_for_Local_reference_2026",
+    "title": "SpikingIR: A Novel Converted Spiking Neural Network for Efficient Image Restoration",
+    "venue": "AAAI",
+    "venue_full": "AAAI",
+    "venue_short": "AAAI",
+    "venue_type": "会议",
+    "year": 2026,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "66ca59d9cd7469597fb9500b15dfa99861adf7a36ff1b5a8f4d8b5cc2d7f828c",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\VNE8V8VE\\Ouyang 等 - 2026 - SpikingIR A Novel Converted Spiking Neural Network for Efficient Image Restoration.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+% Auto-extracted table snippet; requires \usepackage{booktabs}.
+% Caption: Figure 25 (c) step 3, maintaining 97.7\% accuracy.From now on, Alice may make two different choicesbasedonherpriorknowledge.Inonecase,Alicemayhaveguessedthatthedependence on p is cosh, so she sets the activations of p to be cosh function.She retrains KAN and gets 96.9\% accuracy (Figure 25 (c) Step 4A). In another case, Alice does not know the cosh p dependence, so she pursues simplicity and again assumes the functions of p to be quadratic.She retrains KAN and gets 95.4\% accuracy (Figure 25 (c) Step 4B). If she tried both, she would realize that cosh is better intermsofaccuracy,whilequadraticisbetterintermsofsimplicity.Theformulascorresponding to these steps are listed in Table 12.It is clear that the more manual operations are done by Alice, the simpler the symbolic formula is (which slight sacrifice in accuracy).KANs have a “knob" that a user can tune to trade-off between simplicity and accuracy (sometimes simplicity can even lead to better accuracy, as in the GAAM case).
+\begin{tabular}{ll}
+\toprule
+Functionality & Descriptions \\
+\midrule
+model.fit(dataset) & training model on dataset \\
+model.plot() & plotting \\
+model.prune() & pruning \\
+model.fix symbolic(l,i,j,fun) \_ & fix the activation function ϕ l,i,j to be the symbolic function fun \\
+model.suggest symbolic(l,i,j) \_ & suggest symbolic functions that match the numerical value of ϕ l,i,j \\
+model.auto symbolic() \_ & use top 1 symbolic suggestions from suggest symbolic \_ to replace all activation functions \\
+model.symbolic formula() \_ & return the symbolic formula \\
+\bottomrule
+\end{tabular}

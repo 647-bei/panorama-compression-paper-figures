@@ -1,0 +1,356 @@
+{
+  "paper": "SeeSR_Towards_Semantics_CVPR_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 12,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Figure 1.The comparisonof different styles ofprompts and their corresponding Real-ISR results with PASD [65].(a) Input LR image. (b)-(d) show the extracted classification-style, caption-style and tag-style prompts from LR image and the corresponding Real-ISR results. (e) Null prompt and its corresponding Real-ISR result.(f)-(h) show the extracted classification-style, caption-style and tag-style prompts from HR image and their corresponding Real-ISR results.(i) HR image.",
+      "caption_en": "Figure 1.The comparisonof different styles ofprompts and their corresponding Real-ISR results with PASD [65].(a) Input LR image. (b)-(d) show the extracted classification-style, caption-style and tag-style prompts from LR image and the corresponding Real-ISR results. (e) Null prompt and its corresponding Real-ISR result.(f)-(h) show the extracted classification-style, caption-style and tag-style prompts from HR image and their corresponding Real-ISR results.(i) HR image.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        336.117,
+        545.111,
+        377.96
+      ],
+      "content_bbox": [
+        75.336,
+        71.997,
+        519.893,
+        325.283
+      ],
+      "crop_bbox": [
+        75.336,
+        71.997,
+        519.893,
+        325.283
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  76.1% 画面  (10.00 x 5.71 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5217065 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 3,
+      "caption": "Table 1.This motivates us that if we can adapt thetag-styleprompttobedegradation-ware,thenitmay help the T2I models generate high-quality Real-ISR outputs while preserving correct image semantics. FrameworkOverview.Basedontheabovediscussions, weproposetoextracthigh-qualitytag-stylepromptsfrom the LR image to guide the pretrained T2I model, such as sta- ble diffusion (SD) [46], for producing semantics-preserved Real-ISR results.The framework of our proposed method, namelySemantic-awareSR(SeeSR),isshowninFig.2. The training of SeeSR goes through two stages.In the first stage (Fig.2(a)), we learn a degradation-aware prompt ex- tractor(DAPE),whichconsistsofanimageencoderanda tagging head.It is expected that both the feature represen- tations and tagging outputs of the LR image can be as close aspossibletothatofthecorrespondingHRimagebyus- ingtheoriginaltagmodel.ThelearnedDAPEiscopied tothesecondstage(Fig.2(b))toextractthefeaturerep- resentationsandtags(astextprompts)fromtheinputLR image,whichserveascontrolsignalsoverthepretrained T2Imodeltogeneratevisuallypleasingandsemantically correct Real-ISR results.During inference, only the second stage is needed to process the input image.Fig.2(c) illus- trates the collaborative interplay between the image branch, featurerepresentationbranch,andtextpromptbranchin governing the pretrained T2I model.",
+      "caption_en": "Table 1.This motivates us that if we can adapt thetag-styleprompttobedegradation-ware,thenitmay help the T2I models generate high-quality Real-ISR outputs while preserving correct image semantics. FrameworkOverview.Basedontheabovediscussions, weproposetoextracthigh-qualitytag-stylepromptsfrom the LR image to guide the pretrained T2I model, such as sta- ble diffusion (SD) [46], for producing semantics-preserved Real-ISR results.The framework of our proposed method, namelySemantic-awareSR(SeeSR),isshowninFig.2. The training of SeeSR goes through two stages.In the first stage (Fig.2(a)), we learn a degradation-aware prompt ex- tractor(DAPE),whichconsistsofanimageencoderanda tagging head.It is expected that both the feature represen- tations and tagging outputs of the LR image can be as close aspossibletothatofthecorrespondingHRimagebyus- ingtheoriginaltagmodel.ThelearnedDAPEiscopied tothesecondstage(Fig.2(b))toextractthefeaturerep- resentationsandtags(astextprompts)fromtheinputLR image,whichserveascontrolsignalsoverthepretrained T2Imodeltogeneratevisuallypleasingandsemantically correct Real-ISR results.During inference, only the second stage is needed to process the input image.Fig.2(c) illus- trates the collaborative interplay between the image branch, featurerepresentationbranch,andtextpromptbranchin governing the pretrained T2I model.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        214.21,
+        286.365,
+        525.033
+      ],
+      "content_bbox": [
+        56.983,
+        72.871,
+        275.007,
+        176.325
+      ],
+      "crop_bbox": [
+        56.983,
+        72.871,
+        275.007,
+        176.325
+      ],
+      "original": "tables/original/Table1_p003.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 4,
+      "caption": "Figure 2.Overview of SeeSR. (a) In the first stage, we train a degradation-aware prompt extractor (DAPE), which is initialized from a tag model.DAPE is trained to align the encoding of the degraded LR image to the encoding of the corresponding HR image by a tag model (e.g.,RAM [77] in our work),enabling DAPE the degradation-awareness.(b) In the second stage,the well-trained DAPE provides both soft prompts (representation embedding) and hard prompts (tagging text), which are combined with the LR image to control a pretrained T2I model (e.g., SD [46] in our work).The detailed structure of the controlled T2I diffusion model is shown in (c).",
+      "caption_en": "Figure 2.Overview of SeeSR. (a) In the first stage, we train a degradation-aware prompt extractor (DAPE), which is initialized from a tag model.DAPE is trained to align the encoding of the degraded LR image to the encoding of the corresponding HR image by a tag model (e.g.,RAM [77] in our work),enabling DAPE the degradation-awareness.(b) In the second stage,the well-trained DAPE provides both soft prompts (representation embedding) and hard prompts (tagging text), which are combined with the LR image to control a pretrained T2I model (e.g., SD [46] in our work).The detailed structure of the controlled T2I diffusion model is shown in (c).",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        356.193,
+        545.111,
+        408.995
+      ],
+      "content_bbox": [
+        94.572,
+        71.999,
+        500.652,
+        345.359
+      ],
+      "crop_bbox": [
+        94.572,
+        71.999,
+        500.652,
+        345.359
+      ],
+      "original": "figures/original/Fig2_p004.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  89.8% 画面  (10.00 x 6.74 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6161649 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Figure3.EffectivenessoftheLRembedding(LRE)strategyin alleviating the discrepancy between training and inference of SD- based Real-ISR methods [40, 55, 65]. Top row: results without us- ing LRE. Bottom row:results with LRE. We see that many falsely generated details in the sky area are removed.",
+      "caption_en": "Figure3.EffectivenessoftheLRembedding(LRE)strategyin alleviating the discrepancy between training and inference of SD- based Real-ISR methods [40, 55, 65]. Top row: results without us- ing LRE. Bottom row:results with LRE. We see that many falsely generated details in the sky area are removed.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        563.376,
+        545.109,
+        616.178
+      ],
+      "content_bbox": [
+        310.002,
+        460.142,
+        543.972,
+        552.542
+      ],
+      "crop_bbox": [
+        310.002,
+        460.142,
+        543.972,
+        552.542
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  52.8% 画面  (10.00 x 3.96 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3624384 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table2.Quantitativecomparisonwithstate-of-the-artmethodsonbothsyntheticandreal-worldbenchmarks.Thebestandsecondbest results of each metric are highlighted in red and blue,respectively.LDM is not tested on RealLR200 because the related codebase does not provide tiled functionality, which results in the issue of out-of-memory when testing on higher-resolution inputs.",
+      "caption_en": "Table2.Quantitativecomparisonwithstate-of-the-artmethodsonbothsyntheticandreal-worldbenchmarks.Thebestandsecondbest results of each metric are highlighted in red and blue,respectively.LDM is not tested on RealLR200 because the related codebase does not provide tiled functionality, which results in the issue of out-of-memory when testing on higher-resolution inputs.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        72.871,
+        545.112,
+        103.755
+      ],
+      "content_bbox": [
+        51.679,
+        115.153,
+        543.543,
+        379.795
+      ],
+      "crop_bbox": [
+        51.679,
+        115.153,
+        543.543,
+        379.795
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Figure 4.Qualitative comparisons of different Real-ISR methods.Please zoom in for a better view.",
+      "caption_en": "Figure 4.Qualitative comparisons of different Real-ISR methods.Please zoom in for a better view.",
+      "caption_zh": "",
+      "caption_bbox": [
+        120.089,
+        352.211,
+        475.14,
+        361.177
+      ],
+      "content_bbox": [
+        52.821,
+        71.997,
+        539.918,
+        349.881
+      ],
+      "crop_bbox": [
+        52.821,
+        71.997,
+        539.918,
+        349.881
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  76.1% 画面  (10.00 x 5.71 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5221791 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "Table 3.The comparison of semantic restoration performance among different Real-ISR methods.",
+      "caption_en": "Table 3.The comparison of semantic restoration performance among different Real-ISR methods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        121.886,
+        72.871,
+        473.342,
+        81.837
+      ],
+      "content_bbox": [
+        51.791,
+        87.588,
+        543.438,
+        144.125
+      ],
+      "crop_bbox": [
+        51.791,
+        87.588,
+        543.438,
+        144.125
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "Table 4.Results of user study on synthetic and real-world data.",
+      "caption_en": "Table 4.Results of user study on synthetic and real-world data.",
+      "caption_zh": "",
+      "caption_bbox": [
+        55.065,
+        163.418,
+        281.413,
+        172.384
+      ],
+      "content_bbox": [
+        51.791,
+        87.588,
+        543.436,
+        144.125
+      ],
+      "crop_bbox": [
+        51.791,
+        87.588,
+        543.436,
+        144.125
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "SeeSR_Towards_Semantics_CVPR_2024",
+    "title": "This CVPR paper is the Open Access version, provided by the Computer Vision Foundation.",
+    "venue": "CVPR",
+    "venue_full": "CVPR",
+    "venue_short": "CVPR",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "188170a025e8c8fbb925688a193eaf5a6e62a0fa49878d24a4d05746d57445d7",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\CVPR 2024-2024-真实世界超分 退化恢复-SeeSR Towards Semantics-Aware Real-World Image Super-Resolution.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\Q5XE7C5S\\Wu 等 - 2024 - SeeSR Towards Semantics-Aware Real-World Image Super-Resolution.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    }
+  ]
+}

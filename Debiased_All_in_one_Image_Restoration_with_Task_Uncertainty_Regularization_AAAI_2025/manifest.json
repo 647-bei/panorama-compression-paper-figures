@@ -1,0 +1,516 @@
+{
+  "paper": "Debiased_All_in_one_Image_Restoration_with_Task_Uncertainty_Regularization_AAAI_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 9,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure1:Performanceimprovementsofourproposedap- proach across multiple all-in-one image restoration settings, demonstrating consistent and significant gains over existing methods for various tasks and models.",
+      "caption_en": "Figure1:Performanceimprovementsofourproposedap- proach across multiple all-in-one image restoration settings, demonstrating consistent and significant gains over existing methods for various tasks and models.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        388.03,
+        558.015,
+        430.87
+      ],
+      "content_bbox": [
+        319.5,
+        215.999,
+        559.006,
+        377.903
+      ],
+      "crop_bbox": [
+        319.5,
+        215.999,
+        559.006,
+        377.903
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  90.2% 画面  (10.00 x 6.77 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6188171 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2: Evolution of image restoration frameworks. (a) Single-task models, each dedicated to a specific degradation type. (b) All-in-one models capable of handling multiple degradations by incorporating task priors. (c) Our proposed Task Uncertainty Regularization(TUR),integratedasaplug-and-playwaywithinexistingall-in-onemodels.ByintroducinganUncertainty Estimation Module (UEM), our approach adaptively refines tasks during training.",
+      "caption_en": "Figure 2: Evolution of image restoration frameworks. (a) Single-task models, each dedicated to a specific degradation type. (b) All-in-one models capable of handling multiple degradations by incorporating task priors. (c) Our proposed Task Uncertainty Regularization(TUR),integratedasaplug-and-playwaywithinexistingall-in-onemodels.ByintroducinganUncertainty Estimation Module (UEM), our approach adaptively refines tasks during training.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        279.165,
+        557.998,
+        322.005
+      ],
+      "content_bbox": [
+        82.928,
+        46.493,
+        526.5,
+        269.087
+      ],
+      "crop_bbox": [
+        82.928,
+        46.493,
+        526.5,
+        269.087
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.75 in\n\n形状统计 (250 个):\n  FREEFORM (5)                 142\n  TEXT_BOX (17)                76\n  PICTURE (13)                 32\n\n矢量形状: 218\n位图图片: 32\n  0.7% 画面  (0.95 x 0.71 in)\n  0.7% 画面  (0.94 x 0.62 in)\n  0.7% 画面  (0.94 x 0.71 in)\n  0.7% 画面  (1.03 x 0.58 in)\n  0.7% 画面  (0.96 x 0.62 in)\n  0.8% 画面  (0.96 x 0.72 in)\n  0.6% 画面  (1.00 x 0.57 in)\n  0.7% 画面  (0.94 x 0.63 in)\n  0.7% 画面  (0.95 x 0.71 in)\n  0.8% 画面  (0.97 x 0.72 in)\n  ... 共 32 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Figure 3: Visual results of setting 1. More visual results are available at supplementary material. Zoom in for details.",
+      "caption_en": "Figure 3: Visual results of setting 1. More visual results are available at supplementary material. Zoom in for details.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        570.871,
+        292.507,
+        591.969
+      ],
+      "content_bbox": [
+        54.0,
+        371.793,
+        293.856,
+        561.503
+      ],
+      "crop_bbox": [
+        54.0,
+        371.793,
+        293.856,
+        561.503
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.57 in\n\n形状统计 (114 个):\n  TEXT_BOX (17)                40\n  FREEFORM (5)                 38\n  PICTURE (13)                 36\n\n矢量形状: 78\n位图图片: 36\n  2.0% 画面  (2.23 x 1.25 in)\n  2.0% 画面  (2.23 x 1.25 in)\n  2.0% 画面  (2.23 x 1.25 in)\n  2.0% 画面  (2.23 x 1.25 in)\n  2.0% 画面  (2.23 x 1.25 in)\n  2.0% 画面  (2.24 x 1.25 in)\n  2.0% 画面  (2.24 x 1.25 in)\n  2.0% 画面  (2.24 x 1.25 in)\n  2.0% 画面  (2.24 x 1.25 in)\n  2.0% 画面  (2.24 x 1.25 in)\n  ... 共 36 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table 1: Comparison on 7 distinct degradation tasks introduced in (Kong, Dong, and Zhang 2024).",
+      "caption_en": "Table 1: Comparison on 7 distinct degradation tasks introduced in (Kong, Dong, and Zhang 2024).",
+      "caption_zh": "",
+      "caption_bbox": [
+        109.767,
+        155.935,
+        502.25,
+        165.898
+      ],
+      "content_bbox": [
+        55.77,
+        54.213,
+        555.586,
+        145.644
+      ],
+      "crop_bbox": [
+        55.77,
+        54.213,
+        555.586,
+        145.644
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 4,
+      "caption": "Table2:Comparisonsunderthethree-degradationall-in-onesetting:aunifiedmodelistrainedonacombinedsetofimages obtained from all degradation types and levels.",
+      "caption_en": "Table2:Comparisonsunderthethree-degradationall-in-onesetting:aunifiedmodelistrainedonacombinedsetofimages obtained from all degradation types and levels.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        330.065,
+        558.019,
+        350.987
+      ],
+      "content_bbox": [
+        55.77,
+        178.934,
+        555.586,
+        319.787
+      ],
+      "crop_bbox": [
+        55.77,
+        178.934,
+        555.586,
+        319.787
+      ],
+      "original": "tables/original/Table2_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 5,
+      "caption": "Figure 4: Visual results of 3 distinct degradation tasks. Our retrained models obtain more clear visual results across mul- tiple tasks.",
+      "caption_en": "Figure 4: Visual results of 3 distinct degradation tasks. Our retrained models obtain more clear visual results across mul- tiple tasks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        385.313,
+        292.514,
+        417.194
+      ],
+      "content_bbox": [
+        35.863,
+        80.55,
+        557.419,
+        383.893
+      ],
+      "crop_bbox": [
+        35.863,
+        80.55,
+        557.419,
+        383.893
+      ],
+      "original": "figures/original/Fig4_p005.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.80 in\n\n形状统计 (413 个):\n  FREEFORM (5)                 216\n  TEXT_BOX (17)                167\n  PICTURE (13)                 30\n\n矢量形状: 383\n位图图片: 30\n  1.3% 画面  (0.95 x 1.42 in)\n  1.3% 画面  (0.95 x 1.42 in)\n  4.4% 画面  (2.63 x 1.75 in)\n  4.4% 画面  (2.63 x 1.75 in)\n  4.4% 画面  (2.63 x 1.75 in)\n  4.4% 画面  (2.63 x 1.75 in)\n  4.4% 画面  (2.63 x 1.75 in)\n  4.4% 画面  (2.63 x 1.75 in)\n  7.4% 画面  (2.41 x 3.21 in)\n  7.4% 画面  (2.41 x 3.21 in)\n  ... 共 30 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 5,
+      "caption": "Table 3: Comparative results on five distinct tasks in all-in-one image restoration.",
+      "caption_en": "Table 3: Comparative results on five distinct tasks in all-in-one image restoration.",
+      "caption_zh": "",
+      "caption_bbox": [
+        144.089,
+        201.625,
+        467.927,
+        211.588
+      ],
+      "content_bbox": [
+        55.633,
+        54.179,
+        556.774,
+        191.369
+      ],
+      "crop_bbox": [
+        55.633,
+        54.179,
+        556.774,
+        191.369
+      ],
+      "original": "tables/original/Table3_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 5,
+      "caption": "Table 4: Comparison on deweathering tasks with Allweather dataset (Valanarasu, Yasarla, and Patel 2022).",
+      "caption_en": "Table 4: Comparison on deweathering tasks with Allweather dataset (Valanarasu, Yasarla, and Patel 2022).",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        394.103,
+        558.015,
+        415.024
+      ],
+      "content_bbox": [
+        320.987,
+        232.447,
+        556.774,
+        383.893
+      ],
+      "crop_bbox": [
+        320.987,
+        232.447,
+        556.774,
+        383.893
+      ],
+      "original": "tables/original/Table4_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure 5: Illustration of task uncertainty. (a) Distribution of taskuncertaintyacrossmultipledegradationtypes,demon- stratingcleardistinctionsbetweendifferentdegradations. (b)Visualizationofthesample-wiseuncertaintymaps, wherehigheruncertaintyvaluesalignwithmoreseverely degraded regions.",
+      "caption_en": "Figure 5: Illustration of task uncertainty. (a) Distribution of taskuncertaintyacrossmultipledegradationtypes,demon- stratingcleardistinctionsbetweendifferentdegradations. (b)Visualizationofthesample-wiseuncertaintymaps, wherehigheruncertaintyvaluesalignwithmoreseverely degraded regions.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        170.167,
+        292.505,
+        234.924
+      ],
+      "content_bbox": [
+        54.0,
+        54.0,
+        293.522,
+        160.441
+      ],
+      "crop_bbox": [
+        54.0,
+        54.0,
+        293.522,
+        160.441
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  59.2% 画面  (10.00 x 4.44 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4061881 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Figure 6: Dynamic multi-task balancing achieved by the pro- posed TUR for AirNet. Normalized mean values of task un- certaintyfornoise,rain,andhazedegradationsover250 trainingepochsarepresented,illustratingtheadaptivebal- ancing multiple restoration tasks.",
+      "caption_en": "Figure 6: Dynamic multi-task balancing achieved by the pro- posed TUR for AirNet. Normalized mean values of task un- certaintyfornoise,rain,andhazedegradationsover250 trainingepochsarepresented,illustratingtheadaptivebal- ancing multiple restoration tasks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        375.075,
+        292.505,
+        428.874
+      ],
+      "content_bbox": [
+        54.0,
+        54.0,
+        293.522,
+        365.691
+      ],
+      "crop_bbox": [
+        54.0,
+        54.0,
+        293.522,
+        365.691
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 17.32 in\n\n形状统计 (85 个):\n  FREEFORM (5)                 47\n  TEXT_BOX (17)                25\n  PICTURE (13)                 13\n\n矢量形状: 72\n位图图片: 13\n  1.3% 画面  (2.03 x 1.47 in)\n  1.3% 画面  (2.03 x 1.47 in)\n  1.4% 画面  (2.01 x 1.64 in)\n  1.3% 画面  (2.03 x 1.47 in)\n  10.4% 画面  (4.63 x 5.17 in)\n  1.3% 画面  (2.03 x 1.47 in)\n  1.4% 画面  (2.01 x 1.64 in)\n  1.3% 画面  (2.03 x 1.47 in)\n  1.3% 画面  (2.03 x 1.47 in)\n  1.4% 画面  (2.01 x 1.64 in)\n  ... 共 13 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 6,
+      "caption": "Table5:Comparisononde-weatheringtasksonreal-world datasets following (Zhu et al. 2023)",
+      "caption_en": "Table5:Comparisononde-weatheringtasksonreal-world datasets following (Zhu et al. 2023)",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        212.804,
+        558.005,
+        233.726
+      ],
+      "content_bbox": [
+        321.058,
+        54.055,
+        557.351,
+        202.589
+      ],
+      "crop_bbox": [
+        321.058,
+        54.055,
+        557.351,
+        202.589
+      ],
+      "original": "tables/original/Table5_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 6,
+      "caption": "Table 6: Ablation study about with or without the proposed task grouped regularization on 7 distinct degradation tasks.",
+      "caption_en": "Table 6: Ablation study about with or without the proposed task grouped regularization on 7 distinct degradation tasks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        294.347,
+        558.005,
+        315.269
+      ],
+      "content_bbox": [
+        321.058,
+        248.337,
+        557.351,
+        284.032
+      ],
+      "crop_bbox": [
+        321.058,
+        248.337,
+        557.351,
+        284.032
+      ],
+      "original": "tables/original/Table6_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Debiased_All_in_one_Image_Restoration_with_Task_Uncertainty_Regularization_AAAI_2025",
+    "title": "Debiased All-in-one Image Restoration with Task Uncertainty Regularization",
+    "venue": "AAAI",
+    "venue_full": "AAAI",
+    "venue_short": "AAAI",
+    "venue_type": "会议",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "7cf70b5ececdfd27ee1dde9884b105f30a113d09328264120f6b77d128a347d1",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\AAAI 2025-2025-全能图像恢复 多任务去偏-Debiased All-in-One Image Restoration with Task Uncertainty Regularization.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\V58XZGKU\\Wu 等 - Debiased All-in-one Image Restoration with Task Uncertainty Regularization.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    }
+  ]
+}

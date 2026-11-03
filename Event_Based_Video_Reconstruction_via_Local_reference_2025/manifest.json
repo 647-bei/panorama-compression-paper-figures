@@ -1,0 +1,965 @@
+{
+  "paper": "Event_Based_Video_Reconstruction_via_Local_reference_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 17,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Fig. 1.Event image comparison for event stream reconstructions in three scenarios.Thefirstrowoftheeventstreamshowsnoobviousinformation loss.Thesecondandthirdrowsoftheeventstreamexhibitglobalandlocal informationloss,respectively.Overall,comparedwithnaturalimages,event streamsvarysignificantlyacrossdifferentscenarios.",
+      "caption_en": "Fig. 1.Event image comparison for event stream reconstructions in three scenarios.Thefirstrowoftheeventstreamshowsnoobviousinformation loss.Thesecondandthirdrowsoftheeventstreamexhibitglobalandlocal informationloss,respectively.Overall,comparedwithnaturalimages,event streamsvarysignificantlyacrossdifferentscenarios.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        160.161,
+        563.031,
+        204.069
+      ],
+      "content_bbox": [
+        337.082,
+        54.067,
+        537.922,
+        151.334
+      ],
+      "crop_bbox": [
+        337.082,
+        54.067,
+        537.922,
+        151.334
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  64.7% 画面  (10.00 x 4.85 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4435522 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Fig.2. IllustrationoftheLIFneuronlayerandtheproposedSTHneuronlayer.OurSTHneuronsintroducetwolateralconnections.Asshownonthe right,thelateralconnectionsareimplementedviaadditivedepthwiseseparableconvolutions.",
+      "caption_en": "Fig.2. IllustrationoftheLIFneuronlayerandtheproposedSTHneuronlayer.OurSTHneuronsintroducetwolateralconnections.Asshownonthe right,thelateralconnectionsareimplementedviaadditivedepthwiseseparableconvolutions.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        204.865,
+        563.03,
+        221.874
+      ],
+      "content_bbox": [
+        105.504,
+        54.067,
+        506.488,
+        196.038
+      ],
+      "crop_bbox": [
+        105.504,
+        54.067,
+        506.488,
+        196.038
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.79 in\n\n形状统计 (527 个):\n  FREEFORM (5)                 508\n  AUTO_SHAPE (1)               19\n\n矢量形状: 527\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Fig. 3. Dynamics of STH neuron and MSTH neuron. The spikes from the previous layer are weighted by learnable weights and then added to the neuron. FortheSTHneuron,ifthemembranepotentialreachesapositive(negative) threshold,theneuronoutputsapositive(negative)spike.TheMSTHneuron usesmultiplethresholds,andtheoutputisobtainedbyweightingthesumof thespikesatallthresholds. e W= RoundClip \u0012 W γ+ ϵ , −1, 1 \u0013 , (13)",
+      "caption_en": "Fig. 3. Dynamics of STH neuron and MSTH neuron. The spikes from the previous layer are weighted by learnable weights and then added to the neuron. FortheSTHneuron,ifthemembranepotentialreachesapositive(negative) threshold,theneuronoutputsapositive(negative)spike.TheMSTHneuron usesmultiplethresholds,andtheoutputisobtainedbyweightingthesumof thespikesatallthresholds. e W= RoundClip \u0012 W γ+ ϵ , −1, 1 \u0013 , (13)",
+      "caption_zh": "",
+      "caption_bbox": [
+        104.543,
+        204.793,
+        563.034,
+        265.501
+      ],
+      "content_bbox": [
+        327.034,
+        54.067,
+        547.97,
+        195.966
+      ],
+      "crop_bbox": [
+        327.034,
+        54.067,
+        547.97,
+        195.966
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.60 in\n\n形状统计 (548 个):\n  FREEFORM (5)                 540\n  AUTO_SHAPE (1)               8\n\n矢量形状: 548\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Fig.4. OverviewoftheproposedSTHSNNarchitecture.TheSTHSNNconsistsofSTHandMSTHneurons.Foreachtimestep,asetofadjacentvoxel gridsisfedintotheSTHSNN.ThepredictionlayerincreasestheprecisionofthereconstructedimagethroughMSTHneurons.",
+      "caption_en": "Fig.4. OverviewoftheproposedSTHSNNarchitecture.TheSTHSNNconsistsofSTHandMSTHneurons.Foreachtimestep,asetofadjacentvoxel gridsisfedintotheSTHSNN.ThepredictionlayerincreasestheprecisionofthereconstructedimagethroughMSTHneurons.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        161.204,
+        563.024,
+        178.213
+      ],
+      "content_bbox": [
+        87.516,
+        53.861,
+        524.477,
+        152.377
+      ],
+      "crop_bbox": [
+        87.516,
+        53.861,
+        524.477,
+        152.377
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.09 in\n\n形状统计 (586 个):\n  FREEFORM (5)                 546\n  PICTURE (13)                 40\n\n矢量形状: 546\n位图图片: 40\n  0.0% 画面  (0.06 x 0.02 in)\n  0.7% 画面  (0.39 x 0.71 in)\n  0.0% 画面  (0.05 x 0.02 in)\n  0.6% 画面  (0.35 x 0.71 in)\n  0.0% 画面  (0.35 x 0.02 in)\n  0.0% 画面  (0.35 x 0.02 in)\n  0.0% 画面  (0.05 x 0.03 in)\n  0.0% 画面  (0.35 x 0.04 in)\n  0.6% 画面  (0.36 x 0.71 in)\n  0.0% 画面  (0.35 x 0.03 in)\n  ... 共 40 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Fig.5. ComparisonofthedecoderstructuresoftheEVSNN(left)and theproposedSTHSNN(right).OurSTHSNNusesspikecomputationsand isevent-driven.Thedetailedspikecomputationprocessisillustratedinthe bottomsectionofthefigure. E.LossFunctions",
+      "caption_en": "Fig.5. ComparisonofthedecoderstructuresoftheEVSNN(left)and theproposedSTHSNN(right).OurSTHSNNusesspikecomputationsand isevent-driven.Thedetailedspikecomputationprocessisillustratedinthe bottomsectionofthefigure. E.LossFunctions",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        344.908,
+        386.148,
+        381.429
+      ],
+      "content_bbox": [
+        67.787,
+        198.336,
+        281.191,
+        336.081
+      ],
+      "crop_bbox": [
+        67.787,
+        198.336,
+        281.191,
+        336.081
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.64 in\n\n形状统计 (707 个):\n  FREEFORM (5)                 653\n  AUTO_SHAPE (1)               54\n\n矢量形状: 707\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 7,
+      "caption": "Fig. 6. Overview of the proposed TFCSNN architecture. The TFCSNN improves the STHSNN by adding two modules based on the Fourier transform, the TFCMAandTFCMB,whicharepositionedattheheadandtailofthemodel,respectively.TFCMsenhanceimagecontrastbycalibratingfrequency-domain features.",
+      "caption_en": "Fig. 6. Overview of the proposed TFCSNN architecture. The TFCSNN improves the STHSNN by adding two modules based on the Fourier transform, the TFCMAandTFCMB,whicharepositionedattheheadandtailofthemodel,respectively.TFCMsenhanceimagecontrastbycalibratingfrequency-domain features.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        212.95,
+        563.03,
+        238.926
+      ],
+      "content_bbox": [
+        87.512,
+        53.889,
+        524.48,
+        204.123
+      ],
+      "crop_bbox": [
+        87.512,
+        53.889,
+        524.48,
+        204.123
+      ],
+      "original": "figures/original/Fig6_p007.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.65 in\n\n形状统计 (913 个):\n  FREEFORM (5)                 871\n  PICTURE (13)                 40\n  AUTO_SHAPE (1)               2\n\n矢量形状: 873\n位图图片: 40\n  0.0% 画面  (0.06 x 0.02 in)\n  0.4% 画面  (0.40 x 0.71 in)\n  0.0% 画面  (0.06 x 0.02 in)\n  0.4% 画面  (0.35 x 0.70 in)\n  0.0% 画面  (0.35 x 0.02 in)\n  0.0% 画面  (0.35 x 0.02 in)\n  0.0% 画面  (0.05 x 0.03 in)\n  0.0% 画面  (0.35 x 0.04 in)\n  0.4% 画面  (0.35 x 0.71 in)\n  0.0% 画面  (0.35 x 0.03 in)\n  ... 共 40 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 8,
+      "caption": "Fig.7. QualitativecomparisonsofthesequencesfromtheECD(rows1-2),HQF(rows3-4),andMVSEC(rows5-7)datasets.AmongtheSNN-based models,theresultsoftheSTHSNNandTFCSNNhavefewerartifactsandclearerdetails.",
+      "caption_en": "Fig.7. QualitativecomparisonsofthesequencesfromtheECD(rows1-2),HQF(rows3-4),andMVSEC(rows5-7)datasets.AmongtheSNN-based models,theresultsoftheSTHSNNandTFCSNNhavefewerartifactsandclearerdetails.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        593.006,
+        563.03,
+        610.015
+      ],
+      "content_bbox": [
+        90.274,
+        93.769,
+        521.719,
+        584.179
+      ],
+      "crop_bbox": [
+        90.274,
+        93.769,
+        521.719,
+        584.179
+      ],
+      "original": "figures/original/Fig7_p008.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 15.14 in\n\n形状统计 (1250 个):\n  FREEFORM (5)                 1194\n  PICTURE (13)                 56\n\n矢量形状: 1194\n位图图片: 56\n  0.9% 画面  (1.54 x 1.16 in)\n  0.9% 画面  (1.54 x 1.16 in)\n  0.9% 画面  (1.54 x 1.16 in)\n  0.9% 画面  (1.54 x 1.16 in)\n  0.9% 画面  (1.54 x 1.16 in)\n  0.9% 画面  (1.54 x 1.16 in)\n  0.9% 画面  (1.54 x 1.16 in)\n  0.9% 画面  (1.54 x 1.16 in)\n  0.9% 画面  (1.54 x 1.16 in)\n  0.9% 画面  (1.54 x 1.16 in)\n  ... 共 56 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 8,
+      "caption": "TABLEI",
+      "caption_en": "TABLEI",
+      "caption_zh": "",
+      "caption_bbox": [
+        290.805,
+        58.285,
+        321.187,
+        66.255
+      ],
+      "content_bbox": [
+        90.274,
+        93.769,
+        521.719,
+        584.179
+      ],
+      "crop_bbox": [
+        90.274,
+        93.769,
+        521.719,
+        584.179
+      ],
+      "original": "tables/original/Table1_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 9,
+      "caption": "Fig.8. QualitativecomparisonsbetweenSNN-basedmodelsinvariousscenarios.In(b)and(c),theinputeventstreamexhibitsvaryingdegreesof information loss. Overall, our proposed STHSNN and TFCSNN can adaptively complete the reconstruction in various scenarios without severe artifacts, which demonstratestheeffectivenessofSTHneurons.",
+      "caption_en": "Fig.8. QualitativecomparisonsbetweenSNN-basedmodelsinvariousscenarios.In(b)and(c),theinputeventstreamexhibitsvaryingdegreesof information loss. Overall, our proposed STHSNN and TFCSNN can adaptively complete the reconstruction in various scenarios without severe artifacts, which demonstratestheeffectivenessofSTHneurons.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        193.101,
+        563.032,
+        219.077
+      ],
+      "content_bbox": [
+        53.332,
+        54.067,
+        558.66,
+        184.274
+      ],
+      "crop_bbox": [
+        53.332,
+        54.067,
+        558.66,
+        184.274
+      ],
+      "original": "figures/original/Fig8_p009.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  34.4% 画面  (10.00 x 2.58 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 9,
+      "caption": "TABLEII",
+      "caption_en": "TABLEII",
+      "caption_zh": "",
+      "caption_bbox": [
+        420.984,
+        241.772,
+        454.02,
+        249.742
+      ],
+      "content_bbox": [
+        333.125,
+        277.202,
+        541.88,
+        368.638
+      ],
+      "crop_bbox": [
+        333.125,
+        277.202,
+        541.88,
+        368.638
+      ],
+      "original": "tables/original/Table2_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 9,
+      "caption": "TABLEIII RESULTSOFTHE RMS CONTRAST METRIC",
+      "caption_en": "TABLEIII RESULTSOFTHE RMS CONTRAST METRIC",
+      "caption_zh": "",
+      "caption_bbox": [
+        363.154,
+        387.637,
+        509.864,
+        407.562
+      ],
+      "content_bbox": [
+        163.759,
+        414.1,
+        541.88,
+        559.233
+      ],
+      "crop_bbox": [
+        163.759,
+        414.1,
+        541.88,
+        559.233
+      ],
+      "original": "tables/original/Table3_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 9,
+      "caption": "TABLEIV",
+      "caption_en": "TABLEIV",
+      "caption_zh": "",
+      "caption_bbox": [
+        419.434,
+        537.26,
+        455.57,
+        545.23
+      ],
+      "content_bbox": [
+        48.959,
+        547.914,
+        541.759,
+        751.767
+      ],
+      "crop_bbox": [
+        48.959,
+        547.914,
+        541.759,
+        751.767
+      ],
+      "original": "tables/original/Table4_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 10,
+      "caption": "Fig.9. QualitativecomparisonsbetweenSNN-basedmodels.Theresults demonstratethattheTFCSNNeffectivelyimprovestheimagecontrast.",
+      "caption_en": "Fig.9. QualitativecomparisonsbetweenSNN-basedmodels.Theresults demonstratethattheTFCSNNeffectivelyimprovestheimagecontrast.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        257.03,
+        300.02,
+        274.039
+      ],
+      "content_bbox": [
+        69.406,
+        54.067,
+        279.573,
+        248.202
+      ],
+      "crop_bbox": [
+        69.406,
+        54.067,
+        279.573,
+        248.202
+      ],
+      "original": "figures/original/Fig9_p010.png",
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  81.3% 画面  (8.13 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 7431706 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 11,
+      "caption": "TABLEV",
+      "caption_en": "TABLEV",
+      "caption_zh": "",
+      "caption_bbox": [
+        289.254,
+        58.285,
+        322.736,
+        66.255
+      ],
+      "content_bbox": [
+        77.268,
+        70.24,
+        534.725,
+        177.202
+      ],
+      "crop_bbox": [
+        77.268,
+        70.24,
+        534.725,
+        177.202
+      ],
+      "original": "tables/original/Table5_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 11,
+      "caption": "TABLEVI",
+      "caption_en": "TABLEVI",
+      "caption_zh": "",
+      "caption_bbox": [
+        287.927,
+        193.705,
+        324.063,
+        201.675
+      ],
+      "content_bbox": [
+        64.146,
+        205.66,
+        547.847,
+        267.515
+      ],
+      "crop_bbox": [
+        64.146,
+        205.66,
+        547.847,
+        267.515
+      ],
+      "original": "tables/original/Table6_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 11,
+      "caption": "TABLEVII ABLATION RESULTSFOR LATERAL CONNECTION VARIANTS",
+      "caption_en": "TABLEVII ABLATION RESULTSFOR LATERAL CONNECTION VARIANTS",
+      "caption_zh": "",
+      "caption_bbox": [
+        202.868,
+        283.985,
+        407.134,
+        303.91
+      ],
+      "content_bbox": [
+        90.24,
+        310.5,
+        521.752,
+        473.663
+      ],
+      "crop_bbox": [
+        90.24,
+        310.5,
+        521.752,
+        473.663
+      ],
+      "original": "tables/original/Table7_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 11,
+      "caption": "TABLEVIII ABLATION RESULTSFOR MBCONV VARIANTS",
+      "caption_en": "TABLEVIII ABLATION RESULTSFOR MBCONV VARIANTS",
+      "caption_zh": "",
+      "caption_bbox": [
+        226.164,
+        491.828,
+        383.838,
+        511.753
+      ],
+      "content_bbox": [
+        103.117,
+        518.346,
+        508.875,
+        595.071
+      ],
+      "crop_bbox": [
+        103.117,
+        518.346,
+        508.875,
+        595.071
+      ],
+      "original": "tables/original/Table8_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 12,
+      "caption": "Fig.10. Comparisonbetweenbaselinelateralconnections(left)and event-drivenlateralconnections(right).Intheevent-drivenlateralconnec- tion,theternaryconvolutionallayerisreplacedwithaLIFspikingneuron layerandaconventionalconvolutionallayer.",
+      "caption_en": "Fig.10. Comparisonbetweenbaselinelateralconnections(left)and event-drivenlateralconnections(right).Intheevent-drivenlateralconnec- tion,theternaryconvolutionallayerisreplacedwithaLIFspikingneuron layerandaconventionalconvolutionallayer.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        174.325,
+        300.018,
+        209.267
+      ],
+      "content_bbox": [
+        55.234,
+        54.067,
+        293.744,
+        165.498
+      ],
+      "crop_bbox": [
+        55.234,
+        54.067,
+        293.744,
+        165.498
+      ],
+      "original": "figures/original/Fig10_p012.png",
+      "vector": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.29 in\n\n形状统计 (395 个):\n  FREEFORM (5)                 385\n  AUTO_SHAPE (1)               10\n\n矢量形状: 395\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig11",
+      "page": 12,
+      "caption": "Fig.11. FeaturevisualizationoftheSTHneurons.Wepresentthe membranedecaycoefficientsandmembranepotentialoftheSTHneurons inthreedifferentscenarios.Theresultsshowthatthemembranedecay coefficientscansenseregionsofinformationloss,whichhelpsneurons adaptively decay the membrane potential, improving the temporal consistency ofthemembranepotentialsandalleviatingbothglobalandlocalinformation loss.",
+      "caption_en": "Fig.11. FeaturevisualizationoftheSTHneurons.Wepresentthe membranedecaycoefficientsandmembranepotentialoftheSTHneurons inthreedifferentscenarios.Theresultsshowthatthemembranedecay coefficientscansenseregionsofinformationloss,whichhelpsneurons adaptively decay the membrane potential, improving the temporal consistency ofthemembranepotentialsandalleviatingbothglobalandlocalinformation loss.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        559.757,
+        300.017,
+        621.598
+      ],
+      "content_bbox": [
+        48.959,
+        54.067,
+        300.018,
+        550.93
+      ],
+      "crop_bbox": [
+        48.959,
+        54.067,
+        300.018,
+        550.93
+      ],
+      "original": "figures/original/Fig11_p012.png",
+      "vector": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 26.28 in\n\n形状统计 (548 个):\n  FREEFORM (5)                 480\n  PICTURE (13)                 53\n  AUTO_SHAPE (1)               12\n  TEXT_BOX (17)                3\n\n矢量形状: 495\n位图图片: 53\n  1.0% 画面  (2.21 x 1.66 in)\n  1.0% 画面  (2.21 x 1.66 in)\n  1.0% 画面  (2.21 x 1.66 in)\n  1.0% 画面  (2.21 x 1.66 in)\n  0.6% 画面  (0.61 x 3.47 in)\n  1.0% 画面  (2.21 x 1.66 in)\n  1.0% 画面  (2.22 x 1.66 in)\n  1.1% 画面  (2.22 x 1.66 in)\n  1.0% 画面  (2.21 x 1.66 in)\n  0.6% 画面  (0.61 x 3.47 in)\n  ... 共 53 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig12",
+      "page": 12,
+      "caption": "Fig.12. FeaturevisualizationfortheTFCMB.Wepresenttheoutput featuresofthetwobranchesoftheTFCMB(firstandsecondcolumns), thefinaloutput(thirdcolumn),andthereferenceframe(fourthcolumn). We visualize the aforementioned features in the spatial domain (first row) and thefrequency domain(second row),where thefrequency-domainfeaturesare presentedinamplitudespectra.Theresultsshowthatthebrightnessofthe featurespectrumoftheTFCMisconcentratedinthecenter(low-frequency region), indicating that the TFCM tends to capture low-frequency features. The inclusionofadditionallow-frequencyfeaturesenablesthefinalreconstructed imagetobemorecloselyalignedwiththereferenceframeinthefrequency domain,ultimatelyincreasingthereconstructionquality.",
+      "caption_en": "Fig.12. FeaturevisualizationfortheTFCMB.Wepresenttheoutput featuresofthetwobranchesoftheTFCMB(firstandsecondcolumns), thefinaloutput(thirdcolumn),andthereferenceframe(fourthcolumn). We visualize the aforementioned features in the spatial domain (first row) and thefrequency domain(second row),where thefrequency-domainfeaturesare presentedinamplitudespectra.Theresultsshowthatthebrightnessofthe featurespectrumoftheTFCMisconcentratedinthecenter(low-frequency region), indicating that the TFCM tends to capture low-frequency features. The inclusionofadditionallow-frequencyfeaturesenablesthefinalreconstructed imagetobemorecloselyalignedwiththereferenceframeinthefrequency domain,ultimatelyincreasingthereconstructionquality.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        180.095,
+        563.03,
+        277.802
+      ],
+      "content_bbox": [
+        318.008,
+        54.066,
+        556.753,
+        171.268
+      ],
+      "crop_bbox": [
+        318.008,
+        54.066,
+        556.753,
+        171.268
+      ],
+      "original": "figures/original/Fig12_p012.png",
+      "vector": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.60 in\n\n形状统计 (154 个):\n  FREEFORM (5)                 146\n  PICTURE (13)                 8\n\n矢量形状: 146\n位图图片: 8\n  5.8% 画面  (2.58 x 1.98 in)\n  5.8% 画面  (2.58 x 1.98 in)\n  5.8% 画面  (2.58 x 1.98 in)\n  5.8% 画面  (2.58 x 1.98 in)\n  5.8% 画面  (2.58 x 1.98 in)\n  5.8% 画面  (2.58 x 1.98 in)\n  5.8% 画面  (2.58 x 1.98 in)\n  5.8% 画面  (2.58 x 1.98 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table9",
+      "page": 12,
+      "caption": "TABLEIX SPIKE FIRING RATESOF OUR PROPOSED STHSNNAND TFCSNN",
+      "caption_en": "TABLEIX SPIKE FIRING RATESOF OUR PROPOSED STHSNNAND TFCSNN",
+      "caption_zh": "",
+      "caption_bbox": [
+        368.371,
+        294.116,
+        506.64,
+        323.007
+      ],
+      "content_bbox": [
+        333.182,
+        329.553,
+        541.823,
+        493.389
+      ],
+      "crop_bbox": [
+        333.182,
+        329.553,
+        541.823,
+        493.389
+      ],
+      "original": "tables/original/Table9_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table9.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table10",
+      "page": 13,
+      "caption": "TABLEX",
+      "caption_en": "TABLEX",
+      "caption_zh": "",
+      "caption_bbox": [
+        289.254,
+        58.285,
+        322.736,
+        66.255
+      ],
+      "content_bbox": [
+        63.963,
+        70.24,
+        548.03,
+        148.186
+      ],
+      "crop_bbox": [
+        63.963,
+        70.24,
+        548.03,
+        148.186
+      ],
+      "original": "tables/original/Table10_p013.png",
+      "vector": [],
+      "latex": "tables/latex/Table10.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table11",
+      "page": 13,
+      "caption": "TABLEXI",
+      "caption_en": "TABLEXI",
+      "caption_zh": "",
+      "caption_bbox": [
+        156.421,
+        173.0,
+        192.557,
+        180.97
+      ],
+      "content_bbox": [
+        57.328,
+        208.4,
+        291.651,
+        297.709
+      ],
+      "crop_bbox": [
+        57.328,
+        208.4,
+        291.651,
+        297.709
+      ],
+      "original": "tables/original/Table11_p013.png",
+      "vector": [],
+      "latex": "tables/latex/Table11.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Event_Based_Video_Reconstruction_via_Local_reference_2025",
+    "title": "Event-Based Video Reconstruction via Spatial–Temporal Heterogeneous Spiking Neural Network",
+    "venue": "TCSVT",
+    "venue_full": "TCSVT",
+    "venue_short": "TCSVT",
+    "venue_type": "期刊",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://www.ieee.org/publications/rights/index.html",
+    "pdf_url": "https://www.ieee.org/publications/rights/index.html",
+    "access": "local_pdf",
+    "source_sha256": "113f6d3c54abfe9ebd80f901fdb85e193c4f5011cccebfbed0cc49edb0c8aa45",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\IEYFKC8E\\Yu 等 - 2025 - Event-Based Video Reconstruction Via Spatial–Temporal Heterogeneous Spiking Neural Network.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 2区（2025）",
+    "cas_display": "中科院 2区（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    },
+    {
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ]
+    },
+    {
+      "label": "Fig10",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ]
+    },
+    {
+      "label": "Fig11",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ]
+    },
+    {
+      "label": "Fig12",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ]
+    }
+  ]
+}

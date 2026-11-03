@@ -1,0 +1,11 @@
+% Auto-extracted table snippet; requires \usepackage{booktabs}.
+% Caption: TABLEVII:CIFAR10NetworkTopologiesforSTDPtrainingmethodology.NotationsaresameasthatofTableIII. LayerswithBackResconnectionsandrepeatedcomputationshavebeenhighligtedinred.ForwardResidualorSkip connectionsbetweenlayersofanetworkaredenotedinblue.
+\begin{tabular}{llll}
+\toprule
+Model & Configuration & BackRes & Skip \\
+\midrule
+ResNet2 & Input–Conv1(3,36,3x3/1)–Conv2(36,36,3x3/1)– –Pool(2x2/2)–FC1(18432,1024)–FC2(1024,10) & Not Applicable & Input-to-Conv2, Conv1-to-FC1 \\
+ResNet3 & Input–Conv1(3,36,3x3/1)– –Conv2(36,36,3x3/1)– –Conv3(36,36,3x3/1)–Pool(2x2/2)– –FC1(27648,1024)–FC2(1024,10) & Not Applicable & Input-to-Conv2, Conv1-to-FC1, Conv2-to-FC1 \\
+ResNet2x2 & Input–Conv1(3,36,3x3/1)– –Conv2(36,36,3x3/1)– –Conv2(36,36,3x3/1)–Pool(2x2/2)– –FC1(18432,1024)–FC2(1024,10) & [Conv2] repeated 2 times & Input-to-Conv2, Conv1-to-FC1 \\
+\bottomrule
+\end{tabular}

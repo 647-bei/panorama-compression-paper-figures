@@ -29,19 +29,8 @@
         455.561
       ],
       "original": "figures/original/Fig1_p000.png",
-      "vector": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 13.43 in\n\n形状统计 (77 个):\n  FREEFORM (5)                 46\n  TEXT_BOX (17)                29\n  PICTURE (13)                 2\n\n矢量形状: 75\n位图图片: 2\n  17.9% 画面  (8.01 x 4.01 in)\n  9.0% 画面  (4.01 x 4.01 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 77 draws 23 fs 3 polys 13 rings 0 text 29 images 0 inline 2 canvas 1948 1962\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 13.43 in\n\n形状统计 (77 个):\n  FREEFORM (5)                 46\n  TEXT_BOX (17)                29\n  PICTURE (13)                 2\n\n矢量形状: 75\n位图图片: 2\n  17.9% 画面  (8.01 x 4.01 in)\n  9.0% 画面  (4.01 x 4.01 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -69,19 +58,8 @@
         255.164
       ],
       "original": "figures/original/Fig2_p002.png",
-      "vector": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig2\\Fig2.svg (1896x721 -> 1896x721 px, scale 1.0, 33415 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  50.7% 画面  (10.00 x 3.80 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3477227 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "table",
@@ -139,19 +117,8 @@
         275.839
       ],
       "original": "figures/original/Fig3_p003.png",
-      "vector": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 5.63 in\n\n形状统计 (188 个):\n  TEXT_BOX (17)                99\n  FREEFORM (5)                 83\n  PICTURE (13)                 6\n\n矢量形状: 182\n位图图片: 6\n  9.5% 画面  (3.77 x 1.88 in)\n  5.7% 画面  (2.07 x 2.07 in)\n  2.7% 画面  (1.41 x 1.41 in)\n  9.5% 画面  (3.77 x 1.88 in)\n  9.5% 画面  (3.77 x 1.88 in)\n  5.7% 画面  (2.07 x 2.07 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 188 draws 82 fs 1 polys 35 rings 0 text 99 images 0 inline 6 canvas 1948 822\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 5.63 in\n\n形状统计 (188 个):\n  TEXT_BOX (17)                99\n  FREEFORM (5)                 83\n  PICTURE (13)                 6\n\n矢量形状: 182\n位图图片: 6\n  9.5% 画面  (3.77 x 1.88 in)\n  5.7% 画面  (2.07 x 2.07 in)\n  2.7% 画面  (1.41 x 1.41 in)\n  9.5% 画面  (3.77 x 1.88 in)\n  9.5% 画面  (3.77 x 1.88 in)\n  5.7% 画面  (2.07 x 2.07 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -179,19 +146,8 @@
         233.132
       ],
       "original": "figures/original/Fig4_p004.png",
-      "vector": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 5.22 in\n\n形状统计 (120 个):\n  FREEFORM (5)                 94\n  TEXT_BOX (17)                23\n  PICTURE (13)                 3\n\n矢量形状: 117\n位图图片: 3\n  3.4% 画面  (2.16 x 1.08 in)\n  3.4% 画面  (2.16 x 1.08 in)\n  3.4% 画面  (2.16 x 1.08 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 120 draws 83 fs 11 polys 45 rings 0 text 23 images 0 inline 3 canvas 1948 762\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig4\\Fig4.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig4\\Fig4.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 5.22 in\n\n形状统计 (120 个):\n  FREEFORM (5)                 94\n  TEXT_BOX (17)                23\n  PICTURE (13)                 3\n\n矢量形状: 117\n位图图片: 3\n  3.4% 画面  (2.16 x 1.08 in)\n  3.4% 画面  (2.16 x 1.08 in)\n  3.4% 画面  (2.16 x 1.08 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -219,19 +175,7 @@
         371.178
       ],
       "original": "figures/original/Fig5_p004.png",
-      "vector": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 9.57 in\n\n形状统计 (80 个):\n  FREEFORM (5)                 49\n  PICTURE (13)                 27\n  TEXT_BOX (17)                4\n\n矢量形状: 53\n位图图片: 27\n  13.9% 画面  (5.96 x 2.98 in)\n  0.2% 画面  (0.10 x 3.07 in)\n  0.5% 画面  (6.05 x 0.10 in)\n  13.9% 画面  (5.96 x 2.98 in)\n  0.2% 画面  (0.10 x 3.07 in)\n  0.5% 画面  (6.05 x 0.10 in)\n  0.4% 画面  (6.05 x 0.09 in)\n  13.9% 画面  (5.96 x 2.98 in)\n  0.2% 画面  (0.09 x 3.07 in)\n  0.4% 画面  (6.05 x 0.09 in)\n  ... 共 27 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 80 draws 49 fs 0 polys 4 rings 0 text 4 images 0 inline 27 canvas 1948 1398\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig5\\Fig5.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig5\\Fig5.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 9.57 in\n\n形状统计 (80 个):\n  FREEFORM (5)                 49\n  PICTURE (13)                 27\n  TEXT_BOX (17)                4\n\n矢量形状: 53\n位图图片: 27\n  13.9% 画面  (5.96 x 2.98 in)\n  0.2% 画面  (0.10 x 3.07 in)\n  0.5% 画面  (6.05 x 0.10 in)\n  13.9% 画面  (5.96 x 2.98 in)\n  0.2% 画面  (0.10 x 3.07 in)\n  0.5% 画面  (6.05 x 0.10 in)\n  0.4% 画面  (6.05 x 0.09 in)\n  13.9% 画面  (5.96 x 2.98 in)\n  0.2% 画面  (0.09 x 3.07 in)\n  0.4% 画面  (6.05 x 0.09 in)\n  ... 共 27 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "table",
@@ -349,19 +293,8 @@
         350.0
       ],
       "original": "figures/original/Fig6_p007.png",
-      "vector": [
-        "figures/vector/Fig6/Fig6.svg",
-        "figures/vector/Fig6/Fig6.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\BeyondPerspective_ICCV2025\\figures\\vector\\Fig6\\Fig6.svg (1884x1024 -> 1884x1024 px, scale 1.0, 28752 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  72.5% 画面  (10.00 x 5.44 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4969987 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     }
   ],
   "notes": [
@@ -369,66 +302,31 @@
     "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
     "LaTeX tables generated by tools/build_latex_tables.py."
   ],
-  "vectorized": [
-    {
-      "label": "Fig1",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ]
-    },
-    {
-      "label": "Fig2",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ]
-    },
-    {
-      "label": "Fig3",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ]
-    },
-    {
-      "label": "Fig4",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ]
-    },
-    {
-      "label": "Fig5",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ]
-    },
-    {
-      "label": "Fig6",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig6/Fig6.svg",
-        "figures/vector/Fig6/Fig6.pptx"
-      ]
-    }
-  ]
+  "metadata": {
+    "title": "Beyond Perspective: Neural 360-Degree Video Compression",
+    "year": 2025,
+    "venue": "ICCV",
+    "classification": "CCF-A main conference",
+    "topic": [
+      "360-degree video compression",
+      "neural compression",
+      "spherical augmentation"
+    ],
+    "relevance": "直接面向神经360°视频压缩，报告球面特征增强和位置特征编码的低码率收益。",
+    "official_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Regensky_Beyond_Perspective_Neural_360-Degree_Video_Compression_ICCV_2025_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Regensky_Beyond_Perspective_Neural_360-Degree_Video_Compression_ICCV_2025_paper.pdf",
+    "code_url": "https://github.com/FAU-LMS/NVC360",
+    "local_slug": "BeyondPerspective_ICCV2025",
+    "access": "open_pdf",
+    "venue_short": "ICCV",
+    "venue_full": "International Conference on Computer Vision",
+    "venue_type": "会议",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": "A",
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
+  }
 }

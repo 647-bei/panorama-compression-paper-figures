@@ -1,0 +1,406 @@
+{
+  "paper": "SODiff_Semantic_Oriented_Diffusion_Model_AAAI_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 9,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1: JEPG compression artifacts removal performance of recent methods on DIV2K-val (QF=5).",
+      "caption_en": "Figure 1: JEPG compression artifacts removal performance of recent methods on DIV2K-val (QF=5).",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        422.56,
+        558.014,
+        443.482
+      ],
+      "content_bbox": [
+        320.692,
+        228.964,
+        557.436,
+        407.501
+      ],
+      "crop_bbox": [
+        320.692,
+        228.964,
+        557.436,
+        407.501
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.08 in\n\n形状统计 (145 个):\n  FREEFORM (5)                 131\n  TEXT_BOX (17)                13\n  AUTO_SHAPE (1)               1\n\n矢量形状: 145\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2: Training Framework of SAIPE. SAIPE employs a dual-branch training approach with a shared feature extractor Edown. The LQ input image ILis processed to generate intermediate features Fmid, which feed into two branches. The reconstruction decoderDupoutputsˆIrecandisoptimizedviareconstructionlossLrecagainstthehigh-qualitygroundtruthIH.Theimage guidance embedder Talignproduces semantic image embeddings eimg. To strengthen semantic associations, LLaVA-v1.5-7B generates descriptive text from IL, which is embedded to obtain etext. The alignment loss Lalign enforces semantic consistency between eimgand etextin the embedding space, enabling effective guidance for pre-trained T2I diffusion models.",
+      "caption_en": "Figure 2: Training Framework of SAIPE. SAIPE employs a dual-branch training approach with a shared feature extractor Edown. The LQ input image ILis processed to generate intermediate features Fmid, which feed into two branches. The reconstruction decoderDupoutputsˆIrecandisoptimizedviareconstructionlossLrecagainstthehigh-qualitygroundtruthIH.Theimage guidance embedder Talignproduces semantic image embeddings eimg. To strengthen semantic associations, LLaVA-v1.5-7B generates descriptive text from IL, which is embedded to obtain etext. The alignment loss Lalign enforces semantic consistency between eimgand etextin the embedding space, enabling effective guidance for pre-trained T2I diffusion models.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        240.081,
+        558.012,
+        307.441
+      ],
+      "content_bbox": [
+        40.483,
+        41.861,
+        577.943,
+        240.081
+      ],
+      "crop_bbox": [
+        40.483,
+        41.861,
+        577.943,
+        240.081
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.99 in\n\n形状统计 (292 个):\n  FREEFORM (5)                 216\n  AUTO_SHAPE (1)               27\n  TEXT_BOX (17)                25\n  PICTURE (13)                 24\n\n矢量形状: 268\n位图图片: 24\n  0.3% 画面  (0.17 x 1.30 in)\n  0.6% 画面  (0.62 x 0.62 in)\n  0.6% 画面  (0.62 x 0.62 in)\n  0.6% 画面  (0.62 x 0.62 in)\n  0.6% 画面  (0.62 x 0.62 in)\n  0.6% 画面  (0.62 x 0.62 in)\n  0.6% 画面  (0.62 x 0.62 in)\n  0.6% 画面  (0.62 x 0.62 in)\n  0.6% 画面  (0.62 x 0.62 in)\n  1.1% 画面  (0.85 x 0.85 in)\n  ... 共 24 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure3:Visualizationofdifferentsemantic-alignedtrain- ingstrategies.Reddotsrepresenttextembeddings,while bluedotsrepresentalignedembeddingsunderdifferent Taligntraining strategies. Zoom in for better view. where F(·) represents the process of adding diffusion noise, which depends on a random timestep t ∈[0, T].",
+      "caption_en": "Figure3:Visualizationofdifferentsemantic-alignedtrain- ingstrategies.Reddotsrepresenttextembeddings,while bluedotsrepresentalignedembeddingsunderdifferent Taligntraining strategies. Zoom in for better view. where F(·) represents the process of adding diffusion noise, which depends on a random timestep t ∈[0, T].",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        173.951,
+        558.015,
+        217.402
+      ],
+      "content_bbox": [
+        54.0,
+        53.997,
+        292.502,
+        163.05
+      ],
+      "crop_bbox": [
+        54.0,
+        53.997,
+        292.502,
+        163.05
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  61.2% 画面  (10.00 x 4.59 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4193792 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure 4: Training Framework of SODiff. First, the Prompt Track uses the first-stage trained SAIPE to extract semantic-oriented embeddedimageguidanceeimgfromIL.Second,theTimestepTrackperformsOSDtimestepandQFprediction,obtaining τpredand computing Lqf. Next, ILis encoded into latent space through the frozen VAE encoder to obtain zL, with eimgand τpredproviding conditional control for the noise prediction UNet, which performs one-step noise prediction to obtainˆzH. The SDXL Discriminator receives the transformed eimg, ˆzH, and the latent space representation zHof IHto compute LG. Last, ˆzH passes through the frozen VAE Decoder to obtain the reconstructed imageˆIH, which computes Lreconwith IH.",
+      "caption_en": "Figure 4: Training Framework of SODiff. First, the Prompt Track uses the first-stage trained SAIPE to extract semantic-oriented embeddedimageguidanceeimgfromIL.Second,theTimestepTrackperformsOSDtimestepandQFprediction,obtaining τpredand computing Lqf. Next, ILis encoded into latent space through the frozen VAE encoder to obtain zL, with eimgand τpredproviding conditional control for the noise prediction UNet, which performs one-step noise prediction to obtainˆzH. The SDXL Discriminator receives the transformed eimg, ˆzH, and the latent space representation zHof IHto compute LG. Last, ˆzH passes through the frozen VAE Decoder to obtain the reconstructed imageˆIH, which computes Lreconwith IH.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        322.282,
+        558.018,
+        389.976
+      ],
+      "content_bbox": [
+        32.698,
+        33.556,
+        612.0,
+        322.282
+      ],
+      "crop_bbox": [
+        32.698,
+        33.556,
+        612.0,
+        322.282
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.70 in\n\n形状统计 (210 个):\n  FREEFORM (5)                 122\n  PICTURE (13)                 36\n  TEXT_BOX (17)                33\n  AUTO_SHAPE (1)               19\n\n矢量形状: 174\n位图图片: 36\n  0.7% 画面  (0.80 x 0.80 in)\n  0.7% 画面  (0.80 x 0.80 in)\n  0.7% 画面  (0.80 x 0.80 in)\n  0.7% 画面  (0.80 x 0.80 in)\n  2.7% 画面  (1.55 x 1.55 in)\n  1.0% 画面  (0.73 x 1.20 in)\n  2.5% 画面  (1.51 x 1.51 in)\n  1.0% 画面  (0.73 x 1.20 in)\n  2.5% 画面  (1.51 x 1.51 in)\n  0.1% 画面  (0.28 x 0.22 in)\n  ... 共 36 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table1:PerformancecomparisonsacrossdatasetsanddifferentQF.Thebestandsecond-bestresultsareshowninboldand underlined, respectively. Model with asterisk (*) denotes that it is retrained for JPEG compression artifacts removal.",
+      "caption_en": "Table1:PerformancecomparisonsacrossdatasetsanddifferentQF.Thebestandsecond-bestresultsareshowninboldand underlined, respectively. Model with asterisk (*) denotes that it is retrained for JPEG compression artifacts removal.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        424.077,
+        558.019,
+        444.999
+      ],
+      "content_bbox": [
+        54.159,
+        311.818,
+        558.375,
+        398.487
+      ],
+      "crop_bbox": [
+        54.159,
+        311.818,
+        558.375,
+        398.487
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table 2: Ablation study of prompt methods on Urban100 and DIV2K-val datasets. The best results are shown in bold.",
+      "caption_en": "Table 2: Ablation study of prompt methods on Urban100 and DIV2K-val datasets. The best results are shown in bold.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        541.798,
+        292.514,
+        562.72
+      ],
+      "content_bbox": [
+        54.159,
+        469.39,
+        294.426,
+        516.208
+      ],
+      "crop_bbox": [
+        54.159,
+        469.39,
+        294.426,
+        516.208
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure 5: Visual comparison (QF=5) on Urban100 and LIVE-1 datasets. Please zoom in for a better view.",
+      "caption_en": "Figure 5: Visual comparison (QF=5) on Urban100 and LIVE-1 datasets. Please zoom in for a better view.",
+      "caption_zh": "",
+      "caption_bbox": [
+        96.144,
+        402.39,
+        515.876,
+        412.353
+      ],
+      "content_bbox": [
+        54.0,
+        54.001,
+        558.0,
+        391.489
+      ],
+      "crop_bbox": [
+        54.0,
+        54.001,
+        558.0,
+        391.489
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  89.3% 画面  (10.00 x 6.70 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6123214 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table 3: Ablation studies on different components. The best results are shown in bold. TP represents timestep predictor.",
+      "caption_en": "Table 3: Ablation studies on different components. The best results are shown in bold. TP represents timestep predictor.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        503.174,
+        292.514,
+        524.096
+      ],
+      "content_bbox": [
+        57.236,
+        382.523,
+        528.778,
+        489.703
+      ],
+      "crop_bbox": [
+        57.236,
+        382.523,
+        528.778,
+        489.703
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 6,
+      "caption": "Table4:Ablationstudiesondifferentlossfunctions.The best results are shown in bold.",
+      "caption_en": "Table4:Ablationstudiesondifferentlossfunctions.The best results are shown in bold.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        503.174,
+        558.015,
+        524.096
+      ],
+      "content_bbox": [
+        87.457,
+        382.523,
+        549.652,
+        489.612
+      ],
+      "crop_bbox": [
+        87.457,
+        382.523,
+        549.652,
+        489.612
+      ],
+      "original": "tables/original/Table4_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "SODiff_Semantic_Oriented_Diffusion_Model_AAAI_2026",
+    "title": "SODiff: Semantic-Oriented Diffusion Model for JPEG Compression Artifacts Removal",
+    "venue": "AAAI",
+    "venue_full": "AAAI",
+    "venue_short": "AAAI",
+    "venue_type": "会议",
+    "year": 2026,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "fd9c89a387b5da503775290b7c046dd278b7d619cfb208ad7ff0c292cab52eea",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\AAAI 2026-2026-JPEG压缩伪影去除 扩散恢复-SODiff Semantic-Oriented Diffusion Model for JPEG Compression Artifacts Removal.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\XGUITZWV\\Yang 等 - SODiff：Semantic-Oriented Diffusion Model for JPEG Compression Artifacts Removal.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    }
+  ]
+}

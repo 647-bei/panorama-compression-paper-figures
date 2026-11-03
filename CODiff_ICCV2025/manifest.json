@@ -29,19 +29,8 @@
         305.342
       ],
       "original": "figures/original/Fig1_p000.png",
-      "vector": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig1\\Fig1.svg (955x367 -> 1910x734 px, scale 2.0, 16891 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  51.2% 画面  (10.00 x 3.84 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3513976 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -69,19 +58,8 @@
         325.103
       ],
       "original": "figures/original/Fig2_p001.png",
-      "vector": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 14.15 in\n\n形状统计 (1855 个):\n  FREEFORM (5)                 1770\n  TEXT_BOX (17)                69\n  PICTURE (13)                 8\n  AUTO_SHAPE (1)               8\n\n矢量形状: 1847\n位图图片: 8\n  1.5% 画面  (2.17 x 1.29 in)\n  1.5% 画面  (2.17 x 1.29 in)\n  1.5% 画面  (2.17 x 1.30 in)\n  0.4% 画面  (1.16 x 0.69 in)\n  1.5% 画面  (2.17 x 1.29 in)\n  0.4% 画面  (1.16 x 0.69 in)\n  0.4% 画面  (1.16 x 0.69 in)\n  0.4% 画面  (1.16 x 0.69 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nfont ArialMT 无子集覆盖全部字符（缺 29 个），缺字回退系统字体 Arial\nops 1855 draws 957 fs 816 polys 862 rings 8 text 69 images 0 inline 8 canvas 1948 2067\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig2\\Fig2.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig2\\Fig2.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 14.15 in\n\n形状统计 (1855 个):\n  FREEFORM (5)                 1770\n  TEXT_BOX (17)                69\n  PICTURE (13)                 8\n  AUTO_SHAPE (1)               8\n\n矢量形状: 1847\n位图图片: 8\n  1.5% 画面  (2.17 x 1.29 in)\n  1.5% 画面  (2.17 x 1.29 in)\n  1.5% 画面  (2.17 x 1.30 in)\n  0.4% 画面  (1.16 x 0.69 in)\n  1.5% 画面  (2.17 x 1.29 in)\n  0.4% 画面  (1.16 x 0.69 in)\n  0.4% 画面  (1.16 x 0.69 in)\n  0.4% 画面  (1.16 x 0.69 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -109,19 +87,8 @@
         350.437
       ],
       "original": "figures/original/Fig3_p002.png",
-      "vector": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 7.55 in\n\n形状统计 (1042 个):\n  FREEFORM (5)                 681\n  PICTURE (13)                 195\n  AUTO_SHAPE (1)               111\n  TEXT_BOX (17)                55\n\n矢量形状: 847\n位图图片: 195\n  0.9% 画面  (0.47 x 1.84 in)\n  0.3% 画面  (0.55 x 0.47 in)\n  0.9% 画面  (0.47 x 1.84 in)\n  0.3% 画面  (0.55 x 0.47 in)\n  0.4% 画面  (0.31 x 1.31 in)\n  0.2% 画面  (0.53 x 0.31 in)\n  0.4% 画面  (0.31 x 1.31 in)\n  0.2% 画面  (0.53 x 0.31 in)\n  0.2% 画面  (0.23 x 0.86 in)\n  0.1% 画面  (0.39 x 0.23 in)\n  ... 共 195 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nfont ArialMT 无子集覆盖全部字符（缺 51 个），缺字回退系统字体 Arial\nfont Calibri 无子集覆盖全部字符（缺 6 个），缺字回退系统字体 Calibri\nops 1042 draws 431 fs 0 polys 681 rings 111 text 55 images 4 inline 191 canvas 1948 1103\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 7.55 in\n\n形状统计 (1042 个):\n  FREEFORM (5)                 681\n  PICTURE (13)                 195\n  AUTO_SHAPE (1)               111\n  TEXT_BOX (17)                55\n\n矢量形状: 847\n位图图片: 195\n  0.9% 画面  (0.47 x 1.84 in)\n  0.3% 画面  (0.55 x 0.47 in)\n  0.9% 画面  (0.47 x 1.84 in)\n  0.3% 画面  (0.55 x 0.47 in)\n  0.4% 画面  (0.31 x 1.31 in)\n  0.2% 画面  (0.53 x 0.31 in)\n  0.4% 画面  (0.31 x 1.31 in)\n  0.2% 画面  (0.53 x 0.31 in)\n  0.2% 画面  (0.23 x 0.86 in)\n  0.1% 画面  (0.39 x 0.23 in)\n  ... 共 195 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -149,19 +116,8 @@
         155.408
       ],
       "original": "figures/original/Fig4_p003.png",
-      "vector": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ],
-      "vector_mode": "pdf_vector_svg_only+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "ops 3328 draws 1677 fs 1627 polys 1606 rings 0 text 75 images 0 inline 0 canvas 1948 346\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig4\\Fig4.svg\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  22.8% 画面  (10.00 x 1.71 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "table",
@@ -219,19 +175,8 @@
         427.996
       ],
       "original": "figures/original/Fig5_p006.png",
-      "vector": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig5\\Fig5.svg (1951x1425 -> 1951x1425 px, scale 1.0, 32820 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  97.4% 画面  (10.00 x 7.30 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6678728 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -259,19 +204,8 @@
         354.843
       ],
       "original": "figures/original/Fig6_p007.png",
-      "vector": [
-        "figures/vector/Fig6/Fig6.svg",
-        "figures/vector/Fig6/Fig6.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 16.23 in\n\n形状统计 (134 个):\n  TEXT_BOX (17)                74\n  FREEFORM (5)                 53\n  PICTURE (13)                 7\n\n矢量形状: 127\n位图图片: 7\n  8.8% 画面  (3.84 x 4.97 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 134 draws 53 fs 0 polys 21 rings 0 text 74 images 0 inline 7 canvas 1948 2371\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig6\\Fig6.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig6\\Fig6.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 16.23 in\n\n形状统计 (134 个):\n  TEXT_BOX (17)                74\n  FREEFORM (5)                 53\n  PICTURE (13)                 7\n\n矢量形状: 127\n位图图片: 7\n  8.8% 画面  (3.84 x 4.97 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n  3.1% 画面  (3.13 x 2.12 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -299,19 +233,7 @@
         450.814
       ],
       "original": "figures/original/Fig7_p007.png",
-      "vector": [
-        "figures/vector/Fig7/Fig7.svg",
-        "figures/vector/Fig7/Fig7.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 21.36 in\n\n形状统计 (397 个):\n  TEXT_BOX (17)                205\n  FREEFORM (5)                 192\n\n矢量形状: 397\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 397 draws 190 fs 25 polys 98 rings 0 text 205 images 0 inline 0 canvas 1948 3120\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig7\\Fig7.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\CODiff_ICCV2025\\figures\\vector\\Fig7\\Fig7.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 21.36 in\n\n形状统计 (397 个):\n  TEXT_BOX (17)                205\n  FREEFORM (5)                 192\n\n矢量形状: 397\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "table",
@@ -529,76 +451,31 @@
     "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
     "LaTeX tables generated by tools/build_latex_tables.py."
   ],
-  "vectorized": [
-    {
-      "label": "Fig1",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ]
-    },
-    {
-      "label": "Fig2",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ]
-    },
-    {
-      "label": "Fig3",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ]
-    },
-    {
-      "label": "Fig4",
-      "kind": "figure",
-      "mode": "pdf_vector_svg_only+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ]
-    },
-    {
-      "label": "Fig5",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ]
-    },
-    {
-      "label": "Fig6",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig6/Fig6.svg",
-        "figures/vector/Fig6/Fig6.pptx"
-      ]
-    },
-    {
-      "label": "Fig7",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig7/Fig7.svg",
-        "figures/vector/Fig7/Fig7.pptx"
-      ]
-    }
-  ]
+  "metadata": {
+    "title": "Compression-Aware One-Step Diffusion Model for JPEG Artifact Removal",
+    "year": 2025,
+    "venue": "ICCV",
+    "classification": "CCF-A main conference",
+    "topic": [
+      "compression artifact removal",
+      "diffusion restoration",
+      "JPEG"
+    ],
+    "relevance": "压缩感知的一步扩散恢复，可作低码率后质量增强的生成式对比基线。",
+    "official_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Guo_Compression-Aware_One-Step_Diffusion_Model_for_JPEG_Artifact_Removal_ICCV_2025_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Guo_Compression-Aware_One-Step_Diffusion_Model_for_JPEG_Artifact_Removal_ICCV_2025_paper.pdf",
+    "code_url": "https://github.com/jp-guo/CODiff",
+    "local_slug": "CODiff_ICCV2025",
+    "access": "open_pdf",
+    "venue_short": "ICCV",
+    "venue_full": "International Conference on Computer Vision",
+    "venue_type": "会议",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": "A",
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
+  }
 }

@@ -29,19 +29,7 @@
         259.94
       ],
       "original": "figures/original/Fig1_p002.png",
-      "vector": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 6.84 in\n\n形状统计 (500 个):\n  FREEFORM (5)                 444\n  TEXT_BOX (17)                44\n  AUTO_SHAPE (1)               7\n  PICTURE (13)                 5\n\n矢量形状: 495\n位图图片: 5\n  32.6% 画面  (6.13 x 4.85 in)\n  7.7% 画面  (1.68 x 4.21 in)\n  0.8% 画面  (1.26 x 0.59 in)\n  0.0% 画面  (0.09 x 0.04 in)\n  0.7% 画面  (1.08 x 0.59 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 500 draws 251 fs 19 polys 407 rings 7 text 44 images 1 inline 4 canvas 1948 1000\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 6.84 in\n\n形状统计 (500 个):\n  FREEFORM (5)                 444\n  TEXT_BOX (17)                44\n  AUTO_SHAPE (1)               7\n  PICTURE (13)                 5\n\n矢量形状: 495\n位图图片: 5\n  32.6% 画面  (6.13 x 4.85 in)\n  7.7% 画面  (1.68 x 4.21 in)\n  0.8% 画面  (1.26 x 0.59 in)\n  0.0% 画面  (0.09 x 0.04 in)\n  0.7% 画面  (1.08 x 0.59 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -69,19 +57,7 @@
         670.917
       ],
       "original": "figures/original/Fig2_p003.png",
-      "vector": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 15.17 in\n\n形状统计 (341 个):\n  FREEFORM (5)                 281\n  TEXT_BOX (17)                47\n  AUTO_SHAPE (1)               13\n\n矢量形状: 341\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 341 draws 188 fs 0 polys 261 rings 13 text 47 images 0 inline 0 canvas 1948 2217\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig2\\Fig2.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig2\\Fig2.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 15.17 in\n\n形状统计 (341 个):\n  FREEFORM (5)                 281\n  TEXT_BOX (17)                47\n  AUTO_SHAPE (1)               13\n\n矢量形状: 341\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -109,19 +85,7 @@
         162.166
       ],
       "original": "figures/original/Fig3_p004.png",
-      "vector": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 5.16 in\n\n形状统计 (179 个):\n  FREEFORM (5)                 149\n  TEXT_BOX (17)                25\n  AUTO_SHAPE (1)               5\n\n矢量形状: 179\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 179 draws 147 fs 0 polys 39 rings 5 text 25 images 0 inline 0 canvas 1948 754\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 5.16 in\n\n形状统计 (179 个):\n  FREEFORM (5)                 149\n  TEXT_BOX (17)                25\n  AUTO_SHAPE (1)               5\n\n矢量形状: 179\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -149,19 +113,7 @@
         535.59
       ],
       "original": "figures/original/Fig4_p005.png",
-      "vector": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 23.46 in\n\n形状统计 (208 个):\n  FREEFORM (5)                 164\n  TEXT_BOX (17)                43\n  AUTO_SHAPE (1)               1\n\n矢量形状: 208\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 208 draws 90 fs 57 polys 104 rings 1 text 43 images 0 inline 0 canvas 1948 3427\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig4\\Fig4.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig4\\Fig4.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 23.46 in\n\n形状统计 (208 个):\n  FREEFORM (5)                 164\n  TEXT_BOX (17)                43\n  AUTO_SHAPE (1)               1\n\n矢量形状: 208\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "table",
@@ -177,16 +129,16 @@
         77.217
       ],
       "content_bbox": [
-        39.685,
+        42.52,
         86.338,
-        294.783,
-        527.953
+        259.561,
+        307.978
       ],
       "crop_bbox": [
-        39.685,
+        42.52,
         86.338,
-        294.783,
-        527.953
+        259.561,
+        307.978
       ],
       "original": "tables/original/Table1_p005.png",
       "vector": [],
@@ -219,19 +171,7 @@
         477.578
       ],
       "original": "figures/original/Fig5_p006.png",
-      "vector": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 10.99 in\n\n形状统计 (507 个):\n  FREEFORM (5)                 386\n  TEXT_BOX (17)                114\n  AUTO_SHAPE (1)               7\n\n矢量形状: 507\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 507 draws 269 fs 117 polys 203 rings 7 text 114 images 0 inline 0 canvas 1948 1606\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig5\\Fig5.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DeepSNN_0p3Spikes_NC2024\\figures\\vector\\Fig5\\Fig5.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 10.99 in\n\n形状统计 (507 个):\n  FREEFORM (5)                 386\n  TEXT_BOX (17)                114\n  AUTO_SHAPE (1)               7\n\n矢量形状: 507\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "table",
@@ -269,56 +209,33 @@
     "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
     "LaTeX tables generated by tools/build_latex_tables.py."
   ],
-  "vectorized": [
-    {
-      "label": "Fig1",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ]
-    },
-    {
-      "label": "Fig2",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ]
-    },
-    {
-      "label": "Fig3",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ]
-    },
-    {
-      "label": "Fig4",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ]
-    },
-    {
-      "label": "Fig5",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ]
-    }
-  ]
+  "metadata": {
+    "title": "High-performance deep spiking neural networks with 0.3 spikes per neuron",
+    "year": 2024,
+    "venue": "Nature Communications",
+    "classification": "Nature Portfolio journal",
+    "topic": [
+      "SNN",
+      "temporal coding",
+      "sparse spikes",
+      "energy efficiency"
+    ],
+    "relevance": "TTFS脉冲时序、稀疏放电和低事件数，适合构建SNN低功耗质量增强模块。",
+    "official_url": "https://www.nature.com/articles/s41467-024-51110-5",
+    "pdf_url": "https://www.nature.com/articles/s41467-024-51110-5.pdf",
+    "doi": "10.1038/s41467-024-51110-5",
+    "local_slug": "DeepSNN_0p3Spikes_NC2024",
+    "access": "open_pdf",
+    "venue_short": "Nat Commun",
+    "venue_full": "Nature Communications",
+    "venue_type": "期刊",
+    "cas_zone": "1区",
+    "cas_top": true,
+    "cas_category": "综合性期刊",
+    "cas_display": "中科院 1区 · Top（2025，综合性期刊）",
+    "ccf_rank": null,
+    "ccf_scope": null,
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院 1区 · Top（2025，综合性期刊）"
+  }
 }

@@ -1,0 +1,365 @@
+{
+  "paper": "Q_UANTIZED_S_PIKE_DRIVEN_T_RANSFORMER_Local_reference_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 25,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Figure 1:Overview of the QSD-Transformer.(a) Proposed quantized spike-driven self-attention (Q- SDSA) module, where the membrane potential is rectified and then sent to the information-enhanced LIF (IE-LIF) neuron.(b) Proposed IE-LIF spiking neuron model, which utilizes the multi-bit spike during training while the binary spike during inference.(c) Proposed fine-grained distillation scheme.",
+      "caption_en": "Figure 1:Overview of the QSD-Transformer.(a) Proposed quantized spike-driven self-attention (Q- SDSA) module, where the membrane potential is rectified and then sent to the information-enhanced LIF (IE-LIF) neuron.(b) Proposed IE-LIF spiking neuron model, which utilizes the multi-bit spike during training while the binary spike during inference.(c) Proposed fine-grained distillation scheme.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        384.642,
+        505.656,
+        427.446
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        374.552
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        374.552
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "pdf_vector+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 11.69 in\n\n形状统计 (578 个):\n  FREEFORM (5)                 416\n  TEXT_BOX (17)                145\n  PICTURE (13)                 16\n  AUTO_SHAPE (1)               1\n\n矢量形状: 562\n位图图片: 16\n  0.9% 画面  (1.39 x 1.06 in)\n  1.0% 画面  (1.39 x 1.07 in)\n  1.0% 画面  (1.39 x 1.07 in)\n  0.0% 画面  (0.13 x 0.11 in)\n  0.0% 画面  (0.13 x 0.11 in)\n  0.0% 画面  (0.13 x 0.11 in)\n  1.2% 画面  (1.66 x 1.11 in)\n  0.9% 画面  (1.34 x 1.03 in)\n  0.9% 画面  (1.34 x 1.03 in)\n  0.9% 画面  (1.33 x 1.02 in)\n  ... 共 16 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nfont CambriaMath 无子集覆盖全部字符（缺 7 个），缺字回退系统字体 Cambria Math\nops 578 draws 361 fs 11 polys 270 rings 1 text 145 images 3 inline 16 canvas 1948 1708\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Q_UANTIZED_S_PIKE_DRIVEN_T_RANSFORMER_Local_reference_2025\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Q_UANTIZED_S_PIKE_DRIVEN_T_RANSFORMER_Local_reference_2025\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.69 in\n\n形状统计 (578 个):\n  FREEFORM (5)                 416\n  TEXT_BOX (17)                145\n  PICTURE (13)                 16\n  AUTO_SHAPE (1)               1\n\n矢量形状: 562\n位图图片: 16\n  0.9% 画面  (1.39 x 1.06 in)\n  1.0% 画面  (1.39 x 1.07 in)\n  1.0% 画面  (1.39 x 1.07 in)\n  0.0% 画面  (0.13 x 0.11 in)\n  0.0% 画面  (0.13 x 0.11 in)\n  0.0% 画面  (0.13 x 0.11 in)\n  1.2% 画面  (1.66 x 1.11 in)\n  0.9% 画面  (1.34 x 1.03 in)\n  0.9% 画面  (1.34 x 1.03 in)\n  0.9% 画面  (1.33 x 1.02 in)\n  ... 共 16 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 4,
+      "caption": "Figure 2:(a) Accuracy of quantizing different modules in the SD-Transformer v2 and its same ANN Transformer.(b) The distribution of the attention module (blue shadow), and the probability density function curve of normal distribution (red line).Experiments are conducted on ImageNet,and 3 layers in SD-Transformer v2 and its same ANN Transformer are selected for illustration.",
+      "caption_en": "Figure 2:(a) Accuracy of quantizing different modules in the SD-Transformer v2 and its same ANN Transformer.(b) The distribution of the attention module (blue shadow), and the probability density function curve of normal distribution (red line).Experiments are conducted on ImageNet,and 3 layers in SD-Transformer v2 and its same ANN Transformer are selected for illustration.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.691,
+        298.691,
+        504.353,
+        341.485
+      ],
+      "content_bbox": [
+        113.653,
+        143.411,
+        502.634,
+        284.16
+      ],
+      "crop_bbox": [
+        113.653,
+        143.411,
+        502.634,
+        284.16
+      ],
+      "original": "figures/original/Fig2_p004.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 4.89 in\n\n形状统计 (380 个):\n  FREEFORM (5)                 278\n  TEXT_BOX (17)                100\n  PICTURE (13)                 2\n\n矢量形状: 378\n位图图片: 2\n  12.3% 画面  (4.63 x 1.74 in)\n  12.3% 画面  (4.63 x 1.74 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nfont ArialMT 无子集覆盖全部字符（缺 5 个），缺字回退系统字体 Arial\nops 380 draws 182 fs 96 polys 113 rings 0 text 100 images 2 inline 0 canvas 1948 715\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Q_UANTIZED_S_PIKE_DRIVEN_T_RANSFORMER_Local_reference_2025\\figures\\vector\\Fig2\\Fig2.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Q_UANTIZED_S_PIKE_DRIVEN_T_RANSFORMER_Local_reference_2025\\figures\\vector\\Fig2\\Fig2.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.89 in\n\n形状统计 (380 个):\n  FREEFORM (5)                 278\n  TEXT_BOX (17)                100\n  PICTURE (13)                 2\n\n矢量形状: 378\n位图图片: 2\n  12.3% 画面  (4.63 x 1.74 in)\n  12.3% 画面  (4.63 x 1.74 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 7,
+      "caption": "Figure 3:(a) Comparative results of accuracy, power, and parameters on ImageNet.(b) Comparison of information distribution in Q-SDSA before and after using the proposed IE-LIF and FGD scheme.",
+      "caption_en": "Figure 3:(a) Comparative results of accuracy, power, and parameters on ImageNet.(b) Comparison of information distribution in Q-SDSA before and after using the proposed IE-LIF and FGD scheme.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        234.755,
+        503.999,
+        255.637
+      ],
+      "content_bbox": [
+        105.276,
+        27.813,
+        504.0,
+        220.251
+      ],
+      "crop_bbox": [
+        105.276,
+        27.813,
+        504.0,
+        220.251
+      ],
+      "original": "figures/original/Fig3_p007.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 6.49 in\n\n形状统计 (291 个):\n  FREEFORM (5)                 185\n  TEXT_BOX (17)                106\n\n矢量形状: 291\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 291 draws 148 fs 52 polys 52 rings 0 text 106 images 0 inline 0 canvas 1948 948\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Q_UANTIZED_S_PIKE_DRIVEN_T_RANSFORMER_Local_reference_2025\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Q_UANTIZED_S_PIKE_DRIVEN_T_RANSFORMER_Local_reference_2025\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.49 in\n\n形状统计 (291 个):\n  FREEFORM (5)                 185\n  TEXT_BOX (17)                106\n\n矢量形状: 291\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 7,
+      "caption": "Table 1:ImageNet classification results (Deng et al., 2009).‘ Bits’ denotes the bit width of the weight and activity, respectively.Power is the estimation of energy consumption same as Yao et al. (2023b). ⋆indicates self-implementation results with open-source code (Yu et al., 2023).",
+      "caption_en": "Table 1:ImageNet classification results (Deng et al., 2009).‘ Bits’ denotes the bit width of the weight and activity, respectively.Power is the estimation of energy consumption same as Yao et al. (2023b). ⋆indicates self-implementation results with open-source code (Yu et al., 2023).",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.691,
+        271.335,
+        505.741,
+        303.14
+      ],
+      "content_bbox": [
+        442.903,
+        154.133,
+        483.055,
+        207.173
+      ],
+      "crop_bbox": [
+        442.903,
+        154.133,
+        483.055,
+        207.173
+      ],
+      "original": "tables/original/Table1_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 8,
+      "caption": "Table 2.Obviously, the QSD-Transformer outperforms the existing state-of-the-art methods in the SNN domain by a significant margin.More specifically,our method exceeds the performance of SD-Transformer v2 by 5.8% in terms of the mAP@0.5 metric, while utilizing fewer than half the parameters.In conclusion, our approach demonstrates efficacy in object detection tasks and has established a new benchmark for detection within the SNN domain.",
+      "caption_en": "Table 2.Obviously, the QSD-Transformer outperforms the existing state-of-the-art methods in the SNN domain by a significant margin.More specifically,our method exceeds the performance of SD-Transformer v2 by 5.8% in terms of the mAP@0.5 metric, while utilizing fewer than half the parameters.In conclusion, our approach demonstrates efficacy in object detection tasks and has established a new benchmark for detection within the SNN domain.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        348.474,
+        504.165,
+        402.197
+      ],
+      "content_bbox": [
+        108.0,
+        141.162,
+        504.016,
+        288.598
+      ],
+      "crop_bbox": [
+        108.0,
+        141.162,
+        504.016,
+        288.598
+      ],
+      "original": "tables/original/Table2_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 8,
+      "caption": "Table 3:Semantic segmentation results on ADE20K (Zhou et al., 2017).",
+      "caption_en": "Table 3:Semantic segmentation results on ADE20K (Zhou et al., 2017).",
+      "caption_zh": "",
+      "caption_bbox": [
+        161.717,
+        81.977,
+        449.975,
+        91.94
+      ],
+      "content_bbox": [
+        112.842,
+        100.111,
+        499.173,
+        169.535
+      ],
+      "crop_bbox": [
+        112.842,
+        100.111,
+        499.173,
+        169.535
+      ],
+      "original": "tables/original/Table3_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 8,
+      "caption": "Table 4:Transfer learning results on CIFAR10, CIFAR100 and CIFAR10-DVS.",
+      "caption_en": "Table 4:Transfer learning results on CIFAR10, CIFAR100 and CIFAR10-DVS.",
+      "caption_zh": "",
+      "caption_bbox": [
+        147.067,
+        188.553,
+        464.625,
+        198.516
+      ],
+      "content_bbox": [
+        113.884,
+        207.333,
+        498.131,
+        285.65
+      ],
+      "crop_bbox": [
+        113.884,
+        207.333,
+        498.131,
+        285.65
+      ],
+      "original": "tables/original/Table4_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 9,
+      "caption": "Table 5 that the accuracy decreases with bit width reduction.Notably, even when the weights are quantized to 2-bit, our method still achieves 75.0% accuracy.",
+      "caption_en": "Table 5 that the accuracy decreases with bit width reduction.Notably, even when the weights are quantized to 2-bit, our method still achieves 75.0% accuracy.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.641,
+        265.58,
+        505.247,
+        297.536
+      ],
+      "content_bbox": [
+        133.867,
+        97.513,
+        475.643,
+        228.563
+      ],
+      "crop_bbox": [
+        133.867,
+        97.513,
+        475.643,
+        228.563
+      ],
+      "original": "tables/original/Table5_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 9,
+      "caption": "Table 6: Ablation study of the activity bits and training time step on the QSD-Transformer.",
+      "caption_en": "Table 6: Ablation study of the activity bits and training time step on the QSD-Transformer.",
+      "caption_zh": "",
+      "caption_bbox": [
+        325.492,
+        435.957,
+        503.995,
+        456.803
+      ],
+      "content_bbox": [
+        337.729,
+        468.045,
+        489.582,
+        550.058
+      ],
+      "crop_bbox": [
+        337.729,
+        468.045,
+        489.582,
+        550.058
+      ],
+      "original": "tables/original/Table6_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Q_UANTIZED_S_PIKE_DRIVEN_T_RANSFORMER_Local_reference_2025",
+    "title": "Spiking neural networks (SNNs) are emerging as a promising energy-efficient alternative to traditional artificial neural networks (ANNs) due to their spike-driven paradigm. However, recent research in the SNN domain has mainly focused on enhancing accuracy by designing large-scale Transformer structures, which",
+    "venue": "ICLR",
+    "venue_full": "ICLR",
+    "venue_short": "ICLR",
+    "venue_type": "会议",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "87cdc23f005c6d259a5ef94614ca4cea74259145b6e795397aa91a08f8ab18ab",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\BF6PGJJH\\Qiu 等 - 2025 - Quantized spike-driven transformer.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "CCF会议 B类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 B类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    }
+  ]
+}

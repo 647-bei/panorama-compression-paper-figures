@@ -1,0 +1,12 @@
+% Auto-extracted table snippet; requires \usepackage{booktabs}.
+% Caption: TABLEIX:CIFAR10NetworkTopologiesforAGDtrainingmethodology.NotationsaresameasthatofTableIII. LayerswithBackResconnectionsandrepeatedcomputationshavebeenhighligtedinred.
+\begin{tabular}{lll}
+\toprule
+Model & Configuration & BackRes \\
+\midrule
+VGG5 & Input–Conv1(3,64,3x3/1)–Conv2(64,64,3x3/1)– –Pool(2x2/2)–Conv3(3,64,3x3/1)–Conv4(64,64,3x3/1)– –Pool(2x2/2)–FC1(4096,512)–FC2(512,10) & Not Applicable \\
+VGG3x2 & Input–Conv1(3,64,3x3/1)–Conv2(64,64,3x3/1)– –Pool(2x2/2)–Conv3(3,64,3x3/1)–Conv3(64,64,3x3/1)– –Pool(2x2/2)–FC1(4096,512)–FC2(512,10) & [Conv3] repeated 2 times \\
+VGG7 & Input–Conv1(3,64,3x3/1)–Conv2(64,64,3x3/1)– –Pool(2x2/2)–Conv3(3,64,3x3/1)–Conv4(64,64,3x3/1)– –Conv5(3,64,3x3/1)–Conv6(64,64,3x3/1)– –Pool(2x2/2)–FC1(4096,512)–FC2(512,10) & Not Applicable \\
+VGG3x4 & Input–Conv1(3,64,3x3/1)–Conv2(64,64,3x3/1)– –Pool(2x2/2)–Conv3(3,64,3x3/1)–Conv3(64,64,3x3/1)– –Conv3(3,64,3x3/1)–Conv3(64,64,3x3/1)– –Pool(2x2/2)–FC1(4096,512)–FC2(512,10) & [Conv3] repeated 4 times \\
+\bottomrule
+\end{tabular}

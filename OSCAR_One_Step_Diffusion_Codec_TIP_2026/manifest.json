@@ -1,0 +1,485 @@
+{
+  "paper": "OSCAR_One_Step_Diffusion_Codec_TIP_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 20,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Figure 1:Qualitative comparison.OSCAR is capable of reconstructing complex textures with high realism.OSCAR effectively reconstructs complex textures with high realism.",
+      "caption_en": "Figure 1:Qualitative comparison.OSCAR is capable of reconstructing complex textures with high realism.OSCAR effectively reconstructs complex textures with high realism.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        276.254,
+        504.001,
+        297.145
+      ],
+      "content_bbox": [
+        108.0,
+        71.996,
+        503.986,
+        269.218
+      ],
+      "crop_bbox": [
+        108.0,
+        71.996,
+        503.986,
+        269.218
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  66.5% 画面  (10.00 x 4.99 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4560454 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure2:Left:Ourmethodbridgesquantizationanddiffusionbymappingbit-ratestopseudo diffusion timesteps.Right:BD-rates measured by DISTS [16], with circle radius indicating multiply- accumulate operations (MACs).OSCAR achieves a favorable quality-efficiency tradeoff.",
+      "caption_en": "Figure2:Left:Ourmethodbridgesquantizationanddiffusionbymappingbit-ratestopseudo diffusion timesteps.Right:BD-rates measured by DISTS [16], with circle radius indicating multiply- accumulate operations (MACs).OSCAR achieves a favorable quality-efficiency tradeoff.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        251.555,
+        505.653,
+        283.411
+      ],
+      "content_bbox": [
+        108.0,
+        72.002,
+        505.162,
+        243.469
+      ],
+      "crop_bbox": [
+        108.0,
+        72.002,
+        505.162,
+        243.469
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  57.6% 画面  (10.00 x 4.32 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3947629 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure3:OverviewofOSCAR.Givenaninputimage,theVAEencoderfirstmapsittothe latentspace.Thelatentisthenprocessedbyabit-rate-specifichyper-encoderandquantizedvia the corresponding codebook.During decompression, the bit-rate is mapped to a pseudo diffusion timestep, and the quantized features are denoised by a U-Net conditioned on this timestep to recover the latent.Finally, the VAE decoder reconstructs the image from the restored latent.",
+      "caption_en": "Figure3:OverviewofOSCAR.Givenaninputimage,theVAEencoderfirstmapsittothe latentspace.Thelatentisthenprocessedbyabit-rate-specifichyper-encoderandquantizedvia the corresponding codebook.During decompression, the bit-rate is mapped to a pseudo diffusion timestep, and the quantized features are denoised by a U-Net conditioned on this timestep to recover the latent.Finally, the VAE decoder reconstructs the image from the restored latent.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        183.734,
+        504.166,
+        237.408
+      ],
+      "content_bbox": [
+        108.0,
+        72.0,
+        503.971,
+        176.765
+      ],
+      "crop_bbox": [
+        108.0,
+        72.0,
+        503.971,
+        176.765
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  35.4% 画面  (10.00 x 2.66 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure4:DistributionandQQ-plotofresidual noise ϵ in Eq. (11) before and after representation alignment.Top:red line is the standard Gaussian distribution; blue histogram is the measured distri- bution.Bottom:red line is the theoretical quantile line; blue dots are the measured values.",
+      "caption_en": "Figure4:DistributionandQQ-plotofresidual noise ϵ in Eq. (11) before and after representation alignment.Top:red line is the standard Gaussian distribution; blue histogram is the measured distri- bution.Bottom:red line is the theoretical quantile line; blue dots are the measured values.",
+      "caption_zh": "",
+      "caption_bbox": [
+        306.0,
+        416.83,
+        505.651,
+        495.286
+      ],
+      "content_bbox": [
+        304.247,
+        296.953,
+        503.997,
+        417.128
+      ],
+      "crop_bbox": [
+        304.247,
+        296.953,
+        503.997,
+        417.128
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  80.3% 画面  (10.00 x 6.03 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5509260 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure 5: Evaluation of OSCAR and other compression codecs on Kodak, DIV2K-Val, and CLIC2020.",
+      "caption_en": "Figure 5: Evaluation of OSCAR and other compression codecs on Kodak, DIV2K-Val, and CLIC2020.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        379.808,
+        504.001,
+        389.671
+      ],
+      "content_bbox": [
+        108.0,
+        71.998,
+        504.001,
+        372.903
+      ],
+      "crop_bbox": [
+        108.0,
+        71.998,
+        504.001,
+        372.903
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.16 in\n\n形状统计 (1470 个):\n  FREEFORM (5)                 1331\n  TEXT_BOX (17)                139\n\n矢量形状: 1470\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 7,
+      "caption": "Figure 6: Visual comparison across different bit-rates. HQ denotes the original high-quality patch. The number in parentheses indicates the bpp used for compression.OSCAR yields clean reconstructions while preserving intricate structural and textural details.",
+      "caption_en": "Figure 6: Visual comparison across different bit-rates. HQ denotes the original high-quality patch. The number in parentheses indicates the bpp used for compression.OSCAR yields clean reconstructions while preserving intricate structural and textural details.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.641,
+        372.666,
+        504.003,
+        418.135
+      ],
+      "content_bbox": [
+        111.575,
+        72.001,
+        500.105,
+        370.689
+      ],
+      "crop_bbox": [
+        111.575,
+        72.001,
+        500.105,
+        370.689
+      ],
+      "original": "figures/original/Fig6_p007.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  97.6% 画面  (9.76 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8924008 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 8,
+      "caption": "Figure7:Ablationstudyonkeycomponents.RePAdenotesrepresentationalignment,andw/o t-mapping refers to using random mapping between bit-rates and time-steps.",
+      "caption_en": "Figure7:Ablationstudyonkeycomponents.RePAdenotesrepresentationalignment,andw/o t-mapping refers to using random mapping between bit-rates and time-steps.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        298.157,
+        503.997,
+        319.104
+      ],
+      "content_bbox": [
+        108.0,
+        71.998,
+        503.986,
+        290.355
+      ],
+      "crop_bbox": [
+        108.0,
+        71.998,
+        503.986,
+        290.355
+      ],
+      "original": "figures/original/Fig7_p008.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.40 in\n\n形状统计 (374 个):\n  FREEFORM (5)                 305\n  TEXT_BOX (17)                63\n  PICTURE (13)                 6\n\n矢量形状: 368\n位图图片: 6\n  5.2% 画面  (2.26 x 2.26 in)\n  5.2% 画面  (2.26 x 2.26 in)\n  5.2% 画面  (2.26 x 2.26 in)\n  5.2% 画面  (2.26 x 2.26 in)\n  5.2% 画面  (2.26 x 2.26 in)\n  5.2% 画面  (2.26 x 2.26 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 8,
+      "caption": "Figure 8:Ablation study on RePA and generalization to unseen bitrates.",
+      "caption_en": "Figure 8:Ablation study on RePA and generalization to unseen bitrates.",
+      "caption_zh": "",
+      "caption_bbox": [
+        162.684,
+        452.858,
+        449.318,
+        462.821
+      ],
+      "content_bbox": [
+        107.696,
+        335.991,
+        504.005,
+        444.981
+      ],
+      "crop_bbox": [
+        107.696,
+        335.991,
+        504.005,
+        444.981
+      ],
+      "original": "figures/original/Fig8_p008.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.74 in\n\n形状统计 (683 个):\n  FREEFORM (5)                 625\n  TEXT_BOX (17)                58\n\n矢量形状: 683\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 9,
+      "caption": "Figure 9:PSNR and FID results on Kodak, DIV2K-val, and CLIC2020 datasets.The yellow dashed line indicates reconstruction by VAE encoding and decoding without compression. alignment training.Figure 7b further demonstrates the effectiveness of alignment through both visual and quantitative comparisons, showing that removing it leads to substantial performance degradation.",
+      "caption_en": "Figure 9:PSNR and FID results on Kodak, DIV2K-val, and CLIC2020 datasets.The yellow dashed line indicates reconstruction by VAE encoding and decoding without compression. alignment training.Figure 7b further demonstrates the effectiveness of alignment through both visual and quantitative comparisons, showing that removing it leads to substantial performance degradation.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        169.579,
+        505.745,
+        214.817
+      ],
+      "content_bbox": [
+        108.0,
+        71.999,
+        503.994,
+        162.498
+      ],
+      "crop_bbox": [
+        108.0,
+        71.999,
+        503.994,
+        162.498
+      ],
+      "original": "figures/original/Fig9_p009.png",
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.13 in\n\n形状统计 (459 个):\n  FREEFORM (5)                 406\n  TEXT_BOX (17)                53\n\n矢量形状: 459\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer."
+  ],
+  "metadata": {
+    "local_slug": "OSCAR_One_Step_Diffusion_Codec_TIP_2026",
+    "title": "OSCAR: One-Step Diffusion Codec Across Multiple Bit-rates",
+    "venue": "NeurIPS",
+    "venue_full": "NeurIPS",
+    "venue_short": "NeurIPS",
+    "venue_type": "会议",
+    "year": 2026,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "5992f9658565d85e8e811551aad2bbd5706d1fb3620136d89db154fe9fcf4f96",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\OpenReview-2026-多码率一步扩散图像压缩 重建-OSCAR One-Step Diffusion Codec Across Multiple Bit-rates.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\JDEEGV5C\\Guo 等 - OSCAR One-Step Diffusion Codec Across Multiple Bit-rates.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    },
+    {
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ]
+    }
+  ]
+}

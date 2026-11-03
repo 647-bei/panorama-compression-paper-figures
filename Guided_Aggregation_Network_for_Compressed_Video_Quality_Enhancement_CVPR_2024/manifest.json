@@ -1,0 +1,616 @@
+{
+  "paper": "Guided_Aggregation_Network_for_Compressed_Video_Quality_Enhancement_CVPR_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 11,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1.Comparison between previous methods and our CPGA. Compared with previous methods, the coding priors are extracted from the bitstream to input into our enhancement model for VQE.",
+      "caption_en": "Figure 1.Comparison between previous methods and our CPGA. Compared with previous methods, the coding priors are extracted from the bitstream to input into our enhancement model for VQE.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        361.133,
+        545.109,
+        392.016
+      ],
+      "content_bbox": [
+        308.645,
+        266.906,
+        545.638,
+        349.388
+      ],
+      "crop_bbox": [
+        308.645,
+        266.906,
+        545.638,
+        349.388
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.71 in\n\n形状统计 (48 个):\n  FREEFORM (5)                 34\n  TEXT_BOX (17)                11\n  PICTURE (13)                 3\n\n矢量形状: 45\n位图图片: 3\n  10.0% 画面  (3.11 x 2.01 in)\n  4.8% 画面  (2.31 x 1.30 in)\n  4.8% 画面  (2.31 x 1.31 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2. Some examples of LQ frames, motion vectors, predictive frames and residual frames in proposed VCP dataset.",
+      "caption_en": "Figure 2. Some examples of LQ frames, motion vectors, predictive frames and residual frames in proposed VCP dataset.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        321.256,
+        545.109,
+        341.181
+      ],
+      "content_bbox": [
+        57.103,
+        75.706,
+        544.126,
+        310.933
+      ],
+      "crop_bbox": [
+        57.103,
+        75.706,
+        544.126,
+        310.933
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.50 in\n\n形状统计 (102 个):\n  TEXT_BOX (17)                59\n  FREEFORM (5)                 31\n  PICTURE (13)                 12\n\n矢量形状: 90\n位图图片: 12\n  1.5% 画面  (1.54 x 0.87 in)\n  1.5% 画面  (1.54 x 0.87 in)\n  1.5% 画面  (1.54 x 0.87 in)\n  1.5% 画面  (1.54 x 0.87 in)\n  1.5% 画面  (1.54 x 0.87 in)\n  1.5% 画面  (1.54 x 0.87 in)\n  1.5% 画面  (1.54 x 0.87 in)\n  1.5% 画面  (1.54 x 0.87 in)\n  1.5% 画面  (1.54 x 0.87 in)\n  1.5% 画面  (1.54 x 0.87 in)\n  ... 共 12 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 2,
+      "caption": "Table 1.Comparison between existing video enhancement datasets and our dataset.",
+      "caption_en": "Table 1.Comparison between existing video enhancement datasets and our dataset.",
+      "caption_zh": "",
+      "caption_bbox": [
+        148.108,
+        75.706,
+        447.119,
+        84.672
+      ],
+      "content_bbox": [
+        57.103,
+        108.571,
+        538.12,
+        178.896
+      ],
+      "crop_bbox": [
+        57.103,
+        108.571,
+        538.12,
+        178.896
+      ],
+      "original": "tables/original/Table1_p002.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure3.ThearchitectureofCPGA.TheMVsandpredictiveframesarefedintotheITAmoduletoobtainthetemporally-aggregated feature, and current residual frame is utilized in the MNA module to obtain the spatially-aggregated feature.",
+      "caption_en": "Figure3.ThearchitectureofCPGA.TheMVsandpredictiveframesarefedintotheITAmoduletoobtainthetemporally-aggregated feature, and current residual frame is utilized in the MNA module to obtain the spatially-aggregated feature.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        316.814,
+        545.111,
+        336.739
+      ],
+      "content_bbox": [
+        55.651,
+        47.289,
+        564.946,
+        303.263
+      ],
+      "crop_bbox": [
+        55.651,
+        47.289,
+        564.946,
+        303.263
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.76 in\n\n形状统计 (276 个):\n  FREEFORM (5)                 194\n  TEXT_BOX (17)                67\n  PICTURE (13)                 15\n\n矢量形状: 261\n位图图片: 15\n  1.2% 画面  (0.96 x 1.15 in)\n  0.6% 画面  (0.77 x 0.74 in)\n  0.6% 画面  (0.76 x 0.69 in)\n  0.5% 画面  (0.71 x 0.69 in)\n  1.6% 画面  (1.15 x 1.26 in)\n  3.3% 画面  (2.32 x 1.30 in)\n  1.6% 画面  (1.15 x 1.25 in)\n  0.2% 画面  (0.33 x 0.63 in)\n  3.9% 画面  (10.97 x 0.32 in)\n  12.5% 画面  (5.56 x 2.02 in)\n  ... 共 15 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure 4.The structure of non-local aggregation unit (NLAU).",
+      "caption_en": "Figure 4.The structure of non-local aggregation unit (NLAU).",
+      "caption_zh": "",
+      "caption_bbox": [
+        314.998,
+        269.183,
+        538.979,
+        278.149
+      ],
+      "content_bbox": [
+        313.33,
+        73.714,
+        540.539,
+        256.859
+      ],
+      "crop_bbox": [
+        313.33,
+        73.714,
+        540.539,
+        256.859
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.77 in\n\n形状统计 (111 个):\n  FREEFORM (5)                 66\n  TEXT_BOX (17)                43\n  PICTURE (13)                 2\n\n矢量形状: 109\n位图图片: 2\n  1.6% 画面  (0.88 x 2.53 in)\n  1.6% 画面  (0.88 x 2.59 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Figure 5.The structure of the quality enhancement (QE) module and the shift channel attention block (SCAB).",
+      "caption_en": "Figure 5.The structure of the quality enhancement (QE) module and the shift channel attention block (SCAB).",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        234.156,
+        286.359,
+        254.081
+      ],
+      "content_bbox": [
+        65.88,
+        74.68,
+        270.876,
+        221.491
+      ],
+      "crop_bbox": [
+        65.88,
+        74.68,
+        270.876,
+        221.491
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.58 in\n\n形状统计 (98 个):\n  FREEFORM (5)                 80\n  TEXT_BOX (17)                16\n  PICTURE (13)                 2\n\n矢量形状: 96\n位图图片: 2\n  2.7% 画面  (1.08 x 3.20 in)\n  2.7% 画面  (1.08 x 3.20 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Figure6.PSNRcurvesofHEVC,STDF-R3L,STDRandour modelonBasketballPasstestingsequenceunderLDBconfigura- tion at QP=37.",
+      "caption_en": "Figure6.PSNRcurvesofHEVC,STDF-R3L,STDRandour modelonBasketballPasstestingsequenceunderLDBconfigura- tion at QP=37.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        514.334,
+        286.359,
+        545.217
+      ],
+      "content_bbox": [
+        34.718,
+        90.216,
+        539.714,
+        514.334
+      ],
+      "crop_bbox": [
+        34.718,
+        90.216,
+        539.714,
+        514.334
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.22 in\n\n形状统计 (541 个):\n  TEXT_BOX (17)                297\n  FREEFORM (5)                 244\n\n矢量形状: 541\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table 2.Quantitative comparison in terms of ∆PSNR (dB) and ∆SSIM (×10−2) under LDB configuration.Red text indicates the best and blue text indicates the second best performance.* Video resolutions:Class A (2560×1600), Class B (1920×1080), Class C (832×480), Class D (416×240) and Class E (1280×720).",
+      "caption_en": "Table 2.Quantitative comparison in terms of ∆PSNR (dB) and ∆SSIM (×10−2) under LDB configuration.Red text indicates the best and blue text indicates the second best performance.* Video resolutions:Class A (2560×1600), Class B (1920×1080), Class C (832×480), Class D (416×240) and Class E (1280×720).",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        46.207,
+        545.112,
+        78.848
+      ],
+      "content_bbox": [
+        61.91,
+        94.212,
+        530.302,
+        313.965
+      ],
+      "crop_bbox": [
+        61.91,
+        94.212,
+        530.302,
+        313.965
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table3.Quantitativecomparisonintermsof∆PSNR(dB)and ∆SSIM (×10−2) under RA configuration.Red text indicates the best and blue text indicates the second best performance.",
+      "caption_en": "Table3.Quantitativecomparisonintermsof∆PSNR(dB)and ∆SSIM (×10−2) under RA configuration.Red text indicates the best and blue text indicates the second best performance.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        330.0,
+        286.361,
+        361.091
+      ],
+      "content_bbox": [
+        61.91,
+        104.119,
+        530.302,
+        313.965
+      ],
+      "crop_bbox": [
+        61.91,
+        104.119,
+        530.302,
+        313.965
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 6,
+      "caption": "Table 4.The comparison of parameters and FPS.",
+      "caption_en": "Table 4.The comparison of parameters and FPS.",
+      "caption_zh": "",
+      "caption_bbox": [
+        339.297,
+        330.208,
+        514.68,
+        339.174
+      ],
+      "content_bbox": [
+        61.91,
+        104.119,
+        530.302,
+        313.965
+      ],
+      "crop_bbox": [
+        61.91,
+        104.119,
+        530.302,
+        313.965
+      ],
+      "original": "tables/original/Table4_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 6,
+      "caption": "Table 5.The ablation study of coding priors.",
+      "caption_en": "Table 5.The ablation study of coding priors.",
+      "caption_zh": "",
+      "caption_bbox": [
+        347.012,
+        426.66,
+        506.964,
+        435.626
+      ],
+      "content_bbox": [
+        61.91,
+        104.119,
+        530.302,
+        313.965
+      ],
+      "crop_bbox": [
+        61.91,
+        104.119,
+        530.302,
+        313.965
+      ],
+      "original": "tables/original/Table5_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 7,
+      "caption": "Figure 7.Visual results obtained by using different enhancement methods.The settings in the LQ sequences:BasketballPass at QP = 22 (RA), Cactus at QP = 27 (LDB), RaceHorses QP = 32 (RA), and KristenAndSara at QP = 37 (LDB).",
+      "caption_en": "Figure 7.Visual results obtained by using different enhancement methods.The settings in the LQ sequences:BasketballPass at QP = 22 (RA), Cactus at QP = 27 (LDB), RaceHorses QP = 32 (RA), and KristenAndSara at QP = 37 (LDB).",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        326.357,
+        545.111,
+        346.282
+      ],
+      "content_bbox": [
+        51.321,
+        57.056,
+        544.816,
+        315.724
+      ],
+      "crop_bbox": [
+        51.321,
+        57.056,
+        544.816,
+        315.724
+      ],
+      "original": "figures/original/Fig7_p007.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  69.9% 画面  (10.00 x 5.24 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4791918 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 7,
+      "caption": "Figure 8.Feature visual results obtained by using coding priors.",
+      "caption_en": "Figure 8.Feature visual results obtained by using coding priors.",
+      "caption_zh": "",
+      "caption_bbox": [
+        53.531,
+        406.142,
+        282.945,
+        424.969
+      ],
+      "content_bbox": [
+        49.879,
+        57.056,
+        545.112,
+        406.4
+      ],
+      "crop_bbox": [
+        49.879,
+        57.056,
+        545.112,
+        406.4
+      ],
+      "original": "figures/original/Fig8_p007.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  94.0% 画面  (10.00 x 7.05 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6449703 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 7,
+      "caption": "Table6. QuantitativecomparisononMFQE-CPdatasetand VCP(LDP) dataset in terms of ∆PSNR (dB) and ∆SSIM (×10−2) LDP configuration at QP=37.",
+      "caption_en": "Table6. QuantitativecomparisononMFQE-CPdatasetand VCP(LDP) dataset in terms of ∆PSNR (dB) and ∆SSIM (×10−2) LDP configuration at QP=37.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        356.091,
+        545.112,
+        386.975
+      ],
+      "content_bbox": [
+        313.814,
+        391.13,
+        538.416,
+        412.83
+      ],
+      "crop_bbox": [
+        313.814,
+        391.13,
+        538.416,
+        412.83
+      ],
+      "original": "tables/original/Table6_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Guided_Aggregation_Network_for_Compressed_Video_Quality_Enhancement_CVPR_2024",
+    "title": "This CVPR paper is the Open Access version, provided by the Computer Vision Foundation.",
+    "venue": "CVPR",
+    "venue_full": "CVPR",
+    "venue_short": "CVPR",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "8fc433133ddf155050f5ffa10b1de4234ad96d93f82c225f572cfc9d00ae1c0a",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\CVPR 2024-2024-压缩视频质量增强-CPGA Coding Priors-Guided Aggregation Network for Compressed Video Quality Enhancement.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\WFU4TBNH\\Zhu 等 - 2024 - CPGA Coding Priors-Guided Aggregation Network for Compressed Video Quality Enhancement.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    }
+  ]
+}

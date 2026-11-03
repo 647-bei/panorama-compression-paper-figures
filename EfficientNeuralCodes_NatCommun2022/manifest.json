@@ -29,19 +29,7 @@
         707.0
       ],
       "original": "figures/original/Fig1_p001.png",
-      "vector": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 4.70 in\n\n形状统计 (296 个):\n  FREEFORM (5)                 232\n  AUTO_SHAPE (1)               61\n  PICTURE (13)                 3\n\n矢量形状: 293\n位图图片: 3\n  1.1% 画面  (4.37 x 0.16 in)\n  0.9% 画面  (4.37 x 0.12 in)\n  1.2% 画面  (4.65 x 0.16 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 296 draws 263 fs 22 polys 171 rings 61 text 0 images 0 inline 3 canvas 1948 686\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 4.70 in\n\n形状统计 (296 个):\n  FREEFORM (5)                 232\n  AUTO_SHAPE (1)               61\n  PICTURE (13)                 3\n\n矢量形状: 293\n位图图片: 3\n  1.1% 画面  (4.37 x 0.16 in)\n  0.9% 画面  (4.37 x 0.12 in)\n  1.2% 画面  (4.65 x 0.16 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -69,19 +57,8 @@
         249.977
       ],
       "original": "figures/original/Fig2_p002.png",
-      "vector": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 5.57 in\n\n形状统计 (749 个):\n  FREEFORM (5)                 698\n  AUTO_SHAPE (1)               50\n  PICTURE (13)                 1\n\n矢量形状: 748\n位图图片: 1\n  60.0% 画面  (9.08 x 4.90 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8307147 x 4484721 px\nops 749 draws 424 fs 126 polys 396 rings 50 text 0 images 0 inline 1 canvas 1948 814\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig2\\Fig2.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig2\\Fig2.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 13.33 x 5.57 in\n\n形状统计 (749 个):\n  FREEFORM (5)                 698\n  AUTO_SHAPE (1)               50\n  PICTURE (13)                 1\n\n矢量形状: 748\n位图图片: 1\n  60.0% 画面  (9.08 x 4.90 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8307147 x 4484721 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -109,19 +86,8 @@
         531.417
       ],
       "original": "figures/original/Fig3_p002.png",
-      "vector": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 5.73 in\n\n形状统计 (388 个):\n  FREEFORM (5)                 287\n  AUTO_SHAPE (1)               100\n  PICTURE (13)                 1\n\n矢量形状: 387\n位图图片: 1\n  67.9% 画面  (11.84 x 4.39 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 10822827 x 4009701 px\nops 388 draws 357 fs 21 polys 193 rings 100 text 0 images 0 inline 1 canvas 1948 837\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 13.33 x 5.73 in\n\n形状统计 (388 个):\n  FREEFORM (5)                 287\n  AUTO_SHAPE (1)               100\n  PICTURE (13)                 1\n\n矢量形状: 387\n位图图片: 1\n  67.9% 画面  (11.84 x 4.39 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 10822827 x 4009701 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -149,19 +115,7 @@
         156.489
       ],
       "original": "figures/original/Fig4_p003.png",
-      "vector": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 4.50 in\n\n形状统计 (162 个):\n  FREEFORM (5)                 138\n  AUTO_SHAPE (1)               22\n  PICTURE (13)                 2\n\n矢量形状: 160\n位图图片: 2\n  0.7% 画面  (0.12 x 3.22 in)\n  1.1% 画面  (4.03 x 0.16 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 162 draws 155 fs 4 polys 75 rings 22 text 0 images 0 inline 2 canvas 1948 657\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig4\\Fig4.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig4\\Fig4.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 4.50 in\n\n形状统计 (162 个):\n  FREEFORM (5)                 138\n  AUTO_SHAPE (1)               22\n  PICTURE (13)                 2\n\n矢量形状: 160\n位图图片: 2\n  0.7% 画面  (0.12 x 3.22 in)\n  1.1% 画面  (4.03 x 0.16 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -189,19 +143,8 @@
         441.651
       ],
       "original": "figures/original/Fig5_p004.png",
-      "vector": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ],
-      "vector_mode": "pdf_vector_svg_only+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "ops 4118 draws 2523 fs 1729 polys 1936 rings 231 text 0 images 8 inline 2 canvas 1948 1559\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig5\\Fig5.svg\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  93.9% 画面  (9.39 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8589950 x 6858000 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -229,85 +172,40 @@
         373.9
       ],
       "original": "figures/original/Fig6_p005.png",
-      "vector": [
-        "figures/vector/Fig6/Fig6.svg",
-        "figures/vector/Fig6/Fig6.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 18.02 in\n\n形状统计 (437 个):\n  FREEFORM (5)                 292\n  AUTO_SHAPE (1)               144\n  PICTURE (13)                 1\n\n矢量形状: 436\n位图图片: 1\n  71.2% 画面  (10.30 x 16.61 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9421452 x 15189317 px\nops 437 draws 435 fs 1 polys 202 rings 144 text 0 images 0 inline 1 canvas 1948 2633\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig6\\Fig6.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\EfficientNeuralCodes_NatCommun2022\\figures\\vector\\Fig6\\Fig6.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 13.33 x 18.02 in\n\n形状统计 (437 个):\n  FREEFORM (5)                 292\n  AUTO_SHAPE (1)               144\n  PICTURE (13)                 1\n\n矢量形状: 436\n位图图片: 1\n  71.2% 画面  (10.30 x 16.61 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9421452 x 15189317 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     }
   ],
   "notes": [
     "Coordinates use PDF points and page indexes start at 0.",
     "Original crops contain only figure/table content; captions are stored as metadata for the web viewer."
   ],
-  "vectorized": [
-    {
-      "label": "Fig1",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ]
-    },
-    {
-      "label": "Fig2",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ]
-    },
-    {
-      "label": "Fig3",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ]
-    },
-    {
-      "label": "Fig4",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ]
-    },
-    {
-      "label": "Fig5",
-      "kind": "figure",
-      "mode": "pdf_vector_svg_only+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ]
-    },
-    {
-      "label": "Fig6",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig6/Fig6.svg",
-        "figures/vector/Fig6/Fig6.pptx"
-      ]
-    }
-  ]
+  "metadata": {
+    "title": "Efficient neural codes naturally emerge through gradient descent learning",
+    "year": 2022,
+    "venue": "Nature Communications",
+    "classification": "Nature Portfolio journal",
+    "topic": [
+      "efficient coding",
+      "natural image statistics",
+      "ANN representation"
+    ],
+    "relevance": "梯度下降隐式优先学习自然图像中的高方差/高频成分，为频带容量分配和感知损失设计提供生物学解释。",
+    "official_url": "https://www.nature.com/articles/s41467-022-35659-7",
+    "pdf_url": "https://www.nature.com/articles/s41467-022-35659-7.pdf",
+    "doi": "10.1038/s41467-022-35659-7",
+    "local_slug": "EfficientNeuralCodes_NatCommun2022",
+    "access": "open_pdf",
+    "venue_short": "Nat Commun",
+    "venue_full": "Nature Communications",
+    "venue_type": "期刊",
+    "cas_zone": "1区",
+    "cas_top": true,
+    "cas_category": "综合性期刊",
+    "cas_display": "中科院 1区 · Top（2025，综合性期刊）",
+    "ccf_rank": null,
+    "ccf_scope": null,
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院 1区 · Top（2025，综合性期刊）"
+  }
 }

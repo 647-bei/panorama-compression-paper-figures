@@ -1,0 +1,11 @@
+% Auto-extracted table snippet; requires \usepackage{booktabs}.
+% Caption: Table 2.Performance on “noise-rain-haze-blur-enhance” datasets.The best and second best results of multi-task restoration are marked in bold and underline, respectively.Metrics are presented in [PSNR (dB) / SSIM]. Metrics are presented in [PSNR (dB) / SSIM].
+\begin{tabular}{llllllll}
+\toprule
+Cat. & Method & Denoise (BSD68) σ = 15 σ = 25 σ = 50 & Dehaze (SOTS) & Derain (Rain100L) & Deblur (GoPro) & Lowlight (LOL) & Average \\
+\midrule
+Single & SwinIR [32] Restormer [69] NAFNet [8] & 34.42/- 31.78/- 28.56/- 34.40/- 31.79/- 28.60/- - - - & - - - & - 37.61/0.975 - & - 32.92/0.961 33.69/0.967 & - - - & - - - \\
+Multi. & Restormer [69] NAFNet [8] PromptIR [45] & 33.55/0.926 30.96/0.879 27.75/0.784 33.71/0.930 31.12/0.884 27.91/0.793 33.67/0.929 31.08/0.883 27.87/0.787 & 29.50/0.973 30.67/0.975 30.16/0.977 & 36.53/0.974 37.17/0.976 37.16/0.977 & 27.31/0.835 28.32/0.863 28.73/0.868 & 23.00/0.841 23.18/0.856 23.91/0.848 & 29.94/0.887 30.29/0.896 30.36/0.895 \\
+Ours & PIPNAFNet PIPRestormer & 34.10/0.935 31.45/0.893 28.21/0.806 34.05/0.934 31.48/0.891 27.29/0.805 & 31.75/0.978 32.11/0.979 & 37.67/0.980 38.09/0.983 & 28.08/0.853 28.61/0.861 & 23.37/0.854 24.06/0.859 & 30.66/0.899 30.81/0.901 \\
+\bottomrule
+\end{tabular}

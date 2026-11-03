@@ -1,0 +1,776 @@
+{
+  "paper": "DiffBIR_Towards_Blind_Image_Restoration_with_Generative_Diffusion_Prior_ECCV_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 18,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1.Comparisons of state-of-the-art methods and our DiffBIR for blind image super-resolution (BSR), blind image denoising (BID), and blind face restoration (BFR). (Zoom in for best view)",
+      "caption_en": "Figure 1.Comparisons of state-of-the-art methods and our DiffBIR for blind image super-resolution (BSR), blind image denoising (BID), and blind face restoration (BFR). (Zoom in for best view)",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        449.263,
+        546.236,
+        469.198
+      ],
+      "content_bbox": [
+        56.091,
+        228.486,
+        530.596,
+        446.425
+      ],
+      "crop_bbox": [
+        56.091,
+        228.486,
+        530.596,
+        446.425
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  61.3% 画面  (10.00 x 4.60 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4203639 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2.The effects of condition information on generated results. The 2nd row shows that directly using LQ images as conditions causes unpleasant artifacts induced by different degradations (Gaus- sian, speckle, Poisson, and JPEG compression noises).While our DiffBIR’s two-stage pipeline is more stable (see 3rd-row).",
+      "caption_en": "Figure 2.The effects of condition information on generated results. The 2nd row shows that directly using LQ images as conditions causes unpleasant artifacts induced by different degradations (Gaus- sian, speckle, Poisson, and JPEG compression noises).While our DiffBIR’s two-stage pipeline is more stable (see 3rd-row).",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.584,
+        239.005,
+        546.68,
+        291.749
+      ],
+      "content_bbox": [
+        339.797,
+        72.218,
+        544.884,
+        225.832
+      ],
+      "crop_bbox": [
+        339.797,
+        72.218,
+        544.884,
+        225.832
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  100.0% 画面  (10.00 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9140288 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure 3.The two-stage pipeline of DiffBIR. 1) Restoration Module (RM) for degradation removal; 2) Generation Module (GM) for realistic image reconstruction with optional region-adaptive restoration guidance for a trade-off between quality and fidelity.",
+      "caption_en": "Figure 3.The two-stage pipeline of DiffBIR. 1) Restoration Module (RM) for degradation removal; 2) Generation Module (GM) for realistic image reconstruction with optional region-adaptive restoration guidance for a trade-off between quality and fidelity.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        185.186,
+        545.114,
+        205.043
+      ],
+      "content_bbox": [
+        50.437,
+        72.232,
+        544.658,
+        177.073
+      ],
+      "crop_bbox": [
+        50.437,
+        72.232,
+        544.658,
+        177.073
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 2.92 in\n\n形状统计 (259 个):\n  FREEFORM (5)                 194\n  AUTO_SHAPE (1)               24\n  PICTURE (13)                 21\n  TEXT_BOX (17)                20\n\n矢量形状: 238\n位图图片: 21\n  1.0% 画面  (0.64 x 0.64 in)\n  1.0% 画面  (0.64 x 0.64 in)\n  1.0% 画面  (0.61 x 0.61 in)\n  1.0% 画面  (0.61 x 0.61 in)\n  0.3% 画面  (0.35 x 0.34 in)\n  1.1% 画面  (0.66 x 0.66 in)\n  1.1% 画面  (0.66 x 0.66 in)\n  1.1% 画面  (0.66 x 0.66 in)\n  0.1% 画面  (0.21 x 0.16 in)\n  0.1% 画面  (0.39 x 0.13 in)\n  ... 共 21 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure 4.Architectures of our IRControlNet and four model variants.",
+      "caption_en": "Figure 4.Architectures of our IRControlNet and four model variants.",
+      "caption_zh": "",
+      "caption_bbox": [
+        173.317,
+        316.789,
+        421.91,
+        325.755
+      ],
+      "content_bbox": [
+        266.358,
+        72.595,
+        544.331,
+        308.767
+      ],
+      "crop_bbox": [
+        266.358,
+        72.595,
+        544.331,
+        308.767
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.34 in\n\n形状统计 (228 个):\n  FREEFORM (5)                 167\n  AUTO_SHAPE (1)               31\n  TEXT_BOX (17)                22\n  PICTURE (13)                 8\n\n矢量形状: 220\n位图图片: 8\n  0.2% 画面  (0.92 x 0.31 in)\n  0.2% 画面  (0.86 x 0.29 in)\n  0.2% 画面  (0.81 x 0.38 in)\n  0.2% 画面  (0.86 x 0.30 in)\n  0.2% 画面  (0.86 x 0.30 in)\n  0.2% 画面  (0.81 x 0.38 in)\n  0.1% 画面  (0.42 x 0.37 in)\n  0.1% 画面  (0.40 x 0.34 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Figure5.ThetraininglosscurvesofIRControlNetandVariant 2,3,4 on ImageNet1k dataset under the same training setting. 3.4. Restoration Guidance",
+      "caption_en": "Figure5.ThetraininglosscurvesofIRControlNetandVariant 2,3,4 on ImageNet1k dataset under the same training setting. 3.4. Restoration Guidance",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        216.541,
+        430.626,
+        247.378
+      ],
+      "content_bbox": [
+        50.112,
+        71.998,
+        286.359,
+        213.746
+      ],
+      "crop_bbox": [
+        50.112,
+        71.998,
+        286.359,
+        213.746
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  80.1% 画面  (10.00 x 6.00 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5490266 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table 1.Quantitative comparisons of IRControlNet, Variant 2, 3 and 4 on ImageNet1k-Val with Real-ESRGAN[56] degradation.",
+      "caption_en": "Table 1.Quantitative comparisons of IRControlNet, Variant 2, 3 and 4 on ImageNet1k-Val with Real-ESRGAN[56] degradation.",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.834,
+        313.404,
+        286.361,
+        333.396
+      ],
+      "content_bbox": [
+        52.22,
+        251.221,
+        284.263,
+        302.469
+      ],
+      "crop_bbox": [
+        52.22,
+        251.221,
+        284.263,
+        302.469
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Figure 6.Region-adaptive restoration guidance.Given the high-fidelity guidance image IRM, it aims to minimize the region-adaptive MSE loss between clean latent˜z0and IRMat each sampling step through gradient-descent algorithm.",
+      "caption_en": "Figure 6.Region-adaptive restoration guidance.Given the high-fidelity guidance image IRM, it aims to minimize the region-adaptive MSE loss between clean latent˜z0and IRMat each sampling step through gradient-descent algorithm.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        223.962,
+        545.109,
+        244.232
+      ],
+      "content_bbox": [
+        49.889,
+        70.228,
+        544.203,
+        215.586
+      ],
+      "crop_bbox": [
+        49.889,
+        70.228,
+        544.203,
+        215.586
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.00 in\n\n形状统计 (125 个):\n  PICTURE (13)                 44\n  FREEFORM (5)                 34\n  AUTO_SHAPE (1)               29\n  TEXT_BOX (17)                18\n\n矢量形状: 81\n位图图片: 44\n  3.8% 画面  (1.52 x 1.34 in)\n  0.3% 画面  (0.54 x 0.34 in)\n  4.0% 画面  (1.53 x 1.39 in)\n  0.3% 画面  (0.54 x 0.33 in)\n  0.6% 画面  (0.84 x 0.41 in)\n  3.8% 画面  (1.52 x 1.33 in)\n  0.6% 画面  (0.84 x 0.41 in)\n  0.3% 画面  (0.52 x 0.33 in)\n  0.1% 画面  (0.39 x 0.19 in)\n  0.0% 画面  (0.18 x 0.11 in)\n  ... 共 44 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 7,
+      "caption": "Figure 7.Visual comparison of BSR methods on real-world datasets.",
+      "caption_en": "Figure 7.Visual comparison of BSR methods on real-world datasets.",
+      "caption_zh": "",
+      "caption_bbox": [
+        174.007,
+        550.59,
+        421.22,
+        559.556
+      ],
+      "content_bbox": [
+        49.834,
+        297.823,
+        545.113,
+        547.973
+      ],
+      "crop_bbox": [
+        49.834,
+        297.823,
+        545.113,
+        547.973
+      ],
+      "original": "figures/original/Fig7_p007.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  67.3% 画面  (10.00 x 5.05 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4618135 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 7,
+      "caption": "Figure 8.Visual comparison of BFR methods on real-world datasets.",
+      "caption_en": "Figure 8.Visual comparison of BFR methods on real-world datasets.",
+      "caption_zh": "",
+      "caption_bbox": [
+        174.007,
+        677.688,
+        421.22,
+        686.654
+      ],
+      "content_bbox": [
+        47.828,
+        270.428,
+        556.148,
+        675.173
+      ],
+      "crop_bbox": [
+        47.828,
+        270.428,
+        556.148,
+        675.173
+      ],
+      "original": "figures/original/Fig8_p007.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.64 in\n\n形状统计 (208 个):\n  TEXT_BOX (17)                101\n  FREEFORM (5)                 55\n  PICTURE (13)                 48\n  AUTO_SHAPE (1)               4\n\n矢量形状: 160\n位图图片: 48\n  1.0% 画面  (1.21 x 1.21 in)\n  1.0% 画面  (1.21 x 1.21 in)\n  1.0% 画面  (1.21 x 1.21 in)\n  1.0% 画面  (1.21 x 1.21 in)\n  4.9% 画面  (2.68 x 2.60 in)\n  1.0% 画面  (1.21 x 1.21 in)\n  1.0% 画面  (1.21 x 1.21 in)\n  1.0% 画面  (1.21 x 1.21 in)\n  1.0% 画面  (1.21 x 1.21 in)\n  4.9% 画面  (2.68 x 2.61 in)\n  ... 共 48 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 7,
+      "caption": "Table 2.Quantitative comparisons on synthetic dataset (DIV2K-Val) for BSR task.Red and blue indicate the best and second best.The top 3 results are marked asgray.",
+      "caption_en": "Table 2.Quantitative comparisons on synthetic dataset (DIV2K-Val) for BSR task.Red and blue indicate the best and second best.The top 3 results are marked asgray.",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.834,
+        118.631,
+        545.115,
+        149.744
+      ],
+      "content_bbox": [
+        51.773,
+        72.127,
+        541.98,
+        125.756
+      ],
+      "crop_bbox": [
+        51.773,
+        72.127,
+        541.98,
+        125.756
+      ],
+      "original": "tables/original/Table2_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "Table 3.Quantitative comparisons on real-world datasets for BSR task.Red and blue indicate the best and second best performance.The top 3 results are marked asgray.",
+      "caption_en": "Table 3.Quantitative comparisons on real-world datasets for BSR task.Red and blue indicate the best and second best performance.The top 3 results are marked asgray.",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.834,
+        217.83,
+        545.108,
+        237.767
+      ],
+      "content_bbox": [
+        51.773,
+        140.478,
+        541.98,
+        213.76
+      ],
+      "crop_bbox": [
+        51.773,
+        140.478,
+        541.98,
+        213.76
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 8,
+      "caption": "Figure 10.Visual comparison of ablation studies.(Left) DiffBIR w/o RM regards degradations as image content and performs poorly infidelitymaintaining;(Right)ControlNet[75]hasacolorshift problem which can be addressed by our IRControlNet.",
+      "caption_en": "Figure 10.Visual comparison of ablation studies.(Left) DiffBIR w/o RM regards degradations as image content and performs poorly infidelitymaintaining;(Right)ControlNet[75]hasacolorshift problem which can be addressed by our IRControlNet.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.539,
+        390.633,
+        545.43,
+        444.632
+      ],
+      "content_bbox": [
+        308.584,
+        72.178,
+        545.112,
+        390.633
+      ],
+      "crop_bbox": [
+        308.584,
+        72.178,
+        545.112,
+        390.633
+      ],
+      "original": "figures/original/Fig10_p008.png",
+      "vector": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 17.91 in\n\n形状统计 (111 个):\n  TEXT_BOX (17)                48\n  FREEFORM (5)                 41\n  PICTURE (13)                 22\n\n矢量形状: 89\n位图图片: 22\n  1.9% 画面  (2.14 x 2.14 in)\n  1.9% 画面  (2.14 x 2.14 in)\n  2.8% 画面  (2.58 x 2.58 in)\n  2.8% 画面  (2.58 x 2.58 in)\n  2.8% 画面  (2.58 x 2.58 in)\n  2.8% 画面  (2.58 x 2.58 in)\n  2.8% 画面  (2.58 x 2.58 in)\n  2.8% 画面  (2.58 x 2.58 in)\n  2.8% 画面  (2.58 x 2.58 in)\n  2.8% 画面  (2.58 x 2.58 in)\n  ... 共 22 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 8,
+      "caption": "Figure 9.Visual comparisons for BID on real-world datasets.",
+      "caption_en": "Figure 9.Visual comparisons for BID on real-world datasets.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.213,
+        286.509,
+        540.056,
+        308.392
+      ],
+      "content_bbox": [
+        308.584,
+        154.773,
+        545.112,
+        286.509
+      ],
+      "crop_bbox": [
+        308.584,
+        154.773,
+        545.112,
+        286.509
+      ],
+      "original": "figures/original/Fig9_p008.png",
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  74.3% 画面  (10.00 x 5.58 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5098238 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 8,
+      "caption": "Table 4.DiffBIR has achieved the highest FID score on both the LFW and Wider datasets, demonstrating its ability to generate more realistic faces. Regarding IQA metrics, DiffBIR also obtains the high- est scores in CLIP-IQA and MANIQA, while the MUSIQ scores are close to the highest ones.Although the IRCon- trolNet is not finetuned on face dataset (e.g., FFHQ), it out- performs all other baseline methods, indicating the excellent generalization ability of our proposed restoration pipeline. The visual comparisons are shown in Fig.8.From the first example, it can be seen that only DiffBIR could restore the hand correctly, while other methods are influenced by facial priors thus distorting the hand area.In the second example, only DiffBIR successfully restores the side face, while other methods fail in restoring areas such as teeth, nose, and chin. Both two cases have demonstrated the superiority of using generativepriorsforgeneralimagesratherthanjustface images. BID on real-world datasets.The quantitative comparisons are shown in Table 5.We can see that DiffBIR significantly outperforms the baseline methods across all metrics.This remarkable difference can be attributed to DiffBIR’s intro- duction of powerful generative diffusion prior, which allows for effective high-quality image restoration.Fig.9 illustrates visual comparisons between DiffBIR and baseline methods. It is observed that only DiffBIR can remove noise as well as generate realistic textures.Although SwinIR and SCUNet- GANcouldsuccessfullyremovethenoises,theyproduce smoothed results without vivid texture details.",
+      "caption_en": "Table 4.DiffBIR has achieved the highest FID score on both the LFW and Wider datasets, demonstrating its ability to generate more realistic faces. Regarding IQA metrics, DiffBIR also obtains the high- est scores in CLIP-IQA and MANIQA, while the MUSIQ scores are close to the highest ones.Although the IRCon- trolNet is not finetuned on face dataset (e.g., FFHQ), it out- performs all other baseline methods, indicating the excellent generalization ability of our proposed restoration pipeline. The visual comparisons are shown in Fig.8.From the first example, it can be seen that only DiffBIR could restore the hand correctly, while other methods are influenced by facial priors thus distorting the hand area.In the second example, only DiffBIR successfully restores the side face, while other methods fail in restoring areas such as teeth, nose, and chin. Both two cases have demonstrated the superiority of using generativepriorsforgeneralimagesratherthanjustface images. BID on real-world datasets.The quantitative comparisons are shown in Table 5.We can see that DiffBIR significantly outperforms the baseline methods across all metrics.This remarkable difference can be attributed to DiffBIR’s intro- duction of powerful generative diffusion prior, which allows for effective high-quality image restoration.Fig.9 illustrates visual comparisons between DiffBIR and baseline methods. It is observed that only DiffBIR can remove noise as well as generate realistic textures.Although SwinIR and SCUNet- GANcouldsuccessfullyremovethenoises,theyproduce smoothed results without vivid texture details.",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.803,
+        366.191,
+        288.11,
+        713.407
+      ],
+      "content_bbox": [
+        308.977,
+        136.898,
+        544.849,
+        352.909
+      ],
+      "crop_bbox": [
+        308.977,
+        136.898,
+        544.849,
+        352.909
+      ],
+      "original": "tables/original/Table4_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 8,
+      "caption": "Table 5.Quantitative comparisons on real-world datasets for BID task.Red and blue indicate the best and second best.The top 3 results are marked asgray.",
+      "caption_en": "Table 5.Quantitative comparisons on real-world datasets for BID task.Red and blue indicate the best and second best.The top 3 results are marked asgray.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.584,
+        154.773,
+        545.112,
+        185.684
+      ],
+      "content_bbox": [
+        223.627,
+        72.178,
+        540.66,
+        147.639
+      ],
+      "crop_bbox": [
+        223.627,
+        72.178,
+        540.66,
+        147.639
+      ],
+      "original": "tables/original/Table5_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 9,
+      "caption": "Table6.AblationstudyonRM.Thebestresultsaredenotedas Red.",
+      "caption_en": "Table6.AblationstudyonRM.Thebestresultsaredenotedas Red.",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.834,
+        157.102,
+        286.361,
+        177.095
+      ],
+      "content_bbox": [
+        51.62,
+        72.182,
+        282.825,
+        150.138
+      ],
+      "crop_bbox": [
+        51.62,
+        72.182,
+        282.825,
+        150.138
+      ],
+      "original": "tables/original/Table6_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 9,
+      "caption": "Table 7 also show that our IRControlNet achieves higher PSNR scores than ControlNet. TheEffectivenessofWideDegradationRangeInthis work, we employ a classic degradation model with a wide degradation range to obtain conditions for training genera- tionmodule,aimingtoimprovetheoverallgenerativeca- pability.One commonly used degradation model for BSR isproposedbyRealESRGAN[56].Itadoptsaverycom- plex degradation process but uses much smaller degradation ranges.Here we compare these two degradation models and present the quantitative comparison in Table 8.It is observed that using our degradation model leads to better utilization of generative capabilities, thus enhancing the quality of the restored results.",
+      "caption_en": "Table 7 also show that our IRControlNet achieves higher PSNR scores than ControlNet. TheEffectivenessofWideDegradationRangeInthis work, we employ a classic degradation model with a wide degradation range to obtain conditions for training genera- tionmodule,aimingtoimprovetheoverallgenerativeca- pability.One commonly used degradation model for BSR isproposedbyRealESRGAN[56].Itadoptsaverycom- plex degradation process but uses much smaller degradation ranges.Here we compare these two degradation models and present the quantitative comparison in Table 8.It is observed that using our degradation model leads to better utilization of generative capabilities, thus enhancing the quality of the restored results.",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.753,
+        311.549,
+        288.014,
+        476.929
+      ],
+      "content_bbox": [
+        51.62,
+        238.865,
+        282.825,
+        271.738
+      ],
+      "crop_bbox": [
+        51.62,
+        238.865,
+        282.825,
+        271.738
+      ],
+      "original": "tables/original/Table7_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 9,
+      "caption": "Table 8.Ablation study on degradation model evaluated on Real- SRSet [73].Red denotes the best results.",
+      "caption_en": "Table 8.Ablation study on degradation model evaluated on Real- SRSet [73].Red denotes the best results.",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.834,
+        278.698,
+        287.852,
+        298.69
+      ],
+      "content_bbox": [
+        51.62,
+        238.865,
+        282.825,
+        271.738
+      ],
+      "crop_bbox": [
+        51.62,
+        238.865,
+        282.825,
+        271.738
+      ],
+      "original": "tables/original/Table8_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "DiffBIR_Towards_Blind_Image_Restoration_with_Generative_Diffusion_Prior_ECCV_2024",
+    "title": "Blind Image Super Resolution DiffBIR(Ours) LQ(part) StableSR PASD RealESR-GAN SwinIR-GAN Blind Image Denoising Blind Face Restoration DiffBIR(Ours) LQ(part) SwinIR SCUNet-GAN DiffBIR(Ours) LQ(part) CodeFormer PGDiff",
+    "venue": "ECCV",
+    "venue_full": "ECCV",
+    "venue_short": "ECCV",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "c07f82ca86d5af007d763edd5b1df392a7ee355a0837e542a506569c53293f10",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\ECCV 2024-2024-盲图像恢复 扩散先验-DiffBIR Towards Blind Image Restoration with Generative Diffusion Prior.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\MA4GUZGE\\Lin 等 - 2024 - DiffBIR Towards Blind Image Restoration with Generative Diffusion Prior.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 B类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 B类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    },
+    {
+      "label": "Fig10",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ]
+    },
+    {
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ]
+    }
+  ]
+}

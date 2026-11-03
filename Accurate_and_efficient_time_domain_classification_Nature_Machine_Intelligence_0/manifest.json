@@ -1,0 +1,296 @@
+{
+  "paper": "Accurate_and_efficient_time_domain_classification_Nature_Machine_Intelligence_0",
+  "pdf": "pdf/paper.pdf",
+  "pages": 15,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Figure 1.a, Top:a classical artiﬁcial neural unit computes a weighted sum over input activations and then computes an output activation from this sum using a non-linear transfer functionf().Time is modeled as iterated recomputation of the network graph.Bottom:Spiking neurons receive spikes that are weighted and added to the internal state (membrane potential) that further develops through time following differential equations.When the membrane potential crosses a threshold, a spike is emitted and the potential is reset.b, Example architecture of a Spiking Recurrent Neural Network:an input layer projects to a layer of recurrently connected spiking neurons.Recurrent layers then project to a read-out layer.Multiple recurrent layers can be connected in a feedforward fashion, here shown for two recurrent layers.c, The decaying threshold and membrane potential of the LIF and ALIF neurons can be modeled as an internal state induced by self-recurrency.d, Roll-out of the computational graph of a spiking neuron as used for backpropagation-through-time.e, Illustration of different surrogate gradient functionsˆf′ s as a function of the neuron’s membrane potential and threshold.",
+      "caption_en": "Figure 1.a, Top:a classical artiﬁcial neural unit computes a weighted sum over input activations and then computes an output activation from this sum using a non-linear transfer functionf().Time is modeled as iterated recomputation of the network graph.Bottom:Spiking neurons receive spikes that are weighted and added to the internal state (membrane potential) that further develops through time following differential equations.When the membrane potential crosses a threshold, a spike is emitted and the potential is reset.b, Example architecture of a Spiking Recurrent Neural Network:an input layer projects to a layer of recurrently connected spiking neurons.Recurrent layers then project to a read-out layer.Multiple recurrent layers can be connected in a feedforward fashion, here shown for two recurrent layers.c, The decaying threshold and membrane potential of the LIF and ALIF neurons can be modeled as an internal state induced by self-recurrency.d, Roll-out of the computational graph of a spiking neuron as used for backpropagation-through-time.e, Illustration of different surrogate gradient functionsˆf′ s as a function of the neuron’s membrane potential and threshold.",
+      "caption_zh": "",
+      "caption_bbox": [
+        56.693,
+        370.765,
+        555.311,
+        488.428
+      ],
+      "content_bbox": [
+        58.403,
+        62.735,
+        554.135,
+        357.09
+      ],
+      "crop_bbox": [
+        58.403,
+        62.735,
+        554.135,
+        357.09
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.96 in\n\n形状统计 (627 个):\n  FREEFORM (5)                 414\n  TEXT_BOX (17)                163\n  AUTO_SHAPE (1)               35\n  PICTURE (13)                 15\n\n矢量形状: 612\n位图图片: 15\n  0.0% 画面  (0.22 x 0.16 in)\n  0.0% 画面  (0.22 x 0.16 in)\n  0.0% 画面  (0.22 x 0.16 in)\n  0.0% 画面  (0.22 x 0.16 in)\n  0.0% 画面  (0.22 x 0.16 in)\n  0.0% 画面  (0.19 x 0.13 in)\n  0.0% 画面  (0.19 x 0.13 in)\n  0.0% 画面  (0.22 x 0.16 in)\n  0.0% 画面  (0.22 x 0.16 in)\n  0.0% 画面  (0.22 x 0.16 in)\n  ... 共 15 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2.a, Theoretical energy computation of different layers.The computational complexity calculation follows20.b, LIF, ALIF and LSTM internal operation schematic.",
+      "caption_en": "Figure 2.a, Theoretical energy computation of different layers.The computational complexity calculation follows20.b, LIF, ALIF and LSTM internal operation schematic.",
+      "caption_zh": "",
+      "caption_bbox": [
+        56.334,
+        459.577,
+        556.552,
+        483.147
+      ],
+      "content_bbox": [
+        147.186,
+        230.08,
+        454.384,
+        450.758
+      ],
+      "crop_bbox": [
+        147.186,
+        230.08,
+        454.384,
+        450.758
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.61 in\n\n形状统计 (297 个):\n  TEXT_BOX (17)                185\n  FREEFORM (5)                 104\n  PICTURE (13)                 8\n\n矢量形状: 289\n位图图片: 8\n  13.7% 画面  (5.42 x 3.23 in)\n  0.6% 画面  (0.89 x 0.82 in)\n  0.6% 画面  (0.89 x 0.82 in)\n  0.5% 画面  (0.86 x 0.80 in)\n  0.5% 画面  (0.86 x 0.80 in)\n  0.5% 画面  (0.86 x 0.80 in)\n  1.1% 画面  (1.23 x 1.19 in)\n  7.4% 画面  (3.95 x 2.39 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 3,
+      "caption": "Table 1.Comparison of SRNN performance to respective RNN and SNN state-of-the art accuracy (Acc.).",
+      "caption_en": "Table 1.Comparison of SRNN performance to respective RNN and SNN state-of-the art accuracy (Acc.).",
+      "caption_zh": "",
+      "caption_bbox": [
+        82.44,
+        64.488,
+        529.253,
+        74.464
+      ],
+      "content_bbox": [
+        89.571,
+        85.897,
+        519.898,
+        281.273
+      ],
+      "crop_bbox": [
+        89.571,
+        85.897,
+        519.898,
+        281.273
+      ],
+      "original": "tables/original/Table1_p003.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Figure 3.Examples of a, a single ECG signal channel labeled for each timestep; b, the input spike-trains for the spoken number “seven” in the SHD dataset and c, example of gesture data – the temporal evolution of the gesture (upper row) and the corresponding RDI (bottom row); d, Effects of various surrogate gradients on performance.e, Effects of training the time constant hyperparameters τmand τadp; the legend denotes which hyperparameters are trained; ReLU denotes the non-spiking analog SRNN. f, The per timestep spike probability of the SRNNs on various tasks.g, Total average Spike Operations (SOP) per sample and SOPs per sample per step (timestep/frame); h,Effect of neuron types in terms of test accuracy and sparsity with various gradients (shown for SoLi dataset); the size of the nodes indicates the network size and the color of nodes represents the gradient type; i, Effect of the number of hidden recurrent layers on test accuracy and sparsity with various gradients (shown for SHD dataset).",
+      "caption_en": "Figure 3.Examples of a, a single ECG signal channel labeled for each timestep; b, the input spike-trains for the spoken number “seven” in the SHD dataset and c, example of gesture data – the temporal evolution of the gesture (upper row) and the corresponding RDI (bottom row); d, Effects of various surrogate gradients on performance.e, Effects of training the time constant hyperparameters τmand τadp; the legend denotes which hyperparameters are trained; ReLU denotes the non-spiking analog SRNN. f, The per timestep spike probability of the SRNNs on various tasks.g, Total average Spike Operations (SOP) per sample and SOPs per sample per step (timestep/frame); h,Effect of neuron types in terms of test accuracy and sparsity with various gradients (shown for SoLi dataset); the size of the nodes indicates the network size and the color of nodes represents the gradient type; i, Effect of the number of hidden recurrent layers on test accuracy and sparsity with various gradients (shown for SHD dataset).",
+      "caption_zh": "",
+      "caption_bbox": [
+        56.444,
+        438.276,
+        555.479,
+        543.984
+      ],
+      "content_bbox": [
+        58.239,
+        61.361,
+        556.413,
+        418.927
+      ],
+      "crop_bbox": [
+        58.239,
+        61.361,
+        556.413,
+        418.927
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.60 in\n\n形状统计 (817 个):\n  FREEFORM (5)                 659\n  AUTO_SHAPE (1)               132\n  TEXT_BOX (17)                16\n  PICTURE (13)                 10\n\n矢量形状: 807\n位图图片: 10\n  0.8% 画面  (1.06 x 0.98 in)\n  0.8% 画面  (1.06 x 0.98 in)\n  0.8% 画面  (1.06 x 0.98 in)\n  0.8% 画面  (1.17 x 0.85 in)\n  0.8% 画面  (0.99 x 0.97 in)\n  0.8% 画面  (0.98 x 1.07 in)\n  0.3% 画面  (0.56 x 0.58 in)\n  7.9% 画面  (4.27 x 2.36 in)\n  0.1% 画面  (0.20 x 0.58 in)\n  6.3% 画面  (3.26 x 2.47 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 5,
+      "caption": "Figure 4.a,b, Grid search for h and s parameters for the Multi-Gaussian surrogate gradient on SoLi dataset.The red dotted line highlights solutions with high accuracy a, and high sparsity b.c, evolution of spiking neuron time constants evolving before and after training d, example of ECG streaming classiﬁcation:the prediction probability of each output label is calculated from the normalized output neurons’ membrane potential (dashed lines, bottom); top:the color-coded true labels.e-i Temporal evolution of classiﬁcation accuracy for the S-MNIST recognition task e, the PS-MNIST task f, the SHD recognition task g„ the SSC dataset h„ and for the SoLi dataset i.",
+      "caption_en": "Figure 4.a,b, Grid search for h and s parameters for the Multi-Gaussian surrogate gradient on SoLi dataset.The red dotted line highlights solutions with high accuracy a, and high sparsity b.c, evolution of spiking neuron time constants evolving before and after training d, example of ECG streaming classiﬁcation:the prediction probability of each output label is calculated from the normalized output neurons’ membrane potential (dashed lines, bottom); top:the color-coded true labels.e-i Temporal evolution of classiﬁcation accuracy for the S-MNIST recognition task e, the PS-MNIST task f, the SHD recognition task g„ the SSC dataset h„ and for the SoLi dataset i.",
+      "caption_zh": "",
+      "caption_bbox": [
+        56.384,
+        574.88,
+        555.308,
+        644.795
+      ],
+      "content_bbox": [
+        59.854,
+        218.522,
+        555.312,
+        562.348
+      ],
+      "crop_bbox": [
+        59.854,
+        218.522,
+        555.312,
+        562.348
+      ],
+      "original": "figures/original/Fig4_p005.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.29 in\n\n形状统计 (645 个):\n  FREEFORM (5)                 567\n  TEXT_BOX (17)                54\n  AUTO_SHAPE (1)               22\n  PICTURE (13)                 2\n\n矢量形状: 643\n位图图片: 2\n  0.2% 画面  (0.12 x 2.55 in)\n  0.2% 画面  (0.11 x 2.55 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table 2.Comparison of SRNN energy consumption to respective RNN and SNN state-of-the-art accuracy.Relative energy cost is calculated using the number of MACs and ACs required during inference with Energynn = ∑t∈T 3.1MAC +.1AC25;fr denotes the average spiking probability in the SRNNs per timestep.The Bidirectional-LSTM network 290∗contains 290 LSTM units.The accuracy in SoLi dataset is per frame accuracy.For GSC, the ReLu SRNN did not converge.∗∗For TIMIT, the complexity of comparably accurate networks was not available.",
+      "caption_en": "Table 2.Comparison of SRNN energy consumption to respective RNN and SNN state-of-the-art accuracy.Relative energy cost is calculated using the number of MACs and ACs required during inference with Energynn = ∑t∈T 3.1MAC +.1AC25;fr denotes the average spiking probability in the SRNNs per timestep.The Bidirectional-LSTM network 290∗contains 290 LSTM units.The accuracy in SoLi dataset is per frame accuracy.For GSC, the ReLu SRNN did not converge.∗∗For TIMIT, the complexity of comparably accurate networks was not available.",
+      "caption_zh": "",
+      "caption_bbox": [
+        56.384,
+        64.488,
+        555.308,
+        122.376
+      ],
+      "content_bbox": [
+        58.833,
+        133.678,
+        566.934,
+        249.284
+      ],
+      "crop_bbox": [
+        58.833,
+        133.678,
+        566.934,
+        249.284
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Accurate_and_efficient_time_domain_classification_Nature_Machine_Intelligence_0",
+    "title": "Accurate and efficient time-domain classification with adaptive spiking recurrent neural networks",
+    "venue": "Nature Machine Intelligence",
+    "venue_full": "Nature Machine Intelligence",
+    "venue_short": "Nature Machine Intelligence",
+    "venue_type": "期刊",
+    "year": 2021,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "817cf09d86729eba3b042d23f469c0b404f50b5b7e5456e67868faecf40b6c71",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\SALLN7ND\\nature machine intelligence 使用自适应脉冲递归神经网络进行准确高效的时域分类.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\VW9M5DKN\\nature machine intelligence 使用自适应脉冲递归神经网络进行准确高效的时域分类.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 1区 · Top（2025）",
+    "cas_display": "中科院 1区 · Top（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    }
+  ]
+}

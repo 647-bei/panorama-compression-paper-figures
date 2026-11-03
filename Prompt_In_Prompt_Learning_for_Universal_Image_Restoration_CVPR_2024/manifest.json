@@ -1,0 +1,536 @@
+{
+  "paper": "Prompt_In_Prompt_Learning_for_Universal_Image_Restoration_CVPR_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 18,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1. t-SNE of the proposed prompt. Prompt-in-prompt learn- ingcombinesdegradation-awareandbasicrestorationprompts for high- and low-level knowledge simultaneously.The resulting universalrestorationpromptisinterpretable,offeringdecoupled properties for different degradation types while being effective for restoration models.",
+      "caption_en": "Figure 1. t-SNE of the proposed prompt. Prompt-in-prompt learn- ingcombinesdegradation-awareandbasicrestorationprompts for high- and low-level knowledge simultaneously.The resulting universalrestorationpromptisinterpretable,offeringdecoupled properties for different degradation types while being effective for restoration models.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        392.538,
+        545.109,
+        456.506
+      ],
+      "content_bbox": [
+        308.862,
+        269.561,
+        545.11,
+        384.65
+      ],
+      "crop_bbox": [
+        308.862,
+        269.561,
+        545.11,
+        384.65
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  65.0% 画面  (10.00 x 4.87 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4456008 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2.The architecture of PIP, which is developed as a lightweight,plug-and-play module on the skip connection to enhance current task-specificnetworksforuniversalrestoration.PIPfirstlearnsdegradation-awarepromptdandbasicrestorationpromptB,andthen generatestheuniversalrestorationpromptUbyprompt-to-prompt(P2P)interaction.Lastly,featuresZaremodulatedviaselective prompt-to-feature (P2F) interaction, focusing on the most relevant features denoted by the prompt.",
+      "caption_en": "Figure 2.The architecture of PIP, which is developed as a lightweight,plug-and-play module on the skip connection to enhance current task-specificnetworksforuniversalrestoration.PIPfirstlearnsdegradation-awarepromptdandbasicrestorationpromptB,andthen generatestheuniversalrestorationpromptUbyprompt-to-prompt(P2P)interaction.Lastly,featuresZaremodulatedviaselective prompt-to-feature (P2F) interaction, focusing on the most relevant features denoted by the prompt.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        306.487,
+        545.115,
+        348.33
+      ],
+      "content_bbox": [
+        74.863,
+        71.999,
+        520.366,
+        295.595
+      ],
+      "crop_bbox": [
+        74.863,
+        71.999,
+        520.366,
+        295.595
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.75 in\n\n形状统计 (959 个):\n  FREEFORM (5)                 868\n  TEXT_BOX (17)                83\n  PICTURE (13)                 6\n  AUTO_SHAPE (1)               2\n\n矢量形状: 953\n位图图片: 6\n  0.7% 画面  (0.96 x 0.64 in)\n  0.6% 画面  (0.85 x 0.63 in)\n  0.6% 画面  (0.86 x 0.63 in)\n  0.7% 画面  (0.95 x 0.63 in)\n  0.7% 画面  (0.96 x 0.64 in)\n  0.6% 画面  (0.93 x 0.63 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 5,
+      "caption": "Figure 3.Visual comparison of universal methods on image denoising, deraining, and dehazing.",
+      "caption_en": "Figure 3.Visual comparison of universal methods on image denoising, deraining, and dehazing.",
+      "caption_zh": "",
+      "caption_bbox": [
+        125.459,
+        394.261,
+        469.769,
+        403.227
+      ],
+      "content_bbox": [
+        58.204,
+        72.789,
+        542.633,
+        388.181
+      ],
+      "crop_bbox": [
+        58.204,
+        72.789,
+        542.633,
+        388.181
+      ],
+      "original": "figures/original/Fig3_p005.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.72 in\n\n形状统计 (471 个):\n  FREEFORM (5)                 177\n  TEXT_BOX (17)                174\n  PICTURE (13)                 120\n\n矢量形状: 351\n位图图片: 120\n  0.4% 画面  (0.65 x 0.65 in)\n  2.2% 画面  (1.95 x 1.30 in)\n  2.2% 画面  (1.95 x 1.30 in)\n  0.4% 画面  (0.65 x 0.65 in)\n  0.4% 画面  (0.65 x 0.65 in)\n  0.4% 画面  (0.65 x 0.65 in)\n  0.4% 画面  (0.65 x 0.65 in)\n  2.2% 画面  (1.95 x 1.30 in)\n  2.2% 画面  (1.95 x 1.30 in)\n  0.4% 画面  (0.65 x 0.65 in)\n  ... 共 120 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table 1.Performance on “noise-rain-haze” settings.The best and second best results are marked in bold and underline, respectively.",
+      "caption_en": "Table 1.Performance on “noise-rain-haze” settings.The best and second best results are marked in bold and underline, respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        60.144,
+        72.789,
+        535.08,
+        81.837
+      ],
+      "content_bbox": [
+        80.447,
+        87.75,
+        514.777,
+        199.133
+      ],
+      "crop_bbox": [
+        80.447,
+        87.75,
+        514.777,
+        199.133
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Figure 4.Visualization results of using different degradation-aware prompts for restoration.",
+      "caption_en": "Figure 4.Visualization results of using different degradation-aware prompts for restoration.",
+      "caption_zh": "",
+      "caption_bbox": [
+        133.551,
+        387.103,
+        461.676,
+        396.069
+      ],
+      "content_bbox": [
+        50.112,
+        72.871,
+        548.253,
+        380.434
+      ],
+      "crop_bbox": [
+        50.112,
+        72.871,
+        548.253,
+        380.434
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.28 in\n\n形状统计 (248 个):\n  TEXT_BOX (17)                131\n  FREEFORM (5)                 99\n  PICTURE (13)                 18\n\n矢量形状: 230\n位图图片: 18\n  2.8% 画面  (2.15 x 1.44 in)\n  2.8% 画面  (2.15 x 1.44 in)\n  2.8% 画面  (2.15 x 1.43 in)\n  2.8% 画面  (2.15 x 1.45 in)\n  2.8% 画面  (2.15 x 1.43 in)\n  2.8% 画面  (2.15 x 1.43 in)\n  2.8% 画面  (2.15 x 1.43 in)\n  2.8% 画面  (2.15 x 1.43 in)\n  2.8% 画面  (2.15 x 1.43 in)\n  2.8% 画面  (2.15 x 1.45 in)\n  ... 共 18 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure5.VisualizationofPIPonCTdenoisingwithnoiselevel σ= 25 under a CT window of [-200, 300] HU.",
+      "caption_en": "Figure5.VisualizationofPIPonCTdenoisingwithnoiselevel σ= 25 under a CT window of [-200, 300] HU.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        570.69,
+        545.109,
+        590.615
+      ],
+      "content_bbox": [
+        308.862,
+        478.924,
+        545.131,
+        567.717
+      ],
+      "crop_bbox": [
+        308.862,
+        478.924,
+        545.131,
+        567.717
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  50.2% 画面  (10.00 x 3.76 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3441082 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table 2.Performance on “noise-rain-haze-blur-enhance” datasets.The best and second best results of multi-task restoration are marked in bold and underline, respectively.Metrics are presented in [PSNR (dB) / SSIM]. Metrics are presented in [PSNR (dB) / SSIM].",
+      "caption_en": "Table 2.Performance on “noise-rain-haze-blur-enhance” datasets.The best and second best results of multi-task restoration are marked in bold and underline, respectively.Metrics are presented in [PSNR (dB) / SSIM]. Metrics are presented in [PSNR (dB) / SSIM].",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        72.871,
+        545.111,
+        92.796
+      ],
+      "content_bbox": [
+        50.112,
+        98.709,
+        548.253,
+        194.9
+      ],
+      "crop_bbox": [
+        50.112,
+        98.709,
+        548.253,
+        194.9
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 7,
+      "caption": "Figure 6.The effect of varying θthre in Lddl from 0◦to 120◦during training.The black horizontal line indicates L with α=0, which imposes no constraint on the degradation-aware prompt; note that italsocorrespondstoθthre=0◦.Inthe“CLIP”configuration,a pre-trainedCLIPtextencoder[46]andalinearlayerareusedto create degradation-aware prompts of the same shape.The experi- ments are conducted on a four-dataset setting of “noise-rain-blur- enhance” to reduce the computation costs, considering the dehaz- ing dataset is the largest one.",
+      "caption_en": "Figure 6.The effect of varying θthre in Lddl from 0◦to 120◦during training.The black horizontal line indicates L with α=0, which imposes no constraint on the degradation-aware prompt; note that italsocorrespondstoθthre=0◦.Inthe“CLIP”configuration,a pre-trainedCLIPtextencoder[46]andalinearlayerareusedto create degradation-aware prompts of the same shape.The experi- ments are conducted on a four-dataset setting of “noise-rain-blur- enhance” to reduce the computation costs, considering the dehaz- ing dataset is the largest one.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        585.007,
+        545.112,
+        683.402
+      ],
+      "content_bbox": [
+        310.266,
+        320.079,
+        541.015,
+        572.569
+      ],
+      "crop_bbox": [
+        310.266,
+        320.079,
+        541.015,
+        572.569
+      ],
+      "original": "figures/original/Fig6_p007.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 14.58 in\n\n形状统计 (85 个):\n  TEXT_BOX (17)                48\n  FREEFORM (5)                 32\n  AUTO_SHAPE (1)               5\n\n矢量形状: 85\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "Table 3.Performance on unseen noise level of (σ=10, 30, 60) and severe rain conditions from the Rain100H dataset.Additional noise (σ= 25) was added to the rain and haze test sets to generate images with multiple degradations.",
+      "caption_en": "Table 3.Performance on unseen noise level of (σ=10, 30, 60) and severe rain conditions from the Rain100H dataset.Additional noise (σ= 25) was added to the rain and haze test sets to generate images with multiple degradations.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        72.663,
+        545.113,
+        92.796
+      ],
+      "content_bbox": [
+        57.817,
+        98.709,
+        537.407,
+        154.144
+      ],
+      "crop_bbox": [
+        57.817,
+        98.709,
+        537.407,
+        154.144
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "Table 4.Efficiency comparison, including number of parameters, FLOPS, and average inference time.The testing is conducted on a single RTX2080Ti GPU using 1000 images with a batch size of 1, each at a resolution of 256 × 256.",
+      "caption_en": "Table 4.Efficiency comparison, including number of parameters, FLOPS, and average inference time.The testing is conducted on a single RTX2080Ti GPU using 1000 images with a batch size of 1, each at a resolution of 256 × 256.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        168.223,
+        545.111,
+        188.148
+      ],
+      "content_bbox": [
+        57.817,
+        98.709,
+        537.407,
+        154.144
+      ],
+      "crop_bbox": [
+        57.817,
+        98.709,
+        537.407,
+        154.144
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 7,
+      "caption": "Table 5.Quantitative evaluation of different configurations of PIP under“noise-rain-haze”datasets.dandBarethedegradation- aware prompt and basic restoration prompt, respectively.",
+      "caption_en": "Table 5.Quantitative evaluation of different configurations of PIP under“noise-rain-haze”datasets.dandBarethedegradation- aware prompt and basic restoration prompt, respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        277.613,
+        545.109,
+        308.497
+      ],
+      "content_bbox": [
+        149.674,
+        199.73,
+        442.864,
+        256.318
+      ],
+      "crop_bbox": [
+        149.674,
+        199.73,
+        442.864,
+        256.318
+      ],
+      "original": "tables/original/Table5_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 8,
+      "caption": "Figure7.t-SNEvisualizationofthethreeuniversalrestoration prompt in PIPRestormer.Each color represents one degradation type.",
+      "caption_en": "Figure7.t-SNEvisualizationofthethreeuniversalrestoration prompt in PIPRestormer.Each color represents one degradation type.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        163.359,
+        545.116,
+        183.765
+      ],
+      "content_bbox": [
+        305.309,
+        94.335,
+        545.95,
+        155.561
+      ],
+      "crop_bbox": [
+        305.309,
+        94.335,
+        545.95,
+        155.561
+      ],
+      "original": "figures/original/Fig7_p008.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  34.1% 画面  (10.00 x 2.55 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Prompt_In_Prompt_Learning_for_Universal_Image_Restoration_CVPR_2024",
+    "title": "Prompt-In-Prompt Learning for Universal Image Restoration Zilong Li1 Yiming Lei1 Chenglong Ma2 Junping Zhang1 Hongming Shan2,3∗",
+    "venue": "CVPR",
+    "venue_full": "CVPR",
+    "venue_short": "CVPR",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "fa88f004b5dd739f563b3a36b0411a19b20a1caaf9625c1ccd9f3d99939183cd",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\CVPR 2024-2024-通用图像恢复 Prompt学习-Prompt-In-Prompt Learning for Universal Image Restoration.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\WPA8CITZ\\Li 等 - 2023 - Prompt-In-Prompt Learning for Universal Image Restoration.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "paper": "SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 20,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure1.Energy–accuracytrade-offonLaSOT[5].SpikeTrack achieveslowerenergyconsumptionthanefficientANNtrackers while matching the accuracy of precision-oriented methods.",
+      "caption_en": "Figure1.Energy–accuracytrade-offonLaSOT[5].SpikeTrack achieveslowerenergyconsumptionthanefficientANNtrackers while matching the accuracy of precision-oriented methods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        438.635,
+        553.497,
+        469.519
+      ],
+      "content_bbox": [
+        316.477,
+        238.813,
+        553.497,
+        428.251
+      ],
+      "crop_bbox": [
+        316.477,
+        238.813,
+        553.497,
+        428.251
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 10.68 in\n\n形状统计 (217 个):\n  FREEFORM (5)                 147\n  TEXT_BOX (17)                59\n  AUTO_SHAPE (1)               10\n  PICTURE (13)                 1\n\n矢量形状: 216\n位图图片: 1\n  6.1% 画面  (4.37 x 1.98 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 217 draws 38 fs 4 polys 119 rings 10 text 59 images 0 inline 1 canvas 1948 1560\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.68 in\n\n形状统计 (217 个):\n  FREEFORM (5)                 147\n  TEXT_BOX (17)                59\n  AUTO_SHAPE (1)               10\n  PICTURE (13)                 1\n\n矢量形状: 216\n位图图片: 1\n  6.1% 画面  (4.37 x 1.98 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 1,
+      "caption": "Figure 2. Structure comparison between one-stream tracking SNN (top) and our asymmetric tracking SNN (bottom).L represents the number of blocks in the backbone.",
+      "caption_en": "Figure 2. Structure comparison between one-stream tracking SNN (top) and our asymmetric tracking SNN (bottom).L represents the number of blocks in the backbone.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        218.222,
+        553.497,
+        249.106
+      ],
+      "content_bbox": [
+        310.555,
+        71.999,
+        561.396,
+        211.877
+      ],
+      "crop_bbox": [
+        310.555,
+        71.999,
+        561.396,
+        211.877
+      ],
+      "original": "figures/original/Fig2_p001.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 7.48 in\n\n形状统计 (315 个):\n  FREEFORM (5)                 295\n  TEXT_BOX (17)                19\n  PICTURE (13)                 1\n\n矢量形状: 314\n位图图片: 1\n  17.8% 画面  (3.57 x 4.98 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 315 draws 123 fs 35 polys 215 rings 0 text 19 images 0 inline 1 canvas 1948 1093\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026\\figures\\vector\\Fig2\\Fig2.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026\\figures\\vector\\Fig2\\Fig2.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.48 in\n\n形状统计 (315 个):\n  FREEFORM (5)                 295\n  TEXT_BOX (17)                19\n  PICTURE (13)                 1\n\n矢量形状: 314\n位图图片: 1\n  17.8% 画面  (3.57 x 4.98 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 2,
+      "caption": "Figure3.OverviewofSpikeTrack.Thenetworkconsistsofthreecomponents:aweight-sharingsiamesebackbone,amemoryretrieval module for information transfer,and a prediction head.We use asymmetric timestep inputs and unidirectional information flow.During inference,templatebranchfeaturesareconvertedandcachedasmemory.Thesearchbranchqueriesthismemorytoextracttargetcues. The template branchs runs once, per initialization or update.",
+      "caption_en": "Figure3.OverviewofSpikeTrack.Thenetworkconsistsofthreecomponents:aweight-sharingsiamesebackbone,amemoryretrieval module for information transfer,and a prediction head.We use asymmetric timestep inputs and unidirectional information flow.During inference,templatebranchfeaturesareconvertedandcachedasmemory.Thesearchbranchqueriesthismemorytoextracttargetcues. The template branchs runs once, per initialization or update.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        386.215,
+        553.499,
+        428.058
+      ],
+      "content_bbox": [
+        58.5,
+        71.998,
+        553.353,
+        375.301
+      ],
+      "crop_bbox": [
+        58.5,
+        71.998,
+        553.353,
+        375.301
+      ],
+      "original": "figures/original/Fig3_p002.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "pdf_vector+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 8.21 in\n\n形状统计 (570 个):\n  FREEFORM (5)                 437\n  TEXT_BOX (17)                85\n  PICTURE (13)                 48\n\n矢量形状: 522\n位图图片: 48\n  1.9% 画面  (0.75 x 2.85 in)\n  2.0% 画面  (0.75 x 2.85 in)\n  1.5% 画面  (0.77 x 2.17 in)\n  1.9% 画面  (0.74 x 2.85 in)\n  1.5% 画面  (0.76 x 2.17 in)\n  1.9% 画面  (0.74 x 2.84 in)\n  1.1% 画面  (1.71 x 0.72 in)\n  1.1% 画面  (1.71 x 0.72 in)\n  1.5% 画面  (0.77 x 2.17 in)\n  1.5% 画面  (0.76 x 2.17 in)\n  ... 共 48 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nfont TimesNewRomanPSMT 无子集覆盖全部字符（缺 0 个），缺字回退系统字体 Times New Roman\nops 570 draws 215 fs 49 polys 240 rings 0 text 85 images 0 inline 48 canvas 1948 1200\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.21 in\n\n形状统计 (570 个):\n  FREEFORM (5)                 437\n  TEXT_BOX (17)                85\n  PICTURE (13)                 48\n\n矢量形状: 522\n位图图片: 48\n  1.9% 画面  (0.75 x 2.85 in)\n  2.0% 画面  (0.75 x 2.85 in)\n  1.5% 画面  (0.77 x 2.17 in)\n  1.9% 画面  (0.74 x 2.85 in)\n  1.5% 画面  (0.76 x 2.17 in)\n  1.9% 画面  (0.74 x 2.84 in)\n  1.1% 画面  (1.71 x 0.72 in)\n  1.1% 画面  (1.71 x 0.72 in)\n  1.5% 画面  (0.77 x 2.17 in)\n  1.5% 画面  (0.76 x 2.17 in)\n  ... 共 48 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 3,
+      "caption": "Figure4.ImplementationdetailsoftheMemoryRetrievalMod- ule. Thepurplelegend(bottomleft)illustratestherecurrent, loopedconnectivitystructureinthebrain.Forsimplicityofil- lustration, the temporal spiking across timesteps are omitted.",
+      "caption_en": "Figure4.ImplementationdetailsoftheMemoryRetrievalMod- ule. Thepurplelegend(bottomleft)illustratestherecurrent, loopedconnectivitystructureinthebrain.Forsimplicityofil- lustration, the temporal spiking across timesteps are omitted.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        229.052,
+        553.497,
+        270.895
+      ],
+      "content_bbox": [
+        317.073,
+        71.823,
+        553.505,
+        218.219
+      ],
+      "crop_bbox": [
+        317.073,
+        71.823,
+        553.505,
+        218.219
+      ],
+      "original": "figures/original/Fig4_p003.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "pdf_vector+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 8.30 in\n\n形状统计 (417 个):\n  FREEFORM (5)                 299\n  TEXT_BOX (17)                94\n  PICTURE (13)                 24\n\n矢量形状: 393\n位图图片: 24\n  18.5% 画面  (6.39 x 3.19 in)\n  26.9% 画面  (6.43 x 4.62 in)\n  50.0% 画面  (7.16 x 7.72 in)\n  11.0% 画面  (4.85 x 2.51 in)\n  0.3% 画面  (0.55 x 0.55 in)\n  0.3% 画面  (0.55 x 0.55 in)\n  0.1% 画面  (0.36 x 0.36 in)\n  0.1% 画面  (0.36 x 0.36 in)\n  0.1% 画面  (0.36 x 0.36 in)\n  0.1% 画面  (0.36 x 0.36 in)\n  ... 共 24 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nfont TimesNewRomanPSMT 无子集覆盖全部字符（缺 0 个），缺字回退系统字体 Times New Roman\nops 417 draws 149 fs 75 polys 158 rings 0 text 94 images 0 inline 24 canvas 1948 1212\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026\\figures\\vector\\Fig4\\Fig4.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026\\figures\\vector\\Fig4\\Fig4.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.30 in\n\n形状统计 (417 个):\n  FREEFORM (5)                 299\n  TEXT_BOX (17)                94\n  PICTURE (13)                 24\n\n矢量形状: 393\n位图图片: 24\n  18.5% 画面  (6.39 x 3.19 in)\n  26.9% 画面  (6.43 x 4.62 in)\n  50.0% 画面  (7.16 x 7.72 in)\n  11.0% 画面  (4.85 x 2.51 in)\n  0.3% 画面  (0.55 x 0.55 in)\n  0.3% 画面  (0.55 x 0.55 in)\n  0.1% 画面  (0.36 x 0.36 in)\n  0.1% 画面  (0.36 x 0.36 in)\n  0.1% 画面  (0.36 x 0.36 in)\n  0.1% 画面  (0.36 x 0.36 in)\n  ... 共 24 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table1.Comparisonofperformanceandefficiencyacrosstrackingmethods.Para.andPow.denoteparameters(M)andpower(mJ), respectively; Tand D represent the timestep and maximum integer value emitted during training.Results marked with∗are trained solely on the GOT-10K set. All results are reported in percentage (%). The top two snn results are highlighted in bold and underlined, respectively.",
+      "caption_en": "Table1.Comparisonofperformanceandefficiencyacrosstrackingmethods.Para.andPow.denoteparameters(M)andpower(mJ), respectively; Tand D represent the timestep and maximum integer value emitted during training.Results marked with∗are trained solely on the GOT-10K set. All results are reported in percentage (%). The top two snn results are highlighted in bold and underlined, respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        72.663,
+        553.5,
+        103.755
+      ],
+      "content_bbox": [
+        58.5,
+        115.213,
+        556.267,
+        380.189
+      ],
+      "crop_bbox": [
+        58.5,
+        115.213,
+        556.267,
+        380.189
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table2.Performancecomparisonofdifferenttrackingmethods. AllevaluationmetricsarebasedonSuccessRate(AUC)andre- ported in percentage (%).The top two snn results are highlighted in bold and underlined, respectively.",
+      "caption_en": "Table2.Performancecomparisonofdifferenttrackingmethods. AllevaluationmetricsarebasedonSuccessRate(AUC)andre- ported in percentage (%).The top two snn results are highlighted in bold and underlined, respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        72.871,
+        294.747,
+        114.714
+      ],
+      "content_bbox": [
+        61.987,
+        131.371,
+        293.687,
+        256.903
+      ],
+      "crop_bbox": [
+        61.987,
+        131.371,
+        293.687,
+        256.903
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table 3.Ablation Study on LaSOT and GOT-10k.△denotes the performancechange(averagedoverbenchmarks)comparedwith the baseline.∗indicates the non-spike version.",
+      "caption_en": "Table 3.Ablation Study on LaSOT and GOT-10k.△denotes the performancechange(averagedoverbenchmarks)comparedwith the baseline.∗indicates the non-spike version.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        72.547,
+        553.506,
+        103.755
+      ],
+      "content_bbox": [
+        317.25,
+        121.249,
+        555.724,
+        270.421
+      ],
+      "crop_bbox": [
+        317.25,
+        121.249,
+        555.724,
+        270.421
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 7,
+      "caption": "Figure 5.Influence of the number of retrieval loop in MRM.",
+      "caption_en": "Figure 5.Influence of the number of retrieval loop in MRM.",
+      "caption_zh": "",
+      "caption_bbox": [
+        68.5,
+        190.301,
+        284.752,
+        199.267
+      ],
+      "content_bbox": [
+        55.73,
+        69.844,
+        295.504,
+        180.217
+      ],
+      "crop_bbox": [
+        55.73,
+        69.844,
+        295.504,
+        180.217
+      ],
+      "original": "figures/original/Fig5_p007.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 6.19 in\n\n形状统计 (77 个):\n  FREEFORM (5)                 56\n  TEXT_BOX (17)                21\n\n矢量形状: 77\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 77 draws 45 fs 27 polys 8 rings 0 text 21 images 0 inline 0 canvas 1948 905\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026\\figures\\vector\\Fig5\\Fig5.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026\\figures\\vector\\Fig5\\Fig5.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.19 in\n\n形状统计 (77 个):\n  FREEFORM (5)                 56\n  TEXT_BOX (17)                21\n\n矢量形状: 77\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 7,
+      "caption": "Figure6. GapanalysisbetweenSpikeTrackandaprecision- oriented ANN across LaSOT attributes.",
+      "caption_en": "Figure6. GapanalysisbetweenSpikeTrackandaprecision- oriented ANN across LaSOT attributes.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        212.336,
+        553.497,
+        232.261
+      ],
+      "content_bbox": [
+        317.25,
+        70.398,
+        553.493,
+        201.502
+      ],
+      "crop_bbox": [
+        317.25,
+        70.398,
+        553.493,
+        201.502
+      ],
+      "original": "figures/original/Fig6_p007.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 7.45 in\n\n形状统计 (245 个):\n  FREEFORM (5)                 208\n  TEXT_BOX (17)                35\n  AUTO_SHAPE (1)               2\n\n矢量形状: 245\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 245 draws 134 fs 76 polys 77 rings 2 text 35 images 0 inline 0 canvas 1948 1088\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026\\figures\\vector\\Fig6\\Fig6.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026\\figures\\vector\\Fig6\\Fig6.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.45 in\n\n形状统计 (245 个):\n  FREEFORM (5)                 208\n  TEXT_BOX (17)                35\n  AUTO_SHAPE (1)               2\n\n矢量形状: 245\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 7,
+      "caption": "Figure7.VisualizationofthespiketensorproducedbyMRM. Three cases are shown: similar objects, occlusion, and background interference.",
+      "caption_en": "Figure7.VisualizationofthespiketensorproducedbyMRM. Three cases are shown: similar objects, occlusion, and background interference.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        347.527,
+        553.497,
+        378.41
+      ],
+      "content_bbox": [
+        317.25,
+        70.398,
+        553.509,
+        336.693
+      ],
+      "crop_bbox": [
+        317.25,
+        70.398,
+        553.509,
+        336.693
+      ],
+      "original": "figures/original/Fig7_p007.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "pdf_vector+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 15.02 in\n\n形状统计 (277 个):\n  FREEFORM (5)                 214\n  TEXT_BOX (17)                36\n  PICTURE (13)                 25\n  AUTO_SHAPE (1)               2\n\n矢量形状: 252\n位图图片: 25\n  1.7% 画面  (1.85 x 1.86 in)\n  1.7% 画面  (1.85 x 1.85 in)\n  1.7% 画面  (1.85 x 1.86 in)\n  1.7% 画面  (1.86 x 1.86 in)\n  1.7% 画面  (1.85 x 1.85 in)\n  0.1% 画面  (0.64 x 0.40 in)\n  0.2% 画面  (0.68 x 0.68 in)\n  0.2% 画面  (0.68 x 0.68 in)\n  0.2% 画面  (0.68 x 0.68 in)\n  1.7% 画面  (1.86 x 1.86 in)\n  ... 共 25 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 277 draws 140 fs 76 polys 78 rings 2 text 36 images 18 inline 7 canvas 1948 2194\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026\\figures\\vector\\Fig7\\Fig7.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026\\figures\\vector\\Fig7\\Fig7.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 15.02 in\n\n形状统计 (277 个):\n  FREEFORM (5)                 214\n  TEXT_BOX (17)                36\n  PICTURE (13)                 25\n  AUTO_SHAPE (1)               2\n\n矢量形状: 252\n位图图片: 25\n  1.7% 画面  (1.85 x 1.86 in)\n  1.7% 画面  (1.85 x 1.85 in)\n  1.7% 画面  (1.85 x 1.86 in)\n  1.7% 画面  (1.86 x 1.86 in)\n  1.7% 画面  (1.85 x 1.85 in)\n  0.1% 画面  (0.64 x 0.40 in)\n  0.2% 画面  (0.68 x 0.68 in)\n  0.2% 画面  (0.68 x 0.68 in)\n  0.2% 画面  (0.68 x 0.68 in)\n  1.7% 画面  (1.86 x 1.86 in)\n  ... 共 25 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026",
+    "title": "SpikeTrack: A Spike-driven Framework for Efficient Visual Tracking",
+    "venue": "arXiv",
+    "venue_full": "arXiv",
+    "venue_short": "arXiv",
+    "venue_type": "期刊",
+    "year": 2026,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "e1cb94643edcbaef1a88b3c5821487e35436ebfb531a180ec19adff057bf7b7e",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\7EUMSESV\\Zhang 等 - 2026 - SpikeTrack A spike-driven framework for efficient visual tracking.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "",
+    "cas_display": "",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+% Auto-extracted table snippet; requires \usepackage{booktabs}.
+% Caption: Table 2.Comparison of SRNN energy consumption to respective RNN and SNN state-of-the-art accuracy.Relative energy cost is calculated using the number of MACs and ACs required during inference with Energynn = ∑t∈T 3.1MAC +.1AC25;fr denotes the average spiking probability in the SRNNs per timestep.The Bidirectional-LSTM network 290∗contains 290 LSTM units.The accuracy in SoLi dataset is per frame accuracy.For GSC, the ReLu SRNN did not converge.∗∗For TIMIT, the complexity of comparably accurate networks was not available.
+\begin{tabular}{llllllllllllll}
+\toprule
+Task & Method & Network & Acc. & Energy/Step &  & Ratio & Task & Method & Network & Acc & Energy/Step &  & Ratio \\
+\midrule
+ &  &  &  & MAC & AC*fr &  &  &  &  &  & MAC & AC*fr &  \\
+ECG & Bi-LSTM & 290∗ & 80.8 & 181.8K &  & 1.7Kx & SHD & Bi-LSTM & 128+128+100 & 87.2 & 1.1M &  & 1.7Kx \\
+ & ReLU & 4+36+6 & 86.4 & 1.9k &  & 18x &  & ReLu & 128+128 & 88.9 & 142.6k &  & 125x \\
+ & Ours (LIF) & 4+36+6 & 49.7 & 42 & .5k & 0.5x &  & Ours (ALIF) & 128+128 & 87.8 & 788 & 10.7k & 1x \\
+ & Ours & 4+36+6 & 85.9 & 90 & .5k & 1x & SoLi & LSTM & 512+512 & 77.7 & 2.7M &  & 604x \\
+S MNIST & ReLu & 64+256+256 & 99.0 & 157.3k &  & 59x &  & ReLu & 512+512 & 79.6 & 1.1M &  & 246x \\
+ & Ours & 64+256+256 & 98.7 & 2k & 20k & 1x &  & Ours & 512+512 & 79.8 & 3.1k & 42.4k & 1x \\
+PS MNIST & ReLu & 64+256+256 & 93.5 & 157.3k &  & 63x & GSC & ReLu & 300+300 &  & 222.6k &  & 167x \\
+ & Ours & 64+256+256 & 94.3 & 2k & 15.3k & 1x &  & Ours & 300+300 & 92.2 & 1k & 10.1k & 1x \\
+SSC & ReLu & 400+400 & 74.4 & 766.6k &  & 236x & TIMIT** & Ours & 256+61 & 66.1 & 1.6k & 56.7k & 1x \\
+ & Ours & 400+400 & 74.2 & 2.4k & 26.1k & 1x &  &  &  &  &  &  &  \\
+\bottomrule
+\end{tabular}

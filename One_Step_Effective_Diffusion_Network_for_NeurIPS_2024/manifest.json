@@ -1,0 +1,446 @@
+{
+  "paper": "One_Step_Effective_Diffusion_Network_for_NeurIPS_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 25,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Figure 1:Performance and efficiency comparison among SD-based Real-ISR methods.(a).Perfor- mance comparison on the DrealSR benchmark [51].Metrics like LPIPS and NIQE, where smaller scoresindicatebetterimagequality,areinvertedandnormalizedfordisplay.OSEDiffachieves leading scores on most metrics with only one diffusion step.(b).Model efficiency comparison.The inference time is tested on an A100 GPU with 512 × 512 input image size.OSEDiff has the fewest trainable parameters and is over 100 times faster than StableSR [42].",
+      "caption_en": "Figure 1:Performance and efficiency comparison among SD-based Real-ISR methods.(a).Perfor- mance comparison on the DrealSR benchmark [51].Metrics like LPIPS and NIQE, where smaller scoresindicatebetterimagequality,areinvertedandnormalizedfordisplay.OSEDiffachieves leading scores on most metrics with only one diffusion step.(b).Model efficiency comparison.The inference time is tested on an A100 GPU with 512 × 512 input image size.OSEDiff has the fewest trainable parameters and is over 100 times faster than StableSR [42].",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        223.886,
+        505.657,
+        288.428
+      ],
+      "content_bbox": [
+        149.759,
+        72.001,
+        462.239,
+        216.865
+      ],
+      "crop_bbox": [
+        149.759,
+        72.001,
+        462.239,
+        216.865
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  61.9% 画面  (10.00 x 4.64 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4242816 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Figure 2:The training framework of OSEDiff.The LQ image is passed through a trainable encoder Eθ, a LoRA finetuned diffusion network ϵθand a frozen decoder Dθto obtain the desired HQ image. Inaddition,textpromptsareextractedfromtheLQimageandinputtothediffusionnetworkto stimulate its generation capacity.Meanwhile, the output of the diffusion network ϵθwill be sent to two regularizer networks (a frozen pre-trained one and a fine-tuned one), where variational score distillation is performed in latent space to ensure that the output of ϵθfollows HQ natural image distribution.The regularization loss will be back-propagated to update Eθand ϵθ.Once training is finished, only Eθ, ϵθand Dθwill be used in inference.",
+      "caption_en": "Figure 2:The training framework of OSEDiff.The LQ image is passed through a trainable encoder Eθ, a LoRA finetuned diffusion network ϵθand a frozen decoder Dθto obtain the desired HQ image. Inaddition,textpromptsareextractedfromtheLQimageandinputtothediffusionnetworkto stimulate its generation capacity.Meanwhile, the output of the diffusion network ϵθwill be sent to two regularizer networks (a frozen pre-trained one and a fine-tuned one), where variational score distillation is performed in latent space to ensure that the output of ϵθfollows HQ natural image distribution.The regularization loss will be back-propagated to update Eθand ϵθ.Once training is finished, only Eθ, ϵθand Dθwill be used in inference.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.691,
+        275.959,
+        505.741,
+        362.897
+      ],
+      "content_bbox": [
+        111.639,
+        71.999,
+        500.362,
+        268.905
+      ],
+      "crop_bbox": [
+        111.639,
+        71.999,
+        500.362,
+        268.905
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  67.6% 画面  (10.00 x 5.07 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4636642 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 6,
+      "caption": "Table 1:Quantitative comparison with state-of-the-art methods on both synthetic and real-world benchmarks.‘s’ denotes the number of diffusion reverse steps in the method.The best and second best results of each metric are highlighted in red and blue, respectively.",
+      "caption_en": "Table 1:Quantitative comparison with state-of-the-art methods on both synthetic and real-world benchmarks.‘s’ denotes the number of diffusion reverse steps in the method.The best and second best results of each metric are highlighted in red and blue, respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.691,
+        78.979,
+        504.003,
+        110.835
+      ],
+      "content_bbox": [
+        109.84,
+        111.996,
+        502.172,
+        304.823
+      ],
+      "crop_bbox": [
+        109.84,
+        111.996,
+        502.172,
+        304.823
+      ],
+      "original": "tables/original/Table1_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table 2:Complexity comparison among different methods.All methods are tested with an input image of size 512 × 512, and the inference time is measured on an A100 GPU.",
+      "caption_en": "Table 2:Complexity comparison among different methods.All methods are tested with an input image of size 512 × 512, and the inference time is measured on an A100 GPU.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.691,
+        326.579,
+        504.003,
+        347.526
+      ],
+      "content_bbox": [
+        110.059,
+        111.996,
+        501.946,
+        304.823
+      ],
+      "crop_bbox": [
+        110.059,
+        111.996,
+        501.946,
+        304.823
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 7,
+      "caption": "Figure 3:Qualitative comparisons of different Real-ISR methods.Please zoom in for a better view.",
+      "caption_en": "Figure 3:Qualitative comparisons of different Real-ISR methods.Please zoom in for a better view.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.612,
+        327.441,
+        503.39,
+        337.404
+      ],
+      "content_bbox": [
+        108.0,
+        71.997,
+        505.8,
+        323.651
+      ],
+      "crop_bbox": [
+        108.0,
+        71.997,
+        505.8,
+        323.651
+      ],
+      "original": "figures/original/Fig3_p007.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  84.4% 画面  (10.00 x 6.33 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5789668 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 8,
+      "caption": "Table 3:Comparison of different losses on the RealSR benchmark.",
+      "caption_en": "Table 3:Comparison of different losses on the RealSR benchmark.",
+      "caption_zh": "",
+      "caption_bbox": [
+        172.422,
+        79.054,
+        439.27,
+        89.017
+      ],
+      "content_bbox": [
+        192.88,
+        90.281,
+        417.376,
+        140.842
+      ],
+      "crop_bbox": [
+        192.88,
+        90.281,
+        417.376,
+        140.842
+      ],
+      "original": "tables/original/Table3_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 8,
+      "caption": "Table 4:Comparison of different text prompt extractors on the DrealSR benchmark.",
+      "caption_en": "Table 4:Comparison of different text prompt extractors on the DrealSR benchmark.",
+      "caption_zh": "",
+      "caption_bbox": [
+        138.545,
+        151.978,
+        473.149,
+        161.941
+      ],
+      "content_bbox": [
+        108.0,
+        166.866,
+        504.005,
+        205.944
+      ],
+      "crop_bbox": [
+        108.0,
+        166.866,
+        504.005,
+        205.944
+      ],
+      "original": "tables/original/Table4_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 8,
+      "caption": "Table5:ComparisonofLoRAinVAEen- coder with different ranks.",
+      "caption_en": "Table5:ComparisonofLoRAinVAEen- coder with different ranks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.691,
+        237.47,
+        287.851,
+        258.417
+      ],
+      "content_bbox": [
+        108.0,
+        269.768,
+        508.613,
+        363.286
+      ],
+      "crop_bbox": [
+        108.0,
+        269.768,
+        508.613,
+        363.286
+      ],
+      "original": "tables/original/Table5_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 8,
+      "caption": "Table 6:Comparison of LoRA in UNet with different ranks.",
+      "caption_en": "Table 6:Comparison of LoRA in UNet with different ranks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        325.492,
+        237.5,
+        503.996,
+        258.417
+      ],
+      "content_bbox": [
+        325.801,
+        269.768,
+        508.613,
+        314.2
+      ],
+      "crop_bbox": [
+        325.801,
+        269.768,
+        508.613,
+        314.2
+      ],
+      "original": "tables/original/Table6_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 8,
+      "caption": "Table 7:Ablation studies on finetuning the VAE encoder and decoder on the RealSR benchmark.",
+      "caption_en": "Table 7:Ablation studies on finetuning the VAE encoder and decoder on the RealSR benchmark.",
+      "caption_zh": "",
+      "caption_bbox": [
+        112.791,
+        340.686,
+        498.902,
+        350.649
+      ],
+      "content_bbox": [
+        108.0,
+        351.856,
+        501.875,
+        407.703
+      ],
+      "crop_bbox": [
+        108.0,
+        351.856,
+        501.875,
+        407.703
+      ],
+      "original": "tables/original/Table7_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 9,
+      "caption": "Figure 4:The impact of different prompt extraction methods.Please zoom in for a better view.",
+      "caption_en": "Figure 4:The impact of different prompt extraction methods.Please zoom in for a better view.",
+      "caption_zh": "",
+      "caption_bbox": [
+        117.484,
+        217.838,
+        494.519,
+        227.801
+      ],
+      "content_bbox": [
+        108.0,
+        72.001,
+        503.992,
+        210.783
+      ],
+      "crop_bbox": [
+        108.0,
+        72.001,
+        503.992,
+        210.783
+      ],
+      "original": "figures/original/Fig4_p009.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  46.8% 画面  (10.00 x 3.51 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "One_Step_Effective_Diffusion_Network_for_NeurIPS_2024",
+    "title": "One-Step Effective Diffusion Network for Real-World Image Super-Resolution",
+    "venue": "NeurIPS",
+    "venue_full": "NeurIPS",
+    "venue_short": "NeurIPS",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "9bbb13657f850f853164421878ca82d9e907b1d86d0dfad653312bf302f5a6e4",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\NeurIPS 2024-2024-一步扩散真实世界超分 恢复-One-Step Effective Diffusion Network for Real-World Image Super-Resolution.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\R46YZJK6\\Wu 等 - One-Step Effective Diffusion Network for Real-World Image Super-Resolution.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    }
+  ]
+}

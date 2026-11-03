@@ -1,0 +1,585 @@
+{
+  "paper": "High_Frequency_Prioritized_Sparse_Attention_Local_reference_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 13,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig. 1. We explore how the degradation processes affect different frequency components of the image. These observations suggest two critical insights. Firstly, the degradation process, whether due to motion blur, defocus blur, or rain, impacts high frequencies more severely than low frequencies. Secondly, the similarity between high-frequency differences and overall differences highlights the central role of high frequencies in preserving image quality.",
+      "caption_en": "Fig. 1. We explore how the degradation processes affect different frequency components of the image. These observations suggest two critical insights. Firstly, the degradation process, whether due to motion blur, defocus blur, or rain, impacts high frequencies more severely than low frequencies. Secondly, the similarity between high-frequency differences and overall differences highlights the central role of high frequencies in preserving image quality.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.908,
+        276.362,
+        551.996,
+        302.269
+      ],
+      "content_bbox": [
+        50.445,
+        67.422,
+        538.812,
+        264.516
+      ],
+      "crop_bbox": [
+        50.445,
+        67.422,
+        538.812,
+        264.516
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.45 in\n\n形状统计 (354 个):\n  FREEFORM (5)                 316\n  AUTO_SHAPE (1)               30\n  PICTURE (13)                 8\n\n矢量形状: 346\n位图图片: 8\n  10.0% 画面  (2.88 x 2.52 in)\n  5.6% 画面  (0.97 x 4.20 in)\n  11.1% 画面  (4.80 x 1.69 in)\n  11.1% 画面  (4.80 x 1.69 in)\n  4.5% 画面  (1.92 x 1.69 in)\n  10.0% 画面  (2.88 x 2.52 in)\n  10.0% 画面  (2.88 x 2.52 in)\n  10.0% 画面  (2.88 x 2.52 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Fig. 2. (a) The overall architecture of HFP-SAN, which explicitly prioritizes high-frequency components by designing a symmetric encoder-decoder framework whilehandlinglow-frequencycomponentswithasmallerresidualnetwork,therebyproportionallyallocatingcomputationalresourcesbasedontheirrelative importance. (b) Illustration of HFSSA. Instead of applying a dense attention mechanism that computes relationships across all regions and processes every pixel, HFSSA dynamically and selectively focuses on regions with strong mutual correlations in their high-frequency details while avoiding computations in areas with weak correlations or irrelevant black regions.",
+      "caption_en": "Fig. 2. (a) The overall architecture of HFP-SAN, which explicitly prioritizes high-frequency components by designing a symmetric encoder-decoder framework whilehandlinglow-frequencycomponentswithasmallerresidualnetwork,therebyproportionallyallocatingcomputationalresourcesbasedontheirrelative importance. (b) Illustration of HFSSA. Instead of applying a dense attention mechanism that computes relationships across all regions and processes every pixel, HFSSA dynamically and selectively focuses on regions with strong mutual correlations in their high-frequency details while avoiding computations in areas with weak correlations or irrelevant black regions.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.908,
+        443.366,
+        552.01,
+        487.201
+      ],
+      "content_bbox": [
+        50.868,
+        67.248,
+        538.932,
+        431.592
+      ],
+      "crop_bbox": [
+        50.868,
+        67.248,
+        538.932,
+        431.592
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.98 in\n\n形状统计 (676 个):\n  FREEFORM (5)                 675\n  PICTURE (13)                 1\n\n矢量形状: 675\n位图图片: 1\n  98.1% 画面  (13.22 x 9.87 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 12091860 x 9026678 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 6,
+      "caption": "TABLE I MOTION DEBLURRING RESULTS.THE RESULTSOF SFNET, FSNET, MFSNET,AND MFSNET-B COME FROM PREVIOUSWORK [33].",
+      "caption_en": "TABLE I MOTION DEBLURRING RESULTS.THE RESULTSOF SFNET, FSNET, MFSNET,AND MFSNET-B COME FROM PREVIOUSWORK [33].",
+      "caption_zh": "",
+      "caption_bbox": [
+        93.223,
+        65.024,
+        505.092,
+        81.958
+      ],
+      "content_bbox": [
+        55.161,
+        81.487,
+        543.161,
+        316.708
+      ],
+      "crop_bbox": [
+        55.161,
+        81.487,
+        543.161,
+        316.708
+      ],
+      "original": "tables/original/Table1_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 7,
+      "caption": "Fig. 3. Visual comparisons on motion deblurring, defocus deblurring, and image deraining. Our method restores more details and provides clearer structures. In challenging scenarios, the results demonstrate the superior ability of our model to recover ﬁne details and enhance overall image quality.",
+      "caption_en": "Fig. 3. Visual comparisons on motion deblurring, defocus deblurring, and image deraining. Our method restores more details and provides clearer structures. In challenging scenarios, the results demonstrate the superior ability of our model to recover ﬁne details and enhance overall image quality.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.908,
+        643.364,
+        551.999,
+        660.298
+      ],
+      "content_bbox": [
+        50.949,
+        66.288,
+        539.172,
+        631.518
+      ],
+      "crop_bbox": [
+        50.949,
+        66.288,
+        539.172,
+        631.518
+      ],
+      "original": "figures/original/Fig3_p007.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 15.42 in\n\n形状统计 (861 个):\n  FREEFORM (5)                 822\n  PICTURE (13)                 26\n  AUTO_SHAPE (1)               13\n\n矢量形状: 835\n位图图片: 26\n  3.9% 画面  (2.84 x 2.83 in)\n  3.9% 画面  (2.84 x 2.83 in)\n  3.5% 画面  (1.90 x 3.77 in)\n  3.9% 画面  (8.50 x 0.95 in)\n  1.3% 画面  (2.84 x 0.95 in)\n  3.9% 画面  (2.84 x 2.83 in)\n  3.9% 画面  (2.84 x 2.83 in)\n  3.9% 画面  (2.84 x 2.83 in)\n  3.9% 画面  (2.84 x 2.83 in)\n  3.5% 画面  (1.90 x 3.77 in)\n  ... 共 26 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 8,
+      "caption": "Fig. 4. Visual comparison of the proposed method and other SOTA methods underachallengingfailurecase.Despitethechallengingcase,ourproposed method still outperforms other SOTA methods in terms of visual performance.",
+      "caption_en": "Fig. 4. Visual comparison of the proposed method and other SOTA methods underachallengingfailurecase.Despitethechallengingcase,ourproposed method still outperforms other SOTA methods in terms of visual performance.",
+      "caption_zh": "",
+      "caption_bbox": [
+        305.136,
+        179.369,
+        556.224,
+        205.267
+      ],
+      "content_bbox": [
+        307.308,
+        67.008,
+        552.972,
+        167.523
+      ],
+      "crop_bbox": [
+        307.308,
+        67.008,
+        552.972,
+        167.523
+      ],
+      "original": "figures/original/Fig4_p008.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  54.7% 画面  (10.00 x 4.10 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3748760 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 8,
+      "caption": "TABLE II DEFOCUS DEBLURRING RESULTS (PSNR/SSIM). SDENOTESA SINGLE-IMAGE DEFOCUS DEBLURRING MODEL. D DENOTES DUAL-PIXEL DEFOCUS DEBLURRING. THE RESULTSOF SFNET, FSNET,AND MFSNET COME FROM PREVIOUSWORK [33].",
+      "caption_en": "TABLE II DEFOCUS DEBLURRING RESULTS (PSNR/SSIM). SDENOTESA SINGLE-IMAGE DEFOCUS DEBLURRING MODEL. D DENOTES DUAL-PIXEL DEFOCUS DEBLURRING. THE RESULTSOF SFNET, FSNET,AND MFSNET COME FROM PREVIOUSWORK [33].",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.022,
+        65.024,
+        285.275,
+        108.859
+      ],
+      "content_bbox": [
+        48.825,
+        110.804,
+        556.224,
+        205.267
+      ],
+      "crop_bbox": [
+        48.825,
+        110.804,
+        556.224,
+        205.267
+      ],
+      "original": "tables/original/Table2_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 9,
+      "caption": "Fig. 5. Attention map visualizations. It compares the attention maps generated bydenseattentionandourHFSSAfortheblue-boxedregioninthedegraded image. While dense attention spreads attention across extensive high-frequency regions, HFSSA selectively and precisely focuses on high-frequency regions that are strongly correlated with the blue-boxed regions while suppressing irrelevant regions, leading to more effective restoration.",
+      "caption_en": "Fig. 5. Attention map visualizations. It compares the attention maps generated bydenseattentionandourHFSSAfortheblue-boxedregioninthedegraded image. While dense attention spreads attention across extensive high-frequency regions, HFSSA selectively and precisely focuses on high-frequency regions that are strongly correlated with the blue-boxed regions while suppressing irrelevant regions, leading to more effective restoration.",
+      "caption_zh": "",
+      "caption_bbox": [
+        300.924,
+        531.395,
+        552.014,
+        584.194
+      ],
+      "content_bbox": [
+        46.44,
+        93.913,
+        548.772,
+        520.908
+      ],
+      "crop_bbox": [
+        46.44,
+        93.913,
+        548.772,
+        520.908
+      ],
+      "original": "figures/original/Fig5_p009.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.35 in\n\n形状统计 (1874 个):\n  FREEFORM (5)                 1819\n  TEXT_BOX (17)                52\n  PICTURE (13)                 3\n\n矢量形状: 1871\n位图图片: 3\n  4.8% 画面  (4.62 x 1.57 in)\n  1.9% 画面  (1.85 x 1.57 in)\n  4.1% 画面  (5.37 x 1.17 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 9,
+      "caption": "TABLE III IMAGE DERAINING RESULTSON RAIN200 L, RAIN200H, DID-DATA,AND DDN-DATA",
+      "caption_en": "TABLE III IMAGE DERAINING RESULTSON RAIN200 L, RAIN200H, DID-DATA,AND DDN-DATA",
+      "caption_zh": "",
+      "caption_bbox": [
+        159.003,
+        65.024,
+        430.869,
+        81.958
+      ],
+      "content_bbox": [
+        50.949,
+        93.913,
+        538.949,
+        260.771
+      ],
+      "crop_bbox": [
+        50.949,
+        93.913,
+        538.949,
+        260.771
+      ],
+      "original": "tables/original/Table3_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 9,
+      "caption": "TABLE IV IMAGE DERAINING RESULTSON TEST100, TEST1200, RAIN100H,AND RAIN100 L. THETOP-2 RESULTSARE HIGHLIGHTEDIN BOLDAND UNDERLINED. THE RESULTSOF OTHER SOTA METHODS COME FROM PREVIOUSWORK [33].",
+      "caption_en": "TABLE IV IMAGE DERAINING RESULTSON TEST100, TEST1200, RAIN100H,AND RAIN100 L. THETOP-2 RESULTSARE HIGHLIGHTEDIN BOLDAND UNDERLINED. THE RESULTSOF OTHER SOTA METHODS COME FROM PREVIOUSWORK [33].",
+      "caption_zh": "",
+      "caption_bbox": [
+        46.44,
+        275.354,
+        543.437,
+        301.261
+      ],
+      "content_bbox": [
+        50.445,
+        313.624,
+        548.772,
+        511.512
+      ],
+      "crop_bbox": [
+        50.445,
+        313.624,
+        548.772,
+        511.512
+      ],
+      "original": "tables/original/Table4_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 9,
+      "caption": "TABLE V COMPLEXITY COMPARISONSON GOPRO DATASET",
+      "caption_en": "TABLE V COMPLEXITY COMPARISONSON GOPRO DATASET",
+      "caption_zh": "",
+      "caption_bbox": [
+        84.852,
+        449.882,
+        242.013,
+        466.816
+      ],
+      "content_bbox": [
+        61.434,
+        463.161,
+        534.38,
+        520.908
+      ],
+      "crop_bbox": [
+        61.434,
+        463.161,
+        534.38,
+        520.908
+      ],
+      "original": "tables/original/Table5_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 9,
+      "caption": "TABLE VI COMPLEXITY COMPARISONSON GOPRO DATASET",
+      "caption_en": "TABLE VI COMPLEXITY COMPARISONSON GOPRO DATASET",
+      "caption_zh": "",
+      "caption_bbox": [
+        84.852,
+        534.824,
+        242.013,
+        551.758
+      ],
+      "content_bbox": [
+        61.434,
+        561.693,
+        265.434,
+        620.853
+      ],
+      "crop_bbox": [
+        61.434,
+        561.693,
+        265.434,
+        620.853
+      ],
+      "original": "tables/original/Table6_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 9,
+      "caption": "TABLE VII PERCEPTUAL SIMILARITY COMPARISONSON DPDD TEST SET",
+      "caption_en": "TABLE VII PERCEPTUAL SIMILARITY COMPARISONSON DPDD TEST SET",
+      "caption_zh": "",
+      "caption_bbox": [
+        65.493,
+        634.76,
+        261.372,
+        651.703
+      ],
+      "content_bbox": [
+        40.941,
+        662.241,
+        285.941,
+        735.613
+      ],
+      "crop_bbox": [
+        40.941,
+        662.241,
+        285.941,
+        735.613
+      ],
+      "original": "tables/original/Table7_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table10",
+      "page": 10,
+      "caption": "TABLE X ABLATION STUDYOF HFLOSS",
+      "caption_en": "TABLE X ABLATION STUDYOF HFLOSS",
+      "caption_zh": "",
+      "caption_bbox": [
+        382.806,
+        65.024,
+        478.5,
+        81.958
+      ],
+      "content_bbox": [
+        308.16,
+        92.688,
+        553.16,
+        119.853
+      ],
+      "crop_bbox": [
+        308.16,
+        92.688,
+        553.16,
+        119.853
+      ],
+      "original": "tables/original/Table10_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table10.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 10,
+      "caption": "TABLE VIII BREAK-DOWN ABLATION",
+      "caption_en": "TABLE VIII BREAK-DOWN ABLATION",
+      "caption_zh": "",
+      "caption_bbox": [
+        127.089,
+        65.024,
+        208.2,
+        81.958
+      ],
+      "content_bbox": [
+        44.649,
+        93.151,
+        289.649,
+        190.772
+      ],
+      "crop_bbox": [
+        44.649,
+        93.151,
+        289.649,
+        190.772
+      ],
+      "original": "tables/original/Table8_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table9",
+      "page": 10,
+      "caption": "TABLE IX ABLATION STUDYOF HFSSA",
+      "caption_en": "TABLE IX ABLATION STUDYOF HFSSA",
+      "caption_zh": "",
+      "caption_bbox": [
+        120.771,
+        134.954,
+        214.508,
+        151.888
+      ],
+      "content_bbox": [
+        44.649,
+        162.225,
+        289.649,
+        190.772
+      ],
+      "crop_bbox": [
+        44.649,
+        162.225,
+        289.649,
+        190.772
+      ],
+      "original": "tables/original/Table9_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table9.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "High_Frequency_Prioritized_Sparse_Attention_Local_reference_2026",
+    "title": "High-Frequency Prioritized Sparse Attention Network for Image Restoration",
+    "venue": "TMM",
+    "venue_full": "TMM",
+    "venue_short": "TMM",
+    "venue_type": "期刊",
+    "year": 2026,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://www.ieee.org/publications/rights/index.html",
+    "pdf_url": "https://www.ieee.org/publications/rights/index.html",
+    "access": "local_pdf",
+    "source_sha256": "b7ac76e6ab94deb4107246366fb18ad30b20a03b46d46df548b36c32d629615f",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\X3K7J3XB\\Dong 等 - 2026 - High-Frequency Prioritized Sparse Attention Network for Image Restoration.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 1区 · Top（2025）",
+    "cas_display": "中科院 1区 · Top（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    }
+  ]
+}

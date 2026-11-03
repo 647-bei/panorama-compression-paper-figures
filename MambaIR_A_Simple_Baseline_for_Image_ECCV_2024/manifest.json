@@ -1,0 +1,566 @@
+{
+  "paper": "MambaIR_A_Simple_Baseline_for_Image_ECCV_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 20,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig. 1:TheEffectiveReceptiveField(ERF)visualization[14, 46]forEDSR[42], RCAN[88],SwinIR[41],HAT[10],andtheproposedMambaIR.AlargerERFisin- dicatedbyamoreextensivelydistributeddarkarea.TheproposedMambaIRachieves asignificantglobaleffectivereceptivefield.",
+      "caption_en": "Fig. 1:TheEffectiveReceptiveField(ERF)visualization[14, 46]forEDSR[42], RCAN[88],SwinIR[41],HAT[10],andtheproposedMambaIR.AlargerERFisin- dicatedbyamoreextensivelydistributeddarkarea.TheproposedMambaIRachieves asignificantglobaleffectivereceptivefield.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        123.557,
+        379.85,
+        165.4
+      ],
+      "content_bbox": [
+        26.368,
+        34.223,
+        378.969,
+        112.541
+      ],
+      "crop_bbox": [
+        26.368,
+        34.223,
+        378.969,
+        112.541
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  29.8% 画面  (10.00 x 2.23 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 5,
+      "caption": "Fig. 2:TheoverallnetworkarchitectureofourMambaIR,aswellasthe(a)Residual State-SpaceBlock(RSSB),the(b)VisionState-SpaceModule(VSSM),andthe(c) 2DSelectiveScanModule(2D-SSM).",
+      "caption_en": "Fig. 2:TheoverallnetworkarchitectureofourMambaIR,aswellasthe(a)Residual State-SpaceBlock(RSSB),the(b)VisionState-SpaceModule(VSSM),andthe(c) 2DSelectiveScanModule(2D-SSM).",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        177.65,
+        379.94,
+        208.534
+      ],
+      "content_bbox": [
+        36.102,
+        37.467,
+        378.327,
+        165.899
+      ],
+      "crop_bbox": [
+        36.102,
+        37.467,
+        378.327,
+        165.899
+      ],
+      "original": "figures/original/Fig2_p005.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.07 in\n\n形状统计 (430 个):\n  FREEFORM (5)                 329\n  TEXT_BOX (17)                93\n  PICTURE (13)                 8\n\n矢量形状: 422\n位图图片: 8\n  0.5% 画面  (1.40 x 0.24 in)\n  0.6% 画面  (1.38 x 0.29 in)\n  0.5% 画面  (1.26 x 0.27 in)\n  0.5% 画面  (1.40 x 0.24 in)\n  0.6% 画面  (1.38 x 0.29 in)\n  0.5% 画面  (1.26 x 0.27 in)\n  2.3% 画面  (1.24 x 1.24 in)\n  0.5% 画面  (0.59 x 0.59 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 6,
+      "caption": "Fig. 3:(a)Withoutusinglocalenhancementwillcausespatiallyclosepixels(areain theredbox)getforgottenintheflattened1Dsequenceduetothelongdistance.(b) WeuseRELUandglobalaveragepoolingontheVSSMoutputsfromthelastlayer togetthechannelactivationvalues.Mostchannelsarenotactivated(i.e.,channel redundancy)whenchannelattentionisnotused.",
+      "caption_en": "Fig. 3:(a)Withoutusinglocalenhancementwillcausespatiallyclosepixels(areain theredbox)getforgottenintheflattened1Dsequenceduetothelongdistance.(b) WeuseRELUandglobalaveragepoolingontheVSSMoutputsfromthelastlayer togetthechannelactivationvalues.Mostchannelsarenotactivated(i.e.,channel redundancy)whenchannelattentionisnotused.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        117.682,
+        379.913,
+        170.483
+      ],
+      "content_bbox": [
+        51.533,
+        40.012,
+        362.481,
+        107.846
+      ],
+      "crop_bbox": [
+        51.533,
+        40.012,
+        362.481,
+        107.846
+      ],
+      "original": "figures/original/Fig3_p006.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 2.99 in\n\n形状统计 (159 个):\n  FREEFORM (5)                 99\n  PICTURE (13)                 52\n  TEXT_BOX (17)                8\n\n矢量形状: 107\n位图图片: 52\n  0.5% 画面  (0.44 x 0.44 in)\n  0.5% 画面  (0.44 x 0.44 in)\n  0.5% 画面  (0.44 x 0.44 in)\n  0.5% 画面  (0.44 x 0.44 in)\n  0.5% 画面  (0.44 x 0.44 in)\n  0.5% 画面  (0.44 x 0.44 in)\n  0.5% 画面  (0.44 x 0.44 in)\n  0.5% 画面  (0.44 x 0.44 in)\n  0.5% 画面  (0.44 x 0.44 in)\n  0.5% 画面  (0.44 x 0.44 in)\n  ... 共 52 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 9,
+      "caption": "Fig. 4:QualitativecomparisonofourMambaIRwithCNNandTransformerbased methodsonclassicimageSRwithscale×4.",
+      "caption_en": "Fig. 4:QualitativecomparisonofourMambaIRwithCNNandTransformerbased methodsonclassicimageSRwithscale×4.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        364.315,
+        379.87,
+        384.415
+      ],
+      "content_bbox": [
+        42.838,
+        67.21,
+        371.211,
+        353.677
+      ],
+      "crop_bbox": [
+        42.838,
+        67.21,
+        371.211,
+        353.677
+      ],
+      "original": "figures/original/Fig4_p009.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.64 in\n\n形状统计 (92 个):\n  TEXT_BOX (17)                45\n  PICTURE (13)                 33\n  FREEFORM (5)                 14\n\n矢量形状: 59\n位图图片: 33\n  1.2% 画面  (1.78 x 1.08 in)\n  1.2% 画面  (1.78 x 1.08 in)\n  1.2% 画面  (1.78 x 1.08 in)\n  1.2% 画面  (1.78 x 1.08 in)\n  1.2% 画面  (1.78 x 1.08 in)\n  1.2% 画面  (1.78 x 1.08 in)\n  1.2% 画面  (1.78 x 1.08 in)\n  1.2% 画面  (1.78 x 1.08 in)\n  1.2% 画面  (1.78 x 1.08 in)\n  1.2% 画面  (1.78 x 1.08 in)\n  ... 共 33 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 9,
+      "caption": "Table1:Ablationexperimentsfordif- ferentdesignchoicesofRSSB.",
+      "caption_en": "Table1:Ablationexperimentsfordif- ferentdesignchoicesofRSSB.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.335,
+        44.476,
+        196.694,
+        64.401
+      ],
+      "content_bbox": [
+        45.568,
+        67.21,
+        190.915,
+        110.465
+      ],
+      "crop_bbox": [
+        45.568,
+        67.21,
+        190.915,
+        110.465
+      ],
+      "original": "tables/original/Table1_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 9,
+      "caption": "Table2:Ablationexperimentsfor differentscanmodesinVSSM.",
+      "caption_en": "Table2:Ablationexperimentsfor differentscanmodesinVSSM.",
+      "caption_zh": "",
+      "caption_bbox": [
+        211.382,
+        44.476,
+        360.786,
+        64.401
+      ],
+      "content_bbox": [
+        228.234,
+        67.21,
+        346.381,
+        110.465
+      ],
+      "crop_bbox": [
+        228.234,
+        67.21,
+        346.381,
+        110.465
+      ],
+      "original": "tables/original/Table2_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 10,
+      "caption": "Table3:Quantitativecomparisononclassicimagesuper-resolutionwithstate- of-the-artmethods.Thebestandthesecondbestresultsareinredandblue.",
+      "caption_en": "Table3:Quantitativecomparisononclassicimagesuper-resolutionwithstate- of-the-artmethods.Thebestandthesecondbestresultsareinredandblue.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        34.514,
+        379.849,
+        54.439
+      ],
+      "content_bbox": [
+        36.841,
+        67.258,
+        383.416,
+        499.307
+      ],
+      "crop_bbox": [
+        36.841,
+        67.258,
+        383.416,
+        499.307
+      ],
+      "original": "tables/original/Table3_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 11,
+      "caption": "Fig. 5:Computationalcomplexitycomparisonwithdifferentinputscales.Wesetthe standardattention[65]whichhasaglobalreceptivefieldasbaseline,anddenoteitas \"Full-attn\".WeadjustthemodeltoensuretheGPUusageisroughlysimilaratthe beginning,andthenscaletheinputresolutionfrom48 × 48to84 × 84.",
+      "caption_en": "Fig. 5:Computationalcomplexitycomparisonwithdifferentinputscales.Wesetthe standardattention[65]whichhasaglobalreceptivefieldasbaseline,anddenoteitas \"Full-attn\".WeadjustthemodeltoensuretheGPUusageisroughlysimilaratthe beginning,andthenscaletheinputresolutionfrom48 × 48to84 × 84.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        162.973,
+        379.868,
+        204.982
+      ],
+      "content_bbox": [
+        136.503,
+        21.651,
+        284.706,
+        152.299
+      ],
+      "crop_bbox": [
+        136.503,
+        21.651,
+        284.706,
+        152.299
+      ],
+      "original": "figures/original/Fig5_p011.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  84.9% 画面  (8.49 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 7761057 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 12,
+      "caption": "Fig. 6:QualitativecomparisonwithRealSR[32],ESRGAN[68],BSRGAN[80],Real- ESRGAN[67],andSwinIR[41]onrealimagesuper-resolutionwithscale×4.",
+      "caption_en": "Fig. 6:QualitativecomparisonwithRealSR[32],ESRGAN[68],BSRGAN[80],Real- ESRGAN[67],andSwinIR[41]onrealimagesuper-resolutionwithscale×4.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        377.018,
+        379.824,
+        397.117
+      ],
+      "content_bbox": [
+        34.064,
+        67.191,
+        379.476,
+        367.653
+      ],
+      "crop_bbox": [
+        34.064,
+        67.191,
+        379.476,
+        367.653
+      ],
+      "original": "figures/original/Fig6_p012.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.62 in\n\n形状统计 (458 个):\n  TEXT_BOX (17)                251\n  FREEFORM (5)                 179\n  PICTURE (13)                 28\n\n矢量形状: 430\n位图图片: 28\n  2.1% 画面  (1.80 x 1.80 in)\n  2.1% 画面  (1.80 x 1.80 in)\n  2.1% 画面  (1.80 x 1.80 in)\n  2.1% 画面  (1.80 x 1.80 in)\n  2.1% 画面  (1.80 x 1.80 in)\n  0.5% 画面  (0.92 x 0.92 in)\n  0.5% 画面  (0.92 x 0.92 in)\n  0.5% 画面  (0.92 x 0.92 in)\n  0.5% 画面  (0.92 x 0.92 in)\n  0.5% 画面  (0.92 x 0.92 in)\n  ... 共 28 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 12,
+      "caption": "Table4:Quantitativecomparisononlightweightimagesuper-resolutionwith state-of-the-artmethods.",
+      "caption_en": "Table4:Quantitativecomparisononlightweightimagesuper-resolutionwith state-of-the-artmethods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        34.514,
+        379.843,
+        54.439
+      ],
+      "content_bbox": [
+        36.69,
+        67.191,
+        379.476,
+        246.801
+      ],
+      "crop_bbox": [
+        36.69,
+        67.191,
+        379.476,
+        246.801
+      ],
+      "original": "tables/original/Table4_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 13,
+      "caption": "Fig. 7: Qualitative comparison of our MambaIR with other methods on colorimagedenoisingtaskwithnoiselevellevelσ=50.",
+      "caption_en": "Fig. 7: Qualitative comparison of our MambaIR with other methods on colorimagedenoisingtaskwithnoiselevellevelσ=50.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        271.822,
+        379.868,
+        291.922
+      ],
+      "content_bbox": [
+        37.531,
+        67.251,
+        376.189,
+        260.942
+      ],
+      "crop_bbox": [
+        37.531,
+        67.251,
+        376.189,
+        260.942
+      ],
+      "original": "figures/original/Fig7_p013.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.67 in\n\n形状统计 (169 个):\n  TEXT_BOX (17)                94\n  FREEFORM (5)                 51\n  PICTURE (13)                 24\n\n矢量形状: 145\n位图图片: 24\n  2.9% 画面  (2.11 x 1.41 in)\n  2.9% 画面  (2.11 x 1.41 in)\n  2.9% 画面  (2.11 x 1.41 in)\n  2.9% 画面  (2.11 x 1.41 in)\n  2.9% 画面  (2.11 x 1.41 in)\n  0.7% 画面  (0.87 x 0.87 in)\n  0.7% 画面  (0.87 x 0.87 in)\n  0.7% 画面  (0.87 x 0.87 in)\n  0.7% 画面  (0.87 x 0.87 in)\n  0.7% 画面  (0.87 x 0.87 in)\n  ... 共 24 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 13,
+      "caption": "Table5:Quantitativecomparisonongaussiancolorimagedenoisingwithstate- of-the-artmethods.",
+      "caption_en": "Table5:Quantitativecomparisonongaussiancolorimagedenoisingwithstate- of-the-artmethods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        34.514,
+        379.853,
+        54.439
+      ],
+      "content_bbox": [
+        37.226,
+        67.251,
+        375.792,
+        165.288
+      ],
+      "crop_bbox": [
+        37.226,
+        67.251,
+        375.792,
+        165.288
+      ],
+      "original": "tables/original/Table5_p013.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 13,
+      "caption": "Table6:Quantitativecomparisonontherealimagedenosingtask.",
+      "caption_en": "Table6:Quantitativecomparisonontherealimagedenosingtask.",
+      "caption_zh": "",
+      "caption_bbox": [
+        63.765,
+        306.043,
+        350.09,
+        315.184
+      ],
+      "content_bbox": [
+        37.226,
+        67.251,
+        375.792,
+        165.288
+      ],
+      "crop_bbox": [
+        37.226,
+        67.251,
+        375.792,
+        165.288
+      ],
+      "original": "tables/original/Table6_p013.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "MambaIR_A_Simple_Baseline_for_Image_ECCV_2024",
+    "title": "MambaIR: A Simple Baseline for Image Restoration with State-Space Model",
+    "venue": "ECCV",
+    "venue_full": "ECCV",
+    "venue_short": "ECCV",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "9f973b9d38f7d64243e58474390ef32db2fdc3c69cf98085b69e206bd5ab709e",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\ECCV 2024-2024-通用图像恢复 状态空间模型-MambaIR A Simple Baseline for Image Restoration with State-Space Model.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\RCGJIYJ3\\Guo 等 - 2024 - MambaIR A Simple Baseline for Image Restoration with State-Space Model.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 B类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 B类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    }
+  ]
+}

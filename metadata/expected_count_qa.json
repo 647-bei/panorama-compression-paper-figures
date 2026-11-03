@@ -1,0 +1,3163 @@
+{
+  "papers": [
+    {
+      "paper": "A_Brain_Inspired_Local_reference_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [
+        [
+          "table",
+          "Table5"
+        ]
+      ],
+      "extra": [],
+      "duplicate": [],
+      "status": "review"
+    },
+    {
+      "paper": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Accurate_and_efficient_time_domain_classification_Nature_Machine_Intelligence_0",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "AdaIR_Adaptive_All_in_One_Image_Restoration_ICLR_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table10",
+        "Table11",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table10",
+        "Table11",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "AdaPrompt_IR_Adaptive_learning_to_perceive_degradation_semantic_and_Local_reference_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig14",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig14",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table6",
+        "Table8"
+      ],
+      "missing": [
+        [
+          "table",
+          "Table5"
+        ],
+        [
+          "table",
+          "Table7"
+        ]
+      ],
+      "extra": [],
+      "duplicate": [],
+      "status": "review"
+    },
+    {
+      "paper": "AFD_Former_A_Hybrid_Transformer_With_Local_reference_2023",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Assessment_Database_Local_reference_2017",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "expected_tables": [
+        "Table1"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "extracted_tables": [
+        "Table1"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "based_Architecture_for_Efficient_Compressed_Video_Quality_Enhancement_CVPR_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Brain_inspired_global_local_learning_incorporated_Local_reference_2022",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3"
+      ],
+      "extended_or_supplementary": [
+        "Table1"
+      ],
+      "extracted_figures": [],
+      "extracted_tables": [
+        "Table1",
+        "Table3"
+      ],
+      "missing": [
+        [
+          "figure",
+          "Fig1"
+        ],
+        [
+          "figure",
+          "Fig2"
+        ],
+        [
+          "figure",
+          "Fig3"
+        ],
+        [
+          "figure",
+          "Fig4"
+        ],
+        [
+          "figure",
+          "Fig5"
+        ],
+        [
+          "table",
+          "Table2"
+        ]
+      ],
+      "extra": [],
+      "duplicate": [],
+      "status": "review"
+    },
+    {
+      "paper": "C_ONTROLLING_V_ISION_L_ANGUAGE_M_ODELS_FOR_ICLR_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "ClearAIR_A_Human_Visual_Perception_Inspired_All_in_One_Image_Local_reference_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Compression_Artifacts_Removal_for_VVC_with_Frequency_Domain_Mixture_of_AAAI_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "D_ECOUPLED_W_EIGHT_D_ECAY_R_EGULARIZATION_Local_reference_2018",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "expected_tables": [],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "extracted_tables": [],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "DCTMamba_Advancing_JPEG_Image_Restoration_Through_AAAI_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Debiased_All_in_one_Image_Restoration_with_Task_Uncertainty_Regularization_AAAI_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "DEC_Low_Bitrate_Perceptual_Restoration_Aware_Local_reference_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8"
+      ],
+      "missing": [
+        [
+          "figure",
+          "Fig1"
+        ],
+        [
+          "figure",
+          "Fig10"
+        ],
+        [
+          "figure",
+          "Fig9"
+        ]
+      ],
+      "extra": [],
+      "duplicate": [],
+      "status": "review"
+    },
+    {
+      "paper": "DiffBIR_Towards_Blind_Image_Restoration_with_Generative_Diffusion_Prior_ECCV_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "DreamUHD_Frequency_Enhanced_Variational_Autoencoder_for_AAAI_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Enhancing_Quality_of_Compressed_Images_by_Mitigating_Enhancement_Bias_Towards_CVPR_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig14",
+        "Fig15",
+        "Fig16",
+        "Fig17",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig14",
+        "Fig15",
+        "Fig16",
+        "Fig17",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Event_Based_Video_Reconstruction_via_Local_reference_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table10",
+        "Table11",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table10",
+        "Table11",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "FSTA_SNN_Frequency_Based_Spatial_Temporal_Attention_Module_for_Spiking_Local_reference_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Generative_Latent_Coding_for_Ultra_Local_reference_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Guided_Aggregation_Network_for_Compressed_Video_Quality_Enhancement_CVPR_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "H_IERARCHICAL_F_REQUENCY_BASED_U_PSAMPLING_AND_Local_reference_0",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "High_Frequency_Prioritized_Sparse_Attention_Local_reference_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table10",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table10",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "InstructIR_High_Quality_Image_Restoration_ECCV_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig14",
+        "Fig15",
+        "Fig16",
+        "Fig17",
+        "Fig18",
+        "Fig19",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table10",
+        "Table11",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig14",
+        "Fig15",
+        "Fig16",
+        "Fig17",
+        "Fig18",
+        "Fig19",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table10",
+        "Table11",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "JDEC_JPEG_Decoding_via_Enhanced_Continuous_Cosine_Coefficients_CVPR_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig10",
+        "Fig11",
+        "Fig2",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [
+        [
+          "figure",
+          "Fig1"
+        ],
+        [
+          "figure",
+          "Fig3"
+        ]
+      ],
+      "extra": [],
+      "duplicate": [],
+      "status": "review"
+    },
+    {
+      "paper": "JND_LIC_Learned_Image_Compression_via_Just_Local_reference_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Joint_multi_dimensional_dynamic_attention_and_Local_reference_0",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig14",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table10",
+        "Table11",
+        "Table12",
+        "Table13",
+        "Table14",
+        "Table15",
+        "Table16",
+        "Table17",
+        "Table18",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig14",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table10",
+        "Table11",
+        "Table12",
+        "Table13",
+        "Table14",
+        "Table15",
+        "Table16",
+        "Table17",
+        "Table18",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "missing": [
+        [
+          "figure",
+          "Fig13"
+        ],
+        [
+          "table",
+          "Table1"
+        ]
+      ],
+      "extra": [],
+      "duplicate": [],
+      "status": "review"
+    },
+    {
+      "paper": "Leveraging_Bitstream_Metadata_for_Fast_Accurate_Generalized_Compressed_WACV_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Long_Short_term_Fusion_by_Multi_scale_Distillation_TCSVT_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Low_Complexity_Super_Resolution_for_ICASSP_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Machine_learning_modelling_for_multi_order_Local_reference_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1"
+      ],
+      "extended_or_supplementary": [
+        "Fig2",
+        "Fig4"
+      ],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "extracted_tables": [
+        "Table1"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "MambaIR_A_Simple_Baseline_for_Image_ECCV_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "MambaIRv2_Attentive_State_Space_Restoration_CVPR_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "MDEformer_Mixed_Difference_Equation_Inspired_TNNLS_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "mixup_B_EYOND_E_MPIRICAL_R_ISK_M_INIMIZATION_Local_reference_2018",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "MoE_DiffIR_Task_customized_Diffusion_Priors_for_ECCV_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Multi_Frame_Deformable_Look_Up_Table_for_Compressed_Video_AAAI_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig5"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [
+        [
+          "figure",
+          "Fig4"
+        ]
+      ],
+      "extra": [],
+      "duplicate": [],
+      "status": "review"
+    },
+    {
+      "paper": "Multi_resolution_enhancement_for_Local_reference_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2"
+      ],
+      "extended_or_supplementary": [
+        "Fig10",
+        "Fig2"
+      ],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "One_Step_Effective_Diffusion_Network_for_NeurIPS_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "OSCAR_One_Step_Diffusion_Codec_TIP_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Panonut360_A_Head_and_Eye_Tracking_Dataset_Local_reference_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "PerCo_SD_Open_Perceptual_Compression_arXiv_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3"
+      ],
+      "expected_tables": [
+        "Table1"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3"
+      ],
+      "extracted_tables": [
+        "Table1"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Play_Versatile_Compressed_Video_Enhancement_CVPR_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Prompt_In_Prompt_Learning_for_Universal_Image_Restoration_CVPR_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "PromptCIR_Blind_Compressed_Image_Restoration_with_Prompt_Learning_CVPRW_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "PromptFix_You_Prompt_and_We_Fix_the_Photo_ECCV_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "PyTorch_An_Imperative_Style_High_Performance_Local_reference_2019",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3"
+      ],
+      "expected_tables": [
+        "Table1"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3"
+      ],
+      "extracted_tables": [
+        "Table1"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Q_UANTIZED_S_PIKE_DRIVEN_T_RANSFORMER_Local_reference_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Rate_Constrained_Multiple_QP_TIP_2020",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "RDEN_Residual_Distillation_Enhanced_Local_reference_2022",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table10",
+        "Table11",
+        "Table12",
+        "Table13",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table10",
+        "Table11",
+        "Table12",
+        "Table13",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Scaling_Spike_Driven_Transformer_With_Efficient_Local_reference_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "SeeSR_Towards_Semantics_CVPR_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "SGDR_S_TOCHASTIC_G_RADIENT_D_ESCENT_WITH_Local_reference_2017",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "SODiff_Semantic_Oriented_Diffusion_Model_AAAI_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Spatio_Temporal_Interactive_Learning_for_Efficient_NeurIPS_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Spike_driven_Transformer_Local_reference_0",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "SpikeHCD_Spiking_Transformer_With_Parallel_Local_reference_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "SpikingIR_A_Novel_Converted_Spiking_Neural_Network_for_Local_reference_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Subjective_Panoramic_Video_Quality_Assessment_Local_reference_0",
+      "expected_figures": [],
+      "expected_tables": [],
+      "extended_or_supplementary": [],
+      "extracted_figures": [],
+      "extracted_tables": [],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "SUPIR_Practicing_Model_Scaling_for_Photo_CVPR_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig2",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2"
+      ],
+      "missing": [
+        [
+          "figure",
+          "Fig3"
+        ]
+      ],
+      "extra": [],
+      "duplicate": [],
+      "status": "review"
+    },
+    {
+      "paper": "SyFormer_Structure_Guided_Synergism_Transformer_for_Large_Portion_Image_AAAI_2024",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table10",
+        "Table11",
+        "Table12",
+        "Table13",
+        "Table14",
+        "Table15",
+        "Table16",
+        "Table17",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table10",
+        "Table11",
+        "Table12",
+        "Table13",
+        "Table14",
+        "Table15",
+        "Table16",
+        "Table17",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "UCF_Crime_DVS_A_Novel_Event_Based_Dataset_Local_reference_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Uncover_Treasures_in_DCT_Advancing_JPEG_Quality_Enhancement_by_Exploiting_ICCV_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Universal_Compressed_Image_Restoration_via_Codec_Aware_Conditioning_with_AAAI_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Viewport_Based_Omnidirectional_Video_Quality_TCSVT_2021",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Visual_in_Visual_A_Unified_and_Efficient_Baseline_for_Local_reference_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig14",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table10",
+        "Table11",
+        "Table12",
+        "Table13",
+        "Table14",
+        "Table15",
+        "Table16",
+        "Table17",
+        "Table18",
+        "Table19",
+        "Table2",
+        "Table20",
+        "Table21",
+        "Table22",
+        "Table23",
+        "Table24",
+        "Table25",
+        "Table26",
+        "Table27",
+        "Table28",
+        "Table29",
+        "Table3",
+        "Table30",
+        "Table31",
+        "Table32",
+        "Table33",
+        "Table34",
+        "Table35",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig11",
+        "Fig12",
+        "Fig13",
+        "Fig14",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table10",
+        "Table11",
+        "Table12",
+        "Table13",
+        "Table14",
+        "Table15",
+        "Table16",
+        "Table17",
+        "Table18",
+        "Table19",
+        "Table2",
+        "Table20",
+        "Table21",
+        "Table22",
+        "Table23",
+        "Table24",
+        "Table25",
+        "Table26",
+        "Table27",
+        "Table28",
+        "Table29",
+        "Table3",
+        "Table30",
+        "Table31",
+        "Table32",
+        "Table33",
+        "Table34",
+        "Table35",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8",
+        "Table9"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Zero_Shot_Video_Restoration_and_Enhancement_Using_Pre_Trained_AAAI_2025",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    }
+  ]
+}

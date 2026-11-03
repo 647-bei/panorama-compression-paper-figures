@@ -1,0 +1,386 @@
+{
+  "paper": "Zero_Shot_Video_Restoration_and_Enhancement_Using_Pre_Trained_AAAI_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 9,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Figure 1: Framework of the proposed zero-shot video restoration and enhancement.",
+      "caption_en": "Figure 1: Framework of the proposed zero-shot video restoration and enhancement.",
+      "caption_zh": "",
+      "caption_bbox": [
+        139.75,
+        286.045,
+        472.266,
+        296.008
+      ],
+      "content_bbox": [
+        104.399,
+        54.001,
+        507.601,
+        275.967
+      ],
+      "crop_bbox": [
+        104.399,
+        54.001,
+        507.601,
+        275.967
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  73.4% 画面  (10.00 x 5.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5030899 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Figure 2: Architecture of the proposed SLR Temporal Attention. (a) The two modules in SLR temporal attention: cross-neighbor- frame attention and self-corrected trajectory attention, focus on short-range and long-range temporal correlation between frames, respectively. (b) The cross-neighbor-frame attention is applied first, and its output serves as the query for the self-corrected trajectory attention. (c) The procedure of self-corrected trajectory sampling. The red, yellow, and green trajectories denote the flow-based, similarity-based, and historically-best trajectories, respectively.",
+      "caption_en": "Figure 2: Architecture of the proposed SLR Temporal Attention. (a) The two modules in SLR temporal attention: cross-neighbor- frame attention and self-corrected trajectory attention, focus on short-range and long-range temporal correlation between frames, respectively. (b) The cross-neighbor-frame attention is applied first, and its output serves as the query for the self-corrected trajectory attention. (c) The procedure of self-corrected trajectory sampling. The red, yellow, and green trajectories denote the flow-based, similarity-based, and historically-best trajectories, respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        231.974,
+        559.674,
+        285.696
+      ],
+      "content_bbox": [
+        54.0,
+        53.999,
+        558.005,
+        221.82
+      ],
+      "crop_bbox": [
+        54.0,
+        53.999,
+        558.005,
+        221.82
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  44.5% 画面  (10.00 x 3.34 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table 1: Quantitative comparison with state-of-the-art meth- ods for 4× video super-resolution. The best results are high- lightedinboldandthesecondbestresultsareunderlined. WE is expressed as a percentage (%). VRT is a supervised method, the others are zero-shot methods.",
+      "caption_en": "Table 1: Quantitative comparison with state-of-the-art meth- ods for 4× video super-resolution. The best results are high- lightedinboldandthesecondbestresultsareunderlined. WE is expressed as a percentage (%). VRT is a supervised method, the others are zero-shot methods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.032,
+        135.674,
+        559.756,
+        189.479
+      ],
+      "content_bbox": [
+        324.276,
+        57.553,
+        564.08,
+        125.207
+      ],
+      "crop_bbox": [
+        324.276,
+        57.553,
+        564.08,
+        125.207
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 4,
+      "caption": "Table 2: Quantitative comparison with state-of-the-art meth- ods for video colorization. The best results are highlighted in bold and the second best results are underlined. WE is ex- pressed as a percentage (%). BiSTNet is a supervised method, the others are zero-shot methods.",
+      "caption_en": "Table 2: Quantitative comparison with state-of-the-art meth- ods for video colorization. The best results are highlighted in bold and the second best results are underlined. WE is ex- pressed as a percentage (%). BiSTNet is a supervised method, the others are zero-shot methods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.191,
+        292.295,
+        559.667,
+        346.101
+      ],
+      "content_bbox": [
+        324.276,
+        214.175,
+        564.08,
+        281.829
+      ],
+      "crop_bbox": [
+        324.276,
+        214.175,
+        564.08,
+        281.829
+      ],
+      "original": "tables/original/Table2_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 5,
+      "caption": "Figure 3: Visual quality comparison for video super-resolution. Zoom in for better observation.",
+      "caption_en": "Figure 3: Visual quality comparison for video super-resolution. Zoom in for better observation.",
+      "caption_zh": "",
+      "caption_bbox": [
+        116.702,
+        287.728,
+        495.316,
+        297.691
+      ],
+      "content_bbox": [
+        129.601,
+        53.997,
+        482.402,
+        277.65
+      ],
+      "crop_bbox": [
+        129.601,
+        53.997,
+        482.402,
+        277.65
+      ],
+      "original": "figures/original/Fig3_p005.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  84.6% 画面  (10.00 x 6.35 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5802424 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 5,
+      "caption": "Table 3: Quantitative comparison with state-of-the-art meth- odsforlow-lightvideoenhancement.Thebestresultsare highlighted in bold and the second best results are underlined. WE is expressed as a percentage (%). FastLLVE is a super- vised method, the others are zero-shot methods.",
+      "caption_en": "Table 3: Quantitative comparison with state-of-the-art meth- odsforlow-lightvideoenhancement.Thebestresultsare highlighted in bold and the second best results are underlined. WE is expressed as a percentage (%). FastLLVE is a super- vised method, the others are zero-shot methods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        53.532,
+        391.49,
+        294.256,
+        445.295
+      ],
+      "content_bbox": [
+        58.901,
+        322.178,
+        298.516,
+        381.01
+      ],
+      "crop_bbox": [
+        58.901,
+        322.178,
+        298.516,
+        381.01
+      ],
+      "original": "tables/original/Table3_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 5,
+      "caption": "Table 4: Quantitative comparison with state-of-the-art meth- ods for 4× blind video super-resolution on the DAVIS dataset. The best results are highlighted in bold and the second best results are underlined. WE is expressed as a percentage (%).",
+      "caption_en": "Table 4: Quantitative comparison with state-of-the-art meth- ods for 4× blind video super-resolution on the DAVIS dataset. The best results are highlighted in bold and the second best results are underlined. WE is expressed as a percentage (%).",
+      "caption_zh": "",
+      "caption_bbox": [
+        53.691,
+        521.783,
+        294.255,
+        564.621
+      ],
+      "content_bbox": [
+        58.901,
+        463.798,
+        298.516,
+        511.304
+      ],
+      "crop_bbox": [
+        58.901,
+        463.798,
+        298.516,
+        511.304
+      ],
+      "original": "tables/original/Table4_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Figure 4: Visual quality comparison for low-light video en- hancement. Zoom in for better observation.",
+      "caption_en": "Figure 4: Visual quality comparison for low-light video en- hancement. Zoom in for better observation.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        250.669,
+        559.663,
+        271.662
+      ],
+      "content_bbox": [
+        331.426,
+        54.0,
+        546.066,
+        240.662
+      ],
+      "crop_bbox": [
+        331.426,
+        54.0,
+        546.066,
+        240.662
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  86.3% 画面  (8.63 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 7895421 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 6,
+      "caption": "Table 5: Ablation study for SLR Temporal Attention (SLTA), temporal consistency guidance (TCG), spatial-temporal noise sharing (STNS) and early stopping sampling strategy (ESSS) on4×videosuper-resolutiontask.WEisexpressedasa percentage (%).",
+      "caption_en": "Table 5: Ablation study for SLR Temporal Attention (SLTA), temporal consistency guidance (TCG), spatial-temporal noise sharing (STNS) and early stopping sampling strategy (ESSS) on4×videosuper-resolutiontask.WEisexpressedasa percentage (%).",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.191,
+        414.475,
+        559.252,
+        468.209
+      ],
+      "content_bbox": [
+        324.587,
+        54.0,
+        558.887,
+        403.944
+      ],
+      "crop_bbox": [
+        324.587,
+        54.0,
+        558.887,
+        403.944
+      ],
+      "original": "tables/original/Table5_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Zero_Shot_Video_Restoration_and_Enhancement_Using_Pre_Trained_AAAI_2025",
+    "title": "Zero-Shot Video Restoration and Enhancement Using Pre-Trained Image Diffusion Model",
+    "venue": "Pattern Recognition",
+    "venue_full": "Pattern Recognition",
+    "venue_short": "Pattern Recognition",
+    "venue_type": "期刊",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "a0578efaf78d38b76237563654b59e31d94ae4e0dfe3ec725ec077cc731e8e76",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\9SMW5E2M\\AAAI 2025使用预训练图像扩散模型进行零样本视频恢复和增强.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\MZ25JFX5\\AAAI 2025使用预训练图像扩散模型进行零样本视频恢复和增强.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 1区 · Top（2025）",
+    "cas_display": "中科院 1区 · Top（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    }
+  ]
+}

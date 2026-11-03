@@ -1,0 +1,555 @@
+{
+  "paper": "based_Architecture_for_Efficient_Compressed_Video_Quality_Enhancement_CVPR_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 11,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure1.ComparisonofPSNR(dB),per-frameprocessingtime (720Pvideo),andFLOPsevaluatedontheMFQEv2.0testset atQP=37.Circledimensionsindicatecomputationalcomplex- ity.RivuletMLP achieves an optimal balance between quality en- hancement and processing efficiency. andtransmitvideobyexploitingbothtemporalandspa- tialredundancieswithinthecontent. Nevertheless,this lossycompressionapproach,whichinherentlysacrifices quality to achieve lower bitrates, invariably introduces var- iousvisualartifactssuchasblockingeffects,ringingdis- tortions,andimageblurring[4,5]. Suchcompression- induceddegradationnotonlysubstantiallycompromises users’subjectiveQualityofExperience(QoE)[6,7]but alsomarkedlyimpairstheperformanceofcrucialvisual computingtasks,includingobjectdetectionandaction recognition.Mostnotably,theinterplaybetweenmotion estimationandquantizationprocessesinvideocodingre- sultsinqualitydegradationwithcomplexspatiotemporal patterns[8,9],makingvideoqualityrestorationanexcep- tionally challenging task. In recent years, researchers have explored diverse techni- cal approaches to enhance compressed video quality.Early methodologiescenteredontransformcoefficientoptimiza- tion[10,11],employingspecializedmathematicalmodels tomitigateartifacts.Althoughtheseapproachesexhibited remarkable performance in specific contexts, their heavy re-",
+      "caption_en": "Figure1.ComparisonofPSNR(dB),per-frameprocessingtime (720Pvideo),andFLOPsevaluatedontheMFQEv2.0testset atQP=37.Circledimensionsindicatecomputationalcomplex- ity.RivuletMLP achieves an optimal balance between quality en- hancement and processing efficiency. andtransmitvideobyexploitingbothtemporalandspa- tialredundancieswithinthecontent. Nevertheless,this lossycompressionapproach,whichinherentlysacrifices quality to achieve lower bitrates, invariably introduces var- iousvisualartifactssuchasblockingeffects,ringingdis- tortions,andimageblurring[4,5]. Suchcompression- induceddegradationnotonlysubstantiallycompromises users’subjectiveQualityofExperience(QoE)[6,7]but alsomarkedlyimpairstheperformanceofcrucialvisual computingtasks,includingobjectdetectionandaction recognition.Mostnotably,theinterplaybetweenmotion estimationandquantizationprocessesinvideocodingre- sultsinqualitydegradationwithcomplexspatiotemporal patterns[8,9],makingvideoqualityrestorationanexcep- tionally challenging task. In recent years, researchers have explored diverse techni- cal approaches to enhance compressed video quality.Early methodologiescenteredontransformcoefficientoptimiza- tion[10,11],employingspecializedmathematicalmodels tomitigateartifacts.Althoughtheseapproachesexhibited remarkable performance in specific contexts, their heavy re-",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        407.057,
+        545.115,
+        713.407
+      ],
+      "content_bbox": [
+        340.58,
+        272.81,
+        536.661,
+        400.744
+      ],
+      "crop_bbox": [
+        340.58,
+        272.81,
+        536.661,
+        400.744
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.74 in\n\n形状统计 (59 个):\n  FREEFORM (5)                 41\n  TEXT_BOX (17)                17\n  PICTURE (13)                 1\n\n矢量形状: 58\n位图图片: 1\n  13.4% 画面  (5.74 x 2.71 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2.Architecture overview of our proposed method:(a) RivuletMLP pipeline.(b) Spatio-temporal Feature Flow (SFF) Module.(c) BenignSelectionCompensation(BSC)Module.(d)Spacetime-GateMLP(SG-MLP)forfeatureaggregation.(e)LocallyRefinedMLP (LR-MLP) is a core BSC component.",
+      "caption_en": "Figure 2.Architecture overview of our proposed method:(a) RivuletMLP pipeline.(b) Spatio-temporal Feature Flow (SFF) Module.(c) BenignSelectionCompensation(BSC)Module.(d)Spacetime-GateMLP(SG-MLP)forfeatureaggregation.(e)LocallyRefinedMLP (LR-MLP) is a core BSC component.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        290.711,
+        545.111,
+        321.595
+      ],
+      "content_bbox": [
+        61.242,
+        74.36,
+        531.488,
+        284.442
+      ],
+      "crop_bbox": [
+        61.242,
+        74.36,
+        531.488,
+        284.442
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  59.6% 画面  (10.00 x 4.47 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4086133 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure 3.The Dynamically Guided Deformable Alignment mod- ule explores and adaptively aligns multi-frame features. The SKFF module follows [42].",
+      "caption_en": "Figure 3.The Dynamically Guided Deformable Alignment mod- ule explores and adaptively aligns multi-frame features. The SKFF module follows [42].",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        237.364,
+        286.359,
+        268.248
+      ],
+      "content_bbox": [
+        51.006,
+        69.764,
+        281.56,
+        230.672
+      ],
+      "crop_bbox": [
+        51.006,
+        69.764,
+        281.56,
+        230.672
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.34 in\n\n形状统计 (304 个):\n  FREEFORM (5)                 285\n  PICTURE (13)                 14\n  TEXT_BOX (17)                5\n\n矢量形状: 290\n位图图片: 14\n  1.8% 画面  (0.91 x 2.48 in)\n  1.5% 画面  (0.77 x 2.45 in)\n  1.6% 画面  (0.78 x 2.49 in)\n  1.6% 画面  (0.79 x 2.50 in)\n  1.6% 画面  (0.78 x 2.50 in)\n  1.6% 画面  (0.78 x 2.50 in)\n  1.4% 画面  (3.38 x 0.52 in)\n  0.4% 画面  (0.81 x 0.62 in)\n  0.4% 画面  (0.81 x 0.65 in)\n  0.4% 画面  (0.85 x 0.64 in)\n  ... 共 14 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure4.ThearchitectureofFFB,whichconsistsoffivecom- ponents:windowpartitioning,featureflowing,featuremapping, featurebacktracking,andwindowmerging.Theredareasrepre- sent the receptive regions of patch-based MLP. 3.3.2 Spacetime-Gate MLP",
+      "caption_en": "Figure4.ThearchitectureofFFB,whichconsistsoffivecom- ponents:windowpartitioning,featureflowing,featuremapping, featurebacktracking,andwindowmerging.Theredareasrepre- sent the receptive regions of patch-based MLP. 3.3.2 Spacetime-Gate MLP",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        349.285,
+        430.884,
+        391.128
+      ],
+      "content_bbox": [
+        0.0,
+        56.963,
+        545.116,
+        343.433
+      ],
+      "crop_bbox": [
+        0.0,
+        56.963,
+        545.116,
+        343.433
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.06 in\n\n形状统计 (580 个):\n  FREEFORM (5)                 426\n  TEXT_BOX (17)                121\n  PICTURE (13)                 33\n\n矢量形状: 547\n位图图片: 33\n  0.0% 画面  (0.15 x 0.15 in)\n  0.0% 画面  (0.16 x 0.15 in)\n  0.0% 画面  (0.16 x 0.15 in)\n  0.0% 画面  (0.15 x 0.15 in)\n  0.0% 画面  (0.14 x 0.15 in)\n  0.0% 画面  (0.16 x 0.15 in)\n  0.0% 画面  (0.14 x 0.14 in)\n  0.0% 画面  (0.15 x 0.15 in)\n  0.0% 画面  (0.16 x 0.15 in)\n  0.0% 画面  (0.16 x 0.15 in)\n  ... 共 33 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure 5.Subjective comparison results between leading methods and our proposed methodin four video sequences at QP = 37.Test video names (from top to bottom):BasketballDrill, BQSquare, BasketballDrive and Johanny.The zoom-in of red box area is shown.",
+      "caption_en": "Figure 5.Subjective comparison results between leading methods and our proposed methodin four video sequences at QP = 37.Test video names (from top to bottom):BasketballDrill, BQSquare, BasketballDrive and Johanny.The zoom-in of red box area is shown.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        299.917,
+        545.111,
+        319.841
+      ],
+      "content_bbox": [
+        50.329,
+        72.896,
+        544.073,
+        285.649
+      ],
+      "crop_bbox": [
+        50.329,
+        72.896,
+        544.073,
+        285.649
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  57.5% 画面  (10.00 x 4.31 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3942655 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Figure6.PSNRcurvesofHEVC,RFDA,STCFandourmodel onBasketballDrivetestingsequenceunderLDPconfigurationat QP=37.",
+      "caption_en": "Figure6.PSNRcurvesofHEVC,RFDA,STCFandourmodel onBasketballDrivetestingsequenceunderLDPconfigurationat QP=37.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        411.888,
+        286.359,
+        442.772
+      ],
+      "content_bbox": [
+        13.064,
+        56.047,
+        572.388,
+        411.888
+      ],
+      "crop_bbox": [
+        13.064,
+        56.047,
+        572.388,
+        411.888
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.52 in\n\n形状统计 (157 个):\n  TEXT_BOX (17)                63\n  FREEFORM (5)                 62\n  PICTURE (13)                 32\n\n矢量形状: 125\n位图图片: 32\n  1.3% 画面  (1.34 x 1.09 in)\n  1.3% 画面  (1.34 x 1.07 in)\n  1.2% 画面  (1.32 x 1.07 in)\n  1.2% 画面  (1.33 x 1.07 in)\n  1.8% 画面  (1.87 x 1.07 in)\n  1.3% 画面  (1.33 x 1.07 in)\n  1.3% 画面  (1.33 x 1.07 in)\n  1.3% 画面  (1.33 x 1.07 in)\n  1.8% 画面  (1.87 x 1.08 in)\n  1.3% 画面  (1.33 x 1.09 in)\n  ... 共 32 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 6,
+      "caption": "Table 1.AcrossdifferentQPvaluesunderLDPconfigurations, our method consistently outperforms all comparison meth- ods,demonstratingleadingperformance. ForLDPcon- figurationwithQP=37,ourapproachachievesaverage ∆PSNR improvements of 0.11dB and 0.15dB compared to STCFandTVQErespectivelyacross18standardtestse- quences.Comparableimprovementsarealsoobservedin",
+      "caption_en": "Table 1.AcrossdifferentQPvaluesunderLDPconfigurations, our method consistently outperforms all comparison meth- ods,demonstratingleadingperformance. ForLDPcon- figurationwithQP=37,ourapproachachievesaverage ∆PSNR improvements of 0.11dB and 0.15dB compared to STCFandTVQErespectivelyacross18standardtestse- quences.Comparableimprovementsarealsoobservedin",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        619.528,
+        286.365,
+        713.407
+      ],
+      "content_bbox": [
+        3.659,
+        56.047,
+        572.388,
+        489.728
+      ],
+      "crop_bbox": [
+        3.659,
+        56.047,
+        572.388,
+        489.728
+      ],
+      "original": "tables/original/Table1_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 7,
+      "caption": "Figure 7. Rate-distortion performance on Johnny testing sequence. Our method outperforms the other approaches at various bitrates.",
+      "caption_en": "Figure 7. Rate-distortion performance on Johnny testing sequence. Our method outperforms the other approaches at various bitrates.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        145.809,
+        286.359,
+        165.734
+      ],
+      "content_bbox": [
+        52.821,
+        74.868,
+        281.501,
+        139.621
+      ],
+      "crop_bbox": [
+        52.821,
+        74.868,
+        281.501,
+        139.621
+      ],
+      "original": "figures/original/Fig7_p007.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  37.8% 画面  (10.00 x 2.84 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 7,
+      "caption": "Figure8.Visualcomparisonofframeenhancementresultsand residual patterns across different models.",
+      "caption_en": "Figure8.Visualcomparisonofframeenhancementresultsand residual patterns across different models.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        239.85,
+        545.109,
+        259.775
+      ],
+      "content_bbox": [
+        50.112,
+        67.621,
+        579.615,
+        241.743
+      ],
+      "crop_bbox": [
+        50.112,
+        67.621,
+        579.615,
+        241.743
+      ],
+      "original": "figures/original/Fig8_p007.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.46 in\n\n形状统计 (33 个):\n  TEXT_BOX (17)                19\n  FREEFORM (5)                 9\n  PICTURE (13)                 5\n\n矢量形状: 28\n位图图片: 5\n  2.8% 画面  (1.30 x 1.30 in)\n  2.9% 画面  (1.32 x 1.32 in)\n  2.8% 画面  (1.30 x 1.30 in)\n  2.9% 画面  (1.32 x 1.32 in)\n  34.0% 画面  (5.27 x 3.84 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 7,
+      "caption": "Table 2 presents comprehen- sivebenchmarktestsevaluatingcomputationalefficiency throughinferencetime,parametercount,andcomplex- ityfollowing[20],[52].AlthoughourMLP-basedar- chitecturerequireshigherparameteroverhead(2%less than STCF), experimental results justify this trade-off. Our method achieves a 10.7% ∆PSNR improvement (from 1.02 dBto1.13dBforQP37)with47.5%fasterinferencethan CPGA, while maintaining lower computational complexity than both STCF and CPGA. We also provide a lightweight versionwithc=64forimprovedefficiency,establishing our method as one of the most practical models for deploy- ment given its competitive FLOPs and inference speed. Receptivefield.Thecomparativeanalysisofreceptive fieldpatternsisshowninFig.7.STDFdemonstratescen- tralized activation, while BSC exhibits radial high-intensity distributionsaroundthecoreregion. Incontrasttothe locallyuniformsquare-shapedfieldsofSTCF-global(the global branch of STCF), our proposed SFF framework man- ifests extensive discrete activation patterns.This design en- ables simultaneous attention to multiple critical regions, ef- fectively integrating global contextual information.",
+      "caption_en": "Table 2 presents comprehen- sivebenchmarktestsevaluatingcomputationalefficiency throughinferencetime,parametercount,andcomplex- ityfollowing[20],[52].AlthoughourMLP-basedar- chitecturerequireshigherparameteroverhead(2%less than STCF), experimental results justify this trade-off. Our method achieves a 10.7% ∆PSNR improvement (from 1.02 dBto1.13dBforQP37)with47.5%fasterinferencethan CPGA, while maintaining lower computational complexity than both STCF and CPGA. We also provide a lightweight versionwithc=64forimprovedefficiency,establishing our method as one of the most practical models for deploy- ment given its competitive FLOPs and inference speed. Receptivefield.Thecomparativeanalysisofreceptive fieldpatternsisshowninFig.7.STDFdemonstratescen- tralized activation, while BSC exhibits radial high-intensity distributionsaroundthecoreregion. Incontrasttothe locallyuniformsquare-shapedfieldsofSTCF-global(the global branch of STCF), our proposed SFF framework man- ifests extensive discrete activation patterns.This design en- ables simultaneous attention to multiple critical regions, ef- fectively integrating global contextual information.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        326.38,
+        286.366,
+        588.367
+      ],
+      "content_bbox": [
+        50.112,
+        67.621,
+        579.615,
+        329.533
+      ],
+      "crop_bbox": [
+        50.112,
+        67.621,
+        579.615,
+        329.533
+      ],
+      "original": "tables/original/Table2_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "Table3.TheEfficiencyComparisonbetweenDDAModuleand STDF’s Alignment Method.",
+      "caption_en": "Table3.TheEfficiencyComparisonbetweenDDAModuleand STDF’s Alignment Method.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        171.467,
+        286.359,
+        191.392
+      ],
+      "content_bbox": [
+        50.112,
+        196.897,
+        289.43,
+        243.335
+      ],
+      "crop_bbox": [
+        50.112,
+        196.897,
+        289.43,
+        243.335
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "Table 4 demonstrates that BSC module integration significantly enhances frame- work performance.The integrated architecture outperforms implementationsusingeitherSFForBSCmodulesalone across all evaluation metrics.Detailed analysis of interme- diatecompensationresultsinFig.8revealsbotheffective compression artifact suppression and superior texture detail reconstruction.These findings conclusively validate the es- sential synergy between global modeling and motion com- pensation mechanisms in improving overall visual quality. Featuredimensionandnumberofmodules.Module countandfeaturedimensionsarekeyarchitecturalparam- eters.Systematicexperimentsexaminedperformanceim- pacts by scaling modules from 8 to 12 and feature channels from 64 to 128. The results reveal significant improvements inmodelexpressivenessandperformancewithincreased module count and channel dimensions.",
+      "caption_en": "Table 4 demonstrates that BSC module integration significantly enhances frame- work performance.The integrated architecture outperforms implementationsusingeitherSFForBSCmodulesalone across all evaluation metrics.Detailed analysis of interme- diatecompensationresultsinFig.8revealsbotheffective compression artifact suppression and superior texture detail reconstruction.These findings conclusively validate the es- sential synergy between global modeling and motion com- pensation mechanisms in improving overall visual quality. Featuredimensionandnumberofmodules.Module countandfeaturedimensionsarekeyarchitecturalparam- eters.Systematicexperimentsexaminedperformanceim- pacts by scaling modules from 8 to 12 and feature channels from 64 to 128. The results reveal significant improvements inmodelexpressivenessandperformancewithincreased module count and channel dimensions.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        366.144,
+        545.115,
+        567.574
+      ],
+      "content_bbox": [
+        271.284,
+        67.621,
+        579.615,
+        357.471
+      ],
+      "crop_bbox": [
+        271.284,
+        67.621,
+        579.615,
+        357.471
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "based_Architecture_for_Efficient_Compressed_Video_Quality_Enhancement_CVPR_2025",
+    "title": "This CVPR paper is the Open Access version, provided by the Computer Vision Foundation.",
+    "venue": "CVPR",
+    "venue_full": "CVPR",
+    "venue_short": "CVPR",
+    "venue_type": "会议",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "de0c41891836d471fe0f1b4337885e5ee441a5f349770fcd91b48fd968cccd78",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\CVPR 2025-2025-压缩视频质量增强 高效模型-RivuletMLP An MLP-based Architecture for Efficient Compressed Video Quality Enhancement.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "paper": "AFD_Former_A_Hybrid_Transformer_With_Local_reference_2023",
+  "pdf": "pdf/paper.pdf",
+  "pages": 13,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig.1. CompressiondistortionandDIBRdistortioninsynthesizedview arepresentedonthe21thframeofBalloonssequence.Themarkedgreen rectangle is the area with texture blur brought by compression, and the marked redrectanglerepresentscompositedistortionbroughtbyDIBR.",
+      "caption_en": "Fig.1. CompressiondistortionandDIBRdistortioninsynthesizedview arepresentedonthe21thframeofBalloonssequence.Themarkedgreen rectangle is the area with texture blur brought by compression, and the marked redrectanglerepresentscompositedistortionbroughtbyDIBR.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        242.468,
+        300.017,
+        277.529
+      ],
+      "content_bbox": [
+        55.489,
+        54.067,
+        293.489,
+        235.561
+      ],
+      "crop_bbox": [
+        55.489,
+        54.067,
+        293.489,
+        235.561
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  98.3% 画面  (9.83 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8989922 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 2,
+      "caption": "TABLEI",
+      "caption_en": "TABLEI",
+      "caption_zh": "",
+      "caption_bbox": [
+        422.311,
+        58.285,
+        452.693,
+        66.255
+      ],
+      "content_bbox": [
+        314.777,
+        70.24,
+        560.229,
+        231.238
+      ],
+      "crop_bbox": [
+        314.777,
+        70.24,
+        560.229,
+        231.238
+      ],
+      "original": "tables/original/Table1_p002.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Fig.2. ProposedframeworkofAFD-former.",
+      "caption_en": "Fig.2. ProposedframeworkofAFD-former.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        415.871,
+        199.911,
+        423.841
+      ],
+      "content_bbox": [
+        49.367,
+        54.066,
+        562.625,
+        403.982
+      ],
+      "crop_bbox": [
+        49.367,
+        54.066,
+        562.625,
+        403.982
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  90.9% 画面  (10.00 x 6.82 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6232521 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Fig.3. ThestructureoftheGCCTBandGLRB.",
+      "caption_en": "Fig.3. ThestructureoftheGCCTBandGLRB.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        271.827,
+        213.444,
+        279.797
+      ],
+      "content_bbox": [
+        49.489,
+        54.067,
+        299.489,
+        259.939
+      ],
+      "crop_bbox": [
+        49.489,
+        54.067,
+        299.489,
+        259.939
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  91.1% 画面  (9.11 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8331138 x 6857999 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "TABLEII",
+      "caption_en": "TABLEII",
+      "caption_zh": "",
+      "caption_bbox": [
+        289.478,
+        58.285,
+        322.514,
+        66.255
+      ],
+      "content_bbox": [
+        51.565,
+        70.24,
+        560.426,
+        368.148
+      ],
+      "crop_bbox": [
+        51.565,
+        70.24,
+        560.426,
+        368.148
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "TABLEIII",
+      "caption_en": "TABLEIII",
+      "caption_zh": "",
+      "caption_bbox": [
+        288.151,
+        58.285,
+        323.841,
+        66.255
+      ],
+      "content_bbox": [
+        60.675,
+        70.24,
+        549.324,
+        686.854
+      ],
+      "crop_bbox": [
+        60.675,
+        70.24,
+        549.324,
+        686.854
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 8,
+      "caption": "TABLEIV",
+      "caption_en": "TABLEIV",
+      "caption_zh": "",
+      "caption_bbox": [
+        287.927,
+        58.285,
+        324.063,
+        66.255
+      ],
+      "content_bbox": [
+        89.604,
+        93.42,
+        522.389,
+        250.059
+      ],
+      "crop_bbox": [
+        89.604,
+        93.42,
+        522.389,
+        250.059
+      ],
+      "original": "tables/original/Table4_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 8,
+      "caption": "TABLEV THE OBJECTIVE QUALITY COMPARISONON MCL-3DAND IETR DATABASES. (THE VALUES IN BLACK BOLD DENOTETHE BESTANDTHE UNDERLINE DENOTETHE SECOND BEST)",
+      "caption_en": "TABLEV THE OBJECTIVE QUALITY COMPARISONON MCL-3DAND IETR DATABASES. (THE VALUES IN BLACK BOLD DENOTETHE BESTANDTHE UNDERLINE DENOTETHE SECOND BEST)",
+      "caption_zh": "",
+      "caption_bbox": [
+        148.297,
+        266.232,
+        463.698,
+        295.124
+      ],
+      "content_bbox": [
+        51.401,
+        301.367,
+        560.591,
+        457.902
+      ],
+      "crop_bbox": [
+        51.401,
+        301.367,
+        560.591,
+        457.902
+      ],
+      "original": "tables/original/Table5_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 9,
+      "caption": "Fig.4. Visualcomparisonsofdifferentmethodsforthe3rddistortionlevel.Illustratedimagesarethe132th,90th,180th,and199thframesofthefour sequences,correspondingly.",
+      "caption_en": "Fig.4. Visualcomparisonsofdifferentmethodsforthe3rddistortionlevel.Illustratedimagesarethe132th,90th,180th,and199thframesofthefour sequences,correspondingly.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        634.912,
+        563.034,
+        653.953
+      ],
+      "content_bbox": [
+        92.432,
+        54.066,
+        519.56,
+        628.117
+      ],
+      "crop_bbox": [
+        92.432,
+        54.066,
+        519.56,
+        628.117
+      ],
+      "original": "figures/original/Fig4_p009.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  55.8% 画面  (5.58 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 5105433 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 10,
+      "caption": "TABLEVI",
+      "caption_en": "TABLEVI",
+      "caption_zh": "",
+      "caption_bbox": [
+        287.927,
+        58.285,
+        324.063,
+        66.255
+      ],
+      "content_bbox": [
+        106.0,
+        70.24,
+        504.0,
+        225.125
+      ],
+      "crop_bbox": [
+        106.0,
+        70.24,
+        504.0,
+        225.125
+      ],
+      "original": "tables/original/Table6_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 10,
+      "caption": "TABLEVII",
+      "caption_en": "TABLEVII",
+      "caption_zh": "",
+      "caption_bbox": [
+        155.094,
+        250.164,
+        193.884,
+        258.134
+      ],
+      "content_bbox": [
+        49.489,
+        262.119,
+        299.489,
+        486.267
+      ],
+      "crop_bbox": [
+        49.489,
+        262.119,
+        299.489,
+        486.267
+      ],
+      "original": "tables/original/Table7_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 10,
+      "caption": "TABLEVIII EFFECTIVENESSOF DIFFERENT MODULESON TWO DATASETS",
+      "caption_en": "TABLEVIII EFFECTIVENESSOF DIFFERENT MODULESON TWO DATASETS",
+      "caption_zh": "",
+      "caption_bbox": [
+        68.006,
+        380.033,
+        278.988,
+        399.958
+      ],
+      "content_bbox": [
+        49.489,
+        406.694,
+        299.489,
+        486.267
+      ],
+      "crop_bbox": [
+        49.489,
+        406.694,
+        299.489,
+        486.267
+      ],
+      "original": "tables/original/Table8_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table9",
+      "page": 10,
+      "caption": "TABLEIX",
+      "caption_en": "TABLEIX",
+      "caption_zh": "",
+      "caption_bbox": [
+        419.434,
+        250.164,
+        455.57,
+        258.134
+      ],
+      "content_bbox": [
+        323.594,
+        262.119,
+        551.411,
+        371.95
+      ],
+      "crop_bbox": [
+        323.594,
+        262.119,
+        551.411,
+        371.95
+      ],
+      "original": "tables/original/Table9_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table9.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "AFD_Former_A_Hybrid_Transformer_With_Local_reference_2023",
+    "title": "AFD-Former: A Hybrid Transformer With Asymmetric Flow Division for Synthesized View Quality Enhancement",
+    "venue": "TCSVT",
+    "venue_full": "TCSVT",
+    "venue_short": "TCSVT",
+    "venue_type": "期刊",
+    "year": 2023,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://www.ieee.org/publications/rights/index.html",
+    "pdf_url": "https://www.ieee.org/publications/rights/index.html",
+    "access": "local_pdf",
+    "source_sha256": "fee2d940c8b11e94e93f34d5e7790c6aea7fd74ca9c534fdfd01d0745a73662a",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\9N4TSE9J\\Zhang 等 - 2023 - AFD-Former A Hybrid Transformer With Asymmetric Flow Division for Synthesized View Quality Enhancem.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 2区（2025）",
+    "cas_display": "中科院 2区（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    }
+  ]
+}

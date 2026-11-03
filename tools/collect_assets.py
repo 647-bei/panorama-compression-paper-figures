@@ -15,8 +15,28 @@ from pathlib import Path
 import fitz
 
 
-CAPTION_RE = re.compile(r"(?:^|\s)(?:fig(?:ure)?\.?\s*\d+[a-z]?|table\s*\d+[a-z]?)\s*[.:|]", re.I)
-FIG_RE = re.compile(r"^\s*(?:fig(?:ure)?\.?\s*\d+[a-z]?)\s*[.:|]", re.I)
+LABEL_TOKEN = r"(?:\d+[a-z]?|[ivxlcdm]+)"
+# Many IEEE PDFs emit table captions as an uppercase label on its own line
+# (for example ``TABLE II``) followed by the descriptive title.  Accept an
+# end-of-label or title boundary while keeping the body-reference filters
+# below responsible for rejecting prose such as ``listed in Table II``.
+CAPTION_RE = re.compile(
+    rf"(?:^|\s)(?:fig(?:ure)?\.?\s*{LABEL_TOKEN}|table\s*{LABEL_TOKEN})"
+    rf"\s*(?:[.:|]|(?=\s+[A-Z(])|$)", re.I
+)
+FIG_RE = re.compile(rf"^\s*(?:fig(?:ure)?\.?\s*{LABEL_TOKEN})\s*[.:|]", re.I)
+
+
+def roman_to_int(value: str) -> str:
+    if value.isdigit():
+        return value
+    total = 0
+    prev = 0
+    for char in value.upper()[::-1]:
+        number = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}.get(char, 0)
+        total += -number if number < prev else number
+        prev = max(prev, number)
+    return str(total or value)
 
 
 def rect_union(rects: list[fitz.Rect]) -> fitz.Rect | None:
@@ -50,6 +70,10 @@ def visual_rects(page: fitz.Page) -> list[fitz.Rect]:
     page_w, page_h = page.rect.width, page.rect.height
     for drawing in page.get_drawings():
         r = fitz.Rect(drawing["rect"])
+        # A few IEEE/Nature PDFs contain a page-sized background drawing. It
+        # must not join every caption's cluster or suppress the real artwork.
+        if r.width >= page_w * 0.95 and r.height >= page_h * 0.95:
+            continue
         # Table borders and chart grid lines can have zero area in the PDF
         # drawing model. Keep sufficiently long strokes while dropping tiny
         # glyph-like fragments.
@@ -552,8 +576,9 @@ def main() -> None:
             blocks = text_blocks(page)
             table_boxes = detected_table_boxes(page)
             for idx, (cap, text, kind) in enumerate(captions, start=1):
-                label_m = re.match(r"\s*(?:fig(?:ure)?\.?|table)\s*([0-9]+[a-z]?)", text, re.I)
-                label = ("Fig" if kind == "figure" else "Table") + (label_m.group(1) if label_m else f"p{page_no+1}_{idx}")
+                label_m = re.match(rf"\s*(?:fig(?:ure)?\.?|table)\s*({LABEL_TOKEN})", text, re.I)
+                token = roman_to_int(label_m.group(1)) if label_m else f"p{page_no+1}_{idx}"
+                label = ("Fig" if kind == "figure" else "Table") + token
                 label = re.sub(r"[^A-Za-z0-9_.-]+", "_", label)
                 # HEAL-SWIN's Table 9 is an appendix cross-reference printed
                 # in the main text rather than a main-paper table region.

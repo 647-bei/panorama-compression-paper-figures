@@ -1,0 +1,545 @@
+{
+  "paper": "ClearAIR_A_Human_Visual_Perception_Inspired_All_in_One_Image_Local_reference_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 14,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Figure 1: A coarse-to-fine image processing pipeline inspired by human visual perception.",
+      "caption_en": "Figure 1: A coarse-to-fine image processing pipeline inspired by human visual perception.",
+      "caption_zh": "",
+      "caption_bbox": [
+        126.146,
+        318.895,
+        485.856,
+        328.858
+      ],
+      "content_bbox": [
+        74.0,
+        54.268,
+        538.436,
+        308.856
+      ],
+      "crop_bbox": [
+        74.0,
+        54.268,
+        538.436,
+        308.856
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.36 in\n\n形状统计 (223 个):\n  FREEFORM (5)                 108\n  PICTURE (13)                 69\n  TEXT_BOX (17)                46\n\n矢量形状: 154\n位图图片: 69\n  51.4% 画面  (12.59 x 4.00 in)\n  15.1% 画面  (4.29 x 3.46 in)\n  13.1% 画面  (3.72 x 3.46 in)\n  14.7% 画面  (4.18 x 3.46 in)\n  41.5% 画面  (12.59 x 3.24 in)\n  15.6% 画面  (5.82 x 2.64 in)\n  7.7% 画面  (2.85 x 2.64 in)\n  9.4% 画面  (3.50 x 2.64 in)\n  1.8% 画面  (1.61 x 1.08 in)\n  2.1% 画面  (1.74 x 1.20 in)\n  ... 共 69 张\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 11513376 x 3660013 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2: An overview architecture of the proposed ClearAIR.",
+      "caption_en": "Figure 2: An overview architecture of the proposed ClearAIR.",
+      "caption_zh": "",
+      "caption_bbox": [
+        182.185,
+        314.511,
+        429.815,
+        324.474
+      ],
+      "content_bbox": [
+        59.958,
+        56.208,
+        552.96,
+        304.467
+      ],
+      "crop_bbox": [
+        59.958,
+        56.208,
+        552.96,
+        304.467
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.77 in\n\n形状统计 (224 个):\n  FREEFORM (5)                 137\n  TEXT_BOX (17)                54\n  PICTURE (13)                 32\n  AUTO_SHAPE (1)               1\n\n矢量形状: 192\n位图图片: 32\n  97.6% 画面  (13.22 x 6.66 in)\n  12.6% 画面  (4.49 x 2.54 in)\n  1.6% 画面  (2.10 x 0.69 in)\n  2.9% 画面  (1.53 x 1.69 in)\n  1.9% 画面  (1.93 x 0.89 in)\n  0.2% 画面  (0.39 x 0.39 in)\n  0.0% 画面  (0.10 x 0.10 in)\n  0.1% 画面  (0.29 x 0.29 in)\n  0.0% 画面  (0.10 x 0.10 in)\n  0.0% 画面  (0.10 x 0.10 in)\n  ... 共 32 张\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 12091840 x 6089052 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 2,
+      "caption": "Figure 3: The proposed Internal Clue Reuse Mechanism.",
+      "caption_en": "Figure 3: The proposed Internal Clue Reuse Mechanism.",
+      "caption_zh": "",
+      "caption_bbox": [
+        325.581,
+        514.606,
+        551.921,
+        524.569
+      ],
+      "content_bbox": [
+        54.0,
+        56.208,
+        558.203,
+        504.686
+      ],
+      "crop_bbox": [
+        54.0,
+        56.208,
+        558.203,
+        504.686
+      ],
+      "original": "figures/original/Fig3_p002.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.87 in\n\n形状统计 (283 个):\n  FREEFORM (5)                 157\n  TEXT_BOX (17)                78\n  PICTURE (13)                 47\n  AUTO_SHAPE (1)               1\n\n矢量形状: 236\n位图图片: 47\n  53.2% 画面  (12.93 x 6.51 in)\n  6.9% 画面  (4.39 x 2.48 in)\n  0.9% 画面  (2.05 x 0.68 in)\n  1.6% 画面  (1.49 x 1.65 in)\n  1.0% 画面  (1.89 x 0.87 in)\n  0.1% 画面  (0.38 x 0.38 in)\n  0.0% 画面  (0.10 x 0.10 in)\n  0.1% 画面  (0.28 x 0.28 in)\n  0.0% 画面  (0.10 x 0.10 in)\n  0.0% 画面  (0.10 x 0.10 in)\n  ... 共 47 张\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 11823216 x 5953782 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure 4: Visual comparisons of ClearAIR with state-of-the-art AiOIR methods on the Three Degradations task.",
+      "caption_en": "Figure 4: Visual comparisons of ClearAIR with state-of-the-art AiOIR methods on the Three Degradations task.",
+      "caption_zh": "",
+      "caption_bbox": [
+        82.944,
+        209.807,
+        529.059,
+        219.77
+      ],
+      "content_bbox": [
+        87.285,
+        54.716,
+        524.443,
+        200.788
+      ],
+      "crop_bbox": [
+        87.285,
+        54.716,
+        524.443,
+        200.788
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.53 in\n\n形状统计 (82 个):\n  PICTURE (13)                 42\n  FREEFORM (5)                 30\n  TEXT_BOX (17)                10\n\n矢量形状: 40\n位图图片: 42\n  3.5% 画面  (1.78 x 1.19 in)\n  3.5% 画面  (1.78 x 1.19 in)\n  3.5% 画面  (1.78 x 1.19 in)\n  3.5% 画面  (1.78 x 1.19 in)\n  0.4% 画面  (0.63 x 0.40 in)\n  0.4% 画面  (0.63 x 0.40 in)\n  0.4% 画面  (0.63 x 0.40 in)\n  0.4% 画面  (0.63 x 0.40 in)\n  0.4% 画面  (0.63 x 0.40 in)\n  0.4% 画面  (0.63 x 0.40 in)\n  ... 共 42 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table 1: The details of the All-in-One setting.",
+      "caption_en": "Table 1: The details of the All-in-One setting.",
+      "caption_zh": "",
+      "caption_bbox": [
+        82.337,
+        314.456,
+        264.164,
+        324.419
+      ],
+      "content_bbox": [
+        0.0,
+        0.0,
+        573.411,
+        303.88
+      ],
+      "crop_bbox": [
+        0.0,
+        0.0,
+        573.411,
+        303.88
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table 2: Comparison to state-of-the-art AiOIR methods on the Three Degradations task.",
+      "caption_en": "Table 2: Comparison to state-of-the-art AiOIR methods on the Three Degradations task.",
+      "caption_zh": "",
+      "caption_bbox": [
+        130.774,
+        212.384,
+        481.228,
+        222.347
+      ],
+      "content_bbox": [
+        60.114,
+        235.681,
+        551.885,
+        373.028
+      ],
+      "crop_bbox": [
+        60.114,
+        235.681,
+        551.885,
+        373.028
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 5,
+      "caption": "Table 3: Comparison to state-of-the-art AiOIR methods on the Five Degradations task.",
+      "caption_en": "Table 3: Comparison to state-of-the-art AiOIR methods on the Five Degradations task.",
+      "caption_zh": "",
+      "caption_bbox": [
+        133.733,
+        383.604,
+        478.27,
+        393.567
+      ],
+      "content_bbox": [
+        57.696,
+        412.695,
+        554.309,
+        436.583
+      ],
+      "crop_bbox": [
+        57.696,
+        412.695,
+        554.309,
+        436.583
+      ],
+      "original": "tables/original/Table3_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 5,
+      "caption": "Table 4: Comparison to state-of-the-art All-in-One methods on the All-Weather task.",
+      "caption_en": "Table 4: Comparison to state-of-the-art All-in-One methods on the All-Weather task.",
+      "caption_zh": "",
+      "caption_bbox": [
+        137.324,
+        546.241,
+        474.677,
+        556.204
+      ],
+      "content_bbox": [
+        56.899,
+        329.425,
+        555.1,
+        535.665
+      ],
+      "crop_bbox": [
+        56.899,
+        329.425,
+        555.1,
+        535.665
+      ],
+      "original": "tables/original/Table4_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure 5: Visual comparisons of ClearAIR with state-of-the-art AiOIR methods on the All-Weather task.",
+      "caption_en": "Figure 5: Visual comparisons of ClearAIR with state-of-the-art AiOIR methods on the All-Weather task.",
+      "caption_zh": "",
+      "caption_bbox": [
+        97.793,
+        215.998,
+        514.21,
+        225.961
+      ],
+      "content_bbox": [
+        79.898,
+        54.634,
+        532.248,
+        206.914
+      ],
+      "crop_bbox": [
+        79.898,
+        54.634,
+        532.248,
+        206.914
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.56 in\n\n形状统计 (100 个):\n  FREEFORM (5)                 48\n  PICTURE (13)                 42\n  TEXT_BOX (17)                10\n\n矢量形状: 58\n位图图片: 42\n  3.6% 画面  (1.77 x 1.24 in)\n  3.6% 画面  (1.77 x 1.24 in)\n  3.6% 画面  (1.77 x 1.24 in)\n  3.6% 画面  (1.77 x 1.24 in)\n  3.6% 画面  (1.77 x 1.24 in)\n  0.5% 画面  (0.69 x 0.42 in)\n  0.5% 画面  (0.69 x 0.42 in)\n  0.5% 画面  (0.69 x 0.42 in)\n  0.5% 画面  (0.69 x 0.42 in)\n  0.5% 画面  (0.69 x 0.42 in)\n  ... 共 42 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Figure 6: Visual comparisons of ClearAIR with state-of-the-art AiOIR methods on the Composited Degradation task.",
+      "caption_en": "Figure 6: Visual comparisons of ClearAIR with state-of-the-art AiOIR methods on the Composited Degradation task.",
+      "caption_zh": "",
+      "caption_bbox": [
+        72.419,
+        360.552,
+        539.585,
+        370.515
+      ],
+      "content_bbox": [
+        56.19,
+        0.0,
+        599.787,
+        351.458
+      ],
+      "crop_bbox": [
+        56.19,
+        0.0,
+        599.787,
+        351.458
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.66 in\n\n形状统计 (171 个):\n  FREEFORM (5)                 76\n  PICTURE (13)                 66\n  TEXT_BOX (17)                29\n\n矢量形状: 105\n位图图片: 66\n  1.3% 画面  (1.47 x 1.03 in)\n  1.3% 画面  (1.47 x 1.03 in)\n  1.3% 画面  (1.47 x 1.03 in)\n  1.3% 画面  (1.47 x 1.03 in)\n  1.3% 画面  (1.47 x 1.03 in)\n  0.2% 画面  (0.58 x 0.35 in)\n  0.2% 画面  (0.58 x 0.35 in)\n  0.2% 画面  (0.58 x 0.35 in)\n  0.2% 画面  (0.58 x 0.35 in)\n  0.2% 画面  (0.58 x 0.35 in)\n  ... 共 66 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 6,
+      "caption": "Table 5: Comparison to state-of-the-art All-in-One methods on the Composited Degradations task (CDD-11 dataset).",
+      "caption_en": "Table 5: Comparison to state-of-the-art All-in-One methods on the Composited Degradations task (CDD-11 dataset).",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        495.089,
+        292.505,
+        516.011
+      ],
+      "content_bbox": [
+        56.773,
+        131.38,
+        599.787,
+        442.436
+      ],
+      "crop_bbox": [
+        56.773,
+        131.38,
+        599.787,
+        442.436
+      ],
+      "original": "tables/original/Table5_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 6,
+      "caption": "Table 6: Effectiveness of perception order.",
+      "caption_en": "Table 6: Effectiveness of perception order.",
+      "caption_zh": "",
+      "caption_bbox": [
+        89.037,
+        592.452,
+        257.465,
+        602.415
+      ],
+      "content_bbox": [
+        56.773,
+        131.38,
+        599.787,
+        442.436
+      ],
+      "crop_bbox": [
+        56.773,
+        131.38,
+        599.787,
+        442.436
+      ],
+      "original": "tables/original/Table6_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 6,
+      "caption": "Table 7: Effectiveness of different components.",
+      "caption_en": "Table 7: Effectiveness of different components.",
+      "caption_zh": "",
+      "caption_bbox": [
+        344.699,
+        505.052,
+        532.803,
+        515.015
+      ],
+      "content_bbox": [
+        56.773,
+        131.38,
+        599.787,
+        442.436
+      ],
+      "crop_bbox": [
+        56.773,
+        131.38,
+        599.787,
+        442.436
+      ],
+      "original": "tables/original/Table7_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "ClearAIR_A_Human_Visual_Perception_Inspired_All_in_One_Image_Local_reference_2026",
+    "title": "ClearAIR: A Human-Visual-Perception-Inspired All-in-One Image Restoration",
+    "venue": "AAAI",
+    "venue_full": "AAAI",
+    "venue_short": "AAAI",
+    "venue_type": "会议",
+    "year": 2026,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "247976e9b303fc45f99e5346d79a5d9fce3ee88c9d5e1eb000078442465498e2",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\8XJLRXLI\\Zhang 等 - 2026 - ClearAIR A human-visual-perception-inspired all-in-one image restoration.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    }
+  ]
+}

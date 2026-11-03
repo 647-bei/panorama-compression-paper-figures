@@ -1,0 +1,14 @@
+% Auto-extracted table snippet; requires \usepackage{booktabs}.
+% Caption: Table1:TesterrorsofdifferentmethodsonCIFAR-10andCIFAR-100withmoderatedataaug- mentation (ﬂip/translation).In the second column kis a widening factor for WRNs.Note that the computational and memory resources used to train all WRN-28-10 are the same.In all other cases they are different, but WRNs are usually faster than original ResNets to achieve the same accuracy (e.g.,uptoafactorof8accordingtoZagoruyko\&Komodakis(2016)).Boldtextisusedonlyto highlight better results and is not based on statistical tests (too few runs).
+\begin{tabular}{llllll}
+\toprule
+ & depth-k & \# params & \# runs & CIFAR-10 & CIFAR-100 \\
+\midrule
+original-ResNet (He et al., 2015) & 110 1202 & 1.7M 10.2M & mean of 5 mean of 5 & 6.43 7.93 & 25.16 27.82 \\
+stoc-depth (Huang et al., 2016c) & 110 1202 & 1.7M 10.2M & 1 run 1 run & 5.23 4.91 & 24.58 n/a \\
+pre-act-ResNet (He et al., 2016) & 110 164 1001 & 1.7M 1.7M 10.2M & med. of 5 med. of 5 med. of 5 & 6.37 5.46 4.62 & n/a 24.33 22.71 \\
+WRN (Zagoruyko \& Komodakis, 2016) with dropout & 16-8 28-10 28-10 & 11.0M 36.5M 36.5M & 1 run 1 run 1 run & 4.81 4.17 n/a & 22.07 20.50 20.04 \\
+WRN (ours) default with η = 0.1 0 default with η = 0.05 0 T = 50, T = 1 0 mult T = 100, T = 1 0 mult T = 200, T = 1 0 mult T = 1, T = 2 0 mult T = 10, T = 2 0 mult & 28-10 28-10 28-10 28-10 28-10 28-10 28-10 & 36.5M 36.5M 36.5M 36.5M 36.5M 36.5M 36.5M & med. of 5 med. of 5 med. of 5 med. of 5 med. of 5 med. of 5 med. of 5 & 4.24 4.13 4.17 4.07 3.86 4.09 4.03 & 20.33 20.21 19.99 19.87 19.98 19.74 19.58 \\
+default with η = 0.1 0 default with η = 0.05 0 T = 50, T = 1 0 mult T = 100, T = 1 0 mult T = 200, T = 1 0 mult T = 1, T = 2 0 mult T = 10, T = 2 0 mult & 28-20 28-20 28-20 28-20 28-20 28-20 28-20 & 145.8M 145.8M 145.8M 145.8M 145.8M 145.8M 145.8M & med. of 2 med. of 2 med. of 2 med. of 2 med. of 2 med. of 2 med. of 2 & 4.08 3.96 4.01 3.77 3.66 3.91 3.74 & 19.53 19.67 19.28 19.24 19.69 18.90 18.70 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,465 @@
+{
+  "paper": "FSTA_SNN_Frequency_Based_Spatial_Temporal_Attention_Module_for_Spiking_Local_reference_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 9,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure1:Comparisonoftheoutputspikefrequencyspec- trum distribution of SNNs across different model structures, datasets,layerdepths,andtemporalperspectives.(a)The spectral distribution of spike outputs at different layers of the ResNetarchitectureatthesametimestepinstaticdataset. (b) The spectral distribution of spike outputs at different lay- ersoftheResNetarchitectureatthesametimestepindy- namic dataset. (c) The spectral distribution of spike outputs at different layers of the VGG architecture at the same time stepinstaticdataset.(d)Thetemporalvariationofthefre- quencybandswherespectralenergyismostconcentrated acrossdifferentlayers.Here,Amp,Freq,andTrepresent amplitude, frequency range and timesteps.",
+      "caption_en": "Figure1:Comparisonoftheoutputspikefrequencyspec- trum distribution of SNNs across different model structures, datasets,layerdepths,andtemporalperspectives.(a)The spectral distribution of spike outputs at different layers of the ResNetarchitectureatthesametimestepinstaticdataset. (b) The spectral distribution of spike outputs at different lay- ersoftheResNetarchitectureatthesametimestepindy- namic dataset. (c) The spectral distribution of spike outputs at different layers of the VGG architecture at the same time stepinstaticdataset.(d)Thetemporalvariationofthefre- quencybandswherespectralenergyismostconcentrated acrossdifferentlayers.Here,Amp,Freq,andTrepresent amplitude, frequency range and timesteps.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        319.248,
+        558.005,
+        460.717
+      ],
+      "content_bbox": [
+        320.179,
+        216.174,
+        558.675,
+        307.596
+      ],
+      "crop_bbox": [
+        320.179,
+        216.174,
+        558.675,
+        307.596
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.18 in\n\n形状统计 (137 个):\n  FREEFORM (5)                 111\n  TEXT_BOX (17)                16\n  PICTURE (13)                 10\n\n矢量形状: 127\n位图图片: 10\n  7.0% 画面  (2.34 x 2.08 in)\n  6.6% 画面  (2.19 x 2.08 in)\n  7.0% 画面  (2.34 x 2.08 in)\n  7.0% 画面  (2.34 x 2.07 in)\n  6.5% 画面  (2.15 x 2.07 in)\n  7.0% 画面  (2.34 x 2.07 in)\n  7.1% 画面  (2.28 x 2.15 in)\n  6.7% 画面  (2.34 x 1.98 in)\n  6.7% 画面  (2.34 x 1.98 in)\n  7.0% 画面  (2.34 x 2.08 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2: Overview of the FSTA module and its internal submodules structure",
+      "caption_en": "Figure 2: Overview of the FSTA module and its internal submodules structure",
+      "caption_zh": "",
+      "caption_bbox": [
+        150.734,
+        194.451,
+        461.268,
+        204.414
+      ],
+      "content_bbox": [
+        58.388,
+        53.798,
+        554.99,
+        182.81
+      ],
+      "crop_bbox": [
+        58.388,
+        53.798,
+        554.99,
+        182.81
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.55 in\n\n形状统计 (437 个):\n  FREEFORM (5)                 334\n  TEXT_BOX (17)                94\n  PICTURE (13)                 9\n\n矢量形状: 428\n位图图片: 9\n  0.1% 画面  (0.13 x 0.43 in)\n  0.7% 画面  (0.89 x 0.39 in)\n  0.7% 画面  (0.89 x 0.39 in)\n  0.2% 画面  (0.33 x 0.33 in)\n  0.2% 画面  (0.33 x 0.33 in)\n  0.3% 画面  (0.35 x 0.35 in)\n  0.2% 画面  (0.33 x 0.34 in)\n  0.3% 画面  (0.35 x 0.35 in)\n  0.2% 画面  (0.32 x 0.32 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table 1: Comparison with SOTA methods on CIFAR-10/100",
+      "caption_en": "Table 1: Comparison with SOTA methods on CIFAR-10/100",
+      "caption_zh": "",
+      "caption_bbox": [
+        185.249,
+        549.179,
+        426.752,
+        559.142
+      ],
+      "content_bbox": [
+        54.0,
+        582.125,
+        558.0,
+        642.86
+      ],
+      "crop_bbox": [
+        54.0,
+        582.125,
+        558.0,
+        642.86
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 5,
+      "caption": "Figure 3: The different combinations of modules",
+      "caption_en": "Figure 3: The different combinations of modules",
+      "caption_zh": "",
+      "caption_bbox": [
+        341.75,
+        133.705,
+        535.752,
+        143.668
+      ],
+      "content_bbox": [
+        339.395,
+        53.602,
+        538.771,
+        122.838
+      ],
+      "crop_bbox": [
+        339.395,
+        53.602,
+        538.771,
+        122.838
+      ],
+      "original": "figures/original/Fig3_p005.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.70 in\n\n形状统计 (103 个):\n  FREEFORM (5)                 55\n  TEXT_BOX (17)                48\n\n矢量形状: 103\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table 2: Comparison with SNN training based SOTA meth- ods on ImageNet",
+      "caption_en": "Table 2: Comparison with SNN training based SOTA meth- ods on ImageNet",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        231.969,
+        292.505,
+        252.891
+      ],
+      "content_bbox": [
+        55.481,
+        265.3,
+        291.02,
+        381.386
+      ],
+      "crop_bbox": [
+        55.481,
+        265.3,
+        291.02,
+        381.386
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 5,
+      "caption": "Table 3: Comparison with SNN training based SOTA meth- ods on CIFAR10-DVS",
+      "caption_en": "Table 3: Comparison with SNN training based SOTA meth- ods on CIFAR10-DVS",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        391.862,
+        292.505,
+        412.784
+      ],
+      "content_bbox": [
+        71.414,
+        339.196,
+        286.045,
+        378.368
+      ],
+      "crop_bbox": [
+        71.414,
+        339.196,
+        286.045,
+        378.368
+      ],
+      "original": "tables/original/Table3_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 5,
+      "caption": "Table 4: Comparative analysis of the computational perfor- mance of different combination methods",
+      "caption_en": "Table 4: Comparative analysis of the computational perfor- mance of different combination methods",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        214.158,
+        558.005,
+        235.08
+      ],
+      "content_bbox": [
+        344.464,
+        86.473,
+        438.246,
+        117.778
+      ],
+      "crop_bbox": [
+        344.464,
+        86.473,
+        438.246,
+        117.778
+      ],
+      "original": "tables/original/Table4_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Figure4:Comparisonofspikefiringratesatvariouslay- ers between FSTA-SNN and vanilla SNN. The legend repre- sents the average firing rate of the entire network.",
+      "caption_en": "Figure4:Comparisonofspikefiringratesatvariouslay- ers between FSTA-SNN and vanilla SNN. The legend repre- sents the average firing rate of the entire network.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        364.189,
+        292.505,
+        396.069
+      ],
+      "content_bbox": [
+        54.0,
+        54.399,
+        558.005,
+        354.111
+      ],
+      "crop_bbox": [
+        54.0,
+        54.399,
+        558.005,
+        354.111
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.97 in\n\n形状统计 (56 个):\n  TEXT_BOX (17)                23\n  FREEFORM (5)                 20\n  PICTURE (13)                 13\n\n矢量形状: 43\n位图图片: 13\n  14.6% 画面  (5.01 x 3.11 in)\n  0.8% 画面  (0.96 x 0.91 in)\n  0.8% 画面  (0.96 x 0.90 in)\n  0.8% 画面  (0.89 x 0.91 in)\n  0.7% 画面  (0.89 x 0.89 in)\n  0.8% 画面  (0.91 x 0.90 in)\n  0.7% 画面  (0.89 x 0.89 in)\n  0.8% 画面  (0.96 x 0.90 in)\n  0.8% 画面  (0.96 x 0.92 in)\n  0.8% 画面  (0.89 x 0.91 in)\n  ... 共 13 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure 5: Visualization of the FSTA-SNN and vanilla SNN analysis. (a) Distribution of energy accumulation across fre- quencybandsinthetimedimension;(b)Contourplotsof the averaged temporal frequency spectrum energy; (c) Grad- CAM visualization for the same sample.",
+      "caption_en": "Figure 5: Visualization of the FSTA-SNN and vanilla SNN analysis. (a) Distribution of energy accumulation across fre- quencybandsinthetimedimension;(b)Contourplotsof the averaged temporal frequency spectrum energy; (c) Grad- CAM visualization for the same sample.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        249.722,
+        558.005,
+        303.521
+      ],
+      "content_bbox": [
+        54.0,
+        54.399,
+        556.447,
+        238.66
+      ],
+      "crop_bbox": [
+        54.0,
+        54.399,
+        556.447,
+        238.66
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.96 in\n\n形状统计 (54 个):\n  TEXT_BOX (17)                22\n  FREEFORM (5)                 20\n  PICTURE (13)                 12\n\n矢量形状: 42\n位图图片: 12\n  1.3% 画面  (0.97 x 0.91 in)\n  1.3% 画面  (0.97 x 0.90 in)\n  1.2% 画面  (0.89 x 0.91 in)\n  1.2% 画面  (0.89 x 0.89 in)\n  1.2% 画面  (0.91 x 0.91 in)\n  1.2% 画面  (0.89 x 0.89 in)\n  1.3% 画面  (0.96 x 0.91 in)\n  1.3% 画面  (0.96 x 0.92 in)\n  1.2% 画面  (0.90 x 0.91 in)\n  1.1% 画面  (0.86 x 0.87 in)\n  ... 共 12 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 6,
+      "caption": "Table 5: Energy costs and model structure across different datasets",
+      "caption_en": "Table 5: Energy costs and model structure across different datasets",
+      "caption_zh": "",
+      "caption_bbox": [
+        173.394,
+        110.425,
+        438.608,
+        120.388
+      ],
+      "content_bbox": [
+        71.222,
+        141.657,
+        520.457,
+        190.724
+      ],
+      "crop_bbox": [
+        71.222,
+        141.657,
+        520.457,
+        190.724
+      ],
+      "original": "tables/original/Table5_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 6,
+      "caption": "Table6:Performancecomparisonofdifferentfrequency ranges using ResNet20 structure on CIFAR-10",
+      "caption_en": "Table6:Performancecomparisonofdifferentfrequency ranges using ResNet20 structure on CIFAR-10",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        202.222,
+        292.505,
+        223.144
+      ],
+      "content_bbox": [
+        77.85,
+        235.698,
+        268.667,
+        354.111
+      ],
+      "crop_bbox": [
+        77.85,
+        235.698,
+        268.667,
+        354.111
+      ],
+      "original": "tables/original/Table6_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "FSTA_SNN_Frequency_Based_Spatial_Temporal_Attention_Module_for_Spiking_Local_reference_2025",
+    "title": "FSTA-SNN:Frequency-Based Spatial-Temporal Attention Module for Spiking Neural Networks",
+    "venue": "arXiv",
+    "venue_full": "arXiv",
+    "venue_short": "arXiv",
+    "venue_type": "期刊",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "863e1c3e403b277b69e381c49012e1cadd3752698d90c1f0269138cb982e659d",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\KVSMQ3A4\\Yu 等 - 2025 - FSTA-SNNFrequency-based spatial-temporal attention module for spiking neural networks.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "",
+    "cas_display": "",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    }
+  ]
+}

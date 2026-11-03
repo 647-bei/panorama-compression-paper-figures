@@ -1,0 +1,406 @@
+{
+  "paper": "Low_Complexity_Super_Resolution_for_ICASSP_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 5,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig. 1.Network structure of proposed super resolution model. The red number indicates the number of channels. In this paper, we assume that the input video sequenceisinYUV420format.Consequently,thechromacomponentsoftheinputlow-resolutionreconstructionrecUV LRisupsampledbynearestneighbour methodtothesameresolutionoflumacomponentsrecY LRbeforebeingfedintothenetwork.TheRPRupsamplingdenotesupsamplingwithRPRfilter whichisanon-CNNfilter.",
+      "caption_en": "Fig. 1.Network structure of proposed super resolution model. The red number indicates the number of channels. In this paper, we assume that the input video sequenceisinYUV420format.Consequently,thechromacomponentsoftheinputlow-resolutionreconstructionrecUV LRisupsampledbynearestneighbour methodtothesameresolutionoflumacomponentsrecY LRbeforebeingfedintothenetwork.TheRPRupsamplingdenotesupsamplingwithRPRfilter whichisanon-CNNfilter.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        286.278,
+        563.035,
+        321.785
+      ],
+      "content_bbox": [
+        100.37,
+        50.542,
+        511.53,
+        274.294
+      ],
+      "crop_bbox": [
+        100.37,
+        50.542,
+        511.53,
+        274.294
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.30 in\n\n形状统计 (286 个):\n  FREEFORM (5)                 148\n  TEXT_BOX (17)                136\n  PICTURE (13)                 2\n\n矢量形状: 284\n位图图片: 2\n  0.0% 画面  (0.19 x 0.07 in)\n  0.0% 画面  (0.23 x 0.07 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 1,
+      "caption": "Fig.2.Networkstructureoflowcomplexitybackboneblock.ThesepCONV denotesdepth-wiseconvolutionandtherednumberpresentsthenumberof channels.Inthispaper,C1andCare64and16,respectively.",
+      "caption_en": "Fig.2.Networkstructureoflowcomplexitybackboneblock.ThesepCONV denotesdepth-wiseconvolutionandtherednumberpresentsthenumberof channels.Inthispaper,C1andCare64and16,respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        416.328,
+        300.022,
+        442.718
+      ],
+      "content_bbox": [
+        61.518,
+        342.087,
+        287.422,
+        404.366
+      ],
+      "crop_bbox": [
+        61.518,
+        342.087,
+        287.422,
+        404.366
+      ],
+      "original": "figures/original/Fig2_p001.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.76 in\n\n形状统计 (59 个):\n  TEXT_BOX (17)                32\n  FREEFORM (5)                 27\n\n矢量形状: 59\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 2,
+      "caption": "Fig.3.Complexitycomparisonforbackboneblock.",
+      "caption_en": "Fig.3.Complexitycomparisonforbackboneblock.",
+      "caption_zh": "",
+      "caption_bbox": [
+        351.318,
+        214.984,
+        523.695,
+        222.954
+      ],
+      "content_bbox": [
+        329.499,
+        50.542,
+        544.207,
+        203.294
+      ],
+      "crop_bbox": [
+        329.499,
+        50.542,
+        544.207,
+        203.294
+      ],
+      "original": "figures/original/Fig3_p002.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.52 in\n\n形状统计 (38 个):\n  FREEFORM (5)                 23\n  TEXT_BOX (17)                15\n\n矢量形状: 38\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 2,
+      "caption": "Fig.4.Rate-distortioncurvesoftestedvideosequences.",
+      "caption_en": "Fig.4.Rate-distortioncurvesoftestedvideosequences.",
+      "caption_zh": "",
+      "caption_bbox": [
+        344.174,
+        354.533,
+        530.842,
+        362.503
+      ],
+      "content_bbox": [
+        324.531,
+        214.984,
+        550.407,
+        342.561
+      ],
+      "crop_bbox": [
+        324.531,
+        214.984,
+        550.407,
+        342.561
+      ],
+      "original": "figures/original/Fig4_p002.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  75.5% 画面  (10.00 x 5.66 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5178902 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 2,
+      "caption": "TABLEI PERFORMANCEOFTHEPROPOSEDSCHEMEUNDER RACONFIGURATION COMPAREDWITH VTM-11.0.",
+      "caption_en": "TABLEI PERFORMANCEOFTHEPROPOSEDSCHEMEUNDER RACONFIGURATION COMPAREDWITH VTM-11.0.",
+      "caption_zh": "",
+      "caption_bbox": [
+        52.333,
+        52.866,
+        296.657,
+        78.769
+      ],
+      "content_bbox": [
+        53.936,
+        87.603,
+        295.05,
+        189.62
+      ],
+      "crop_bbox": [
+        53.936,
+        87.603,
+        295.05,
+        189.62
+      ],
+      "original": "tables/original/Table1_p002.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 2,
+      "caption": "TABLEII PERFORMANCEOFTHEPROPOSEDSCHEMEUNDER AICONFIGURATION COMPAREDWITH VTM-11.0.",
+      "caption_en": "TABLEII PERFORMANCEOFTHEPROPOSEDSCHEMEUNDER AICONFIGURATION COMPAREDWITH VTM-11.0.",
+      "caption_zh": "",
+      "caption_bbox": [
+        53.664,
+        213.02,
+        295.326,
+        238.922
+      ],
+      "content_bbox": [
+        53.936,
+        87.603,
+        295.05,
+        189.62
+      ],
+      "crop_bbox": [
+        53.936,
+        87.603,
+        295.05,
+        189.62
+      ],
+      "original": "tables/original/Table2_p002.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 3,
+      "caption": "Fig.5.Thecomparisonofsubjectivequality.Figuresbestviewedincolor.",
+      "caption_en": "Fig.5.Thecomparisonofsubjectivequality.Figuresbestviewedincolor.",
+      "caption_zh": "",
+      "caption_bbox": [
+        182.193,
+        164.205,
+        429.808,
+        172.175
+      ],
+      "content_bbox": [
+        82.38,
+        50.542,
+        529.61,
+        152.29
+      ],
+      "crop_bbox": [
+        82.38,
+        50.542,
+        529.61,
+        152.29
+      ],
+      "original": "figures/original/Fig5_p003.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  30.4% 画面  (10.00 x 2.28 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 3,
+      "caption": "TABLEIII PERFORMANCECOMPARISONWITHEXISTINGMETHODS.",
+      "caption_en": "TABLEIII PERFORMANCECOMPARISONWITHEXISTINGMETHODS.",
+      "caption_zh": "",
+      "caption_bbox": [
+        78.598,
+        196.416,
+        270.389,
+        213.352
+      ],
+      "content_bbox": [
+        59.971,
+        222.385,
+        286.226,
+        284.9
+      ],
+      "crop_bbox": [
+        59.971,
+        222.385,
+        286.226,
+        284.9
+      ],
+      "original": "tables/original/Table3_p003.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 3,
+      "caption": "TABLEIV ABLATIONSTUDYONEACHINPUT.",
+      "caption_en": "TABLEIV ABLATIONSTUDYONEACHINPUT.",
+      "caption_zh": "",
+      "caption_bbox": [
+        378.565,
+        196.415,
+        496.449,
+        213.352
+      ],
+      "content_bbox": [
+        340.918,
+        225.663,
+        530.958,
+        299.822
+      ],
+      "crop_bbox": [
+        340.918,
+        225.663,
+        530.958,
+        299.822
+      ],
+      "original": "tables/original/Table4_p003.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Low_Complexity_Super_Resolution_for_ICASSP_2025",
+    "title": "Resampling-based Video Coding Chaoyi Lin Yue Li Junru Li Kai Zhang Li Zhang Multimedia Lab Bytedance Inc.",
+    "venue": "ICASSP",
+    "venue_full": "ICASSP",
+    "venue_short": "ICASSP",
+    "venue_type": "会议",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://doi.org/10.1109/ICASSP49660.2025.10888826",
+    "pdf_url": "https://doi.org/10.1109/ICASSP49660.2025.10888826",
+    "access": "local_pdf",
+    "source_sha256": "de436c51400bb18026e8dfe59c219694f0bb3b37f35928ca81f9e078867daec5",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\J4MSMUPX\\ICASSP 2025用于基于重采样的视频编码的低复杂度超分辨率.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\Z6YYJ58T\\ICASSP 2025用于基于重采样的视频编码的低复杂度超分辨率.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "CCF会议 B类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 B类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    }
+  ]
+}

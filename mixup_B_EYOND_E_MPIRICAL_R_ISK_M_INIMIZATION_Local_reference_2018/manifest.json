@@ -1,0 +1,435 @@
+{
+  "paper": "mixup_B_EYOND_E_MPIRICAL_R_ISK_M_INIMIZATION_Local_reference_2018",
+  "pdf": "pdf/paper.pdf",
+  "pages": 13,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Figure 1:Illustration of mixup, which converges to ERM as α →0.",
+      "caption_en": "Figure 1:Illustration of mixup, which converges to ERM as α →0.",
+      "caption_zh": "",
+      "caption_bbox": [
+        171.421,
+        217.812,
+        440.579,
+        236.581
+      ],
+      "content_bbox": [
+        108.0,
+        39.154,
+        505.894,
+        212.9
+      ],
+      "crop_bbox": [
+        108.0,
+        39.154,
+        505.894,
+        212.9
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.89 in\n\n形状统计 (1461 个):\n  FREEFORM (5)                 1434\n  TEXT_BOX (17)                25\n  PICTURE (13)                 2\n\n矢量形状: 1459\n位图图片: 2\n  5.3% 画面  (2.05 x 2.05 in)\n  5.3% 画面  (2.05 x 2.05 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Figure 2:mixup leads to more robust model behaviors in-between the training data.",
+      "caption_en": "Figure 2:mixup leads to more robust model behaviors in-between the training data.",
+      "caption_zh": "",
+      "caption_bbox": [
+        140.019,
+        237.836,
+        471.982,
+        249.84
+      ],
+      "content_bbox": [
+        108.0,
+        39.154,
+        504.0,
+        183.579
+      ],
+      "crop_bbox": [
+        108.0,
+        39.154,
+        504.0,
+        183.579
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.93 in\n\n形状统计 (111 个):\n  TEXT_BOX (17)                64\n  FREEFORM (5)                 47\n\n矢量形状: 111\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 3,
+      "caption": "Table 1:Validation errors for ERM and mixup on the development set of ImageNet-2012.",
+      "caption_en": "Table 1:Validation errors for ERM and mixup on the development set of ImageNet-2012.",
+      "caption_zh": "",
+      "caption_bbox": [
+        127.68,
+        487.98,
+        484.012,
+        499.984
+      ],
+      "content_bbox": [
+        128.407,
+        373.225,
+        483.594,
+        476.44
+      ],
+      "crop_bbox": [
+        128.407,
+        373.225,
+        483.594,
+        476.44
+      ],
+      "original": "tables/original/Table1_p003.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Figure 3:Test errors for ERM and mixup on the CIFAR experiments.",
+      "caption_en": "Figure 3:Test errors for ERM and mixup on the CIFAR experiments.",
+      "caption_zh": "",
+      "caption_bbox": [
+        168.417,
+        214.172,
+        443.583,
+        226.176
+      ],
+      "content_bbox": [
+        108.0,
+        39.154,
+        504.0,
+        205.275
+      ],
+      "crop_bbox": [
+        108.0,
+        39.154,
+        504.0,
+        205.275
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.65 in\n\n形状统计 (91 个):\n  TEXT_BOX (17)                64\n  FREEFORM (5)                 27\n\n矢量形状: 91\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 5,
+      "caption": "Figure 4:Classiﬁcation errors of ERM and mixup on the Google commands dataset.",
+      "caption_en": "Figure 4:Classiﬁcation errors of ERM and mixup on the Google commands dataset.",
+      "caption_zh": "",
+      "caption_bbox": [
+        138.43,
+        183.105,
+        473.57,
+        195.109
+      ],
+      "content_bbox": [
+        108.0,
+        39.154,
+        504.0,
+        174.278
+      ],
+      "crop_bbox": [
+        108.0,
+        39.154,
+        504.0,
+        174.278
+      ],
+      "original": "figures/original/Fig4_p005.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.62 in\n\n形状统计 (59 个):\n  TEXT_BOX (17)                54\n  FREEFORM (5)                 5\n\n矢量形状: 59\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table 2:Results on the corrupted label experiments for the best models.",
+      "caption_en": "Table 2:Results on the corrupted label experiments for the best models.",
+      "caption_zh": "",
+      "caption_bbox": [
+        162.689,
+        270.917,
+        449.004,
+        282.922
+      ],
+      "content_bbox": [
+        129.845,
+        305.867,
+        484.049,
+        395.164
+      ],
+      "crop_bbox": [
+        129.845,
+        305.867,
+        484.049,
+        395.164
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table 3:Classiﬁcation errors of ERM and mixup models when tested on adversarial examples.",
+      "caption_en": "Table 3:Classiﬁcation errors of ERM and mixup models when tested on adversarial examples.",
+      "caption_zh": "",
+      "caption_bbox": [
+        117.942,
+        404.062,
+        493.75,
+        416.066
+      ],
+      "content_bbox": [
+        123.676,
+        231.044,
+        484.049,
+        395.164
+      ],
+      "crop_bbox": [
+        123.676,
+        231.044,
+        484.049,
+        395.164
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 7,
+      "caption": "Figure 5:Effect of mixup on stabilizing GAN training at iterations 10, 100, 1000, 10000, and 20000.",
+      "caption_en": "Figure 5:Effect of mixup on stabilizing GAN training at iterations 10, 100, 1000, 10000, and 20000.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        289.429,
+        503.998,
+        301.434
+      ],
+      "content_bbox": [
+        110.434,
+        178.768,
+        501.571,
+        275.63
+      ],
+      "crop_bbox": [
+        110.434,
+        178.768,
+        501.571,
+        275.63
+      ],
+      "original": "figures/original/Fig5_p007.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  33.0% 画面  (10.00 x 2.48 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "Table 4:ERM and mixup classiﬁcation errors on the UCI datasets.",
+      "caption_en": "Table 4:ERM and mixup classiﬁcation errors on the UCI datasets.",
+      "caption_zh": "",
+      "caption_bbox": [
+        173.822,
+        150.207,
+        437.87,
+        162.211
+      ],
+      "content_bbox": [
+        110.434,
+        178.768,
+        501.571,
+        275.63
+      ],
+      "crop_bbox": [
+        110.434,
+        178.768,
+        501.571,
+        275.63
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 8,
+      "caption": "Table 5:Results of the ablation studies on the CIFAR-10 dataset.Reported are the median test errors of the last 10 epochs.A tick (\u0013) means the component is different from standard ERM training, whereas a cross (\u0017) means it follows the standard training practice.AC: mix between all classes.SC: mix within the same class.RP: mix between random pairs.KNN: mix between k-nearest neighbors (k=200).Please refer to the text for details about the experiments and interpretations.",
+      "caption_en": "Table 5:Results of the ablation studies on the CIFAR-10 dataset.Reported are the median test errors of the last 10 epochs.A tick (\u0013) means the component is different from standard ERM training, whereas a cross (\u0017) means it follows the standard training practice.AC: mix between all classes.SC: mix within the same class.RP: mix between random pairs.KNN: mix between k-nearest neighbors (k=200).Please refer to the text for details about the experiments and interpretations.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.641,
+        400.514,
+        505.387,
+        456.354
+      ],
+      "content_bbox": [
+        109.097,
+        218.105,
+        502.903,
+        391.687
+      ],
+      "crop_bbox": [
+        109.097,
+        218.105,
+        502.903,
+        391.687
+      ],
+      "original": "tables/original/Table5_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "mixup_B_EYOND_E_MPIRICAL_R_ISK_M_INIMIZATION_Local_reference_2018",
+    "title": "MIT FAIR A BSTRACT Large deep neural networks are powerful, but exhibit undesirable behaviors such as memorization and sensitivity to adversarial examples. In this work, we propose",
+    "venue": "ICLR",
+    "venue_full": "ICLR",
+    "venue_short": "ICLR",
+    "venue_type": "会议",
+    "year": 2018,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "8ef56cb4e17af98b871e279d9bf602f4ff13a5ff96fcb70cc2aa29556ea1439e",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\SXW4STMR\\Zhang 等 - 2018 - mixup Beyond empirical risk minimization.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "CCF会议 B类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 B类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    }
+  ]
+}

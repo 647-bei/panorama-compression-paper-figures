@@ -1,0 +1,908 @@
+{
+  "paper": "Joint_multi_dimensional_dynamic_attention_and_Local_reference_0",
+  "pdf": "pdf/paper.pdf",
+  "pages": 16,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Fig.1. Theperformance/latencycomparisonsamongourmethodandthe representativestate-of-the-artmethodsonsixdatasetsacrossfiveimage restorationtasks.",
+      "caption_en": "Fig.1. Theperformance/latencycomparisonsamongourmethodandthe representativestate-of-the-artmethodsonsixdatasetsacrossfiveimage restorationtasks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        319.542,
+        563.036,
+        345.445
+      ],
+      "content_bbox": [
+        312.027,
+        187.462,
+        563.237,
+        318.087
+      ],
+      "crop_bbox": [
+        312.027,
+        187.462,
+        563.237,
+        318.087
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 1,
+      "caption": "Fig.2.U-shapedimagerestorationarchitectures.C,T,andHdenoteCNN, Transformer,andHybridblock(CNN+Transformer)respectively.(a∼e) ThecommonU-shapedimageRestorationarchitectures.(f)OurMDDA- formeradoptsCNNinencoder-decoderandembedsTransformerintolatent tobalancethecomplexityandtheperformance.(g)Theperformance/FLOPs comparisonsamongourmethodandtheotherarchitectureswithinthesame framework,asdetailedinTab.XVIII.",
+      "caption_en": "Fig.2.U-shapedimagerestorationarchitectures.C,T,andHdenoteCNN, Transformer,andHybridblock(CNN+Transformer)respectively.(a∼e) ThecommonU-shapedimageRestorationarchitectures.(f)OurMDDA- formeradoptsCNNinencoder-decoderandembedsTransformerintolatent tobalancethecomplexityandtheperformance.(g)Theperformance/FLOPs comparisonsamongourmethodandtheotherarchitectureswithinthesame framework,asdetailedinTab.XVIII.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        690.876,
+        563.036,
+        752.644
+      ],
+      "content_bbox": [
+        315.476,
+        502.476,
+        564.108,
+        686.87
+      ],
+      "crop_bbox": [
+        315.476,
+        502.476,
+        564.108,
+        686.87
+      ],
+      "original": "figures/original/Fig2_p001.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Fig.3.ThetoppartistheproposedframeworkofMDDA-former.Fortheencoder-decoder,itconsistsofCNN-basedMulti-dimensionalDynamicAttention Block(MDAB).EffectiveTransformerBlock(ETB)isembeddedintothelatentlayer.ThemiddlepartisadetaileddescriptionofMDABandETB.",
+      "caption_en": "Fig.3.ThetoppartistheproposedframeworkofMDDA-former.Fortheencoder-decoder,itconsistsofCNN-basedMulti-dimensionalDynamicAttention Block(MDAB).EffectiveTransformerBlock(ETB)isembeddedintothelatentlayer.ThemiddlepartisadetaileddescriptionofMDABandETB.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        341.102,
+        563.036,
+        358.038
+      ],
+      "content_bbox": [
+        53.477,
+        60.144,
+        559.294,
+        334.752
+      ],
+      "crop_bbox": [
+        53.477,
+        60.144,
+        559.294,
+        334.752
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 3,
+      "caption": "Fig.4.ComparisonofconventionalconvolutionandMDConv.(a)schematic ofconventionalconvolution,Wdenotesstaticconvolutionalkernelsofa group of filters, (b) schematic of MDConv, Wdrepresents the adjusted weight Wbymultiplyingthelearnedαs,αc,andαfalongspatial-wise,channel- wise,andfilter-wisedimensionsofW. TABLEI CLASSIFICATIONOFATTENTIONTYPESANDPROPERTIESOFSEVERAL DYNAMICCONVOLUTIONS.",
+      "caption_en": "Fig.4.ComparisonofconventionalconvolutionandMDConv.(a)schematic ofconventionalconvolution,Wdenotesstaticconvolutionalkernelsofa group of filters, (b) schematic of MDConv, Wdrepresents the adjusted weight Wbymultiplyingthelearnedαs,αc,andαfalongspatial-wise,channel- wise,andfilter-wisedimensionsofW. TABLEI CLASSIFICATIONOFATTENTIONTYPESANDPROPERTIESOFSEVERAL DYNAMICCONVOLUTIONS.",
+      "caption_zh": "",
+      "caption_bbox": [
+        56.354,
+        610.546,
+        563.039,
+        654.382
+      ],
+      "content_bbox": [
+        0.0,
+        50.638,
+        612.0,
+        610.958
+      ],
+      "crop_bbox": [
+        0.0,
+        50.638,
+        612.0,
+        610.958
+      ],
+      "original": "figures/original/Fig4_p003.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Fig.5.VisualcomparisonsonsyntheticrainyimagessampledfromRain100L[18]dataset.Zoom-inforbestview.",
+      "caption_en": "Fig.5.VisualcomparisonsonsyntheticrainyimagessampledfromRain100L[18]dataset.Zoom-inforbestview.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        187.512,
+        432.993,
+        195.555
+      ],
+      "content_bbox": [
+        52.091,
+        58.995,
+        560.847,
+        185.615
+      ],
+      "crop_bbox": [
+        52.091,
+        58.995,
+        560.847,
+        185.615
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 5,
+      "caption": "Fig. 6.Visual comparisons on Raindrop [51] dataset. Zoom-in for best view.",
+      "caption_en": "Fig. 6.Visual comparisons on Raindrop [51] dataset. Zoom-in for best view.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        349.608,
+        563.036,
+        357.651
+      ],
+      "content_bbox": [
+        0.0,
+        0.0,
+        612.0,
+        349.608
+      ],
+      "crop_bbox": [
+        0.0,
+        0.0,
+        612.0,
+        349.608
+      ],
+      "original": "figures/original/Fig6_p005.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "TABLEII DATASETSUMMARYONFIVEIMAGERESTORATIONTASKS.",
+      "caption_en": "TABLEII DATASETSUMMARYONFIVEIMAGERESTORATIONTASKS.",
+      "caption_zh": "",
+      "caption_bbox": [
+        75.545,
+        202.86,
+        273.44,
+        219.796
+      ],
+      "content_bbox": [
+        54.664,
+        228.709,
+        294.324,
+        481.005
+      ],
+      "crop_bbox": [
+        54.664,
+        228.709,
+        294.324,
+        481.005
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 6,
+      "caption": "Fig.7.VisualcomparisonsonGoPro[52]dataset.Zoom-inforbestview.",
+      "caption_en": "Fig.7.VisualcomparisonsonGoPro[52]dataset.Zoom-inforbestview.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        315.179,
+        298.3,
+        323.222
+      ],
+      "content_bbox": [
+        48.964,
+        77.497,
+        563.075,
+        309.192
+      ],
+      "crop_bbox": [
+        48.964,
+        77.497,
+        563.075,
+        309.192
+      ],
+      "original": "figures/original/Fig7_p006.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 6,
+      "caption": "Fig.8.VisualcomparisonsonRealBlur-J[54]dataset.Zoom-inforbestview.",
+      "caption_en": "Fig.8.VisualcomparisonsonRealBlur-J[54]dataset.Zoom-inforbestview.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        525.016,
+        311.864,
+        533.059
+      ],
+      "content_bbox": [
+        0.0,
+        83.233,
+        612.0,
+        519.359
+      ],
+      "crop_bbox": [
+        0.0,
+        83.233,
+        612.0,
+        519.359
+      ],
+      "original": "figures/original/Fig8_p006.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "TABLEIII IMAGEDERAININGRESULTSON RAIN13KDATASET. ⋄DENOTESTASK-SPECIFICMETHOD,WHILE ⋄INDICATESGENERALRESTORATIONMETHOD.",
+      "caption_en": "TABLEIII IMAGEDERAININGRESULTSON RAIN13KDATASET. ⋄DENOTESTASK-SPECIFICMETHOD,WHILE ⋄INDICATESGENERALRESTORATIONMETHOD.",
+      "caption_zh": "",
+      "caption_bbox": [
+        60.665,
+        58.394,
+        551.335,
+        75.331
+      ],
+      "content_bbox": [
+        48.964,
+        83.115,
+        560.659,
+        214.047
+      ],
+      "crop_bbox": [
+        48.964,
+        83.115,
+        560.659,
+        214.047
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 6,
+      "caption": "TABLEIV RAINDROPREMOVALRESULTSON RAINDROP [51]DATASET.",
+      "caption_en": "TABLEIV RAINDROPREMOVALRESULTSON RAINDROP [51]DATASET.",
+      "caption_zh": "",
+      "caption_bbox": [
+        72.23,
+        537.375,
+        276.757,
+        554.311
+      ],
+      "content_bbox": [
+        48.964,
+        561.538,
+        299.764,
+        630.995
+      ],
+      "crop_bbox": [
+        48.964,
+        561.538,
+        299.764,
+        630.995
+      ],
+      "original": "tables/original/Table4_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 7,
+      "caption": "Fig.9. Visualcomparisonsonreal-worldnoisyimages.Toprow:imagesampledfromDND[56]dataset.Bottomrow:imagesampledfromSIDD[55] dataset.Zoom-inforbestview.",
+      "caption_en": "Fig.9. Visualcomparisonsonreal-worldnoisyimages.Toprow:imagesampledfromDND[56]dataset.Bottomrow:imagesampledfromSIDD[55] dataset.Zoom-inforbestview.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        545.096,
+        563.036,
+        562.032
+      ],
+      "content_bbox": [
+        48.964,
+        285.339,
+        563.048,
+        533.089
+      ],
+      "crop_bbox": [
+        48.964,
+        285.339,
+        563.048,
+        533.089
+      ],
+      "original": "figures/original/Fig9_p007.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 7,
+      "caption": "TABLEV IMAGEDEBLURRINGRESULTS.OURMETHODISTRAINEDON GOPRO [52]DATASETANDDIRECTLYEVALUATEDON HIDE [53]AND REALBLUR [54] DATASET. ⋄DENOTESTASK-SPECIFICMETHOD,WHILE ⋄INDICATESGENERALRESTORATIONMETHOD.",
+      "caption_en": "TABLEV IMAGEDEBLURRINGRESULTS.OURMETHODISTRAINEDON GOPRO [52]DATASETANDDIRECTLYEVALUATEDON HIDE [53]AND REALBLUR [54] DATASET. ⋄DENOTESTASK-SPECIFICMETHOD,WHILE ⋄INDICATESGENERALRESTORATIONMETHOD.",
+      "caption_zh": "",
+      "caption_bbox": [
+        53.737,
+        58.394,
+        558.263,
+        84.297
+      ],
+      "content_bbox": [
+        66.613,
+        92.391,
+        545.387,
+        240.781
+      ],
+      "crop_bbox": [
+        66.613,
+        92.391,
+        545.387,
+        240.781
+      ],
+      "original": "tables/original/Table5_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 7,
+      "caption": "TABLEVI REALIMAGEDENOISINGON SIDD[55]AND DND[56]DATASETS. ⋄DENOTESTASK-SPECIFICMETHOD,WHILE ⋄INDICATESGENERALRESTORATION METHOD.",
+      "caption_en": "TABLEVI REALIMAGEDENOISINGON SIDD[55]AND DND[56]DATASETS. ⋄DENOTESTASK-SPECIFICMETHOD,WHILE ⋄INDICATESGENERALRESTORATION METHOD.",
+      "caption_zh": "",
+      "caption_bbox": [
+        52.217,
+        249.454,
+        559.785,
+        275.357
+      ],
+      "content_bbox": [
+        66.613,
+        92.391,
+        545.387,
+        240.781
+      ],
+      "crop_bbox": [
+        66.613,
+        92.391,
+        545.387,
+        240.781
+      ],
+      "original": "tables/original/Table6_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 8,
+      "caption": "Fig.10.VisualcomparisonsonasynthetichazyimagesampledfromSOTS-Indoor[57]dataset.Zoom-inforbestview.",
+      "caption_en": "Fig.10.VisualcomparisonsonasynthetichazyimagesampledfromSOTS-Indoor[57]dataset.Zoom-inforbestview.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        416.363,
+        450.185,
+        424.406
+      ],
+      "content_bbox": [
+        48.964,
+        94.094,
+        563.413,
+        402.673
+      ],
+      "crop_bbox": [
+        48.964,
+        94.094,
+        563.413,
+        402.673
+      ],
+      "original": "figures/original/Fig10_p008.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig11",
+      "page": 8,
+      "caption": "Fig.11.VisualcomparisononLOL-v1[60]dataset.Zoom-inforbestview.",
+      "caption_en": "Fig.11.VisualcomparisononLOL-v1[60]dataset.Zoom-inforbestview.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        747.37,
+        304.492,
+        755.413
+      ],
+      "content_bbox": [
+        42.171,
+        100.031,
+        612.0,
+        737.417
+      ],
+      "crop_bbox": [
+        42.171,
+        100.031,
+        612.0,
+        737.417
+      ],
+      "original": "figures/original/Fig11_p008.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 8,
+      "caption": "TABLEVII IMAGEDEHAZINGRESULTSONTHE SOTS-INDOOR [57],SOTS-OUTDOOR [57], SOTS-MIXER [58],AND HAZE4K [59]DATASETS. ⋄DENOTES TASK-SPECIFICMETHOD,WHILE ⋄INDICATESGENERALRESTORATIONMETHOD. “-”DENOTESTHERESULTISUNAVAILABLE.",
+      "caption_en": "TABLEVII IMAGEDEHAZINGRESULTSONTHE SOTS-INDOOR [57],SOTS-OUTDOOR [57], SOTS-MIXER [58],AND HAZE4K [59]DATASETS. ⋄DENOTES TASK-SPECIFICMETHOD,WHILE ⋄INDICATESGENERALRESTORATIONMETHOD. “-”DENOTESTHERESULTISUNAVAILABLE.",
+      "caption_zh": "",
+      "caption_bbox": [
+        62.766,
+        64.009,
+        549.242,
+        89.911
+      ],
+      "content_bbox": [
+        48.964,
+        99.997,
+        560.801,
+        254.53
+      ],
+      "crop_bbox": [
+        48.964,
+        99.997,
+        560.801,
+        254.53
+      ],
+      "original": "tables/original/Table7_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 8,
+      "caption": "TABLEVIII IMAGEENHANCEMENTRESULTSON LOL[60]AND LOL-V2-REAL [61]DATASETS. ⋄DENOTESTASK-SPECIFICMETHOD,WHILE ⋄INDICATESGENERAL RESTORATIONMETHOD.",
+      "caption_en": "TABLEVIII IMAGEENHANCEMENTRESULTSON LOL[60]AND LOL-V2-REAL [61]DATASETS. ⋄DENOTESTASK-SPECIFICMETHOD,WHILE ⋄INDICATESGENERAL RESTORATIONMETHOD.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.061,
+        438.356,
+        561.948,
+        464.259
+      ],
+      "content_bbox": [
+        93.374,
+        472.534,
+        516.552,
+        620.446
+      ],
+      "crop_bbox": [
+        93.374,
+        472.534,
+        516.552,
+        620.446
+      ],
+      "original": "tables/original/Table8_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table9",
+      "page": 9,
+      "caption": "TABLEIX QUANTITATIVEANDEFFICIENCYCOMPARISONSONSEVERAL REPRESENTATIVEDATASETS. FLOPS (G)AND LATENCY (MS)ARE TESTEDON 256×256 RGBIMAGES. ⋄DENOTESTASK-SPECIFICMETHOD, WHILE ⋄INDICATESGENERALRESTORATIONMETHOD.",
+      "caption_en": "TABLEIX QUANTITATIVEANDEFFICIENCYCOMPARISONSONSEVERAL REPRESENTATIVEDATASETS. FLOPS (G)AND LATENCY (MS)ARE TESTEDON 256×256 RGBIMAGES. ⋄DENOTESTASK-SPECIFICMETHOD, WHILE ⋄INDICATESGENERALRESTORATIONMETHOD.",
+      "caption_zh": "",
+      "caption_bbox": [
+        312.738,
+        58.395,
+        562.277,
+        102.23
+      ],
+      "content_bbox": [
+        311.978,
+        107.588,
+        563.041,
+        385.783
+      ],
+      "crop_bbox": [
+        311.978,
+        107.588,
+        563.041,
+        385.783
+      ],
+      "original": "tables/original/Table9_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table9.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig12",
+      "page": 10,
+      "caption": "Fig.12.VisualresultsofjointdehazinganddetectionontheRESIDE-RTTSdataset.AllthedehazingmethodsaretrainedonRESIDE-OTSdataset.The firstrowdenotesthedehazingresultsandthesecondrowistheresultsofdetectionbyYOLOv3backbone.",
+      "caption_en": "Fig.12.VisualresultsofjointdehazinganddetectionontheRESIDE-RTTSdataset.AllthedehazingmethodsaretrainedonRESIDE-OTSdataset.The firstrowdenotesthedehazingresultsandthesecondrowistheresultsofdetectionbyYOLOv3backbone.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        186.181,
+        563.035,
+        203.118
+      ],
+      "content_bbox": [
+        54.099,
+        61.378,
+        559.856,
+        181.269
+      ],
+      "crop_bbox": [
+        54.099,
+        61.378,
+        559.856,
+        181.269
+      ],
+      "original": "figures/original/Fig12_p010.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table10",
+      "page": 10,
+      "caption": "TABLEX COMPARISONOFHAZEREMOVALANDOBJECTDETECTIONRESULTSWITHTHEMETRICASMAP@50ONTHE RTTSDATASET.MAP@0.5MEANSTHE MAPCALCULATEDAT IOUTHRESHOLD 0.5.",
+      "caption_en": "TABLEX COMPARISONOFHAZEREMOVALANDOBJECTDETECTIONRESULTSWITHTHEMETRICASMAP@50ONTHE RTTSDATASET.MAP@0.5MEANSTHE MAPCALCULATEDAT IOUTHRESHOLD 0.5.",
+      "caption_zh": "",
+      "caption_bbox": [
+        53.53,
+        313.228,
+        558.474,
+        339.131
+      ],
+      "content_bbox": [
+        66.938,
+        348.976,
+        542.273,
+        396.87
+      ],
+      "crop_bbox": [
+        66.938,
+        348.976,
+        542.273,
+        396.87
+      ],
+      "original": "tables/original/Table10_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table10.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table11",
+      "page": 10,
+      "caption": "TABLEXI COMPARISONOFRAINREMOVALANDSEMANTICSEGMENTATIONRESULTSWITHTHEMETRICSSUCHAS PSNR, SSIM,ANDMIOUONTHE CITYSCAPES VALIDATIONDATASET.THE UPPER BOUNDINDICATESUSINGCLEANIMAGESTOCOMPUTESEGMENTATIONPERFORMANCEANDRAINREMOVAL PERFORMANCE.",
+      "caption_en": "TABLEXI COMPARISONOFRAINREMOVALANDSEMANTICSEGMENTATIONRESULTSWITHTHEMETRICSSUCHAS PSNR, SSIM,ANDMIOUONTHE CITYSCAPES VALIDATIONDATASET.THE UPPER BOUNDINDICATESUSINGCLEANIMAGESTOCOMPUTESEGMENTATIONPERFORMANCEANDRAINREMOVAL PERFORMANCE.",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.163,
+        409.194,
+        562.842,
+        444.063
+      ],
+      "content_bbox": [
+        57.764,
+        453.12,
+        551.447,
+        514.989
+      ],
+      "crop_bbox": [
+        57.764,
+        453.12,
+        551.447,
+        514.989
+      ],
+      "original": "tables/original/Table11_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table11.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table12",
+      "page": 11,
+      "caption": "TABLEXII QUANTITATIVERESULTSON ALL-IN-ONE (“NOISE-HAZE-RAIN”)SETTINGWITHSTATE-OF-THE-ARTGENERALIMAGERESTORATIONMETHODS (MARKEDIN ⋄)ANDALL-IN-ONEMETHODS (MARKEDIN ⋄).",
+      "caption_en": "TABLEXII QUANTITATIVERESULTSON ALL-IN-ONE (“NOISE-HAZE-RAIN”)SETTINGWITHSTATE-OF-THE-ARTGENERALIMAGERESTORATIONMETHODS (MARKEDIN ⋄)ANDALL-IN-ONEMETHODS (MARKEDIN ⋄).",
+      "caption_zh": "",
+      "caption_bbox": [
+        61.652,
+        58.394,
+        550.358,
+        84.297
+      ],
+      "content_bbox": [
+        48.964,
+        93.535,
+        563.088,
+        183.008
+      ],
+      "crop_bbox": [
+        48.964,
+        93.535,
+        563.088,
+        183.008
+      ],
+      "original": "tables/original/Table12_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table12.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig14",
+      "page": 12,
+      "caption": "Fig.14.QualitativeablationstudiesoftheMDABandETB.",
+      "caption_en": "Fig.14.QualitativeablationstudiesoftheMDABandETB.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        159.503,
+        250.894,
+        167.473
+      ],
+      "content_bbox": [
+        49.73,
+        57.555,
+        561.678,
+        153.745
+      ],
+      "crop_bbox": [
+        49.73,
+        57.555,
+        561.678,
+        153.745
+      ],
+      "original": "figures/original/Fig14_p012.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table13",
+      "page": 12,
+      "caption": "TABLEXIII EXPLORINGTHEEFFECTSOFDIFFERENTATTENTIONSWITHINTHE MDAB.",
+      "caption_en": "TABLEXIII EXPLORINGTHEEFFECTSOFDIFFERENTATTENTIONSWITHINTHE MDAB.",
+      "caption_zh": "",
+      "caption_bbox": [
+        61.834,
+        176.77,
+        287.16,
+        202.673
+      ],
+      "content_bbox": [
+        49.37,
+        214.461,
+        300.023,
+        289.469
+      ],
+      "crop_bbox": [
+        49.37,
+        214.461,
+        300.023,
+        289.469
+      ],
+      "original": "tables/original/Table13_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table13.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table14",
+      "page": 12,
+      "caption": "TABLEXIV EXPLORINGTHEEFFECTSOFDIFFERENTATTENTIONCOMPONENTSIN THE MDCONV.",
+      "caption_en": "TABLEXIV EXPLORINGTHEEFFECTSOFDIFFERENTATTENTIONCOMPONENTSIN THE MDCONV.",
+      "caption_zh": "",
+      "caption_bbox": [
+        56.123,
+        302.386,
+        292.869,
+        328.288
+      ],
+      "content_bbox": [
+        49.37,
+        223.46,
+        300.023,
+        289.469
+      ],
+      "crop_bbox": [
+        49.37,
+        223.46,
+        300.023,
+        289.469
+      ],
+      "original": "tables/original/Table14_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table14.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table15",
+      "page": 12,
+      "caption": "TABLEXV EXPLORINGTHEEFFECTSOFTHENUMBEROF ETB.",
+      "caption_en": "TABLEXV EXPLORINGTHEEFFECTSOFTHENUMBEROF ETB.",
+      "caption_zh": "",
+      "caption_bbox": [
+        86.285,
+        427.575,
+        262.702,
+        444.511
+      ],
+      "content_bbox": [
+        89.835,
+        334.856,
+        254.427,
+        414.813
+      ],
+      "crop_bbox": [
+        89.835,
+        334.856,
+        254.427,
+        414.813
+      ],
+      "original": "tables/original/Table15_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table15.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table16",
+      "page": 12,
+      "caption": "TABLEXVI EXPLORINGTHEEFFECTSOFTHELEARNABLEPARAMETERSIN ETB.",
+      "caption_en": "TABLEXVI EXPLORINGTHEEFFECTSOFTHELEARNABLEPARAMETERSIN ETB.",
+      "caption_zh": "",
+      "caption_bbox": [
+        57.454,
+        511.817,
+        291.533,
+        528.753
+      ],
+      "content_bbox": [
+        59.663,
+        453.469,
+        286.533,
+        505.474
+      ],
+      "crop_bbox": [
+        59.663,
+        453.469,
+        286.533,
+        505.474
+      ],
+      "original": "tables/original/Table16_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table16.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table17",
+      "page": 12,
+      "caption": "TABLEXVII EXPLORINGTHEEFFECTSOFTHECHUNKOPERATION.",
+      "caption_en": "TABLEXVII EXPLORINGTHEEFFECTSOFTHECHUNKOPERATION.",
+      "caption_zh": "",
+      "caption_bbox": [
+        82.898,
+        588.587,
+        266.089,
+        605.524
+      ],
+      "content_bbox": [
+        104.44,
+        535.32,
+        241.757,
+        575.935
+      ],
+      "crop_bbox": [
+        104.44,
+        535.32,
+        241.757,
+        575.935
+      ],
+      "original": "tables/original/Table17_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table17.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table18",
+      "page": 13,
+      "caption": "TABLEXVIII EXPLORINGTHEEFFECTSOF ETB,MDAB,ANDOTHERMODULESATENCODER-DECODERORLATENTLAYERSWITHINTHE MDDA-FORMER*.",
+      "caption_en": "TABLEXVIII EXPLORINGTHEEFFECTSOF ETB,MDAB,ANDOTHERMODULESATENCODER-DECODERORLATENTLAYERSWITHINTHE MDDA-FORMER*.",
+      "caption_zh": "",
+      "caption_bbox": [
+        63.724,
+        58.394,
+        548.276,
+        75.331
+      ],
+      "content_bbox": [
+        48.964,
+        89.19,
+        563.066,
+        210.954
+      ],
+      "crop_bbox": [
+        48.964,
+        89.19,
+        563.066,
+        210.954
+      ],
+      "original": "tables/original/Table18_p013.png",
+      "vector": [],
+      "latex": "tables/latex/Table18.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Joint_multi_dimensional_dynamic_attention_and_Local_reference_0",
+    "title": "Joint multi-dimensional dynamic attention and transformer for general image restoration",
+    "venue": "arXiv",
+    "venue_full": "arXiv",
+    "venue_short": "arXiv",
+    "venue_type": "期刊",
+    "year": 2021,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "f966eefd3aea747f457a1bb56b2bd8f3739bb347cc10f0995073963fa3f8430f",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\8RVIIJM4\\MDDA-former用于一般图像修复的联合多维动态注意力和变压器.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\CI2CCGDU\\MDDA-former用于一般图像修复的联合多维动态注意力和变压器.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "",
+    "cas_display": "",
+    "ccf_display": "CCF：未收录（2026目录）"
+  }
+}

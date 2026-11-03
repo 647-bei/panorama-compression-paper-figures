@@ -29,19 +29,8 @@
         438.183
       ],
       "original": "figures/original/Fig1_p000.png",
-      "vector": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\HEAL-SWIN_CVPR2024\\figures\\vector\\Fig1\\Fig1.svg (794x822 -> 1588x1644 px, scale 2.0, 40663 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  72.4% 画面  (7.24 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 6624394 x 6858000 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -69,19 +58,7 @@
         163.523
       ],
       "original": "figures/original/Fig2_p001.png",
-      "vector": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 8.33 in\n\n形状统计 (59 个):\n  FREEFORM (5)                 34\n  TEXT_BOX (17)                25\n\n矢量形状: 59\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 59 draws 19 fs 12 polys 13 rings 0 text 25 images 0 inline 0 canvas 1948 1217\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\HEAL-SWIN_CVPR2024\\figures\\vector\\Fig2\\Fig2.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\HEAL-SWIN_CVPR2024\\figures\\vector\\Fig2\\Fig2.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 8.33 in\n\n形状统计 (59 个):\n  FREEFORM (5)                 34\n  TEXT_BOX (17)                25\n\n矢量形状: 59\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -109,19 +86,7 @@
         191.88
       ],
       "original": "figures/original/Fig3_p003.png",
-      "vector": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 16.98 in\n\n形状统计 (64 个):\n  FREEFORM (5)                 57\n  AUTO_SHAPE (1)               6\n  TEXT_BOX (17)                1\n\n矢量形状: 64\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 64 draws 63 fs 0 polys 17 rings 6 text 1 images 0 inline 0 canvas 1948 2481\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\HEAL-SWIN_CVPR2024\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\HEAL-SWIN_CVPR2024\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 16.98 in\n\n形状统计 (64 个):\n  FREEFORM (5)                 57\n  AUTO_SHAPE (1)               6\n  TEXT_BOX (17)                1\n\n矢量形状: 64\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -149,19 +114,8 @@
         140.371
       ],
       "original": "figures/original/Fig4_p004.png",
-      "vector": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\HEAL-SWIN_CVPR2024\\figures\\vector\\Fig4\\Fig4.svg (918x275 -> 1836x550 px, scale 2.0, 8182 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  39.9% 画面  (10.00 x 3.00 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -189,19 +143,8 @@
         154.691
       ],
       "original": "figures/original/Fig5_p005.png",
-      "vector": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\HEAL-SWIN_CVPR2024\\figures\\vector\\Fig5\\Fig5.svg (793x331 -> 1586x662 px, scale 2.0, 19942 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  55.7% 画面  (10.00 x 4.17 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3816726 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "table",
@@ -259,19 +202,37 @@
         191.386
       ],
       "original": "figures/original/Fig6_p006.png",
-      "vector": [
-        "figures/vector/Fig6/Fig6.svg",
-        "figures/vector/Fig6/Fig6.pptx"
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table11",
+      "page": 6,
+      "caption": "Table 11 for an ablation over resolutions.At lower resolutions, the memory layout in the HEALPix grid enablesfasterinferencetimesforHEAL-SWINcompared to SWIN. For a comparison of the computational benefits of the SWIN architecture compared to CNNs we refer to [37].",
+      "caption_en": "Table 11 for an ablation over resolutions.At lower resolutions, the memory layout in the HEALPix grid enablesfasterinferencetimesforHEAL-SWINcompared to SWIN. For a comparison of the computational benefits of the SWIN architecture compared to CNNs we refer to [37].",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        495.156,
+        286.365,
+        554.982
       ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 9.58 in\n\n形状统计 (60 个):\n  TEXT_BOX (17)                38\n  FREEFORM (5)                 22\n\n矢量形状: 60\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 60 draws 22 fs 10 polys 2 rings 0 text 38 images 0 inline 0 canvas 1948 1400\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\HEAL-SWIN_CVPR2024\\figures\\vector\\Fig6\\Fig6.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\HEAL-SWIN_CVPR2024\\figures\\vector\\Fig6\\Fig6.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 9.58 in\n\n形状统计 (60 个):\n  TEXT_BOX (17)                38\n  FREEFORM (5)                 22\n\n矢量形状: 60\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "content_bbox": [
+        343.625,
+        300.862,
+        510.349,
+        394.851
+      ],
+      "crop_bbox": [
+        343.625,
+        300.862,
+        510.349,
+        394.851
+      ],
+      "original": "tables/original/Table11_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table11.tex",
+      "latex_mode": "image_wrapper"
     },
     {
       "kind": "table",
@@ -320,13 +281,13 @@
         343.625,
         300.862,
         510.349,
-        394.851
+        317.969
       ],
       "crop_bbox": [
         343.625,
         300.862,
         510.349,
-        394.851
+        317.969
       ],
       "original": "tables/original/Table3_p006.png",
       "vector": [],
@@ -359,19 +320,8 @@
         168.339
       ],
       "original": "figures/original/Fig7_p007.png",
-      "vector": [
-        "figures/vector/Fig7/Fig7.svg",
-        "figures/vector/Fig7/Fig7.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\HEAL-SWIN_CVPR2024\\figures\\vector\\Fig7\\Fig7.svg (987x405 -> 1974x810 px, scale 2.0, 8116 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  54.7% 画面  (10.00 x 4.10 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3752097 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     }
   ],
   "notes": [
@@ -379,76 +329,30 @@
     "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
     "LaTeX tables generated by tools/build_latex_tables.py."
   ],
-  "vectorized": [
-    {
-      "label": "Fig1",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ]
-    },
-    {
-      "label": "Fig2",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ]
-    },
-    {
-      "label": "Fig3",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ]
-    },
-    {
-      "label": "Fig4",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ]
-    },
-    {
-      "label": "Fig5",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ]
-    },
-    {
-      "label": "Fig6",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig6/Fig6.svg",
-        "figures/vector/Fig6/Fig6.pptx"
-      ]
-    },
-    {
-      "label": "Fig7",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig7/Fig7.svg",
-        "figures/vector/Fig7/Fig7.pptx"
-      ]
-    }
-  ]
+  "metadata": {
+    "title": "HEAL-SWIN: A Vision Transformer On The Sphere",
+    "year": 2024,
+    "venue": "CVPR",
+    "classification": "CCF-A main conference",
+    "topic": [
+      "HEALPix",
+      "spherical grid",
+      "window attention"
+    ],
+    "relevance": "等面积球面网格和球面窗口注意力可迁移到ERP压缩恢复的采样和特征聚合。",
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Carlsson_HEAL-SWIN_A_Vision_Transformer_On_The_Sphere_CVPR_2024_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Carlsson_HEAL-SWIN_A_Vision_Transformer_On_The_Sphere_CVPR_2024_paper.pdf",
+    "local_slug": "HEAL-SWIN_CVPR2024",
+    "access": "open_pdf",
+    "venue_short": "CVPR",
+    "venue_full": "IEEE/CVF Computer Vision and Pattern Recognition Conference",
+    "venue_type": "会议",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": "A",
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
+  }
 }

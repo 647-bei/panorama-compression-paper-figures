@@ -29,19 +29,7 @@
         175.254
       ],
       "original": "figures/original/Fig1_p002.png",
-      "vector": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 3.59 in\n\n形状统计 (228 个):\n  FREEFORM (5)                 221\n  TEXT_BOX (17)                4\n  AUTO_SHAPE (1)               2\n  PICTURE (13)                 1\n\n矢量形状: 227\n位图图片: 1\n  60.2% 画面  (8.35 x 3.45 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 7633255 x 3157113 px\nops 228 draws 38 fs 0 polys 197 rings 2 text 4 images 1 inline 0 canvas 1948 525\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DynamicSparsity_NatCommun2025\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DynamicSparsity_NatCommun2025\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 13.33 x 3.59 in\n\n形状统计 (228 个):\n  FREEFORM (5)                 221\n  TEXT_BOX (17)                4\n  AUTO_SHAPE (1)               2\n  PICTURE (13)                 1\n\n矢量形状: 227\n位图图片: 1\n  60.2% 画面  (8.35 x 3.45 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 7633255 x 3157113 px\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -69,19 +57,38 @@
         362.034
       ],
       "original": "figures/original/Fig2_p002.png",
-      "vector": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 2,
+      "caption": "Figure 2 shows an example of embedding neuro-inspired dynamic sparsity in a vision sensor. Retinal circuits respond primarily to chan- ges in the visual ﬁeld25, and event camera pixels26mimic this behavior byproducingoutputeventsonlywhenbrightnesschangesabovea certain threshold occur. These neuromorphic sensors generate sparse, low-latencyeventstreamsthatbettercapturedynamicvisualinfor- mationwithouttheredundancyofframe-basedinput,offeringsub- stantialadvantageintermsoflatency,temporalresolution,energy efﬁciency, and dynamic range27. The neural foundation of dynamic sparsityas well as itsdemon- stratedeffectivenessinneuromorphicvisionsensors,motivatethe exploration of its broader applications in energy-efﬁcient AI. To con- nectinsightsfromneurosciencewiththerecentprogressinvarious ﬁelds—such as neuromorphic engineering, deep learning, and domain- speciﬁcaccelerators—andtosystematicallyframethekeydesign considerationsforimplementingthisprinciple,thenextsectionela- borates a necessary taxonomy of dynamic sparsity.",
+      "caption_en": "Figure 2 shows an example of embedding neuro-inspired dynamic sparsity in a vision sensor. Retinal circuits respond primarily to chan- ges in the visual ﬁeld25, and event camera pixels26mimic this behavior byproducingoutputeventsonlywhenbrightnesschangesabovea certain threshold occur. These neuromorphic sensors generate sparse, low-latencyeventstreamsthatbettercapturedynamicvisualinfor- mationwithouttheredundancyofframe-basedinput,offeringsub- stantialadvantageintermsoflatency,temporalresolution,energy efﬁciency, and dynamic range27. The neural foundation of dynamic sparsityas well as itsdemon- stratedeffectivenessinneuromorphicvisionsensors,motivatethe exploration of its broader applications in energy-efﬁcient AI. To con- nectinsightsfromneurosciencewiththerecentprogressinvarious ﬁelds—such as neuromorphic engineering, deep learning, and domain- speciﬁcaccelerators—andtosystematicallyframethekeydesign considerationsforimplementingthisprinciple,thenextsectionela- borates a necessary taxonomy of dynamic sparsity.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.684,
+        477.424,
+        294.822,
+        667.742
       ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 3.58 in\n\n形状统计 (86 个):\n  FREEFORM (5)                 59\n  PICTURE (13)                 18\n  TEXT_BOX (17)                8\n  AUTO_SHAPE (1)               1\n\n矢量形状: 68\n位图图片: 18\n  65.8% 画面  (10.27 x 3.06 in)\n  0.3% 画面  (0.36 x 0.34 in)\n  0.0% 画面  (0.07 x 0.28 in)\n  0.0% 画面  (0.07 x 0.06 in)\n  0.1% 画面  (0.29 x 0.24 in)\n  0.2% 画面  (0.32 x 0.27 in)\n  0.0% 画面  (0.15 x 0.14 in)\n  0.0% 画面  (0.15 x 0.14 in)\n  0.4% 画面  (0.54 x 0.39 in)\n  0.5% 画面  (0.57 x 0.41 in)\n  ... 共 18 张\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9392877 x 2793965 px\nops 86 draws 58 fs 1 polys 27 rings 1 text 8 images 0 inline 18 canvas 1948 523\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DynamicSparsity_NatCommun2025\\figures\\vector\\Fig2\\Fig2.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DynamicSparsity_NatCommun2025\\figures\\vector\\Fig2\\Fig2.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 13.33 x 3.58 in\n\n形状统计 (86 个):\n  FREEFORM (5)                 59\n  PICTURE (13)                 18\n  TEXT_BOX (17)                8\n  AUTO_SHAPE (1)               1\n\n矢量形状: 68\n位图图片: 18\n  65.8% 画面  (10.27 x 3.06 in)\n  0.3% 画面  (0.36 x 0.34 in)\n  0.0% 画面  (0.07 x 0.28 in)\n  0.0% 画面  (0.07 x 0.06 in)\n  0.1% 画面  (0.29 x 0.24 in)\n  0.2% 画面  (0.32 x 0.27 in)\n  0.0% 画面  (0.15 x 0.14 in)\n  0.0% 画面  (0.15 x 0.14 in)\n  0.4% 画面  (0.54 x 0.39 in)\n  0.5% 画面  (0.57 x 0.41 in)\n  ... 共 18 张\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9392877 x 2793965 px\n"
-        }
-      ]
+      "content_bbox": [
+        39.685,
+        241.518,
+        561.26,
+        402.463
+      ],
+      "crop_bbox": [
+        39.685,
+        241.518,
+        561.26,
+        402.463
+      ],
+      "original": "tables/original/Table2_p002.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
     },
     {
       "kind": "figure",
@@ -109,19 +116,8 @@
         317.989
       ],
       "original": "figures/original/Fig3_p003.png",
-      "vector": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ],
-      "vector_mode": "pdf_vector_svg_only+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "ops 5301 draws 2937 fs 2292 polys 2378 rings 0 text 17 images 0 inline 8 canvas 1948 1096\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DynamicSparsity_NatCommun2025\\figures\\vector\\Fig3\\Fig3.svg\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  74.5% 画面  (10.00 x 5.59 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5112262 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -149,19 +145,8 @@
         254.244
       ],
       "original": "figures/original/Fig4_p004.png",
-      "vector": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 5.78 in\n\n形状统计 (411 个):\n  FREEFORM (5)                 378\n  TEXT_BOX (17)                31\n  PICTURE (13)                 2\n\n矢量形状: 409\n位图图片: 2\n  93.3% 画面  (13.17 x 5.46 in)\n  0.3% 画面  (0.50 x 0.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 12043656 x 4989875 px\nops 411 draws 262 fs 62 polys 165 rings 0 text 31 images 0 inline 2 canvas 1948 844\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DynamicSparsity_NatCommun2025\\figures\\vector\\Fig4\\Fig4.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DynamicSparsity_NatCommun2025\\figures\\vector\\Fig4\\Fig4.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 13.33 x 5.78 in\n\n形状统计 (411 个):\n  FREEFORM (5)                 378\n  TEXT_BOX (17)                31\n  PICTURE (13)                 2\n\n矢量形状: 409\n位图图片: 2\n  93.3% 画面  (13.17 x 5.46 in)\n  0.3% 画面  (0.50 x 0.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 12043656 x 4989875 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -189,19 +174,7 @@
         446.514
       ],
       "original": "figures/original/Fig5_p008.png",
-      "vector": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 10.21 in\n\n形状统计 (227 个):\n  FREEFORM (5)                 176\n  TEXT_BOX (17)                24\n  PICTURE (13)                 23\n  AUTO_SHAPE (1)               4\n\n矢量形状: 204\n位图图片: 23\n  1.6% 画面  (1.19 x 1.88 in)\n  0.0% 画面  (0.05 x 0.01 in)\n  0.1% 画面  (0.37 x 0.24 in)\n  0.0% 画面  (0.38 x 0.07 in)\n  0.0% 画面  (0.12 x 0.20 in)\n  0.0% 画面  (0.19 x 0.17 in)\n  0.1% 画面  (0.30 x 0.24 in)\n  0.0% 画面  (0.09 x 0.16 in)\n  0.1% 画面  (0.30 x 0.49 in)\n  0.1% 画面  (0.32 x 0.41 in)\n  ... 共 23 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 227 draws 88 fs 12 polys 158 rings 4 text 24 images 1 inline 22 canvas 1948 1491\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DynamicSparsity_NatCommun2025\\figures\\vector\\Fig5\\Fig5.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DynamicSparsity_NatCommun2025\\figures\\vector\\Fig5\\Fig5.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 10.21 in\n\n形状统计 (227 个):\n  FREEFORM (5)                 176\n  TEXT_BOX (17)                24\n  PICTURE (13)                 23\n  AUTO_SHAPE (1)               4\n\n矢量形状: 204\n位图图片: 23\n  1.6% 画面  (1.19 x 1.88 in)\n  0.0% 画面  (0.05 x 0.01 in)\n  0.1% 画面  (0.37 x 0.24 in)\n  0.0% 画面  (0.38 x 0.07 in)\n  0.0% 画面  (0.12 x 0.20 in)\n  0.0% 画面  (0.19 x 0.17 in)\n  0.1% 画面  (0.30 x 0.24 in)\n  0.0% 画面  (0.09 x 0.16 in)\n  0.1% 画面  (0.30 x 0.49 in)\n  0.1% 画面  (0.32 x 0.41 in)\n  ... 共 23 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "table",
@@ -259,19 +232,7 @@
         345.39
       ],
       "original": "figures/original/Fig6_p009.png",
-      "vector": [
-        "figures/vector/Fig6/Fig6.svg",
-        "figures/vector/Fig6/Fig6.pptx"
-      ],
-      "vector_mode": "fallback_raster_trace",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 8.33 in\n\n形状统计 (1252 个):\n  FREEFORM (5)                 1247\n  AUTO_SHAPE (1)               5\n\n矢量形状: 1252\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 1252 draws 666 fs 115 polys 938 rings 5 text 0 images 0 inline 0 canvas 1948 1217\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DynamicSparsity_NatCommun2025\\figures\\vector\\Fig6\\Fig6.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DynamicSparsity_NatCommun2025\\figures\\vector\\Fig6\\Fig6.pptx\n\n\n[FALLBACK]\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\DynamicSparsity_NatCommun2025\\figures\\vector\\Fig6\\Fig6.svg (1921x1194 -> 1921x1194 px, scale 1.0, 1910 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 8.33 in\n\n形状统计 (1252 个):\n  FREEFORM (5)                 1247\n  AUTO_SHAPE (1)               5\n\n矢量形状: 1252\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     }
   ],
   "notes": [
@@ -279,66 +240,32 @@
     "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
     "LaTeX tables generated by tools/build_latex_tables.py."
   ],
-  "vectorized": [
-    {
-      "label": "Fig1",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ]
-    },
-    {
-      "label": "Fig2",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ]
-    },
-    {
-      "label": "Fig3",
-      "kind": "figure",
-      "mode": "pdf_vector_svg_only+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ]
-    },
-    {
-      "label": "Fig4",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ]
-    },
-    {
-      "label": "Fig5",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ]
-    },
-    {
-      "label": "Fig6",
-      "kind": "figure",
-      "mode": "fallback_raster_trace",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig6/Fig6.svg",
-        "figures/vector/Fig6/Fig6.pptx"
-      ]
-    }
-  ]
+  "metadata": {
+    "title": "Exploiting neuro-inspired dynamic sparsity for energy-efficient intelligent perception",
+    "year": 2025,
+    "venue": "Nature Communications",
+    "classification": "Nature Portfolio Perspective; not a primary research article",
+    "topic": [
+      "dynamic sparsity",
+      "neuromorphic perception",
+      "ANN/SNN efficiency"
+    ],
+    "relevance": "总结皮层/视网膜启发的动态稀疏、事件触发与选择性更新，可作为ANN-SNN稀疏策略的原理依据。",
+    "official_url": "https://www.nature.com/articles/s41467-025-65387-7",
+    "pdf_url": "https://www.nature.com/articles/s41467-025-65387-7.pdf",
+    "doi": "10.1038/s41467-025-65387-7",
+    "local_slug": "DynamicSparsity_NatCommun2025",
+    "access": "open_pdf",
+    "venue_short": "Nat Commun",
+    "venue_full": "Nature Communications",
+    "venue_type": "期刊",
+    "cas_zone": "1区",
+    "cas_top": true,
+    "cas_category": "综合性期刊",
+    "cas_display": "中科院 1区 · Top（2025，综合性期刊）",
+    "ccf_rank": null,
+    "ccf_scope": null,
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院 1区 · Top（2025，综合性期刊）"
+  }
 }

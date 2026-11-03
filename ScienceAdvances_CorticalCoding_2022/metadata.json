@@ -14,5 +14,16 @@
   "pdf_url": "https://www.science.org/doi/pdf/10.1126/sciadv.abg5244?download=true",
   "doi": "10.1126/sciadv.abg5244",
   "local_slug": "ScienceAdvances_CorticalCoding_2022",
-  "access": "metadata_only_pdf_route_blocked"
+  "access": "metadata_only_pdf_route_blocked",
+  "venue_short": "Sci Adv",
+  "venue_full": "Science Advances",
+  "venue_type": "期刊",
+  "cas_zone": "1区",
+  "cas_top": true,
+  "cas_category": "综合性期刊",
+  "cas_display": "中科院 1区 · Top（2025，综合性期刊）",
+  "ccf_rank": null,
+  "ccf_scope": null,
+  "ccf_display": "CCF：未收录（2026目录）",
+  "ranking_display": "中科院 1区 · Top（2025，综合性期刊）"
 }

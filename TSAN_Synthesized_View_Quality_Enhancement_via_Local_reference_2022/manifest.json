@@ -1,0 +1,895 @@
+{
+  "paper": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022",
+  "pdf": "pdf/paper.pdf",
+  "pages": 14,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Fig.1. Visualcomparisonsofthesynthesizedviewwithdifferentset- tings,where“Poznan_Carpark”representsthe 10thframe of Poznan_Carpark sequence(fromview4),“Kendo”indicatesthe280thframeofKendo sequence(fromview3),and“Pantomime”isthe147thframeofPantomime sequence (from view 39), respectively. (a) Original synthesized image captured bycameras.(b)Thesynthesizedimagegeneratedbythecompressedtexture anddepthvideosunder(QPt, QPd)=(30, 39).(c)Thesynthesizedimage generatedbytheuncompressedtextureanddepthvideos.",
+      "caption_en": "Fig.1. Visualcomparisonsofthesynthesizedviewwithdifferentset- tings,where“Poznan_Carpark”representsthe 10thframe of Poznan_Carpark sequence(fromview4),“Kendo”indicatesthe280thframeofKendo sequence(fromview3),and“Pantomime”isthe147thframeofPantomime sequence (from view 39), respectively. (a) Original synthesized image captured bycameras.(b)Thesynthesizedimagegeneratedbythecompressedtexture anddepthvideosunder(QPt, QPd)=(30, 39).(c)Thesynthesizedimage generatedbytheuncompressedtextureanddepthvideos.",
+      "caption_zh": "",
+      "caption_bbox": [
+        312.0,
+        368.978,
+        562.962,
+        440.308
+      ],
+      "content_bbox": [
+        312.348,
+        58.571,
+        561.481,
+        357.06
+      ],
+      "crop_bbox": [
+        312.348,
+        58.571,
+        561.481,
+        357.06
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 15.95 in\n\n形状统计 (221 个):\n  FREEFORM (5)                 209\n  PICTURE (13)                 12\n\n矢量形状: 209\n位图图片: 12\n  11.3% 画面  (5.62 x 4.27 in)\n  11.3% 画面  (5.62 x 4.28 in)\n  3.8% 画面  (1.86 x 4.29 in)\n  4.0% 画面  (2.00 x 4.29 in)\n  4.0% 画面  (1.99 x 4.29 in)\n  3.8% 画面  (1.87 x 4.29 in)\n  11.3% 画面  (5.62 x 4.29 in)\n  4.0% 画面  (2.00 x 4.29 in)\n  4.0% 画面  (1.99 x 4.29 in)\n  4.0% 画面  (2.01 x 4.27 in)\n  ... 共 12 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Fig.2. TheoverallframeworkoftheproposedTSAN-basedsynthesizedviewqualityenhancementmethodfor3D-HEVC.",
+      "caption_en": "Fig.2. TheoverallframeworkoftheproposedTSAN-basedsynthesizedviewqualityenhancementmethodfor3D-HEVC.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        176.018,
+        457.159,
+        183.988
+      ],
+      "content_bbox": [
+        87.646,
+        63.183,
+        515.795,
+        163.52
+      ],
+      "crop_bbox": [
+        87.646,
+        63.183,
+        515.795,
+        163.52
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.21 in\n\n形状统计 (365 个):\n  FREEFORM (5)                 285\n  PICTURE (13)                 80\n\n矢量形状: 285\n位图图片: 80\n  1.8% 画面  (1.05 x 0.74 in)\n  1.8% 画面  (1.05 x 0.73 in)\n  1.8% 画面  (1.05 x 0.73 in)\n  1.8% 画面  (1.04 x 0.73 in)\n  1.8% 画面  (1.05 x 0.72 in)\n  1.8% 画面  (1.05 x 0.73 in)\n  1.8% 画面  (1.05 x 0.74 in)\n  1.8% 画面  (1.06 x 0.74 in)\n  0.2% 画面  (1.05 x 0.07 in)\n  0.2% 画面  (1.05 x 0.07 in)\n  ... 共 80 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Fig.3. ThearchitectureofourpeoposedTSAN,wheredifferentcolorsrepresentdifferentoperations.Thedescriptionofeachoperationisgiveninthe bottomrightcorner.",
+      "caption_en": "Fig.3. ThearchitectureofourpeoposedTSAN,wheredifferentcolorsrepresentdifferentoperations.Thedescriptionofeachoperationisgiveninthe bottomrightcorner.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        354.578,
+        563.003,
+        371.548
+      ],
+      "content_bbox": [
+        48.96,
+        176.018,
+        547.717,
+        342.78
+      ],
+      "crop_bbox": [
+        48.96,
+        176.018,
+        547.717,
+        342.78
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.53 in\n\n形状统计 (431 个):\n  FREEFORM (5)                 428\n  PICTURE (13)                 2\n  TEXT_BOX (17)                1\n\n矢量形状: 429\n位图图片: 2\n  1.6% 画面  (0.82 x 1.14 in)\n  1.6% 画面  (0.82 x 1.15 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 3,
+      "caption": "TABLEI",
+      "caption_en": "TABLEI",
+      "caption_zh": "",
+      "caption_bbox": [
+        159.24,
+        395.858,
+        189.734,
+        403.828
+      ],
+      "content_bbox": [
+        50.04,
+        444.919,
+        298.791,
+        544.622
+      ],
+      "crop_bbox": [
+        50.04,
+        444.919,
+        298.791,
+        544.622
+      ],
+      "original": "tables/original/Table1_p003.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Fig.4. Thestructureoftheglobalinformationextractionstream.",
+      "caption_en": "Fig.4. Thestructureoftheglobalinformationextractionstream.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        158.018,
+        267.356,
+        165.988
+      ],
+      "content_bbox": [
+        55.188,
+        58.575,
+        284.412,
+        144.939
+      ],
+      "crop_bbox": [
+        55.188,
+        58.575,
+        284.412,
+        144.939
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.09 in\n\n形状统计 (160 个):\n  FREEFORM (5)                 157\n  PICTURE (13)                 2\n  AUTO_SHAPE (1)               1\n\n矢量形状: 158\n位图图片: 2\n  3.0% 画面  (1.02 x 2.00 in)\n  3.0% 画面  (1.07 x 1.92 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 4,
+      "caption": "Fig.5. Schematicof2×pixel-unshufﬂeoperation,wheretheleftisinput image,andtherightaresub-imagesafterpixel-unshufﬂelayer.",
+      "caption_en": "Fig.5. Schematicof2×pixel-unshufﬂeoperation,wheretheleftisinput image,andtherightaresub-imagesafterpixel-unshufﬂelayer.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.999,
+        154.724,
+        562.882,
+        171.868
+      ],
+      "content_bbox": [
+        348.0,
+        58.148,
+        526.306,
+        143.1
+      ],
+      "crop_bbox": [
+        348.0,
+        58.148,
+        526.306,
+        143.1
+      ],
+      "original": "figures/original/Fig5_p004.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.41 in\n\n形状统计 (61 个):\n  FREEFORM (5)                 35\n  AUTO_SHAPE (1)               26\n\n矢量形状: 61\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 4,
+      "caption": "Fig.6. Schematicof2×pixel-shufﬂeoperation,wheretheleftareinput featuremaps,andtherightisupsampledoutput.",
+      "caption_en": "Fig.6. Schematicof2×pixel-shufﬂeoperation,wheretheleftareinput featuremaps,andtherightisupsampledoutput.",
+      "caption_zh": "",
+      "caption_bbox": [
+        312.0,
+        279.284,
+        562.935,
+        296.428
+      ],
+      "content_bbox": [
+        311.999,
+        58.148,
+        562.882,
+        267.66
+      ],
+      "crop_bbox": [
+        311.999,
+        58.148,
+        562.882,
+        267.66
+      ],
+      "original": "figures/original/Fig6_p004.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.15 in\n\n形状统计 (848 个):\n  FREEFORM (5)                 815\n  AUTO_SHAPE (1)               30\n  TEXT_BOX (17)                3\n\n矢量形状: 848\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 5,
+      "caption": "Fig.7. Thestructureofthelocalinformationextractionstream.",
+      "caption_en": "Fig.7. Thestructureofthelocalinformationextractionstream.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        179.018,
+        262.888,
+        186.988
+      ],
+      "content_bbox": [
+        52.686,
+        58.931,
+        295.32,
+        166.854
+      ],
+      "crop_bbox": [
+        52.686,
+        58.931,
+        295.32,
+        166.854
+      ],
+      "original": "figures/original/Fig7_p005.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.99 in\n\n形状统计 (277 个):\n  FREEFORM (5)                 275\n  PICTURE (13)                 2\n\n矢量形状: 275\n位图图片: 2\n  1.7% 画面  (0.86 x 1.54 in)\n  1.6% 画面  (0.79 x 1.60 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 5,
+      "caption": "Fig.8. Thestructureofthemulti-scalespatialattentionmechanism.",
+      "caption_en": "Fig.8. Thestructureofthemulti-scalespatialattentionmechanism.",
+      "caption_zh": "",
+      "caption_bbox": [
+        312.0,
+        188.978,
+        540.246,
+        196.948
+      ],
+      "content_bbox": [
+        321.948,
+        58.488,
+        552.492,
+        177.072
+      ],
+      "crop_bbox": [
+        321.948,
+        58.488,
+        552.492,
+        177.072
+      ],
+      "original": "figures/original/Fig8_p005.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  68.8% 画面  (10.00 x 5.16 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4715648 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 6,
+      "caption": "Fig.9. FeaturemapvisualizationoftheproposedMSRAB,where“Bookar- rival”representsthe100thframeofBookarrivalsequenceand“Kendo” representsthe300thframeofKendosequence.Allresultsareoutputafter theﬁrstMSRABunder(QPt, QPd)=(30,39).",
+      "caption_en": "Fig.9. FeaturemapvisualizationoftheproposedMSRAB,where“Bookar- rival”representsthe100thframeofBookarrivalsequenceand“Kendo” representsthe300thframeofKendosequence.Allresultsareoutputafter theﬁrstMSRABunder(QPt, QPd)=(30,39).",
+      "caption_zh": "",
+      "caption_bbox": [
+        312.0,
+        372.938,
+        562.889,
+        409.476
+      ],
+      "content_bbox": [
+        316.598,
+        58.368,
+        559.452,
+        359.345
+      ],
+      "crop_bbox": [
+        316.598,
+        58.368,
+        559.452,
+        359.345
+      ],
+      "original": "figures/original/Fig9_p006.png",
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  60.5% 画面  (6.05 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 5531930 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "TABLEII",
+      "caption_en": "TABLEII",
+      "caption_zh": "",
+      "caption_bbox": [
+        420.96,
+        416.378,
+        453.975,
+        424.348
+      ],
+      "content_bbox": [
+        314.04,
+        428.377,
+        560.25,
+        555.314
+      ],
+      "crop_bbox": [
+        314.04,
+        428.377,
+        560.25,
+        555.314
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "TABLEIII",
+      "caption_en": "TABLEIII",
+      "caption_zh": "",
+      "caption_bbox": [
+        288.12,
+        58.298,
+        323.772,
+        66.268
+      ],
+      "content_bbox": [
+        59.04,
+        70.004,
+        552.832,
+        219.54
+      ],
+      "crop_bbox": [
+        59.04,
+        70.004,
+        552.832,
+        219.54
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 8,
+      "caption": "Fig.10. RDcurvesofsixtestsequences.“Y-PSNR”denotesthePSNRvalueofluminancecomponentofsynthesizedview.“Bitrate”representsthetotal bitratesofencodedtextureanddepthvideosforviewsynthesis.",
+      "caption_en": "Fig.10. RDcurvesofsixtestsequences.“Y-PSNR”denotesthePSNRvalueofluminancecomponentofsynthesizedview.“Bitrate”representsthetotal bitratesofencodedtextureanddepthvideosforviewsynthesis.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        520.898,
+        562.842,
+        537.868
+      ],
+      "content_bbox": [
+        63.96,
+        58.298,
+        547.669,
+        509.101
+      ],
+      "crop_bbox": [
+        63.96,
+        58.298,
+        547.669,
+        509.101
+      ],
+      "original": "figures/original/Fig10_p008.png",
+      "vector": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 12.44 in\n\n形状统计 (2315 个):\n  FREEFORM (5)                 2300\n  TEXT_BOX (17)                13\n  AUTO_SHAPE (1)               2\n\n矢量形状: 2315\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 8,
+      "caption": "TABLEIV",
+      "caption_en": "TABLEIV",
+      "caption_zh": "",
+      "caption_bbox": [
+        287.88,
+        58.298,
+        323.996,
+        66.268
+      ],
+      "content_bbox": [
+        63.96,
+        70.298,
+        547.669,
+        509.101
+      ],
+      "crop_bbox": [
+        63.96,
+        70.298,
+        547.669,
+        509.101
+      ],
+      "original": "tables/original/Table4_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig11",
+      "page": 9,
+      "caption": "Fig.11. Subjectivequalitycomparisonwiththestate-of-the-artmethodsunder(QPt, QPd)=(30, 39),where“Bookarrival”representsthe100thframe ofBookarrivalsequence,“Newspaper”representsthe300thframeofNewspapersequence,“Balloons”representsthe270thframeofBalloonssequence, “Poznan_Hall2”representsthe95thframeofPoznan_Hall2sequence,“Pantomime”representsthe158thframeofPantomimesequenceand“Undo_Dancer” representsthe180thframeofUndo_Dancersequence,respectively.ThePSNRandSSIMinframelevelareshownundereachpatch.",
+      "caption_en": "Fig.11. Subjectivequalitycomparisonwiththestate-of-the-artmethodsunder(QPt, QPd)=(30, 39),where“Bookarrival”representsthe100thframe ofBookarrivalsequence,“Newspaper”representsthe300thframeofNewspapersequence,“Balloons”representsthe270thframeofBalloonssequence, “Poznan_Hall2”representsthe95thframeofPoznan_Hall2sequence,“Pantomime”representsthe158thframeofPantomimesequenceand“Undo_Dancer” representsthe180thframeofUndo_Dancersequence,respectively.ThePSNRandSSIMinframelevelareshownundereachpatch.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        471.942,
+        562.981,
+        509.428
+      ],
+      "content_bbox": [
+        50.988,
+        58.248,
+        560.172,
+        462.06
+      ],
+      "crop_bbox": [
+        50.988,
+        58.248,
+        560.172,
+        462.06
+      ],
+      "original": "figures/original/Fig11_p009.png",
+      "vector": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.60 in\n\n形状统计 (678 个):\n  FREEFORM (5)                 676\n  PICTURE (13)                 1\n  AUTO_SHAPE (1)               1\n\n矢量形状: 677\n位图图片: 1\n  95.8% 画面  (13.22 x 10.23 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 12091860 x 9356145 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig12",
+      "page": 10,
+      "caption": "Fig.12. ThePSNRﬂuctuationcurvesfordifferentmethodsunder (QPt, QPd) = (45, 48).(a)The“Poznan_Hall2”sequence.(b)The “Undo_Dancer”sequence.",
+      "caption_en": "Fig.12. ThePSNRﬂuctuationcurvesfordifferentmethodsunder (QPt, QPd) = (45, 48).(a)The“Poznan_Hall2”sequence.(b)The “Undo_Dancer”sequence.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        296.978,
+        300.064,
+        322.828
+      ],
+      "content_bbox": [
+        50.04,
+        58.766,
+        299.04,
+        285.06
+      ],
+      "crop_bbox": [
+        50.04,
+        58.766,
+        299.04,
+        285.06
+      ],
+      "original": "figures/original/Fig12_p010.png",
+      "vector": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 12.13 in\n\n形状统计 (345 个):\n  FREEFORM (5)                 345\n\n矢量形状: 345\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 10,
+      "caption": "TABLEV",
+      "caption_en": "TABLEV",
+      "caption_zh": "",
+      "caption_bbox": [
+        420.72,
+        58.298,
+        454.195,
+        66.268
+      ],
+      "content_bbox": [
+        315.0,
+        70.298,
+        559.971,
+        163.101
+      ],
+      "crop_bbox": [
+        315.0,
+        70.298,
+        559.971,
+        163.101
+      ],
+      "original": "tables/original/Table5_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 10,
+      "caption": "TABLEVI",
+      "caption_en": "TABLEVI",
+      "caption_zh": "",
+      "caption_bbox": [
+        419.4,
+        178.658,
+        455.535,
+        186.628
+      ],
+      "content_bbox": [
+        313.56,
+        218.871,
+        561.48,
+        305.568
+      ],
+      "crop_bbox": [
+        313.56,
+        218.871,
+        561.48,
+        305.568
+      ],
+      "original": "tables/original/Table6_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig13",
+      "page": 11,
+      "caption": "Fig. 13.The trade-off between number of parameters and PSNR performance, where“MSRAB×α”representsthenumberofMSRABs,and“RB×β” denotesthenumberofRBs.Thevalueofαissetto3,4,5,6,7,8and thevalueof βissetto8,10,12,14.AllresultsaretheaveragePSNR offull testingsequenceswithdifferentresolutionsunder(QPt, QPd) = (30, 39).",
+      "caption_en": "Fig. 13.The trade-off between number of parameters and PSNR performance, where“MSRAB×α”representsthenumberofMSRABs,and“RB×β” denotesthenumberofRBs.Thevalueofαissetto3,4,5,6,7,8and thevalueof βissetto8,10,12,14.AllresultsaretheaveragePSNR offull testingsequenceswithdifferentresolutionsunder(QPt, QPd) = (30, 39).",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        368.498,
+        299.917,
+        413.556
+      ],
+      "content_bbox": [
+        48.96,
+        98.501,
+        299.467,
+        356.58
+      ],
+      "crop_bbox": [
+        48.96,
+        98.501,
+        299.467,
+        356.58
+      ],
+      "original": "figures/original/Fig13_p011.png",
+      "vector": [
+        "figures/vector/Fig13/Fig13.svg",
+        "figures/vector/Fig13/Fig13.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 13.73 in\n\n形状统计 (775 个):\n  FREEFORM (5)                 774\n  AUTO_SHAPE (1)               1\n\n矢量形状: 775\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 11,
+      "caption": "TABLEVII",
+      "caption_en": "TABLEVII",
+      "caption_zh": "",
+      "caption_bbox": [
+        155.04,
+        58.298,
+        193.935,
+        66.268
+      ],
+      "content_bbox": [
+        48.96,
+        98.501,
+        299.467,
+        356.58
+      ],
+      "crop_bbox": [
+        48.96,
+        98.501,
+        299.467,
+        356.58
+      ],
+      "original": "tables/original/Table7_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022",
+    "title": "TSAN: Synthesized View Quality Enhancement via Two-Stream Attention Network for 3D-HEVC",
+    "venue": "TCSVT",
+    "venue_full": "TCSVT",
+    "venue_short": "TCSVT",
+    "venue_type": "期刊",
+    "year": 2022,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://www.ieee.org/publications/rights/index.html",
+    "pdf_url": "https://www.ieee.org/publications/rights/index.html",
+    "access": "local_pdf",
+    "source_sha256": "ac1fc514b53ac1015c04a268038c7aaefd4e87ddf324c68975fe7f28d49d989d",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\6E5N9EH5\\Pan 等 - 2022 - TSAN Synthesized View Quality Enhancement via Two-Stream Attention Network for 3D-HEVC.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 2区（2025）",
+    "cas_display": "中科院 2区（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    },
+    {
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ]
+    },
+    {
+      "label": "Fig10",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ]
+    },
+    {
+      "label": "Fig11",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ]
+    },
+    {
+      "label": "Fig12",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ]
+    },
+    {
+      "label": "Fig13",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig13/Fig13.svg",
+        "figures/vector/Fig13/Fig13.pptx"
+      ]
+    }
+  ]
+}

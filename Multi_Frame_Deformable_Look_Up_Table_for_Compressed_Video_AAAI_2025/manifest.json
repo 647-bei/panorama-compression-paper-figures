@@ -1,0 +1,296 @@
+{
+  "paper": "Multi_Frame_Deformable_Look_Up_Table_for_Compressed_Video_AAAI_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 9,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure1:Illustrationofdifferentmodelperformanceat 1280×720resolutionatQP37.Real-timedenotestherun- time faster than 30 fps.",
+      "caption_en": "Figure1:Illustrationofdifferentmodelperformanceat 1280×720resolutionatQP37.Real-timedenotestherun- time faster than 30 fps.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        380.661,
+        558.014,
+        412.542
+      ],
+      "content_bbox": [
+        316.851,
+        213.497,
+        562.599,
+        376.389
+      ],
+      "crop_bbox": [
+        316.851,
+        213.497,
+        562.599,
+        376.389
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2: Overview of the proposed method for compressed video quality enhancement.",
+      "caption_en": "Figure 2: Overview of the proposed method for compressed video quality enhancement.",
+      "caption_zh": "",
+      "caption_bbox": [
+        130.779,
+        317.269,
+        481.238,
+        327.232
+      ],
+      "content_bbox": [
+        56.195,
+        55.421,
+        556.737,
+        305.506
+      ],
+      "crop_bbox": [
+        56.195,
+        55.421,
+        556.737,
+        305.506
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure3:Thecoordinatesofthefourkernelpositionsare obtainedbysummingthepredictedoffsetswiththeglobal andlocalcoordinates.Thenthealignedpixelpointscanbe obtained by indexing the corresponding coordinates.",
+      "caption_en": "Figure3:Thecoordinatesofthefourkernelpositionsare obtainedbysummingthepredictedoffsetswiththeglobal andlocalcoordinates.Thenthealignedpixelpointscanbe obtained by indexing the corresponding coordinates.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        201.58,
+        292.514,
+        244.419
+      ],
+      "content_bbox": [
+        75.539,
+        51.629,
+        271.232,
+        190.452
+      ],
+      "crop_bbox": [
+        75.539,
+        51.629,
+        271.232,
+        190.452
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table 1: Quantitative results of ∆PSNR (dB) / ∆SSIM (×10−2) on 18 test videos at 4 different QPs.",
+      "caption_en": "Table 1: Quantitative results of ∆PSNR (dB) / ∆SSIM (×10−2) on 18 test videos at 4 different QPs.",
+      "caption_zh": "",
+      "caption_bbox": [
+        105.454,
+        362.592,
+        506.553,
+        374.155
+      ],
+      "content_bbox": [
+        58.656,
+        54.199,
+        553.344,
+        353.477
+      ],
+      "crop_bbox": [
+        58.656,
+        54.199,
+        553.344,
+        353.477
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 4,
+      "caption": "Table2:Runtimeofcomparedmethodsatdifferentresolu- tions.",
+      "caption_en": "Table2:Runtimeofcomparedmethodsatdifferentresolu- tions.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        518.786,
+        292.514,
+        539.708
+      ],
+      "content_bbox": [
+        69.564,
+        395.319,
+        279.179,
+        508.35
+      ],
+      "crop_bbox": [
+        69.564,
+        395.319,
+        279.179,
+        508.35
+      ],
+      "original": "tables/original/Table2_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Figure 5: Qualitative results of different methods at QP37. The average ∆PSNR(dB) and ∆SSIM(×10−2) are indicated at the bottom of the images.",
+      "caption_en": "Figure 5: Qualitative results of different methods at QP37. The average ∆PSNR(dB) and ∆SSIM(×10−2) are indicated at the bottom of the images.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        327.717,
+        558.004,
+        350.239
+      ],
+      "content_bbox": [
+        55.409,
+        65.409,
+        556.197,
+        321.278
+      ],
+      "crop_bbox": [
+        55.409,
+        65.409,
+        556.197,
+        321.278
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table 3: Comparison of model performance at different training stages under QP37.",
+      "caption_en": "Table 3: Comparison of model performance at different training stages under QP37.",
+      "caption_zh": "",
+      "caption_bbox": [
+        139.127,
+        134.816,
+        472.888,
+        144.779
+      ],
+      "content_bbox": [
+        268.267,
+        68.417,
+        512.337,
+        82.285
+      ],
+      "crop_bbox": [
+        268.267,
+        68.417,
+        512.337,
+        82.285
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 6,
+      "caption": "Table 4 demon- strates the performance under different modules. Firstly, the comparisonbetween(A)andourmodelillustratesthesig- nificance of introducing multi-frame information. Secondly, model(B)and(C)demonstratetheperformanceimprove- mentofthemulti-scaleTFEM.Inaddition,(D)illustrat- ingtheeffectivenessoftheenhancementofthemulti-scale alignedinformation.Finally,theintroductionoftheMV leads to further improvements in model performance. TheeffectivenessofdeformableLUTs.Forvideo frameswithasinglechannelinput,previousmethodsneed toqueryfourtimes(multiplequeriesduringinterpolation arecountedasone)toproduceeachoutputpixelpointdue totherotationstrategy(rotationof0,90,180,and270de- grees). Since our method does not take the rotation strategy, the number of LUT queries is much smaller. In addition, the multi-scale structure allows our method to complete queries faster. Table 5 shows that our method possesses higher effi- ciency than the compared LUT-based methods.",
+      "caption_en": "Table 4 demon- strates the performance under different modules. Firstly, the comparisonbetween(A)andourmodelillustratesthesig- nificance of introducing multi-frame information. Secondly, model(B)and(C)demonstratetheperformanceimprove- mentofthemulti-scaleTFEM.Inaddition,(D)illustrat- ingtheeffectivenessoftheenhancementofthemulti-scale alignedinformation.Finally,theintroductionoftheMV leads to further improvements in model performance. TheeffectivenessofdeformableLUTs.Forvideo frameswithasinglechannelinput,previousmethodsneed toqueryfourtimes(multiplequeriesduringinterpolation arecountedasone)toproduceeachoutputpixelpointdue totherotationstrategy(rotationof0,90,180,and270de- grees). Since our method does not take the rotation strategy, the number of LUT queries is much smaller. In addition, the multi-scale structure allows our method to complete queries faster. Table 5 shows that our method possesses higher effi- ciency than the compared LUT-based methods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        301.633,
+        558.015,
+        511.172
+      ],
+      "content_bbox": [
+        55.147,
+        82.285,
+        555.173,
+        302.398
+      ],
+      "crop_bbox": [
+        55.147,
+        82.285,
+        555.173,
+        302.398
+      ],
+      "original": "tables/original/Table4_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 6,
+      "caption": "Table 5: Comparison of query times and performance of dif- ferent LUT-based methods.",
+      "caption_en": "Table 5: Comparison of query times and performance of dif- ferent LUT-based methods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        377.785,
+        292.514,
+        398.707
+      ],
+      "content_bbox": [
+        91.683,
+        292.563,
+        230.297,
+        315.27
+      ],
+      "crop_bbox": [
+        91.683,
+        292.563,
+        230.297,
+        315.27
+      ],
+      "original": "tables/original/Table5_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Multi_Frame_Deformable_Look_Up_Table_for_Compressed_Video_AAAI_2025",
+    "title": "Multi-Frame Deformable Look-Up Table for Compressed Video Quality Enhancement",
+    "venue": "AAAI",
+    "venue_full": "AAAI",
+    "venue_short": "AAAI",
+    "venue_type": "会议",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "b0848c262f66b8917fe626067e02a1801ab56b2eb56e99ab838c08dee8d6c94e",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\AAAI 2025-2025-压缩视频质量增强 LUT实时-Multi-Frame Deformable Look-Up Table for Compressed Video Quality Enhancement.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\WW5NFD8Q\\He 等 - Multi-Frame Deformable Look-Up Table for Compressed Video Quality Enhancement.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  }
+}

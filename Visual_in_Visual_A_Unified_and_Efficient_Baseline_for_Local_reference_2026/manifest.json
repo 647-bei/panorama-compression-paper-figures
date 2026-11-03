@@ -1,0 +1,1785 @@
+{
+  "paper": "Visual_in_Visual_A_Unified_and_Efficient_Baseline_for_Local_reference_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 19,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig. 1. (a) High-level conceptual diagram of the proposed visual-in-visual network. (b) Overview of the image restoration tasks supported by the method, covering various degradation settings and application domains.",
+      "caption_en": "Fig. 1. (a) High-level conceptual diagram of the proposed visual-in-visual network. (b) Overview of the image restoration tasks supported by the method, covering various degradation settings and application domains.",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.12,
+        247.904,
+        556.23,
+        264.838
+      ],
+      "content_bbox": [
+        58.077,
+        66.97,
+        540.177,
+        236.058
+      ],
+      "crop_bbox": [
+        58.077,
+        66.97,
+        540.177,
+        236.058
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  46.9% 画面  (10.00 x 3.51 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Fig. 2. Comparison between state-of-the-art algorithms and our methods in terms of parameter count and across various image restoration settings, including general-purpose, all-in-one, composite degradation, and ultra-high-deﬁnition.",
+      "caption_en": "Fig. 2. Comparison between state-of-the-art algorithms and our methods in terms of parameter count and across various image restoration settings, including general-purpose, all-in-one, composite degradation, and ultra-high-deﬁnition.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.908,
+        256.364,
+        552.005,
+        273.298
+      ],
+      "content_bbox": [
+        48.951,
+        66.88,
+        540.951,
+        244.518
+      ],
+      "crop_bbox": [
+        48.951,
+        66.88,
+        540.951,
+        244.518
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  48.2% 画面  (10.00 x 3.62 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Fig. 3. (a) Architecture of the Visual-in-Visual Network (VIVNet) for universal image restoration, featuring a U-shaped macro visual design and micro visual basic blocks at each stage. (b) Each basic block primarily comprises the proposed Brain-Inspired Module (BIM) and a feed-forward network (FFN) [14]. (c) The BIM includes three processing stages: 1) the encoding stage captures visual cues at multiple spatial scales by emulating foveal and peripheral vision mechanisms; 2) the similarity-aware weighting mechanism assigns weights based on a cosine similarity map to emphasize informative features and suppress redundancy; and 3) the iterative use of element-wise multiplication combined with depth-wise convolutions to model high-order interactions. Overall, the BIM leverages lightweight operations to mimic human visual processing while maintaining high efﬁciency.",
+      "caption_en": "Fig. 3. (a) Architecture of the Visual-in-Visual Network (VIVNet) for universal image restoration, featuring a U-shaped macro visual design and micro visual basic blocks at each stage. (b) Each basic block primarily comprises the proposed Brain-Inspired Module (BIM) and a feed-forward network (FFN) [14]. (c) The BIM includes three processing stages: 1) the encoding stage captures visual cues at multiple spatial scales by emulating foveal and peripheral vision mechanisms; 2) the similarity-aware weighting mechanism assigns weights based on a cosine similarity map to emphasize informative features and suppress redundancy; and 3) the iterative use of element-wise multiplication combined with depth-wise convolutions to model high-order interactions. Overall, the BIM leverages lightweight operations to mimic human visual processing while maintaining high efﬁciency.",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.12,
+        323.495,
+        556.255,
+        376.375
+      ],
+      "content_bbox": [
+        65.388,
+        66.576,
+        532.757,
+        311.613
+      ],
+      "crop_bbox": [
+        65.388,
+        66.576,
+        532.757,
+        311.613
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.04 in\n\n形状统计 (723 个):\n  FREEFORM (5)                 713\n  AUTO_SHAPE (1)               9\n  PICTURE (13)                 1\n\n矢量形状: 722\n位图图片: 1\n  94.0% 画面  (13.22 x 6.68 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 12090179 x 6107493 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "TABLE I ARCHITECTURAL CONFIGURATIONSOF FOUR VARIANTSOFTHE PROPOSED NETWORK",
+      "caption_en": "TABLE I ARCHITECTURAL CONFIGURATIONSOF FOUR VARIANTSOFTHE PROPOSED NETWORK",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.221,
+        65.024,
+        286.071,
+        90.922
+      ],
+      "content_bbox": [
+        44.649,
+        101.68,
+        290.399,
+        158.019
+      ],
+      "crop_bbox": [
+        44.649,
+        101.68,
+        290.399,
+        158.019
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table10",
+      "page": 6,
+      "caption": "TableX.Theproposedmodelachievesthebestresultson both the dehazing and denoising tasks. Compared to the recent MoCE-IR [29], which adopts a mixture-of-experts strategy for improvedefﬁciency,ourapproachachievesanaveragePSNR gainof0.18dBacrossalldegradationtypesandanotable improvementof0.85dBonthedehazingtask.Thissuperior performanceisachievedwithonly29%oftheparameters, highlighting the efﬁciency of our design. 2)Five-TaskSetting:Wefurtherevaluateourmodelunder amorechallengingﬁve-tasksettingbyadditionallyincluding motion deblurring and low-light image enhancement. As shown inTableXI,ourmethodachievesthebestresultsonmost datasets.Whenaveragedacrossalldatasets,itsurpassesthe smallversionofMoCE-IR[29]by0.62dBinPSNR.Even compared with its normal version, our model achieves a 0.12 dB improvement while reducing parameters by 71%. Furthermore, it outperforms the recent AdaIR [25], which leverages frequency priors to boost performance, on all metrics while using only 26% of the parameters. The visual results on the real LOLv1 [97] dataset are shown in Fig. 7. Our model is able to recover richer structural and textural details from the challenging low-light images compared with the recent frequency-based AdaIR [25], producing clearer and more visually faithful restorations. 3)GeneralizationEvaluation:Toassessthegeneralization capabilityofourmodel,wefollow[25],[26]anddirectly applythemodelpre-trainedundertheﬁve-tasksettingtotwo additional denoising datasets: Urban100 [98] and Kodak24 [99]. Table XII shows that our model attains the highest scores on both datasets, outperforming strong competitors. In particular, under",
+      "caption_en": "TableX.Theproposedmodelachievesthebestresultson both the dehazing and denoising tasks. Compared to the recent MoCE-IR [29], which adopts a mixture-of-experts strategy for improvedefﬁciency,ourapproachachievesanaveragePSNR gainof0.18dBacrossalldegradationtypesandanotable improvementof0.85dBonthedehazingtask.Thissuperior performanceisachievedwithonly29%oftheparameters, highlighting the efﬁciency of our design. 2)Five-TaskSetting:Wefurtherevaluateourmodelunder amorechallengingﬁve-tasksettingbyadditionallyincluding motion deblurring and low-light image enhancement. As shown inTableXI,ourmethodachievesthebestresultsonmost datasets.Whenaveragedacrossalldatasets,itsurpassesthe smallversionofMoCE-IR[29]by0.62dBinPSNR.Even compared with its normal version, our model achieves a 0.12 dB improvement while reducing parameters by 71%. Furthermore, it outperforms the recent AdaIR [25], which leverages frequency priors to boost performance, on all metrics while using only 26% of the parameters. The visual results on the real LOLv1 [97] dataset are shown in Fig. 7. Our model is able to recover richer structural and textural details from the challenging low-light images compared with the recent frequency-based AdaIR [25], producing clearer and more visually faithful restorations. 3)GeneralizationEvaluation:Toassessthegeneralization capabilityofourmodel,wefollow[25],[26]anddirectly applythemodelpre-trainedundertheﬁve-tasksettingtotwo additional denoising datasets: Urban100 [98] and Kodak24 [99]. Table XII shows that our model attains the highest scores on both datasets, outperforming strong competitors. In particular, under",
+      "caption_zh": "",
+      "caption_bbox": [
+        300.916,
+        388.139,
+        551.987,
+        756.755
+      ],
+      "content_bbox": [
+        64.935,
+        167.758,
+        445.866,
+        390.176
+      ],
+      "crop_bbox": [
+        64.935,
+        167.758,
+        445.866,
+        390.176
+      ],
+      "original": "tables/original/Table10_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table10.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "TABLE II QUANTITATIVE COMPARISONSONTHE SRRS [63]AND SNOW100K [64] DATASETSFOR IMAGE DESNOWING",
+      "caption_en": "TABLE II QUANTITATIVE COMPARISONSONTHE SRRS [63]AND SNOW100K [64] DATASETSFOR IMAGE DESNOWING",
+      "caption_zh": "",
+      "caption_bbox": [
+        124.65,
+        65.024,
+        465.241,
+        81.958
+      ],
+      "content_bbox": [
+        143.442,
+        93.836,
+        445.866,
+        187.485
+      ],
+      "crop_bbox": [
+        143.442,
+        93.836,
+        445.866,
+        187.485
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "TABLE III DERAINING RESULTSONTHE SYNTHETIC DID-DATA [67]AND REAL-WORLD SPA-DATA [68] DATASETS",
+      "caption_en": "TABLE III DERAINING RESULTSONTHE SYNTHETIC DID-DATA [67]AND REAL-WORLD SPA-DATA [68] DATASETS",
+      "caption_zh": "",
+      "caption_bbox": [
+        40.977,
+        201.725,
+        285.896,
+        227.632
+      ],
+      "content_bbox": [
+        64.935,
+        239.567,
+        261.327,
+        328.011
+      ],
+      "crop_bbox": [
+        64.935,
+        239.567,
+        261.327,
+        328.011
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 6,
+      "caption": "TABLE IV DERAINING RESULTSON AGAN-DATA [73]",
+      "caption_en": "TABLE IV DERAINING RESULTSON AGAN-DATA [73]",
+      "caption_zh": "",
+      "caption_bbox": [
+        94.563,
+        339.587,
+        232.318,
+        356.53
+      ],
+      "content_bbox": [
+        72.936,
+        368.533,
+        253.052,
+        392.468
+      ],
+      "crop_bbox": [
+        72.936,
+        368.533,
+        253.052,
+        392.468
+      ],
+      "original": "tables/original/Table4_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 6,
+      "caption": "TABLE V ENHANCEMENT RESULTSON LOL-V2-S [78]",
+      "caption_en": "TABLE V ENHANCEMENT RESULTSON LOL-V2-S [78]",
+      "caption_zh": "",
+      "caption_bbox": [
+        91.908,
+        427.49,
+        234.974,
+        444.424
+      ],
+      "content_bbox": [
+        71.937,
+        456.436,
+        254.22,
+        503.808
+      ],
+      "crop_bbox": [
+        71.937,
+        456.436,
+        254.22,
+        503.808
+      ],
+      "original": "tables/original/Table5_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 7,
+      "caption": "Fig. 4. Visual results on Haze4k [91] for dehazing. Our model exhibits superior brightness perception, producing results that more closely match the reference images. Speciﬁcally, in the ﬁrst example, the sky regions appear brighter than those of the competitors, and in the second, darker, both consistent with the ground truth. Error heatmaps between restored and reference images are provided, with brighter pixels indicating larger errors.",
+      "caption_en": "Fig. 4. Visual results on Haze4k [91] for dehazing. Our model exhibits superior brightness perception, producing results that more closely match the reference images. Speciﬁcally, in the ﬁrst example, the sky regions appear brighter than those of the competitors, and in the second, darker, both consistent with the ground truth. Error heatmaps between restored and reference images are provided, with brighter pixels indicating larger errors.",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.12,
+        440.891,
+        556.224,
+        466.789
+      ],
+      "content_bbox": [
+        53.163,
+        93.92,
+        545.163,
+        429.036
+      ],
+      "crop_bbox": [
+        53.163,
+        93.92,
+        545.163,
+        429.036
+      ],
+      "original": "figures/original/Fig4_p007.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.12 in\n\n形状统计 (646 个):\n  FREEFORM (5)                 645\n  PICTURE (13)                 1\n\n矢量形状: 645\n位图图片: 1\n  56.8% 画面  (13.22 x 5.23 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 12091861 x 4777759 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 7,
+      "caption": "Fig. 5. Visual results on the real-world SPA-Data [68] dataset for deraining.",
+      "caption_en": "Fig. 5. Visual results on the real-world SPA-Data [68] dataset for deraining.",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.12,
+        726.947,
+        290.476,
+        734.917
+      ],
+      "content_bbox": [
+        42.12,
+        93.92,
+        556.224,
+        714.939
+      ],
+      "crop_bbox": [
+        42.12,
+        93.92,
+        556.224,
+        714.939
+      ],
+      "original": "figures/original/Fig5_p007.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  81.3% 画面  (8.13 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 7433862 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 7,
+      "caption": "TABLE VI SINGLE-IMAGE DEFOCUS DEBLURRING COMPARISONSONTHE DPDD [81] TEST SET (CONTAINING 37 INDOORAND 39 OUTDOOR SCENES)",
+      "caption_en": "TABLE VI SINGLE-IMAGE DEFOCUS DEBLURRING COMPARISONSONTHE DPDD [81] TEST SET (CONTAINING 37 INDOORAND 39 OUTDOOR SCENES)",
+      "caption_zh": "",
+      "caption_bbox": [
+        78.93,
+        65.024,
+        519.375,
+        81.958
+      ],
+      "content_bbox": [
+        53.163,
+        93.92,
+        545.163,
+        429.036
+      ],
+      "crop_bbox": [
+        53.163,
+        93.92,
+        545.163,
+        429.036
+      ],
+      "original": "tables/original/Table6_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 7,
+      "caption": "TABLE VII QUANTITATIVE RESULTSONTHE GOPRO [85] DATASETFOR MOTION DEBLURRING",
+      "caption_en": "TABLE VII QUANTITATIVE RESULTSONTHE GOPRO [85] DATASETFOR MOTION DEBLURRING",
+      "caption_zh": "",
+      "caption_bbox": [
+        322.173,
+        484.442,
+        539.157,
+        510.34
+      ],
+      "content_bbox": [
+        350.667,
+        521.022,
+        509.718,
+        618.432
+      ],
+      "crop_bbox": [
+        350.667,
+        521.022,
+        509.718,
+        618.432
+      ],
+      "original": "tables/original/Table7_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table11",
+      "page": 8,
+      "caption": "TABLE XI QUANTITATIVE RESULTSFORTHE ALL-IN-ONE FIVE-TASK SETTING",
+      "caption_en": "TABLE XI QUANTITATIVE RESULTSFORTHE ALL-IN-ONE FIVE-TASK SETTING",
+      "caption_zh": "",
+      "caption_bbox": [
+        188.037,
+        472.094,
+        401.844,
+        489.037
+      ],
+      "content_bbox": [
+        61.245,
+        501.006,
+        528.545,
+        606.957
+      ],
+      "crop_bbox": [
+        61.245,
+        501.006,
+        528.545,
+        606.957
+      ],
+      "original": "tables/original/Table11_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table11.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table12",
+      "page": 8,
+      "caption": "TABLE XII PSNR RESULTSOFTHE MODEL PRE-TRAINEDINTHE FIVE-TASK ALL-IN-ONE SETTING, EVALUATEDON BSD68 [101], URBAN100 [98],AND KODAK24 [99]",
+      "caption_en": "TABLE XII PSNR RESULTSOFTHE MODEL PRE-TRAINEDINTHE FIVE-TASK ALL-IN-ONE SETTING, EVALUATEDON BSD68 [101], URBAN100 [98],AND KODAK24 [99]",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.204,
+        621.206,
+        287.671,
+        647.104
+      ],
+      "content_bbox": [
+        38.943,
+        648.098,
+        287.144,
+        740.229
+      ],
+      "crop_bbox": [
+        38.943,
+        648.098,
+        287.144,
+        740.229
+      ],
+      "original": "tables/original/Table12_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table12.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 8,
+      "caption": "TABLE VIII QUANTITATIVE COMPARISONSONTHE SYNTHETIC SOTS-INDOORDATASET [87]AND TWO REAL-WORLD DATASETS, DENSE-HAZE [88]AND NH-HAZE [89],FOR THE IMAGE DEHAZING TASK",
+      "caption_en": "TABLE VIII QUANTITATIVE COMPARISONSONTHE SYNTHETIC SOTS-INDOORDATASET [87]AND TWO REAL-WORLD DATASETS, DENSE-HAZE [88]AND NH-HAZE [89],FOR THE IMAGE DEHAZING TASK",
+      "caption_zh": "",
+      "caption_bbox": [
+        38.044,
+        65.024,
+        551.84,
+        90.922
+      ],
+      "content_bbox": [
+        121.446,
+        101.604,
+        468.009,
+        199.014
+      ],
+      "crop_bbox": [
+        121.446,
+        101.604,
+        468.009,
+        199.014
+      ],
+      "original": "tables/original/Table8_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table9",
+      "page": 8,
+      "caption": "TABLE IX QUANTITATIVE COMPARISONSONTHE HAZE4K [91] DATASETFOR IMAGE DEHAZING",
+      "caption_en": "TABLE IX QUANTITATIVE COMPARISONSONTHE HAZE4K [91] DATASETFOR IMAGE DEHAZING",
+      "caption_zh": "",
+      "caption_bbox": [
+        160.623,
+        213.254,
+        429.265,
+        230.188
+      ],
+      "content_bbox": [
+        48.951,
+        242.419,
+        540.951,
+        310.722
+      ],
+      "crop_bbox": [
+        48.951,
+        242.419,
+        540.951,
+        310.722
+      ],
+      "original": "tables/original/Table9_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table9.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 9,
+      "caption": "Fig. 6. Visual comparison of motion deblurring results on GoPro [85].",
+      "caption_en": "Fig. 6. Visual comparison of motion deblurring results on GoPro [85].",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.12,
+        192.536,
+        272.937,
+        200.506
+      ],
+      "content_bbox": [
+        41.652,
+        66.399,
+        555.723,
+        192.536
+      ],
+      "crop_bbox": [
+        41.652,
+        66.399,
+        555.723,
+        192.536
+      ],
+      "original": "figures/original/Fig6_p009.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  32.8% 画面  (10.00 x 2.46 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 9,
+      "caption": "Fig. 7. Visual results on the real LOLv1 [97] dataset in the ﬁve-task setting.",
+      "caption_en": "Fig. 7. Visual results on the real LOLv1 [97] dataset in the ﬁve-task setting.",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.12,
+        399.716,
+        290.288,
+        407.686
+      ],
+      "content_bbox": [
+        41.652,
+        66.399,
+        556.227,
+        387.87
+      ],
+      "crop_bbox": [
+        41.652,
+        66.399,
+        556.227,
+        387.87
+      ],
+      "original": "figures/original/Fig7_p009.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  83.3% 画面  (10.00 x 6.25 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5715555 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 9,
+      "caption": "Fig. 8. Qualitative results on challenging real-world hazy images [100], with models applied in a zero-shot manner.",
+      "caption_en": "Fig. 8. Qualitative results on challenging real-world hazy images [100], with models applied in a zero-shot manner.",
+      "caption_zh": "",
+      "caption_bbox": [
+        305.136,
+        207.368,
+        556.189,
+        224.302
+      ],
+      "content_bbox": [
+        41.652,
+        66.399,
+        555.723,
+        200.506
+      ],
+      "crop_bbox": [
+        41.652,
+        66.399,
+        555.723,
+        200.506
+      ],
+      "original": "figures/original/Fig8_p009.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  34.9% 画面  (10.00 x 2.62 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 9,
+      "caption": "Fig. 9. t-SNE visualization of intermediate features generated by our models in two all-in-one settings.",
+      "caption_en": "Fig. 9. t-SNE visualization of intermediate features generated by our models in two all-in-one settings.",
+      "caption_zh": "",
+      "caption_bbox": [
+        305.136,
+        351.197,
+        556.227,
+        368.131
+      ],
+      "content_bbox": [
+        309.663,
+        240.428,
+        550.825,
+        339.351
+      ],
+      "crop_bbox": [
+        309.663,
+        240.428,
+        550.825,
+        339.351
+      ],
+      "original": "figures/original/Fig9_p009.png",
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  54.8% 画面  (10.00 x 4.11 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3757937 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table13",
+      "page": 9,
+      "caption": "TABLE XIII GENERALIZATION EVALUATIONOF OUR FIVE-TASK MODELON THREE UNSEEN TASKS",
+      "caption_en": "TABLE XIII GENERALIZATION EVALUATIONOF OUR FIVE-TASK MODELON THREE UNSEEN TASKS",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.12,
+        424.556,
+        293.164,
+        450.454
+      ],
+      "content_bbox": [
+        44.154,
+        461.212,
+        291.132,
+        517.551
+      ],
+      "crop_bbox": [
+        44.154,
+        461.212,
+        291.132,
+        517.551
+      ],
+      "original": "tables/original/Table13_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table13.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 10,
+      "caption": "Fig. 10. Visual comparisons on the LOLBlur [27] dataset for image restoration under composite degradations.",
+      "caption_en": "Fig. 10. Visual comparisons on the LOLBlur [27] dataset for image restoration under composite degradations.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.908,
+        243.071,
+        395.656,
+        251.041
+      ],
+      "content_bbox": [
+        48.951,
+        93.508,
+        540.951,
+        231.225
+      ],
+      "crop_bbox": [
+        48.951,
+        93.508,
+        540.951,
+        231.225
+      ],
+      "original": "figures/original/Fig10_p010.png",
+      "vector": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.81 in\n\n形状统计 (259 个):\n  FREEFORM (5)                 258\n  PICTURE (13)                 1\n\n矢量形状: 258\n位图图片: 1\n  53.1% 画面  (13.22 x 2.04 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 12091860 x 1866865 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig11",
+      "page": 10,
+      "caption": "Fig. 11. Visual comparisons on the CDD-11 [28] dataset for image restoration under composite degradations.",
+      "caption_en": "Fig. 11. Visual comparisons on the CDD-11 [28] dataset for image restoration under composite degradations.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.908,
+        370.466,
+        393.442,
+        378.436
+      ],
+      "content_bbox": [
+        37.908,
+        243.071,
+        540.951,
+        358.611
+      ],
+      "crop_bbox": [
+        37.908,
+        243.071,
+        540.951,
+        358.611
+      ],
+      "original": "figures/original/Fig11_p010.png",
+      "vector": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  30.7% 画面  (10.00 x 2.30 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig12",
+      "page": 10,
+      "caption": "Fig. 12. Visual results on UHD-LL [56] for generalization evaluations.",
+      "caption_en": "Fig. 12. Visual results on UHD-LL [56] for generalization evaluations.",
+      "caption_zh": "",
+      "caption_bbox": [
+        300.924,
+        531.017,
+        533.296,
+        538.987
+      ],
+      "content_bbox": [
+        37.908,
+        93.508,
+        550.029,
+        531.017
+      ],
+      "crop_bbox": [
+        37.908,
+        93.508,
+        550.029,
+        531.017
+      ],
+      "original": "figures/original/Fig12_p010.png",
+      "vector": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.41 in\n\n形状统计 (539 个):\n  FREEFORM (5)                 505\n  TEXT_BOX (17)                31\n  PICTURE (13)                 3\n\n矢量形状: 536\n位图图片: 3\n  18.1% 画面  (12.70 x 2.16 in)\n  16.4% 画面  (12.70 x 1.96 in)\n  13.6% 画面  (6.38 x 3.23 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table14",
+      "page": 10,
+      "caption": "TABLE XIV QUANTITATIVE RESULTSONTHE LOLBLUR [27] DATASETFOR COMPOSITE DEGRADATIONS",
+      "caption_en": "TABLE XIV QUANTITATIVE RESULTSONTHE LOLBLUR [27] DATASETFOR COMPOSITE DEGRADATIONS",
+      "caption_zh": "",
+      "caption_bbox": [
+        150.03,
+        65.024,
+        439.862,
+        81.958
+      ],
+      "content_bbox": [
+        48.951,
+        93.508,
+        540.951,
+        231.225
+      ],
+      "crop_bbox": [
+        48.951,
+        93.508,
+        540.951,
+        231.225
+      ],
+      "original": "tables/original/Table14_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table14.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table15",
+      "page": 10,
+      "caption": "TABLE XV AVERAGE LPIPS SCORESINTHE THREE-TASK ALL-IN-ONE SETTING",
+      "caption_en": "TABLE XV AVERAGE LPIPS SCORESINTHE THREE-TASK ALL-IN-ONE SETTING",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.577,
+        392.507,
+        272.301,
+        409.441
+      ],
+      "content_bbox": [
+        38.439,
+        420.123,
+        287.824,
+        458.529
+      ],
+      "crop_bbox": [
+        38.439,
+        420.123,
+        287.824,
+        458.529
+      ],
+      "original": "tables/original/Table15_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table15.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table16",
+      "page": 10,
+      "caption": "TABLE XVI GENERALIZATION EVALUATION RESULTSONTHE UHD-LL [56] DATASET",
+      "caption_en": "TABLE XVI GENERALIZATION EVALUATION RESULTSONTHE UHD-LL [56] DATASET",
+      "caption_zh": "",
+      "caption_bbox": [
+        47.52,
+        470.717,
+        279.349,
+        487.651
+      ],
+      "content_bbox": [
+        38.439,
+        499.663,
+        288.42,
+        541.93
+      ],
+      "crop_bbox": [
+        38.439,
+        499.663,
+        288.42,
+        541.93
+      ],
+      "original": "tables/original/Table16_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table16.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table17",
+      "page": 11,
+      "caption": "TABLE XVII QUANTITATIVE RESULTSON CDD-11 [28]FOR COMPOSITE DEGRADATION IMAGE RESTORATION. RESULTSARE REPORTEDIN PSNRAND SSIM.",
+      "caption_en": "TABLE XVII QUANTITATIVE RESULTSON CDD-11 [28]FOR COMPOSITE DEGRADATION IMAGE RESTORATION. RESULTSARE REPORTEDIN PSNRAND SSIM.",
+      "caption_zh": "",
+      "caption_bbox": [
+        70.965,
+        65.024,
+        527.333,
+        81.958
+      ],
+      "content_bbox": [
+        53.163,
+        94.084,
+        545.163,
+        186.486
+      ],
+      "crop_bbox": [
+        53.163,
+        94.084,
+        545.163,
+        186.486
+      ],
+      "original": "tables/original/Table17_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table17.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table18",
+      "page": 11,
+      "caption": "TABLE XVIII COMPARISONSON UHD-HAZE [57]FOR UHD IMAGE DEHAZING",
+      "caption_en": "TABLE XVIII COMPARISONSON UHD-HAZE [57]FOR UHD IMAGE DEHAZING",
+      "caption_zh": "",
+      "caption_bbox": [
+        65.007,
+        200.726,
+        270.291,
+        217.669
+      ],
+      "content_bbox": [
+        60.967,
+        229.571,
+        274.334,
+        571.947
+      ],
+      "crop_bbox": [
+        60.967,
+        229.571,
+        274.334,
+        571.947
+      ],
+      "original": "tables/original/Table18_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table18.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table19",
+      "page": 11,
+      "caption": "TABLE XIX COMPARISONSON 4K-RAIN13K [58]FOR UHD IMAGE DERAINING",
+      "caption_en": "TABLE XIX COMPARISONSON 4K-RAIN13K [58]FOR UHD IMAGE DERAINING",
+      "caption_zh": "",
+      "caption_bbox": [
+        61.992,
+        332.18,
+        273.309,
+        349.114
+      ],
+      "content_bbox": [
+        84.15,
+        361.025,
+        250.876,
+        440.502
+      ],
+      "crop_bbox": [
+        84.15,
+        361.025,
+        250.876,
+        440.502
+      ],
+      "original": "tables/original/Table19_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table19.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table20",
+      "page": 11,
+      "caption": "TABLE XX COMPARISONSON UHD-BLUR [57]FOR UHD IMAGE DEBLURRING",
+      "caption_en": "TABLE XX COMPARISONSON UHD-BLUR [57]FOR UHD IMAGE DEBLURRING",
+      "caption_zh": "",
+      "caption_bbox": [
+        60.967,
+        463.634,
+        274.334,
+        480.568
+      ],
+      "content_bbox": [
+        87.147,
+        492.47,
+        247.226,
+        571.947
+      ],
+      "crop_bbox": [
+        87.147,
+        492.47,
+        247.226,
+        571.947
+      ],
+      "original": "tables/original/Table20_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table20.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table21",
+      "page": 11,
+      "caption": "TABLE XXI RESULTSON UHD-LL [56]FOR UHD LOW-LIGHT IMAGE ENHANCEMENT",
+      "caption_en": "TABLE XXI RESULTSON UHD-LL [56]FOR UHD LOW-LIGHT IMAGE ENHANCEMENT",
+      "caption_zh": "",
+      "caption_bbox": [
+        313.605,
+        200.726,
+        547.727,
+        217.669
+      ],
+      "content_bbox": [
+        356.166,
+        229.571,
+        504.37,
+        309.048
+      ],
+      "crop_bbox": [
+        356.166,
+        229.571,
+        504.37,
+        309.048
+      ],
+      "original": "tables/original/Table21_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table21.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table22",
+      "page": 11,
+      "caption": "TABLE XXII PET IMAGE SYNTHESIS RESULTSONTHE POLARSTAR M660 [115] DATASET",
+      "caption_en": "TABLE XXII PET IMAGE SYNTHESIS RESULTSONTHE POLARSTAR M660 [115] DATASET",
+      "caption_zh": "",
+      "caption_bbox": [
+        309.888,
+        323.225,
+        551.428,
+        340.159
+      ],
+      "content_bbox": [
+        344.664,
+        351.558,
+        516.018,
+        429.54
+      ],
+      "crop_bbox": [
+        344.664,
+        351.558,
+        516.018,
+        429.54
+      ],
+      "original": "tables/original/Table22_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table22.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table23",
+      "page": 12,
+      "caption": "TABLE XXIII CT IMAGE DENOISING RESULTSONTHE AAPM [120] DATASET",
+      "caption_en": "TABLE XXIII CT IMAGE DENOISING RESULTSONTHE AAPM [120] DATASET",
+      "caption_zh": "",
+      "caption_bbox": [
+        62.55,
+        65.024,
+        264.319,
+        81.958
+      ],
+      "content_bbox": [
+        42.354,
+        93.86,
+        284.518,
+        426.093
+      ],
+      "crop_bbox": [
+        42.354,
+        93.86,
+        284.518,
+        426.093
+      ],
+      "original": "tables/original/Table23_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table23.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table24",
+      "page": 12,
+      "caption": "TABLE XXIV MRI IMAGE SUPER-RESOLUTION RESULTSONTHE IXI [125] DATASET",
+      "caption_en": "TABLE XXIV MRI IMAGE SUPER-RESOLUTION RESULTSONTHE IXI [125] DATASET",
+      "caption_zh": "",
+      "caption_bbox": [
+        51.777,
+        186.911,
+        275.092,
+        203.854
+      ],
+      "content_bbox": [
+        42.354,
+        215.757,
+        284.518,
+        426.093
+      ],
+      "crop_bbox": [
+        42.354,
+        215.757,
+        284.518,
+        426.093
+      ],
+      "original": "tables/original/Table24_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table24.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table25",
+      "page": 12,
+      "caption": "TABLE XXV REMOTE SENSING IMAGE DEHAZING RESULTSONTHE THREE HAZE LEVELS OF SATEHAZE1K [130]",
+      "caption_en": "TABLE XXV REMOTE SENSING IMAGE DEHAZING RESULTSONTHE THREE HAZE LEVELS OF SATEHAZE1K [130]",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.354,
+        308.807,
+        284.518,
+        334.705
+      ],
+      "content_bbox": [
+        62.937,
+        346.617,
+        263.24,
+        426.093
+      ],
+      "crop_bbox": [
+        62.937,
+        346.617,
+        263.24,
+        426.093
+      ],
+      "original": "tables/original/Table25_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table25.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table26",
+      "page": 12,
+      "caption": "TABLE XXVI RESULTSON LSUI [134]FOR UNDERWATER IMAGE ENHANCEMENT",
+      "caption_en": "TABLE XXVI RESULTSON LSUI [134]FOR UNDERWATER IMAGE ENHANCEMENT",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.806,
+        65.024,
+        533.1,
+        81.958
+      ],
+      "content_bbox": [
+        76.437,
+        93.86,
+        489.358,
+        173.337
+      ],
+      "crop_bbox": [
+        76.437,
+        93.86,
+        489.358,
+        173.337
+      ],
+      "original": "tables/original/Table26_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table26.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table27",
+      "page": 12,
+      "caption": "TABLE XXVII INFERENCE TIME COMPARISON BETWEEN STATE-OF-THE-ART ALGORITHMS AND OUR METHOD ACROSS VARIOUS IMAGE RESTORATION TASKS. THE INFERENCE TIMEIS MEASUREDONAN NVIDIA TESLA A100 (40GB) GPU. THEVALUES INDICATETHE ACCURACY (+)AND SPEED (×) GAINS OVERTHE COMPETITOR.",
+      "caption_en": "TABLE XXVII INFERENCE TIME COMPARISON BETWEEN STATE-OF-THE-ART ALGORITHMS AND OUR METHOD ACROSS VARIOUS IMAGE RESTORATION TASKS. THE INFERENCE TIMEIS MEASUREDONAN NVIDIA TESLA A100 (40GB) GPU. THEVALUES INDICATETHE ACCURACY (+)AND SPEED (×) GAINS OVERTHE COMPETITOR.",
+      "caption_zh": "",
+      "caption_bbox": [
+        303.075,
+        199.115,
+        549.823,
+        251.914
+      ],
+      "content_bbox": [
+        308.655,
+        262.429,
+        543.437,
+        320.013
+      ],
+      "crop_bbox": [
+        308.655,
+        262.429,
+        543.437,
+        320.013
+      ],
+      "original": "tables/original/Table27_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table27.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table28",
+      "page": 13,
+      "caption": "TABLE XXVIII ABLATION STUDYONTHE PROPOSED COMPONENTS. SWAND HP REFERTO THE SIMILARITY-AWARE WEIGHTING MECHANISMAND HIGH-ORDER PROCESSING MODULE, RESPECTIVELY.",
+      "caption_en": "TABLE XXVIII ABLATION STUDYONTHE PROPOSED COMPONENTS. SWAND HP REFERTO THE SIMILARITY-AWARE WEIGHTING MECHANISMAND HIGH-ORDER PROCESSING MODULE, RESPECTIVELY.",
+      "caption_zh": "",
+      "caption_bbox": [
+        47.07,
+        65.024,
+        288.224,
+        99.895
+      ],
+      "content_bbox": [
+        45.369,
+        111.706,
+        289.924,
+        310.695
+      ],
+      "crop_bbox": [
+        45.369,
+        111.706,
+        289.924,
+        310.695
+      ],
+      "original": "tables/original/Table28_p013.png",
+      "vector": [],
+      "latex": "tables/latex/Table28.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table29",
+      "page": 13,
+      "caption": "TABLE XXIX ABLATION STUDYONTHE ORDEROF INTERACTIONS BETWEEN VISION SIGNALS. NET (F) INCREASESTHE NUMBEROF BASIC BLOCKSIN NET (A)TO MATCHTHE PARAMETER COUNTOF NET (D).",
+      "caption_en": "TABLE XXIX ABLATION STUDYONTHE ORDEROF INTERACTIONS BETWEEN VISION SIGNALS. NET (F) INCREASESTHE NUMBEROF BASIC BLOCKSIN NET (A)TO MATCHTHE PARAMETER COUNTOF NET (D).",
+      "caption_zh": "",
+      "caption_bbox": [
+        45.369,
+        184.445,
+        289.924,
+        219.316
+      ],
+      "content_bbox": [
+        46.152,
+        231.218,
+        289.068,
+        310.695
+      ],
+      "crop_bbox": [
+        46.152,
+        231.218,
+        289.068,
+        310.695
+      ],
+      "original": "tables/original/Table29_p013.png",
+      "vector": [],
+      "latex": "tables/latex/Table29.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table30",
+      "page": 13,
+      "caption": "TABLE XXX ABLATION STUDYONTHE KERNEL SIZEOFA DEPTH-WISE CONVOLUTIONIN THE ENCODING STAGE, WITHTHE OTHER KEPT FIXED AT 3 × 3. NET (G) ADOPTSA LARGER CHANNEL DIMENSION THAN NET (B).",
+      "caption_en": "TABLE XXX ABLATION STUDYONTHE KERNEL SIZEOFA DEPTH-WISE CONVOLUTIONIN THE ENCODING STAGE, WITHTHE OTHER KEPT FIXED AT 3 × 3. NET (G) ADOPTSA LARGER CHANNEL DIMENSION THAN NET (B).",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.079,
+        65.024,
+        553.238,
+        99.895
+      ],
+      "content_bbox": [
+        312.165,
+        111.831,
+        548.838,
+        196.73
+      ],
+      "crop_bbox": [
+        312.165,
+        111.831,
+        548.838,
+        196.73
+      ],
+      "original": "tables/original/Table30_p013.png",
+      "vector": [],
+      "latex": "tables/latex/Table30.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig13",
+      "page": 14,
+      "caption": "Fig. 13. Visualizations of intermediate features from the high-order processing mechanism. From left to right: the blurry input image, intermediate features with order numbers from 1 to 4, and the corresponding sharp image. As the order increases, feature responses become progressively stronger, and informative signals, such as the edges of salient objects, are more prominently highlighted and appear sharper.",
+      "caption_en": "Fig. 13. Visualizations of intermediate features from the high-order processing mechanism. From left to right: the blurry input image, intermediate features with order numbers from 1 to 4, and the corresponding sharp image. As the order increases, feature responses become progressively stronger, and informative signals, such as the edges of salient objects, are more prominently highlighted and appear sharper.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.908,
+        223.37,
+        552.003,
+        249.268
+      ],
+      "content_bbox": [
+        48.951,
+        66.195,
+        540.951,
+        211.515
+      ],
+      "crop_bbox": [
+        48.951,
+        66.195,
+        540.951,
+        211.515
+      ],
+      "original": "figures/original/Fig13_p014.png",
+      "vector": [
+        "figures/vector/Fig13/Fig13.svg",
+        "figures/vector/Fig13/Fig13.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  39.5% 画面  (10.00 x 2.96 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table31",
+      "page": 14,
+      "caption": "TABLE XXXI COMPARISON BETWEEN SWANDA SIMPLIFIED CHANNELATTENTION [104]",
+      "caption_en": "TABLE XXXI COMPARISON BETWEEN SWANDA SIMPLIFIED CHANNELATTENTION [104]",
+      "caption_zh": "",
+      "caption_bbox": [
+        43.281,
+        268.1,
+        283.601,
+        285.034
+      ],
+      "content_bbox": [
+        36.441,
+        286.028,
+        551.994,
+        744.798
+      ],
+      "crop_bbox": [
+        36.441,
+        286.028,
+        551.994,
+        744.798
+      ],
+      "original": "tables/original/Table31_p014.png",
+      "vector": [],
+      "latex": "tables/latex/Table31.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table32",
+      "page": 14,
+      "caption": "TABLE XXXII COMPARISONOF ALTERNATIVE SIMILARITY METRICSIN SW",
+      "caption_en": "TABLE XXXII COMPARISONOF ALTERNATIVE SIMILARITY METRICSIN SW",
+      "caption_zh": "",
+      "caption_bbox": [
+        67.563,
+        386.45,
+        259.301,
+        403.384
+      ],
+      "content_bbox": [
+        39.942,
+        414.032,
+        286.066,
+        443.472
+      ],
+      "crop_bbox": [
+        39.942,
+        414.032,
+        286.066,
+        443.472
+      ],
+      "original": "tables/original/Table32_p014.png",
+      "vector": [],
+      "latex": "tables/latex/Table32.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table33",
+      "page": 14,
+      "caption": "TABLE XXXIII COMPARISONOF ALTERNATIVE APPROACHESTOTHE HP MODULE",
+      "caption_en": "TABLE XXXIII COMPARISONOF ALTERNATIVE APPROACHESTOTHE HP MODULE",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.518,
+        463.832,
+        268.347,
+        480.766
+      ],
+      "content_bbox": [
+        38.439,
+        491.491,
+        287.704,
+        533.757
+      ],
+      "crop_bbox": [
+        38.439,
+        491.491,
+        287.704,
+        533.757
+      ],
+      "original": "tables/original/Table33_p014.png",
+      "vector": [],
+      "latex": "tables/latex/Table33.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table34",
+      "page": 14,
+      "caption": "Table XXXIV shows that increasing this coefﬁcient raises computationaloverhead.Accuracyimproveswithincreasing factors, peaking at 0.6, but declines beyond this point; for exam- ple, a factor of 0.8 results in a performance drop. This degrada- tion is likely due to signiﬁcant information loss introduced by the second linear layer. Therefore, maintaining a balanced channel reductionbetweenthetwolinearlayersismoreeffectivefor generating accurate attention weights. Three-scale or four-scale architecture? Following previous general and multi-task image restoration models [14], [15], [22], [25], [29], [62], [66], [104], [109], [141], we adopt a U-shaped architecturetoenableefﬁcientmulti-scalelearning.Existing approachestypicallyemployeitherathree-scaleorfour-scale pipeline. The key difference between these two variants is that the additional deepest layer in the four-scale design introduces asubstantialnumberofparameters.Toinvestigatethisdesign choice, we conduct experiments using our small model and its four-scalecounterpart,withthenumberofblockssetto[3,3,",
+      "caption_en": "Table XXXIV shows that increasing this coefﬁcient raises computationaloverhead.Accuracyimproveswithincreasing factors, peaking at 0.6, but declines beyond this point; for exam- ple, a factor of 0.8 results in a performance drop. This degrada- tion is likely due to signiﬁcant information loss introduced by the second linear layer. Therefore, maintaining a balanced channel reductionbetweenthetwolinearlayersismoreeffectivefor generating accurate attention weights. Three-scale or four-scale architecture? Following previous general and multi-task image restoration models [14], [15], [22], [25], [29], [62], [66], [104], [109], [141], we adopt a U-shaped architecturetoenableefﬁcientmulti-scalelearning.Existing approachestypicallyemployeitherathree-scaleorfour-scale pipeline. The key difference between these two variants is that the additional deepest layer in the four-scale design introduces asubstantialnumberofparameters.Toinvestigatethisdesign choice, we conduct experiments using our small model and its four-scalecounterpart,withthenumberofblockssetto[3,3,",
+      "caption_zh": "",
+      "caption_bbox": [
+        300.923,
+        531.595,
+        551.994,
+        744.798
+      ],
+      "content_bbox": [
+        36.441,
+        308.257,
+        549.498,
+        533.757
+      ],
+      "crop_bbox": [
+        36.441,
+        308.257,
+        549.498,
+        533.757
+      ],
+      "original": "tables/original/Table34_p014.png",
+      "vector": [],
+      "latex": "tables/latex/Table34.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig14",
+      "page": 15,
+      "caption": "Fig. 14. Visual results on Dense-Haze [88] for real-world image dehazing.",
+      "caption_en": "Fig. 14. Visual results on Dense-Haze [88] for real-world image dehazing.",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.12,
+        211.247,
+        286.09,
+        219.217
+      ],
+      "content_bbox": [
+        43.65,
+        92.64,
+        291.57,
+        199.401
+      ],
+      "crop_bbox": [
+        43.65,
+        92.64,
+        291.57,
+        199.401
+      ],
+      "original": "figures/original/Fig14_p015.png",
+      "vector": [
+        "figures/vector/Fig14/Fig14.svg",
+        "figures/vector/Fig14/Fig14.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.80 in\n\n形状统计 (97 个):\n  FREEFORM (5)                 96\n  PICTURE (13)                 1\n\n矢量形状: 96\n位图图片: 1\n  44.4% 画面  (13.22 x 2.60 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table35",
+      "page": 15,
+      "caption": "TABLE XXXV ABLATION STUDIESON DIFFERENT NUMBERSOF SCALES",
+      "caption_en": "TABLE XXXV ABLATION STUDIESON DIFFERENT NUMBERSOF SCALES",
+      "caption_zh": "",
+      "caption_bbox": [
+        76.851,
+        65.024,
+        258.437,
+        81.958
+      ],
+      "content_bbox": [
+        43.65,
+        92.64,
+        291.57,
+        199.401
+      ],
+      "crop_bbox": [
+        43.65,
+        92.64,
+        291.57,
+        199.401
+      ],
+      "original": "tables/original/Table35_p015.png",
+      "vector": [],
+      "latex": "tables/latex/Table35.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Visual_in_Visual_A_Unified_and_Efficient_Baseline_for_Local_reference_2026",
+    "title": "Visual-in-Visual: A Unified and Efficient Baseline for Image Restoration",
+    "venue": "TPAMI",
+    "venue_full": "TPAMI",
+    "venue_short": "TPAMI",
+    "venue_type": "期刊",
+    "year": 2026,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://www.ieee.org/publications/rights/index.html",
+    "pdf_url": "https://www.ieee.org/publications/rights/index.html",
+    "access": "local_pdf",
+    "source_sha256": "9b9e55d58c7056936bdb1336fc93789abd1eac7330884b1f661ad8d3a69a9309",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\JEB5AB3K\\Cui 等 - 2026 - Visual-in-visual A unified and efficient baseline for image restoration.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 1区 · Top（2025）",
+    "cas_display": "中科院 1区 · Top（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    },
+    {
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ]
+    },
+    {
+      "label": "Fig10",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ]
+    },
+    {
+      "label": "Fig11",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ]
+    },
+    {
+      "label": "Fig12",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ]
+    },
+    {
+      "label": "Fig13",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig13/Fig13.svg",
+        "figures/vector/Fig13/Fig13.pptx"
+      ]
+    },
+    {
+      "label": "Fig14",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig14/Fig14.svg",
+        "figures/vector/Fig14/Fig14.pptx"
+      ]
+    }
+  ]
+}

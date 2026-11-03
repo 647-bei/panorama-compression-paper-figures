@@ -1,0 +1,896 @@
+{
+  "paper": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0",
+  "pdf": "pdf/paper.pdf",
+  "pages": 14,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig.1:(a)AsimpleneuralnetworkarchitecturewithBack- wardResidual(BackReswithn=2)connectionsisshown. Thelayers inBlock1areunrolledn = 2timestoperformthe BackRescomputationwithweightsofConvlayerreusedat each unrolling step. (b) A network with 2 unique convolutional layersinBlock1isshown.Note,BackRescomputationin(a) achievesthesamelogicaldepthofthenetworkin(b).",
+      "caption_en": "Fig.1:(a)AsimpleneuralnetworkarchitecturewithBack- wardResidual(BackReswithn=2)connectionsisshown. Thelayers inBlock1areunrolledn = 2timestoperformthe BackRescomputationwithweightsofConvlayerreusedat each unrolling step. (b) A network with 2 unique convolutional layersinBlock1isshown.Note,BackRescomputationin(a) achievesthesamelogicaldepthofthenetworkin(b).",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        180.485,
+        300.021,
+        262.179
+      ],
+      "content_bbox": [
+        53.282,
+        59.002,
+        237.8,
+        170.509
+      ],
+      "crop_bbox": [
+        53.282,
+        59.002,
+        237.8,
+        170.509
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.10 in\n\n形状统计 (75 个):\n  FREEFORM (5)                 49\n  TEXT_BOX (17)                26\n\n矢量形状: 75\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Fig.2:(a)Afeedforwardfully-connectedSNNarchitec- turewithLeaky-Integrate-and-Fire(LIF)spikingdynamicsis shown.ThenotationscorrespondtoEqn.(1).(b)Asample CIFAR10RGBpixelimage(denotedasoriginal)andcorre- sponding rate-coded spike images at different time instants are shown.Thespikeimageplottedatt=nisasummationof allspikemapsfromt = 0tot = n.",
+      "caption_en": "Fig.2:(a)Afeedforwardfully-connectedSNNarchitec- turewithLeaky-Integrate-and-Fire(LIF)spikingdynamicsis shown.ThenotationscorrespondtoEqn.(1).(b)Asample CIFAR10RGBpixelimage(denotedasoriginal)andcorre- sponding rate-coded spike images at different time instants are shown.Thespikeimageplottedatt=nisasummationof allspikemapsfromt = 0tot = n.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        226.703,
+        563.031,
+        308.397
+      ],
+      "content_bbox": [
+        315.878,
+        59.527,
+        562.002,
+        217.151
+      ],
+      "crop_bbox": [
+        315.878,
+        59.527,
+        562.002,
+        217.151
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.58 in\n\n形状统计 (143 个):\n  FREEFORM (5)                 105\n  TEXT_BOX (17)                31\n  PICTURE (13)                 7\n\n矢量形状: 136\n位图图片: 7\n  26.8% 画面  (11.64 x 2.64 in)\n  0.5% 画面  (0.83 x 0.71 in)\n  0.6% 画面  (0.83 x 0.79 in)\n  1.4% 画面  (0.83 x 1.96 in)\n  1.4% 画面  (0.83 x 1.89 in)\n  0.5% 画面  (0.83 x 0.72 in)\n  0.6% 画面  (0.83 x 0.78 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Fig.3:(a)SNNcomputationalgraphunrolledovermultipletime-stepsforcomputingtheVorVmemandresultantoutput spiketrainSasafunctionofinputspikesI[t]isshown.(b)Illustrationofindeterminatederivativeforathresholdorstep functionthatisreplacedwithasurrogatepiecewiselinearderivativetoallowtheﬂowofgradientsinAGDtraining.",
+      "caption_en": "Fig.3:(a)SNNcomputationalgraphunrolledovermultipletime-stepsforcomputingtheVorVmemandresultantoutput spiketrainSasafunctionofinputspikesI[t]isshown.(b)Illustrationofindeterminatederivativeforathresholdorstep functionthatisreplacedwithasurrogatepiecewiselinearderivativetoallowtheﬂowofgradientsinAGDtraining.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        172.165,
+        563.036,
+        206.268
+      ],
+      "content_bbox": [
+        87.913,
+        60.811,
+        522.265,
+        157.871
+      ],
+      "crop_bbox": [
+        87.913,
+        60.811,
+        522.265,
+        157.871
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.07 in\n\n形状统计 (78 个):\n  FREEFORM (5)                 50\n  TEXT_BOX (17)                28\n\n矢量形状: 78\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Fig.4:ConversionofANNwithBackResblocksintoSNNs usingthresholdbalancing.Here,duringBackRescomputa- tions,weneedtousemultiplethresholdvthresh1,2IFneurons IF1, IF2to match the input-output activity between ANN and SNNateachunrollingstepn = 1, 2.",
+      "caption_en": "Fig.4:ConversionofANNwithBackResblocksintoSNNs usingthresholdbalancing.Here,duringBackRescomputa- tions,weneedtousemultiplethresholdvthresh1,2IFneurons IF1, IF2to match the input-output activity between ANN and SNNateachunrollingstepn = 1, 2.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        353.515,
+        300.016,
+        411.299
+      ],
+      "content_bbox": [
+        50.121,
+        230.469,
+        550.665,
+        347.91
+      ],
+      "crop_bbox": [
+        50.121,
+        230.469,
+        550.665,
+        347.91
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.21 in\n\n形状统计 (210 个):\n  TEXT_BOX (17)                110\n  FREEFORM (5)                 100\n\n矢量形状: 210\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 4,
+      "caption": "Fig. 5: AGD backpropagation chain rule update with BackRes connections.TheBackResblockisessentiallyunrolledn timesandthelossispropagatedthroughtheunrolledgraph tocomputetheweightupdatesateachunrollingstepn = 1, 2 asshown.Note,theConvlayerweightswoftheBackRes blockreceivetwoupdateswithdifferentinputandoutput combinationsgivingrisetodiversegradients.",
+      "caption_en": "Fig. 5: AGD backpropagation chain rule update with BackRes connections.TheBackResblockisessentiallyunrolledn timesandthelossispropagatedthroughtheunrolledgraph tocomputetheweightupdatesateachunrollingstepn = 1, 2 asshown.Note,theConvlayerweightswoftheBackRes blockreceivetwoupdateswithdifferentinputandoutput combinationsgivingrisetodiversegradients.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        361.885,
+        563.031,
+        443.58
+      ],
+      "content_bbox": [
+        50.121,
+        230.469,
+        550.665,
+        347.91
+      ],
+      "crop_bbox": [
+        50.121,
+        230.469,
+        550.665,
+        347.91
+      ],
+      "original": "figures/original/Fig5_p004.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.21 in\n\n形状统计 (210 个):\n  TEXT_BOX (17)                110\n  FREEFORM (5)                 100\n\n矢量形状: 210\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Fig.6:AhybridnetworkarchitecturewithReLUactivationinitiallyandLIFactivationinlatterlayersforAGDtrainingis shown. During AGD backpropagation, the SNN −blockis unrolled and the weight updates are calculated through the unrolled graphoverdifferenttime-stepsusingchain-rule.ThelossgradientfromtheSNN−block, ∂Loss ∂WSNN,isthenbackpropagated throughtheANNcomputationalgraphtocalculatetheANNlossgradients ∂Loss ∂WANN.Note,theSNN−blockrecievesthe real-valuedinputXcomputedfromtheANN−blockateachtime-step.",
+      "caption_en": "Fig.6:AhybridnetworkarchitecturewithReLUactivationinitiallyandLIFactivationinlatterlayersforAGDtrainingis shown. During AGD backpropagation, the SNN −blockis unrolled and the weight updates are calculated through the unrolled graphoverdifferenttime-stepsusingchain-rule.ThelossgradientfromtheSNN−block, ∂Loss ∂WSNN,isthenbackpropagated throughtheANNcomputationalgraphtocalculatetheANNlossgradients ∂Loss ∂WANN.Note,theSNN−blockrecievesthe real-valuedinputXcomputedfromtheANN−blockateachtime-step.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        208.097,
+        563.036,
+        267.129
+      ],
+      "content_bbox": [
+        115.596,
+        61.351,
+        496.972,
+        191.767
+      ],
+      "crop_bbox": [
+        115.596,
+        61.351,
+        496.972,
+        191.767
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.63 in\n\n形状统计 (114 个):\n  FREEFORM (5)                 79\n  TEXT_BOX (17)                35\n\n矢量形状: 114\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 6,
+      "caption": "TABLEI:Energytablefor45nmCMOSprocess.",
+      "caption_en": "TABLEI:Energytablefor45nmCMOSprocess.",
+      "caption_zh": "",
+      "caption_bbox": [
+        330.076,
+        287.561,
+        544.929,
+        297.615
+      ],
+      "content_bbox": [
+        377.703,
+        304.971,
+        497.083,
+        350.6
+      ],
+      "crop_bbox": [
+        377.703,
+        304.971,
+        497.083,
+        350.6
+      ],
+      "original": "tables/original/Table1_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 7,
+      "caption": "TABLEII:Accuracy&Total#parametersforANNand correspondingconvertedSNNtopologies(referTableIII) fordifferentlatencyTonCIFAR10data",
+      "caption_en": "TABLEII:Accuracy&Total#parametersforANNand correspondingconvertedSNNtopologies(referTableIII) fordifferentlatencyTonCIFAR10data",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        53.861,
+        300.021,
+        87.733
+      ],
+      "content_bbox": [
+        54.495,
+        95.181,
+        294.482,
+        149.776
+      ],
+      "crop_bbox": [
+        54.495,
+        95.181,
+        294.482,
+        149.776
+      ],
+      "original": "tables/original/Table2_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "TABLEIII:CIFAR10NetworkTopologiesforConver- sion training. ConvN(I,O,k×k/s) denotes Nthconvolutional layerwithIinputchannels,Ooutputchannels,kernel ofsizek × kwithstrides.Pool(p×p/sp)denotesaverage poolinglayerwithpoolingwindowsizep × pandpooling stridesp.FC(X,Y)denoteafully-connectedlayerwithX inputnodesandYoutputnodes.LayerswithBackRes connectionsandrepeatedcomputationshavebeenhigh- ligtedinred.",
+      "caption_en": "TABLEIII:CIFAR10NetworkTopologiesforConver- sion training. ConvN(I,O,k×k/s) denotes Nthconvolutional layerwithIinputchannels,Ooutputchannels,kernel ofsizek × kwithstrides.Pool(p×p/sp)denotesaverage poolinglayerwithpoolingwindowsizep × pandpooling stridesp.FC(X,Y)denoteafully-connectedlayerwithX inputnodesandYoutputnodes.LayerswithBackRes connectionsandrepeatedcomputationshavebeenhigh- ligtedinred.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        177.333,
+        300.022,
+        282.937
+      ],
+      "content_bbox": [
+        54.495,
+        95.181,
+        294.482,
+        149.776
+      ],
+      "crop_bbox": [
+        54.495,
+        95.181,
+        294.482,
+        149.776
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "TABLEIV:Accuracy,Total#parametersandEnergy Efﬁciency EE for converted SNN topologies (refer Table V) oflatencyT= 2500andcorrespondingANNonImagenet data",
+      "caption_en": "TABLEIV:Accuracy,Total#parametersandEnergy Efﬁciency EE for converted SNN topologies (refer Table V) oflatencyT= 2500andcorrespondingANNonImagenet data",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        625.09,
+        300.017,
+        670.919
+      ],
+      "content_bbox": [
+        49.416,
+        678.366,
+        298.801,
+        746.339
+      ],
+      "crop_bbox": [
+        49.416,
+        678.366,
+        298.801,
+        746.339
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 8,
+      "caption": "Fig.7:Energy-EfﬁciencyEEresultsfordifferentSNN topologies (from Table III) with/without BackRes connections trainedwithConversiontechniqueonCIFAR10data.The efﬁciencyvalueshavebeendenotedontopofeachgraphfor clarity.Note,EE>1impliesEANN>ESNNdenoting lowerenergyconsumptionwithSNNimplementations.",
+      "caption_en": "Fig.7:Energy-EfﬁciencyEEresultsfordifferentSNN topologies (from Table III) with/without BackRes connections trainedwithConversiontechniqueonCIFAR10data.The efﬁciencyvalueshavebeendenotedontopofeachgraphfor clarity.Note,EE>1impliesEANN>ESNNdenoting lowerenergyconsumptionwithSNNimplementations.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        519.872,
+        300.02,
+        589.841
+      ],
+      "content_bbox": [
+        50.536,
+        309.577,
+        298.441,
+        508.304
+      ],
+      "crop_bbox": [
+        50.536,
+        309.577,
+        298.441,
+        508.304
+      ],
+      "original": "figures/original/Fig7_p008.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.71 in\n\n形状统计 (109 个):\n  TEXT_BOX (17)                64\n  FREEFORM (5)                 45\n\n矢量形状: 109\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 8,
+      "caption": "TABLEV:ImagenetNetworkTopologiesforConversiontraining.NotationsaresameasthatofTableIII.Layerswith BackResconnectionsandrepeatedcomputationshavebeenhighligtedinred.",
+      "caption_en": "TABLEV:ImagenetNetworkTopologiesforConversiontraining.NotationsaresameasthatofTableIII.Layerswith BackResconnectionsandrepeatedcomputationshavebeenhighligtedinred.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        53.861,
+        563.035,
+        75.778
+      ],
+      "content_bbox": [
+        95.876,
+        83.225,
+        515.563,
+        200.984
+      ],
+      "crop_bbox": [
+        95.876,
+        83.225,
+        515.563,
+        200.984
+      ],
+      "original": "tables/original/Table5_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 8,
+      "caption": "TABLEVI:Accuracy,Total#parametersandEnergy EfﬁciencyEEforSTDP-trainedSNNtopologies(refer TableVII)oflatencyT= 100andcorrespondingANNon CIFAR10data.EEConvconsiderstheenergycalculated onlyfortheconvolutional/poolinglayersexcludingtheFC layers,EEF ullconsidersthetotalenergyofthenetwork includingtheFClayers.",
+      "caption_en": "TABLEVI:Accuracy,Total#parametersandEnergy EfﬁciencyEEforSTDP-trainedSNNtopologies(refer TableVII)oflatencyT= 100andcorrespondingANNon CIFAR10data.EEConvconsiderstheenergycalculated onlyfortheconvolutional/poolinglayersexcludingtheFC layers,EEF ullconsidersthetotalenergyofthenetwork includingtheFClayers.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        220.435,
+        300.019,
+        302.129
+      ],
+      "content_bbox": [
+        95.876,
+        83.225,
+        515.563,
+        200.984
+      ],
+      "crop_bbox": [
+        95.876,
+        83.225,
+        515.563,
+        200.984
+      ],
+      "original": "tables/original/Table6_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 8,
+      "caption": "Table VIII shows the accuracy, #parametersandEEbeneﬁtsofSNNtopologies(listedin TableIX)fordifferentlatencyT=25, 50withrespectto correspondingANNbaselines.SimilartoConversion/STDP results,end-to-endAGDtrainingwithspikingstatistics(us- ingsurrogategradientdescent)forVGG5andVGG3x2of equivalentlogicaldepthasVGG5yieldsminimalaccuracy loss(∼2 −3%)andlargeEEgains(∼15×)incomparison tocorrespondingANNs.However,foraV GG7networkwith 7-layereddepth, AGDfails totrain anSNN end-to-enddue to vanishing forward spike-propagation. Interestingly, a VGG3x4 networkwithsimilarlogicaldepthof7-layersasVGG7and repeatedcomputationsnotonlytrainswellwithAGD,but alsoyieldshigheraccuracythanbothVGG7/VGG3x4ANN baselines. This implies that LIF neurons with spiking statistics havethepotentialofyieldingmorediversiﬁedcomputation proﬁle with BackRes unrolling than ReLU neurons. In addition toaccuracyandscalabilitybeneﬁts,SNNswithBackRes connectionsyieldhighEEbeneﬁtsasshowninTableVIII (duetotheinherent‘sparsifying’effect)thatpointtotheir suitabilityforlow-powerhardwareimplementations.",
+      "caption_en": "Table VIII shows the accuracy, #parametersandEEbeneﬁtsofSNNtopologies(listedin TableIX)fordifferentlatencyT=25, 50withrespectto correspondingANNbaselines.SimilartoConversion/STDP results,end-to-endAGDtrainingwithspikingstatistics(us- ingsurrogategradientdescent)forVGG5andVGG3x2of equivalentlogicaldepthasVGG5yieldsminimalaccuracy loss(∼2 −3%)andlargeEEgains(∼15×)incomparison tocorrespondingANNs.However,foraV GG7networkwith 7-layereddepth, AGDfails totrain anSNN end-to-enddue to vanishing forward spike-propagation. Interestingly, a VGG3x4 networkwithsimilarlogicaldepthof7-layersasVGG7and repeatedcomputationsnotonlytrainswellwithAGD,but alsoyieldshigheraccuracythanbothVGG7/VGG3x4ANN baselines. This implies that LIF neurons with spiking statistics havethepotentialofyieldingmorediversiﬁedcomputation proﬁle with BackRes unrolling than ReLU neurons. In addition toaccuracyandscalabilitybeneﬁts,SNNswithBackRes connectionsyieldhighEEbeneﬁtsasshowninTableVIII (duetotheinherent‘sparsifying’effect)thatpointtotheir suitabilityforlow-powerhardwareimplementations.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        499.879,
+        563.036,
+        748.945
+      ],
+      "content_bbox": [
+        50.536,
+        309.577,
+        298.441,
+        477.344
+      ],
+      "crop_bbox": [
+        50.536,
+        309.577,
+        298.441,
+        477.344
+      ],
+      "original": "tables/original/Table8_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 9,
+      "caption": "TABLEVII:CIFAR10NetworkTopologiesforSTDPtrainingmethodology.NotationsaresameasthatofTableIII. LayerswithBackResconnectionsandrepeatedcomputationshavebeenhighligtedinred.ForwardResidualorSkip connectionsbetweenlayersofanetworkaredenotedinblue.",
+      "caption_en": "TABLEVII:CIFAR10NetworkTopologiesforSTDPtrainingmethodology.NotationsaresameasthatofTableIII. LayerswithBackResconnectionsandrepeatedcomputationshavebeenhighligtedinred.ForwardResidualorSkip connectionsbetweenlayersofanetworkaredenotedinblue.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        53.861,
+        563.033,
+        87.733
+      ],
+      "content_bbox": [
+        131.047,
+        95.181,
+        480.944,
+        195.405
+      ],
+      "crop_bbox": [
+        131.047,
+        95.181,
+        480.944,
+        195.405
+      ],
+      "original": "tables/original/Table7_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table10",
+      "page": 10,
+      "caption": "TABLEX:AccuracyforAGDtrainedSNNofVGG3 topology (refer to last row in Table X) for different latency T= 5, 10, 25onCIFAR10data.",
+      "caption_en": "TABLEX:AccuracyforAGDtrainedSNNofVGG3 topology (refer to last row in Table X) for different latency T= 5, 10, 25onCIFAR10data.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        239.166,
+        300.017,
+        273.038
+      ],
+      "content_bbox": [
+        167.316,
+        83.225,
+        444.357,
+        219.714
+      ],
+      "crop_bbox": [
+        167.316,
+        83.225,
+        444.357,
+        219.714
+      ],
+      "original": "tables/original/Table10_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table10.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table11",
+      "page": 10,
+      "caption": "TABLEXI:AccuracyandEEbeneﬁtsforAGDtrained SNNwithstochmaxclassiﬁeronVGG5/VGG3x2topology (refertoTableIX)fordifferentlatencyT=25, 50on CIFAR10data.",
+      "caption_en": "TABLEXI:AccuracyandEEbeneﬁtsforAGDtrained SNNwithstochmaxclassiﬁeronVGG5/VGG3x2topology (refertoTableIX)fordifferentlatencyT=25, 50on CIFAR10data.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        365.805,
+        300.02,
+        411.773
+      ],
+      "content_bbox": [
+        81.251,
+        280.486,
+        267.727,
+        353.811
+      ],
+      "crop_bbox": [
+        81.251,
+        280.486,
+        267.727,
+        353.811
+      ],
+      "original": "tables/original/Table11_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table11.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table12",
+      "page": 10,
+      "caption": "TABLEXII:AccuracyandEEbeneﬁtsforSTDPtrained SNNwithConvNNclassiﬁer(TableXIII)appendedto ResNet2, ResNet2x2, ResNet3 topology (refer to Table VII) on CIFAR10 data. EEConvconsiders the energy calculated onlyfortheconvolutional/poolinglayersexcludingtheFC layers,EEF ullconsidersthetotalenergyofthenetwork includingtheFClayers.",
+      "caption_en": "TABLEXII:AccuracyandEEbeneﬁtsforSTDPtrained SNNwithConvNNclassiﬁer(TableXIII)appendedto ResNet2, ResNet2x2, ResNet3 topology (refer to Table VII) on CIFAR10 data. EEConvconsiders the energy calculated onlyfortheconvolutional/poolinglayersexcludingtheFC layers,EEF ullconsidersthetotalenergyofthenetwork includingtheFClayers.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        597.654,
+        300.019,
+        679.487
+      ],
+      "content_bbox": [
+        51.404,
+        419.22,
+        297.573,
+        471.867
+      ],
+      "crop_bbox": [
+        51.404,
+        419.22,
+        297.573,
+        471.867
+      ],
+      "original": "tables/original/Table12_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table12.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table13",
+      "page": 10,
+      "caption": "TABLEXIII:ConvNNclassiﬁerNetworkTopologiesfor STDPtrainingmethodology.Notationsaresameasthatof TableIII.",
+      "caption_en": "TABLEXIII:ConvNNclassiﬁerNetworkTopologiesfor STDPtrainingmethodology.Notationsaresameasthatof TableIII.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        247.164,
+        563.037,
+        281.037
+      ],
+      "content_bbox": [
+        167.316,
+        83.225,
+        444.357,
+        219.714
+      ],
+      "crop_bbox": [
+        167.316,
+        83.225,
+        444.357,
+        219.714
+      ],
+      "original": "tables/original/Table13_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table13.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table14",
+      "page": 10,
+      "caption": "TABLEXIV:Accuracy,Total#parametersandEnergy EfﬁciencyEEforAGDtrainedSNNtopologies(refer TableXV)withhybridReLU/LIFneuronsoflatency T= 25andcorrespondingANNonCIFAR10data.",
+      "caption_en": "TABLEXIV:Accuracy,Total#parametersandEnergy EfﬁciencyEEforAGDtrainedSNNtopologies(refer TableXV)withhybridReLU/LIFneuronsoflatency T= 25andcorrespondingANNonCIFAR10data.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        414.196,
+        563.034,
+        460.023
+      ],
+      "content_bbox": [
+        312.587,
+        288.94,
+        562.418,
+        388.31
+      ],
+      "crop_bbox": [
+        312.587,
+        288.94,
+        562.418,
+        388.31
+      ],
+      "original": "tables/original/Table14_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table14.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table15",
+      "page": 10,
+      "caption": "TABLE XV: Network Topologies for AGD training method- ology with hybrid layers and stochmax classiﬁer at the end. NotationsaresameasthatofTableIII.",
+      "caption_en": "TABLE XV: Network Topologies for AGD training method- ology with hybrid layers and stochmax classiﬁer at the end. NotationsaresameasthatofTableIII.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        543.396,
+        563.033,
+        577.269
+      ],
+      "content_bbox": [
+        330.599,
+        467.471,
+        544.406,
+        517.51
+      ],
+      "crop_bbox": [
+        330.599,
+        467.471,
+        544.406,
+        517.51
+      ],
+      "original": "tables/original/Table15_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table15.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table9",
+      "page": 10,
+      "caption": "TABLEIX:CIFAR10NetworkTopologiesforAGDtrainingmethodology.NotationsaresameasthatofTableIII. LayerswithBackResconnectionsandrepeatedcomputationshavebeenhighligtedinred.",
+      "caption_en": "TABLEIX:CIFAR10NetworkTopologiesforAGDtrainingmethodology.NotationsaresameasthatofTableIII. LayerswithBackResconnectionsandrepeatedcomputationshavebeenhighligtedinred.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        53.861,
+        563.03,
+        75.778
+      ],
+      "content_bbox": [
+        167.316,
+        83.225,
+        444.357,
+        219.714
+      ],
+      "crop_bbox": [
+        167.316,
+        83.225,
+        444.357,
+        219.714
+      ],
+      "original": "tables/original/Table9_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table9.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table16",
+      "page": 11,
+      "caption": "TABLE XVI: Accuracy and Energy Efﬁciency EEfor AGD trainedSNNtopologies(referTableXVII)withhybrid ReLU/LIFneuronsoflatencyT=10andcorresponding ANNonImagenetdata.",
+      "caption_en": "TABLE XVI: Accuracy and Energy Efﬁciency EEfor AGD trainedSNNtopologies(referTableXVII)withhybrid ReLU/LIFneuronsoflatencyT=10andcorresponding ANNonImagenetdata.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        53.721,
+        300.022,
+        99.688
+      ],
+      "content_bbox": [
+        79.405,
+        107.136,
+        269.573,
+        156.777
+      ],
+      "crop_bbox": [
+        79.405,
+        107.136,
+        269.573,
+        156.777
+      ],
+      "original": "tables/original/Table16_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table16.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table17",
+      "page": 11,
+      "caption": "TABLEXVII:NetworkTopologiesforAGDtraining methodologywithhybridlayersandsoftmaxclassiﬁerat theendforImagenetDataset.Notationsaresameasthat ofTableIII.",
+      "caption_en": "TABLEXVII:NetworkTopologiesforAGDtraining methodologywithhybridlayersandsoftmaxclassiﬁerat theendforImagenetDataset.Notationsaresameasthat ofTableIII.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        53.86,
+        563.036,
+        99.689
+      ],
+      "content_bbox": [
+        322.213,
+        107.136,
+        552.792,
+        224.496
+      ],
+      "crop_bbox": [
+        322.213,
+        107.136,
+        552.792,
+        224.496
+      ],
+      "original": "tables/original/Table17_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table17.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0",
+    "title": "Towards Scalable, Efficient and Accurate Deep Spiking Neural Networks with Backward Residual Connections, Stochastic Softmax and Hybridization",
+    "venue": "arXiv",
+    "venue_full": "arXiv",
+    "venue_short": "arXiv",
+    "venue_type": "期刊",
+    "year": 2012,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "f99513574ec59f56a573c0fde50a23b059f36f48015e48a5de71d0be2d96050f",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\6I2LIXGE\\迈向具有后向残差连接、随机 Softmax 和杂交的可扩展、高效和准确的深度脉冲神经网络.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\N8VPR333\\迈向具有后向残差连接、随机 Softmax 和杂交的可扩展、高效和准确的深度脉冲神经网络.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "",
+    "cas_display": "",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    }
+  ]
+}

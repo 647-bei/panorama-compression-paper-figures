@@ -1,0 +1,365 @@
+{
+  "paper": "Spike_driven_Transformer_Local_reference_0",
+  "pdf": "pdf/paper.pdf",
+  "pages": 16,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Figure 1:Comparison Vanilla Self-Attention (VSA) and our Spike-Driven Self-Attention (SDSA). (a) is a typical Vanilla Self-Attention (VSA) [8].(b) are two equivalent versions of SDSA. The input of SDSA are binary spikes.In SDSA, there are only mask and sparse additions.Version 1:Spike Q and Kfirst perform element-wise mask, i.e., Hadamard product; then column summation and spike neuron layer are adopted to obtain the binary attention vector; finally, the binary attention vector is applied to the spike Vto mask some channels (features).Version 2:An equivalent version of Version 1 (see Section 3.3) reveals that SDSA is a unique type of linear attention (spiking neuron layer is the kernel function) whose time complexity is linear with both token and channel dimensions.Typically, performing self-attention in VSA and SDSA requires 2N2D multiply-and-accumulate and 0.02ND accumulate operations respectively, where Nis the number of tokens, D is the channel dimensions, 0.02 is the non-zero ratio of the matrix after the mask of Q and K.Thus, the self-attention operator between the spike Q, K, and Vhas almost no energy consumption.",
+      "caption_en": "Figure 1:Comparison Vanilla Self-Attention (VSA) and our Spike-Driven Self-Attention (SDSA). (a) is a typical Vanilla Self-Attention (VSA) [8].(b) are two equivalent versions of SDSA. The input of SDSA are binary spikes.In SDSA, there are only mask and sparse additions.Version 1:Spike Q and Kfirst perform element-wise mask, i.e., Hadamard product; then column summation and spike neuron layer are adopted to obtain the binary attention vector; finally, the binary attention vector is applied to the spike Vto mask some channels (features).Version 2:An equivalent version of Version 1 (see Section 3.3) reveals that SDSA is a unique type of linear attention (spiking neuron layer is the kernel function) whose time complexity is linear with both token and channel dimensions.Typically, performing self-attention in VSA and SDSA requires 2N2D multiply-and-accumulate and 0.02ND accumulate operations respectively, where Nis the number of tokens, D is the channel dimensions, 0.02 is the non-zero ratio of the matrix after the mask of Q and K.Thus, the self-attention operator between the spike Q, K, and Vhas almost no energy consumption.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.253,
+        264.091,
+        505.747,
+        394.11
+      ],
+      "content_bbox": [
+        134.252,
+        72.659,
+        409.616,
+        252.935
+      ],
+      "crop_bbox": [
+        134.252,
+        72.659,
+        409.616,
+        252.935
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.77 in\n\n形状统计 (412 个):\n  FREEFORM (5)                 243\n  TEXT_BOX (17)                169\n\n矢量形状: 412\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Figure 2:The overview of Spike-driven Transformer.We follow the network structure in [20], but make two new key designs.First, we propose a Spike-driven Self-Attention (SDSA) module, which consists of only mask and sparse addition operations (Fig. 1(b)).Second, we redesign the shortcuts in the whole network, involving position embedding, self-attention, and MLP parts.As indicated by the red line, the shortcut is constructed before the spike neuron layer.That is, we establish residual connections between membrane potentials to make sure that the values in the spike matrix are all binary, which allows the multiplication of the spike and weight matrices to be converted into addition operations.By contrast, previous works [20, 19] build shortcut between spike tensors in different layers, resulting in the output of spike neurons as multi-bit (integer) spikes.",
+      "caption_en": "Figure 2:The overview of Spike-driven Transformer.We follow the network structure in [20], but make two new key designs.First, we propose a Spike-driven Self-Attention (SDSA) module, which consists of only mask and sparse addition operations (Fig. 1(b)).Second, we redesign the shortcuts in the whole network, involving position embedding, self-attention, and MLP parts.As indicated by the red line, the shortcut is constructed before the spike neuron layer.That is, we establish residual connections between membrane potentials to make sure that the values in the spike matrix are all binary, which allows the multiplication of the spike and weight matrices to be converted into addition operations.By contrast, previous works [20, 19] build shortcut between spike tensors in different layers, resulting in the output of spike neurons as multi-bit (integer) spikes.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        264.214,
+        504.353,
+        361.513
+      ],
+      "content_bbox": [
+        120.749,
+        72.997,
+        491.028,
+        252.432
+      ],
+      "crop_bbox": [
+        120.749,
+        72.997,
+        491.028,
+        252.432
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.52 in\n\n形状统计 (207 个):\n  FREEFORM (5)                 136\n  TEXT_BOX (17)                64\n  PICTURE (13)                 7\n\n矢量形状: 200\n位图图片: 7\n  0.2% 画面  (0.14 x 1.00 in)\n  0.7% 画面  (0.46 x 1.39 in)\n  0.3% 画面  (0.57 x 0.43 in)\n  0.0% 画面  (0.07 x 0.43 in)\n  0.2% 画面  (0.25 x 0.64 in)\n  0.1% 画面  (0.29 x 0.25 in)\n  3.6% 画面  (1.75 x 1.80 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 6,
+      "caption": "Table 1: Energy evaluation.FLConv and FLMLPrepresent the FLOPs of the Conv and MLP models in the ANNs, respectively.RC, RM, R,bR denote the spike firing rates (the proportion of non-zero elements in the spike matrix) in various spike matrices.We give the strict definitions and calculation methods of these indicators in the Supplementary due to space constraints.",
+      "caption_en": "Table 1: Energy evaluation.FLConv and FLMLPrepresent the FLOPs of the Conv and MLP models in the ANNs, respectively.RC, RM, R,bR denote the spike firing rates (the proportion of non-zero elements in the spike matrix) in various spike matrices.We give the strict definitions and calculation methods of these indicators in the Supplementary due to space constraints.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.691,
+        71.022,
+        503.998,
+        115.9
+      ],
+      "content_bbox": [
+        146.014,
+        127.411,
+        465.491,
+        267.403
+      ],
+      "crop_bbox": [
+        146.014,
+        127.411,
+        465.491,
+        267.403
+      ],
+      "original": "tables/original/Table1_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table 2: Spike Firing Rate (SFR) of Spike-driven Self-attention in 8-512. Average SFR is the mean of SFR over T= 4, and 8 SDSA blocks.",
+      "caption_en": "Table 2: Spike Firing Rate (SFR) of Spike-driven Self-attention in 8-512. Average SFR is the mean of SFR over T= 4, and 8 SDSA blocks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        313.613,
+        561.504,
+        504.005,
+        593.209
+      ],
+      "content_bbox": [
+        329.634,
+        602.792,
+        486.045,
+        668.433
+      ],
+      "crop_bbox": [
+        329.634,
+        602.792,
+        486.045,
+        668.433
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "Table3:EvaluationonImageNet.Poweristheaveragetheoreticalenergyconsumptionwhen predicting an image from the test set.The power data in this work is evaluated according to Table 1, and data for other works were obtained from related papers.Spiking Transformer-L-D represents a model with L encoder blocks and D channels.*The input crops are enlarged to 288×288 in inference. The default inference input resolution for other models is 224×224.",
+      "caption_en": "Table3:EvaluationonImageNet.Poweristheaveragetheoreticalenergyconsumptionwhen predicting an image from the test set.The power data in this work is evaluated according to Table 1, and data for other works were obtained from related papers.Spiking Transformer-L-D represents a model with L encoder blocks and D channels.*The input crops are enlarged to 288×288 in inference. The default inference input resolution for other models is 224×224.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.691,
+        71.124,
+        505.743,
+        124.798
+      ],
+      "content_bbox": [
+        113.59,
+        132.916,
+        498.41,
+        468.408
+      ],
+      "crop_bbox": [
+        113.59,
+        132.916,
+        498.41,
+        468.408
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "Table 4:Energy Consumption of Self-attention. E1andE2(includingenergyconsumptionto generateQ, K, V )representthepowerofself- attention mechanism in ANN and spike-driven.",
+      "caption_en": "Table 4:Energy Consumption of Self-attention. E1andE2(includingenergyconsumptionto generateQ, K, V )representthepowerofself- attention mechanism in ANN and spike-driven.",
+      "caption_zh": "",
+      "caption_bbox": [
+        313.613,
+        627.526,
+        505.738,
+        670.261
+      ],
+      "content_bbox": [
+        324.741,
+        671.405,
+        490.69,
+        725.751
+      ],
+      "crop_bbox": [
+        324.741,
+        671.405,
+        490.69,
+        725.751
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 8,
+      "caption": "Figure3:AttentionMapBasedonSpikeFiringRate(SFR).VSis the Value tensor.ˆVSis the output of SDSA(·).The spike-driven self- attention mechanism masks unimportant channels in VSto obtainˆVS. Each pixel on VSandˆVSrepresents the SFR at a patch.The spatial resolution of each attention map is 14 × 14 (196 patches).The redder the higher the SFR, the bluer the smaller the SFR.",
+      "caption_en": "Figure3:AttentionMapBasedonSpikeFiringRate(SFR).VSis the Value tensor.ˆVSis the output of SDSA(·).The spike-driven self- attention mechanism masks unimportant channels in VSto obtainˆVS. Each pixel on VSandˆVSrepresents the SFR at a patch.The spatial resolution of each attention map is 14 × 14 (196 patches).The redder the higher the SFR, the bluer the smaller the SFR.",
+      "caption_zh": "",
+      "caption_bbox": [
+        226.801,
+        589.921,
+        505.744,
+        660.036
+      ],
+      "content_bbox": [
+        107.253,
+        333.939,
+        505.246,
+        583.193
+      ],
+      "crop_bbox": [
+        107.253,
+        333.939,
+        505.246,
+        583.193
+      ],
+      "original": "figures/original/Fig3_p008.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.39 in\n\n形状统计 (50 个):\n  TEXT_BOX (17)                32\n  PICTURE (13)                 11\n  FREEFORM (5)                 7\n\n矢量形状: 39\n位图图片: 11\n  0.6% 画面  (0.85 x 0.85 in)\n  0.6% 画面  (0.85 x 0.85 in)\n  0.6% 画面  (0.85 x 0.85 in)\n  2.0% 画面  (1.62 x 1.41 in)\n  2.0% 画面  (1.62 x 1.41 in)\n  2.0% 画面  (1.62 x 1.41 in)\n  2.0% 画面  (1.62 x 1.41 in)\n  2.0% 画面  (1.62 x 1.41 in)\n  2.0% 画面  (1.62 x 1.41 in)\n  2.0% 画面  (1.62 x 1.41 in)\n  ... 共 11 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 8,
+      "caption": "Table 5.We adopt spik- ingTransformer-2-512as the baseline structure. It can be observed that SDSA in- cursaslightperformance loss.As discussed in Section 3.3, SDSA actually masks some unimportant channels directly.In Fig. 3, we plot the attention maps (the detailed drawing method is given in the supplementary material), andwecanobserve:i)SDSAcanoptimizeintermediatefeatures,suchasmaskingbackground information;ii)SDSAgreatlyreducesthespikefiringrateofˆVS,therebyreducingenergycost. On the other hand, the membrane shortcut leads to significant accuracy improvements, consistent",
+      "caption_en": "Table 5.We adopt spik- ingTransformer-2-512as the baseline structure. It can be observed that SDSA in- cursaslightperformance loss.As discussed in Section 3.3, SDSA actually masks some unimportant channels directly.In Fig. 3, we plot the attention maps (the detailed drawing method is given in the supplementary material), andwecanobserve:i)SDSAcanoptimizeintermediatefeatures,suchasmaskingbackground information;ii)SDSAgreatlyreducesthespikefiringrateofˆVS,therebyreducingenergycost. On the other hand, the membrane shortcut leads to significant accuracy improvements, consistent",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.641,
+        612.506,
+        505.746,
+        722.431
+      ],
+      "content_bbox": [
+        227.974,
+        498.258,
+        504.762,
+        583.193
+      ],
+      "crop_bbox": [
+        227.974,
+        498.258,
+        504.762,
+        583.193
+      ],
+      "original": "tables/original/Table5_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 8,
+      "caption": "Table 6:Studies on Spiking Transformer-2-512.",
+      "caption_en": "Table 6:Studies on Spiking Transformer-2-512.",
+      "caption_zh": "",
+      "caption_bbox": [
+        313.613,
+        333.939,
+        504.905,
+        343.902
+      ],
+      "content_bbox": [
+        324.457,
+        350.68,
+        493.469,
+        415.113
+      ],
+      "crop_bbox": [
+        324.457,
+        350.68,
+        493.469,
+        415.113
+      ],
+      "original": "tables/original/Table6_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Spike_driven_Transformer_Local_reference_0",
+    "title": "Institute of Automation, Chinese Academy of Sciences, Beijing, China",
+    "venue": "NeurIPS",
+    "venue_full": "NeurIPS",
+    "venue_short": "NeurIPS",
+    "venue_type": "会议",
+    "year": 2023,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "1d70991cd21f60ce1be92a6a0230a6cf618495ec2bc3447c6ad84924fbe141ca",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\LBMPKW93\\ca0f5358dbadda74b3049711887e9ead-Paper-Conference.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    }
+  ]
+}

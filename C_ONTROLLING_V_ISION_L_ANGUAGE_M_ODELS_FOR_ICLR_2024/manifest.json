@@ -1,0 +1,606 @@
+{
+  "paper": "C_ONTROLLING_V_ISION_L_ANGUAGE_M_ODELS_FOR_ICLR_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 21,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1:This paper leverages large-scale pretrained vision-language models for multi-task image restoration.Compared to CLIP (Radford et al., 2021), our approach precisely predicts the degrada- tion embeddings for corrupted inputs and also outputs high-quality features for better image restora- tion performance. For all examples above, the right results are produced by our single unified model.",
+      "caption_en": "Figure 1:This paper leverages large-scale pretrained vision-language models for multi-task image restoration.Compared to CLIP (Radford et al., 2021), our approach precisely predicts the degrada- tion embeddings for corrupted inputs and also outputs high-quality features for better image restora- tion performance. For all examples above, the right results are produced by our single unified model.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        686.141,
+        504.003,
+        728.981
+      ],
+      "content_bbox": [
+        85.136,
+        443.023,
+        531.843,
+        686.141
+      ],
+      "crop_bbox": [
+        85.136,
+        443.023,
+        531.843,
+        686.141
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.30 in\n\n形状统计 (162 个):\n  FREEFORM (5)                 92\n  AUTO_SHAPE (1)               34\n  PICTURE (13)                 20\n  TEXT_BOX (17)                16\n\n矢量形状: 142\n位图图片: 20\n  2.2% 画面  (1.94 x 1.09 in)\n  2.2% 画面  (1.94 x 1.09 in)\n  1.4% 画面  (1.22 x 1.09 in)\n  1.4% 画面  (1.22 x 1.09 in)\n  1.6% 画面  (1.46 x 1.09 in)\n  1.6% 画面  (1.46 x 1.09 in)\n  1.5% 画面  (1.46 x 1.02 in)\n  1.5% 画面  (1.46 x 1.02 in)\n  1.5% 画面  (1.46 x 0.98 in)\n  1.5% 画面  (1.46 x 0.98 in)\n  ... 共 20 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure2:Overviewofourmethod.DA-CLIPfreezesboththetextandimageencodersofapre- trainedCLIPbutlearnsanadditionalimagecontrollerwithcontrastivelearning.Thiscontroller predicts degradation features to match real corruptions and then controls the image encoder to output high-quality content features.Once trained, DA-CLIP can be integrated into other image restoration models by simply adding a cross-attention module and a degradation feature prompting module.",
+      "caption_en": "Figure2:Overviewofourmethod.DA-CLIPfreezesboththetextandimageencodersofapre- trainedCLIPbutlearnsanadditionalimagecontrollerwithcontrastivelearning.Thiscontroller predicts degradation features to match real corruptions and then controls the image encoder to output high-quality content features.Once trained, DA-CLIP can be integrated into other image restoration models by simply adding a cross-attention module and a degradation feature prompting module.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        319.0,
+        504.003,
+        372.799
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        305.611
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        305.611
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.38 in\n\n形状统计 (342 个):\n  FREEFORM (5)                 208\n  TEXT_BOX (17)                122\n  PICTURE (13)                 12\n\n矢量形状: 330\n位图图片: 12\n  1.8% 画面  (1.72 x 1.27 in)\n  1.8% 画面  (1.74 x 1.27 in)\n  0.1% 画面  (0.28 x 0.28 in)\n  0.1% 画面  (0.26 x 0.25 in)\n  1.1% 画面  (1.37 x 0.99 in)\n  1.1% 画面  (1.37 x 0.99 in)\n  0.0% 画面  (0.24 x 0.24 in)\n  1.7% 画面  (1.71 x 1.27 in)\n  0.1% 画面  (0.25 x 0.25 in)\n  0.1% 画面  (0.25 x 0.25 in)\n  ... 共 12 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure 3:(a) Controlling the ViT-based image encoder with a trainable controller.(b) Learning the prompt with degradation embeddings predicted from the controller.",
+      "caption_en": "Figure 3:(a) Controlling the ViT-based image encoder with a trainable controller.(b) Learning the prompt with degradation embeddings predicted from the controller.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        274.999,
+        504.003,
+        295.921
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        260.617
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        260.617
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.89 in\n\n形状统计 (145 个):\n  FREEFORM (5)                 97\n  TEXT_BOX (17)                42\n  PICTURE (13)                 6\n\n矢量形状: 139\n位图图片: 6\n  0.1% 画面  (0.32 x 0.32 in)\n  0.0% 画面  (0.21 x 0.21 in)\n  0.1% 画面  (0.32 x 0.32 in)\n  0.0% 画面  (0.21 x 0.22 in)\n  0.1% 画面  (0.32 x 0.32 in)\n  0.1% 画面  (0.32 x 0.32 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure 4:An example of generating the image-text-degradation tuple with BLIP. The clean caption generated from the HQ image is accurate and does not convey the degradation information.",
+      "caption_en": "Figure 4:An example of generating the image-text-degradation tuple with BLIP. The clean caption generated from the HQ image is accurate and does not convey the degradation information.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        431.561,
+        504.003,
+        452.482
+      ],
+      "content_bbox": [
+        154.698,
+        344.545,
+        457.018,
+        420.248
+      ],
+      "crop_bbox": [
+        154.698,
+        344.545,
+        457.018,
+        420.248
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.42 in\n\n形状统计 (31 个):\n  TEXT_BOX (17)                15\n  FREEFORM (5)                 14\n  PICTURE (13)                 2\n\n矢量形状: 29\n位图图片: 2\n  7.2% 画面  (2.29 x 1.44 in)\n  7.2% 画面  (2.29 x 1.44 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table 1: Details of the collected training and testing datasets with different image degradation types.",
+      "caption_en": "Table 1: Details of the collected training and testing datasets with different image degradation types.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        666.986,
+        504.003,
+        676.949
+      ],
+      "content_bbox": [
+        115.166,
+        688.09,
+        498.948,
+        762.157
+      ],
+      "crop_bbox": [
+        115.166,
+        688.09,
+        498.948,
+        762.157
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure 5: Comparison of our method with other approaches on 4 different degradation-specific tasks.",
+      "caption_en": "Figure 5: Comparison of our method with other approaches on 4 different degradation-specific tasks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        545.014,
+        504.0,
+        555.153
+      ],
+      "content_bbox": [
+        110.98,
+        110.475,
+        504.009,
+        533.758
+      ],
+      "crop_bbox": [
+        110.98,
+        110.475,
+        504.009,
+        533.758
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 14.35 in\n\n形状统计 (150 个):\n  TEXT_BOX (17)                92\n  FREEFORM (5)                 34\n  PICTURE (13)                 24\n\n矢量形状: 126\n位图图片: 24\n  1.6% 画面  (2.15 x 1.44 in)\n  1.6% 画面  (2.15 x 1.44 in)\n  1.6% 画面  (2.15 x 1.44 in)\n  1.6% 画面  (2.15 x 1.44 in)\n  1.6% 画面  (2.15 x 1.44 in)\n  1.6% 画面  (2.15 x 1.44 in)\n  1.6% 画面  (2.15 x 1.44 in)\n  1.6% 画面  (2.15 x 1.44 in)\n  1.6% 画面  (2.15 x 1.44 in)\n  1.6% 画面  (2.15 x 1.44 in)\n  ... 共 24 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table 2: Quantitative comparison between our method with other state-of-the-art approaches on four different degradation-specific datasets.The best results are marked in boldface.",
+      "caption_en": "Table 2: Quantitative comparison between our method with other state-of-the-art approaches on four different degradation-specific datasets.The best results are marked in boldface.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        81.977,
+        504.003,
+        102.899
+      ],
+      "content_bbox": [
+        119.729,
+        113.236,
+        498.418,
+        134.776
+      ],
+      "crop_bbox": [
+        119.729,
+        113.236,
+        498.418,
+        134.776
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 7,
+      "caption": "Figure 6:Comparison of our method with AirNet, PromptIR and IR-SDE for unified image restora- tion.Each radar plot reports results for the ten different degradation types, for one particular metric. For the perceptual metrics LPIPS and FID (the two rightmost plots), a lower value is better.",
+      "caption_en": "Figure 6:Comparison of our method with AirNet, PromptIR and IR-SDE for unified image restora- tion.Each radar plot reports results for the ten different degradation types, for one particular metric. For the perceptual metrics LPIPS and FID (the two rightmost plots), a lower value is better.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        178.997,
+        504.004,
+        211.054
+      ],
+      "content_bbox": [
+        104.979,
+        27.813,
+        507.171,
+        178.997
+      ],
+      "crop_bbox": [
+        104.979,
+        27.813,
+        507.171,
+        178.997
+      ],
+      "original": "figures/original/Fig6_p007.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.08 in\n\n形状统计 (157 个):\n  FREEFORM (5)                 108\n  TEXT_BOX (17)                49\n\n矢量形状: 157\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 7,
+      "caption": "Figure 7:NAFNet with DA-CLIP for unified image restoration.",
+      "caption_en": "Figure 7:NAFNet with DA-CLIP for unified image restoration.",
+      "caption_zh": "",
+      "caption_bbox": [
+        363.573,
+        340.653,
+        498.207,
+        361.575
+      ],
+      "content_bbox": [
+        104.979,
+        27.813,
+        507.171,
+        340.653
+      ],
+      "crop_bbox": [
+        104.979,
+        27.813,
+        507.171,
+        340.653
+      ],
+      "original": "figures/original/Fig7_p007.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.40 in\n\n形状统计 (220 个):\n  FREEFORM (5)                 139\n  TEXT_BOX (17)                81\n\n矢量形状: 220\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "Table 3: Comparison of the average results over ten different datasets on the unified image restoration task.",
+      "caption_en": "Table 3: Comparison of the average results over ten different datasets on the unified image restoration task.",
+      "caption_zh": "",
+      "caption_bbox": [
+        113.789,
+        226.276,
+        351.387,
+        247.198
+      ],
+      "content_bbox": [
+        132.437,
+        261.001,
+        334.735,
+        311.851
+      ],
+      "crop_bbox": [
+        132.437,
+        261.001,
+        334.735,
+        311.851
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 8,
+      "caption": "Figure8:Comparisonofourmethodwithotherapproachesontheunifiedimagerestoration.All results in each row are produced by sending images with different degradations to the same model.",
+      "caption_en": "Figure8:Comparisonofourmethodwithotherapproachesontheunifiedimagerestoration.All results in each row are produced by sending images with different degradations to the same model.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        334.482,
+        504.003,
+        355.58
+      ],
+      "content_bbox": [
+        87.5,
+        27.813,
+        546.659,
+        334.301
+      ],
+      "crop_bbox": [
+        87.5,
+        27.813,
+        546.659,
+        334.301
+      ],
+      "original": "figures/original/Fig8_p008.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.94 in\n\n形状统计 (54 个):\n  PICTURE (13)                 36\n  TEXT_BOX (17)                15\n  FREEFORM (5)                 3\n\n矢量形状: 18\n位图图片: 36\n  1.5% 画面  (1.64 x 1.09 in)\n  1.5% 画面  (1.64 x 1.09 in)\n  1.5% 画面  (1.64 x 1.09 in)\n  1.0% 画面  (1.09 x 1.09 in)\n  1.3% 画面  (1.43 x 1.09 in)\n  1.5% 画面  (1.63 x 1.09 in)\n  1.5% 画面  (1.64 x 1.09 in)\n  1.5% 画面  (1.64 x 1.09 in)\n  1.5% 画面  (1.64 x 1.09 in)\n  1.3% 画面  (1.43 x 1.09 in)\n  ... 共 36 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 8,
+      "caption": "Figure 9:Training curves of model variations, demonstrating the effectiveness of our DA-CLIP.",
+      "caption_en": "Figure 9:Training curves of model variations, demonstrating the effectiveness of our DA-CLIP.",
+      "caption_zh": "",
+      "caption_bbox": [
+        115.402,
+        555.176,
+        496.601,
+        565.139
+      ],
+      "content_bbox": [
+        106.734,
+        367.547,
+        503.972,
+        544.276
+      ],
+      "crop_bbox": [
+        106.734,
+        367.547,
+        503.972,
+        544.276
+      ],
+      "original": "figures/original/Fig9_p008.png",
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.00 in\n\n形状统计 (287 个):\n  FREEFORM (5)                 175\n  TEXT_BOX (17)                112\n\n矢量形状: 287\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 14,
+      "caption": "Table4:Accuraciesofthedegradationclassification.Theaverageaccuracyforeachmethodis provided in the last column. ‘DA-CLIP w/o Zero’ means adding a controller without zero-initialising its dense layers.",
+      "caption_en": "Table4:Accuraciesofthedegradationclassification.Theaverageaccuracyforeachmethodis provided in the last column. ‘DA-CLIP w/o Zero’ means adding a controller without zero-initialising its dense layers.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        413.343,
+        504.003,
+        445.224
+      ],
+      "content_bbox": [
+        109.764,
+        456.35,
+        503.996,
+        510.137
+      ],
+      "crop_bbox": [
+        109.764,
+        456.35,
+        503.996,
+        510.137
+      ],
+      "original": "tables/original/Table4_p014.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "C_ONTROLLING_V_ISION_L_ANGUAGE_M_ODELS_FOR_ICLR_2024",
+    "title": "Vision-language models such as CLIP have shown great impact on diverse down- stream tasks for zero-shot or label-free predictions. However, when it comes to low-level vision such as image restoration their performance deteriorates dramati- cally due to corrupted inputs. In this paper, we present a degradation-aware vision-",
+    "venue": "ICLR",
+    "venue_full": "ICLR",
+    "venue_short": "ICLR",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "b9b0a29b6656263d9fb7882b198036f5dd33b5d07d372ec274901f8b667c5e48",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\ICLR 2024-2024-通用图像恢复 视觉语言提示-Controlling Vision-Language Models for Universal Image Restoration.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\NLEEMZJK\\Luo 等 - 2024 - Controlling Vision-Language Models for Multi-Task Image Restoration.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 B类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 B类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    },
+    {
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ]
+    }
+  ]
+}

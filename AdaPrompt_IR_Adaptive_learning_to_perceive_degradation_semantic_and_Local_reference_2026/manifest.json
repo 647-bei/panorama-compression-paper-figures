@@ -1,0 +1,605 @@
+{
+  "paper": "AdaPrompt_IR_Adaptive_learning_to_perceive_degradation_semantic_and_Local_reference_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 12,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig.1.Comparisonbetweenourmethodandothermethods.AirNet[8]andPromptIR[9]struggletorestorecleanimageswhenthereisamismatchbetweenthemodelandthe degradations.Incontrast,ourapproacheffectivelymanagesmultipletypesofdegradation,consistentlydeliveringmorevisuallyappealingresults.",
+      "caption_en": "Fig.1.Comparisonbetweenourmethodandothermethods.AirNet[8]andPromptIR[9]struggletorestorecleanimageswhenthereisamismatchbetweenthemodelandthe degradations.Incontrast,ourapproacheffectivelymanagesmultipletypesofdegradation,consistentlydeliveringmorevisuallyappealingresults.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.587,
+        256.84,
+        557.686,
+        271.784
+      ],
+      "content_bbox": [
+        125.624,
+        55.45,
+        469.82,
+        244.762
+      ],
+      "crop_bbox": [
+        125.624,
+        55.45,
+        469.82,
+        244.762
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Fig.2.Fromlefttoright:degradedimages,ground-truthimages,andthedegradationsemanticsobtainedbysubtractingthedegradedimagesfromtheground-truthimages.As seen,differenttasksexhibitdifferentdegradationsemantics.Forexample,therearelargerdiscrepanciesinsemanticsbetweendegradationsemanticsandtargetimagesofthe denoisinganddrainingdatasets.Incontrast,thesemanticdifferencesaregenerallyweakforimagedehazingandlow-lightenhancement.",
+      "caption_en": "Fig.2.Fromlefttoright:degradedimages,ground-truthimages,andthedegradationsemanticsobtainedbysubtractingthedegradedimagesfromtheground-truthimages.As seen,differenttasksexhibitdifferentdegradationsemantics.Forexample,therearelargerdiscrepanciesinsemanticsbetweendegradationsemanticsandtargetimagesofthe denoisinganddrainingdatasets.Incontrast,thesemanticdifferencesaregenerallyweakforimagedehazingandlow-lightenhancement.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.587,
+        305.8,
+        557.689,
+        329.311
+      ],
+      "content_bbox": [
+        143.738,
+        55.45,
+        451.742,
+        293.722
+      ],
+      "crop_bbox": [
+        143.738,
+        55.45,
+        451.742,
+        293.722
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Fig.3.TheoverallpipelineoftheproposedAdaPrompt-IRframeworkfollowsaUNet-stylearchitecture,incorporatingTransformer-basedblocksandDCAMs.TheDRCisresponsible forcapturingtheintrinsiccharacteristicsofvariousdegradationsandisutilizedwithintheDAMstoactivatespecificdegradationregionsandintensities.DCAMsenableeffective interactionbetweenthedegradationinformationandimagefeatures.‘‘ParametersRetrieval’’signifiesthatthecurrentmoduleutilizestheparametersofthecorrespondingmodule intherestorationbranchwithoutupdatingthemduringtraining.",
+      "caption_en": "Fig.3.TheoverallpipelineoftheproposedAdaPrompt-IRframeworkfollowsaUNet-stylearchitecture,incorporatingTransformer-basedblocksandDCAMs.TheDRCisresponsible forcapturingtheintrinsiccharacteristicsofvariousdegradationsandisutilizedwithintheDAMstoactivatespecificdegradationregionsandintensities.DCAMsenableeffective interactionbetweenthedegradationinformationandimagefeatures.‘‘ParametersRetrieval’’signifiesthatthecurrentmoduleutilizestheparametersofthecorrespondingmodule intherestorationbranchwithoutupdatingthemduringtraining.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.587,
+        256.84,
+        557.688,
+        288.919
+      ],
+      "content_bbox": [
+        125.624,
+        55.45,
+        469.82,
+        244.762
+      ],
+      "crop_bbox": [
+        125.624,
+        55.45,
+        469.82,
+        244.762
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 3,
+      "caption": "Fig.4.NetworkdetailsofDAM.Dconv[x, y, z]denotesadilatedconvolutionoperation withakernelsizeofx,paddingofy,andadilationrateofz.Conv[l, m, n]denotesa convolutionoperationwithakernelsizeofl,strideofm,paddingofn.",
+      "caption_en": "Fig.4.NetworkdetailsofDAM.Dconv[x, y, z]denotesadilatedconvolutionoperation withakernelsizeofx,paddingofy,andadilationrateofz.Conv[l, m, n]denotesa convolutionoperationwithakernelsizeofl,strideofm,paddingofn.",
+      "caption_zh": "",
+      "caption_bbox": [
+        306.604,
+        488.753,
+        557.689,
+        512.44
+      ],
+      "content_bbox": [
+        312.014,
+        304.969,
+        552.314,
+        476.821
+      ],
+      "crop_bbox": [
+        312.014,
+        304.969,
+        552.314,
+        476.821
+      ],
+      "original": "figures/original/Fig4_p003.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 4,
+      "caption": "Fig.5.ThestructuresofDCAManditsrelationshipwithTransformerblock.TheDCAM atdifferentpositionshasdistinctinputsandservesdifferentfunctions.",
+      "caption_en": "Fig.5.ThestructuresofDCAManditsrelationshipwithTransformerblock.TheDCAM atdifferentpositionshasdistinctinputsandservesdifferentfunctions.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.587,
+        195.784,
+        288.674,
+        210.728
+      ],
+      "content_bbox": [
+        42.955,
+        55.474,
+        283.471,
+        183.706
+      ],
+      "crop_bbox": [
+        42.955,
+        55.474,
+        283.471,
+        183.706
+      ],
+      "original": "figures/original/Fig5_p004.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 5,
+      "caption": "Fig.6.NetworkdetailsofSGM.Theupperandlowerpathsrepresentthesemanticextractionoftherestorationanddegradationbranches,respectively.‘‘ParameterSharing’’refers tothesharingofweightsbetweenidenticalmodulesinboththeupperandlowerpaths.‘‘Stop-gradient’’indicatesthatgradientupdatesaredisabledduringtraining.",
+      "caption_en": "Fig.6.NetworkdetailsofSGM.Theupperandlowerpathsrepresentthesemanticextractionoftherestorationanddegradationbranches,respectively.‘‘ParameterSharing’’refers tothesharingofweightsbetweenidenticalmodulesinboththeupperandlowerpaths.‘‘Stop-gradient’’indicatesthatgradientupdatesaredisabledduringtraining.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.587,
+        181.24,
+        557.683,
+        196.184
+      ],
+      "content_bbox": [
+        142.904,
+        55.45,
+        452.54,
+        169.162
+      ],
+      "crop_bbox": [
+        142.904,
+        55.45,
+        452.54,
+        169.162
+      ],
+      "original": "figures/original/Fig6_p005.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table1 Comparisontostate-of-the-artforsingledegradations.PSNR(dB,↑)andSSIM(↑) metricsarereportedonthefullRGBimages.Bestandsecondbestperformances arehighlighted.Ourmethodexcelspriorworkondehazingandderaining.Thetop super-rowmethodsdenotethegeneralimagerestorationapproaches,andtherest arespecializedall-in-oneapproaches.Deraining,DehazingandDenoisingresults inthesingle-tasksettingonRain100L[20],SOTS-Outdoor[21]andBSD68[22] (see[23–36]).",
+      "caption_en": "Table1 Comparisontostate-of-the-artforsingledegradations.PSNR(dB,↑)andSSIM(↑) metricsarereportedonthefullRGBimages.Bestandsecondbestperformances arehighlighted.Ourmethodexcelspriorworkondehazingandderaining.Thetop super-rowmethodsdenotethegeneralimagerestorationapproaches,andtherest arespecializedall-in-oneapproaches.Deraining,DehazingandDenoisingresults inthesingle-tasksettingonRain100L[20],SOTS-Outdoor[21]andBSD68[22] (see[23–36]).",
+      "caption_zh": "",
+      "caption_bbox": [
+        43.865,
+        211.1,
+        282.395,
+        277.436
+      ],
+      "content_bbox": [
+        48.514,
+        294.934,
+        283.59,
+        373.168
+      ],
+      "crop_bbox": [
+        48.514,
+        294.934,
+        283.59,
+        373.168
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 6,
+      "caption": "Fig.7.ImagedrainingcomparisonsunderthesingletasksettingonRain100L[20].OurAdaPromote-IRmethodproduceshigh-fidelity,rain-freeimagesthatpreservestructural integrityandarefreefromstreakartifacts.",
+      "caption_en": "Fig.7.ImagedrainingcomparisonsunderthesingletasksettingonRain100L[20].OurAdaPromote-IRmethodproduceshigh-fidelity,rain-freeimagesthatpreservestructural integrityandarefreefromstreakartifacts.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.587,
+        133.452,
+        557.695,
+        148.396
+      ],
+      "content_bbox": [
+        130.778,
+        55.453,
+        464.702,
+        121.339
+      ],
+      "crop_bbox": [
+        130.778,
+        55.453,
+        464.702,
+        121.339
+      ],
+      "original": "figures/original/Fig7_p006.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 6,
+      "caption": "Fig.8.ImagedenoisingresultsundersingletasksettingonBSD68[22]with𝜎=50.Therestoredimagesproducedbyourapproacharemorevisuallyfaithfultotheground truth.",
+      "caption_en": "Fig.8.ImagedenoisingresultsundersingletasksettingonBSD68[22]with𝜎=50.Therestoredimagesproducedbyourapproacharemorevisuallyfaithfultotheground truth.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.587,
+        242.098,
+        557.69,
+        257.218
+      ],
+      "content_bbox": [
+        130.706,
+        164.274,
+        464.606,
+        230.16
+      ],
+      "crop_bbox": [
+        130.706,
+        164.274,
+        464.606,
+        230.16
+      ],
+      "original": "figures/original/Fig8_p006.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 6,
+      "caption": "Fig.9.ImagedehazingcomparisonsunderthesingletasksettingonSOTS[21].Ourapproachismoreeffectiveinhazeremoval.",
+      "caption_en": "Fig.9.ImagedehazingcomparisonsunderthesingletasksettingonSOTS[21].Ourapproachismoreeffectiveinhazeremoval.",
+      "caption_zh": "",
+      "caption_bbox": [
+        106.942,
+        349.957,
+        488.336,
+        356.349
+      ],
+      "content_bbox": [
+        130.778,
+        271.777,
+        464.702,
+        337.843
+      ],
+      "crop_bbox": [
+        130.778,
+        271.777,
+        464.702,
+        337.843
+      ],
+      "original": "figures/original/Fig9_p006.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 7,
+      "caption": "Fig.10.VisualcomparisonsofAdaPromote-IRwithstate-of-the-artall-in-onemethodsforthree-tasksetting.",
+      "caption_en": "Fig.10.VisualcomparisonsofAdaPromote-IRwithstate-of-the-artall-in-onemethodsforthree-tasksetting.",
+      "caption_zh": "",
+      "caption_bbox": [
+        138.861,
+        397.736,
+        456.417,
+        404.128
+      ],
+      "content_bbox": [
+        78.626,
+        80.124,
+        513.993,
+        385.622
+      ],
+      "crop_bbox": [
+        78.626,
+        80.124,
+        513.993,
+        385.622
+      ],
+      "original": "figures/original/Fig10_p007.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 7,
+      "caption": "Table2 Performancecomparisonintheall-in-onesetting:asinglemodeltrainedonacombineddatasetofimageswithvariousdegradationtypes(see [46,47]).",
+      "caption_en": "Table2 Performancecomparisonintheall-in-onesetting:asinglemodeltrainedonacombineddatasetofimageswithvariousdegradationtypes(see [46,47]).",
+      "caption_zh": "",
+      "caption_bbox": [
+        79.954,
+        55.219,
+        515.319,
+        78.716
+      ],
+      "content_bbox": [
+        78.626,
+        80.124,
+        513.993,
+        385.622
+      ],
+      "crop_bbox": [
+        78.626,
+        80.124,
+        513.993,
+        385.622
+      ],
+      "original": "tables/original/Table2_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "Table3 Comparisonsforall-in-onerestorationacrossfivedegradationtypes.Denoisingresultsarereportedforanoiselevelof𝜎=25.Thetopsuper-row representsgeneralimagerestorationmethods,whiletheremainingrowslistspecializedall-in-oneapproaches(see[48–54]).",
+      "caption_en": "Table3 Comparisonsforall-in-onerestorationacrossfivedegradationtypes.Denoisingresultsarereportedforanoiselevelof𝜎=25.Thetopsuper-row representsgeneralimagerestorationmethods,whiletheremainingrowslistspecializedall-in-oneapproaches(see[48–54]).",
+      "caption_zh": "",
+      "caption_bbox": [
+        76.467,
+        419.78,
+        518.807,
+        443.276
+      ],
+      "content_bbox": [
+        75.139,
+        444.745,
+        517.48,
+        603.66
+      ],
+      "crop_bbox": [
+        75.139,
+        444.745,
+        517.48,
+        603.66
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 8,
+      "caption": "Table4 Comparisonofgeneralizationperformanceamongall-in-onerestorationmodels.TheabbreviationsR,H,L,N,andBcorrespondtoderaining,dehazing, low-lightenhancement,denoising,anddeblurringtasks,respectively.ThenotationB+Nrepresentsthecompositedegradationtaskinvolvingsimultaneous blurandnoiseremoval,withothercombinedtasksfollowingthesamenotationalconvention.",
+      "caption_en": "Table4 Comparisonofgeneralizationperformanceamongall-in-onerestorationmodels.TheabbreviationsR,H,L,N,andBcorrespondtoderaining,dehazing, low-lightenhancement,denoising,anddeblurringtasks,respectively.ThenotationB+Nrepresentsthecompositedegradationtaskinvolvingsimultaneous blurandnoiseremoval,withothercombinedtasksfollowingthesamenotationalconvention.",
+      "caption_zh": "",
+      "caption_bbox": [
+        70.49,
+        55.219,
+        524.789,
+        87.284
+      ],
+      "content_bbox": [
+        69.161,
+        88.753,
+        523.457,
+        155.358
+      ],
+      "crop_bbox": [
+        69.161,
+        88.753,
+        523.457,
+        155.358
+      ],
+      "original": "tables/original/Table4_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 8,
+      "caption": "Table6 AblationstudiesforplacingSGMatdifferentlevels.L(𝑥)meansthattheSGMmodule isaddedafterthe𝑥thencoderlayer. Level Rain100L LOL PSNR SSIM PSNR SSIM L(1) 35.94 0.972 20.71 0.813 L(1+2) 35.80 0.970 21.54 0.813 L(1+2+3) 35.55 0.970 21.66 0.817 L(1+2+3+4) 35.72 0.972 22.03 0.819",
+      "caption_en": "Table6 AblationstudiesforplacingSGMatdifferentlevels.L(𝑥)meansthattheSGMmodule isaddedafterthe𝑥thencoderlayer. Level Rain100L LOL PSNR SSIM PSNR SSIM L(1) 35.94 0.972 20.71 0.813 L(1+2) 35.80 0.970 21.54 0.813 L(1+2+3) 35.55 0.970 21.66 0.817 L(1+2+3+4) 35.72 0.972 22.03 0.819",
+      "caption_zh": "",
+      "caption_bbox": [
+        306.604,
+        314.248,
+        557.688,
+        397.994
+      ],
+      "content_bbox": [
+        306.604,
+        398.806,
+        557.688,
+        401.009
+      ],
+      "crop_bbox": [
+        306.604,
+        398.806,
+        557.688,
+        401.009
+      ],
+      "original": "tables/original/Table6_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig11",
+      "page": 9,
+      "caption": "Fig.11.VisualizationofDRCunderdifferentdegradationinputs.",
+      "caption_en": "Fig.11.VisualizationofDRCunderdifferentdegradationinputs.",
+      "caption_zh": "",
+      "caption_bbox": [
+        201.646,
+        246.063,
+        393.632,
+        252.455
+      ],
+      "content_bbox": [
+        130.706,
+        55.473,
+        464.606,
+        233.949
+      ],
+      "crop_bbox": [
+        130.706,
+        55.473,
+        464.606,
+        233.949
+      ],
+      "original": "figures/original/Fig11_p009.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig12",
+      "page": 9,
+      "caption": "Fig.12.Visualcomparisonresultsfordifferentweightcoefficients.",
+      "caption_en": "Fig.12.Visualcomparisonresultsfordifferentweightcoefficients.",
+      "caption_zh": "",
+      "caption_bbox": [
+        199.039,
+        400.476,
+        396.235,
+        406.868
+      ],
+      "content_bbox": [
+        131.6,
+        268.357,
+        463.808,
+        388.363
+      ],
+      "crop_bbox": [
+        131.6,
+        268.357,
+        463.808,
+        388.363
+      ],
+      "original": "figures/original/Fig12_p009.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig13",
+      "page": 9,
+      "caption": "Fig.13.Visualizationofdegradationmasksatdifferentlevels.Thefirstcolumnshows theinputdegradedimage,thesecondandthirdcolumnsdisplaythedegradationmasks forlevel-1andlevel-2,respectively.",
+      "caption_en": "Fig.13.Visualizationofdegradationmasksatdifferentlevels.Thefirstcolumnshows theinputdegradedimage,thesecondandthirdcolumnsdisplaythedegradationmasks forlevel-1andlevel-2,respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        306.604,
+        547.092,
+        557.688,
+        570.604
+      ],
+      "content_bbox": [
+        130.706,
+        55.473,
+        537.008,
+        535.014
+      ],
+      "crop_bbox": [
+        130.706,
+        55.473,
+        537.008,
+        535.014
+      ],
+      "original": "figures/original/Fig13_p009.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig14",
+      "page": 10,
+      "caption": "Fig.14.Visualizationofdegradationbranchoutputs.Thefirstrowshowstheclean imagebeforedegradation.Thesecondrowdisplaysthereferencedegradedimage.The thirdrowpresentsthedegradedoutputsgeneratedbyourdegradationbranch. CRediTauthorshipcontributionstatement",
+      "caption_en": "Fig.14.Visualizationofdegradationbranchoutputs.Thefirstrowshowstheclean imagebeforedegradation.Thesecondrowdisplaysthereferencedegradedimage.The thirdrowpresentsthedegradedoutputsgeneratedbyourdegradationbranch. CRediTauthorshipcontributionstatement",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.587,
+        407.866,
+        468.529,
+        432.035
+      ],
+      "content_bbox": [
+        45.878,
+        167.957,
+        561.006,
+        408.09
+      ],
+      "crop_bbox": [
+        45.878,
+        167.957,
+        561.006,
+        408.09
+      ],
+      "original": "figures/original/Fig14_p010.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 10,
+      "caption": "Table8 PerformanceoftheproposedAdaPromote-IRacrossdifferentcombinationsofdegradationtypes,withtaskcombinationsrangingfrom1to5. Degradation DenoisingonBSD68 Deraining Dehazing Noise Rain Haze 𝜎= 15 𝜎= 25 𝜎= 50 onRain100L onSOTS ! 34.36 0.938 31.73 0.897 28.51 0.814 – – – – ! – – – – – – 39.31 0.986 – – ! – – – – – – – – 31.21 0.979 ! ! 34.34 0.938 31.70 0.897 28.47 0.813 38.94 0.985 – – ! ! 34.11 0.935 31.48 0.892 28.23 0.806 – – 30.66 0.977 ! ! – – – – – – 38.32 0.983 30.79 0.977 ! ! ! 34.04 0.934 31.37 0.890 28.09 0.800 38.15 0.981 30.44 0.979",
+      "caption_en": "Table8 PerformanceoftheproposedAdaPromote-IRacrossdifferentcombinationsofdegradationtypes,withtaskcombinationsrangingfrom1to5. Degradation DenoisingonBSD68 Deraining Dehazing Noise Rain Haze 𝜎= 15 𝜎= 25 𝜎= 50 onRain100L onSOTS ! 34.36 0.938 31.73 0.897 28.51 0.814 – – – – ! – – – – – – 39.31 0.986 – – ! – – – – – – – – 31.21 0.979 ! ! 34.34 0.938 31.70 0.897 28.47 0.813 38.94 0.985 – – ! ! 34.11 0.935 31.48 0.892 28.23 0.806 – – 30.66 0.977 ! ! – – – – – – 38.32 0.983 30.79 0.977 ! ! ! 34.04 0.934 31.37 0.890 28.09 0.800 38.15 0.981 30.44 0.979",
+      "caption_zh": "",
+      "caption_bbox": [
+        89.597,
+        55.219,
+        503.706,
+        165.368
+      ],
+      "content_bbox": [
+        45.878,
+        167.957,
+        561.006,
+        408.09
+      ],
+      "crop_bbox": [
+        45.878,
+        167.957,
+        561.006,
+        408.09
+      ],
+      "original": "tables/original/Table8_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "AdaPrompt_IR_Adaptive_learning_to_perceive_degradation_semantic_and_Local_reference_2026",
+    "title": "AdaPrompt-IR: Adaptive learning to perceive degradation semantic and prompting for all-in-one image restoration",
+    "venue": "Pattern Recognition",
+    "venue_full": "Pattern Recognition",
+    "venue_short": "Pattern Recognition",
+    "venue_type": "期刊",
+    "year": 2026,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://doi.org/10.1016/j.patcog.2025.111875",
+    "pdf_url": "https://doi.org/10.1016/j.patcog.2025.111875",
+    "access": "local_pdf",
+    "source_sha256": "2af3d0bc58d688567740c13394d8581d8c5ba7c109b956c6d07cf3cc9fc490bd",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\6ZCE4IBY\\Sun 等 - 2026 - AdaPrompt-IR Adaptive learning to perceive degradation semantic and prompting for all-in-one image.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 1区 · Top（2025）",
+    "cas_display": "中科院 1区 · Top（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "paper": "PromptFix_You_Prompt_and_We_Fix_the_Photo_ECCV_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 25,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Figure 1:We propose PromptFix, a unified diffusion model capable of performing multiple image- processing tasks.It can understand user-customized editing instructions and perform the correspond- ing tasks with high quality.One of the key advantages of PromptFix is high-frequency information preservation, ensuring that image details are maintained throughout VAE decoding.PromptFix can handle various images with different aspect ratios.",
+      "caption_en": "Figure 1:We propose PromptFix, a unified diffusion model capable of performing multiple image- processing tasks.It can understand user-customized editing instructions and perform the correspond- ing tasks with high quality.One of the key advantages of PromptFix is high-frequency information preservation, ensuring that image details are maintained throughout VAE decoding.PromptFix can handle various images with different aspect ratios.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        490.125,
+        505.65,
+        543.765
+      ],
+      "content_bbox": [
+        109.979,
+        71.993,
+        502.013,
+        483.111
+      ],
+      "crop_bbox": [
+        109.979,
+        71.993,
+        502.013,
+        483.111
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  71.5% 画面  (7.15 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 6541348 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Figure 2:The architecture of our proposed PromptFix.",
+      "caption_en": "Figure 2:The architecture of our proposed PromptFix.",
+      "caption_zh": "",
+      "caption_bbox": [
+        197.234,
+        246.414,
+        414.767,
+        256.377
+      ],
+      "content_bbox": [
+        108.0,
+        72.001,
+        503.997,
+        239.36
+      ],
+      "crop_bbox": [
+        108.0,
+        72.001,
+        503.997,
+        239.36
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  56.4% 画面  (10.00 x 4.23 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3867727 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 6,
+      "caption": "Figure 3:Qualitative comparison between PromptFix and other instruct-driven diffusion methods (InstructP2P[7],InstructDiff[21],andMGIE[19])forimageprocessing,aswellaslow-level generalist techniques (PromptIR [50], AirNet [36], and Diff-Plugin [44]) for image restoration.",
+      "caption_en": "Figure 3:Qualitative comparison between PromptFix and other instruct-driven diffusion methods (InstructP2P[7],InstructDiff[21],andMGIE[19])forimageprocessing,aswellaslow-level generalist techniques (PromptIR [50], AirNet [36], and Diff-Plugin [44]) for image restoration.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.671,
+        473.936,
+        504.004,
+        505.792
+      ],
+      "content_bbox": [
+        108.0,
+        71.991,
+        504.01,
+        466.956
+      ],
+      "crop_bbox": [
+        108.0,
+        71.991,
+        504.01,
+        466.956
+      ],
+      "original": "figures/original/Fig3_p006.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing_svg_only+svg_pptx_wrapper+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  75.2% 画面  (7.52 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 6875351 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 7,
+      "caption": "Figure 4:Qualitative analysis of VLM-guided blind restoration for desnowing, dehazing, and low- lightenhancement.TheresultsareobtainedfromPromptFixwithoutexplicittaskinstructions, relying solely on the input image.The auxiliary prompt, automatically generated by a VLM during inference, includes semantic captions and defect descriptions, indicated by <blue> and <yellow> tags, respectively.",
+      "caption_en": "Figure 4:Qualitative analysis of VLM-guided blind restoration for desnowing, dehazing, and low- lightenhancement.TheresultsareobtainedfromPromptFixwithoutexplicittaskinstructions, relying solely on the input image.The auxiliary prompt, automatically generated by a VLM during inference, includes semantic captions and defect descriptions, indicated by <blue> and <yellow> tags, respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        479.318,
+        505.656,
+        532.974
+      ],
+      "content_bbox": [
+        107.691,
+        78.695,
+        505.745,
+        472.32
+      ],
+      "crop_bbox": [
+        107.691,
+        78.695,
+        505.745,
+        472.32
+      ],
+      "original": "figures/original/Fig4_p007.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "pdf_vector+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 13.19 in\n\n形状统计 (134 个):\n  TEXT_BOX (17)                85\n  FREEFORM (5)                 48\n  PICTURE (13)                 1\n\n矢量形状: 133\n位图图片: 1\n  37.1% 画面  (13.16 x 4.97 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 134 draws 48 fs 0 polys 32 rings 0 text 85 images 0 inline 1 canvas 1948 1927\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\PromptFix_You_Prompt_and_We_Fix_the_Photo_ECCV_2024\\figures\\vector\\Fig4\\Fig4.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\PromptFix_You_Prompt_and_We_Fix_the_Photo_ECCV_2024\\figures\\vector\\Fig4\\Fig4.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 13.19 in\n\n形状统计 (134 个):\n  TEXT_BOX (17)                85\n  FREEFORM (5)                 48\n  PICTURE (13)                 1\n\n矢量形状: 133\n位图图片: 1\n  37.1% 画面  (13.16 x 4.97 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 7,
+      "caption": "Table 1 illustrates the comparative analysis of image restoration and editing techniques, evaluated viaLPIPSandManIQAmetrics.Theexpertmodel–Diff-Pluginshowslimitedbutnotableper- formance in low-light enhancement (LPIPS/ManIQA: 0.227/0.453) and desnowing (0.133/0.508). Among generalist methods, AirNet demonstrates balanced capabilities in tasks like desnowing and dehazing, achieving LPIPS/ManIQA scores of 0.245/0.589 and 0.039/0.780, respectively.However, the instruction-driven diffusion methods reveal a more nuanced picture, with PromptFix emerging as particularly promising.It excels in colorization (LPIPS/ManIQA: 0.233/0.489), object removal (0.054/0.810), and watermark removal (0.071/0.811), consistently outperforming others.InstructP2P and InstructDiff also perform well in specific tasks, such as low-light enhancement and dehazing, but do not match the overall versatility of PromptFix.MGIE, though effective in certain domains, lacks the consistency seen in \"PromptFix (Ours).\" This highlights the robustness and superior performance",
+      "caption_en": "Table 1 illustrates the comparative analysis of image restoration and editing techniques, evaluated viaLPIPSandManIQAmetrics.Theexpertmodel–Diff-Pluginshowslimitedbutnotableper- formance in low-light enhancement (LPIPS/ManIQA: 0.227/0.453) and desnowing (0.133/0.508). Among generalist methods, AirNet demonstrates balanced capabilities in tasks like desnowing and dehazing, achieving LPIPS/ManIQA scores of 0.245/0.589 and 0.039/0.780, respectively.However, the instruction-driven diffusion methods reveal a more nuanced picture, with PromptFix emerging as particularly promising.It excels in colorization (LPIPS/ManIQA: 0.233/0.489), object removal (0.054/0.810), and watermark removal (0.071/0.811), consistently outperforming others.InstructP2P and InstructDiff also perform well in specific tasks, such as low-light enhancement and dehazing, but do not match the overall versatility of PromptFix.MGIE, though effective in certain domains, lacks the consistency seen in \"PromptFix (Ours).\" This highlights the robustness and superior performance",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.641,
+        603.278,
+        505.745,
+        722.388
+      ],
+      "content_bbox": [
+        108.0,
+        542.577,
+        504.001,
+        591.704
+      ],
+      "crop_bbox": [
+        108.0,
+        542.577,
+        504.001,
+        591.704
+      ],
+      "original": "tables/original/Table1_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 8,
+      "caption": "Figure5:Preservationoflow-levelimagedetailsusingtheproposedHigh-frequencyGuidance Sampling (HGS) method, compared to previous VAE-based baselines [19, 21, 44] utilizing stable- diffusion architecture.",
+      "caption_en": "Figure5:Preservationoflow-levelimagedetailsusingtheproposedHigh-frequencyGuidance Sampling (HGS) method, compared to previous VAE-based baselines [19, 21, 44] utilizing stable- diffusion architecture.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        619.204,
+        505.651,
+        651.06
+      ],
+      "content_bbox": [
+        108.0,
+        537.597,
+        501.811,
+        612.663
+      ],
+      "crop_bbox": [
+        108.0,
+        537.597,
+        501.811,
+        612.663
+      ],
+      "original": "figures/original/Fig5_p008.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\PromptFix_You_Prompt_and_We_Fix_the_Photo_ECCV_2024\\figures\\vector\\Fig5\\Fig5.svg (1576x301 -> 1576x301 px, scale 1.0, 8561 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  25.5% 画面  (10.00 x 1.91 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 8,
+      "caption": "Table 3:Quantitative comparison on three low- level tasks.PromptFix † denotes blind restoration without input instruction prompts.The compared baselines specify task objectives explicitly.",
+      "caption_en": "Table 3:Quantitative comparison on three low- level tasks.PromptFix † denotes blind restoration without input instruction prompts.The compared baselines specify task objectives explicitly.",
+      "caption_zh": "",
+      "caption_bbox": [
+        310.79,
+        79.667,
+        505.652,
+        122.433
+      ],
+      "content_bbox": [
+        108.0,
+        125.701,
+        503.999,
+        233.061
+      ],
+      "crop_bbox": [
+        108.0,
+        125.701,
+        503.999,
+        233.061
+      ],
+      "original": "tables/original/Table3_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 9,
+      "caption": "Table 4:Quantitative study on HGS and Auxiliary Prompting.F(·)andS(·)representthetypeof high-frequencyoperatorsusedinHGStoguide sampling.",
+      "caption_en": "Table 4:Quantitative study on HGS and Auxiliary Prompting.F(·)andS(·)representthetypeof high-frequencyoperatorsusedinHGStoguide sampling.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.691,
+        81.079,
+        306.347,
+        123.727
+      ],
+      "content_bbox": [
+        109.866,
+        124.891,
+        504.002,
+        192.03
+      ],
+      "crop_bbox": [
+        109.866,
+        124.891,
+        504.002,
+        192.03
+      ],
+      "original": "tables/original/Table4_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 9,
+      "caption": "Table5:AblationStudyonDifferentTypesof Instruction Prompt.A:instructions used during training;B:out-of-traininghumaninstructions with fewer than 20 words; C:out-of-training hu- man instructions with 40-70 words.",
+      "caption_en": "Table5:AblationStudyonDifferentTypesof Instruction Prompt.A:instructions used during training;B:out-of-traininghumaninstructions with fewer than 20 words; C:out-of-training hu- man instructions with 40-70 words.",
+      "caption_zh": "",
+      "caption_bbox": [
+        310.79,
+        78.979,
+        505.653,
+        132.654
+      ],
+      "content_bbox": [
+        318.695,
+        136.899,
+        498.674,
+        189.305
+      ],
+      "crop_bbox": [
+        318.695,
+        136.899,
+        498.674,
+        189.305
+      ],
+      "original": "tables/original/Table5_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 16,
+      "caption": "Table 2.Additionally, we provide further visualizations of VLM-guided blind restoration outcomes as in Figure 16.",
+      "caption_en": "Table 2.Additionally, we provide further visualizations of VLM-guided blind restoration outcomes as in Figure 16.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        412.565,
+        504.001,
+        433.361
+      ],
+      "content_bbox": [
+        127.801,
+        445.066,
+        484.194,
+        652.41
+      ],
+      "crop_bbox": [
+        127.801,
+        445.066,
+        484.194,
+        652.41
+      ],
+      "original": "tables/original/Table2_p016.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "PromptFix_You_Prompt_and_We_Fix_the_Photo_ECCV_2024",
+    "title": "PromptFix: You Prompt and We Fix the Photo",
+    "venue": "ECCV",
+    "venue_full": "ECCV",
+    "venue_short": "ECCV",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://www.yongshengyu.com/PromptFix-Page",
+    "pdf_url": "https://www.yongshengyu.com/PromptFix-Page",
+    "access": "local_pdf",
+    "source_sha256": "a669dba052a63ccee65d00263dc5a3ccd2fca78832f5d0692494a529d2d336af",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\ECCV 2024-2024-通用照片修复 指令式编辑恢复-PromptFix You Prompt and We Fix the Photo.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\Y6HNKJ9Z\\Yu 等 - 2024 - PromptFix You Prompt and We Fix the Photo.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 B类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 B类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing_svg_only+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    }
+  ]
+}

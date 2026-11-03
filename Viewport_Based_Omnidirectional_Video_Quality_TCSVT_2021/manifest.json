@@ -1,0 +1,836 @@
+{
+  "paper": "Viewport_Based_Omnidirectional_Video_Quality_TCSVT_2021",
+  "pdf": "pdf/paper.pdf",
+  "pages": 15,
+  "assets": [
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 0,
+      "caption": "TABLEI NOTATIONS",
+      "caption_en": "TABLEI NOTATIONS",
+      "caption_zh": "",
+      "caption_bbox": [
+        416.879,
+        167.138,
+        456.544,
+        186.989
+      ],
+      "content_bbox": [
+        315.6,
+        197.688,
+        556.44,
+        447.101
+      ],
+      "crop_bbox": [
+        315.6,
+        197.688,
+        556.44,
+        447.101
+      ],
+      "original": "tables/original/Table1_p000.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 2,
+      "caption": "TABLEII",
+      "caption_en": "TABLEII",
+      "caption_zh": "",
+      "caption_bbox": [
+        289.44,
+        58.298,
+        322.455,
+        66.268
+      ],
+      "content_bbox": [
+        58.439,
+        70.298,
+        552.475,
+        290.261
+      ],
+      "crop_bbox": [
+        58.439,
+        70.298,
+        552.475,
+        290.261
+      ],
+      "original": "tables/original/Table2_p002.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 3,
+      "caption": "Fig.1. AssessmentODVs.SnapshotsoftestingODVs:(a)AerialCity, (b)BearAttack,(c)BroadWay,(d)Canolaﬁeld,(e)Harbor,(f)Highway, (g)Jamsession,(h)PoleVault(i)DrivingInCity,(j)Fengjing1,(k)Gaslamp, (l)Hangpai3,(m)SkateboardTrick, (n)SongMenRidge, (o)Dianying, (p)Tiyu1,(q)Mbenz,(r)AnglFallsand(s)KiteFlite.“KiteFlite”isused fortraining.Zoomedinforsalientviewport.",
+      "caption_en": "Fig.1. AssessmentODVs.SnapshotsoftestingODVs:(a)AerialCity, (b)BearAttack,(c)BroadWay,(d)Canolaﬁeld,(e)Harbor,(f)Highway, (g)Jamsession,(h)PoleVault(i)DrivingInCity,(j)Fengjing1,(k)Gaslamp, (l)Hangpai3,(m)SkateboardTrick, (n)SongMenRidge, (o)Dianying, (p)Tiyu1,(q)Mbenz,(r)AnglFallsand(s)KiteFlite.“KiteFlite”isused fortraining.Zoomedinforsalientviewport.",
+      "caption_zh": "",
+      "caption_bbox": [
+        312.0,
+        464.897,
+        562.997,
+        517.708
+      ],
+      "content_bbox": [
+        311.988,
+        58.608,
+        562.092,
+        453.06
+      ],
+      "crop_bbox": [
+        311.988,
+        58.608,
+        562.092,
+        453.06
+      ],
+      "original": "figures/original/Fig1_p003.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  47.6% 画面  (4.76 x 7.50 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 5,
+      "caption": "Fig.2. IndependentTests&ViewingSequenceCategory(VSC).(a)Spatial(SI)&temporalinformation(TI)indicesoftheviewportvideosfortwo independenttests;(b)VSCsinTest#1;(c)VSCsinTest#2.ThesameVSCappliesthesamemarkerin(b)(c).",
+      "caption_en": "Fig.2. IndependentTests&ViewingSequenceCategory(VSC).(a)Spatial(SI)&temporalinformation(TI)indicesoftheviewportvideosfortwo independenttests;(b)VSCsinTest#1;(c)VSCsinTest#2.ThesameVSCappliesthesamemarkerin(b)(c).",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        183.857,
+        562.979,
+        200.908
+      ],
+      "content_bbox": [
+        104.04,
+        58.41,
+        507.441,
+        172.14
+      ],
+      "crop_bbox": [
+        104.04,
+        58.41,
+        507.441,
+        172.14
+      ],
+      "original": "figures/original/Fig2_p005.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.84 in\n\n形状统计 (646 个):\n  FREEFORM (5)                 646\n\n矢量形状: 646\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 5,
+      "caption": "Fig.3. SubjectiveAssessmentProtocol.(a)Likertratingscale,(b)Rating processofconsecutivePVSs,(c)Twosession(training+testing)rating procedure.",
+      "caption_en": "Fig.3. SubjectiveAssessmentProtocol.(a)Likertratingscale,(b)Rating processofconsecutivePVSs,(c)Twosession(training+testing)rating procedure.",
+      "caption_zh": "",
+      "caption_bbox": [
+        312.0,
+        354.857,
+        562.87,
+        380.788
+      ],
+      "content_bbox": [
+        334.293,
+        224.166,
+        541.649,
+        342.063
+      ],
+      "crop_bbox": [
+        334.293,
+        224.166,
+        541.649,
+        342.063
+      ],
+      "original": "figures/original/Fig3_p005.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.62 in\n\n形状统计 (318 个):\n  FREEFORM (5)                 313\n  AUTO_SHAPE (1)               5\n\n矢量形状: 318\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 7,
+      "caption": "Fig.4. Reliability&ValidityofVOD-VQA. (a)The averageMOSs (black dots)andtheircorrespondingstandarddeviation(blueverticalbars).These scores are individually collected from distorted viewport videos; (b) Histogram distributionoftheMOSsforentire774impairedviewportvideos.",
+      "caption_en": "Fig.4. Reliability&ValidityofVOD-VQA. (a)The averageMOSs (black dots)andtheircorrespondingstandarddeviation(blueverticalbars).These scores are individually collected from distorted viewport videos; (b) Histogram distributionoftheMOSsforentire774impairedviewportvideos.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        175.937,
+        300.106,
+        210.868
+      ],
+      "content_bbox": [
+        51.48,
+        58.688,
+        296.873,
+        164.1
+      ],
+      "crop_bbox": [
+        51.48,
+        58.688,
+        296.873,
+        164.1
+      ],
+      "original": "figures/original/Fig4_p007.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.79 in\n\n形状统计 (364 个):\n  FREEFORM (5)                 362\n  AUTO_SHAPE (1)               2\n\n矢量形状: 364\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 7,
+      "caption": "Fig.5. NQQ.IllustrationofmeasuredNQQpointsunderdifferentsandt. Curvesarederivedataﬁxedsvialeastsquarederror(LSE)ﬁtting.",
+      "caption_en": "Fig.5. NQQ.IllustrationofmeasuredNQQpointsunderdifferentsandt. Curvesarederivedataﬁxedsvialeastsquarederror(LSE)ﬁtting.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        392.777,
+        299.965,
+        409.828
+      ],
+      "content_bbox": [
+        48.96,
+        58.688,
+        300.106,
+        378.735
+      ],
+      "crop_bbox": [
+        48.96,
+        58.688,
+        300.106,
+        378.735
+      ],
+      "original": "figures/original/Fig5_p007.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 16.96 in\n\n形状统计 (963 个):\n  FREEFORM (5)                 920\n  AUTO_SHAPE (1)               40\n  TEXT_BOX (17)                3\n\n矢量形状: 963\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 7,
+      "caption": "Fig.6. NQS.IllustrationofmeasuredNQSpointsunderdifferentqandt. CurvesarederivedataﬁxedqviaLSEﬁtting.",
+      "caption_en": "Fig.6. NQS.IllustrationofmeasuredNQSpointsunderdifferentqandt. CurvesarederivedataﬁxedqviaLSEﬁtting.",
+      "caption_zh": "",
+      "caption_bbox": [
+        312.0,
+        218.897,
+        563.004,
+        235.948
+      ],
+      "content_bbox": [
+        317.52,
+        58.828,
+        556.862,
+        204.972
+      ],
+      "crop_bbox": [
+        317.52,
+        58.828,
+        556.862,
+        204.972
+      ],
+      "original": "figures/original/Fig6_p007.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.19 in\n\n形状统计 (544 个):\n  FREEFORM (5)                 508\n  AUTO_SHAPE (1)               36\n\n矢量形状: 544\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 7,
+      "caption": "Fig.7. NQT.IllustrationofmeasuredNQTpointsunderdifferentsandq. Curvesarederivedvialeastsquarederror(LSE)ﬁtting.",
+      "caption_en": "Fig.7. NQT.IllustrationofmeasuredNQTpointsunderdifferentsandq. Curvesarederivedvialeastsquarederror(LSE)ﬁtting.",
+      "caption_zh": "",
+      "caption_bbox": [
+        312.0,
+        403.937,
+        563.005,
+        420.868
+      ],
+      "content_bbox": [
+        312.0,
+        58.828,
+        563.004,
+        391.969
+      ],
+      "crop_bbox": [
+        312.0,
+        58.828,
+        563.004,
+        391.969
+      ],
+      "original": "figures/original/Fig7_p007.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 17.66 in\n\n形状统计 (1019 个):\n  FREEFORM (5)                 965\n  AUTO_SHAPE (1)               45\n  TEXT_BOX (17)                9\n\n矢量形状: 1019\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 8,
+      "caption": "Fig.8. as(q).ThePredicted(incurves)andoriginal(indiscretepoints)αs versusQPforeachsequence.",
+      "caption_en": "Fig.8. as(q).ThePredicted(incurves)andoriginal(indiscretepoints)αs versusQPforeachsequence.",
+      "caption_zh": "",
+      "caption_bbox": [
+        312.0,
+        364.844,
+        562.195,
+        382.108
+      ],
+      "content_bbox": [
+        62.04,
+        90.662,
+        549.4,
+        353.34
+      ],
+      "crop_bbox": [
+        62.04,
+        90.662,
+        549.4,
+        353.34
+      ],
+      "original": "figures/original/Fig8_p008.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.23 in\n\n形状统计 (1438 个):\n  FREEFORM (5)                 1420\n  AUTO_SHAPE (1)               11\n  TEXT_BOX (17)                7\n\n矢量形状: 1438\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 8,
+      "caption": "TABLEIII",
+      "caption_en": "TABLEIII",
+      "caption_zh": "",
+      "caption_bbox": [
+        288.12,
+        58.298,
+        323.772,
+        66.268
+      ],
+      "content_bbox": [
+        48.96,
+        90.662,
+        549.4,
+        423.982
+      ],
+      "crop_bbox": [
+        48.96,
+        90.662,
+        549.4,
+        423.982
+      ],
+      "original": "tables/original/Table3_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 9,
+      "caption": "Fig.9. Tile-levelContentFeatureDerivation.μiandσiarethemean andvarianceofextractedfeaturesfori-thtile;s jistheareasizeofj-thtile coveredbycurrentviewport.",
+      "caption_en": "Fig.9. Tile-levelContentFeatureDerivation.μiandσiarethemean andvarianceofextractedfeaturesfori-thtile;s jistheareasizeofj-thtile coveredbycurrentviewport.",
+      "caption_zh": "",
+      "caption_bbox": [
+        312.0,
+        147.644,
+        562.947,
+        173.908
+      ],
+      "content_bbox": [
+        357.96,
+        58.871,
+        516.726,
+        136.14
+      ],
+      "crop_bbox": [
+        357.96,
+        58.871,
+        516.726,
+        136.14
+      ],
+      "original": "figures/original/Fig9_p009.png",
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.54 in\n\n形状统计 (97 个):\n  FREEFORM (5)                 92\n  AUTO_SHAPE (1)               5\n\n矢量形状: 97\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 9,
+      "caption": "TABLEIV",
+      "caption_en": "TABLEIV",
+      "caption_zh": "",
+      "caption_bbox": [
+        419.399,
+        192.098,
+        455.515,
+        200.068
+      ],
+      "content_bbox": [
+        350.52,
+        233.393,
+        523.846,
+        316.661
+      ],
+      "crop_bbox": [
+        350.52,
+        233.393,
+        523.846,
+        316.661
+      ],
+      "original": "tables/original/Table4_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 10,
+      "caption": "Fig.10. QVP STAREfﬁciency.Performancecomparisonofvariousmetrics onvalidationvideosintermsofPCC,SRCC,andRMSE.Notethatmodel parametersfor Q-STAR andQVP STARare predictedusing the extractedfeatures.",
+      "caption_en": "Fig.10. QVP STAREfﬁciency.Performancecomparisonofvariousmetrics onvalidationvideosintermsofPCC,SRCC,andRMSE.Notethatmodel parametersfor Q-STAR andQVP STARare predictedusing the extractedfeatures.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.999,
+        494.841,
+        563.025,
+        524.613
+      ],
+      "content_bbox": [
+        316.56,
+        58.638,
+        557.844,
+        485.1
+      ],
+      "crop_bbox": [
+        316.56,
+        58.638,
+        557.844,
+        485.1
+      ],
+      "original": "figures/original/Fig10_p010.png",
+      "vector": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  42.4% 画面  (4.24 x 7.50 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig11",
+      "page": 11,
+      "caption": "Fig.11. StatisticalSigniﬁcanceTest.“1”(highlightedingreen)showsthat themodelintherowissigniﬁcantlydifferentthanthemodelinthecolumn, while“0”(markedinred)presentstheoppositemeanings.",
+      "caption_en": "Fig.11. StatisticalSigniﬁcanceTest.“1”(highlightedingreen)showsthat themodelintherowissigniﬁcantlydifferentthanthemodelinthecolumn, while“0”(markedinred)presentstheoppositemeanings.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        233.897,
+        299.951,
+        259.828
+      ],
+      "content_bbox": [
+        66.863,
+        58.513,
+        281.389,
+        221.959
+      ],
+      "crop_bbox": [
+        66.863,
+        58.513,
+        281.389,
+        221.959
+      ],
+      "original": "figures/original/Fig11_p011.png",
+      "vector": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.18 in\n\n形状统计 (196 个):\n  FREEFORM (5)                 173\n  AUTO_SHAPE (1)               23\n\n矢量形状: 196\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig12",
+      "page": 11,
+      "caption": "Fig.12. SaliencyAggregation.(1)Saliencyprediction,(2)Viewport extractionandsaliencyweightcalculation,(3)Linearweightedaggregation, (4)Qualityofquick-scanningarea(non-salientviewports),(5)Linearcom- binationofqualitycontributionsfromsalientviewportsandquick-scanning area.",
+      "caption_en": "Fig.12. SaliencyAggregation.(1)Saliencyprediction,(2)Viewport extractionandsaliencyweightcalculation,(3)Linearweightedaggregation, (4)Qualityofquick-scanningarea(non-salientviewports),(5)Linearcom- binationofqualitycontributionsfromsalientviewportsandquick-scanning area.",
+      "caption_zh": "",
+      "caption_bbox": [
+        312.0,
+        159.857,
+        562.947,
+        203.788
+      ],
+      "content_bbox": [
+        312.468,
+        58.608,
+        562.48,
+        148.152
+      ],
+      "crop_bbox": [
+        312.468,
+        58.608,
+        562.48,
+        148.152
+      ],
+      "original": "figures/original/Fig12_p011.png",
+      "vector": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.85 in\n\n形状统计 (123 个):\n  FREEFORM (5)                 116\n  PICTURE (13)                 5\n  AUTO_SHAPE (1)               2\n\n矢量形状: 118\n位图图片: 5\n  9.8% 画面  (3.56 x 1.78 in)\n  10.3% 画面  (3.56 x 1.87 in)\n  2.1% 画面  (1.27 x 1.07 in)\n  2.1% 画面  (1.26 x 1.07 in)\n  0.5% 画面  (0.66 x 0.48 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig13",
+      "page": 11,
+      "caption": "Fig.13. ViewportLocation.(1)2Dsaliencymapcalculation,(2)LLocal peaks.",
+      "caption_en": "Fig.13. ViewportLocation.(1)2Dsaliencymapcalculation,(2)LLocal peaks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        312.0,
+        273.497,
+        563.024,
+        290.548
+      ],
+      "content_bbox": [
+        312.0,
+        58.608,
+        562.947,
+        261.704
+      ],
+      "crop_bbox": [
+        312.0,
+        58.608,
+        562.947,
+        261.704
+      ],
+      "original": "figures/original/Fig13_p011.png",
+      "vector": [
+        "figures/vector/Fig13/Fig13.svg",
+        "figures/vector/Fig13/Fig13.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.81 in\n\n形状统计 (160 个):\n  FREEFORM (5)                 146\n  PICTURE (13)                 7\n  AUTO_SHAPE (1)               4\n  TEXT_BOX (17)                3\n\n矢量形状: 153\n位图图片: 7\n  4.4% 画面  (3.55 x 1.77 in)\n  4.6% 画面  (3.55 x 1.86 in)\n  0.9% 画面  (1.26 x 1.07 in)\n  0.9% 画面  (1.26 x 1.07 in)\n  0.2% 画面  (0.66 x 0.48 in)\n  5.1% 画面  (3.74 x 1.96 in)\n  3.5% 画面  (2.60 x 1.96 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 12,
+      "caption": "TABLEV",
+      "caption_en": "TABLEV",
+      "caption_zh": "",
+      "caption_bbox": [
+        157.8,
+        58.298,
+        191.275,
+        66.268
+      ],
+      "content_bbox": [
+        57.479,
+        98.543,
+        291.204,
+        163.28
+      ],
+      "crop_bbox": [
+        57.479,
+        98.543,
+        291.204,
+        163.28
+      ],
+      "original": "tables/original/Table5_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Viewport_Based_Omnidirectional_Video_Quality_TCSVT_2021",
+    "title": "Viewport-Based Omnidirectional Video Quality Assessment: Database, Modeling and Inference",
+    "venue": "TCSVT",
+    "venue_full": "TCSVT",
+    "venue_short": "TCSVT",
+    "venue_type": "期刊",
+    "year": 2021,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://vision.nju.edu.cn/20/86/c29466a467078/",
+    "pdf_url": "https://vision.nju.edu.cn/20/86/c29466a467078/",
+    "access": "local_pdf",
+    "source_sha256": "f77f6a8a7745219adde8eb7d6e4f680d9dfc20ceb427c40fe8b9a3304eb95a51",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\8WWKQ94Q\\TCSVT 2021 基于视口的全向视频质量评估：数据库、建模和推理计算机.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\JNEVYTXC\\TCSVT 2021 基于视口的全向视频质量评估：数据库、建模和推理计算机.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 2区（2025）",
+    "cas_display": "中科院 2区（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    },
+    {
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ]
+    },
+    {
+      "label": "Fig10",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ]
+    },
+    {
+      "label": "Fig11",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ]
+    },
+    {
+      "label": "Fig12",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ]
+    },
+    {
+      "label": "Fig13",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig13/Fig13.svg",
+        "figures/vector/Fig13/Fig13.pptx"
+      ]
+    }
+  ]
+}

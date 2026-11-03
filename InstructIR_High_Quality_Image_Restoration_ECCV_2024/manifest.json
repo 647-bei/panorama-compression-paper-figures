@@ -1,0 +1,1286 @@
+{
+  "paper": "InstructIR_High_Quality_Image_Restoration_ECCV_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 26,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Fig. 1:Givenanimageandapromptforhowtoimprovethatimage,ourall-in-one restorationmodelcorrectstheimageconsideringthehumaninstruction.InstructIR, cantacklevarioustypesandlevelsofdegradation,anditisabletogeneralizeinsome real-worldscenarios(lastthreeimages,fromlefttoright).",
+      "caption_en": "Fig. 1:Givenanimageandapromptforhowtoimprovethatimage,ourall-in-one restorationmodelcorrectstheimageconsideringthehumaninstruction.InstructIR, cantacklevarioustypesandlevelsofdegradation,anditisabletogeneralizeinsome real-worldscenarios(lastthreeimages,fromlefttoright).",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        311.993,
+        379.841,
+        354.013
+      ],
+      "content_bbox": [
+        0.0,
+        85.154,
+        413.858,
+        311.993
+      ],
+      "crop_bbox": [
+        0.0,
+        85.154,
+        413.858,
+        311.993
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  73.1% 画面  (10.00 x 5.48 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5013739 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Fig. 2:Wetrainourblindimagerestorationmodelsusingcommonimagedatasets, andpromptsgeneratedusingGPT-4,notethatthisis(self-)supervisedlearning.At inferencetime,ourmodelgeneralizestohuman-writteninstructionsandrestores(or enhances)theimages.",
+      "caption_en": "Fig. 2:Wetrainourblindimagerestorationmodelsusingcommonimagedatasets, andpromptsgeneratedusingGPT-4,notethatthisis(self-)supervisedlearning.At inferencetime,ourmodelgeneralizestohuman-writteninstructionsandrestores(or enhances)theimages.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        540.599,
+        379.868,
+        582.442
+      ],
+      "content_bbox": [
+        30.489,
+        441.811,
+        379.854,
+        540.599
+      ],
+      "crop_bbox": [
+        30.489,
+        441.811,
+        379.854,
+        540.599
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  37.7% 画面  (10.00 x 2.83 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 3,
+      "caption": "Table1:ExamplesofourcuratedGPT4- generated and real user prompts with vary- inglanguageanddomainexpertise.",
+      "caption_en": "Table1:ExamplesofourcuratedGPT4- generated and real user prompts with vary- inglanguageanddomainexpertise.",
+      "caption_zh": "",
+      "caption_bbox": [
+        206.929,
+        155.576,
+        379.864,
+        186.46
+      ],
+      "content_bbox": [
+        207.837,
+        194.504,
+        376.754,
+        387.169
+      ],
+      "crop_bbox": [
+        207.837,
+        194.504,
+        376.754,
+        387.169
+      ],
+      "original": "tables/original/Table1_p003.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 5,
+      "caption": "Fig. 3:Weshowt-SNEplotsofthetextembeddingsbefore/aftertrainingInstructIR. Eachdotrepresentsahumaninstruction.",
+      "caption_en": "Fig. 3:Weshowt-SNEplotsofthetextembeddingsbefore/aftertrainingInstructIR. Eachdotrepresentsahumaninstruction.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        130.859,
+        379.838,
+        150.784
+      ],
+      "content_bbox": [
+        34.232,
+        34.015,
+        379.62,
+        119.539
+      ],
+      "crop_bbox": [
+        34.232,
+        34.015,
+        379.62,
+        119.539
+      ],
+      "original": "figures/original/Fig3_p005.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  33.1% 画面  (10.00 x 2.48 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 5,
+      "caption": "Fig. 4:InstructionConditionBlock(ICB) using an approximation of task routing [72] formany-taskslearning(SeeEq.2).This mechanism allows the neural network to se- lect and prioritize specific features depend- ingontheinstruction,similarlytoaMix- tureofExperts(MoE).",
+      "caption_en": "Fig. 4:InstructionConditionBlock(ICB) using an approximation of task routing [72] formany-taskslearning(SeeEq.2).This mechanism allows the neural network to se- lect and prioritize specific features depend- ingontheinstruction,similarlytoaMix- tureofExperts(MoE).",
+      "caption_zh": "",
+      "caption_bbox": [
+        209.764,
+        350.398,
+        379.866,
+        424.943
+      ],
+      "content_bbox": [
+        193.649,
+        261.309,
+        376.742,
+        345.655
+      ],
+      "crop_bbox": [
+        193.649,
+        261.309,
+        376.742,
+        345.655
+      ],
+      "original": "figures/original/Fig4_p005.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.20 in\n\n形状统计 (130 个):\n  FREEFORM (5)                 116\n  TEXT_BOX (17)                7\n  AUTO_SHAPE (1)               4\n  PICTURE (13)                 3\n\n矢量形状: 127\n位图图片: 3\n  0.3% 画面  (0.72 x 0.35 in)\n  0.3% 画面  (0.47 x 0.47 in)\n  5.1% 画面  (2.09 x 2.02 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 8,
+      "caption": "Table3:Comparisons of all-in-one restoration models for 3restorationtasks(3D). We also show an ablation study for image denoising -the fundamental inverse problem- consideringdifferentnoiselevels.WereportPSNR/SSIMmetrics.Tablebasedon[62].",
+      "caption_en": "Table3:Comparisons of all-in-one restoration models for 3restorationtasks(3D). We also show an ablation study for image denoising -the fundamental inverse problem- consideringdifferentnoiselevels.WereportPSNR/SSIMmetrics.Tablebasedon[62].",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        267.788,
+        379.859,
+        298.672
+      ],
+      "content_bbox": [
+        34.017,
+        213.116,
+        377.781,
+        239.08
+      ],
+      "crop_bbox": [
+        34.017,
+        213.116,
+        377.781,
+        239.08
+      ],
+      "original": "tables/original/Table3_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 9,
+      "caption": "Table4:Ablationstudyonthesensitiv- ityofinstructions.WereportPSNR/SSIM metricsforeachtaskusingour5Dbase model.Werepeattheevaluationoneach testset10times,eachtimewesampledif- ferentpromptsforeachimage,andwere- port the average results. The “Real Users †\" inthisstudyareamateurphotographers, thus,theinstructionswereveryprecise.",
+      "caption_en": "Table4:Ablationstudyonthesensitiv- ityofinstructions.WereportPSNR/SSIM metricsforeachtaskusingour5Dbase model.Werepeattheevaluationoneach testset10times,eachtimewesampledif- ferentpromptsforeachimage,andwere- port the average results. The “Real Users †\" inthisstudyareamateurphotographers, thus,theinstructionswereveryprecise.",
+      "caption_zh": "",
+      "caption_bbox": [
+        206.929,
+        171.743,
+        379.864,
+        268.38
+      ],
+      "content_bbox": [
+        208.765,
+        273.18,
+        377.728,
+        301.284
+      ],
+      "crop_bbox": [
+        208.765,
+        273.18,
+        377.728,
+        301.284
+      ],
+      "original": "tables/original/Table4_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 9,
+      "caption": "Table5:RealImageEnhance- mentresultsonMIT5K[5].",
+      "caption_en": "Table5:RealImageEnhance- mentresultsonMIT5K[5].",
+      "caption_zh": "",
+      "caption_bbox": [
+        241.514,
+        476.817,
+        379.857,
+        496.743
+      ],
+      "content_bbox": [
+        243.912,
+        514.322,
+        377.728,
+        556.825
+      ],
+      "crop_bbox": [
+        243.912,
+        514.322,
+        377.728,
+        556.825
+      ],
+      "original": "tables/original/Table5_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 10,
+      "caption": "Fig. 5:AdversarialandOODsamplesforInstruction-basedRestoration.In- structIRunderstands a wide range of instructions for a given task (first row). Given an adversarialorout-of-distributioninstruction(secondrow),themodeldoesnotmodify the image notably (i.e. performs the identity) –we did not enforce this during training–.",
+      "caption_en": "Fig. 5:AdversarialandOODsamplesforInstruction-basedRestoration.In- structIRunderstands a wide range of instructions for a given task (first row). Given an adversarialorout-of-distributioninstruction(secondrow),themodeldoesnotmodify the image notably (i.e. performs the identity) –we did not enforce this during training–.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        191.177,
+        379.866,
+        233.197
+      ],
+      "content_bbox": [
+        37.566,
+        34.015,
+        376.293,
+        179.398
+      ],
+      "crop_bbox": [
+        37.566,
+        34.015,
+        376.293,
+        179.398
+      ],
+      "original": "figures/original/Fig5_p010.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  57.2% 画面  (10.00 x 4.29 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3924637 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 10,
+      "caption": "Table6:Summaryablationstudyon themulti-taskvariantsofInstructIRthat tacklefrom3to7tasks.",
+      "caption_en": "Table6:Summaryablationstudyon themulti-taskvariantsofInstructIRthat tacklefrom3to7tasks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        206.929,
+        405.149,
+        379.854,
+        436.033
+      ],
+      "content_bbox": [
+        36.434,
+        297.363,
+        377.431,
+        338.895
+      ],
+      "crop_bbox": [
+        36.434,
+        297.363,
+        377.431,
+        338.895
+      ],
+      "original": "tables/original/Table6_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 10,
+      "caption": "Table7:Quantitativecomparisonswithstate-of-the-artmethodsontheLOL[84] datasetforReal-WorldLow-lightEnhancement.NotethatInstructIR-7Disamulti- taskmethod,whiletheothermethodsaretask-specific.Tablebasedon[82].",
+      "caption_en": "Table7:Quantitativecomparisonswithstate-of-the-artmethodsontheLOL[84] datasetforReal-WorldLow-lightEnhancement.NotethatInstructIR-7Disamulti- taskmethod,whiletheothermethodsaretask-specific.Tablebasedon[82].",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        258.544,
+        379.866,
+        289.428
+      ],
+      "content_bbox": [
+        36.434,
+        297.363,
+        377.431,
+        338.895
+      ],
+      "crop_bbox": [
+        36.434,
+        297.363,
+        377.431,
+        338.895
+      ],
+      "original": "tables/original/Table7_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 11,
+      "caption": "Fig. 6:Controlviainstructions. We can prompt multiple instructions (in sequence) torestoreandenhancetheimages.Thisprovidesadditionalcontrol.Weshowtwo examplesofmultipleinstructionsappliedtothe“Input\"image-fromlefttoright-.",
+      "caption_en": "Fig. 6:Controlviainstructions. We can prompt multiple instructions (in sequence) torestoreandenhancetheimages.Thisprovidesadditionalcontrol.Weshowtwo examplesofmultipleinstructionsappliedtothe“Input\"image-fromlefttoright-.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        284.414,
+        379.857,
+        315.298
+      ],
+      "content_bbox": [
+        37.78,
+        34.199,
+        376.108,
+        272.57
+      ],
+      "crop_bbox": [
+        37.78,
+        34.199,
+        376.108,
+        272.57
+      ],
+      "original": "figures/original/Fig6_p011.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  94.0% 画面  (10.00 x 7.05 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6449423 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 11,
+      "caption": "Fig. 7: ComparisonwithInstructPix2Pix[4]usingtheprompt“Removethe noiseinthisphoto\".Real-caseimagefromRealSRSet[45].",
+      "caption_en": "Fig. 7: ComparisonwithInstructPix2Pix[4]usingtheprompt“Removethe noiseinthisphoto\".Real-caseimagefromRealSRSet[45].",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        408.628,
+        379.842,
+        428.73
+      ],
+      "content_bbox": [
+        46.918,
+        328.647,
+        363.861,
+        404.727
+      ],
+      "crop_bbox": [
+        46.918,
+        328.647,
+        363.861,
+        404.727
+      ],
+      "original": "figures/original/Fig7_p011.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  32.0% 画面  (10.00 x 2.40 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 12,
+      "caption": "Fig. 8:Real-worldsamplesofimagerestorationandenhancementusingInstructIR.",
+      "caption_en": "Fig. 8:Real-worldsamplesofimagerestorationandenhancementusingInstructIR.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.241,
+        176.183,
+        379.613,
+        185.326
+      ],
+      "content_bbox": [
+        41.246,
+        34.016,
+        369.54,
+        165.269
+      ],
+      "crop_bbox": [
+        41.246,
+        34.016,
+        369.54,
+        165.269
+      ],
+      "original": "figures/original/Fig8_p012.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  53.3% 画面  (10.00 x 4.00 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3657600 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 12,
+      "caption": "Fig. 9:Dehazingcomparisonsforall-in-onerestorationmethodsonSOTS[42].",
+      "caption_en": "Fig. 9:Dehazingcomparisonsforall-in-onerestorationmethodsonSOTS[42].",
+      "caption_zh": "",
+      "caption_bbox": [
+        40.475,
+        307.015,
+        373.403,
+        316.156
+      ],
+      "content_bbox": [
+        34.241,
+        176.183,
+        379.613,
+        300.906
+      ],
+      "crop_bbox": [
+        34.241,
+        176.183,
+        379.613,
+        300.906
+      ],
+      "original": "figures/original/Fig9_p012.png",
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  48.2% 画面  (10.00 x 3.62 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 13,
+      "caption": "Fig. 10:RealLow-lightEnhancementResults.LOL[84]testset(748.png).Air- Net[43]andIDR[102]arewell-knownall-in-onerestorationmethods.NAFNet[9]is equivalenttoInstructIRwithouttextconditions(i.e.ourimage-onlybackbone).",
+      "caption_en": "Fig. 10:RealLow-lightEnhancementResults.LOL[84]testset(748.png).Air- Net[43]andIDR[102]arewell-knownall-in-onerestorationmethods.NAFNet[9]is equivalenttoInstructIRwithouttextconditions(i.e.ourimage-onlybackbone).",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        120.048,
+        379.868,
+        151.108
+      ],
+      "content_bbox": [
+        39.396,
+        40.641,
+        371.348,
+        115.256
+      ],
+      "crop_bbox": [
+        39.396,
+        40.641,
+        371.348,
+        115.256
+      ],
+      "original": "figures/original/Fig10_p013.png",
+      "vector": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  30.1% 画面  (10.00 x 2.26 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig11",
+      "page": 13,
+      "caption": "Fig. 11:ImageDeblurringResults.GoPro[58]dataset.",
+      "caption_en": "Fig. 11:ImageDeblurringResults.GoPro[58]dataset.",
+      "caption_zh": "",
+      "caption_bbox": [
+        86.265,
+        247.384,
+        327.596,
+        256.525
+      ],
+      "content_bbox": [
+        39.396,
+        173.647,
+        371.348,
+        247.384
+      ],
+      "crop_bbox": [
+        39.396,
+        173.647,
+        371.348,
+        247.384
+      ],
+      "original": "figures/original/Fig11_p013.png",
+      "vector": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  29.7% 画面  (10.00 x 2.23 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig12",
+      "page": 13,
+      "caption": "Fig. 12:ImageDehazingResults.SOTS[42]outdoordataset(0150.jpg).",
+      "caption_en": "Fig. 12:ImageDehazingResults.SOTS[42]outdoordataset(0150.jpg).",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.183,
+        353.024,
+        363.675,
+        362.587
+      ],
+      "content_bbox": [
+        39.396,
+        247.384,
+        371.349,
+        353.024
+      ],
+      "crop_bbox": [
+        39.396,
+        247.384,
+        371.349,
+        353.024
+      ],
+      "original": "figures/original/Fig12_p013.png",
+      "vector": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  42.5% 画面  (10.00 x 3.19 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig13",
+      "page": 13,
+      "caption": "Fig. 13:ImageDerainingResultsonRain100L[21](035.png).",
+      "caption_en": "Fig. 13:ImageDerainingResultsonRain100L[21](035.png).",
+      "caption_zh": "",
+      "caption_bbox": [
+        72.293,
+        458.641,
+        341.565,
+        468.204
+      ],
+      "content_bbox": [
+        39.396,
+        353.024,
+        371.348,
+        458.641
+      ],
+      "crop_bbox": [
+        39.396,
+        353.024,
+        371.348,
+        458.641
+      ],
+      "original": "figures/original/Fig13_p013.png",
+      "vector": [
+        "figures/vector/Fig13/Fig13.svg",
+        "figures/vector/Fig13/Fig13.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  42.4% 画面  (10.00 x 3.18 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig14",
+      "page": 13,
+      "caption": "Fig. 14:ImageDenoisingResultsonBSD68[53](0060.png).",
+      "caption_en": "Fig. 14:ImageDenoisingResultsonBSD68[53](0060.png).",
+      "caption_zh": "",
+      "caption_bbox": [
+        75.336,
+        564.016,
+        338.522,
+        573.579
+      ],
+      "content_bbox": [
+        39.396,
+        458.641,
+        371.362,
+        564.016
+      ],
+      "crop_bbox": [
+        39.396,
+        458.641,
+        371.362,
+        564.016
+      ],
+      "original": "figures/original/Fig14_p013.png",
+      "vector": [
+        "figures/vector/Fig14/Fig14.svg",
+        "figures/vector/Fig14/Fig14.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  42.4% 画面  (10.00 x 3.18 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig15",
+      "page": 15,
+      "caption": "Fig. 15:Image Restoration Loss (L1) computed between the restored imageˆx (model’s output)andthereferenceimagex.",
+      "caption_en": "Fig. 15:Image Restoration Loss (L1) computed between the restored imageˆx (model’s output)andthereferenceimagex.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        273.668,
+        379.84,
+        293.759
+      ],
+      "content_bbox": [
+        85.89,
+        78.178,
+        327.946,
+        263.207
+      ],
+      "crop_bbox": [
+        85.89,
+        78.178,
+        327.946,
+        263.207
+      ],
+      "original": "figures/original/Fig15_p015.png",
+      "vector": [
+        "figures/vector/Fig15/Fig15.svg",
+        "figures/vector/Fig15/Fig15.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  98.1% 画面  (9.81 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8968153 x 6857999 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig16",
+      "page": 15,
+      "caption": "Fig. 16:IntentClassificationLossfromtheinstructions.ProductofoursimpleMLP classificationheadusinge.WhenLce →0themodelusesthelearnedpromptembed- dings,anditisoptimizedmainlyusingtheimageregressionloss(L1).",
+      "caption_en": "Fig. 16:IntentClassificationLossfromtheinstructions.ProductofoursimpleMLP classificationheadusinge.WhenLce →0themodelusesthelearnedpromptembed- dings,anditisoptimizedmainlyusingtheimageregressionloss(L1).",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        445.85,
+        379.861,
+        477.243
+      ],
+      "content_bbox": [
+        85.89,
+        308.233,
+        327.946,
+        435.389
+      ],
+      "crop_bbox": [
+        85.89,
+        308.233,
+        327.946,
+        435.389
+      ],
+      "original": "figures/original/Fig16_p015.png",
+      "vector": [
+        "figures/vector/Fig16/Fig16.svg",
+        "figures/vector/Fig16/Fig16.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  70.2% 画面  (10.00 x 5.26 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4812631 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 15,
+      "caption": "Table8:Ablationstudyonthetextencoders.WereportPSNR/SSIMmetrics foreachtaskusingour5Dbasemodel.Weusethesamefixedimagemodel(basedon NAFNet[9]).",
+      "caption_en": "Table8:Ablationstudyonthetextencoders.WereportPSNR/SSIMmetrics foreachtaskusingour5Dbasemodel.Weusethesamefixedimagemodel(basedon NAFNet[9]).",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        34.514,
+        379.859,
+        65.398
+      ],
+      "content_bbox": [
+        97.053,
+        81.342,
+        316.806,
+        119.62
+      ],
+      "crop_bbox": [
+        97.053,
+        81.342,
+        316.806,
+        119.62
+      ],
+      "original": "tables/original/Table8_p015.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table10",
+      "page": 16,
+      "caption": "Table10:DeblurringandDehazingcomparisons. We compare with task-specific classicalmethodsonbenchmarkdatasets.",
+      "caption_en": "Table10:DeblurringandDehazingcomparisons. We compare with task-specific classicalmethodsonbenchmarkdatasets.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        433.395,
+        379.854,
+        453.319
+      ],
+      "content_bbox": [
+        73.396,
+        212.831,
+        342.862,
+        383.252
+      ],
+      "crop_bbox": [
+        73.396,
+        212.831,
+        342.862,
+        383.252
+      ],
+      "original": "tables/original/Table10_p016.png",
+      "vector": [],
+      "latex": "tables/latex/Table10.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table9",
+      "page": 16,
+      "caption": "Table9:Comparisonwithgeneralrestorationandall-in-onemethods(*)atimage denoising.WereportPSNRonbenchmarkdatasetsconsideringdifferentσnoiselev- els.Tablebasedon[102].",
+      "caption_en": "Table9:Comparisonwithgeneralrestorationandall-in-onemethods(*)atimage denoising.WereportPSNRonbenchmarkdatasetsconsideringdifferentσnoiselev- els.Tablebasedon[102].",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        172.017,
+        379.852,
+        202.901
+      ],
+      "content_bbox": [
+        73.396,
+        212.831,
+        342.862,
+        383.252
+      ],
+      "crop_bbox": [
+        73.396,
+        212.831,
+        342.862,
+        383.252
+      ],
+      "original": "tables/original/Table9_p016.png",
+      "vector": [],
+      "latex": "tables/latex/Table9.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig17",
+      "page": 17,
+      "caption": "Fig. 17:Denoisingresultsforall-in-onemethods.ImagesfromBSD68[53]with noiselevelσ= 25.",
+      "caption_en": "Fig. 17:Denoisingresultsforall-in-onemethods.ImagesfromBSD68[53]with noiselevelσ= 25.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        388.698,
+        379.852,
+        408.789
+      ],
+      "content_bbox": [
+        37.139,
+        210.046,
+        373.648,
+        382.588
+      ],
+      "crop_bbox": [
+        37.139,
+        210.046,
+        373.648,
+        382.588
+      ],
+      "original": "figures/original/Fig17_p017.png",
+      "vector": [
+        "figures/vector/Fig17/Fig17.svg",
+        "figures/vector/Fig17/Fig17.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.89 in\n\n形状统计 (31 个):\n  TEXT_BOX (17)                16\n  PICTURE (13)                 10\n  FREEFORM (5)                 5\n\n矢量形状: 21\n位图图片: 10\n  4.8% 画面  (2.58 x 1.72 in)\n  4.8% 画面  (2.58 x 1.72 in)\n  4.8% 画面  (2.58 x 1.72 in)\n  4.8% 画面  (2.58 x 1.72 in)\n  4.8% 画面  (2.58 x 1.72 in)\n  4.8% 画面  (2.58 x 1.72 in)\n  4.8% 画面  (2.58 x 1.72 in)\n  4.8% 画面  (2.58 x 1.72 in)\n  4.8% 画面  (2.58 x 1.72 in)\n  4.8% 画面  (2.58 x 1.72 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig18",
+      "page": 17,
+      "caption": "Fig. 18:Imagederainingcomparisonsforall-in-onemethodsonimagesfromthe Rain100Ldataset[21].",
+      "caption_en": "Fig. 18:Imagederainingcomparisonsforall-in-onemethodsonimagesfromthe Rain100Ldataset[21].",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        537.058,
+        379.853,
+        556.983
+      ],
+      "content_bbox": [
+        37.139,
+        427.124,
+        373.648,
+        530.949
+      ],
+      "crop_bbox": [
+        37.139,
+        427.124,
+        373.648,
+        530.949
+      ],
+      "original": "figures/original/Fig18_p017.png",
+      "vector": [
+        "figures/vector/Fig18/Fig18.svg",
+        "figures/vector/Fig18/Fig18.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  41.2% 画面  (10.00 x 3.09 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table11",
+      "page": 17,
+      "caption": "Table11:Inferencecostcomparison.Somenumbersarefrom[9].",
+      "caption_en": "Table11:Inferencecostcomparison.Somenumbersarefrom[9].",
+      "caption_zh": "",
+      "caption_bbox": [
+        73.496,
+        210.046,
+        340.368,
+        219.187
+      ],
+      "content_bbox": [
+        95.292,
+        231.762,
+        315.496,
+        255.791
+      ],
+      "crop_bbox": [
+        95.292,
+        231.762,
+        315.496,
+        255.791
+      ],
+      "original": "tables/original/Table11_p017.png",
+      "vector": [],
+      "latex": "tables/latex/Table11.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig19",
+      "page": 18,
+      "caption": "Fig. 19:RealImagedehazingcomparisons.Thesearereal-worldsampleswith- outground-truth.Ourmethodachievespleasantresultsasgenerativemodelssuchas RIDCP[85]basedonVQGAN.SamplefromtheRTTSdataset[42].Weusethein- struction“removeandhazeandmistfromthisphotoplease”.",
+      "caption_en": "Fig. 19:RealImagedehazingcomparisons.Thesearereal-worldsampleswith- outground-truth.Ourmethodachievespleasantresultsasgenerativemodelssuchas RIDCP[85]basedonVQGAN.SamplefromtheRTTSdataset[42].Weusethein- struction“removeandhazeandmistfromthisphotoplease”.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        225.709,
+        379.868,
+        267.552
+      ],
+      "content_bbox": [
+        37.4,
+        34.017,
+        373.38,
+        219.6
+      ],
+      "crop_bbox": [
+        37.4,
+        34.017,
+        373.38,
+        219.6
+      ],
+      "original": "figures/original/Fig19_p018.png",
+      "vector": [
+        "figures/vector/Fig19/Fig19.svg",
+        "figures/vector/Fig19/Fig19.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  73.7% 画面  (10.00 x 5.52 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5051295 px\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "InstructIR_High_Quality_Image_Restoration_ECCV_2024",
+    "title": "I was running... doesn't look great, fix it I cannot see anything a photographer make it clearer? Fig. 1: Given an image and a prompt for how to improve that image, our all-in-one restoration model corrects the image considering the human instruction. InstructIR, can tackle various types and levels of degradation, and it is able to generalize in some",
+    "venue": "ECCV",
+    "venue_full": "ECCV",
+    "venue_short": "ECCV",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "65223f39f1d527c0326a7bd828650b5f608115c08dbf9862ea01f2c17c974a98",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\ECCV 2024-2024-指令驱动通用图像恢复-InstructIR High-Quality Image Restoration Following Human Instructions.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\US9ER5AB\\Conde 等 - 2024 - InstructIR High-Quality Image Restoration Following Human Instructions.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 B类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 B类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    },
+    {
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ]
+    },
+    {
+      "label": "Fig10",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ]
+    },
+    {
+      "label": "Fig11",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ]
+    },
+    {
+      "label": "Fig12",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ]
+    },
+    {
+      "label": "Fig13",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig13/Fig13.svg",
+        "figures/vector/Fig13/Fig13.pptx"
+      ]
+    },
+    {
+      "label": "Fig14",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig14/Fig14.svg",
+        "figures/vector/Fig14/Fig14.pptx"
+      ]
+    },
+    {
+      "label": "Fig15",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig15/Fig15.svg",
+        "figures/vector/Fig15/Fig15.pptx"
+      ]
+    },
+    {
+      "label": "Fig16",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig16/Fig16.svg",
+        "figures/vector/Fig16/Fig16.pptx"
+      ]
+    },
+    {
+      "label": "Fig17",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig17/Fig17.svg",
+        "figures/vector/Fig17/Fig17.pptx"
+      ]
+    },
+    {
+      "label": "Fig18",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig18/Fig18.svg",
+        "figures/vector/Fig18/Fig18.pptx"
+      ]
+    },
+    {
+      "label": "Fig19",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig19/Fig19.svg",
+        "figures/vector/Fig19/Fig19.pptx"
+      ]
+    }
+  ]
+}

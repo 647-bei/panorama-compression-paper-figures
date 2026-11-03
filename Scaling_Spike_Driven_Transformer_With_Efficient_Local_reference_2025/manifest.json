@@ -1,0 +1,785 @@
+{
+  "paper": "Scaling_Spike_Driven_Transformer_With_Efficient_Local_reference_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 18,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Fig. 1. E-SpikeFormer versus other spiking Transformers on ImageNet-1k at 2242input spatial resolution.",
+      "caption_en": "Fig. 1. E-SpikeFormer versus other spiking Transformers on ImageNet-1k at 2242input spatial resolution.",
+      "caption_zh": "",
+      "caption_bbox": [
+        300.924,
+        251.369,
+        551.998,
+        268.303
+      ],
+      "content_bbox": [
+        310.455,
+        67.422,
+        542.389,
+        239.523
+      ],
+      "crop_bbox": [
+        310.455,
+        67.422,
+        542.389,
+        239.523
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.92 in\n\n形状统计 (420 个):\n  FREEFORM (5)                 353\n  AUTO_SHAPE (1)               67\n\n矢量形状: 420\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Fig.2. Theimpactoftheresetmechanismonthespatio-temporaldynamicsofspikingneurons.(a)The(t −1)thand(t + 2)thinputsaregreaterthanthe threshold, the tth and (t + 1)th inputs are not. Here we set β= 1. (b) If no reset, the spiking neuron will keep ﬁring after the input exceeds the threshold at some point. (c) If hard reset to zero, a spike will be ﬁred whenever the spatial input at the current timestep exceeds the threshold. Inputs that do not exceed the threshold will not trigger a spike. (d) If there is a soft reset, the membrane potential at tth timestep contains part of the information of (t −1)th timestep; even if the input at tth is small, a spike may be ﬁred.",
+      "caption_en": "Fig.2. Theimpactoftheresetmechanismonthespatio-temporaldynamicsofspikingneurons.(a)The(t −1)thand(t + 2)thinputsaregreaterthanthe threshold, the tth and (t + 1)th inputs are not. Here we set β= 1. (b) If no reset, the spiking neuron will keep ﬁring after the input exceeds the threshold at some point. (c) If hard reset to zero, a spike will be ﬁred whenever the spatial input at the current timestep exceeds the threshold. Inputs that do not exceed the threshold will not trigger a spike. (d) If there is a soft reset, the membrane potential at tth timestep contains part of the information of (t −1)th timestep; even if the input at tth is small, a spike may be ﬁred.",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.12,
+        191.774,
+        556.224,
+        235.903
+      ],
+      "content_bbox": [
+        57.159,
+        66.631,
+        540.898,
+        179.52
+      ],
+      "crop_bbox": [
+        57.159,
+        66.631,
+        540.898,
+        179.52
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.20 in\n\n形状统计 (512 个):\n  FREEFORM (5)                 509\n  AUTO_SHAPE (1)               3\n\n矢量形状: 512\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Fig. 3. Spike ﬁring patterns. Assuming an approximation of 0.3 (al",
+      "caption_en": "Fig. 3. Spike ﬁring patterns. Assuming an approximation of 0.3 (al",
+      "caption_zh": "",
+      "caption_bbox": [
+        305.136,
+        351.66,
+        525.45,
+        361.219
+      ],
+      "content_bbox": [
+        309.663,
+        257.733,
+        550.689,
+        339.639
+      ],
+      "crop_bbox": [
+        309.663,
+        257.733,
+        550.689,
+        339.639
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.61 in\n\n形状统计 (109 个):\n  FREEFORM (5)                 83\n  AUTO_SHAPE (1)               26\n\n矢量形状: 109\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Fig. 4. The overview of E-SpikeFormer. In general, we follow the design of Meta-SpikeFormer [28] on a macro level, such as CNN-based and Transformer-based SNN blocks and their proportions at each stage. We redesign the interior of CNN-based and Transformer SNN blocks with the goal of efﬁcient architecture. In this ﬁgure, we have marked all upgraded designs in green or pink. In the green part, we insert a BN layer and a spiking neuron layer after the DWConv layer in the CNN-based block to avoid the increase in power caused by the larger convolution kernel size after re-parameterization. In the pink part, the Re-parameterization Convolution(RepConv)in[28]isreplacedbyalinearlayertoreducepower,andwecompensateforthepotentialperformancelossbyexpandingthechannel number of VS. In addition, we add a Spike Separable Convolution (SpikeSepConv) module to the Transformer-based SNN block in [28], which helps performance.",
+      "caption_en": "Fig. 4. The overview of E-SpikeFormer. In general, we follow the design of Meta-SpikeFormer [28] on a macro level, such as CNN-based and Transformer-based SNN blocks and their proportions at each stage. We redesign the interior of CNN-based and Transformer SNN blocks with the goal of efﬁcient architecture. In this ﬁgure, we have marked all upgraded designs in green or pink. In the green part, we insert a BN layer and a spiking neuron layer after the DWConv layer in the CNN-based block to avoid the increase in power caused by the larger convolution kernel size after re-parameterization. In the pink part, the Re-parameterization Convolution(RepConv)in[28]isreplacedbyalinearlayertoreducepower,andwecompensateforthepotentialperformancelossbyexpandingthechannel number of VS. In addition, we add a Spike Separable Convolution (SpikeSepConv) module to the Transformer-based SNN block in [28], which helps performance.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.908,
+        355.364,
+        552.006,
+        408.812
+      ],
+      "content_bbox": [
+        102.942,
+        66.699,
+        486.552,
+        343.518
+      ],
+      "crop_bbox": [
+        102.942,
+        66.699,
+        486.552,
+        343.518
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.65 in\n\n形状统计 (1232 个):\n  FREEFORM (5)                 1226\n  AUTO_SHAPE (1)               5\n  PICTURE (13)                 1\n\n矢量形状: 1231\n位图图片: 1\n  1.7% 画面  (1.44 x 1.48 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Fig. 5. The overview of MIM pre-train in E-SpikeFormer. It consists of a SNN encoder and a ANN decoder. The encoder processes only the visible pixels. The decoder reconstructs the images to learn representations, which will be removed in the ﬁne-tuning stage. Using Vanilla Spike Convolution (VSC) as an encoder willleadtoinformationleakage,sowedesignedSpikeSparseConvolution(SSC)toavoidthisﬂaw.Whiteandblackintheﬁgurerepresenttheone/zeroarea respectively. Exploiting VSC will cause the black zero area to continue to grow as the depth increases until there is no valid information. We show that SSC is a natural ﬁt for neuromorphic chips due to the spike-driven nature of SNNs (Section VI-B).",
+      "caption_en": "Fig. 5. The overview of MIM pre-train in E-SpikeFormer. It consists of a SNN encoder and a ANN decoder. The encoder processes only the visible pixels. The decoder reconstructs the images to learn representations, which will be removed in the ﬁne-tuning stage. Using Vanilla Spike Convolution (VSC) as an encoder willleadtoinformationleakage,sowedesignedSpikeSparseConvolution(SSC)toavoidthisﬂaw.Whiteandblackintheﬁgurerepresenttheone/zeroarea respectively. Exploiting VSC will cause the black zero area to continue to grow as the depth increases until there is no valid information. We show that SSC is a natural ﬁt for neuromorphic chips due to the spike-driven nature of SNNs (Section VI-B).",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.908,
+        276.533,
+        552.007,
+        320.368
+      ],
+      "content_bbox": [
+        92.448,
+        66.516,
+        497.328,
+        264.516
+      ],
+      "crop_bbox": [
+        92.448,
+        66.516,
+        497.328,
+        264.516
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  65.2% 画面  (10.00 x 4.89 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4473283 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 7,
+      "caption": "Fig. 6. Comparison of vanilla and SFA training in SNNs. Tin SNNs typically denotes the timestep. For vanilla training SNNs, Tremains consistent between trainingandinference.InSFAtraining,thetimestepduring trainingisT, butitisexpandedtoT× Dtimestepsduring inference(Theneuroninthepictureis IF-SR). Since the activations in SFA training are integers, another meaning of D is the upper limit of the integer values allowed for activation during training. In the context of vanilla training SNNs, D is equal to 1. (a) Direct training uses the same processing approach for both static and dynamic vision tasks. Since D= 1, direct training will not be able to avoid the mechanism defects of binary spike ﬁring in dynamic vision tasks. (b) For static tasks, the SFA method has advantages in training cost (one-timestep training) and inference energy cost (the image is input only once). (c) For dynamic tasks, the SFA method can simultaneously mitigate the ﬂaws of spiking neurons in both spatial representation and temporal dynamics by expanding the timestep.",
+      "caption_en": "Fig. 6. Comparison of vanilla and SFA training in SNNs. Tin SNNs typically denotes the timestep. For vanilla training SNNs, Tremains consistent between trainingandinference.InSFAtraining,thetimestepduring trainingisT, butitisexpandedtoT× Dtimestepsduring inference(Theneuroninthepictureis IF-SR). Since the activations in SFA training are integers, another meaning of D is the upper limit of the integer values allowed for activation during training. In the context of vanilla training SNNs, D is equal to 1. (a) Direct training uses the same processing approach for both static and dynamic vision tasks. Since D= 1, direct training will not be able to avoid the mechanism defects of binary spike ﬁring in dynamic vision tasks. (b) For static tasks, the SFA method has advantages in training cost (one-timestep training) and inference energy cost (the image is input only once). (c) For dynamic tasks, the SFA method can simultaneously mitigate the ﬂaws of spiking neurons in both spatial representation and temporal dynamics by expanding the timestep.",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.118,
+        426.242,
+        556.222,
+        488.299
+      ],
+      "content_bbox": [
+        83.655,
+        66.279,
+        514.575,
+        414.519
+      ],
+      "crop_bbox": [
+        83.655,
+        66.279,
+        514.575,
+        414.519
+      ],
+      "original": "figures/original/Fig6_p007.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  92.8% 画面  (9.28 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8486406 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 9,
+      "caption": "Fig. 7. Vanilla and SFA training time on the ImageNet with 200 epochs on 8 NVIDIA-A100-40G.Onthestaticdataset,weuseT= 1duringtrainingand extend it to D timesteps during inference. Since we exploit one timestep training, the training cost is signiﬁcantly reduced.",
+      "caption_en": "Fig. 7. Vanilla and SFA training time on the ImageNet with 200 epochs on 8 NVIDIA-A100-40G.Onthestaticdataset,weuseT= 1duringtrainingand extend it to D timesteps during inference. Since we exploit one timestep training, the training cost is signiﬁcantly reduced.",
+      "caption_zh": "",
+      "caption_bbox": [
+        305.136,
+        663.632,
+        556.202,
+        698.503
+      ],
+      "content_bbox": [
+        42.12,
+        92.128,
+        539.829,
+        651.786
+      ],
+      "crop_bbox": [
+        42.12,
+        92.128,
+        539.829,
+        651.786
+      ],
+      "original": "figures/original/Fig7_p009.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 14.98 in\n\n形状统计 (2184 个):\n  FREEFORM (5)                 1934\n  AUTO_SHAPE (1)               217\n  TEXT_BOX (17)                33\n\n矢量形状: 2184\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 9,
+      "caption": "TABLE I COMPARISON WITH PREVIOUS WORKSON IMAGENET-1K",
+      "caption_en": "TABLE I COMPARISON WITH PREVIOUS WORKSON IMAGENET-1K",
+      "caption_zh": "",
+      "caption_bbox": [
+        208.431,
+        65.024,
+        389.88,
+        81.958
+      ],
+      "content_bbox": [
+        42.12,
+        92.128,
+        539.829,
+        737.713
+      ],
+      "crop_bbox": [
+        42.12,
+        92.128,
+        539.829,
+        737.713
+      ],
+      "original": "tables/original/Table1_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 10,
+      "caption": "TABLE II PERFORMANCEOF DETECTIONON COCOVAL2017 [33]",
+      "caption_en": "TABLE II PERFORMANCEOF DETECTIONON COCOVAL2017 [33]",
+      "caption_zh": "",
+      "caption_bbox": [
+        74.502,
+        65.024,
+        252.379,
+        81.958
+      ],
+      "content_bbox": [
+        49.941,
+        93.808,
+        276.595,
+        272.337
+      ],
+      "crop_bbox": [
+        49.941,
+        93.808,
+        276.595,
+        272.337
+      ],
+      "original": "tables/original/Table2_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 10,
+      "caption": "TABLE III PERFORMANCEOF SEGMENTATIONON ADE20K[34]",
+      "caption_en": "TABLE III PERFORMANCEOF SEGMENTATIONON ADE20K[34]",
+      "caption_zh": "",
+      "caption_bbox": [
+        343.323,
+        65.024,
+        509.581,
+        81.958
+      ],
+      "content_bbox": [
+        307.953,
+        93.805,
+        544.227,
+        527.739
+      ],
+      "crop_bbox": [
+        307.953,
+        93.805,
+        544.227,
+        527.739
+      ],
+      "original": "tables/original/Table3_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 10,
+      "caption": "TABLE IV PERFORMANCEOF NEUROMORPHIC HUMAN ACTION RECOGNITIONON",
+      "caption_en": "TABLE IV PERFORMANCEOF NEUROMORPHIC HUMAN ACTION RECOGNITIONON",
+      "caption_zh": "",
+      "caption_bbox": [
+        314.398,
+        281.879,
+        538.497,
+        298.822
+      ],
+      "content_bbox": [
+        309.951,
+        299.816,
+        542.208,
+        429.162
+      ],
+      "crop_bbox": [
+        309.951,
+        299.816,
+        542.208,
+        429.162
+      ],
+      "original": "tables/original/Table4_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 10,
+      "caption": "TABLE V ABLATION STUDIESOF SFAAND ARCHITECTURE DESIGN",
+      "caption_en": "TABLE V ABLATION STUDIESOF SFAAND ARCHITECTURE DESIGN",
+      "caption_zh": "",
+      "caption_bbox": [
+        335.287,
+        443.708,
+        517.609,
+        460.651
+      ],
+      "content_bbox": [
+        307.953,
+        471.002,
+        544.227,
+        527.739
+      ],
+      "crop_bbox": [
+        307.953,
+        471.002,
+        544.227,
+        527.739
+      ],
+      "original": "tables/original/Table5_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 11,
+      "caption": "Fig.8. VisualizationofspikedistributioninvanillaandSFAtrainingonImageNet.Fromtoptobottom:vanillaandSFAtraining.Forasinglesample,the output spike maps of a certain SNN layer in the form of the 4D ([T, C, H, W]). We ﬁrst averaged the 4D spike maps into a 3D map ([T, H, W]) over the channel dimension. Since T= 4, we can split the 3D map into four 2D maps (the four maps in the middle of this ﬁgure). Then, we averaged the 4D spike maps into a 2D map ([H, W]) over the temporal and channel dimension, resulting in the two rightmost spike maps. For a single map, each pixel represents the ﬁring rate of a spiking neuron. The redder the pixel, the higher the spike ﬁring rate; the bluer the pixel, the closer the spike ﬁring rate is to 0. The four spike maps in the middle show the differences in the temporal dimension between the spike distributions obtained by vanilla and SFA training: spike ﬁring rate does not change much from left to right in vanilla training (ﬁrst row); spike ﬁring rate decreases from left to right in SFA training (second row). The two spike maps on the far right show that the spike features obtained by SFA training are clearer, and the ﬁring rate is lower.",
+      "caption_en": "Fig.8. VisualizationofspikedistributioninvanillaandSFAtrainingonImageNet.Fromtoptobottom:vanillaandSFAtraining.Forasinglesample,the output spike maps of a certain SNN layer in the form of the 4D ([T, C, H, W]). We ﬁrst averaged the 4D spike maps into a 3D map ([T, H, W]) over the channel dimension. Since T= 4, we can split the 3D map into four 2D maps (the four maps in the middle of this ﬁgure). Then, we averaged the 4D spike maps into a 2D map ([H, W]) over the temporal and channel dimension, resulting in the two rightmost spike maps. For a single map, each pixel represents the ﬁring rate of a spiking neuron. The redder the pixel, the higher the spike ﬁring rate; the bluer the pixel, the closer the spike ﬁring rate is to 0. The four spike maps in the middle show the differences in the temporal dimension between the spike distributions obtained by vanilla and SFA training: spike ﬁring rate does not change much from left to right in vanilla training (ﬁrst row); spike ﬁring rate decreases from left to right in SFA training (second row). The two spike maps on the far right show that the spike features obtained by SFA training are clearer, and the ﬁring rate is lower.",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.118,
+        399.365,
+        556.232,
+        470.1
+      ],
+      "content_bbox": [
+        67.158,
+        66.759,
+        530.958,
+        387.519
+      ],
+      "crop_bbox": [
+        67.158,
+        66.759,
+        530.958,
+        387.519
+      ],
+      "original": "figures/original/Fig8_p011.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  92.2% 画面  (10.00 x 6.92 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6325913 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 12,
+      "caption": "Fig. 10. Binary spike ﬁring interferes with the scaling of SNNs. (a) Ablation experiments on MIM pre-training and SFA training. In direct training with binary spike ﬁring, performance degradation still occurs exploiting MIM pre-training. Bycontrast,inSFAtrainingusingintegeractivations,MIMpretrainingef- fectivelyscalesupSNNs.(b)Experimentalresultsoneffectiverank[100]in MIM-SNN.",
+      "caption_en": "Fig. 10. Binary spike ﬁring interferes with the scaling of SNNs. (a) Ablation experiments on MIM pre-training and SFA training. In direct training with binary spike ﬁring, performance degradation still occurs exploiting MIM pre-training. Bycontrast,inSFAtrainingusingintegeractivations,MIMpretrainingef- fectivelyscalesupSNNs.(b)Experimentalresultsoneffectiverank[100]in MIM-SNN.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.908,
+        343.214,
+        288.985,
+        396.022
+      ],
+      "content_bbox": [
+        37.908,
+        67.21,
+        288.979,
+        331.368
+      ],
+      "crop_bbox": [
+        37.908,
+        67.21,
+        288.979,
+        331.368
+      ],
+      "original": "figures/original/Fig10_p012.png",
+      "vector": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 14.02 in\n\n形状统计 (651 个):\n  FREEFORM (5)                 544\n  AUTO_SHAPE (1)               85\n  TEXT_BOX (17)                22\n\n矢量形状: 651\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig11",
+      "page": 12,
+      "caption": "Fig. 11. Possible implementations of spike-driven inference on neuromorphic chips. In the ﬁgure, it is assumed that T= D= 3. Asynchronous spike-driven hasnoglobalclock[9],andtheintegerDisconvertedintoDspikesﬁredin a very short time window during inference. Synchronous spike-driven expands the Ttimesteps in integer training to T× D timesteps during inference.",
+      "caption_en": "Fig. 11. Possible implementations of spike-driven inference on neuromorphic chips. In the ﬁgure, it is assumed that T= D= 3. Asynchronous spike-driven hasnoglobalclock[9],andtheintegerDisconvertedintoDspikesﬁredin a very short time window during inference. Synchronous spike-driven expands the Ttimesteps in integer training to T× D timesteps during inference.",
+      "caption_zh": "",
+      "caption_bbox": [
+        300.924,
+        170.369,
+        552.005,
+        214.204
+      ],
+      "content_bbox": [
+        307.449,
+        66.981,
+        544.455,
+        158.523
+      ],
+      "crop_bbox": [
+        307.449,
+        66.981,
+        544.455,
+        158.523
+      ],
+      "original": "figures/original/Fig11_p012.png",
+      "vector": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.22 in\n\n形状统计 (147 个):\n  FREEFORM (5)                 144\n  AUTO_SHAPE (1)               3\n\n矢量形状: 147\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 12,
+      "caption": "Fig. 9. Network Spike Firing Rate (NSFR) of vanilla (T× D= 4 × 1) train- ing and SFA (T× D= 1 × 4) training at each timestep. Experimental settings arethesameastheablationstudiesinTableV.ThesumofNSFRoverall timesteps implies the average spike ﬁring proﬁle over the entire dataset: in vanilla training and SFA training, each spiking neuron ﬁres an average of 0.96 and 0.39 spikes, respectively.",
+      "caption_en": "Fig. 9. Network Spike Firing Rate (NSFR) of vanilla (T× D= 4 × 1) train- ing and SFA (T× D= 1 × 4) training at each timestep. Experimental settings arethesameastheablationstudiesinTableV.ThesumofNSFRoverall timesteps implies the average spike ﬁring proﬁle over the entire dataset: in vanilla training and SFA training, each spiking neuron ﬁres an average of 0.96 and 0.39 spikes, respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.908,
+        153.245,
+        288.979,
+        206.338
+      ],
+      "content_bbox": [
+        86.436,
+        67.21,
+        239.639,
+        141.522
+      ],
+      "crop_bbox": [
+        86.436,
+        67.21,
+        239.639,
+        141.522
+      ],
+      "original": "figures/original/Fig9_p012.png",
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.52 in\n\n形状统计 (132 个):\n  FREEFORM (5)                 112\n  AUTO_SHAPE (1)               20\n\n矢量形状: 132\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig12",
+      "page": 13,
+      "caption": "Fig.12. ComparisonofSpikeSparseConv(SSC)andVanillaSpikeConv (VSC).Onaneuromorphicchip,whenaspikeoccurs,theaddressmapping function ﬁnds the synapses and neurons that need to be added, and then takes outthecorrespondingweightstoperformtheadditionoperations.Theonly difference between VSC and SSC is the addressing mapping function. In SSC, it is speciﬁed that the convolution is performed only if there is a spike input at the position corresponding to W4 (the center position of the convolution kernel). VSC does not have this restriction.",
+      "caption_en": "Fig.12. ComparisonofSpikeSparseConv(SSC)andVanillaSpikeConv (VSC).Onaneuromorphicchip,whenaspikeoccurs,theaddressmapping function ﬁnds the synapses and neurons that need to be added, and then takes outthecorrespondingweightstoperformtheadditionoperations.Theonly difference between VSC and SSC is the addressing mapping function. In SSC, it is speciﬁed that the convolution is performed only if there is a spike input at the position corresponding to W4 (the center position of the convolution kernel). VSC does not have this restriction.",
+      "caption_zh": "",
+      "caption_bbox": [
+        305.136,
+        261.953,
+        556.226,
+        332.689
+      ],
+      "content_bbox": [
+        321.318,
+        66.774,
+        539.378,
+        250.107
+      ],
+      "crop_bbox": [
+        321.318,
+        66.774,
+        539.378,
+        250.107
+      ],
+      "original": "figures/original/Fig12_p013.png",
+      "vector": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.23 in\n\n形状统计 (590 个):\n  FREEFORM (5)                 581\n  AUTO_SHAPE (1)               9\n\n矢量形状: 590\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Scaling_Spike_Driven_Transformer_With_Efficient_Local_reference_2025",
+    "title": "Scaling Spike-Driven Transformer With Efficient Spike Firing Approximation Training",
+    "venue": "TPAMI",
+    "venue_full": "TPAMI",
+    "venue_short": "TPAMI",
+    "venue_type": "期刊",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://www.ieee.org/publications/rights/index.html",
+    "pdf_url": "https://www.ieee.org/publications/rights/index.html",
+    "access": "local_pdf",
+    "source_sha256": "caeac3abfce3dc9b3e12eda5ec0b86acb7fe05f5a8d1041c47fefafdf1451baf",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\FAYVJE8G\\Yao 等 - 2025 - Scaling Spike-Driven Transformer With Efficient Spike Firing Approximation Training.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 1区 · Top（2025）",
+    "cas_display": "中科院 1区 · Top（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    },
+    {
+      "label": "Fig10",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ]
+    },
+    {
+      "label": "Fig11",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ]
+    },
+    {
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ]
+    },
+    {
+      "label": "Fig12",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ]
+    }
+  ]
+}

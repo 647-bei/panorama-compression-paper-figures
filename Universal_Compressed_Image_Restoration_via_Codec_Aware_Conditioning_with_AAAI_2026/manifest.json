@@ -1,0 +1,347 @@
+{
+  "paper": "Universal_Compressed_Image_Restoration_via_Codec_Aware_Conditioning_with_AAAI_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 9,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Figure1:OverviewofourproposedUCIRframework.(a)depictsStage1,whereP-Netistrainedtopredictcodec-aware conditions,andR-Nettorestoreimagesusingground-truthconditions.R-NetconsistsofTransformerblocks,theRHAGs adapted from HAT (Chen et al. 2023), and the CCMs. (b) shows Stage 2, in which P-Net and R-Net are jointly optimized. P-Net generates conditions for R-Net and is fine-tuned using reward and reconstruction losses. (c) shows the structure of CCM, which fuses the conditions and image feature, generating a fused feature to guide restoration. (d) illustrates the reward module, which computes the reward for P-Net training based on the sampled conditions.",
+      "caption_en": "Figure1:OverviewofourproposedUCIRframework.(a)depictsStage1,whereP-Netistrainedtopredictcodec-aware conditions,andR-Nettorestoreimagesusingground-truthconditions.R-NetconsistsofTransformerblocks,theRHAGs adapted from HAT (Chen et al. 2023), and the CCMs. (b) shows Stage 2, in which P-Net and R-Net are jointly optimized. P-Net generates conditions for R-Net and is fine-tuned using reward and reconstruction losses. (c) shows the structure of CCM, which fuses the conditions and image feature, generating a fused feature to guide restoration. (d) illustrates the reward module, which computes the reward for P-Net training based on the sampled conditions.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        293.959,
+        558.019,
+        358.717
+      ],
+      "content_bbox": [
+        66.601,
+        54.0,
+        545.4,
+        283.882
+      ],
+      "crop_bbox": [
+        66.601,
+        54.0,
+        545.4,
+        283.882
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  64.0% 画面  (10.00 x 4.80 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4390647 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table 1: Quantitative comparison for CIR, averaged over JPEG with QFs of [10, 20, 30, 40] and HiFiC (Mentzer et al. 2020) with [“low”, “medium”, “high”] configurations in D1. Results are reported on five datasets in terms of PSNR↑/SSIM↑. The best result is in bold. All models are trained from scratch using the same dataset for fair comparisons. Additional results on other codecs and compression settings are provided in the supplementary material.",
+      "caption_en": "Table 1: Quantitative comparison for CIR, averaged over JPEG with QFs of [10, 20, 30, 40] and HiFiC (Mentzer et al. 2020) with [“low”, “medium”, “high”] configurations in D1. Results are reported on five datasets in terms of PSNR↑/SSIM↑. The best result is in bold. All models are trained from scratch using the same dataset for fair comparisons. Additional results on other codecs and compression settings are provided in the supplementary material.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        244.385,
+        558.021,
+        287.225
+      ],
+      "content_bbox": [
+        85.845,
+        87.315,
+        526.154,
+        232.119
+      ],
+      "crop_bbox": [
+        85.845,
+        87.315,
+        526.154,
+        232.119
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 4,
+      "caption": "Table2:QuantitativecomparisononcompressionlevelsinD2,averagedonLIVE1andDIV2KintermsofPSNR↑/SSIM↑. The best result is in bold.",
+      "caption_en": "Table2:QuantitativecomparisononcompressionlevelsinD2,averagedonLIVE1andDIV2KintermsofPSNR↑/SSIM↑. The best result is in bold.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        430.11,
+        558.013,
+        451.392
+      ],
+      "content_bbox": [
+        95.44,
+        348.141,
+        516.56,
+        418.349
+      ],
+      "crop_bbox": [
+        95.44,
+        348.141,
+        516.56,
+        418.349
+      ],
+      "original": "tables/original/Table2_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 5,
+      "caption": "Figure 2: Visual comparison between our methods and other existing methods. Each row corresponds to a different compression task: JPEG (QF=10), HiFiC (“low”), HEVC (QP=47), and double-compressed (JPEG→VVC). More visual results can be found in the supplementary.",
+      "caption_en": "Figure 2: Visual comparison between our methods and other existing methods. Each row corresponds to a different compression task: JPEG (QF=10), HiFiC (“low”), HEVC (QP=47), and double-compressed (JPEG→VVC). More visual results can be found in the supplementary.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        293.98,
+        558.019,
+        325.861
+      ],
+      "content_bbox": [
+        66.601,
+        53.997,
+        545.395,
+        283.902
+      ],
+      "crop_bbox": [
+        66.601,
+        53.997,
+        545.395,
+        283.902
+      ],
+      "original": "figures/original/Fig2_p005.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  64.1% 画面  (10.00 x 4.81 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4395419 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 5,
+      "caption": "Table3:QuantitativecomparisononacodectypeinD2 (WebP,averagedoverfiveQFs),onLIVE1andDIV2Kin terms of PSNR↑/SSIM↑. The best result is in bold.",
+      "caption_en": "Table3:QuantitativecomparisononacodectypeinD2 (WebP,averagedoverfiveQFs),onLIVE1andDIV2Kin terms of PSNR↑/SSIM↑. The best result is in bold.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        476.847,
+        292.514,
+        508.957
+      ],
+      "content_bbox": [
+        81.648,
+        394.747,
+        264.853,
+        465.332
+      ],
+      "crop_bbox": [
+        81.648,
+        394.747,
+        264.853,
+        465.332
+      ],
+      "original": "tables/original/Table3_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 5,
+      "caption": "Table 4: Quantitative comparison on an unseen codec type in Du(AVC, averaged over four QPs), on LIVE1 and DIV2K in terms of PSNR↑/SSIM↑. The best result is in bold.",
+      "caption_en": "Table 4: Quantitative comparison on an unseen codec type in Du(AVC, averaged over four QPs), on LIVE1 and DIV2K in terms of PSNR↑/SSIM↑. The best result is in bold.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        477.077,
+        558.015,
+        508.957
+      ],
+      "content_bbox": [
+        347.148,
+        394.747,
+        530.353,
+        465.332
+      ],
+      "crop_bbox": [
+        347.148,
+        394.747,
+        530.353,
+        465.332
+      ],
+      "original": "tables/original/Table4_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 6,
+      "caption": "Table 5: Quantitative comparison on unseen double-compressed combinations (first→second compression) in Du, reported on LIVE1 and DIV2K in terms of PSNR↑/SSIM↑. The best result is in bold.",
+      "caption_en": "Table 5: Quantitative comparison on unseen double-compressed combinations (first→second compression) in Du, reported on LIVE1 and DIV2K in terms of PSNR↑/SSIM↑. The best result is in bold.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        184.05,
+        557.997,
+        205.332
+      ],
+      "content_bbox": [
+        57.821,
+        84.504,
+        554.179,
+        172.203
+      ],
+      "crop_bbox": [
+        57.821,
+        84.504,
+        554.179,
+        172.203
+      ],
+      "original": "tables/original/Table5_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 6,
+      "caption": "Table 6: Ablation study on the impact of each condition. Re- sults are averaged over all D1 settings on LIVE1 and DIV2K in terms of PSNR↑/SSIM↑.",
+      "caption_en": "Table 6: Ablation study on the impact of each condition. Re- sults are averaged over all D1 settings on LIVE1 and DIV2K in terms of PSNR↑/SSIM↑.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        321.857,
+        558.015,
+        353.737
+      ],
+      "content_bbox": [
+        336.157,
+        259.452,
+        538.571,
+        311.38
+      ],
+      "crop_bbox": [
+        336.157,
+        259.452,
+        538.571,
+        311.38
+      ],
+      "original": "tables/original/Table6_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 6,
+      "caption": "Table7:Ablationstudyoneachlosscomponentusedin thesecondstage.ResultsaveragedoverallD2settingson LIVE1 and DIV2K in terms of PSNR↑/SSIM↑.",
+      "caption_en": "Table7:Ablationstudyoneachlosscomponentusedin thesecondstage.ResultsaveragedoverallD2settingson LIVE1 and DIV2K in terms of PSNR↑/SSIM↑.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        443.674,
+        558.014,
+        475.555
+      ],
+      "content_bbox": [
+        329.441,
+        401.195,
+        548.059,
+        433.197
+      ],
+      "crop_bbox": [
+        329.441,
+        401.195,
+        548.059,
+        433.197
+      ],
+      "original": "tables/original/Table7_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Universal_Compressed_Image_Restoration_via_Codec_Aware_Conditioning_with_AAAI_2026",
+    "title": "Universal Compressed Image Restoration via Codec-Aware Conditioning with Reinforcement Learning",
+    "venue": "AAAI",
+    "venue_full": "AAAI",
+    "venue_short": "AAAI",
+    "venue_type": "会议",
+    "year": 2026,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "e9463150d57c2a72297e97b45762ce75bdc8914163578174b22e9f9d20e32215",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\AAAI 2026-2026-通用压缩图像恢复 多编码器-Universal Compressed Image Restoration via Codec-Aware Conditioning with Reinforcement Learning.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\GFFY32GR\\Han 等 - 2026 - Universal Compressed Image Restoration via Codec-Aware Conditioning with Reinforcement Learning.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\ZCQ75LEJ\\Han 等 - 2026 - Universal compressed image restoration via codec-aware conditioning with reinforcement learning.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "paper": "PerCo_SD_Open_Perceptual_Compression_arXiv_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 20,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Figure 1:Visual comparison of PerCo (SD) to PICS [22], VTM-20.0, the state-of-the-art non-learned image codec, and PerCo [8].Notably, PerCo and PerCo (SD) achieve an order of magnitude lower bits per pixel (bpp) compared to competing methods.Best viewed electronically.",
+      "caption_en": "Figure 1:Visual comparison of PerCo (SD) to PICS [22], VTM-20.0, the state-of-the-art non-learned image codec, and PerCo [8].Notably, PerCo and PerCo (SD) achieve an order of magnitude lower bits per pixel (bpp) compared to competing methods.Best viewed electronically.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        260.133,
+        504.166,
+        291.915
+      ],
+      "content_bbox": [
+        108.0,
+        72.399,
+        504.476,
+        252.681
+      ],
+      "crop_bbox": [
+        108.0,
+        72.399,
+        504.476,
+        252.681
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  60.7% 画面  (10.00 x 4.55 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4162653 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Figure 2:PerCo model overview, adopted from [8].During training, the hyper-encoder, codebook, and diffusion model are trained, whereas all other components are fixed.",
+      "caption_en": "Figure 2:PerCo model overview, adopted from [8].During training, the hyper-encoder, codebook, and diffusion model are trained, whereas all other components are fixed.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        183.888,
+        505.246,
+        204.808
+      ],
+      "content_bbox": [
+        108.205,
+        72.235,
+        503.8,
+        180.981
+      ],
+      "crop_bbox": [
+        108.205,
+        72.235,
+        503.8,
+        180.981
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.74 in\n\n形状统计 (96 个):\n  FREEFORM (5)                 79\n  TEXT_BOX (17)                9\n  PICTURE (13)                 4\n  AUTO_SHAPE (1)               4\n\n矢量形状: 92\n位图图片: 4\n  3.8% 画面  (1.59 x 1.19 in)\n  1.6% 画面  (0.89 x 0.88 in)\n  3.8% 画面  (1.59 x 1.19 in)\n  1.6% 画面  (0.88 x 0.88 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table 1:Comparison of the design decisions:PerCo (official) vs.PerCo (SD). Key deviations are highlighted in gray and discussed in the main text.",
+      "caption_en": "Table 1:Comparison of the design decisions:PerCo (official) vs.PerCo (SD). Key deviations are highlighted in gray and discussed in the main text.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.691,
+        78.979,
+        504.004,
+        99.926
+      ],
+      "content_bbox": [
+        108.707,
+        136.383,
+        503.294,
+        277.485
+      ],
+      "crop_bbox": [
+        108.707,
+        136.383,
+        503.294,
+        277.485
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 5,
+      "caption": "Figure 3:Quantitative comparison:PerCo (official) vs.PerCo (SD)",
+      "caption_en": "Figure 3:Quantitative comparison:PerCo (official) vs.PerCo (SD)",
+      "caption_zh": "",
+      "caption_bbox": [
+        171.635,
+        254.611,
+        440.366,
+        264.574
+      ],
+      "content_bbox": [
+        117.901,
+        69.961,
+        494.097,
+        248.109
+      ],
+      "crop_bbox": [
+        117.901,
+        69.961,
+        494.097,
+        248.109
+      ],
+      "original": "figures/original/Fig3_p005.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.37 in\n\n形状统计 (630 个):\n  FREEFORM (5)                 568\n  TEXT_BOX (17)                62\n\n矢量形状: 630\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "PerCo_SD_Open_Perceptual_Compression_arXiv_2024",
+    "title": "PerCo (SD): Open Perceptual Compression Nikolai Körber1,2 Eduard Kromer2 Andreas Siebert2 Sascha Hauke2 Daniel Mueller-Gritschneder3 Björn Schuller1",
+    "venue": "arXiv",
+    "venue_full": "arXiv",
+    "venue_short": "arXiv",
+    "venue_type": "期刊",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "7a1859c712f3fcc1a99d584f53876da54f654b1a3c8e7bb243fabe8f5e2ac70e",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\arXiv 2024-2025-极低码率感知图像压缩 生成式重建-PerCo (SD) Open Perceptual Compression.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\CCKRPDBD\\Körber 等 - 2024 - PerCo (SD) Open Perceptual Compression.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "",
+    "cas_display": "",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    }
+  ]
+}

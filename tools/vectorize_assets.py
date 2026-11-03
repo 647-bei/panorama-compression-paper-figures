@@ -112,17 +112,22 @@ def run(cmd: list[str], cwd: Path) -> tuple[int, str]:
     env = os.environ.copy()
     env["PYTHONUTF8"] = "1"
     env["PDFVEC_PREVIEW"] = "none"
-    p = subprocess.run(
-        cmd,
-        cwd=cwd,
-        env=env,
-        text=True,
-        encoding="utf-8",
-        errors="replace",
-        stdout=subprocess.PIPE,
-        stderr=subprocess.STDOUT,
-    )
-    return p.returncode, p.stdout[-4000:]
+    try:
+        p = subprocess.run(
+            cmd,
+            cwd=cwd,
+            env=env,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            timeout=180,
+        )
+        return p.returncode, p.stdout[-4000:]
+    except subprocess.TimeoutExpired as exc:
+        tail = (exc.stdout or b"") if isinstance(exc.stdout, bytes) else (exc.stdout or "")
+        return 124, "timed out after 180s\n" + tail[-4000:]
 
 
 def svg_has_content(path: Path) -> bool:
@@ -136,15 +141,23 @@ def main() -> None:
     ap = __import__("argparse").ArgumentParser()
     ap.add_argument("--root", required=True)
     ap.add_argument("--skill", required=True)
+    ap.add_argument("--only-passing", action="store_true", help="vectorize only papers passing expected_count_qa.json")
     args = ap.parse_args()
     root = Path(args.root)
     skill = Path(args.skill)
+    allow = None
+    if args.only_passing:
+        qa_path = root / "metadata" / "expected_count_qa.json"
+        qa = json.loads(qa_path.read_text(encoding="utf-8"))
+        allow = {row["paper"] for row in qa.get("papers", []) if row.get("status") == "pass"}
     extract = skill / "scripts" / "extract_figure.py"
     trace = skill / "scripts" / "trace_image.py"
     verify = skill / "scripts" / "verify_pptx.py"
     summary = []
     for mf in sorted(root.glob("*/manifest.json")):
         slug = mf.parent
+        if allow is not None and slug.name not in allow:
+            continue
         manifest = json.loads(mf.read_text(encoding="utf-8"))
         pdf = (slug / manifest["pdf"]).resolve()
         if not pdf.exists():
@@ -179,7 +192,7 @@ def main() -> None:
                     # Dense plots and scanned tables can contain tens of
                     # thousands of paths; SVG remains editable, while PPTX
                     # conversion can monopolize memory for many minutes.
-                    if drawing_count(doc, a) > 1500:
+                    if drawing_count(doc, a) > 800:
                         cmd.append("--no-pptx")
                         mode = "pdf_vector_svg_only"
                 code, output = run(cmd, skill)

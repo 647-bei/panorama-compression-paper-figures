@@ -1,0 +1,506 @@
+{
+  "paper": "PromptCIR_Blind_Compressed_Image_Restoration_with_Prompt_Learning_CVPRW_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 11,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Figure 1.The overall framework of our proposed PromptCIR. We introduce prompt learning for blind compressed image restoration.To preservecontent-awareknowledgewhileefficientlyencodingdistortion-awareinformation,weutilizeDPMfromUCIP[21]toprovide implicit guidance for the restoration process.To enhance the representation ability of the network, we replace the transformer blocks in the first two stages with RHAG inherited from HAT [5].",
+      "caption_en": "Figure 1.The overall framework of our proposed PromptCIR. We introduce prompt learning for blind compressed image restoration.To preservecontent-awareknowledgewhileefficientlyencodingdistortion-awareinformation,weutilizeDPMfromUCIP[21]toprovide implicit guidance for the restoration process.To enhance the representation ability of the network, we replace the transformer blocks in the first two stages with RHAG inherited from HAT [5].",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        302.495,
+        545.111,
+        344.338
+      ],
+      "content_bbox": [
+        50.112,
+        71.999,
+        545.109,
+        291.662
+      ],
+      "crop_bbox": [
+        50.112,
+        71.999,
+        545.109,
+        291.662
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.98 in\n\n形状统计 (247 个):\n  FREEFORM (5)                 171\n  TEXT_BOX (17)                74\n  PICTURE (13)                 2\n\n矢量形状: 245\n位图图片: 2\n  1.8% 画面  (1.21 x 1.21 in)\n  1.8% 画面  (1.21 x 1.21 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Figure 2.The structure of transformer block [43, 71].It is composed of two modules, including the Multi Dconv head transposed attention module (MDTA) and the Gated Dconv feed-forward network (GDFN). Compared to traditional self-attention block, transposed attention mechanism provides more efficient information extraction with less computational complexity.",
+      "caption_en": "Figure 2.The structure of transformer block [43, 71].It is composed of two modules, including the Multi Dconv head transposed attention module (MDTA) and the Gated Dconv feed-forward network (GDFN). Compared to traditional self-attention block, transposed attention mechanism provides more efficient information extraction with less computational complexity.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        229.102,
+        545.111,
+        259.986
+      ],
+      "content_bbox": [
+        50.112,
+        71.905,
+        545.107,
+        218.269
+      ],
+      "crop_bbox": [
+        50.112,
+        71.905,
+        545.107,
+        218.269
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.02 in\n\n形状统计 (188 个):\n  FREEFORM (5)                 129\n  TEXT_BOX (17)                59\n\n矢量形状: 188\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure 3.The structure of PIM. Here a 1 × 1 convolution is used to reduce channel numbers to the same as input features.",
+      "caption_en": "Figure 3.The structure of PIM. Here a 1 × 1 convolution is used to reduce channel numbers to the same as input features.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        365.485,
+        286.359,
+        385.734
+      ],
+      "content_bbox": [
+        50.112,
+        281.033,
+        286.364,
+        354.975
+      ],
+      "crop_bbox": [
+        50.112,
+        281.033,
+        286.364,
+        354.975
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.25 in\n\n形状统计 (44 个):\n  TEXT_BOX (17)                26\n  FREEFORM (5)                 18\n\n矢量形状: 44\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 3,
+      "caption": "Figure4.(Upper)illustratesthestructureofRHAG[5],itcom- bines several hybrid attention blocks (Bottom) with an overlapped cross-attention block (OCAB) followed by one convolution.Such designenhancestherepresentationcapabilitiesofthenetworkin both local and global information extraction, and highly meets our needs for blind CIR.",
+      "caption_en": "Figure4.(Upper)illustratesthestructureofRHAG[5],itcom- bines several hybrid attention blocks (Bottom) with an overlapped cross-attention block (OCAB) followed by one convolution.Such designenhancestherepresentationcapabilitiesofthenetworkin both local and global information extraction, and highly meets our needs for blind CIR.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        447.338,
+        545.109,
+        511.099
+      ],
+      "content_bbox": [
+        50.112,
+        71.905,
+        545.112,
+        436.616
+      ],
+      "crop_bbox": [
+        50.112,
+        71.905,
+        545.112,
+        436.616
+      ],
+      "original": "figures/original/Fig4_p003.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.85 in\n\n形状统计 (317 个):\n  FREEFORM (5)                 207\n  TEXT_BOX (17)                110\n\n矢量形状: 317\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table1.QuantitativecomparisonforblindCIR.Noticethat,forafaircomparisononthescaleofthetrainingdataset,wetrainPromp- tIR†and PromptCIR with only DF2K, marking with *.Results are tested in terms of PSNR↑/SSIM↑/PSNRB↑.The best performances are bolded.",
+      "caption_en": "Table1.QuantitativecomparisonforblindCIR.Noticethat,forafaircomparisononthescaleofthetrainingdataset,wetrainPromp- tIR†and PromptCIR with only DF2K, marking with *.Results are tested in terms of PSNR↑/SSIM↑/PSNRB↑.The best performances are bolded.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        72.871,
+        545.111,
+        103.755
+      ],
+      "content_bbox": [
+        52.364,
+        115.029,
+        544.058,
+        196.42
+      ],
+      "crop_bbox": [
+        52.364,
+        115.029,
+        544.058,
+        196.42
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 4,
+      "caption": "Table2.Quantitativecomparisonfornon-blindCIRevaluation.Noticethat,forafaircomparisononthescaleofthetrainingdataset, we train PromptIR†and PromptCIR with only DF2K, marking with *.Results are tested in terms of PSNR↑/SSIM↑/PSNRB↑.The best and second best performances are bolded and underlined, respectively.We also include PromptCIR trained with DF2K and LSDIR for a comprehensive comparison.",
+      "caption_en": "Table2.Quantitativecomparisonfornon-blindCIRevaluation.Noticethat,forafaircomparisononthescaleofthetrainingdataset, we train PromptIR†and PromptCIR with only DF2K, marking with *.Results are tested in terms of PSNR↑/SSIM↑/PSNRB↑.The best and second best performances are bolded and underlined, respectively.We also include PromptCIR trained with DF2K and LSDIR for a comprehensive comparison.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        210.433,
+        545.115,
+        252.276
+      ],
+      "content_bbox": [
+        52.364,
+        115.029,
+        544.058,
+        196.42
+      ],
+      "crop_bbox": [
+        52.364,
+        115.029,
+        544.058,
+        196.42
+      ],
+      "original": "tables/original/Table2_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Figure5.QualitativecomparisonsbetweendifferentmethodsonblindCIR.Zoominforbetterviews.(Upper:LIVE1bikes.Bottom: DIV2K0846)",
+      "caption_en": "Figure5.QualitativecomparisonsbetweendifferentmethodsonblindCIR.Zoominforbetterviews.(Upper:LIVE1bikes.Bottom: DIV2K0846)",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        576.467,
+        545.108,
+        596.391
+      ],
+      "content_bbox": [
+        50.112,
+        69.169,
+        545.118,
+        565.633
+      ],
+      "crop_bbox": [
+        50.112,
+        69.169,
+        545.118,
+        565.633
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  74.8% 画面  (7.48 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 6837291 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Figure 6.Qualitative comparisons between different methods on ICB with quality factor of 10 and LIVE1 with quality factor of 20.Our PromptCIR achieves visual pleasant restoration results.Zoom in for better views.",
+      "caption_en": "Figure 6.Qualitative comparisons between different methods on ICB with quality factor of 10 and LIVE1 with quality factor of 20.Our PromptCIR achieves visual pleasant restoration results.Zoom in for better views.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        390.44,
+        545.111,
+        410.365
+      ],
+      "content_bbox": [
+        50.112,
+        72.0,
+        545.115,
+        379.606
+      ],
+      "crop_bbox": [
+        50.112,
+        72.0,
+        545.115,
+        379.606
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  82.9% 画面  (10.00 x 6.21 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5682112 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 7,
+      "caption": "Figure7. Qualitativecomparisonsbetweendifferenttraining dataset scales.Zoom in for better views.(DIV2K0814)",
+      "caption_en": "Figure7. Qualitativecomparisonsbetweendifferenttraining dataset scales.Zoom in for better views.(DIV2K0814)",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        262.838,
+        545.109,
+        282.763
+      ],
+      "content_bbox": [
+        308.862,
+        71.999,
+        545.109,
+        252.004
+      ],
+      "crop_bbox": [
+        308.862,
+        71.999,
+        545.109,
+        252.004
+      ],
+      "original": "figures/original/Fig7_p007.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  98.3% 画面  (9.83 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8985689 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "Table3.Quantitativecomparisonfordifferentscalesoftraining datasets.ResultsaretestedintermsofPSNR↑/SSIM↑/PSNRB↑ onblindvalidationsets.Wehighlighttheperformancegainof PSNR by ↑valuefor more intuitive comparisons.",
+      "caption_en": "Table3.Quantitativecomparisonfordifferentscalesoftraining datasets.ResultsaretestedintermsofPSNR↑/SSIM↑/PSNRB↑ onblindvalidationsets.Wehighlighttheperformancegainof PSNR by ↑valuefor more intuitive comparisons.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        72.871,
+        286.363,
+        114.934
+      ],
+      "content_bbox": [
+        52.093,
+        125.957,
+        282.4,
+        213.103
+      ],
+      "crop_bbox": [
+        52.093,
+        125.957,
+        282.4,
+        213.103
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "Table4.QuantitativecomparisonforRHAGandDPM.Results aretestedintermsofPSNR↑/SSIM↑onblindDIV2Kset.We adopt ✓to indicate the usage of specific modules.",
+      "caption_en": "Table4.QuantitativecomparisonforRHAGandDPM.Results aretestedintermsofPSNR↑/SSIM↑onblindDIV2Kset.We adopt ✓to indicate the usage of specific modules.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        291.716,
+        545.109,
+        322.6
+      ],
+      "content_bbox": [
+        332.359,
+        333.873,
+        516.634,
+        391.752
+      ],
+      "crop_bbox": [
+        332.359,
+        333.873,
+        516.634,
+        391.752
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "PromptCIR_Blind_Compressed_Image_Restoration_with_Prompt_Learning_CVPRW_2024",
+    "title": "This CVPR Workshop paper is the Open Access version, provided by the Computer Vision Foundation.",
+    "venue": "CVPRW",
+    "venue_full": "CVPRW",
+    "venue_short": "CVPRW",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "eb75559e4d7ae1c16cb3c268065cd88293b44390a5d27c971aad66f23f9262d9",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\CVPRW-2024-盲压缩图像恢复-PromptCIR Blind Compressed Image Restoration with Prompt Learning.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\HS7TWWJ2\\Li 等 - 2024 - PromptCIR Blind Compressed Image Restoration with Prompt Learning.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": ""
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    }
+  ]
+}

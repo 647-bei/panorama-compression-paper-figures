@@ -29,19 +29,8 @@
         285.936
       ],
       "original": "figures/original/Fig1_p000.png",
-      "vector": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 3.90 in\n\n形状统计 (44 个):\n  TEXT_BOX (17)                34\n  FREEFORM (5)                 9\n  PICTURE (13)                 1\n\n矢量形状: 43\n位图图片: 1\n  55.3% 画面  (13.22 x 2.18 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 12091851 x 1990804 px\nops 44 draws 6 fs 0 polys 9 rings 0 text 34 images 0 inline 1 canvas 1948 570\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 13.33 x 3.90 in\n\n形状统计 (44 个):\n  TEXT_BOX (17)                34\n  FREEFORM (5)                 9\n  PICTURE (13)                 1\n\n矢量形状: 43\n位图图片: 1\n  55.3% 画面  (13.22 x 2.18 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 12091851 x 1990804 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -69,19 +58,8 @@
         197.097
       ],
       "original": "figures/original/Fig2_p002.png",
-      "vector": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig2\\Fig2.svg (945x502 -> 1890x1004 px, scale 2.0, 10996 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  70.8% 画面  (10.00 x 5.31 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4857447 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -109,19 +87,8 @@
         706.019
       ],
       "original": "figures/original/Fig3_p002.png",
-      "vector": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig3\\Fig3.svg (851x527 -> 1702x1054 px, scale 2.0, 2065 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  82.6% 画面  (10.00 x 6.19 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5662618 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -149,19 +116,7 @@
         177.885
       ],
       "original": "figures/original/Fig4_p003.png",
-      "vector": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig4\\Fig4.svg (1980x425 -> 1980x425 px, scale 1.0, 2799 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  28.6% 画面  (10.00 x 2.15 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -189,19 +144,8 @@
         296.371
       ],
       "original": "figures/original/Fig5_p005.png",
-      "vector": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig5\\Fig5.svg (1882x898 -> 1882x898 px, scale 1.0, 5825 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  63.6% 画面  (10.00 x 4.77 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4363077 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -229,19 +173,8 @@
         675.135
       ],
       "original": "figures/original/Fig6_p006.png",
-      "vector": [
-        "figures/vector/Fig6/Fig6.svg",
-        "figures/vector/Fig6/Fig6.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig6\\Fig6.svg (946x216 -> 1892x432 px, scale 2.0, 11540 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  30.4% 画面  (10.00 x 2.28 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "table",
@@ -359,19 +292,8 @@
         347.556
       ],
       "original": "figures/original/Fig7_p007.png",
-      "vector": [
-        "figures/vector/Fig7/Fig7.svg",
-        "figures/vector/Fig7/Fig7.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\FrequencyBiased_CVPR2025\\figures\\vector\\Fig7\\Fig7.svg (1981x1103 -> 1981x1103 px, scale 1.0, 66150 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  74.2% 画面  (10.00 x 5.57 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5091283 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "table",
@@ -409,76 +331,30 @@
     "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
     "LaTeX tables generated by tools/build_latex_tables.py."
   ],
-  "vectorized": [
-    {
-      "label": "Fig1",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ]
-    },
-    {
-      "label": "Fig2",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ]
-    },
-    {
-      "label": "Fig3",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ]
-    },
-    {
-      "label": "Fig4",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ]
-    },
-    {
-      "label": "Fig5",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ]
-    },
-    {
-      "label": "Fig6",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig6/Fig6.svg",
-        "figures/vector/Fig6/Fig6.pptx"
-      ]
-    },
-    {
-      "label": "Fig7",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig7/Fig7.svg",
-        "figures/vector/Fig7/Fig7.pptx"
-      ]
-    }
-  ]
+  "metadata": {
+    "title": "Frequency-Biased Synergistic Design for Image Compression and Compensation",
+    "year": 2025,
+    "venue": "CVPR",
+    "classification": "CCF-A main conference",
+    "topic": [
+      "low-bitrate compression",
+      "frequency bias",
+      "compensation"
+    ],
+    "relevance": "联合优化压缩和补偿，并显式利用低频/高频敏感性，和小波子带设计高度相关。",
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Frequency-Biased_Synergistic_Design_for_Image_Compression_and_Compensation_CVPR_2025_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_Frequency-Biased_Synergistic_Design_for_Image_Compression_and_Compensation_CVPR_2025_paper.pdf",
+    "local_slug": "FrequencyBiased_CVPR2025",
+    "access": "open_pdf",
+    "venue_short": "CVPR",
+    "venue_full": "IEEE/CVF Computer Vision and Pattern Recognition Conference",
+    "venue_type": "会议",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": "A",
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
+  }
 }

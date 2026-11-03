@@ -1,0 +1,625 @@
+{
+  "paper": "SpikeHCD_Spiking_Transformer_With_Parallel_Local_reference_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 12,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 3,
+      "caption": "Fig.1.Illustrationofthreetypesofspikingneurons.(a)Vanillaspikingneuron.(b)PSNspikingneuron.(c)OursspikingneuronPPSN.",
+      "caption_en": "Fig.1.Illustrationofthreetypesofspikingneurons.(a)Vanillaspikingneuron.(b)PSNspikingneuron.(c)OursspikingneuronPPSN.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        196.581,
+        502.168,
+        204.551
+      ],
+      "content_bbox": [
+        56.874,
+        61.376,
+        555.187,
+        184.692
+      ],
+      "crop_bbox": [
+        56.874,
+        61.376,
+        555.187,
+        184.692
+      ],
+      "original": "figures/original/Fig1_p003.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.38 in\n\n形状统计 (437 个):\n  FREEFORM (5)                 400\n  AUTO_SHAPE (1)               37\n\n矢量形状: 437\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 4,
+      "caption": "Fig.2. ArchitectureofSpikeHCDiscomprisedof:anSPEmodule,adual-branchmemory-enhancedspikingTransformerblockincorporatingMSAand MLPmodules,anSDM,andaclassiﬁcationlayer[fullyconnectedlayer(FC)].",
+      "caption_en": "Fig.2. ArchitectureofSpikeHCDiscomprisedof:anSPEmodule,adual-branchmemory-enhancedspikingTransformerblockincorporatingMSAand MLPmodules,anSDM,andaclassiﬁcationlayer[fullyconnectedlayer(FC)].",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        327.606,
+        563.036,
+        344.542
+      ],
+      "content_bbox": [
+        78.361,
+        58.895,
+        535.106,
+        313.926
+      ],
+      "crop_bbox": [
+        78.361,
+        58.895,
+        535.106,
+        313.926
+      ],
+      "original": "figures/original/Fig2_p004.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.49 in\n\n形状统计 (2491 个):\n  FREEFORM (5)                 2410\n  AUTO_SHAPE (1)               46\n  PICTURE (13)                 35\n\n矢量形状: 2456\n位图图片: 35\n  0.0% 画面  (0.02 x 0.23 in)\n  0.3% 画面  (0.64 x 0.44 in)\n  0.0% 画面  (0.22 x 0.02 in)\n  0.2% 画面  (0.44 x 0.44 in)\n  0.0% 画面  (0.02 x 0.02 in)\n  0.0% 画面  (0.02 x 0.23 in)\n  0.3% 画面  (0.63 x 0.44 in)\n  0.0% 画面  (0.21 x 0.02 in)\n  0.2% 画面  (0.44 x 0.44 in)\n  0.0% 画面  (0.02 x 0.02 in)\n  ... 共 35 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 6,
+      "caption": "TABLEI PERFORMANCE COMPARISON WITH EXISTING METHODSON THE FARMLAND DATASET",
+      "caption_en": "TABLEI PERFORMANCE COMPARISON WITH EXISTING METHODSON THE FARMLAND DATASET",
+      "caption_zh": "",
+      "caption_bbox": [
+        71.314,
+        60.016,
+        277.678,
+        88.908
+      ],
+      "content_bbox": [
+        71.99,
+        96.875,
+        276.403,
+        230.156
+      ],
+      "crop_bbox": [
+        71.99,
+        96.875,
+        276.403,
+        230.156
+      ],
+      "original": "tables/original/Table1_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "TABLEII",
+      "caption_en": "TABLEII",
+      "caption_zh": "",
+      "caption_bbox": [
+        420.989,
+        60.015,
+        454.025,
+        67.986
+      ],
+      "content_bbox": [
+        334.327,
+        96.875,
+        540.692,
+        408.812
+      ],
+      "crop_bbox": [
+        334.327,
+        96.875,
+        540.692,
+        408.812
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "TABLEIII PERFORMANCE COMPARISON WITH EXISTING METHODSON THE HERMISTON DATASET",
+      "caption_en": "TABLEIII PERFORMANCE COMPARISON WITH EXISTING METHODSON THE HERMISTON DATASET",
+      "caption_zh": "",
+      "caption_bbox": [
+        334.327,
+        238.672,
+        540.692,
+        267.563
+      ],
+      "content_bbox": [
+        335.003,
+        275.531,
+        539.416,
+        408.812
+      ],
+      "crop_bbox": [
+        335.003,
+        275.531,
+        539.416,
+        408.812
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 7,
+      "caption": "Fig.3. VisualizationresultsofdiﬀerentmethodsontheFarmlanddataset, whereTPs,TNs,FPs,andFNsarerepresentedbywhite,black,red,and greencolors,respectively.(a)Label.(b)SVM.(c)CVA.(d)CDFormer. (e)BTCDNet.(f)CSANet.(g)MFCEN.(h)SSTFormer.(i)GLAFormer. (j)AIWSEN.(k)MsFNet.(l)Ours.",
+      "caption_en": "Fig.3. VisualizationresultsofdiﬀerentmethodsontheFarmlanddataset, whereTPs,TNs,FPs,andFNsarerepresentedbywhite,black,red,and greencolors,respectively.(a)Label.(b)SVM.(c)CVA.(d)CDFormer. (e)BTCDNet.(f)CSANet.(g)MFCEN.(h)SSTFormer.(i)GLAFormer. (j)AIWSEN.(k)MsFNet.(l)Ours.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        494.273,
+        300.022,
+        538.44
+      ],
+      "content_bbox": [
+        82.302,
+        52.88,
+        266.056,
+        482.716
+      ],
+      "crop_bbox": [
+        82.302,
+        52.88,
+        266.056,
+        482.716
+      ],
+      "original": "figures/original/Fig3_p007.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  32.1% 画面  (3.21 x 7.50 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 7,
+      "caption": "Fig.4.VisualizationresultsofdiﬀerentmethodsontheRiverdataset,where TPs,TNs,FPs,andFNsarerepresentedbywhite,black,red,andgreen colors,respectively.(a)Label.(b)CVA.(c)SVM.(d)CDFormer.(e)SST- Former. (f) CSANet. (g) GLAFormer. (h) MsFNet. (i) BTCDNet. (j) MFCEN. (k)AIWSEN.(l)Ours.",
+      "caption_en": "Fig.4.VisualizationresultsofdiﬀerentmethodsontheRiverdataset,where TPs,TNs,FPs,andFNsarerepresentedbywhite,black,red,andgreen colors,respectively.(a)Label.(b)CVA.(c)SVM.(d)CDFormer.(e)SST- Former. (f) CSANet. (g) GLAFormer. (h) MsFNet. (i) BTCDNet. (j) MFCEN. (k)AIWSEN.(l)Ours.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        397.278,
+        563.04,
+        441.445
+      ],
+      "content_bbox": [
+        328.998,
+        58.042,
+        545.206,
+        385.721
+      ],
+      "crop_bbox": [
+        328.998,
+        58.042,
+        545.206,
+        385.721
+      ],
+      "original": "figures/original/Fig4_p007.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  49.5% 画面  (4.95 x 7.50 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 8,
+      "caption": "Fig.5.VisualizationresultsofdiﬀerentmethodsontheHermistondataset, whereTPs,TNs,FPs,andFNsarerepresentedbywhite,black,red,and greencolors,respectively.(a)Label.(b)SVM.(c)CVA.(d)SSTFormer. (e)CSANet.(f)CDFormer.(g)GLAFormer.(h)BTCDNet.(i)MsFNet. (j)AIWSEN.(k)MFCEN.(l)Ours.",
+      "caption_en": "Fig.5.VisualizationresultsofdiﬀerentmethodsontheHermistondataset, whereTPs,TNs,FPs,andFNsarerepresentedbywhite,black,red,and greencolors,respectively.(a)Label.(b)SVM.(c)CVA.(d)SSTFormer. (e)CSANet.(f)CDFormer.(g)GLAFormer.(h)BTCDNet.(i)MsFNet. (j)AIWSEN.(k)MFCEN.(l)Ours.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        307.251,
+        300.025,
+        351.418
+      ],
+      "content_bbox": [
+        66.803,
+        58.133,
+        281.555,
+        295.694
+      ],
+      "crop_bbox": [
+        66.803,
+        58.133,
+        281.555,
+        295.694
+      ],
+      "original": "figures/original/Fig5_p008.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  67.8% 画面  (6.78 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 6201766 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 8,
+      "caption": "Fig.6.ExperimentalresultsofSpikeHCDwithdiﬀerentmodelsizesonthe Farmland,Hermiston,andRiverdatasets.",
+      "caption_en": "Fig.6.ExperimentalresultsofSpikeHCDwithdiﬀerentmodelsizesonthe Farmland,Hermiston,andRiverdatasets.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        502.235,
+        300.023,
+        519.503
+      ],
+      "content_bbox": [
+        66.209,
+        360.933,
+        282.688,
+        490.957
+      ],
+      "crop_bbox": [
+        66.209,
+        360.933,
+        282.688,
+        490.957
+      ],
+      "original": "figures/original/Fig6_p008.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  80.1% 画面  (10.00 x 6.01 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5494837 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 8,
+      "caption": "Fig. 7.Speedup ratio, OA, and energy consumption (power) on the Farmland datasetunderdiﬀerenttimesteplengths.",
+      "caption_en": "Fig. 7.Speedup ratio, OA, and energy consumption (power) on the Farmland datasetunderdiﬀerenttimesteplengths.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        218.584,
+        563.036,
+        235.52
+      ],
+      "content_bbox": [
+        326.497,
+        58.582,
+        548.338,
+        206.704
+      ],
+      "crop_bbox": [
+        326.497,
+        58.582,
+        548.338,
+        206.704
+      ],
+      "original": "figures/original/Fig7_p008.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  88.9% 画面  (10.00 x 6.67 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6099428 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 8,
+      "caption": "TABLEIV",
+      "caption_en": "TABLEIV",
+      "caption_zh": "",
+      "caption_bbox": [
+        419.439,
+        256.578,
+        455.575,
+        264.548
+      ],
+      "content_bbox": [
+        48.964,
+        288.519,
+        559.321,
+        351.418
+      ],
+      "crop_bbox": [
+        48.964,
+        288.519,
+        559.321,
+        351.418
+      ],
+      "original": "tables/original/Table4_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 9,
+      "caption": "TABLEV",
+      "caption_en": "TABLEV",
+      "caption_zh": "",
+      "caption_bbox": [
+        157.752,
+        60.016,
+        191.234,
+        67.986
+      ],
+      "content_bbox": [
+        51.992,
+        97.724,
+        296.536,
+        148.354
+      ],
+      "crop_bbox": [
+        51.992,
+        97.724,
+        296.536,
+        148.354
+      ],
+      "original": "tables/original/Table5_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 9,
+      "caption": "TABLEVI",
+      "caption_en": "TABLEVI",
+      "caption_zh": "",
+      "caption_bbox": [
+        419.439,
+        60.016,
+        455.575,
+        67.987
+      ],
+      "content_bbox": [
+        312.507,
+        97.889,
+        562.487,
+        150.384
+      ],
+      "crop_bbox": [
+        312.507,
+        97.889,
+        562.487,
+        150.384
+      ],
+      "original": "tables/original/Table6_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 9,
+      "caption": "TABLEVII",
+      "caption_en": "TABLEVII",
+      "caption_zh": "",
+      "caption_bbox": [
+        418.112,
+        159.978,
+        456.902,
+        167.948
+      ],
+      "content_bbox": [
+        315.006,
+        197.289,
+        559.179,
+        268.266
+      ],
+      "crop_bbox": [
+        315.006,
+        197.289,
+        559.179,
+        268.266
+      ],
+      "original": "tables/original/Table7_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 10,
+      "caption": "TABLEVIII",
+      "caption_en": "TABLEVIII",
+      "caption_zh": "",
+      "caption_bbox": [
+        153.771,
+        60.016,
+        195.215,
+        67.986
+      ],
+      "content_bbox": [
+        51.992,
+        97.74,
+        296.097,
+        175.295
+      ],
+      "crop_bbox": [
+        51.992,
+        97.74,
+        296.097,
+        175.295
+      ],
+      "original": "tables/original/Table8_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "SpikeHCD_Spiking_Transformer_With_Parallel_Local_reference_2025",
+    "title": "SpikeHCD: Spiking Transformer With Parallel Neurons and Memory-Enhanced Attention for Hyperspectral Change Detection",
+    "venue": "Local reference",
+    "venue_full": "Local reference",
+    "venue_short": "Local reference",
+    "venue_type": "期刊",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://www.ieee.org/publications/rights/index.html",
+    "pdf_url": "https://www.ieee.org/publications/rights/index.html",
+    "access": "local_pdf",
+    "source_sha256": "e911a1380c581baa1b8bb7532d3faabb9b765c49de6d3a02f5f6d8b3af62c946",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\LVY54GUC\\Mei 等 - 2025 - SpikeHCD Spiking Transformer With Parallel Neurons and Memory-Enhanced Attention for Hyperspectral.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "",
+    "cas_display": "",
+    "ccf_display": ""
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    }
+  ]
+}

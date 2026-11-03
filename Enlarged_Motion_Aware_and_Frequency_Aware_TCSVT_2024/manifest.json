@@ -1,0 +1,1096 @@
+{
+  "paper": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 14,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Fig.1. Theillustrationofthemulti-scaleatrousdeformablealignment (MSADA)module.Comparedwithregulardeformableconvolution,the proposedMSADAmodulewithmultipledilationfactorsprovidesrichand diverseoffsetsforlong-rangemotiondisplacement.Theabundantalignment featuresintegratedbytheMSADAmoduleintheimagedomaincanensure theaccuracyofsubsequentfeaturefusion.",
+      "caption_en": "Fig.1. Theillustrationofthemulti-scaleatrousdeformablealignment (MSADA)module.Comparedwithregulardeformableconvolution,the proposedMSADAmodulewithmultipledilationfactorsprovidesrichand diverseoffsetsforlong-rangemotiondisplacement.Theabundantalignment featuresintegratedbytheMSADAmoduleintheimagedomaincanensure theaccuracyofsubsequentfeaturefusion.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        274.963,
+        300.014,
+        327.765
+      ],
+      "content_bbox": [
+        49.489,
+        54.067,
+        299.489,
+        266.063
+      ],
+      "crop_bbox": [
+        49.489,
+        54.067,
+        299.489,
+        266.063
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  88.4% 画面  (8.84 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8085816 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Fig.2. Artifactlevelandenhancedresultinregionswithdifferent frequencies.Thesecondandthirdrowsrepresentthehigh-frequencyregion and the low-frequency region, respectively. The first four columns sequentially representcompressedandenhancedframesunderQuantizationParameter QP=37,andcompressedandenhancedframesunderQP=32.Theraw frameisshowninthelastcolumn.PSNR(dB)andSSIM[27]arechosenas objectivequalityevaluationmetric. C.TheParticularityofSpatio-TemporalCorrespondencefor CompressedVideo",
+      "caption_en": "Fig.2. Artifactlevelandenhancedresultinregionswithdifferent frequencies.Thesecondandthirdrowsrepresentthehigh-frequencyregion and the low-frequency region, respectively. The first four columns sequentially representcompressedandenhancedframesunderQuantizationParameter QP=37,andcompressedandenhancedframesunderQP=32.Theraw frameisshowninthelastcolumn.PSNR(dB)andSSIM[27]arechosenas objectivequalityevaluationmetric. C.TheParticularityofSpatio-TemporalCorrespondencefor CompressedVideo",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        518.685,
+        559.483,
+        581.182
+      ],
+      "content_bbox": [
+        49.489,
+        343.947,
+        299.489,
+        509.785
+      ],
+      "crop_bbox": [
+        49.489,
+        343.947,
+        299.489,
+        509.785
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  88.6% 画面  (10.00 x 6.64 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6074685 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Fig.3. OverallframeworkoftheproposedEMAFAmodel.Itmainlyinvolvesthreeunits:Spatio-TemporalFeatureAlignment(STFA)unitforcoarse feature alignment, Bidirectional Dense Feature Propagation (BDFP) unit for fine feature alignment and Residual Feature Enhancement(RFE) unit for residual learning.TheSTFAunitinvolvesmulti-scaleatrousoffsetprediction,deformableconvolutionprocessandmulti-directionfrequencyenhancement(MDFE) module.ThefirsttwoconstitutetheMSADAmodule.TheBDFPunitincludestwodensefeaturepropagationlayersφandϕ.EachlayercontainsaPIPA moduleandanMDFEmodule.TheRFEunitconsistsofachannelattentionlayerandseveralresidualblockswiththeMDFEmodule.",
+      "caption_en": "Fig.3. OverallframeworkoftheproposedEMAFAmodel.Itmainlyinvolvesthreeunits:Spatio-TemporalFeatureAlignment(STFA)unitforcoarse feature alignment, Bidirectional Dense Feature Propagation (BDFP) unit for fine feature alignment and Residual Feature Enhancement(RFE) unit for residual learning.TheSTFAunitinvolvesmulti-scaleatrousoffsetprediction,deformableconvolutionprocessandmulti-directionfrequencyenhancement(MDFE) module.ThefirsttwoconstitutetheMSADAmodule.TheBDFPunitincludestwodensefeaturepropagationlayersφandϕ.EachlayercontainsaPIPA moduleandanMDFEmodule.TheRFEunitconsistsofachannelattentionlayerandseveralresidualblockswiththeMDFEmodule.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        182.338,
+        563.033,
+        226.312
+      ],
+      "content_bbox": [
+        48.996,
+        54.067,
+        562.995,
+        173.577
+      ],
+      "crop_bbox": [
+        48.996,
+        54.067,
+        562.995,
+        173.577
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  31.0% 画面  (10.00 x 2.33 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 3,
+      "caption": "Fig.4. Thearchitectureofthemulti-directionfrequencyenhancement (MDFE)module.",
+      "caption_en": "Fig.4. Thearchitectureofthemulti-directionfrequencyenhancement (MDFE)module.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        345.715,
+        563.028,
+        362.652
+      ],
+      "content_bbox": [
+        314.623,
+        246.435,
+        560.382,
+        336.815
+      ],
+      "crop_bbox": [
+        314.623,
+        246.435,
+        560.382,
+        336.815
+      ],
+      "original": "figures/original/Fig4_p003.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  49.2% 画面  (10.00 x 3.69 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 4,
+      "caption": "Fig. 5. The illustration of the multiple direction convolution (MDC) module. It separates and extracts different frequency features by controlling the specific sampling position of the convolution receptive field, including high-frequency featuresandnon-high-frequencyfeatures.Thesamplingpositionisgenerated byapplyingthecorrespondingmatrixmasktotheconvolutionkernel. D.Multi-DirectionFrequencyEnhancement",
+      "caption_en": "Fig. 5. The illustration of the multiple direction convolution (MDC) module. It separates and extracts different frequency features by controlling the specific sampling position of the convolution receptive field, including high-frequency featuresandnon-high-frequencyfeatures.Thesamplingpositionisgenerated byapplyingthecorrespondingmatrixmasktotheconvolutionkernel. D.Multi-DirectionFrequencyEnhancement",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        167.806,
+        491.257,
+        220.667
+      ],
+      "content_bbox": [
+        49.489,
+        54.067,
+        299.489,
+        158.906
+      ],
+      "crop_bbox": [
+        49.489,
+        54.067,
+        299.489,
+        158.906
+      ],
+      "original": "figures/original/Fig5_p004.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  55.9% 画面  (10.00 x 4.20 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3836643 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 5,
+      "caption": "Fig. 6. The illustration of Pixel-Wise and Patch-Wise Deformable Alignment (PIPA)block.Itconsistsofregularpixel-wisedeformableconvolutionand patch-wisedeformableconvolution.",
+      "caption_en": "Fig. 6. The illustration of Pixel-Wise and Patch-Wise Deformable Alignment (PIPA)block.Itconsistsofregularpixel-wisedeformableconvolutionand patch-wisedeformableconvolution.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        174.752,
+        563.028,
+        200.655
+      ],
+      "content_bbox": [
+        324.529,
+        54.067,
+        550.477,
+        165.852
+      ],
+      "crop_bbox": [
+        324.529,
+        54.067,
+        550.477,
+        165.852
+      ],
+      "original": "figures/original/Fig6_p005.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  66.1% 画面  (10.00 x 4.96 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4531539 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 7,
+      "caption": "Fig.7. SubjectivecomparisonoverfourstandardtestsequencesatQP=37.Comparedwithexistingmethods,boundaryoffast-movingobjectbecome clearer(thefourthrow).Atthesametime,structuralinformationwithhighfrequencycomponentsisenhanced(thethirdrow).Furthermore,texturedregions withrichnon-highfrequencyfeaturesarealsoenhancedsignificantly(thefirst,secondandlastrow).Zoominforbestview.",
+      "caption_en": "Fig.7. SubjectivecomparisonoverfourstandardtestsequencesatQP=37.Comparedwithexistingmethods,boundaryoffast-movingobjectbecome clearer(thefourthrow).Atthesametime,structuralinformationwithhighfrequencycomponentsisenhanced(thethirdrow).Furthermore,texturedregions withrichnon-highfrequencyfeaturesarealsoenhancedsignificantly(thefirst,secondandlastrow).Zoominforbestview.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        678.03,
+        563.024,
+        703.933
+      ],
+      "content_bbox": [
+        53.803,
+        94.814,
+        558.19,
+        669.131
+      ],
+      "crop_bbox": [
+        53.803,
+        94.814,
+        558.19,
+        669.131
+      ],
+      "original": "figures/original/Fig7_p007.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 13.33 x 15.17 in\n\n形状统计 (2487 个):\n  FREEFORM (5)                 2486\n  PICTURE (13)                 1\n\n矢量形状: 2486\n位图图片: 1\n  58.2% 画面  (13.21 x 8.92 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 12075865 x 8152741 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 7,
+      "caption": "TABLEI",
+      "caption_en": "TABLEI",
+      "caption_zh": "",
+      "caption_bbox": [
+        290.805,
+        58.285,
+        321.187,
+        66.255
+      ],
+      "content_bbox": [
+        53.803,
+        94.814,
+        558.19,
+        669.131
+      ],
+      "crop_bbox": [
+        53.803,
+        94.814,
+        558.19,
+        669.131
+      ],
+      "original": "tables/original/Table1_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 8,
+      "caption": "Fig. 8. Subjective comparison over three standard test sequences at QP = 37. ComparedwithBasicVSR++∗andOVQE∗,structuralinformationwithhigh frequency components is enhanced (the first and last row). Moreover, textured regionswithrichnon-highfrequencyfeaturesarealsoenhancedsignificantly (thesecondrow).Zoominforbestview.",
+      "caption_en": "Fig. 8. Subjective comparison over three standard test sequences at QP = 37. ComparedwithBasicVSR++∗andOVQE∗,structuralinformationwithhigh frequency components is enhanced (the first and last row). Moreover, textured regionswithrichnon-highfrequencyfeaturesarealsoenhancedsignificantly (thesecondrow).Zoominforbestview.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        523.386,
+        300.015,
+        567.222
+      ],
+      "content_bbox": [
+        51.177,
+        236.136,
+        297.801,
+        514.486
+      ],
+      "crop_bbox": [
+        51.177,
+        236.136,
+        297.801,
+        514.486
+      ],
+      "original": "figures/original/Fig8_p008.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  66.5% 画面  (6.65 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 6082319 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 8,
+      "caption": "TABLEII",
+      "caption_en": "TABLEII",
+      "caption_zh": "",
+      "caption_bbox": [
+        157.971,
+        58.285,
+        191.007,
+        66.255
+      ],
+      "content_bbox": [
+        49.159,
+        70.24,
+        299.818,
+        97.352
+      ],
+      "crop_bbox": [
+        49.159,
+        70.24,
+        299.818,
+        97.352
+      ],
+      "original": "tables/original/Table2_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 8,
+      "caption": "TABLEIII",
+      "caption_en": "TABLEIII",
+      "caption_zh": "",
+      "caption_bbox": [
+        156.644,
+        172.693,
+        192.334,
+        180.663
+      ],
+      "content_bbox": [
+        51.177,
+        236.136,
+        297.801,
+        514.486
+      ],
+      "crop_bbox": [
+        51.177,
+        236.136,
+        297.801,
+        514.486
+      ],
+      "original": "tables/original/Table3_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 9,
+      "caption": "Fig. 10. Subjective comparison of enhancement results for low-quality video sequenceswithhybrid-distortion.ComparedwithSTDR,boththetexture informationandtheboundaryofmovingobjectbecomeclearerandsharper inourmethod.Furthermore,thenoiseinthevideoiswellremoved.Zoomin forbestview.",
+      "caption_en": "Fig. 10. Subjective comparison of enhancement results for low-quality video sequenceswithhybrid-distortion.ComparedwithSTDR,boththetexture informationandtheboundaryofmovingobjectbecomeclearerandsharper inourmethod.Furthermore,thenoiseinthevideoiswellremoved.Zoomin forbestview.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        353.661,
+        300.014,
+        397.496
+      ],
+      "content_bbox": [
+        49.489,
+        226.671,
+        299.489,
+        344.761
+      ],
+      "crop_bbox": [
+        49.489,
+        226.671,
+        299.489,
+        344.761
+      ],
+      "original": "figures/original/Fig10_p009.png",
+      "vector": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  63.1% 画面  (10.00 x 4.74 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4329926 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig11",
+      "page": 9,
+      "caption": "Fig.11. FrequencyEnhancement.Thefirstcolumnrepresentthe non-high-frequencypatchclippedfromcompressedframesunderQP=37. Thesecondandthirdcolumnsrepresenttheenhancedresultsbythemethod OVQE∗andours,respectively.Therawpatchisshowninthelastcolumn. PSNR(dB)/SSIMarechosenasobjectivequalityevaluationmetric.",
+      "caption_en": "Fig.11. FrequencyEnhancement.Thefirstcolumnrepresentthe non-high-frequencypatchclippedfromcompressedframesunderQP=37. Thesecondandthirdcolumnsrepresenttheenhancedresultsbythemethod OVQE∗andours,respectively.Therawpatchisshowninthelastcolumn. PSNR(dB)/SSIMarechosenasobjectivequalityevaluationmetric.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        587.509,
+        300.019,
+        631.344
+      ],
+      "content_bbox": [
+        48.959,
+        54.067,
+        563.031,
+        578.609
+      ],
+      "crop_bbox": [
+        48.959,
+        54.067,
+        563.031,
+        578.609
+      ],
+      "original": "figures/original/Fig11_p009.png",
+      "vector": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 13.60 in\n\n形状统计 (199 个):\n  FREEFORM (5)                 158\n  TEXT_BOX (17)                33\n  PICTURE (13)                 6\n  AUTO_SHAPE (1)               2\n\n矢量形状: 193\n位图图片: 6\n  7.4% 画面  (6.43 x 2.09 in)\n  12.4% 画面  (6.43 x 3.50 in)\n  10.8% 画面  (6.43 x 3.04 in)\n  15.7% 画面  (6.43 x 4.42 in)\n  14.3% 画面  (6.43 x 4.04 in)\n  14.4% 画面  (6.43 x 4.06 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig12",
+      "page": 9,
+      "caption": "Fig.12. Qualityfluctuation.FluctuationtrendofPSNRvaluesforthe sequenceBasketballPass.Zoominforbestview.",
+      "caption_en": "Fig.12. Qualityfluctuation.FluctuationtrendofPSNRvaluesforthe sequenceBasketballPass.Zoominforbestview.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        140.178,
+        563.028,
+        157.115
+      ],
+      "content_bbox": [
+        312.503,
+        54.067,
+        562.503,
+        135.263
+      ],
+      "crop_bbox": [
+        312.503,
+        54.067,
+        562.503,
+        135.263
+      ],
+      "original": "figures/original/Fig12_p009.png",
+      "vector": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  43.4% 画面  (10.00 x 3.26 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig13",
+      "page": 9,
+      "caption": "Fig.13. VisualizationofoffsetpredictedbytheproposedMSADA module.(a)Referenceframe.(b)Targetframe.(c)Offsetofregulardeformable convolution.(d)Offsetofatrousdeformableconvolution.",
+      "caption_en": "Fig.13. VisualizationofoffsetpredictedbytheproposedMSADA module.(a)Referenceframe.(b)Targetframe.(c)Offsetofregulardeformable convolution.(d)Offsetofatrousdeformableconvolution.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        453.635,
+        563.031,
+        479.611
+      ],
+      "content_bbox": [
+        48.959,
+        54.067,
+        563.028,
+        448.463
+      ],
+      "crop_bbox": [
+        48.959,
+        54.067,
+        563.028,
+        448.463
+      ],
+      "original": "figures/original/Fig13_p009.png",
+      "vector": [
+        "figures/vector/Fig13/Fig13.svg",
+        "figures/vector/Fig13/Fig13.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.25 in\n\n形状统计 (194 个):\n  FREEFORM (5)                 158\n  TEXT_BOX (17)                30\n  PICTURE (13)                 4\n  AUTO_SHAPE (1)               2\n\n矢量形状: 190\n位图图片: 4\n  9.8% 画面  (6.43 x 2.09 in)\n  16.5% 画面  (6.43 x 3.50 in)\n  14.3% 画面  (6.43 x 3.04 in)\n  19.0% 画面  (6.43 x 4.04 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig14",
+      "page": 9,
+      "caption": "Fig.14. VisualizationoffeaturemapproducedbytheproposedPIPA module.(a)Referenceframe.(b)Overlayoftargetframeandreferenceframe. (c)Featuremapofpixel-wisedeformableconvolution.(d)Featuremapof patch-wisedeformableconvolution. video.Fig.10showsthatourmethodhasabettersubjective visual experience in both the texture and structure regions than thatofSTDR.Inparticular,ourmodeleffectivelymitigates compressionartifacts,suchasblockinessandmotionblur.",
+      "caption_en": "Fig.14. VisualizationoffeaturemapproducedbytheproposedPIPA module.(a)Referenceframe.(b)Overlayoftargetframeandreferenceframe. (c)Featuremapofpixel-wisedeformableconvolution.(d)Featuremapof patch-wisedeformableconvolution. video.Fig.10showsthatourmethodhasabettersubjective visual experience in both the texture and structure regions than thatofSTDR.Inparticular,ourmodeleffectivelymitigates compressionartifacts,suchasblockinessandmotionblur.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        650.071,
+        563.031,
+        699.774
+      ],
+      "content_bbox": [
+        312.503,
+        487.468,
+        562.503,
+        645.229
+      ],
+      "crop_bbox": [
+        312.503,
+        487.468,
+        562.503,
+        645.229
+      ],
+      "original": "figures/original/Fig14_p009.png",
+      "vector": [
+        "figures/vector/Fig14/Fig14.svg",
+        "figures/vector/Fig14/Fig14.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  84.2% 画面  (10.00 x 6.31 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5773234 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 9,
+      "caption": "Fig. 9.The Rate-distortion (RD) curve between video quality and the number ofbitsoccupiedbycompressedvideopersecond.Zoominforbestview.",
+      "caption_en": "Fig. 9.The Rate-distortion (RD) curve between video quality and the number ofbitsoccupiedbycompressedvideopersecond.Zoominforbestview.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        198.941,
+        300.014,
+        215.877
+      ],
+      "content_bbox": [
+        49.489,
+        54.067,
+        563.028,
+        196.602
+      ],
+      "crop_bbox": [
+        49.489,
+        54.067,
+        563.028,
+        196.602
+      ],
+      "original": "figures/original/Fig9_p009.png",
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  37.0% 画面  (10.00 x 2.78 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 9,
+      "caption": "TABLEIV",
+      "caption_en": "TABLEIV",
+      "caption_zh": "",
+      "caption_bbox": [
+        419.434,
+        166.5,
+        455.57,
+        174.47
+      ],
+      "content_bbox": [
+        331.585,
+        199.059,
+        543.421,
+        208.224
+      ],
+      "crop_bbox": [
+        331.585,
+        199.059,
+        543.421,
+        208.224
+      ],
+      "original": "tables/original/Table4_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig15",
+      "page": 10,
+      "caption": "Fig.15. VisualizationoffeaturemapsproducedbytheproposedMDC module. (a) Enhanced result of STDR. (b) Enhanced result of ours. (c) Feature mapsofSTDR.(d-h)Featuremapsofours.ComparedwithSTDR,our methodcancapturesufficientfeatureswithspatialdiversityandfrequency diversity.Zoominforbestview.",
+      "caption_en": "Fig.15. VisualizationoffeaturemapsproducedbytheproposedMDC module. (a) Enhanced result of STDR. (b) Enhanced result of ours. (c) Feature mapsofSTDR.(d-h)Featuremapsofours.ComparedwithSTDR,our methodcancapturesufficientfeatureswithspatialdiversityandfrequency diversity.Zoominforbestview.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        382.556,
+        300.017,
+        426.465
+      ],
+      "content_bbox": [
+        49.489,
+        54.066,
+        562.503,
+        373.729
+      ],
+      "crop_bbox": [
+        49.489,
+        54.066,
+        562.503,
+        373.729
+      ],
+      "original": "figures/original/Fig15_p010.png",
+      "vector": [
+        "figures/vector/Fig15/Fig15.svg",
+        "figures/vector/Fig15/Fig15.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  83.0% 画面  (10.00 x 6.23 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5693853 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig16",
+      "page": 10,
+      "caption": "Fig. 16.Effectiveness of the proposed modules: MSADA, PIPA and MDFE. The first row in the figure indicates that the MSADA module is able to capture non-localmotioninformation.Thestructureneartheshoehasbeenfurther improved.ThesecondrowinthefigureshowsthattheMDFEmodulecan enhancefeatureswithdifferentfrequency.Midandlowfrequencytextures ingroundareasbecomeclearer.Thelastrowinthefigureprovesthatthe PIPAmodulecanobtainspatio-temporalinformationwithbetternon-local consistency.Theringingeffectonthegirl’sfaceiseffectivelyremoved.",
+      "caption_en": "Fig. 16.Effectiveness of the proposed modules: MSADA, PIPA and MDFE. The first row in the figure indicates that the MSADA module is able to capture non-localmotioninformation.Thestructureneartheshoehasbeenfurther improved.ThesecondrowinthefigureshowsthattheMDFEmodulecan enhancefeatureswithdifferentfrequency.Midandlowfrequencytextures ingroundareasbecomeclearer.Thelastrowinthefigureprovesthatthe PIPAmodulecanobtainspatio-temporalinformationwithbetternon-local consistency.Theringingeffectonthegirl’sfaceiseffectivelyremoved.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        354.177,
+        563.035,
+        424.985
+      ],
+      "content_bbox": [
+        312.503,
+        54.067,
+        562.503,
+        345.351
+      ],
+      "crop_bbox": [
+        312.503,
+        54.067,
+        562.503,
+        345.351
+      ],
+      "original": "figures/original/Fig16_p010.png",
+      "vector": [
+        "figures/vector/Fig16/Fig16.svg",
+        "figures/vector/Fig16/Fig16.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  64.4% 画面  (6.44 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 5887528 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig17",
+      "page": 11,
+      "caption": "Fig.17. SubjectiveresultsofablationexperimentsonkernelsizeinMDC. Bothhigh-frequencycomponents(thefirstrow)andnon-high-frequency components(thelastrow)arefurtherenhancedwhenk= 9.",
+      "caption_en": "Fig.17. SubjectiveresultsofablationexperimentsonkernelsizeinMDC. Bothhigh-frequencycomponents(thefirstrow)andnon-high-frequency components(thelastrow)arefurtherenhancedwhenk= 9.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        198.823,
+        300.014,
+        224.726
+      ],
+      "content_bbox": [
+        49.489,
+        54.067,
+        299.489,
+        189.923
+      ],
+      "crop_bbox": [
+        49.489,
+        54.067,
+        299.489,
+        189.923
+      ],
+      "original": "figures/original/Fig17_p011.png",
+      "vector": [
+        "figures/vector/Fig17/Fig17.svg",
+        "figures/vector/Fig17/Fig17.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  72.5% 画面  (10.00 x 5.43 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4969366 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 11,
+      "caption": "TABLEV",
+      "caption_en": "TABLEV",
+      "caption_zh": "",
+      "caption_bbox": [
+        157.748,
+        241.495,
+        191.23,
+        249.465
+      ],
+      "content_bbox": [
+        73.911,
+        294.796,
+        275.067,
+        340.425
+      ],
+      "crop_bbox": [
+        73.911,
+        294.796,
+        275.067,
+        340.425
+      ],
+      "original": "tables/original/Table5_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 11,
+      "caption": "TABLEVI ABLATION EXPERIMENTFOR DIRECTION SETTINGIN MDC. IT INCLUDES MODEL SIZE (M), MACS (G)AT RESOLUTION 416×240, △PSNR (dB) AND △SSIM (×10−2)OVER STANDARD TEST SEQUENCESAT QP=37",
+      "caption_en": "TABLEVI ABLATION EXPERIMENTFOR DIRECTION SETTINGIN MDC. IT INCLUDES MODEL SIZE (M), MACS (G)AT RESOLUTION 416×240, △PSNR (dB) AND △SSIM (×10−2)OVER STANDARD TEST SEQUENCESAT QP=37",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.159,
+        357.594,
+        299.825,
+        404.452
+      ],
+      "content_bbox": [
+        55.731,
+        410.895,
+        293.247,
+        456.524
+      ],
+      "crop_bbox": [
+        55.731,
+        410.895,
+        293.247,
+        456.524
+      ],
+      "original": "tables/original/Table6_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 11,
+      "caption": "TABLEVII ABLATIONEXPERIMENTOFDILATIONFACTORINMSADA.ITINCLUDES MODEL SIZE (M), MACS (G)AT RESOLUTION 416×240, △PSNR (dB) AND △SSIM (×10−2)OVER STANDARD TEST SEQUENCESAT QP = 37",
+      "caption_en": "TABLEVII ABLATIONEXPERIMENTOFDILATIONFACTORINMSADA.ITINCLUDES MODEL SIZE (M), MACS (G)AT RESOLUTION 416×240, △PSNR (dB) AND △SSIM (×10−2)OVER STANDARD TEST SEQUENCESAT QP = 37",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.159,
+        473.693,
+        299.825,
+        520.551
+      ],
+      "content_bbox": [
+        61.302,
+        526.994,
+        287.676,
+        572.623
+      ],
+      "crop_bbox": [
+        61.302,
+        526.994,
+        287.676,
+        572.623
+      ],
+      "original": "tables/original/Table7_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024",
+    "title": "Enlarged Motion-Aware and Frequency-Aware Network for Compressed Video Artifact Reduction",
+    "venue": "TCSVT",
+    "venue_full": "TCSVT",
+    "venue_short": "TCSVT",
+    "venue_type": "期刊",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://www.ieee.org/publications/rights/index.html",
+    "pdf_url": "https://www.ieee.org/publications/rights/index.html",
+    "access": "local_pdf",
+    "source_sha256": "d7d9f0811d4838d35fcf1f63cedf0a30894792f8d6594f96d6cc7a38df17175c",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\J8NY6EGL\\TCSVT 2024用于压缩视频伪影减少的扩展运动感知和频率感知网络.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\L87F2IK9\\TCSVT 2024用于压缩视频伪影减少的扩展运动感知和频率感知网络.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 2区（2025）",
+    "cas_display": "中科院 2区（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    },
+    {
+      "label": "Fig10",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ]
+    },
+    {
+      "label": "Fig11",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ]
+    },
+    {
+      "label": "Fig12",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ]
+    },
+    {
+      "label": "Fig13",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig13/Fig13.svg",
+        "figures/vector/Fig13/Fig13.pptx"
+      ]
+    },
+    {
+      "label": "Fig14",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig14/Fig14.svg",
+        "figures/vector/Fig14/Fig14.pptx"
+      ]
+    },
+    {
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ]
+    },
+    {
+      "label": "Fig15",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig15/Fig15.svg",
+        "figures/vector/Fig15/Fig15.pptx"
+      ]
+    },
+    {
+      "label": "Fig16",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig16/Fig16.svg",
+        "figures/vector/Fig16/Fig16.pptx"
+      ]
+    },
+    {
+      "label": "Fig17",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig17/Fig17.svg",
+        "figures/vector/Fig17/Fig17.pptx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "paper": "Compression_Artifacts_Removal_for_VVC_with_Frequency_Domain_Mixture_of_AAAI_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 9,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Figure 1: The network architecture of the Artifacts Removal Mixture of Experts (ARMoE) model is illustrated. In the Frequency Domain Mixture of Experts (FMoE) module, selected experts are indicated by solid black lines, while unselected experts are represented by dashed gray lines.",
+      "caption_en": "Figure 1: The network architecture of the Artifacts Removal Mixture of Experts (ARMoE) model is illustrated. In the Frequency Domain Mixture of Experts (FMoE) module, selected experts are indicated by solid black lines, while unselected experts are represented by dashed gray lines.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        308.798,
+        558.019,
+        340.679
+      ],
+      "content_bbox": [
+        54.0,
+        54.0,
+        558.009,
+        298.72
+      ],
+      "crop_bbox": [
+        54.0,
+        54.0,
+        558.009,
+        298.72
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  64.8% 画面  (10.00 x 4.86 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4442796 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table 1: Ablation study of frequency domain transform. Best results are shown in bold. Quantization parameter (QP) = 37.",
+      "caption_en": "Table 1: Ablation study of frequency domain transform. Best results are shown in bold. Quantization parameter (QP) = 37.",
+      "caption_zh": "",
+      "caption_bbox": [
+        61.818,
+        144.916,
+        550.205,
+        154.879
+      ],
+      "content_bbox": [
+        73.977,
+        82.512,
+        538.023,
+        134.44
+      ],
+      "crop_bbox": [
+        73.977,
+        82.512,
+        538.023,
+        134.44
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 4,
+      "caption": "Table2:Ablationstudyoflossfunctions.Bestresultsare shown in bold. Quantization parameter (QP) = 37.",
+      "caption_en": "Table2:Ablationstudyoflossfunctions.Bestresultsare shown in bold. Quantization parameter (QP) = 37.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        236.714,
+        292.514,
+        257.636
+      ],
+      "content_bbox": [
+        56.106,
+        179.27,
+        290.394,
+        226.237
+      ],
+      "crop_bbox": [
+        56.106,
+        179.27,
+        290.394,
+        226.237
+      ],
+      "original": "tables/original/Table2_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 4,
+      "caption": "Table3:AblationstudyofFAF.Bestresultsareshownin bold. Quantization parameter (QP) = 37.",
+      "caption_en": "Table3:AblationstudyofFAF.Bestresultsareshownin bold. Quantization parameter (QP) = 37.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        332.406,
+        292.514,
+        353.328
+      ],
+      "content_bbox": [
+        56.106,
+        274.963,
+        290.394,
+        321.93
+      ],
+      "crop_bbox": [
+        56.106,
+        274.963,
+        290.394,
+        321.93
+      ],
+      "original": "tables/original/Table3_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 5,
+      "caption": "Figure 2: Visual comparison results for challenging cases with a Quantization parameter (QP) = 37.",
+      "caption_en": "Figure 2: Visual comparison results for challenging cases with a Quantization parameter (QP) = 37.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.731,
+        538.392,
+        504.289,
+        548.355
+      ],
+      "content_bbox": [
+        54.0,
+        428.914,
+        558.0,
+        527.611
+      ],
+      "crop_bbox": [
+        54.0,
+        428.914,
+        558.0,
+        527.611
+      ],
+      "original": "figures/original/Fig2_p005.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  26.2% 画面  (10.00 x 1.96 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 5,
+      "caption": "Table 4: Quantitative comparison with state-of-the-art methods. Best results are shown in bold.",
+      "caption_en": "Table 4: Quantitative comparison with state-of-the-art methods. Best results are shown in bold.",
+      "caption_zh": "",
+      "caption_bbox": [
+        117.18,
+        428.914,
+        494.838,
+        438.877
+      ],
+      "content_bbox": [
+        87.875,
+        82.512,
+        524.125,
+        418.437
+      ],
+      "crop_bbox": [
+        87.875,
+        82.512,
+        524.125,
+        418.437
+      ],
+      "original": "tables/original/Table4_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 6,
+      "caption": "Table 5: Quantitative comparison on BD-rate reduction with state-of-the-art methods. Best results are shown in bold.",
+      "caption_en": "Table 5: Quantitative comparison on BD-rate reduction with state-of-the-art methods. Best results are shown in bold.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        428.914,
+        292.514,
+        449.836
+      ],
+      "content_bbox": [
+        57.281,
+        167.215,
+        289.22,
+        418.437
+      ],
+      "crop_bbox": [
+        57.281,
+        167.215,
+        289.22,
+        418.437
+      ],
+      "original": "tables/original/Table5_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 6,
+      "caption": "Table 6 show that our ARMoE outperforms the state- of-the-artmethodMambaIRwhileusingfewerparameters. For example, our ARMoE outperforms MambaIR by 0.1 dB ontheKodak24datasetwith60Kfewerparameters.This experiment verifies the fairness and effectiveness of the pro- posed method.",
+      "caption_en": "Table 6 show that our ARMoE outperforms the state- of-the-artmethodMambaIRwhileusingfewerparameters. For example, our ARMoE outperforms MambaIR by 0.1 dB ontheKodak24datasetwith60Kfewerparameters.This experiment verifies the fairness and effectiveness of the pro- posed method.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        403.256,
+        558.015,
+        468.014
+      ],
+      "content_bbox": [
+        57.281,
+        177.178,
+        289.22,
+        406.36
+      ],
+      "crop_bbox": [
+        57.281,
+        177.178,
+        289.22,
+        406.36
+      ],
+      "original": "tables/original/Table6_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Compression_Artifacts_Removal_for_VVC_with_Frequency_Domain_Mixture_of_AAAI_2026",
+    "title": "Compression Artifacts Removal for VVC with Frequency Domain Mixture of Experts Network",
+    "venue": "AAAI",
+    "venue_full": "AAAI",
+    "venue_short": "AAAI",
+    "venue_type": "会议",
+    "year": 2026,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "8be8e92f530cf5bdf59bff66ac9d5701e51ac847fb0a1a03accd1c0adbd2d86a",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\AAAI 2026-2026-VVC压缩伪影去除-Compression Artifacts Removal for VVC with Frequency Domain Mixture of Experts Network.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\WDKFWYRS\\Wang 等 - Compression Artifacts Removal for VVC with Frequency Domain Mixture of Experts Network.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    }
+  ]
+}

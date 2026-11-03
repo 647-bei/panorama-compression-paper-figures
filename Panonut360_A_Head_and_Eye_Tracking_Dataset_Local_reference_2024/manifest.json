@@ -1,0 +1,425 @@
+{
+  "paper": "Panonut360_A_Head_and_Eye_Tracking_Dataset_Local_reference_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 7,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Figure 1: (a) Illustrates the world coordinate system, and (b) Illustrates the head coordinate system.",
+      "caption_en": "Figure 1: (a) Illustrates the world coordinate system, and (b) Illustrates the head coordinate system.",
+      "caption_zh": "",
+      "caption_bbox": [
+        53.798,
+        405.492,
+        295.264,
+        427.484
+      ],
+      "content_bbox": [
+        60.894,
+        84.528,
+        558.198,
+        391.73
+      ],
+      "crop_bbox": [
+        60.894,
+        84.528,
+        558.198,
+        391.73
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.28 in\n\n形状统计 (239 个):\n  FREEFORM (5)                 142\n  TEXT_BOX (17)                92\n  PICTURE (13)                 5\n\n矢量形状: 234\n位图图片: 5\n  1.2% 画面  (2.20 x 0.59 in)\n  0.2% 画面  (0.47 x 0.47 in)\n  3.2% 画面  (2.19 x 1.63 in)\n  0.2% 画面  (0.47 x 0.47 in)\n  20.3% 画面  (6.39 x 3.50 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure2:Schematicdiagramofthecorrespondence between (𝜙, 𝜃) and (𝑥, 𝑦) coordinates.",
+      "caption_en": "Figure2:Schematicdiagramofthecorrespondence between (𝜙, 𝜃) and (𝑥, 𝑦) coordinates.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.955,
+        400.059,
+        558.201,
+        422.051
+      ],
+      "content_bbox": [
+        60.894,
+        84.528,
+        558.198,
+        391.73
+      ],
+      "crop_bbox": [
+        60.894,
+        84.528,
+        558.198,
+        391.73
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.28 in\n\n形状统计 (239 个):\n  FREEFORM (5)                 142\n  TEXT_BOX (17)                92\n  PICTURE (13)                 5\n\n矢量形状: 234\n位图图片: 5\n  1.2% 画面  (2.20 x 0.59 in)\n  0.2% 画面  (0.47 x 0.47 in)\n  3.2% 画面  (2.19 x 1.63 in)\n  0.2% 画面  (0.47 x 0.47 in)\n  20.3% 画面  (6.39 x 3.50 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 2,
+      "caption": "Table 1: Comparison of Different Dataset",
+      "caption_en": "Table 1: Comparison of Different Dataset",
+      "caption_zh": "",
+      "caption_bbox": [
+        213.472,
+        84.528,
+        398.199,
+        94.49
+      ],
+      "content_bbox": [
+        91.073,
+        107.796,
+        520.927,
+        216.189
+      ],
+      "crop_bbox": [
+        91.073,
+        107.796,
+        520.927,
+        216.189
+      ],
+      "original": "tables/original/Table1_p002.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure 3: Sample images from each video",
+      "caption_en": "Figure 3: Sample images from each video",
+      "caption_zh": "",
+      "caption_bbox": [
+        346.218,
+        616.663,
+        529.938,
+        626.625
+      ],
+      "content_bbox": [
+        318.637,
+        304.977,
+        563.367,
+        604.122
+      ],
+      "crop_bbox": [
+        318.637,
+        304.977,
+        563.367,
+        604.122
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  61.4% 画面  (6.14 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 5610050 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 3,
+      "caption": "Table 2: Videos Information",
+      "caption_en": "Table 2: Videos Information",
+      "caption_zh": "",
+      "caption_bbox": [
+        374.886,
+        84.528,
+        500.943,
+        94.49
+      ],
+      "content_bbox": [
+        347.693,
+        107.995,
+        528.465,
+        301.761
+      ],
+      "crop_bbox": [
+        347.693,
+        107.995,
+        528.465,
+        301.761
+      ],
+      "original": "tables/original/Table2_p003.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 3,
+      "caption": "Table 3 presents the demographic profile of all the partici- pants. Our experiment has a total of 50 participants, with an even gender distribution of 25 males and 25 females. Half of the participants are between 20 and 25 years old and the",
+      "caption_en": "Table 3 presents the demographic profile of all the partici- pants. Our experiment has a total of 50 participants, with an even gender distribution of 25 males and 25 females. Half of the participants are between 20 and 25 years old and the",
+      "caption_zh": "",
+      "caption_bbox": [
+        53.499,
+        643.52,
+        295.727,
+        705.851
+      ],
+      "content_bbox": [
+        320.267,
+        435.918,
+        555.886,
+        589.682
+      ],
+      "crop_bbox": [
+        320.267,
+        435.918,
+        555.886,
+        589.682
+      ],
+      "original": "tables/original/Table3_p003.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure 4: Frequency of the relative gaze offset (in de- grees), across all users, time and contents",
+      "caption_en": "Figure 4: Frequency of the relative gaze offset (in de- grees), across all users, time and contents",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.955,
+        536.936,
+        559.98,
+        558.928
+      ],
+      "content_bbox": [
+        295.017,
+        343.704,
+        549.477,
+        524.21
+      ],
+      "crop_bbox": [
+        295.017,
+        343.704,
+        549.477,
+        524.21
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.55 in\n\n形状统计 (560 个):\n  FREEFORM (5)                 456\n  TEXT_BOX (17)                104\n\n矢量形状: 560\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Figure 5: Gaze offset plotted as viewing direction ( polar angle bin is 10 degrees) and radial magnitude ( radial bin is 4 degrees).",
+      "caption_en": "Figure 5: Gaze offset plotted as viewing direction ( polar angle bin is 10 degrees) and radial magnitude ( radial bin is 4 degrees).",
+      "caption_zh": "",
+      "caption_bbox": [
+        53.798,
+        324.808,
+        294.25,
+        358.606
+      ],
+      "content_bbox": [
+        53.798,
+        60.829,
+        558.201,
+        311.936
+      ],
+      "crop_bbox": [
+        53.798,
+        60.829,
+        558.201,
+        311.936
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.69 in\n\n形状统计 (795 个):\n  FREEFORM (5)                 746\n  TEXT_BOX (17)                35\n  PICTURE (13)                 13\n  AUTO_SHAPE (1)               1\n\n矢量形状: 782\n位图图片: 13\n  1.6% 画面  (5.39 x 0.27 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  ... 共 13 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 5,
+      "caption": "Figure 6: Saliency visualization",
+      "caption_en": "Figure 6: Saliency visualization",
+      "caption_zh": "",
+      "caption_bbox": [
+        368.216,
+        320.332,
+        507.941,
+        330.294
+      ],
+      "content_bbox": [
+        53.798,
+        60.829,
+        558.201,
+        307.669
+      ],
+      "crop_bbox": [
+        53.798,
+        60.829,
+        558.201,
+        307.669
+      ],
+      "original": "figures/original/Fig6_p005.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.58 in\n\n形状统计 (795 个):\n  FREEFORM (5)                 746\n  TEXT_BOX (17)                35\n  PICTURE (13)                 13\n  AUTO_SHAPE (1)               1\n\n矢量形状: 782\n位图图片: 13\n  1.7% 画面  (5.39 x 0.27 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  2.3% 画面  (2.02 x 1.01 in)\n  ... 共 13 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Panonut360_A_Head_and_Eye_Tracking_Dataset_Local_reference_2024",
+    "title": "Panonut360: A Head and Eye Tracking Dataset for Panoramic Video",
+    "venue": "Local reference",
+    "venue_full": "Local reference",
+    "venue_short": "Local reference",
+    "venue_type": "期刊",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://dianvrlab.github.io/Panonut360/",
+    "pdf_url": "https://dianvrlab.github.io/Panonut360/",
+    "access": "local_pdf",
+    "source_sha256": "59b12cc1f04208cc76264600b52c6fc35738a755d4f05efd135cadfb466cf8c1",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\VKMQPND6\\Xu 等 - 2024 - Panonut360 A Head and Eye Tracking Dataset for Panoramic Video.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "",
+    "cas_display": "",
+    "ccf_display": ""
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    }
+  ]
+}

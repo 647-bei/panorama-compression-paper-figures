@@ -1,0 +1,326 @@
+{
+  "paper": "Spatio_Temporal_Interactive_Learning_for_Efficient_NeurIPS_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 27,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Figure1:Differentparadigmsofspike-to-image reconstruction.(a) Prevailing step-by-step network architecture (e.g., Spk2ImgNet [55]).(b) Our pro- posed joint motion-intensity learning framework.A simple yet effective hybrid spike embedding repre- sentation (HSER) is also proposed as a link between the binary spikes and the deep model.",
+      "caption_en": "Figure1:Differentparadigmsofspike-to-image reconstruction.(a) Prevailing step-by-step network architecture (e.g., Spk2ImgNet [55]).(b) Our pro- posed joint motion-intensity learning framework.A simple yet effective hybrid spike embedding repre- sentation (HSER) is also proposed as a link between the binary spikes and the deep model.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        195.449,
+        310.425,
+        270.942
+      ],
+      "content_bbox": [
+        108.004,
+        70.683,
+        501.473,
+        190.068
+      ],
+      "crop_bbox": [
+        108.004,
+        70.683,
+        501.473,
+        190.068
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 4.12 in\n\n形状统计 (118 个):\n  FREEFORM (5)                 87\n  TEXT_BOX (17)                22\n  PICTURE (13)                 9\n\n矢量形状: 109\n位图图片: 9\n  2.7% 画面  (1.24 x 1.18 in)\n  2.7% 画面  (1.24 x 1.18 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  43.8% 画面  (6.25 x 3.85 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 118 draws 45 fs 35 polys 52 rings 0 text 22 images 2 inline 7 canvas 1948 602\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Spatio_Temporal_Interactive_Learning_for_Efficient_NeurIPS_2024\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Spatio_Temporal_Interactive_Learning_for_Efficient_NeurIPS_2024\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.12 in\n\n形状统计 (118 个):\n  FREEFORM (5)                 87\n  TEXT_BOX (17)                22\n  PICTURE (13)                 9\n\n矢量形状: 109\n位图图片: 9\n  2.7% 画面  (1.24 x 1.18 in)\n  2.7% 画面  (1.24 x 1.18 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  43.8% 画面  (6.25 x 3.85 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 1,
+      "caption": "Figure2:ModelcomparisonofPSNR,run- time, and model size.The PSNR is calculated ontheSREDSdataset[57].Theruntimeis tested using an RTX 3090 GPU on real-captured data [66] with a spatial resolution of 400 × 250. Our model achieves favorable results in terms of accuracy and efficiency.",
+      "caption_en": "Figure2:ModelcomparisonofPSNR,run- time, and model size.The PSNR is calculated ontheSREDSdataset[57].Theruntimeis tested using an RTX 3090 GPU on real-captured data [66] with a spatial resolution of 400 × 250. Our model achieves favorable results in terms of accuracy and efficiency.",
+      "caption_zh": "",
+      "caption_bbox": [
+        315.389,
+        195.449,
+        503.253,
+        270.942
+      ],
+      "content_bbox": [
+        108.004,
+        70.683,
+        501.473,
+        190.068
+      ],
+      "crop_bbox": [
+        108.004,
+        70.683,
+        501.473,
+        190.068
+      ],
+      "original": "figures/original/Fig2_p001.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 4.12 in\n\n形状统计 (118 个):\n  FREEFORM (5)                 87\n  TEXT_BOX (17)                22\n  PICTURE (13)                 9\n\n矢量形状: 109\n位图图片: 9\n  2.7% 画面  (1.24 x 1.18 in)\n  2.7% 画面  (1.24 x 1.18 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  43.8% 画面  (6.25 x 3.85 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 118 draws 45 fs 35 polys 52 rings 0 text 22 images 2 inline 7 canvas 1948 602\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Spatio_Temporal_Interactive_Learning_for_Efficient_NeurIPS_2024\\figures\\vector\\Fig2\\Fig2.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Spatio_Temporal_Interactive_Learning_for_Efficient_NeurIPS_2024\\figures\\vector\\Fig2\\Fig2.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.12 in\n\n形状统计 (118 个):\n  FREEFORM (5)                 87\n  TEXT_BOX (17)                22\n  PICTURE (13)                 9\n\n矢量形状: 109\n位图图片: 9\n  2.7% 画面  (1.24 x 1.18 in)\n  2.7% 画面  (1.24 x 1.18 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  1.6% 画面  (0.59 x 1.53 in)\n  43.8% 画面  (6.25 x 3.85 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure 3:Overview of our STIR framework (a) and details of the key components (b), (c), and (d).In our joint learning architecture, spatio-temporal features are refined progressively from coarse to fine, where warping-based inter-frame feature alignment (Orange line) and synthesis-based intra-frame feature filtering (Purple dashed line) are simultaneously performed in (b).Integrating (c) and (d) at the top and bottom pyramids, respectively, can boost the spatio-temporal interaction of the network.",
+      "caption_en": "Figure 3:Overview of our STIR framework (a) and details of the key components (b), (c), and (d).In our joint learning architecture, spatio-temporal features are refined progressively from coarse to fine, where warping-based inter-frame feature alignment (Orange line) and synthesis-based intra-frame feature filtering (Purple dashed line) are simultaneously performed in (b).Integrating (c) and (d) at the top and bottom pyramids, respectively, can boost the spatio-temporal interaction of the network.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.641,
+        360.366,
+        505.241,
+        413.886
+      ],
+      "content_bbox": [
+        103.932,
+        70.887,
+        506.715,
+        355.636
+      ],
+      "crop_bbox": [
+        103.932,
+        70.887,
+        506.715,
+        355.636
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "pdf_vector+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 9.46 in\n\n形状统计 (996 个):\n  FREEFORM (5)                 865\n  TEXT_BOX (17)                73\n  AUTO_SHAPE (1)               35\n  PICTURE (13)                 23\n\n矢量形状: 973\n位图图片: 23\n  0.2% 画面  (0.47 x 0.48 in)\n  0.2% 画面  (0.47 x 0.48 in)\n  0.2% 画面  (0.47 x 0.48 in)\n  0.4% 画面  (0.68 x 0.69 in)\n  0.4% 画面  (0.68 x 0.69 in)\n  3.4% 画面  (2.90 x 1.46 in)\n  0.5% 画面  (0.54 x 1.27 in)\n  0.5% 画面  (0.50 x 1.28 in)\n  0.6% 画面  (0.56 x 1.27 in)\n  0.5% 画面  (0.50 x 1.21 in)\n  ... 共 23 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 996 draws 701 fs 95 polys 688 rings 35 text 73 images 1 inline 22 canvas 1948 1382\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Spatio_Temporal_Interactive_Learning_for_Efficient_NeurIPS_2024\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Spatio_Temporal_Interactive_Learning_for_Efficient_NeurIPS_2024\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.46 in\n\n形状统计 (996 个):\n  FREEFORM (5)                 865\n  TEXT_BOX (17)                73\n  AUTO_SHAPE (1)               35\n  PICTURE (13)                 23\n\n矢量形状: 973\n位图图片: 23\n  0.2% 画面  (0.47 x 0.48 in)\n  0.2% 画面  (0.47 x 0.48 in)\n  0.2% 画面  (0.47 x 0.48 in)\n  0.4% 画面  (0.68 x 0.69 in)\n  0.4% 画面  (0.68 x 0.69 in)\n  3.4% 画面  (2.90 x 1.46 in)\n  0.5% 画面  (0.54 x 1.27 in)\n  0.5% 画面  (0.50 x 1.28 in)\n  0.6% 画面  (0.56 x 1.27 in)\n  0.5% 画面  (0.50 x 1.21 in)\n  ... 共 23 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 6,
+      "caption": "Table1:QuantitativecomparisonsagainstSOTAmethodsonthesyntheticSREDSdataset[57] and real-captured dataset [66].Best and second-best results are boldfaced and underlined, respec- tively.Thanks to the spatio-temporal interaction, our approach consistently demonstrates optimal reconstruction performance, along with excellent parameter size, GPU memory usage, and FLOPs.",
+      "caption_en": "Table1:QuantitativecomparisonsagainstSOTAmethodsonthesyntheticSREDSdataset[57] and real-captured dataset [66].Best and second-best results are boldfaced and underlined, respec- tively.Thanks to the spatio-temporal interaction, our approach consistently demonstrates optimal reconstruction performance, along with excellent parameter size, GPU memory usage, and FLOPs.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.691,
+        78.979,
+        505.652,
+        121.744
+      ],
+      "content_bbox": [
+        108.0,
+        123.466,
+        511.268,
+        236.442
+      ],
+      "crop_bbox": [
+        108.0,
+        123.466,
+        511.268,
+        236.442
+      ],
+      "original": "tables/original/Table1_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 7,
+      "caption": "Figure 4: Visual comparison on synthetic [57] (top) and real-captured [61] (bottom) data.Our method reconstructs precise boundaries of fast-moving objects with higher fidelity.Zoom in for more details.",
+      "caption_en": "Figure 4: Visual comparison on synthetic [57] (top) and real-captured [61] (bottom) data.Our method reconstructs precise boundaries of fast-moving objects with higher fidelity.Zoom in for more details.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        429.349,
+        504.0,
+        450.198
+      ],
+      "content_bbox": [
+        110.208,
+        72.338,
+        501.615,
+        426.941
+      ],
+      "crop_bbox": [
+        110.208,
+        72.338,
+        501.615,
+        426.941
+      ],
+      "original": "figures/original/Fig4_p007.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Spatio_Temporal_Interactive_Learning_for_Efficient_NeurIPS_2024\\figures\\vector\\Fig4\\Fig4.svg (1567x1419 -> 1567x1419 px, scale 1.0, 48642 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  82.8% 画面  (8.28 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 7573281 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 8,
+      "caption": "Table 2:Ablation on spike embedding representation.",
+      "caption_en": "Table 2:Ablation on spike embedding representation.",
+      "caption_zh": "",
+      "caption_bbox": [
+        287.873,
+        616.239,
+        502.019,
+        626.202
+      ],
+      "content_bbox": [
+        287.889,
+        628.981,
+        504.346,
+        704.664
+      ],
+      "crop_bbox": [
+        287.889,
+        628.981,
+        504.346,
+        704.664
+      ],
+      "original": "tables/original/Table2_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 8,
+      "caption": "Table 3:Ablation studies on the SREDS dataset [57].Underlining indicates our full model.",
+      "caption_en": "Table 3:Ablation studies on the SREDS dataset [57].Underlining indicates our full model.",
+      "caption_zh": "",
+      "caption_bbox": [
+        119.267,
+        71.989,
+        492.424,
+        82.043
+      ],
+      "content_bbox": [
+        296.417,
+        121.997,
+        504.968,
+        162.054
+      ],
+      "crop_bbox": [
+        296.417,
+        121.997,
+        504.968,
+        162.054
+      ],
+      "original": "tables/original/Table3_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Spatio_Temporal_Interactive_Learning_for_Efficient_NeurIPS_2024",
+    "title": "Spatio-Temporal Interactive Learning for Efficient Image Reconstruction of Spiking Cameras",
+    "venue": "NeurIPS",
+    "venue_full": "NeurIPS",
+    "venue_short": "NeurIPS",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "2194199db85274c5889a6985b03ca0ae2b39b67a65ab92695fe808ca9220a3b6",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\3K6VHD56\\NeurIPS 2024用于脉冲相机高效图像重建的时空交互式学习.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\9YLW3N5C\\NeurIPS 2024用于脉冲相机高效图像重建的时空交互式学习.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    }
+  ]
+}

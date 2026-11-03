@@ -1,12 +1,19 @@
 % Auto-extracted table snippet; requires \usepackage{booktabs}.
-% Caption: Table8:Scalingexponentsfromdifferenttheoriesℓ∝N−α.ℓ:testRMSEloss,N:numberof modelparameters,d:inputintrinsicdimension,k:orderofpiecewisepolynomial,m:derivative order as in function class Wm.
-\begin{tabular}{lll}
+% Caption: Figure 8 is that KANs can achieve the theoretical scaling law in this PDE example (beyond function fitting), but this result should not be interpreted as an immediate real-world improvement.Also,both the LBFGS optimizer and the grid extension technique are required to achieve the theoretical scaling law, but in practice, people use the Adam optimizer and do not need grid extension for MLPs, which we explore in Appendix B.
+\begin{tabular}{llllllll}
 \toprule
-Paper & Idea & Scaling exponent α \\
+Method & width & PSNR ↑ &  &  & Training Wall Time (s) ↓ &  &  \\
 \midrule
-Sharma \& Kaplan Sharma \& Kaplan (2020) & Intrinsic dimensionality & (k + 1)/d \\
-Michaud et al. Michaud et al. (2023b) & maximum arity & (k + 1)/2 \\
-Poggio et al. Poggio et al. (2020) & compositional sparsity & m/2 \\
-Ours & K-A representation & k + 1 \\
+ &  & Cam & Turb & Star & Cam & Turb & Star \\
+KAN 1 & [2,128,128,128,128,1] G =[10,10,10,10,10] & 32.06 & 62.45 & 50.55 & 1800 & 1721 & 1715 \\
+KAN 2 & [2,128,128,128,128,1] G =[100,10,10,10,10] & 45.76 & 82.68 & 71.82 & 1809 & 1734 & 1727 \\
+MLP 1 & [2,128,128,128,128,1] & 20.76 & 27.18 & 18.28 & 162 & 92 & 91 \\
+MLP 2 & [2,404,404,404,404,1] & 22.09 & 33.14 & 18.96 & 182 & 110 & 110 \\
+SIREN 1 & [2,128,128,128,128,1] & 27.34 & 49.51 & 29.88 & 254 & 226 & 232 \\
+SIREN 2 & [2,404,404,404,404,1] & 30.79 & 51.94 & 53.05 & 407 & 400 & 404 \\
+MLP RFF 1 (s = 3 \_ & ) [2,128,128,128,128,1] & 22.17 & 33.58 & 19.19 & 176 & 96 & 96 \\
+MLP RFF 2 (s = 3 \_ & ) [2,404,404,404,404,1] & 24.73 & 42.57 & 22.00 & 192 & 117 & 118 \\
+MLP RFF 1 (s = 30 \_ & ) [2,128,128,128,128,1] & 23.92 & 43.07 & 22.68 & 174 & 96 & 97 \\
+MLP RFF 2 (s = 30 \_ & ) [2,404,404,404,404,1] & 26.26 & 46.43 & 28.62 & 195 & 117 & 121 \\
 \bottomrule
 \end{tabular}

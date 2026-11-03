@@ -1,0 +1,436 @@
+{
+  "paper": "JDEC_JPEG_Decoding_via_Enhanced_Continuous_Cosine_Coefficients_CVPR_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 10,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 1,
+      "caption": "Figure2.VisualDemonstrationatq=100(PSNR(dB)↑/ Bit-Error-Rate(BER)↓)ofdecodingcompressedimage:JPEG (qualityfactor=100),imageenhancementapproach[18]pre- dictedfromJPEGimage(q=100),andJDEC(ours)predicted directlyfromaJPEGbit-stream.Wehighlighttheoccurrenceof bit errors overlaid with green dots.",
+      "caption_en": "Figure2.VisualDemonstrationatq=100(PSNR(dB)↑/ Bit-Error-Rate(BER)↓)ofdecodingcompressedimage:JPEG (qualityfactor=100),imageenhancementapproach[18]pre- dictedfromJPEGimage(q=100),andJDEC(ours)predicted directlyfromaJPEGbit-stream.Wehighlighttheoccurrenceof bit errors overlaid with green dots.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        133.517,
+        286.367,
+        208.669
+      ],
+      "content_bbox": [
+        308.862,
+        71.999,
+        546.458,
+        133.517
+      ],
+      "crop_bbox": [
+        308.862,
+        71.999,
+        546.458,
+        133.517
+      ],
+      "original": "figures/original/Fig2_p001.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 2,
+      "caption": "Figure 4.Decoding a JPEG bitstream with the proposed JDEC. JDEC consists of an encoder (Eφ) with group spectra embedding (gϕ), a decoder (fθ), and continuous cosine formulation (Tψ).Inputs of JDEC are as follows:compressed spectra (˜XY,˜XC), quantization map Q.NotethatourJDECdoesnottake˜Iasaninput.JDECformulateslatentfeaturesintoatrainablecontinuouscosinecoefficientasa function of block grid δ and forward to INR (fθ).Therefore, each B × B block shares the estimated continuous cosine spectrum.",
+      "caption_en": "Figure 4.Decoding a JPEG bitstream with the proposed JDEC. JDEC consists of an encoder (Eφ) with group spectra embedding (gϕ), a decoder (fθ), and continuous cosine formulation (Tψ).Inputs of JDEC are as follows:compressed spectra (˜XY,˜XC), quantization map Q.NotethatourJDECdoesnottake˜Iasaninput.JDECformulateslatentfeaturesintoatrainablecontinuouscosinecoefficientasa function of block grid δ and forward to INR (fθ).Therefore, each B × B block shares the estimated continuous cosine spectrum.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        338.319,
+        545.115,
+        380.572
+      ],
+      "content_bbox": [
+        50.112,
+        49.259,
+        557.798,
+        334.832
+      ],
+      "crop_bbox": [
+        50.112,
+        49.259,
+        557.798,
+        334.832
+      ],
+      "original": "figures/original/Fig4_p002.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 3,
+      "caption": "Figure 5.Graphical summary of fθ(Tψ(δ, z; Q)).Each 1 × 1- sized feature z maps into a B ×B pixel area.Tψembeds the local coordinates of B × B area and forwards to fθ.",
+      "caption_en": "Figure 5.Graphical summary of fθ(Tψ(δ, z; Q)).Each 1 × 1- sized feature z maps into a B ×B pixel area.Tψembeds the local coordinates of B × B area and forwards to fθ.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        148.775,
+        286.364,
+        180.186
+      ],
+      "content_bbox": [
+        25.533,
+        0.0,
+        287.709,
+        145.737
+      ],
+      "crop_bbox": [
+        25.533,
+        0.0,
+        287.709,
+        145.737
+      ],
+      "original": "figures/original/Fig5_p003.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 4,
+      "caption": "Figure 6.RD curve results on LIVE-1 [31] (top left), ICB [29] (top right), BSDS500 [3] (bottom left).We highlight the high-quality factor partsq∈[90, 100]inthebottomrightpart.WeshowPSNRasameasureofdistortion(higherisbetter).WeobservethatourJDEC decodes high-quality images better than other methods.",
+      "caption_en": "Figure 6.RD curve results on LIVE-1 [31] (top left), ICB [29] (top right), BSDS500 [3] (bottom left).We highlight the high-quality factor partsq∈[90, 100]inthebottomrightpart.WeshowPSNRasameasureofdistortion(higherisbetter).WeobservethatourJDEC decodes high-quality images better than other methods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        341.164,
+        545.117,
+        372.048
+      ],
+      "content_bbox": [
+        57.521,
+        71.998,
+        536.457,
+        340.293
+      ],
+      "crop_bbox": [
+        57.521,
+        71.998,
+        536.457,
+        340.293
+      ],
+      "original": "figures/original/Fig6_p004.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table 1.Quantitative comparisons (PSNR (dB) | PSNR-B (dB) (top), SSIM (bottom)) with the color JPEG artifact removal networks.Red and blue colors indicate the best and the second-best performance,respectively.(-) indicates not reported.(*) indicates using additional datasets.Note that only JPEG [33] and our JDEC get spectra as input.",
+      "caption_en": "Table 1.Quantitative comparisons (PSNR (dB) | PSNR-B (dB) (top), SSIM (bottom)) with the color JPEG artifact removal networks.Red and blue colors indicate the best and the second-best performance,respectively.(-) indicates not reported.(*) indicates using additional datasets.Note that only JPEG [33] and our JDEC get spectra as input.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        536.307,
+        545.111,
+        567.515
+      ],
+      "content_bbox": [
+        94.725,
+        393.294,
+        393.578,
+        467.815
+      ],
+      "crop_bbox": [
+        94.725,
+        393.294,
+        393.578,
+        467.815
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 5,
+      "caption": "Figure 7.Qualitative comparison in color JPEG artifact removal (q= 10).",
+      "caption_en": "Figure 7.Qualitative comparison in color JPEG artifact removal (q= 10).",
+      "caption_zh": "",
+      "caption_bbox": [
+        164.372,
+        209.951,
+        498.772,
+        231.233
+      ],
+      "content_bbox": [
+        61.178,
+        74.655,
+        538.02,
+        206.146
+      ],
+      "crop_bbox": [
+        61.178,
+        74.655,
+        538.02,
+        206.146
+      ],
+      "original": "figures/original/Fig7_p005.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 5,
+      "caption": "Figure8.QualitativecomparisoninchromacomponentsIcof images (q= 10). thedynamicrangeofspectradependsonfrequency,we shouldnormalizespectrainarangeof[−1, 1].Thequan- tizationmapsarenormalizedwiththesamenormalization function.The ground truth (GT) images are prepared with arangeof[−0.5, 0.5]becausetheJPEGencodersubtracts the midpoint of the image range (=128). ImplementationDetailWeuse112 × 112patchesasin- putstoournetwork.Thissizeischosenbecauseitisthe leastcommonmultipleoftheminimumunitsizeofcolor JPEG (16 × 16) and the window size of our Swin architec- ture[25](7 × 7).Thenetworkistrainedfor1000epochs with batch size 16. We optimize our network by Adam [19]. The learning rate is initialized as 1e-4 and decayed by factor 0.5 at [200, 400, 600, 800].",
+      "caption_en": "Figure8.QualitativecomparisoninchromacomponentsIcof images (q= 10). thedynamicrangeofspectradependsonfrequency,we shouldnormalizespectrainarangeof[−1, 1].Thequan- tizationmapsarenormalizedwiththesamenormalization function.The ground truth (GT) images are prepared with arangeof[−0.5, 0.5]becausetheJPEGencodersubtracts the midpoint of the image range (=128). ImplementationDetailWeuse112 × 112patchesasin- putstoournetwork.Thissizeischosenbecauseitisthe leastcommonmultipleoftheminimumunitsizeofcolor JPEG (16 × 16) and the window size of our Swin architec- ture[25](7 × 7).Thenetworkistrainedfor1000epochs with batch size 16. We optimize our network by Adam [19]. The learning rate is initialized as 1e-4 and decayed by factor 0.5 at [200, 400, 600, 800].",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        464.58,
+        286.366,
+        651.064
+      ],
+      "content_bbox": [
+        0.0,
+        0.0,
+        612.0,
+        461.128
+      ],
+      "crop_bbox": [
+        0.0,
+        0.0,
+        612.0,
+        461.128
+      ],
+      "original": "figures/original/Fig8_p005.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table 2. Quantitative comparisons of each components in ICB [29] datasets.(PSNR(dB))",
+      "caption_en": "Table 2. Quantitative comparisons of each components in ICB [29] datasets.(PSNR(dB))",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        309.639,
+        545.109,
+        329.564
+      ],
+      "content_bbox": [
+        320.237,
+        245.007,
+        533.236,
+        303.454
+      ],
+      "crop_bbox": [
+        320.237,
+        245.007,
+        533.236,
+        303.454
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 6,
+      "caption": "Figure9. QuantitativeablationstudyofJDEConLIVE-1 [31](RD-curve),againstablationmodels.OurproposedJDEC achieves higher PSNR than any other models in most of the q val- ues. using other methods, it is noticeable that the chroma compo- nents remain significantly distorted. However, our JDEC re- stores them closer to the original. It demonstrates that JDEC robustlyrestorescolorcomponentssubjectedtoquantiza- tion and downsampling, effectively mitigating distortion.",
+      "caption_en": "Figure9. QuantitativeablationstudyofJDEConLIVE-1 [31](RD-curve),againstablationmodels.OurproposedJDEC achieves higher PSNR than any other models in most of the q val- ues. using other methods, it is noticeable that the chroma compo- nents remain significantly distorted. However, our JDEC re- stores them closer to the original. It demonstrates that JDEC robustlyrestorescolorcomponentssubjectedtoquantiza- tion and downsampling, effectively mitigating distortion.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        200.763,
+        545.115,
+        301.33
+      ],
+      "content_bbox": [
+        310.542,
+        67.02,
+        543.361,
+        197.981
+      ],
+      "crop_bbox": [
+        310.542,
+        67.02,
+        543.361,
+        197.981
+      ],
+      "original": "figures/original/Fig9_p006.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table3. Quantitativecomparisonsofhigh-qualityimagesin LIVE-1[31]andICB[29]datasets(PSNR|PSNR-B(dB))(top), SSIM(bottom).*:Qualityfactor95isagenerallyuseddefault quality factor in the JPEG encoder.",
+      "caption_en": "Table3. Quantitativecomparisonsofhigh-qualityimagesin LIVE-1[31]andICB[29]datasets(PSNR|PSNR-B(dB))(top), SSIM(bottom).*:Qualityfactor95isagenerallyuseddefault quality factor in the JPEG encoder.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        271.327,
+        286.359,
+        313.17
+      ],
+      "content_bbox": [
+        56.474,
+        74.192,
+        278.256,
+        266.471
+      ],
+      "crop_bbox": [
+        56.474,
+        74.192,
+        278.256,
+        266.471
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 6,
+      "caption": "Table4.QuantitativeablationstudyofJDEConLIVE-1[31] (PSNR|PSNR-B (dB)). ∗: ID-0 is the proposed method JDEC. The definition of each ID number is shown in Sec. 4.4.",
+      "caption_en": "Table4.QuantitativeablationstudyofJDEConLIVE-1[31] (PSNR|PSNR-B (dB)). ∗: ID-0 is the proposed method JDEC. The definition of each ID number is shown in Sec. 4.4.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        397.518,
+        286.366,
+        428.484
+      ],
+      "content_bbox": [
+        50.649,
+        316.663,
+        285.825,
+        391.747
+      ],
+      "crop_bbox": [
+        50.649,
+        316.663,
+        285.825,
+        391.747
+      ],
+      "original": "tables/original/Table4_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 7,
+      "caption": "Figure 10.Comparison of the estimated spectra of the Contin- uousCosineFormulation(CCF).Thequalityfactorofinputis 10.The estimated CCF spectrum follows the spectrum of ground- truth images despite severe distortion.",
+      "caption_en": "Figure 10.Comparison of the estimated spectra of the Contin- uousCosineFormulation(CCF).Thequalityfactorofinputis 10.The estimated CCF spectrum follows the spectrum of ground- truth images despite severe distortion.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        285.446,
+        286.362,
+        337.044
+      ],
+      "content_bbox": [
+        39.761,
+        71.374,
+        550.134,
+        258.216
+      ],
+      "crop_bbox": [
+        39.761,
+        71.374,
+        550.134,
+        258.216
+      ],
+      "original": "figures/original/Fig10_p007.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig11",
+      "page": 7,
+      "caption": "Figure 11.Reconstruction of the extremely compressed image (q= 0) in LIVE-1 [31] dataset.",
+      "caption_en": "Figure 11.Reconstruction of the extremely compressed image (q= 0) in LIVE-1 [31] dataset.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        179.742,
+        545.109,
+        199.749
+      ],
+      "content_bbox": [
+        272.147,
+        71.374,
+        550.134,
+        173.487
+      ],
+      "crop_bbox": [
+        272.147,
+        71.374,
+        550.134,
+        173.487
+      ],
+      "original": "figures/original/Fig11_p007.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 7,
+      "caption": "Table 5.Computational resources & performance comparison for a560 × 560pixelsinICB[29].†:Wereplacethedeepfeature extractor of Fig. 4 with a CNN structure for comparison with the CNN-based model [18].",
+      "caption_en": "Table 5.Computational resources & performance comparison for a560 × 560pixelsinICB[29].†:Wereplacethedeepfeature extractor of Fig. 4 with a CNN structure for comparison with the CNN-based model [18].",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        263.072,
+        545.112,
+        304.915
+      ],
+      "content_bbox": [
+        311.9,
+        206.719,
+        540.331,
+        258.216
+      ],
+      "crop_bbox": [
+        311.9,
+        206.719,
+        540.331,
+        258.216
+      ],
+      "original": "tables/original/Table5_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "JDEC_JPEG_Decoding_via_Enhanced_Continuous_Cosine_Coefficients_CVPR_2024",
+    "title": "This CVPR paper is the Open Access version, provided by the Computer Vision Foundation.",
+    "venue": "CVPR",
+    "venue_full": "CVPR",
+    "venue_short": "CVPR",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "9b2ac1e8a31c1b01eeea200169c6883b2da571d74326b6db3fd51feab5962481",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\CVPR 2024-2024-JPEG压缩图像质量增强 解码恢复-JDEC JPEG Decoding via Enhanced Continuous Cosine Coefficients.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\YJ5UGCVQ\\Han 等 - 2024 - JDEC JPEG Decoding via Enhanced Continuous Cosine Coefficients.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  }
+}

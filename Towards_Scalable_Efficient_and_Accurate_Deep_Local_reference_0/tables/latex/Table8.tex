@@ -1,0 +1,9 @@
+% Auto-extracted table snippet; requires \usepackage{booktabs}.
+% Caption: Table VIII shows the accuracy, \#parametersandEEbeneﬁtsofSNNtopologies(listedin TableIX)fordifferentlatencyT=25, 50withrespectto correspondingANNbaselines.SimilartoConversion/STDP results,end-to-endAGDtrainingwithspikingstatistics(us- ingsurrogategradientdescent)forVGG5andVGG3x2of equivalentlogicaldepthasVGG5yieldsminimalaccuracy loss(∼2 −3\%)andlargeEEgains(∼15×)incomparison tocorrespondingANNs.However,foraV GG7networkwith 7-layereddepth, AGDfails totrain anSNN end-to-enddue to vanishing forward spike-propagation. Interestingly, a VGG3x4 networkwithsimilarlogicaldepthof7-layersasVGG7and repeatedcomputationsnotonlytrainswellwithAGD,but alsoyieldshigheraccuracythanbothVGG7/VGG3x4ANN baselines. This implies that LIF neurons with spiking statistics havethepotentialofyieldingmorediversiﬁedcomputation proﬁle with BackRes unrolling than ReLU neurons. In addition toaccuracyandscalabilitybeneﬁts,SNNswithBackRes connectionsyieldhighEEbeneﬁtsasshowninTableVIII (duetotheinherent‘sparsifying’effect)thatpointtotheir suitabilityforlow-powerhardwareimplementations.
+\begin{tabular}{lllll}
+\toprule
+Model & ANN SNN (T = 1) (T = 100) (–Accuracy\%–) &  & \# Parameters & EEConv/EEF ull = EANN (1×) ESNN \\
+\midrule
+ResNet2 ResNet3 ResNet2x2 & 78.26 80.11 79.39 & 61.02 51.1 63.21 & 18.9M 28.37M 28.35M & 1.64x/1.16x 1.81x/1.28x 10.56x/1.78x \\
+\bottomrule
+\end{tabular}

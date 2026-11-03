@@ -1,0 +1,215 @@
+{
+  "paper": "PyTorch_An_Imperative_Style_High_Performance_Local_reference_2019",
+  "pdf": "pdf/paper.pdf",
+  "pages": 12,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 7,
+      "caption": "Figure1:AtraceoftheﬁrstfewoperatorsofResnet-50.Thetoprowdepictstheexecutionofthecontrol ﬂow running on the host CPU. The gray areas are Python code executed by its interpreter.The colored areas correspond to the work done on the host CPU to queue various operators (convolution, batch normalization, and so on).The bottom row shows the corresponding execution of those operators on the GPU. The arrows pair the two events in time.",
+      "caption_en": "Figure1:AtraceoftheﬁrstfewoperatorsofResnet-50.Thetoprowdepictstheexecutionofthecontrol ﬂow running on the host CPU. The gray areas are Python code executed by its interpreter.The colored areas correspond to the work done on the host CPU to queue various operators (convolution, batch normalization, and so on).The bottom row shows the corresponding execution of those operators on the GPU. The arrows pair the two events in time.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        189.556,
+        504.001,
+        238.454
+      ],
+      "content_bbox": [
+        108.0,
+        160.953,
+        504.002,
+        182.49
+      ],
+      "crop_bbox": [
+        108.0,
+        160.953,
+        504.002,
+        182.49
+      ],
+      "original": "figures/original/Fig1_p007.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  7.3% 画面  (10.00 x 0.55 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 7,
+      "caption": "Figure 2:Annotated traces of the execution of ResNet-50 on GPU.",
+      "caption_en": "Figure 2:Annotated traces of the execution of ResNet-50 on GPU.",
+      "caption_zh": "",
+      "caption_bbox": [
+        183.928,
+        426.617,
+        425.832,
+        435.665
+      ],
+      "content_bbox": [
+        108.0,
+        365.927,
+        503.99,
+        419.551
+      ],
+      "crop_bbox": [
+        108.0,
+        365.927,
+        503.99,
+        419.551
+      ],
+      "original": "figures/original/Fig2_p007.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  18.2% 画面  (10.00 x 1.36 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 7,
+      "caption": "Table 1.On all the benchmarks, the performance of PyTorch is within 17% of that of of the fastest framework.We attribute this result to the fact that these tools ofﬂoad most of the computation to the same version of the cuDNN and cuBLAS libraries.",
+      "caption_en": "Table 1.On all the benchmarks, the performance of PyTorch is within 17% of that of of the fastest framework.We attribute this result to the fact that these tools ofﬂoad most of the computation to the same version of the cuDNN and cuBLAS libraries.",
+      "caption_zh": "",
+      "caption_bbox": [
+        107.253,
+        523.706,
+        504.002,
+        555.43
+      ],
+      "content_bbox": [
+        111.449,
+        573.359,
+        500.552,
+        660.175
+      ],
+      "crop_bbox": [
+        111.449,
+        573.359,
+        500.552,
+        660.175
+      ],
+      "original": "tables/original/Table1_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 8,
+      "caption": "Figure 3:Among arXiv papers each month that mention common deep learning frameworks, percentage of them that mention PyTorch.",
+      "caption_en": "Figure 3:Among arXiv papers each month that mention common deep learning frameworks, percentage of them that mention PyTorch.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        282.054,
+        504.0,
+        301.065
+      ],
+      "content_bbox": [
+        108.0,
+        192.284,
+        504.007,
+        274.989
+      ],
+      "crop_bbox": [
+        108.0,
+        192.284,
+        504.007,
+        274.989
+      ],
+      "original": "figures/original/Fig3_p008.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  27.8% 画面  (10.00 x 2.09 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "PyTorch_An_Imperative_Style_High_Performance_Local_reference_2019",
+    "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library Adam Paszke Sam Gross Francisco Massa",
+    "venue": "NeurIPS",
+    "venue_full": "NeurIPS",
+    "venue_short": "NeurIPS",
+    "venue_type": "会议",
+    "year": 2019,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "992171580c25f561f9d75960c296d3639af617a6a9aeb2251ead45e70bdea275",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\8N54DHXJ\\Paszke 等 - 2019 - PyTorch An imperative style, high-performance deep learning library.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    }
+  ]
+}

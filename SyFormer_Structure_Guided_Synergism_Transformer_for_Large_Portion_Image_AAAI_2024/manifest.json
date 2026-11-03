@@ -1,0 +1,376 @@
+{
+  "paper": "SyFormer_Structure_Guided_Synergism_Transformer_for_Large_Portion_Image_AAAI_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 9,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure1:Inpaintedresultsincasesofbackgrounddistur- bance (upper row) and large missing regions (bottom row). (a) Corrupted images. (b) Inpainted results. (c) GT.",
+      "caption_en": "Figure1:Inpaintedresultsincasesofbackgrounddistur- bance (upper row) and large missing regions (bottom row). (a) Corrupted images. (b) Inpainted results. (c) GT.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        385.319,
+        558.015,
+        417.2
+      ],
+      "content_bbox": [
+        329.589,
+        216.001,
+        550.4,
+        370.834
+      ],
+      "crop_bbox": [
+        329.589,
+        216.001,
+        550.4,
+        370.834
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  93.5% 画面  (10.00 x 7.01 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6413212 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2: The overall architecture of SyFormer. A disentanglement architecture processes both the structure map and the original input in a parallel manner, allowing meticulous semantic examination of contextual features.",
+      "caption_en": "Figure 2: The overall architecture of SyFormer. A disentanglement architecture processes both the structure map and the original input in a parallel manner, allowing meticulous semantic examination of contextual features.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        364.634,
+        558.019,
+        385.556
+      ],
+      "content_bbox": [
+        54.0,
+        36.813,
+        557.988,
+        354.556
+      ],
+      "crop_bbox": [
+        54.0,
+        36.813,
+        557.988,
+        354.556
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  84.1% 画面  (10.00 x 6.31 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5769428 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure 3: Illustration of the synergism transformer.",
+      "caption_en": "Figure 3: Illustration of the synergism transformer.",
+      "caption_zh": "",
+      "caption_bbox": [
+        72.2,
+        342.333,
+        274.309,
+        352.296
+      ],
+      "content_bbox": [
+        54.0,
+        36.813,
+        558.015,
+        334.891
+      ],
+      "crop_bbox": [
+        54.0,
+        36.813,
+        558.015,
+        334.891
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.93 in\n\n形状统计 (63 个):\n  TEXT_BOX (17)                59\n  FREEFORM (5)                 3\n  PICTURE (13)                 1\n\n矢量形状: 62\n位图图片: 1\n  43.2% 画面  (6.26 x 7.30 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure 4: Feature decoding alignment block.",
+      "caption_en": "Figure 4: Feature decoding alignment block.",
+      "caption_zh": "",
+      "caption_bbox": [
+        84.703,
+        231.651,
+        261.805,
+        241.614
+      ],
+      "content_bbox": [
+        54.0,
+        36.813,
+        415.29,
+        221.573
+      ],
+      "crop_bbox": [
+        54.0,
+        36.813,
+        415.29,
+        221.573
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  68.2% 画面  (10.00 x 5.12 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4679502 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Figure5:QualitativecomparisonsonrepresentativeexamplesfromCelebA-HQandPlaces2.(a)Corruptedinputs,(b)GT images, (c) AOT, (d) Big-Lama, (e) Coordfill, (f) Lama, (g) MADF, (h) MAT, and (i) our SyFormer.",
+      "caption_en": "Figure5:QualitativecomparisonsonrepresentativeexamplesfromCelebA-HQandPlaces2.(a)Corruptedinputs,(b)GT images, (c) AOT, (d) Big-Lama, (e) Coordfill, (f) Lama, (g) MADF, (h) MAT, and (i) our SyFormer.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        236.575,
+        558.019,
+        257.497
+      ],
+      "content_bbox": [
+        68.598,
+        36.813,
+        549.039,
+        221.741
+      ],
+      "crop_bbox": [
+        68.598,
+        36.813,
+        549.039,
+        221.741
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  51.3% 画面  (10.00 x 3.85 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3518751 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 6,
+      "caption": "Table 1: Quantitative comparison on CelebA-HQ and Places2 datasets (↑Higher is better, ↓Lower is better). The best values are highlighted by boldface and the second-best values are highlighted by underlines.",
+      "caption_en": "Table 1: Quantitative comparison on CelebA-HQ and Places2 datasets (↑Higher is better, ↓Lower is better). The best values are highlighted by boldface and the second-best values are highlighted by underlines.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        211.983,
+        558.005,
+        233.265
+      ],
+      "content_bbox": [
+        55.019,
+        54.822,
+        556.981,
+        73.242
+      ],
+      "crop_bbox": [
+        55.019,
+        54.822,
+        556.981,
+        73.242
+      ],
+      "original": "tables/original/Table1_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table 2: Ablation study on Places2. The best values are high- lightedbyboldfaceandthesecond-bestvaluesarehigh- lighted by underlines.",
+      "caption_en": "Table 2: Ablation study on Places2. The best values are high- lightedbyboldfaceandthesecond-bestvaluesarehigh- lighted by underlines.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        449.077,
+        558.015,
+        480.958
+      ],
+      "content_bbox": [
+        326.805,
+        254.519,
+        550.695,
+        438.501
+      ],
+      "crop_bbox": [
+        326.805,
+        254.519,
+        550.695,
+        438.501
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "Table 3: Ablation study on CelebA-HQ. The best values are highlighted by boldface and the second-best values are high- lighted by underlines.",
+      "caption_en": "Table 3: Ablation study on CelebA-HQ. The best values are highlighted by boldface and the second-best values are high- lighted by underlines.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        249.007,
+        292.514,
+        280.887
+      ],
+      "content_bbox": [
+        61.305,
+        54.448,
+        285.195,
+        238.431
+      ],
+      "crop_bbox": [
+        61.305,
+        54.448,
+        285.195,
+        238.431
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "SyFormer_Structure_Guided_Synergism_Transformer_for_Large_Portion_Image_AAAI_2024",
+    "title": "SyFormer: Structure-Guided Synergism Transformer for Large-Portion Image Inpainting",
+    "venue": "AAAI",
+    "venue_full": "AAAI",
+    "venue_short": "AAAI",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "c7bcb73aadd87582c150fd9128cbc4939627cb6d22b0067c96921a661efe4130",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\3QGE3KS3\\AAAI2024  SyFormer：用于大部分图像修复的结构引导协同变压器.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\9D633NS5\\AAAI2024  SyFormer：用于大部分图像修复的结构引导协同变压器.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    }
+  ]
+}

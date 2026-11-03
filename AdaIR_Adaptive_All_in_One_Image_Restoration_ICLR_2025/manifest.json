@@ -1,0 +1,666 @@
+{
+  "paper": "AdaIR_Adaptive_All_in_One_Image_Restoration_ICLR_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 28,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig. 1:Left,fromtoptobottom:degradedimages,ground-truthimages,andthe Fourierspectraofresidualimagesobtainedbysubtractingthedegradedimagesfrom theground-truthimages.TheimagesareobtainedfromLOL-v1[64],SOTS[32], Rain100L[32],GoPro[44],andBSD68[41],respectively.Right,thesub-graphillus- tratesthemeanvaluesofFourierspectraonthesquareoflengthshownonthex-axis, acrossfivetasks.Thespectraareallresizedto320 × 320forcomparisons.Asseen,dif- ferent tasks pay different attention to different frequency subbands. For example, there arelargerdiscrepanciesinlowfrequencybetweendegradedandtargetimagepairsof thelow-lightimageenhancementanddehazingdatasets.Incontrast,thefrequency differencesaregenerallyevenlydistributedforimagedenoising.",
+      "caption_en": "Fig. 1:Left,fromtoptobottom:degradedimages,ground-truthimages,andthe Fourierspectraofresidualimagesobtainedbysubtractingthedegradedimagesfrom theground-truthimages.TheimagesareobtainedfromLOL-v1[64],SOTS[32], Rain100L[32],GoPro[44],andBSD68[41],respectively.Right,thesub-graphillus- tratesthemeanvaluesofFourierspectraonthesquareoflengthshownonthex-axis, acrossfivetasks.Thespectraareallresizedto320 × 320forcomparisons.Asseen,dif- ferent tasks pay different attention to different frequency subbands. For example, there arelargerdiscrepanciesinlowfrequencybetweendegradedandtargetimagepairsof thelow-lightimageenhancementanddehazingdatasets.Incontrast,thefrequency differencesaregenerallyevenlydistributedforimagedenoising.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        156.532,
+        379.886,
+        264.128
+      ],
+      "content_bbox": [
+        37.666,
+        34.016,
+        379.652,
+        144.538
+      ],
+      "crop_bbox": [
+        37.666,
+        34.016,
+        379.652,
+        144.538
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.38 in\n\n形状统计 (186 个):\n  FREEFORM (5)                 119\n  AUTO_SHAPE (1)               48\n  PICTURE (13)                 16\n  TEXT_BOX (17)                3\n\n矢量形状: 170\n位图图片: 16\n  3.7% 画面  (1.85 x 1.17 in)\n  3.7% 画面  (1.85 x 1.17 in)\n  3.7% 画面  (1.85 x 1.17 in)\n  3.7% 画面  (1.85 x 1.17 in)\n  3.7% 画面  (1.85 x 1.17 in)\n  3.7% 画面  (1.85 x 1.17 in)\n  3.7% 画面  (1.85 x 1.17 in)\n  3.7% 画面  (1.85 x 1.17 in)\n  3.7% 画面  (1.85 x 1.17 in)\n  3.7% 画面  (1.85 x 1.17 in)\n  ... 共 16 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Fig. 2:Thet-SNEresultsofintermediatefeaturesproducedbythethree-taskall-in- onemodels.Ourmodelisbetteratlearningdiscriminativedegradationcontexts.",
+      "caption_en": "Fig. 2:Thet-SNEresultsofintermediatefeaturesproducedbythethree-taskall-in- onemodels.Ourmodelisbetteratlearningdiscriminativedegradationcontexts.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        127.887,
+        379.888,
+        147.812
+      ],
+      "content_bbox": [
+        42.803,
+        0.0,
+        413.858,
+        127.887
+      ],
+      "crop_bbox": [
+        42.803,
+        0.0,
+        413.858,
+        127.887
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  46.0% 画面  (10.00 x 3.45 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Fig. 3:(a) The overall pipeline of the proposed AdaIR framework. It is a Transformer- basedencoder-decoderarchitecture,employingnovelAdaptiveFrequencyLearning Blocks(AFLB).EachAFLBcontains(b)FrequencyMiningModule(FMiM)that extractsdifferentfrequencycomponentsfrominputfeaturesguidedbytheadaptively decoupled spectra of the degraded input image, and (c) Frequency Modulation Module (FMoM)thatexchangesthecomplementaryinformationbetweendifferentfrequency features.(d)CrossAttention(CA).(e)MaskGenerationBlock(MGB)thatyieldsa learnablefrequencyboundaryforspectradecomposition.(f)H-Lunitdelivershigh- frequencyattentionmapstoenrichLow-frequencyfeatures.(g)L-Hunitenhances high-frequencyfeaturesbycomplementingitwithlow-frequencyfeatures.FFTand IFFTdenotetheFastFourierTransformanditsinverseoperator,respectively.",
+      "caption_en": "Fig. 3:(a) The overall pipeline of the proposed AdaIR framework. It is a Transformer- basedencoder-decoderarchitecture,employingnovelAdaptiveFrequencyLearning Blocks(AFLB).EachAFLBcontains(b)FrequencyMiningModule(FMiM)that extractsdifferentfrequencycomponentsfrominputfeaturesguidedbytheadaptively decoupled spectra of the degraded input image, and (c) Frequency Modulation Module (FMoM)thatexchangesthecomplementaryinformationbetweendifferentfrequency features.(d)CrossAttention(CA).(e)MaskGenerationBlock(MGB)thatyieldsa learnablefrequencyboundaryforspectradecomposition.(f)H-Lunitdelivershigh- frequencyattentionmapstoenrichLow-frequencyfeatures.(g)L-Hunitenhances high-frequencyfeaturesbycomplementingitwithlow-frequencyfeatures.FFTand IFFTdenotetheFastFourierTransformanditsinverseoperator,respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        283.284,
+        379.913,
+        401.839
+      ],
+      "content_bbox": [
+        35.213,
+        34.227,
+        378.991,
+        271.645
+      ],
+      "crop_bbox": [
+        35.213,
+        34.227,
+        378.991,
+        271.645
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.24 in\n\n形状统计 (1708 个):\n  FREEFORM (5)                 1440\n  TEXT_BOX (17)                251\n  PICTURE (13)                 17\n\n矢量形状: 1691\n位图图片: 17\n  9.9% 画面  (3.38 x 3.60 in)\n  2.1% 画面  (1.84 x 1.38 in)\n  2.1% 画面  (1.86 x 1.40 in)\n  12.4% 画面  (4.24 x 3.60 in)\n  0.0% 画面  (0.22 x 0.21 in)\n  0.0% 画面  (0.22 x 0.21 in)\n  0.0% 画面  (0.21 x 0.21 in)\n  0.0% 画面  (0.22 x 0.21 in)\n  0.0% 画面  (0.22 x 0.21 in)\n  0.0% 画面  (0.21 x 0.21 in)\n  ... 共 17 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 8,
+      "caption": "Table1:Comparisonsunderthethree-degradationall-in-onesetting:aunifiedmodel istrainedonacombinedsetofimagesobtainedfromalldegradationtypesandlevels. OnRain100L[68]forimagederaining,AdaIRyields2.27dBgainoverPromptIR[46].",
+      "caption_en": "Table1:Comparisonsunderthethree-degradationall-in-onesetting:aunifiedmodel istrainedonacombinedsetofimagesobtainedfromalldegradationtypesandlevels. OnRain100L[68]forimagederaining,AdaIRyields2.27dBgainoverPromptIR[46].",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        34.514,
+        379.873,
+        65.398
+      ],
+      "content_bbox": [
+        36.577,
+        81.272,
+        379.862,
+        168.898
+      ],
+      "crop_bbox": [
+        36.577,
+        81.272,
+        379.862,
+        168.898
+      ],
+      "original": "tables/original/Table1_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 9,
+      "caption": "Fig. 4:ImagedehazingcomparisonsonSOTS[32]betweenall-in-onemethods.Com- paredtootheralgorithms,ourmethodismoreeffectiveinhazeremoval.",
+      "caption_en": "Fig. 4:ImagedehazingcomparisonsonSOTS[32]betweenall-in-onemethods.Com- paredtootheralgorithms,ourmethodismoreeffectiveinhazeremoval.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        233.054,
+        379.862,
+        252.979
+      ],
+      "content_bbox": [
+        36.941,
+        34.015,
+        376.918,
+        221.273
+      ],
+      "crop_bbox": [
+        36.941,
+        34.015,
+        376.918,
+        221.273
+      ],
+      "original": "figures/original/Fig4_p009.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  73.5% 画面  (10.00 x 5.51 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5038941 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 9,
+      "caption": "Fig. 5:ImagederainingresultsonRain100L[68]betweenall-in-onemethods.AdaIR yields high-fidelity rain-free images with structural fidelity and without streak artifacts.",
+      "caption_en": "Fig. 5:ImagederainingresultsonRain100L[68]betweenall-in-onemethods.AdaIR yields high-fidelity rain-free images with structural fidelity and without streak artifacts.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        461.67,
+        379.859,
+        481.595
+      ],
+      "content_bbox": [
+        36.945,
+        262.633,
+        376.914,
+        449.89
+      ],
+      "crop_bbox": [
+        36.945,
+        262.633,
+        376.914,
+        449.89
+      ],
+      "original": "figures/original/Fig5_p009.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  73.5% 画面  (10.00 x 5.51 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5038941 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 10,
+      "caption": "Fig. 6:ImagedenoisingcomparisonsonBSD68[41]betweenall-in-onemethods.The imagereproductionqualityofourAdaIRismorevisuallyfaithfultothegroundtruth.",
+      "caption_en": "Fig. 6:ImagedenoisingcomparisonsonBSD68[41]betweenall-in-onemethods.The imagereproductionqualityofourAdaIRismorevisuallyfaithfultothegroundtruth.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        228.445,
+        379.868,
+        248.37
+      ],
+      "content_bbox": [
+        35.406,
+        34.016,
+        375.381,
+        221.272
+      ],
+      "crop_bbox": [
+        35.406,
+        34.016,
+        375.381,
+        221.272
+      ],
+      "original": "figures/original/Fig6_p010.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  73.5% 画面  (10.00 x 5.51 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5038941 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 10,
+      "caption": "Table2:Dehazing results in the single-task setting on the SOTS-Outdoor [32] dataset. ComparedtoPromptIR[46],ourmethodgeneratesa0.49dBPSNRimprovement.",
+      "caption_en": "Table2:Dehazing results in the single-task setting on the SOTS-Outdoor [32] dataset. ComparedtoPromptIR[46],ourmethodgeneratesa0.49dBPSNRimprovement.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        256.47,
+        379.877,
+        276.395
+      ],
+      "content_bbox": [
+        34.974,
+        292.433,
+        378.885,
+        331.428
+      ],
+      "crop_bbox": [
+        34.974,
+        292.433,
+        378.885,
+        331.428
+      ],
+      "original": "tables/original/Table2_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 11,
+      "caption": "Table3:Deraining results in the single-task setting on the Rain100L [68] dataset. Our AdaIRobtainsasignificantperformanceboostof1.86dBPSNRoverPromptIR[46].",
+      "caption_en": "Table3:Deraining results in the single-task setting on the Rain100L [68] dataset. Our AdaIRobtainsasignificantperformanceboostof1.86dBPSNRoverPromptIR[46].",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        34.514,
+        379.861,
+        54.439
+      ],
+      "content_bbox": [
+        34.949,
+        71.893,
+        380.499,
+        89.798
+      ],
+      "crop_bbox": [
+        34.949,
+        71.893,
+        380.499,
+        89.798
+      ],
+      "original": "tables/original/Table3_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 11,
+      "caption": "Table4:Denoising results in the single-task setting on Urban100 [25] and BSD68 [41]. On Urban100 [25] for the noise level 50, AdaIR yields a 0.31 dB gain over PromptIR [46].",
+      "caption_en": "Table4:Denoising results in the single-task setting on Urban100 [25] and BSD68 [41]. On Urban100 [25] for the noise level 50, AdaIR yields a 0.31 dB gain over PromptIR [46].",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        114.911,
+        379.866,
+        134.836
+      ],
+      "content_bbox": [
+        35.268,
+        71.893,
+        380.499,
+        89.798
+      ],
+      "crop_bbox": [
+        35.268,
+        71.893,
+        380.499,
+        89.798
+      ],
+      "original": "tables/original/Table4_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 11,
+      "caption": "Table5:Comparisonsforfive-degradationall-in-onerestoration.Denoisingresults arereportedforthenoiselevelσ= 25.Thetopsuper-rowmethodsdenotethegeneral imagerestorationapproaches,andtherestarespecializedall-in-oneapproaches.On SOTS[68]fordehazing,AdaIRattainsaremarkablegainof5.29dBoverIDR[76].",
+      "caption_en": "Table5:Comparisonsforfive-degradationall-in-onerestoration.Denoisingresults arereportedforthenoiselevelσ= 25.Thetopsuper-rowmethodsdenotethegeneral imagerestorationapproaches,andtherestarespecializedall-in-oneapproaches.On SOTS[68]fordehazing,AdaIRattainsaremarkablegainof5.29dBoverIDR[76].",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        247.059,
+        379.877,
+        288.902
+      ],
+      "content_bbox": [
+        35.268,
+        171.815,
+        380.499,
+        242.691
+      ],
+      "crop_bbox": [
+        35.268,
+        171.815,
+        380.499,
+        242.691
+      ],
+      "original": "tables/original/Table5_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 11,
+      "caption": "Table 6 reports denoising results on three different datasets with various noise levels. It can be seen that our methodperformsfavorablywellcomparedtotheothercompetingapproaches.",
+      "caption_en": "Table 6 reports denoising results on three different datasets with various noise levels. It can be seen that our methodperformsfavorablywellcomparedtotheothercompetingapproaches.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        478.349,
+        379.815,
+        512.235
+      ],
+      "content_bbox": [
+        35.268,
+        325.701,
+        380.499,
+        427.555
+      ],
+      "crop_bbox": [
+        35.268,
+        325.701,
+        380.499,
+        427.555
+      ],
+      "original": "tables/original/Table6_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 12,
+      "caption": "Table7:Ablationstudiesfortheproposedcomponents.Fixedusesafixedsquare maskwithsidesof10.FLOPsaremeasuredonthepatchsizeof256 × 256 × 3.",
+      "caption_en": "Table7:Ablationstudiesfortheproposedcomponents.Fixedusesafixedsquare maskwithsidesof10.FLOPsaremeasuredonthepatchsizeof256 × 256 × 3.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.016,
+        176.11,
+        379.843,
+        196.2
+      ],
+      "content_bbox": [
+        35.092,
+        92.395,
+        378.766,
+        155.15
+      ],
+      "crop_bbox": [
+        35.092,
+        92.395,
+        378.766,
+        155.15
+      ],
+      "original": "tables/original/Table7_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table10",
+      "page": 13,
+      "caption": "Table10:Resultsontheunseendesnow- ingtaskwiththeCSD[11]dataset.",
+      "caption_en": "Table10:Resultsontheunseendesnow- ingtaskwiththeCSD[11]dataset.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.788,
+        98.19,
+        204.249,
+        118.115
+      ],
+      "content_bbox": [
+        34.016,
+        72.489,
+        213.95,
+        90.543
+      ],
+      "crop_bbox": [
+        34.016,
+        72.489,
+        213.95,
+        90.543
+      ],
+      "original": "tables/original/Table10_p013.png",
+      "vector": [],
+      "latex": "tables/latex/Table10.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table11",
+      "page": 13,
+      "caption": "Table11:Results on mixed degradations, Rain100LwiththeGaussiannoiseσ= 50.",
+      "caption_en": "Table11:Results on mixed degradations, Rain100LwiththeGaussiannoiseσ= 50.",
+      "caption_zh": "",
+      "caption_bbox": [
+        209.613,
+        98.19,
+        379.067,
+        118.281
+      ],
+      "content_bbox": [
+        230.636,
+        72.489,
+        363.054,
+        90.543
+      ],
+      "crop_bbox": [
+        230.636,
+        72.489,
+        363.054,
+        90.543
+      ],
+      "original": "tables/original/Table11_p013.png",
+      "vector": [],
+      "latex": "tables/latex/Table11.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 13,
+      "caption": "Table8:Spectradecompositionmethods.",
+      "caption_en": "Table8:Spectradecompositionmethods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        34.677,
+        34.514,
+        206.285,
+        43.655
+      ],
+      "content_bbox": [
+        34.016,
+        59.655,
+        213.95,
+        90.543
+      ],
+      "crop_bbox": [
+        34.016,
+        59.655,
+        213.95,
+        90.543
+      ],
+      "original": "tables/original/Table8_p013.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table9",
+      "page": 13,
+      "caption": "Table9:Degradationsources.",
+      "caption_en": "Table9:Degradationsources.",
+      "caption_zh": "",
+      "caption_bbox": [
+        234.522,
+        34.514,
+        359.173,
+        43.655
+      ],
+      "content_bbox": [
+        230.636,
+        59.655,
+        363.054,
+        90.543
+      ],
+      "crop_bbox": [
+        230.636,
+        59.655,
+        363.054,
+        90.543
+      ],
+      "original": "tables/original/Table9_p013.png",
+      "vector": [],
+      "latex": "tables/latex/Table9.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "AdaIR_Adaptive_All_in_One_Image_Restoration_ICLR_2025",
+    "title": "AdaIR: Adaptive All-in-One Image Restoration via Frequency Mining and Modulation",
+    "venue": "ICLR",
+    "venue_full": "ICLR",
+    "venue_short": "ICLR",
+    "venue_type": "会议",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "a586f983c0e6d8e935a56a084dd119624ded666cb36be01f6823c3ae4160ff59",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\ICLR 2025-2025-通用图像恢复 频域调制-AdaIR Adaptive All-in-One Image Restoration via Frequency Mining and Modulation.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\7TMSYRSS\\Cui 等 - 2024 - AdaIR Adaptive All-in-One Image Restoration via Frequency Mining and Modulation.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 B类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 B类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "paper": "Multi_resolution_enhancement_for_Local_reference_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 27,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Fig. 1 | Efficient INRs preserve HF and physics-related details. Comparison of INRs of raw volumetric data (36 × 550 × 550, float32) collected from a high-resolution wide-angle coherent X-ray scattering experiment from the intermetallic alloy Cu3Au (ref. 19). Each trained network serves as a compressed surrogate for the original volume: instead of storing the raw voxel array, the information is encoded in the network weights. a, Representative slice decoded by querying the trained INRs at the corresponding spatial coordinates and rendering the network outputs as pixel intensities. In all cases, the network size is smaller than the raw data representation, with parameter counts labelled beneath each panel. A unique challenge for coherent X-ray scattering datasets such as this is that fine-structure speckle constitutes the signal of interest, whereas in many other imaging modalities, this is treated as noise. Insets: zoomed-in regions of high-speckle intensity, highlighting the superior ability of our method to capture fine details and textures. Competing INRs either over- smooth the data (frequency encoding16, wavelet activation33, hash encoding13,",
+      "caption_en": "Fig. 1 | Efficient INRs preserve HF and physics-related details. Comparison of INRs of raw volumetric data (36 × 550 × 550, float32) collected from a high-resolution wide-angle coherent X-ray scattering experiment from the intermetallic alloy Cu3Au (ref. 19). Each trained network serves as a compressed surrogate for the original volume: instead of storing the raw voxel array, the information is encoded in the network weights. a, Representative slice decoded by querying the trained INRs at the corresponding spatial coordinates and rendering the network outputs as pixel intensities. In all cases, the network size is smaller than the raw data representation, with parameter counts labelled beneath each panel. A unique challenge for coherent X-ray scattering datasets such as this is that fine-structure speckle constitutes the signal of interest, whereas in many other imaging modalities, this is treated as noise. Insets: zoomed-in regions of high-speckle intensity, highlighting the superior ability of our method to capture fine details and textures. Competing INRs either over- smooth the data (frequency encoding16, wavelet activation33, hash encoding13,",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.112,
+        548.081,
+        290.066,
+        696.864
+      ],
+      "content_bbox": [
+        0.0,
+        56.082,
+        561.833,
+        542.794
+      ],
+      "crop_bbox": [
+        0.0,
+        56.082,
+        561.833,
+        542.794
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.57 in\n\n形状统计 (257 个):\n  FREEFORM (5)                 210\n  TEXT_BOX (17)                45\n  PICTURE (13)                 2\n\n矢量形状: 255\n位图图片: 2\n  23.1% 画面  (12.24 x 2.91 in)\n  23.1% 画面  (12.24 x 2.91 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Fig. 2 | Schematic of the WIEN-INR architecture.a, We design a hierarchical encoding process. Encoding begins with the input of p-dimensional coordinates (for example, detector coordinates x = [i, j]), which are normalized and passed to separate MLPs, each trained to predict the wavelet coefficients (coarse to fine) of the signal at different resolution scales. b, Within each MLP, we introduce a novel enhancement module that refines the output of the previous coarser-scale MLP by (1) extracting a local neighbourhood of size (2nr + 1) per input dimension, centred at the input coordinate x in coefficients space; (2) inputting the extracted local neighbourhood to two INRs—one uses coordinates upsampled from the neighbourhood to query the coarser-scale MLP to provide an approximation of the higher resolution (this network is fixed), and the other, a learnable INR that acts as local refinement; (3) and then applying the dot product to the outputs of these two networks to match the target finer-scale wavelet coefficients. This operation is rasterized across all coordinates of interest, refining the coarser outputs into finer-scale outputs. c, After training, the decoding process allows users to query specific ROIs at any desired resolution using the outputs of the separate networks. To map the outputs to the true signal domain, the localized IDWT is applied to the output coefficients. Beyond the improved rate distortion and accuracy, the hierarchical encoding and decoding process also supports multiscale analysis (from coarse to fine details), revealing phenomena at different frequency bands. Beyond scale, the INR-based framework supports decoding at an arbitrary resolution: without interpolation, one can query increasingly fine resolutions to obtain a truly continuous representation.",
+      "caption_en": "Fig. 2 | Schematic of the WIEN-INR architecture.a, We design a hierarchical encoding process. Encoding begins with the input of p-dimensional coordinates (for example, detector coordinates x = [i, j]), which are normalized and passed to separate MLPs, each trained to predict the wavelet coefficients (coarse to fine) of the signal at different resolution scales. b, Within each MLP, we introduce a novel enhancement module that refines the output of the previous coarser-scale MLP by (1) extracting a local neighbourhood of size (2nr + 1) per input dimension, centred at the input coordinate x in coefficients space; (2) inputting the extracted local neighbourhood to two INRs—one uses coordinates upsampled from the neighbourhood to query the coarser-scale MLP to provide an approximation of the higher resolution (this network is fixed), and the other, a learnable INR that acts as local refinement; (3) and then applying the dot product to the outputs of these two networks to match the target finer-scale wavelet coefficients. This operation is rasterized across all coordinates of interest, refining the coarser outputs into finer-scale outputs. c, After training, the decoding process allows users to query specific ROIs at any desired resolution using the outputs of the separate networks. To map the outputs to the true signal domain, the localized IDWT is applied to the output coefficients. Beyond the improved rate distortion and accuracy, the hierarchical encoding and decoding process also supports multiscale analysis (from coarse to fine details), revealing phenomena at different frequency bands. Beyond scale, the INR-based framework supports decoding at an arbitrary resolution: without interpolation, one can query increasingly fine resolutions to obtain a truly continuous representation.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.678,
+        283.672,
+        556.563,
+        402.437
+      ],
+      "content_bbox": [
+        82.993,
+        48.07,
+        514.393,
+        275.621
+      ],
+      "crop_bbox": [
+        82.993,
+        48.07,
+        514.393,
+        275.621
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.08 in\n\n形状统计 (246 个):\n  FREEFORM (5)                 191\n  TEXT_BOX (17)                41\n  PICTURE (13)                 12\n  AUTO_SHAPE (1)               2\n\n矢量形状: 234\n位图图片: 12\n  4.8% 画面  (2.13 x 2.13 in)\n  2.6% 画面  (1.47 x 1.66 in)\n  2.0% 画面  (1.39 x 1.39 in)\n  0.5% 画面  (0.68 x 0.69 in)\n  0.5% 画面  (0.68 x 0.69 in)\n  5.7% 画面  (2.28 x 2.36 in)\n  1.4% 画面  (2.50 x 0.53 in)\n  2.8% 画面  (2.34 x 1.11 in)\n  1.2% 画面  (1.15 x 1.00 in)\n  1.3% 画面  (1.13 x 1.11 in)\n  ... 共 12 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Fig. 3 | Improved rate distortion.a, An important metric to quantify whether representations preserve the full spectrum of information is how well the decoded wavelet coefficients match those of the original signal. The wavelet transform is known to be superior to Fourier analysis in transient or localized phenomena, as different scales capture more complete information: coarser bands represent broad, low-frequency trends, whereas finer bands capture localized phenomena, such as sharp transitions and HF details25. We quantify fidelity across scales by comparing the ℓ2 norm of the wavelet coefficients between the decoded and original signals. Results are shown across four scales and the approximation coefficients of the reconstructed DWT (Haar), sub-bands for four benchmark scientific datasets. Although all baselines remain close to the ground truth at coarse levels, they deviate for finer scales, WIEN-INR closely follows the true DWT distribution (black line), demonstrating robust recovery of fine-scale content and full-spectrum fidelity. b, Rate-distortion comparison across four scientific datasets, showing compression rate versus PSNR, with stronger methods achieving higher accuracy at smaller compression rates. WIEN- INR consistently attains a higher PSNR than competing INR methods at the same compression rates (that is, with fewer network parameters). Performance gains depend on the data characteristics, with the greatest improvements on datasets containing dense, fine-scale structure (for example, the X-ray measurements), where the adaptive time–frequency allocation and finest band enhancement of WIEN-INR is the most effective. c, Another important aspect of the utility is encoding efficiency, that is, the time to achieve a given accuracy level. We plot the encoding latency versus the accuracy achieved (PSNR) for the same networks used in a and b, trained for the same number of global epochs. WAVELET-INR achieves faster per-epoch encoding due to simpler architecture, but reaches a lower maximum PSNR. MINER scales up nicely to larger models due to its multiscale, multipatch design and block selection/dropping35. Please note that MINER was not implemented on the neutron scattering data due to limitations posed by the 4D input dimension.",
+      "caption_en": "Fig. 3 | Improved rate distortion.a, An important metric to quantify whether representations preserve the full spectrum of information is how well the decoded wavelet coefficients match those of the original signal. The wavelet transform is known to be superior to Fourier analysis in transient or localized phenomena, as different scales capture more complete information: coarser bands represent broad, low-frequency trends, whereas finer bands capture localized phenomena, such as sharp transitions and HF details25. We quantify fidelity across scales by comparing the ℓ2 norm of the wavelet coefficients between the decoded and original signals. Results are shown across four scales and the approximation coefficients of the reconstructed DWT (Haar), sub-bands for four benchmark scientific datasets. Although all baselines remain close to the ground truth at coarse levels, they deviate for finer scales, WIEN-INR closely follows the true DWT distribution (black line), demonstrating robust recovery of fine-scale content and full-spectrum fidelity. b, Rate-distortion comparison across four scientific datasets, showing compression rate versus PSNR, with stronger methods achieving higher accuracy at smaller compression rates. WIEN- INR consistently attains a higher PSNR than competing INR methods at the same compression rates (that is, with fewer network parameters). Performance gains depend on the data characteristics, with the greatest improvements on datasets containing dense, fine-scale structure (for example, the X-ray measurements), where the adaptive time–frequency allocation and finest band enhancement of WIEN-INR is the most effective. c, Another important aspect of the utility is encoding efficiency, that is, the time to achieve a given accuracy level. We plot the encoding latency versus the accuracy achieved (PSNR) for the same networks used in a and b, trained for the same number of global epochs. WAVELET-INR achieves faster per-epoch encoding due to simpler architecture, but reaches a lower maximum PSNR. MINER scales up nicely to larger models due to its multiscale, multipatch design and block selection/dropping35. Please note that MINER was not implemented on the neutron scattering data due to limitations posed by the 4D input dimension.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        360.631,
+        561.167,
+        509.402
+      ],
+      "content_bbox": [
+        65.09,
+        47.342,
+        560.008,
+        352.786
+      ],
+      "crop_bbox": [
+        65.09,
+        47.342,
+        560.008,
+        352.786
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.27 in\n\n形状统计 (2143 个):\n  FREEFORM (5)                 2000\n  TEXT_BOX (17)                143\n\n矢量形状: 2143\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Fig. 4 | Robustness of WIEN-INR across datasets measured at different physics experiments.a–c, Reconstruction results are shown for three distinct datasets collected at XFEL (a), neutron (b) and synchrotron (c) facilities20,21, corresponding to the ultrafast scattering, neutron scattering and coherent X-ray diffraction columns from Fig. 3. Each volume is encoded and decoded to visualize if the network can focus training on physically important features. The representative two-dimensional visualizations of the decoded three- dimensional/4D volumes with zoomed-in views are shown on the right. The PSNR and SSIM metrics of the full volume are reported in the inset, whereas the zoomed-in views also display local loss metrics. Across modalities, these comparisons highlight that SIREN, FINER and MINER14,34,35—the strongest baselines—exhibit lower PSNR and higher local relative ℓ2 error, with reconstructions that either lose speckle contrast (over-smoothing) or create unphysical features (patches or unphysical textures). In all cases, WIEN-INR remains robust both visually and quantitatively.",
+      "caption_en": "Fig. 4 | Robustness of WIEN-INR across datasets measured at different physics experiments.a–c, Reconstruction results are shown for three distinct datasets collected at XFEL (a), neutron (b) and synchrotron (c) facilities20,21, corresponding to the ultrafast scattering, neutron scattering and coherent X-ray diffraction columns from Fig. 3. Each volume is encoded and decoded to visualize if the network can focus training on physically important features. The representative two-dimensional visualizations of the decoded three- dimensional/4D volumes with zoomed-in views are shown on the right. The PSNR and SSIM metrics of the full volume are reported in the inset, whereas the zoomed-in views also display local loss metrics. Across modalities, these comparisons highlight that SIREN, FINER and MINER14,34,35—the strongest baselines—exhibit lower PSNR and higher local relative ℓ2 error, with reconstructions that either lose speckle contrast (over-smoothing) or create unphysical features (patches or unphysical textures). In all cases, WIEN-INR remains robust both visually and quantitatively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.678,
+        663.304,
+        546.891,
+        742.069
+      ],
+      "content_bbox": [
+        56.725,
+        47.966,
+        545.618,
+        659.717
+      ],
+      "crop_bbox": [
+        56.725,
+        47.966,
+        545.618,
+        659.717
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 16.66 in\n\n形状统计 (138 个):\n  FREEFORM (5)                 72\n  TEXT_BOX (17)                60\n  PICTURE (13)                 6\n\n矢量形状: 132\n位图图片: 6\n  20.0% 画面  (8.90 x 4.99 in)\n  5.6% 画面  (3.59 x 3.46 in)\n  19.6% 画面  (8.90 x 4.88 in)\n  5.5% 画面  (3.83 x 3.19 in)\n  19.6% 画面  (8.90 x 4.88 in)\n  5.9% 画面  (3.72 x 3.50 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 7,
+      "caption": "Fig. 5 | Reconstruction quality using the decoded signal. For tasks in which information is revealed through subsequent reconstruction, it is crucial that the decoded signal minimally distorts reconstruction. This task is highly non-trivial because during encoding/training, losses are typically minimized only in the measurement space, which does not directly translate into reconstruction fidelity. a, A use case of reconstructing an ESRF logo from INR-encoded and INR-decoded coherent diffraction data22, using a combination of error reduction and hybrid input–output algorithm. We plot the magnitude of the reconstruction space: the top row shows the reconstruction using the original measurements without neural compression; the middle row shows reconstruction using the best-performing baseline network (SIREN, 0.14 MB); and the bottom row shows reconstruction using WIEN-INR (0.16 MB). Visual degradation is evident in the SIREN case, whereas WIEN-INR retains a higher edge contrast. b, Reconstruction of a ptychography measurement 23 (625 MB) at a higher compression rate using SIREN (13.03 MB) and WIEN-INR (14.72 MB). Both networks encode and decode the full volume of diffraction measurements, followed by reconstruction through joint optimization of the probe and object using the alternating projection algorithm. A representative slice of the decoded diffraction (plotted in the log scale) is shown in the left column, with the reconstruction shown in the second column. In the central region of the reconstructed object, SIREN exhibits clear smearing, whereas WIEN-INR preserves sharp details.",
+      "caption_en": "Fig. 5 | Reconstruction quality using the decoded signal. For tasks in which information is revealed through subsequent reconstruction, it is crucial that the decoded signal minimally distorts reconstruction. This task is highly non-trivial because during encoding/training, losses are typically minimized only in the measurement space, which does not directly translate into reconstruction fidelity. a, A use case of reconstructing an ESRF logo from INR-encoded and INR-decoded coherent diffraction data22, using a combination of error reduction and hybrid input–output algorithm. We plot the magnitude of the reconstruction space: the top row shows the reconstruction using the original measurements without neural compression; the middle row shows reconstruction using the best-performing baseline network (SIREN, 0.14 MB); and the bottom row shows reconstruction using WIEN-INR (0.16 MB). Visual degradation is evident in the SIREN case, whereas WIEN-INR retains a higher edge contrast. b, Reconstruction of a ptychography measurement 23 (625 MB) at a higher compression rate using SIREN (13.03 MB) and WIEN-INR (14.72 MB). Both networks encode and decode the full volume of diffraction measurements, followed by reconstruction through joint optimization of the probe and object using the alternating projection algorithm. A representative slice of the decoded diffraction (plotted in the log scale) is shown in the left column, with the reconstruction shown in the second column. In the central region of the reconstructed object, SIREN exhibits clear smearing, whereas WIEN-INR preserves sharp details.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.678,
+        367.305,
+        562.414,
+        476.067
+      ],
+      "content_bbox": [
+        117.129,
+        53.975,
+        495.371,
+        362.099
+      ],
+      "crop_bbox": [
+        117.129,
+        53.975,
+        495.371,
+        362.099
+      ],
+      "original": "figures/original/Fig5_p007.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  92.0% 画面  (9.20 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8414110 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 7,
+      "caption": "Table 1 | Encoding latency",
+      "caption_en": "Table 1 | Encoding latency",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        495.583,
+        147.838,
+        508.003
+      ],
+      "content_bbox": [
+        39.685,
+        515.296,
+        561.155,
+        697.651
+      ],
+      "crop_bbox": [
+        39.685,
+        515.296,
+        561.155,
+        697.651
+      ],
+      "original": "tables/original/Table1_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 8,
+      "caption": "Table 2 | Decoding latency",
+      "caption_en": "Table 2 | Decoding latency",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        46.17,
+        150.223,
+        58.59
+      ],
+      "content_bbox": [
+        39.685,
+        65.883,
+        294.803,
+        142.537
+      ],
+      "crop_bbox": [
+        39.685,
+        65.883,
+        294.803,
+        142.537
+      ],
+      "original": "tables/original/Table2_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Multi_resolution_enhancement_for_Local_reference_2026",
+    "title": "Multi-resolution enhancement for full-spectrum neural representations",
+    "venue": "Nature Machine Intelligence",
+    "venue_full": "Nature Machine Intelligence",
+    "venue_short": "Nature Machine Intelligence",
+    "venue_type": "期刊",
+    "year": 2026,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://doi.org/10.1038/s42256-026-01287-9",
+    "pdf_url": "https://doi.org/10.1038/s42256-026-01287-9",
+    "access": "local_pdf",
+    "source_sha256": "d4332865062edd48c07438f033971a7871693b4314258dfd1eb3f7c8741f001c",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\XLIXYK4B\\Ni 等 - 2026 - Multi-resolution enhancement for full-spectrum neural representations.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 1区 · Top（2025）",
+    "cas_display": "中科院 1区 · Top（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    }
+  ]
+}

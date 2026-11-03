@@ -29,19 +29,7 @@
         630.436
       ],
       "original": "figures/original/Fig1_p000.png",
-      "vector": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "2 extra bytes in post.stringData array\n2 extra bytes in post.stringData array\n2 extra bytes in post.stringData array\n幻灯片: 13.33 x 7.55 in\n\n形状统计 (215 个):\n  TEXT_BOX (17)                159\n  FREEFORM (5)                 52\n  PICTURE (13)                 4\n\n矢量形状: 211\n位图图片: 4\n  4.3% 画面  (2.32 x 1.86 in)\n  4.9% 画面  (2.03 x 2.41 in)\n  3.0% 画面  (1.92 x 1.55 in)\n  4.4% 画面  (1.94 x 2.29 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 215 draws 49 fs 0 polys 13 rings 0 text 159 images 1 inline 3 canvas 1948 1103\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 7.55 in\n\n形状统计 (215 个):\n  TEXT_BOX (17)                159\n  FREEFORM (5)                 52\n  PICTURE (13)                 4\n\n矢量形状: 211\n位图图片: 4\n  4.3% 画面  (2.32 x 1.86 in)\n  4.9% 画面  (2.03 x 2.41 in)\n  3.0% 画面  (1.92 x 1.55 in)\n  4.4% 画面  (1.94 x 2.29 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -69,19 +57,7 @@
         205.809
       ],
       "original": "figures/original/Fig2_p005.png",
-      "vector": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig2\\Fig2.svg (1584x713 -> 1584x713 px, scale 1.0, 1641 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  60.0% 画面  (10.00 x 4.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4115954 px\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -109,19 +85,7 @@
         385.875
       ],
       "original": "figures/original/Fig3_p005.png",
-      "vector": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig3\\Fig3.svg (1426x443 -> 1426x443 px, scale 1.0, 419 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  41.4% 画面  (10.00 x 3.11 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -149,19 +113,7 @@
         264.748
       ],
       "original": "figures/original/Fig4_p006.png",
-      "vector": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig4\\Fig4.svg (1584x948 -> 1584x948 px, scale 1.0, 2400 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  79.8% 画面  (10.00 x 5.98 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5472545 px\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -189,19 +141,37 @@
         200.556
       ],
       "original": "figures/original/Fig5_p007.png",
-      "vector": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "Figure 3 that it can be exactly represented by a [2, 2, 1] KAN. (4) A high-dimensional exam- plef(x1, · · ·, x100)=exp(1",
+      "caption_en": "Figure 3 that it can be exactly represented by a [2, 2, 1] KAN. (4) A high-dimensional exam- plef(x1, · · ·, x100)=exp(1",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        313.567,
+        504.003,
+        337.362
       ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 5.88 in\n\n形状统计 (1238 个):\n  FREEFORM (5)                 993\n  TEXT_BOX (17)                245\n\n矢量形状: 1238\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 1238 draws 813 fs 665 polys 235 rings 0 text 245 images 0 inline 0 canvas 1948 859\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig5\\Fig5.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig5\\Fig5.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 5.88 in\n\n形状统计 (1238 个):\n  FREEFORM (5)                 993\n  TEXT_BOX (17)                245\n\n矢量形状: 1238\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "content_bbox": [
+        108.0,
+        115.771,
+        503.992,
+        200.556
+      ],
+      "crop_bbox": [
+        108.0,
+        115.771,
+        503.992,
+        200.556
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
     },
     {
       "kind": "figure",
@@ -229,19 +199,7 @@
         274.168
       ],
       "original": "figures/original/Fig6_p008.png",
-      "vector": [
-        "figures/vector/Fig6/Fig6.svg",
-        "figures/vector/Fig6/Fig6.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 8.34 in\n\n形状统计 (1869 个):\n  FREEFORM (5)                 1777\n  TEXT_BOX (17)                92\n\n矢量形状: 1869\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 1869 draws 1175 fs 1024 polys 630 rings 0 text 92 images 0 inline 0 canvas 1948 1218\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig6\\Fig6.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig6\\Fig6.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 8.34 in\n\n形状统计 (1869 个):\n  FREEFORM (5)                 1777\n  TEXT_BOX (17)                92\n\n矢量形状: 1869\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -269,19 +227,8 @@
         492.74
       ],
       "original": "figures/original/Fig7_p008.png",
-      "vector": [
-        "figures/vector/Fig7/Fig7.svg",
-        "figures/vector/Fig7/Fig7.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig7\\Fig7.svg (1584x584 -> 1584x584 px, scale 1.0, 12810 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  49.2% 画面  (10.00 x 3.69 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -309,19 +256,7 @@
         364.648
       ],
       "original": "figures/original/Fig8_p009.png",
-      "vector": [
-        "figures/vector/Fig8/Fig8.svg",
-        "figures/vector/Fig8/Fig8.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 8.75 in\n\n形状统计 (933 个):\n  FREEFORM (5)                 710\n  TEXT_BOX (17)                223\n\n矢量形状: 933\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 933 draws 614 fs 406 polys 125 rings 0 text 223 images 0 inline 0 canvas 1948 1279\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig8\\Fig8.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig8\\Fig8.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 8.75 in\n\n形状统计 (933 个):\n  FREEFORM (5)                 710\n  TEXT_BOX (17)                223\n\n矢量形状: 933\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "table",
@@ -354,6 +289,36 @@
       "latex_mode": "extracted_tabular"
     },
     {
+      "kind": "table",
+      "label": "Table8",
+      "page": 9,
+      "caption": "Figure 8 is that KANs can achieve the theoretical scaling law in this PDE example (beyond function fitting), but this result should not be interpreted as an immediate real-world improvement.Also,both the LBFGS optimizer and the grid extension technique are required to achieve the theoretical scaling law, but in practice, people use the Adam optimizer and do not need grid extension for MLPs, which we explore in Appendix B.",
+      "caption_en": "Figure 8 is that KANs can achieve the theoretical scaling law in this PDE example (beyond function fitting), but this result should not be interpreted as an immediate real-world improvement.Also,both the LBFGS optimizer and the grid extension technique are required to achieve the theoretical scaling law, but in practice, people use the Adam optimizer and do not need grid extension for MLPs, which we explore in Appendix B.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        478.896,
+        504.003,
+        532.695
+      ],
+      "content_bbox": [
+        108.0,
+        248.581,
+        526.279,
+        364.648
+      ],
+      "crop_bbox": [
+        108.0,
+        248.581,
+        526.279,
+        364.648
+      ],
+      "original": "tables/original/Table8_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
       "kind": "figure",
       "label": "Fig9",
       "page": 17,
@@ -379,19 +344,8 @@
         533.68
       ],
       "original": "figures/original/Fig9_p017.png",
-      "vector": [
-        "figures/vector/Fig9/Fig9.svg",
-        "figures/vector/Fig9/Fig9.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig9\\Fig9.svg (1585x2024 -> 1585x2024 px, scale 1.0, 36911 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  58.7% 画面  (5.87 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 5370518 x 6858000 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -419,19 +373,8 @@
         690.22
       ],
       "original": "figures/original/Fig10_p018.png",
-      "vector": [
-        "figures/vector/Fig10/Fig10.svg",
-        "figures/vector/Fig10/Fig10.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig10\\Fig10.svg (1584x561 -> 1584x561 px, scale 1.0, 8316 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  47.2% 画面  (10.00 x 3.54 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -459,19 +402,7 @@
         332.349
       ],
       "original": "figures/original/Fig11_p019.png",
-      "vector": [
-        "figures/vector/Fig11/Fig11.svg",
-        "figures/vector/Fig11/Fig11.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig11\\Fig11.svg (1584x277 -> 1584x277 px, scale 1.0, 1073 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  23.3% 画面  (10.00 x 1.75 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "table",
@@ -529,49 +460,8 @@
         631.64
       ],
       "original": "figures/original/Fig12_p020.png",
-      "vector": [
-        "figures/vector/Fig12/Fig12.svg",
-        "figures/vector/Fig12/Fig12.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig12\\Fig12.svg (1584x1324 -> 1584x1324 px, scale 1.0, 8060 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  89.7% 画面  (8.97 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8204737 x 6858000 px\n"
-        }
-      ]
-    },
-    {
-      "kind": "table",
-      "label": "Table3",
-      "page": 20,
-      "caption": "Table3: Comparingvariousmodelsonthe1DAllen-Cahnequation. AllMLPsincluding MLP_RFFs have the shape [2,128,128,128,1].",
-      "caption_en": "Table3: Comparingvariousmodelsonthe1DAllen-Cahnequation. AllMLPsincluding MLP_RFFs have the shape [2,128,128,128,1].",
-      "caption_zh": "",
-      "caption_bbox": [
-        108.0,
-        163.193,
-        504.003,
-        184.115
-      ],
-      "content_bbox": [
-        169.964,
-        82.061,
-        442.035,
-        152.836
-      ],
-      "crop_bbox": [
-        169.964,
-        82.061,
-        442.035,
-        152.836
-      ],
-      "original": "tables/original/Table3_p020.png",
       "vector": [],
-      "latex": "tables/latex/Table3.tex",
-      "latex_mode": "extracted_tabular"
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "table",
@@ -659,19 +549,8 @@
         548.474
       ],
       "original": "figures/original/Fig13_p023.png",
-      "vector": [
-        "figures/vector/Fig13/Fig13.svg",
-        "figures/vector/Fig13/Fig13.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig13\\Fig13.svg (1585x2083 -> 1585x2083 px, scale 1.0, 9592 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  57.1% 画面  (5.71 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 5218401 x 6858000 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "table",
@@ -759,19 +638,7 @@
         218.268
       ],
       "original": "figures/original/Fig14_p025.png",
-      "vector": [
-        "figures/vector/Fig14/Fig14.svg",
-        "figures/vector/Fig14/Fig14.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig14\\Fig14.svg (1584x763 -> 1584x763 px, scale 1.0, 1059 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  64.2% 画面  (10.00 x 4.82 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4404590 px\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -799,19 +666,7 @@
         436.064
       ],
       "original": "figures/original/Fig15_p025.png",
-      "vector": [
-        "figures/vector/Fig15/Fig15.svg",
-        "figures/vector/Fig15/Fig15.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig15\\Fig15.svg (1584x493 -> 1584x493 px, scale 1.0, 982 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  41.5% 画面  (10.00 x 3.11 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -839,19 +694,7 @@
         695.824
       ],
       "original": "figures/original/Fig16_p025.png",
-      "vector": [
-        "figures/vector/Fig16/Fig16.svg",
-        "figures/vector/Fig16/Fig16.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig16\\Fig16.svg (1584x480 -> 1584x480 px, scale 1.0, 595 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  40.4% 画面  (10.00 x 3.03 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -879,19 +722,7 @@
         329.161
       ],
       "original": "figures/original/Fig17_p026.png",
-      "vector": [
-        "figures/vector/Fig17/Fig17.svg",
-        "figures/vector/Fig17/Fig17.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig17\\Fig17.svg (1584x522 -> 1584x522 px, scale 1.0, 896 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  43.9% 画面  (10.00 x 3.30 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -919,49 +750,37 @@
         563.934
       ],
       "original": "figures/original/Fig18_p026.png",
-      "vector": [
-        "figures/vector/Fig18/Fig18.svg",
-        "figures/vector/Fig18/Fig18.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig18\\Fig18.svg (1426x701 -> 1426x701 px, scale 1.0, 2027 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  65.5% 画面  (10.00 x 4.92 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4495051 px\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "table",
-      "label": "Table8",
-      "page": 28,
-      "caption": "Table8:Scalingexponentsfromdifferenttheoriesℓ∝N−α.ℓ:testRMSEloss,N:numberof modelparameters,d:inputintrinsicdimension,k:orderofpiecewisepolynomial,m:derivative order as in function class Wm.",
-      "caption_en": "Table8:Scalingexponentsfromdifferenttheoriesℓ∝N−α.ℓ:testRMSEloss,N:numberof modelparameters,d:inputintrinsicdimension,k:orderofpiecewisepolynomial,m:derivative order as in function class Wm.",
+      "label": "Table18",
+      "page": 27,
+      "caption": "Figure 18 for an illustration).In principle wband wsare redundant since it can be absorbed into b(x) and spline(x).However, we still include these factors (which are by default trainable) to better control the overall magnitude of the activation function.",
+      "caption_en": "Figure 18 for an illustration).In principle wband wsare redundant since it can be absorbed into b(x) and spline(x).However, we still include these factors (which are by default trainable) to better control the overall magnitude of the activation function.",
       "caption_zh": "",
       "caption_bbox": [
-        108.0,
-        154.452,
+        124.598,
+        137.613,
         504.004,
-        188.544
+        169.724
       ],
       "content_bbox": [
-        112.193,
-        82.061,
-        497.316,
-        138.848
+        124.598,
+        84.038,
+        504.0,
+        128.612
       ],
       "crop_bbox": [
-        112.193,
-        82.061,
-        497.316,
-        138.848
+        124.598,
+        84.038,
+        504.0,
+        128.612
       ],
-      "original": "tables/original/Table8_p028.png",
+      "original": "tables/original/Table18_p027.png",
       "vector": [],
-      "latex": "tables/latex/Table8.tex",
-      "latex_mode": "extracted_tabular"
+      "latex": "tables/latex/Table18.tex",
+      "latex_mode": "image_wrapper"
     },
     {
       "kind": "figure",
@@ -989,19 +808,7 @@
         430.958
       ],
       "original": "figures/original/Fig19_p029.png",
-      "vector": [
-        "figures/vector/Fig19/Fig19.svg",
-        "figures/vector/Fig19/Fig19.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 7.65 in\n\n形状统计 (430 个):\n  FREEFORM (5)                 301\n  TEXT_BOX (17)                129\n\n矢量形状: 430\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 430 draws 256 fs 191 polys 71 rings 0 text 129 images 0 inline 0 canvas 1948 1118\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig19\\Fig19.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig19\\Fig19.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 7.65 in\n\n形状统计 (430 个):\n  FREEFORM (5)                 301\n  TEXT_BOX (17)                129\n\n矢量形状: 430\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -1029,19 +836,7 @@
         275.311
       ],
       "original": "figures/original/Fig20_p032.png",
-      "vector": [
-        "figures/vector/Fig20/Fig20.svg",
-        "figures/vector/Fig20/Fig20.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig20\\Fig20.svg (1584x991 -> 1584x991 px, scale 1.0, 1663 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  83.4% 画面  (10.00 x 6.26 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5720772 px\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "table",
@@ -1129,19 +924,7 @@
         252.722
       ],
       "original": "figures/original/Fig21_p035.png",
-      "vector": [
-        "figures/vector/Fig21/Fig21.svg",
-        "figures/vector/Fig21/Fig21.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 7.62 in\n\n形状统计 (1153 个):\n  FREEFORM (5)                 1123\n  TEXT_BOX (17)                30\n\n矢量形状: 1153\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 1153 draws 623 fs 521 polys 516 rings 0 text 30 images 0 inline 0 canvas 1948 1113\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig21\\Fig21.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig21\\Fig21.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 7.62 in\n\n形状统计 (1153 个):\n  FREEFORM (5)                 1123\n  TEXT_BOX (17)                30\n\n矢量形状: 1153\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -1169,19 +952,7 @@
         689.847
       ],
       "original": "figures/original/Fig22_p035.png",
-      "vector": [
-        "figures/vector/Fig22/Fig22.svg",
-        "figures/vector/Fig22/Fig22.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig22\\Fig22.svg (1584x620 -> 1584x620 px, scale 1.0, 1222 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  52.2% 画面  (10.00 x 3.91 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3579090 px\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -1209,19 +980,7 @@
         325.735
       ],
       "original": "figures/original/Fig23_p036.png",
-      "vector": [
-        "figures/vector/Fig23/Fig23.svg",
-        "figures/vector/Fig23/Fig23.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig23\\Fig23.svg (1585x1192 -> 1585x1192 px, scale 1.0, 1351 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  99.7% 画面  (9.97 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9119068 x 6858000 px\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -1249,19 +1008,7 @@
         199.864
       ],
       "original": "figures/original/Fig24_p037.png",
-      "vector": [
-        "figures/vector/Fig24/Fig24.svg",
-        "figures/vector/Fig24/Fig24.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 5.85 in\n\n形状统计 (3 个):\n  TEXT_BOX (17)                1\n  FREEFORM (5)                 1\n  PICTURE (13)                 1\n\n矢量形状: 2\n位图图片: 1\n  40.1% 画面  (7.93 x 3.94 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 3 draws 1 fs 0 polys 0 rings 0 text 1 images 0 inline 1 canvas 1948 855\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig24\\Fig24.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig24\\Fig24.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 5.85 in\n\n形状统计 (3 个):\n  TEXT_BOX (17)                1\n  FREEFORM (5)                 1\n  PICTURE (13)                 1\n\n矢量形状: 2\n位图图片: 1\n  40.1% 画面  (7.93 x 3.94 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "table",
@@ -1319,19 +1066,8 @@
         504.362
       ],
       "original": "figures/original/Fig25_p039.png",
-      "vector": [
-        "figures/vector/Fig25/Fig25.svg",
-        "figures/vector/Fig25/Fig25.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig25\\Fig25.svg (1110x797 -> 2220x1594 px, scale 2.0, 6662 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  95.7% 画面  (10.00 x 7.18 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6565556 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "table",
@@ -1389,19 +1125,8 @@
         482.359
       ],
       "original": "figures/original/Fig26_p041.png",
-      "vector": [
-        "figures/vector/Fig26/Fig26.svg",
-        "figures/vector/Fig26/Fig26.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig26\\Fig26.svg (1584x908 -> 1584x908 px, scale 1.0, 2244 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  76.4% 画面  (10.00 x 5.73 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5241636 px\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "table",
@@ -1434,6 +1159,36 @@
       "latex_mode": "extracted_tabular"
     },
     {
+      "kind": "table",
+      "label": "Table25",
+      "page": 43,
+      "caption": "Figure 25 (c) step 3, maintaining 97.7% accuracy.From now on, Alice may make two different choicesbasedonherpriorknowledge.Inonecase,Alicemayhaveguessedthatthedependence on p is cosh, so she sets the activations of p to be cosh function.She retrains KAN and gets 96.9% accuracy (Figure 25 (c) Step 4A). In another case, Alice does not know the cosh p dependence, so she pursues simplicity and again assumes the functions of p to be quadratic.She retrains KAN and gets 95.4% accuracy (Figure 25 (c) Step 4B). If she tried both, she would realize that cosh is better intermsofaccuracy,whilequadraticisbetterintermsofsimplicity.Theformulascorresponding to these steps are listed in Table 12.It is clear that the more manual operations are done by Alice, the simpler the symbolic formula is (which slight sacrifice in accuracy).KANs have a “knob\" that a user can tune to trade-off between simplicity and accuracy (sometimes simplicity can even lead to better accuracy, as in the GAAM case).",
+      "caption_en": "Figure 25 (c) step 3, maintaining 97.7% accuracy.From now on, Alice may make two different choicesbasedonherpriorknowledge.Inonecase,Alicemayhaveguessedthatthedependence on p is cosh, so she sets the activations of p to be cosh function.She retrains KAN and gets 96.9% accuracy (Figure 25 (c) Step 4A). In another case, Alice does not know the cosh p dependence, so she pursues simplicity and again assumes the functions of p to be quadratic.She retrains KAN and gets 95.4% accuracy (Figure 25 (c) Step 4B). If she tried both, she would realize that cosh is better intermsofaccuracy,whilequadraticisbetterintermsofsimplicity.Theformulascorresponding to these steps are listed in Table 12.It is clear that the more manual operations are done by Alice, the simpler the symbolic formula is (which slight sacrifice in accuracy).KANs have a “knob\" that a user can tune to trade-off between simplicity and accuracy (sometimes simplicity can even lead to better accuracy, as in the GAAM case).",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        259.349,
+        504.004,
+        379.131
+      ],
+      "content_bbox": [
+        108.177,
+        82.061,
+        550.252,
+        205.797
+      ],
+      "crop_bbox": [
+        108.177,
+        82.061,
+        550.252,
+        205.797
+      ],
+      "original": "tables/original/Table25_p043.png",
+      "vector": [],
+      "latex": "tables/latex/Table25.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
       "kind": "figure",
       "label": "Fig27",
       "page": 44,
@@ -1459,19 +1214,7 @@
         311.162
       ],
       "original": "figures/original/Fig27_p044.png",
-      "vector": [
-        "figures/vector/Fig27/Fig27.svg",
-        "figures/vector/Fig27/Fig27.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\KAN_ICLR2025\\figures\\vector\\Fig27\\Fig27.svg (1585x1134 -> 1585x1134 px, scale 1.0, 1979 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  95.4% 画面  (10.00 x 7.15 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6542142 px\n"
-        }
-      ]
+      "vector": []
     }
   ],
   "notes": [
@@ -1479,276 +1222,30 @@
     "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
     "LaTeX tables generated by tools/build_latex_tables.py."
   ],
-  "vectorized": [
-    {
-      "label": "Fig1",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ]
-    },
-    {
-      "label": "Fig2",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ]
-    },
-    {
-      "label": "Fig3",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ]
-    },
-    {
-      "label": "Fig4",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ]
-    },
-    {
-      "label": "Fig5",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ]
-    },
-    {
-      "label": "Fig6",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig6/Fig6.svg",
-        "figures/vector/Fig6/Fig6.pptx"
-      ]
-    },
-    {
-      "label": "Fig7",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig7/Fig7.svg",
-        "figures/vector/Fig7/Fig7.pptx"
-      ]
-    },
-    {
-      "label": "Fig8",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig8/Fig8.svg",
-        "figures/vector/Fig8/Fig8.pptx"
-      ]
-    },
-    {
-      "label": "Fig9",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig9/Fig9.svg",
-        "figures/vector/Fig9/Fig9.pptx"
-      ]
-    },
-    {
-      "label": "Fig10",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig10/Fig10.svg",
-        "figures/vector/Fig10/Fig10.pptx"
-      ]
-    },
-    {
-      "label": "Fig11",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig11/Fig11.svg",
-        "figures/vector/Fig11/Fig11.pptx"
-      ]
-    },
-    {
-      "label": "Fig12",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig12/Fig12.svg",
-        "figures/vector/Fig12/Fig12.pptx"
-      ]
-    },
-    {
-      "label": "Fig13",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig13/Fig13.svg",
-        "figures/vector/Fig13/Fig13.pptx"
-      ]
-    },
-    {
-      "label": "Fig14",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig14/Fig14.svg",
-        "figures/vector/Fig14/Fig14.pptx"
-      ]
-    },
-    {
-      "label": "Fig15",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig15/Fig15.svg",
-        "figures/vector/Fig15/Fig15.pptx"
-      ]
-    },
-    {
-      "label": "Fig16",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig16/Fig16.svg",
-        "figures/vector/Fig16/Fig16.pptx"
-      ]
-    },
-    {
-      "label": "Fig17",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig17/Fig17.svg",
-        "figures/vector/Fig17/Fig17.pptx"
-      ]
-    },
-    {
-      "label": "Fig18",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig18/Fig18.svg",
-        "figures/vector/Fig18/Fig18.pptx"
-      ]
-    },
-    {
-      "label": "Fig19",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig19/Fig19.svg",
-        "figures/vector/Fig19/Fig19.pptx"
-      ]
-    },
-    {
-      "label": "Fig20",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig20/Fig20.svg",
-        "figures/vector/Fig20/Fig20.pptx"
-      ]
-    },
-    {
-      "label": "Fig21",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig21/Fig21.svg",
-        "figures/vector/Fig21/Fig21.pptx"
-      ]
-    },
-    {
-      "label": "Fig22",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig22/Fig22.svg",
-        "figures/vector/Fig22/Fig22.pptx"
-      ]
-    },
-    {
-      "label": "Fig23",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig23/Fig23.svg",
-        "figures/vector/Fig23/Fig23.pptx"
-      ]
-    },
-    {
-      "label": "Fig24",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig24/Fig24.svg",
-        "figures/vector/Fig24/Fig24.pptx"
-      ]
-    },
-    {
-      "label": "Fig25",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig25/Fig25.svg",
-        "figures/vector/Fig25/Fig25.pptx"
-      ]
-    },
-    {
-      "label": "Fig26",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig26/Fig26.svg",
-        "figures/vector/Fig26/Fig26.pptx"
-      ]
-    },
-    {
-      "label": "Fig27",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig27/Fig27.svg",
-        "figures/vector/Fig27/Fig27.pptx"
-      ]
-    }
-  ]
+  "metadata": {
+    "title": "KAN: Kolmogorov-Arnold Networks",
+    "year": 2025,
+    "venue": "ICLR",
+    "classification": "CCF-A main conference",
+    "topic": [
+      "KAN",
+      "learnable edge functions",
+      "interpretable neural representation"
+    ],
+    "relevance": "边上的可学习函数为频带自适应映射和恢复非线性提供方法参考；不是全景压缩专门论文。",
+    "official_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/afaed89642ea100935e39d39a4da602c-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/afaed89642ea100935e39d39a4da602c-Paper-Conference.pdf",
+    "local_slug": "KAN_ICLR2025",
+    "access": "open_pdf",
+    "venue_short": "ICLR",
+    "venue_full": "International Conference on Learning Representations",
+    "venue_type": "会议",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": "A",
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
+  }
 }

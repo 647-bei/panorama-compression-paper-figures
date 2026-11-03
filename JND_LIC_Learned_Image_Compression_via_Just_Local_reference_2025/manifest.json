@@ -1,0 +1,385 @@
+{
+  "paper": "JND_LIC_Learned_Image_Compression_via_Just_Local_reference_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 12,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Fig.1. ThearchitectureofourproposedJND-LIC.",
+      "caption_en": "Fig.1. ThearchitectureofourproposedJND-LIC.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        245.051,
+        221.281,
+        253.021
+      ],
+      "content_bbox": [
+        58.908,
+        57.36,
+        543.619,
+        233.196
+      ],
+      "crop_bbox": [
+        58.908,
+        57.36,
+        543.619,
+        233.196
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.91 in\n\n形状统计 (1067 个):\n  FREEFORM (5)                 917\n  AUTO_SHAPE (1)               146\n  PICTURE (13)                 4\n\n矢量形状: 1063\n位图图片: 4\n  2.0% 画面  (1.43 x 0.93 in)\n  1.6% 画面  (1.41 x 0.73 in)\n  0.4% 画面  (1.41 x 0.19 in)\n  1.8% 画面  (1.34 x 0.86 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "TABLEI PERFORMANCE COMPARISON BETWEENTHE PROPOSED JND-LICAND STATE-OF-THE-ART LEARNED IMAGE COMPRESSION METHODS ONTHE KODAK, TECNICK,AND BSD500DATASETS, ANCHOR: NLAIC[23]",
+      "caption_en": "TABLEI PERFORMANCE COMPARISON BETWEENTHE PROPOSED JND-LICAND STATE-OF-THE-ART LEARNED IMAGE COMPRESSION METHODS ONTHE KODAK, TECNICK,AND BSD500DATASETS, ANCHOR: NLAIC[23]",
+      "caption_zh": "",
+      "caption_bbox": [
+        75.195,
+        52.523,
+        536.82,
+        78.421
+      ],
+      "content_bbox": [
+        103.599,
+        90.948,
+        505.579,
+        391.278
+      ],
+      "crop_bbox": [
+        103.599,
+        90.948,
+        505.579,
+        391.278
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 6,
+      "caption": "Fig.2. RateperceptioncurvesoftheproposedJND-LICandsevenstate-of-the-artlearnedimagecompressionmethods.(a)-(c)aretheLPIPS,FID,andKID performanceontheKodakdataset.(d)-(f)aretheLPIPS,FID,andKIDperformanceontheTecnickdataset.(g)-(i)aretheLPIPS,FID,andKIDperformance ontheBSD500dataset.",
+      "caption_en": "Fig.2. RateperceptioncurvesoftheproposedJND-LICandsevenstate-of-the-artlearnedimagecompressionmethods.(a)-(c)aretheLPIPS,FID,andKID performanceontheKodakdataset.(d)-(f)aretheLPIPS,FID,andKIDperformanceontheTecnickdataset.(g)-(i)aretheLPIPS,FID,andKIDperformance ontheBSD500dataset.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        439.046,
+        563.059,
+        464.953
+      ],
+      "content_bbox": [
+        73.494,
+        53.52,
+        538.134,
+        427.2
+      ],
+      "crop_bbox": [
+        73.494,
+        53.52,
+        538.134,
+        427.2
+      ],
+      "original": "figures/original/Fig2_p006.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  93.3% 画面  (9.33 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8532361 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 7,
+      "caption": "Fig.3. VisualcomparisonsofourproposedJND-LICandstate-of-the-artlearnedimagecompressionmethods.",
+      "caption_en": "Fig.3. VisualcomparisonsofourproposedJND-LICandstate-of-the-artlearnedimagecompressionmethods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        427.049,
+        417.73,
+        435.019
+      ],
+      "content_bbox": [
+        68.994,
+        53.394,
+        542.634,
+        415.194
+      ],
+      "crop_bbox": [
+        68.994,
+        53.394,
+        542.634,
+        415.194
+      ],
+      "original": "figures/original/Fig3_p007.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  98.2% 画面  (9.82 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8979812 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 7,
+      "caption": "TABLEII ABLATION STUDY RESULTSOFTHE PROPOSED JND-FTM",
+      "caption_en": "TABLEII ABLATION STUDY RESULTSOFTHE PROPOSED JND-FTM",
+      "caption_zh": "",
+      "caption_bbox": [
+        207.152,
+        446.129,
+        404.8,
+        463.072
+      ],
+      "content_bbox": [
+        110.493,
+        474.083,
+        501.053,
+        666.814
+      ],
+      "crop_bbox": [
+        110.493,
+        474.083,
+        501.053,
+        666.814
+      ],
+      "original": "tables/original/Table2_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 8,
+      "caption": "Fig.4. Featuremapvisualization,where(a),(b),(c),(d),(e),and(f)representtheoriginalimage,inputimagefeature,JNDfeature,cross-attentionfeature, concatenationfeature,andJND-FTMfeature,respectively.",
+      "caption_en": "Fig.4. Featuremapvisualization,where(a),(b),(c),(d),(e),and(f)representtheoriginalimage,inputimagefeature,JNDfeature,cross-attentionfeature, concatenationfeature,andJND-FTMfeature,respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        266.048,
+        563.047,
+        282.982
+      ],
+      "content_bbox": [
+        69.498,
+        53.202,
+        542.538,
+        254.202
+      ],
+      "crop_bbox": [
+        69.498,
+        53.202,
+        542.538,
+        254.202
+      ],
+      "original": "figures/original/Fig4_p008.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  56.7% 画面  (10.00 x 4.25 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3886441 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 8,
+      "caption": "TABLEIII ABLATION STUDY RESULTSOFTHE PROPOSED JND-QM",
+      "caption_en": "TABLEIII ABLATION STUDY RESULTSOFTHE PROPOSED JND-QM",
+      "caption_zh": "",
+      "caption_bbox": [
+        209.123,
+        294.101,
+        402.83,
+        311.035
+      ],
+      "content_bbox": [
+        116.496,
+        323.081,
+        494.656,
+        444.081
+      ],
+      "crop_bbox": [
+        116.496,
+        323.081,
+        494.656,
+        444.081
+      ],
+      "original": "tables/original/Table3_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 8,
+      "caption": "TABLEIV THE MODEL COMPLEXITYOF EACH LEARNED IMAGE COMPRESSION METHODONTHE KODAK DATASET",
+      "caption_en": "TABLEIV THE MODEL COMPLEXITYOF EACH LEARNED IMAGE COMPRESSION METHODONTHE KODAK DATASET",
+      "caption_zh": "",
+      "caption_bbox": [
+        127.44,
+        455.759,
+        484.567,
+        472.693
+      ],
+      "content_bbox": [
+        136.998,
+        483.811,
+        474.158,
+        580.431
+      ],
+      "crop_bbox": [
+        136.998,
+        483.811,
+        474.158,
+        580.431
+      ],
+      "original": "tables/original/Table4_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 9,
+      "caption": "TABLEV THE GENERALIZATION CAPABILITIESOFTHE PROPOSED METHOD",
+      "caption_en": "TABLEV THE GENERALIZATION CAPABILITIESOFTHE PROPOSED METHOD",
+      "caption_zh": "",
+      "caption_bbox": [
+        193.167,
+        52.523,
+        418.841,
+        69.457
+      ],
+      "content_bbox": [
+        68.202,
+        80.72,
+        537.202,
+        154.2
+      ],
+      "crop_bbox": [
+        68.202,
+        80.72,
+        537.202,
+        154.2
+      ],
+      "original": "tables/original/Table5_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "JND_LIC_Learned_Image_Compression_via_Just_Local_reference_2025",
+    "title": "JND-LIC: Learned Image Compression via Just Noticeable Difference for Human Visual Perception",
+    "venue": "Local reference",
+    "venue_full": "Local reference",
+    "venue_short": "Local reference",
+    "venue_type": "期刊",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://www.ieee.org/publications/rights/index.html",
+    "pdf_url": "https://www.ieee.org/publications/rights/index.html",
+    "access": "local_pdf",
+    "source_sha256": "92831f3da3ee176330463b0a2af3521ad9220d10ed8f5ec29c6d242041a1e777",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\P9KVJUV5\\Pan 等 - 2025 - JND-LIC Learned Image Compression via Just Noticeable Difference for Human Visual Perception.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "",
+    "cas_display": "",
+    "ccf_display": ""
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    }
+  ]
+}

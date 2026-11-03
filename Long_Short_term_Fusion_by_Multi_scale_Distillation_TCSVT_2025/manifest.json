@@ -1,0 +1,866 @@
+{
+  "paper": "Long_Short_term_Fusion_by_Multi_scale_Distillation_TCSVT_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 16,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Fig.1.(a)OriginalnaturalframeKimono,(b)originalscreencontentframe 68scwebbrowsing,(c)artifactofnaturalframe,and(d)artifactofscreen contentframe.",
+      "caption_en": "Fig.1.(a)OriginalnaturalframeKimono,(b)originalscreencontentframe 68scwebbrowsing,(c)artifactofnaturalframe,and(d)artifactofscreen contentframe.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        222.233,
+        563.038,
+        248.275
+      ],
+      "content_bbox": [
+        186.0,
+        8.55,
+        612.0,
+        222.233
+      ],
+      "crop_bbox": [
+        186.0,
+        8.55,
+        612.0,
+        222.233
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.74 in\n\n形状统计 (11 个):\n  TEXT_BOX (17)                6\n  PICTURE (13)                 4\n  FREEFORM (5)                 1\n\n矢量形状: 7\n位图图片: 4\n  8.4% 画面  (3.66 x 2.06 in)\n  8.4% 画面  (3.66 x 2.06 in)\n  8.4% 画面  (3.66 x 2.06 in)\n  8.4% 画面  (3.66 x 2.06 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Fig.2.(a)PSNRstatisticsfornaturalvideoKimono,(b)PSNRstatisticsfor screencontentvideoscwebbrowsing.",
+      "caption_en": "Fig.2.(a)PSNRstatisticsfornaturalvideoKimono,(b)PSNRstatisticsfor screencontentvideoscwebbrowsing.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        517.82,
+        563.039,
+        534.897
+      ],
+      "content_bbox": [
+        262.867,
+        257.216,
+        612.0,
+        507.17
+      ],
+      "crop_bbox": [
+        262.867,
+        257.216,
+        612.0,
+        507.17
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.58 in\n\n形状统计 (99 个):\n  FREEFORM (5)                 80\n  TEXT_BOX (17)                13\n  PICTURE (13)                 6\n\n矢量形状: 93\n位图图片: 6\n  3.3% 画面  (2.73 x 1.54 in)\n  0.3% 画面  (0.70 x 0.58 in)\n  0.3% 画面  (0.70 x 0.58 in)\n  0.3% 画面  (0.70 x 0.58 in)\n  3.3% 画面  (2.73 x 1.54 in)\n  3.3% 画面  (2.73 x 1.54 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Fig.3.OurproposedLSFMDstructure,whichcontainslongshort-termfeatureextraction,multi-scalehierarchicalfeaturedistillation,andhigh-frequency reconstruction.",
+      "caption_en": "Fig.3.OurproposedLSFMDstructure,whichcontainslongshort-termfeatureextraction,multi-scalehierarchicalfeaturedistillation,andhigh-frequency reconstruction.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        230.794,
+        563.036,
+        247.73
+      ],
+      "content_bbox": [
+        52.324,
+        8.55,
+        612.0,
+        215.7
+      ],
+      "crop_bbox": [
+        52.324,
+        8.55,
+        612.0,
+        215.7
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.00 in\n\n形状统计 (322 个):\n  FREEFORM (5)                 174\n  TEXT_BOX (17)                142\n  PICTURE (13)                 6\n\n矢量形状: 316\n位图图片: 6\n  0.6% 画面  (0.43 x 0.90 in)\n  0.5% 画面  (0.41 x 0.84 in)\n  0.5% 画面  (0.41 x 0.84 in)\n  0.6% 画面  (0.44 x 0.90 in)\n  0.5% 画面  (0.41 x 0.84 in)\n  0.5% 画面  (0.41 x 0.84 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Fig.4.SNFS,Groupa:{ILQ t−2, ILQ t−1, ILQ t },Groupb:{ILQ t−1, ILQ t , ILQ t+1}, Groupc:{ILQ t , ILQ t+2, ILQ t+2}",
+      "caption_en": "Fig.4.SNFS,Groupa:{ILQ t−2, ILQ t−1, ILQ t },Groupb:{ILQ t−1, ILQ t , ILQ t+1}, Groupc:{ILQ t , ILQ t+2, ILQ t+2}",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        129.406,
+        563.037,
+        153.196
+      ],
+      "content_bbox": [
+        186.0,
+        4.825,
+        612.0,
+        129.406
+      ],
+      "crop_bbox": [
+        186.0,
+        4.825,
+        612.0,
+        129.406
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.98 in\n\n形状统计 (20 个):\n  PICTURE (13)                 8\n  FREEFORM (5)                 7\n  TEXT_BOX (17)                5\n\n矢量形状: 12\n位图图片: 8\n  2.1% 画面  (0.87 x 1.26 in)\n  2.1% 画面  (0.89 x 1.28 in)\n  2.1% 画面  (0.88 x 1.28 in)\n  1.4% 画面  (0.60 x 1.22 in)\n  1.4% 画面  (0.61 x 1.22 in)\n  1.6% 画面  (0.65 x 1.31 in)\n  1.4% 画面  (0.61 x 1.22 in)\n  1.4% 画面  (0.60 x 1.22 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Fig.5.Comparisonsofdifferenthierarchicalfeatureutilizationmethods,(a) StructureA,(b)StructureB,and(c)StructureC.",
+      "caption_en": "Fig.5.Comparisonsofdifferenthierarchicalfeatureutilizationmethods,(a) StructureA,(b)StructureB,and(c)StructureC.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        134.766,
+        300.022,
+        151.702
+      ],
+      "content_bbox": [
+        0.0,
+        0.0,
+        473.069,
+        134.766
+      ],
+      "crop_bbox": [
+        0.0,
+        0.0,
+        473.069,
+        134.766
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.87 in\n\n形状统计 (323 个):\n  FREEFORM (5)                 256\n  TEXT_BOX (17)                64\n  PICTURE (13)                 3\n\n矢量形状: 320\n位图图片: 3\n  0.8% 画面  (0.62 x 0.65 in)\n  0.8% 画面  (0.62 x 0.64 in)\n  0.8% 画面  (0.62 x 0.64 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 5,
+      "caption": "Fig.6.Multi-scalehierarchicalfeaturedistillation(MHFD).",
+      "caption_en": "Fig.6.Multi-scalehierarchicalfeaturedistillation(MHFD).",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        263.441,
+        510.585,
+        271.411
+      ],
+      "content_bbox": [
+        0.0,
+        0.0,
+        544.433,
+        248.151
+      ],
+      "crop_bbox": [
+        0.0,
+        0.0,
+        544.433,
+        248.151
+      ],
+      "original": "figures/original/Fig6_p005.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.14 in\n\n形状统计 (567 个):\n  FREEFORM (5)                 420\n  TEXT_BOX (17)                133\n  PICTURE (13)                 14\n\n矢量形状: 553\n位图图片: 14\n  16.2% 画面  (5.03 x 2.64 in)\n  5.3% 画面  (2.03 x 2.14 in)\n  0.4% 画面  (0.54 x 0.56 in)\n  0.6% 画面  (0.47 x 0.96 in)\n  0.4% 画面  (0.54 x 0.56 in)\n  0.4% 画面  (0.54 x 0.56 in)\n  0.4% 画面  (0.54 x 0.56 in)\n  0.4% 画面  (0.54 x 0.56 in)\n  0.4% 画面  (0.54 x 0.56 in)\n  0.4% 画面  (0.54 x 0.56 in)\n  ... 共 14 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 6,
+      "caption": "Fig.7.ThestructureofHFRBinthehigh-frequencyreconstructionmodule.",
+      "caption_en": "Fig.7.ThestructureofHFRBinthehigh-frequencyreconstructionmodule.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        168.383,
+        300.022,
+        176.353
+      ],
+      "content_bbox": [
+        52.298,
+        0.0,
+        457.134,
+        155.032
+      ],
+      "crop_bbox": [
+        52.298,
+        0.0,
+        457.134,
+        155.032
+      ],
+      "original": "figures/original/Fig7_p006.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.17 in\n\n形状统计 (258 个):\n  FREEFORM (5)                 131\n  TEXT_BOX (17)                127\n\n矢量形状: 258\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 8,
+      "caption": "Fig.8.SubjectivevisualqualitycomparisonatQP=37onChineseEditing,MissionControlClip3,andscwebbrowsing.",
+      "caption_en": "Fig.8.SubjectivevisualqualitycomparisonatQP=37onChineseEditing,MissionControlClip3,andscwebbrowsing.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        624.279,
+        440.318,
+        632.389
+      ],
+      "content_bbox": [
+        59.873,
+        290.726,
+        552.887,
+        609.174
+      ],
+      "crop_bbox": [
+        59.873,
+        290.726,
+        552.887,
+        609.174
+      ],
+      "original": "figures/original/Fig8_p008.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.65 in\n\n形状统计 (101 个):\n  TEXT_BOX (17)                54\n  PICTURE (13)                 24\n  FREEFORM (5)                 23\n\n矢量形状: 77\n位图图片: 24\n  1.9% 画面  (1.95 x 1.10 in)\n  1.9% 画面  (1.95 x 1.10 in)\n  1.9% 画面  (1.95 x 1.10 in)\n  2.0% 画面  (1.51 x 1.51 in)\n  2.0% 画面  (1.51 x 1.51 in)\n  2.0% 画面  (1.51 x 1.51 in)\n  2.0% 画面  (1.51 x 1.51 in)\n  2.0% 画面  (1.51 x 1.51 in)\n  2.0% 画面  (1.51 x 1.51 in)\n  2.0% 画面  (1.51 x 1.51 in)\n  ... 共 24 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 8,
+      "caption": "TABLEI OVERALL ∆PSNRAND ∆SSIM (×10−3)OF DIFFERENT MODELSAT QP=22,27,32,37",
+      "caption_en": "TABLEI OVERALL ∆PSNRAND ∆SSIM (×10−3)OF DIFFERENT MODELSAT QP=22,27,32,37",
+      "caption_zh": "",
+      "caption_bbox": [
+        157.499,
+        58.394,
+        454.501,
+        75.331
+      ],
+      "content_bbox": [
+        48.964,
+        85.418,
+        563.067,
+        247.778
+      ],
+      "crop_bbox": [
+        48.964,
+        85.418,
+        563.067,
+        247.778
+      ],
+      "original": "tables/original/Table1_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 8,
+      "caption": "TABLEII OVERALL BD-RATE(%)OF DIFFERENT MODELSAT QP=22,27,32,37",
+      "caption_en": "TABLEII OVERALL BD-RATE(%)OF DIFFERENT MODELSAT QP=22,27,32,37",
+      "caption_zh": "",
+      "caption_bbox": [
+        188.649,
+        263.65,
+        423.35,
+        280.587
+      ],
+      "content_bbox": [
+        50.89,
+        85.418,
+        563.067,
+        204.412
+      ],
+      "crop_bbox": [
+        50.89,
+        85.418,
+        563.067,
+        204.412
+      ],
+      "original": "tables/original/Table2_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 9,
+      "caption": "Fig.9.∆PSNRcurvesofSTDF-R3,QECF,CAT,andourLSFMDmethod forsequences,(a)scprogrammingand(b)scSlideShow.",
+      "caption_en": "Fig.9.∆PSNRcurvesofSTDF-R3,QECF,CAT,andourLSFMDmethod forsequences,(a)scprogrammingand(b)scSlideShow.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        349.978,
+        300.023,
+        367.1
+      ],
+      "content_bbox": [
+        51.723,
+        59.427,
+        297.867,
+        349.978
+      ],
+      "crop_bbox": [
+        51.723,
+        59.427,
+        297.867,
+        349.978
+      ],
+      "original": "figures/original/Fig9_p009.png",
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 15.72 in\n\n形状统计 (365 个):\n  FREEFORM (5)                 357\n  AUTO_SHAPE (1)               6\n  TEXT_BOX (17)                2\n\n矢量形状: 365\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 9,
+      "caption": "TABLEIII PERFORMANCE EVALUATIONOF MEAN OPTION SCORE (USER STUDY) ACROSS VARIOUS VIDEO ENHANCEMENT METHODS",
+      "caption_en": "TABLEIII PERFORMANCE EVALUATIONOF MEAN OPTION SCORE (USER STUDY) ACROSS VARIOUS VIDEO ENHANCEMENT METHODS",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.359,
+        58.395,
+        557.655,
+        84.297
+      ],
+      "content_bbox": [
+        311.978,
+        93.11,
+        563.041,
+        553.911
+      ],
+      "crop_bbox": [
+        311.978,
+        93.11,
+        563.041,
+        553.911
+      ],
+      "original": "tables/original/Table3_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 9,
+      "caption": "Table IV. However, these modules are specifically designed tolearncontextualinformation,capturehigh-frequencyde- tails,andefficientlyremoveredundanthierarchicalfeatures, respectively.Thisisfurthersupportedbytheresultsofour ablation study, which will be discussed in the next section. As aresult,theperformanceofLSFMDsignificantlysurpasses othermethods,asinTableIV.Inaddition,ourLSFMDisa modularnetwork,allowingforeasyadjustmentofthemodel size by varying the number of RB, MSRB, and HFRB blocks.",
+      "caption_en": "Table IV. However, these modules are specifically designed tolearncontextualinformation,capturehigh-frequencyde- tails,andefficientlyremoveredundanthierarchicalfeatures, respectively.Thisisfurthersupportedbytheresultsofour ablation study, which will be discussed in the next section. As aresult,theperformanceofLSFMDsignificantlysurpasses othermethods,asinTableIV.Inaddition,ourLSFMDisa modularnetwork,allowingforeasyadjustmentofthemodel size by varying the number of RB, MSRB, and HFRB blocks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        642.686,
+        563.036,
+        748.29
+      ],
+      "content_bbox": [
+        314.652,
+        93.11,
+        562.885,
+        501.175
+      ],
+      "crop_bbox": [
+        314.652,
+        93.11,
+        562.885,
+        501.175
+      ],
+      "original": "tables/original/Table4_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 10,
+      "caption": "Fig.10. ∆PSNRofthemodeltrainedandtestedatdifferentQPsunder LDMSconfiguration.(a)TrainedatQP=22,TestedatQP=22and24,(b) TrainedatQP=27,TestedatQP=27and29,(c)TrainedatQP=32,Testedat QP=32and34,and(d)TrainedatQP=37,TestedatQP=37and39.",
+      "caption_en": "Fig.10. ∆PSNRofthemodeltrainedandtestedatdifferentQPsunder LDMSconfiguration.(a)TrainedatQP=22,TestedatQP=22and24,(b) TrainedatQP=27,TestedatQP=27and29,(c)TrainedatQP=32,Testedat QP=32and34,and(d)TrainedatQP=37,TestedatQP=37and39.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        653.333,
+        563.036,
+        688.388
+      ],
+      "content_bbox": [
+        325.656,
+        57.788,
+        557.595,
+        637.539
+      ],
+      "crop_bbox": [
+        325.656,
+        57.788,
+        557.595,
+        637.539
+      ],
+      "original": "figures/original/Fig10_p010.png",
+      "vector": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 33.16 in\n\n形状统计 (627 个):\n  FREEFORM (5)                 596\n  TEXT_BOX (17)                16\n  PICTURE (13)                 15\n\n矢量形状: 612\n位图图片: 15\n  0.0% 画面  (0.26 x 0.26 in)\n  0.0% 画面  (0.26 x 0.26 in)\n  0.0% 画面  (0.26 x 0.26 in)\n  0.0% 画面  (0.26 x 0.26 in)\n  0.0% 画面  (0.26 x 0.26 in)\n  0.0% 画面  (0.26 x 0.26 in)\n  0.0% 画面  (0.26 x 0.26 in)\n  0.0% 画面  (0.26 x 0.26 in)\n  0.0% 画面  (0.26 x 0.26 in)\n  0.0% 画面  (0.26 x 0.26 in)\n  ... 共 15 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 11,
+      "caption": "TABLEV OVERALL ∆PSNRAND ∆SSIM(×10−3)OF DIFFERENT MODELSAT QP=37IN MFQE2.0 DATASET # THE RESULTOF EACH SEQUENCEOF CF-STIF-MIS NOTPROVIDEDIN THE ORIGINAL PAPER",
+      "caption_en": "TABLEV OVERALL ∆PSNRAND ∆SSIM(×10−3)OF DIFFERENT MODELSAT QP=37IN MFQE2.0 DATASET # THE RESULTOF EACH SEQUENCEOF CF-STIF-MIS NOTPROVIDEDIN THE ORIGINAL PAPER",
+      "caption_zh": "",
+      "caption_bbox": [
+        67.059,
+        58.394,
+        544.949,
+        84.297
+      ],
+      "content_bbox": [
+        51.237,
+        93.084,
+        562.901,
+        239.114
+      ],
+      "crop_bbox": [
+        51.237,
+        93.084,
+        562.901,
+        239.114
+      ],
+      "original": "tables/original/Table5_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 11,
+      "caption": "TABLEVI COMPARISONSOF DIFFERENT STRUCTURESIN OUR PROPOSED LSFMDAT QP=37",
+      "caption_en": "TABLEVI COMPARISONSOF DIFFERENT STRUCTURESIN OUR PROPOSED LSFMDAT QP=37",
+      "caption_zh": "",
+      "caption_bbox": [
+        164.967,
+        255.339,
+        447.033,
+        272.275
+      ],
+      "content_bbox": [
+        51.237,
+        93.084,
+        562.902,
+        239.114
+      ],
+      "crop_bbox": [
+        51.237,
+        93.084,
+        562.902,
+        239.114
+      ],
+      "original": "tables/original/Table6_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig11",
+      "page": 12,
+      "caption": "Fig.11.VisualizationoffeaturemapsproducedbydifferentmodulesoftheproposedLSFMD.(a)EnhancedframeofourproposedLSFMD,(b)feature mapF0 stinshort-termfeatureextraction,(c)featuremapF 0 ltinlong-termfeatureextraction,(d)featuremapF N stinshort-termfeatureextraction,(e)feature mapFN ltinlong-termfeatureextraction,and(f)featuremapQofMHFD.",
+      "caption_en": "Fig.11.VisualizationoffeaturemapsproducedbydifferentmodulesoftheproposedLSFMD.(a)EnhancedframeofourproposedLSFMD,(b)feature mapF0 stinshort-termfeatureextraction,(c)featuremapF 0 ltinlong-termfeatureextraction,(d)featuremapF N stinshort-termfeatureextraction,(e)feature mapFN ltinlong-termfeatureextraction,and(f)featuremapQofMHFD.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        283.323,
+        563.035,
+        312.083
+      ],
+      "content_bbox": [
+        0.0,
+        8.55,
+        577.616,
+        283.323
+      ],
+      "crop_bbox": [
+        0.0,
+        8.55,
+        577.616,
+        283.323
+      ],
+      "original": "figures/original/Fig11_p012.png",
+      "vector": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.40 in\n\n形状统计 (529 个):\n  FREEFORM (5)                 329\n  TEXT_BOX (17)                179\n  PICTURE (13)                 19\n  AUTO_SHAPE (1)               2\n\n矢量形状: 510\n位图图片: 19\n  6.9% 画面  (3.24 x 1.82 in)\n  5.9% 画面  (2.99 x 1.69 in)\n  0.4% 画面  (0.14 x 2.78 in)\n  2.7% 画面  (2.01 x 1.13 in)\n  0.2% 画面  (0.09 x 1.86 in)\n  7.4% 画面  (3.30 x 1.91 in)\n  2.7% 画面  (2.01 x 1.13 in)\n  0.2% 画面  (0.09 x 1.86 in)\n  5.9% 画面  (2.99 x 1.69 in)\n  0.4% 画面  (0.14 x 2.78 in)\n  ... 共 19 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig12",
+      "page": 12,
+      "caption": "Fig.12.∆PSNRcurvesofscreencontentvideoscwebbrowsing.",
+      "caption_en": "Fig.12.∆PSNRcurvesofscreencontentvideoscwebbrowsing.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        489.991,
+        266.073,
+        498.146
+      ],
+      "content_bbox": [
+        47.863,
+        254.685,
+        563.035,
+        489.991
+      ],
+      "crop_bbox": [
+        47.863,
+        254.685,
+        563.035,
+        489.991
+      ],
+      "original": "figures/original/Fig12_p012.png",
+      "vector": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.15 in\n\n形状统计 (157 个):\n  FREEFORM (5)                 116\n  TEXT_BOX (17)                40\n  AUTO_SHAPE (1)               1\n\n矢量形状: 157\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig13",
+      "page": 12,
+      "caption": "Fig.13.SubjectivevisualqualitycomparisonatQP37onscmap.",
+      "caption_en": "Fig.13.SubjectivevisualqualitycomparisonatQP37onscmap.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        599.016,
+        265.384,
+        607.126
+      ],
+      "content_bbox": [
+        8.146,
+        0.0,
+        563.035,
+        594.737
+      ],
+      "crop_bbox": [
+        8.146,
+        0.0,
+        563.035,
+        594.737
+      ],
+      "original": "figures/original/Fig13_p012.png",
+      "vector": [
+        "figures/vector/Fig13/Fig13.svg",
+        "figures/vector/Fig13/Fig13.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 14.28 in\n\n形状统计 (651 个):\n  FREEFORM (5)                 419\n  TEXT_BOX (17)                206\n  PICTURE (13)                 23\n  AUTO_SHAPE (1)               3\n\n矢量形状: 628\n位图图片: 23\n  3.4% 画面  (3.37 x 1.90 in)\n  2.9% 画面  (3.12 x 1.76 in)\n  0.2% 画面  (0.14 x 2.90 in)\n  1.3% 画面  (2.09 x 1.18 in)\n  0.1% 画面  (0.09 x 1.94 in)\n  3.6% 画面  (3.43 x 1.99 in)\n  1.3% 画面  (2.09 x 1.18 in)\n  0.1% 画面  (0.09 x 1.94 in)\n  2.9% 画面  (3.12 x 1.76 in)\n  0.2% 画面  (0.14 x 2.90 in)\n  ... 共 23 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Long_Short_term_Fusion_by_Multi_scale_Distillation_TCSVT_2025",
+    "title": "Long Short-term Fusion by Multi-scale Distillation for Screen Content Video Quality Enhancement",
+    "venue": "TCSVT",
+    "venue_full": "TCSVT",
+    "venue_short": "TCSVT",
+    "venue_type": "期刊",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://www.ieee.org/publications/rights/index.html",
+    "pdf_url": "https://www.ieee.org/publications/rights/index.html",
+    "access": "local_pdf",
+    "source_sha256": "04a570f57a113cbf452ba34bcbd97d2a2b31aee643cf080c600431f9d8366ae2",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\UIE6UEXM\\TCSVT 2025 多尺度蒸馏的长短期融合增强屏幕内容视频质量.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\VS6R8822\\TCSVT 2025 多尺度蒸馏的长短期融合增强屏幕内容视频质量.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 2区（2025）",
+    "cas_display": "中科院 2区（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    },
+    {
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ]
+    },
+    {
+      "label": "Fig10",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ]
+    },
+    {
+      "label": "Fig11",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig11/Fig11.svg",
+        "figures/vector/Fig11/Fig11.pptx"
+      ]
+    },
+    {
+      "label": "Fig12",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig12/Fig12.svg",
+        "figures/vector/Fig12/Fig12.pptx"
+      ]
+    },
+    {
+      "label": "Fig13",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig13/Fig13.svg",
+        "figures/vector/Fig13/Fig13.pptx"
+      ]
+    }
+  ]
+}

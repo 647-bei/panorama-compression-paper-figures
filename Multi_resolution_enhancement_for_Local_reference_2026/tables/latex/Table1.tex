@@ -1,0 +1,16 @@
+% Auto-extracted table snippet; requires \usepackage{booktabs}.
+% Caption: Table 1 | Encoding latency
+\begin{tabular}{llllllllll}
+\toprule
+Dataset & X-ray scattering (CuAu) 3 &  &  & Neutron scattering &  &  & X-ray scattering (ultrafast) &  &  \\
+\midrule
+Network size & Small & Medium & Large & Small & Medium & Large & Small & Medium & Large \\
+PSNR (dB) &  &  &  &  &  &  &  &  &  \\
+WIEN-INR: <1 min & 37.45 (30 s) & 42.62 (52 s) & 42.90 (56 s) & 23.00 (55 s) & 21.86* (58 s) & 21.49* (60 s) & 28.51 (57 s) & 28.70 (53 s) & 28.48 (52 s) \\
+WIEN-INR: <2 min & 37.60 & 42.62 & 44.69 (119 s) & 23.00 & 24.93 (83 s) & 26.64* (119 s) & 28.04 (99 s) & 29.52 (119 s) & 29.71 (111 s) \\
+WIEN-INR: <7 min & 37.60 & 42.62 & 44.69 & 23.00 & 24.93 & 29.66 (188 s) & 28.63 (135 s) & 29.80 (253 s) & 30.10 (6 m 38 s) \\
+Others: <1 min & 36.71|SIREN & 37.12|TCNN & 37.45|TCNN & 21.79|SIREN & 21.06|TCNN & 26.91|MINER & 27.90|TCNN & 27.99|TCNN & 28.03|TCNN \\
+Others: <2 min & 36.89|TCNN & 37.23|FINER & 39.07|MINER & 21.87|FINER & 24.44|MINER & 28.73|MINER & 27.98|TCNN & 28.02|TCNN & 28.06|TCNN \\
+Others: <7 min & 36.89|TCNN & 37.51|FINER & 40.98|FINER & 23.35|FINER & 24.95|FINER & 28.73|MINER & 27.98|SIREN & 29.25|FINER & 28.06|TCNN \\
+\bottomrule
+\end{tabular}

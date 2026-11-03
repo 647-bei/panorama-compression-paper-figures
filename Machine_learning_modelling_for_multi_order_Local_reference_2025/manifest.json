@@ -1,0 +1,315 @@
+{
+  "paper": "Machine_learning_modelling_for_multi_order_Local_reference_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 26,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Fig. 1 | Overview of the two-stage motion perception system.a, Stage I mimics the V1 function by detecting local motion, whereas stage II uses a graph network for recurrent motion integration and segregation, mimicking the middle temporal cortex. Stage I employs dual channels to process both first- and higher- order motion. The first-order channel captures Fourier-based motion in motion energy units (red route), and the higher-order channel uses normative 3D CNN layers to extract advanced features (grey route). Natural videos are used to train the entire model for motion flow estimation. b, Illustration of motion energy units in stage I after training. b(i), Distribution of preferred moving directions and speeds. b(ii), Spatiotemporal receptive field of one motion energy unit, characterized by a pair of Gabor kernel and exponentially decayed sinusoidal kernel. The neuron’s receptive field is from ref. 91. b(iii), A demo showing how a rightward-moving grating activates specific motion energy units and decodes to a perceptual response. b(iv), Direction tuning curves of a specific motion energy unit to grating and plaid stimuli. RF, receptive field.",
+      "caption_en": "Fig. 1 | Overview of the two-stage motion perception system.a, Stage I mimics the V1 function by detecting local motion, whereas stage II uses a graph network for recurrent motion integration and segregation, mimicking the middle temporal cortex. Stage I employs dual channels to process both first- and higher- order motion. The first-order channel captures Fourier-based motion in motion energy units (red route), and the higher-order channel uses normative 3D CNN layers to extract advanced features (grey route). Natural videos are used to train the entire model for motion flow estimation. b, Illustration of motion energy units in stage I after training. b(i), Distribution of preferred moving directions and speeds. b(ii), Spatiotemporal receptive field of one motion energy unit, characterized by a pair of Gabor kernel and exponentially decayed sinusoidal kernel. The neuron’s receptive field is from ref. 91. b(iii), A demo showing how a rightward-moving grating activates specific motion energy units and decodes to a perceptual response. b(iv), Direction tuning curves of a specific motion energy unit to grating and plaid stimuli. RF, receptive field.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        357.49,
+        559.837,
+        436.261
+      ],
+      "content_bbox": [
+        94.87,
+        39.862,
+        491.599,
+        347.534
+      ],
+      "crop_bbox": [
+        94.87,
+        39.862,
+        491.599,
+        347.534
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  96.7% 画面  (9.67 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8839694 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Fig. 2 | Recurrent motion integration.a, The tuning properties of model units for 1D gratings and 2D plaids. The partial correlations to component and pattern tuning types are shown. Overall, the model units exhibit a trend similar to mammalian neural recordings: Stage I predominantly consists of component-selective neurons, whereas stage II is dominated by pattern-selective neurons, corresponding to the V1-MT processing hierarchy. The animal data are from ref. 32. b, Response to global motion of Gabor patches33. Local patches contain various motion directions and speeds, which are captured by stage I. Stage II then performs motion integration, linking local motion signals to resolve the aperture problem and infer global (downward) motion. The model response aligns with the human perception of adaptive pooling. c, Motion integration is sensitive to higher-order pattern cues. We used the three scenarios A, B and C detailed in ref. 34. The extents of integration were quantified by correlating the directions of motion between adjacent segments across a single circular translation cycle. Compared with scenario C, scenario B—characterized by structural constraints and depth cues—led to an increased integration index in the model, similar to human perception34. In the middle column of the right panels (for unit connections), we visualize the attention heat map derived from the motion graph, showing the connectivity of the unit (marked by a circle) with other units in stage II.",
+      "caption_en": "Fig. 2 | Recurrent motion integration.a, The tuning properties of model units for 1D gratings and 2D plaids. The partial correlations to component and pattern tuning types are shown. Overall, the model units exhibit a trend similar to mammalian neural recordings: Stage I predominantly consists of component-selective neurons, whereas stage II is dominated by pattern-selective neurons, corresponding to the V1-MT processing hierarchy. The animal data are from ref. 32. b, Response to global motion of Gabor patches33. Local patches contain various motion directions and speeds, which are captured by stage I. Stage II then performs motion integration, linking local motion signals to resolve the aperture problem and infer global (downward) motion. The model response aligns with the human perception of adaptive pooling. c, Motion integration is sensitive to higher-order pattern cues. We used the three scenarios A, B and C detailed in ref. 34. The extents of integration were quantified by correlating the directions of motion between adjacent segments across a single circular translation cycle. Compared with scenario C, scenario B—characterized by structural constraints and depth cues—led to an increased integration index in the model, similar to human perception34. In the middle column of the right panels (for unit connections), we visualize the attention heat map derived from the motion graph, showing the connectivity of the unit (marked by a circle) with other units in stage II.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.683,
+        467.939,
+        556.71,
+        566.698
+      ],
+      "content_bbox": [
+        40.625,
+        56.946,
+        560.319,
+        455.318
+      ],
+      "crop_bbox": [
+        40.625,
+        56.946,
+        560.319,
+        455.318
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  97.8% 画面  (9.78 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8943347 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Fig. 3 | Recurrent motion integration in naturalistic scenarios.a, Stage II-N refers to the outcomes from the Nth iteration in stage II, with visualizations illustrating neuron connectivity via heat maps. The neural connectivity is represented as a graph structure, and through graph bipartitioning15, the model can further achieve instance segmentation without any additional training. b, A scatter plot comparing human and model responses to the Sintel dataset in terms of u, v (pixels per frame). A red regression line, fitted to the data, indicates a strong linear relationship between human and model responses. The shadows",
+      "caption_en": "Fig. 3 | Recurrent motion integration in naturalistic scenarios.a, Stage II-N refers to the outcomes from the Nth iteration in stage II, with visualizations illustrating neuron connectivity via heat maps. The neural connectivity is represented as a graph structure, and through graph bipartitioning15, the model can further achieve instance segmentation without any additional training. b, A scatter plot comparing human and model responses to the Sintel dataset in terms of u, v (pixels per frame). A red regression line, fitted to the data, indicates a strong linear relationship between human and model responses. The shadows",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.678,
+        424.453,
+        290.377,
+        503.215
+      ],
+      "content_bbox": [
+        31.937,
+        53.262,
+        595.276,
+        415.497
+      ],
+      "crop_bbox": [
+        31.937,
+        53.262,
+        595.276,
+        415.497
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.61 in\n\n形状统计 (2009 个):\n  FREEFORM (5)                 1920\n  TEXT_BOX (17)                63\n  PICTURE (13)                 26\n\n矢量形状: 1983\n位图图片: 26\n  5.8% 画面  (3.12 x 2.15 in)\n  8.4% 画面  (4.32 x 2.23 in)\n  7.1% 画面  (3.89 x 2.09 in)\n  1.9% 画面  (1.83 x 1.22 in)\n  1.5% 画面  (1.67 x 1.04 in)\n  2.1% 画面  (1.85 x 1.30 in)\n  1.6% 画面  (1.67 x 1.13 in)\n  4.2% 画面  (2.18 x 2.18 in)\n  4.2% 画面  (2.18 x 2.18 in)\n  4.1% 画面  (2.18 x 2.18 in)\n  ... 共 26 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table 1 | Model versus human versus ground truth on Sintel benchmark",
+      "caption_en": "Table 1 | Model versus human versus ground truth on Sintel benchmark",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        46.17,
+        335.893,
+        58.59
+      ],
+      "content_bbox": [
+        39.685,
+        65.883,
+        561.26,
+        230.114
+      ],
+      "crop_bbox": [
+        39.685,
+        65.883,
+        561.26,
+        230.114
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Fig. 4 | A material-controlled motion dataset and a second-order benchmark demonstration.a, We manipulated material properties to create two motion datasets with optical flow labels—one with purely reflective materials and another incorporating non-Lambertian surfaces such as specular, glossy, translucent and anisotropic materials. The motion was simulated by a physics engine with gravity and initial movement, whereas material properties were rendered via the Blender87 engine. b, A large second-order benchmark was generated by applying naturalistic modulations—such as water waves and swirl effects—to natural images. A total of seven types of modulations were created to evaluate both human and model responses. For illustrative purposes, the background images shown here have been replaced with visually similar, copyright-free alternatives. c, Psychophysical experiments using this dataset demonstrated that humans reliably perceive a wide range of second-order motions, whereas current machine vision models struggle with this task. The figure below illustrates perceived-motion vectors from a single participant across seven different modulations. The shaded region around the fitted line represents the 95% CI.",
+      "caption_en": "Fig. 4 | A material-controlled motion dataset and a second-order benchmark demonstration.a, We manipulated material properties to create two motion datasets with optical flow labels—one with purely reflective materials and another incorporating non-Lambertian surfaces such as specular, glossy, translucent and anisotropic materials. The motion was simulated by a physics engine with gravity and initial movement, whereas material properties were rendered via the Blender87 engine. b, A large second-order benchmark was generated by applying naturalistic modulations—such as water waves and swirl effects—to natural images. A total of seven types of modulations were created to evaluate both human and model responses. For illustrative purposes, the background images shown here have been replaced with visually similar, copyright-free alternatives. c, Psychophysical experiments using this dataset demonstrated that humans reliably perceive a wide range of second-order motions, whereas current machine vision models struggle with this task. The figure below illustrates perceived-motion vectors from a single participant across seven different modulations. The shaded region around the fitted line represents the 95% CI.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.678,
+        467.133,
+        555.06,
+        555.889
+      ],
+      "content_bbox": [
+        40.308,
+        48.96,
+        560.465,
+        461.847
+      ],
+      "crop_bbox": [
+        40.308,
+        48.96,
+        560.465,
+        461.847
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.61 in\n\n形状统计 (1306 个):\n  FREEFORM (5)                 1260\n  TEXT_BOX (17)                25\n  PICTURE (13)                 21\n\n矢量形状: 1285\n位图图片: 21\n  6.9% 画面  (3.89 x 2.51 in)\n  2.4% 画面  (1.83 x 1.82 in)\n  1.0% 画面  (1.51 x 0.95 in)\n  2.1% 画面  (2.68 x 1.10 in)\n  2.1% 画面  (2.68 x 1.11 in)\n  2.1% 画面  (2.69 x 1.13 in)\n  3.7% 画面  (2.72 x 1.91 in)\n  1.2% 画面  (1.87 x 0.93 in)\n  0.8% 画面  (1.98 x 0.56 in)\n  3.7% 画面  (3.02 x 1.73 in)\n  ... 共 21 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 7,
+      "caption": "Fig. 5 | The interplay between material properties and second-order motion perception.a, We computed average Pearson correlations across various second-order motion types and compared them with contemporary CV models. Our dual-channel model, trained on a non-diffuse dataset, outperformed others—achieving near-human performance. Error bars indicate the 95% CI across seven modulation types; Ptcp-N represents different participants. b, The directional tuning curves of model units were evaluated using first- and second-order gratings. Tuning was quantified using a modified circular variance measure42, ranging from 0 (low tuning) to 1 (high tuning). Results from both first- and higher-order channels, trained on diffuse and non-diffuse datasets, show that the higher-order channel exhibits significantly better tuning, further enhanced with non-diffuse data. IQR, interquartile range. c, Pearson correlations with human responses are detailed for all modulation types. Mod1 to Mod7 represent different second-order modulations, including random noise, Gaussian blur, water waves, Fourier phase shuffle, random pixel shuffle, swirl and drift-balanced motion. The dual-channel model trained on non-diffuse datasets demonstrated significantly improved recognition of second-order motion. Error bars denote the 95% CI for each modulation type. hum, human. d, The model’s response to second-order motion stimuli trained separately on diffuse and non- diffuse motion sets. See Extended Data Tables 2 and 3 for quantitative data.",
+      "caption_en": "Fig. 5 | The interplay between material properties and second-order motion perception.a, We computed average Pearson correlations across various second-order motion types and compared them with contemporary CV models. Our dual-channel model, trained on a non-diffuse dataset, outperformed others—achieving near-human performance. Error bars indicate the 95% CI across seven modulation types; Ptcp-N represents different participants. b, The directional tuning curves of model units were evaluated using first- and second-order gratings. Tuning was quantified using a modified circular variance measure42, ranging from 0 (low tuning) to 1 (high tuning). Results from both first- and higher-order channels, trained on diffuse and non-diffuse datasets, show that the higher-order channel exhibits significantly better tuning, further enhanced with non-diffuse data. IQR, interquartile range. c, Pearson correlations with human responses are detailed for all modulation types. Mod1 to Mod7 represent different second-order modulations, including random noise, Gaussian blur, water waves, Fourier phase shuffle, random pixel shuffle, swirl and drift-balanced motion. The dual-channel model trained on non-diffuse datasets demonstrated significantly improved recognition of second-order motion. Error bars denote the 95% CI for each modulation type. hum, human. d, The model’s response to second-order motion stimuli trained separately on diffuse and non- diffuse motion sets. See Extended Data Tables 2 and 3 for quantitative data.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.678,
+        500.786,
+        560.569,
+        599.563
+      ],
+      "content_bbox": [
+        39.515,
+        54.05,
+        560.544,
+        490.83
+      ],
+      "crop_bbox": [
+        39.515,
+        54.05,
+        560.544,
+        490.83
+      ],
+      "original": "figures/original/Fig5_p007.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  89.5% 画面  (8.95 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 8180165 x 6858000 px\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Machine_learning_modelling_for_multi_order_Local_reference_2025",
+    "title": "Machine learning modelling for multi-order human visual motion processing",
+    "venue": "Nature Machine Intelligence",
+    "venue_full": "Nature Machine Intelligence",
+    "venue_short": "Nature Machine Intelligence",
+    "venue_type": "期刊",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://doi.org/10.1038/s42256-025-01068-w",
+    "pdf_url": "https://doi.org/10.1038/s42256-025-01068-w",
+    "access": "local_pdf",
+    "source_sha256": "fa47581b7279d6f3199bea090d9ed9e4b886b7a88d9015e463dde2fbbac6ae5b",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\8WQ65HVC\\Sun 等 - 2025 - Machine learning modelling for multi-order human visual motion processing.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 1区 · Top（2025）",
+    "cas_display": "中科院 1区 · Top（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "paper": "SGDR_S_TOCHASTIC_G_RADIENT_D_ESCENT_WITH_Local_reference_2017",
+  "pdf": "pdf/paper.pdf",
+  "pages": 16,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Figure1: Alternativescheduleschemesoflearningrateηtoverbatchindext:defaultschemes withη0=0.1(blueline)andη0=0.05(redline)asusedbyZagoruyko&Komodakis(2016); warm restarts simulated every T0= 50 (green line), T0= 100 (black line) and T0= 200 (grey line) epochs with ηtdecaying during i-th run from ηi max= 0.05 to ηi min= 0 according to eq.(5); warm restartsstartingfromepochT0=1(darkgreenline)andT0=10(magentaline)withdoubling (Tmult= 2) periods Tiat every new warm restart.",
+      "caption_en": "Figure1: Alternativescheduleschemesoflearningrateηtoverbatchindext:defaultschemes withη0=0.1(blueline)andη0=0.05(redline)asusedbyZagoruyko&Komodakis(2016); warm restarts simulated every T0= 50 (green line), T0= 100 (black line) and T0= 200 (grey line) epochs with ηtdecaying during i-th run from ηi max= 0.05 to ηi min= 0 according to eq.(5); warm restartsstartingfromepochT0=1(darkgreenline)andT0=10(magentaline)withdoubling (Tmult= 2) periods Tiat every new warm restart.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        273.559,
+        504.004,
+        339.158
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        255.112
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        255.112
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 7.70 in\n\n形状统计 (268 个):\n  FREEFORM (5)                 213\n  TEXT_BOX (17)                55\n\n矢量形状: 268\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nfont ArialMT 无子集覆盖全部字符（缺 1 个），缺字回退系统字体 Arial\nops 268 draws 211 fs 2 polys 9 rings 0 text 55 images 0 inline 0 canvas 1948 1125\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SGDR_S_TOCHASTIC_G_RADIENT_D_ESCENT_WITH_Local_reference_2017\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SGDR_S_TOCHASTIC_G_RADIENT_D_ESCENT_WITH_Local_reference_2017\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.70 in\n\n形状统计 (268 个):\n  FREEFORM (5)                 213\n  TEXT_BOX (17)                55\n\n矢量形状: 268\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 4,
+      "caption": "Figure 2:Test errors on CIFAR-10 (left column) and CIFAR-100 (right column) datasets.Note that for SGDR we only plot the recommended solutions.The top and middle rows show the same results on WRN-28-10,with the middle row zooming into the good performance region of low test error. The bottom row shows performance with a wider network, WRN-28-20. The results of the default learning rate schedules of Zagoruyko & Komodakis (2016) with η0= 0.1 and η0= 0.05 are depicted by the blue and red lines, respectively. The schedules of ηt used in SGDR areshownwithi)restartseveryT0=50epochs(greenline);ii)restartseveryT0=100epochs (black line); iii) restarts every T0=200 epochs (gray line); iv) restarts with doubling (Tmult=2) periodsofrestartsstartingfromtheﬁrstepoch(T0=1,darkgreenline);andv)restartswith doubling (Tmult= 2) periods of restarts starting from the tenth epoch (T0= 10, magenta line).",
+      "caption_en": "Figure 2:Test errors on CIFAR-10 (left column) and CIFAR-100 (right column) datasets.Note that for SGDR we only plot the recommended solutions.The top and middle rows show the same results on WRN-28-10,with the middle row zooming into the good performance region of low test error. The bottom row shows performance with a wider network, WRN-28-20. The results of the default learning rate schedules of Zagoruyko & Komodakis (2016) with η0= 0.1 and η0= 0.05 are depicted by the blue and red lines, respectively. The schedules of ηt used in SGDR areshownwithi)restartseveryT0=50epochs(greenline);ii)restartseveryT0=100epochs (black line); iii) restarts every T0=200 epochs (gray line); iv) restarts with doubling (Tmult=2) periodsofrestartsstartingfromtheﬁrstepoch(T0=1,darkgreenline);andv)restartswith doubling (Tmult= 2) periods of restarts starting from the tenth epoch (T0= 10, magenta line).",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        561.134,
+        504.004,
+        670.338
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        542.496
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        542.496
+      ],
+      "original": "figures/original/Fig2_p004.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 17.30 in\n\n形状统计 (633 个):\n  FREEFORM (5)                 491\n  TEXT_BOX (17)                142\n\n矢量形状: 633\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nfont ArialMT 无子集覆盖全部字符（缺 1 个），缺字回退系统字体 Arial\nops 633 draws 487 fs 4 polys 14 rings 0 text 142 images 0 inline 0 canvas 1948 2527\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SGDR_S_TOCHASTIC_G_RADIENT_D_ESCENT_WITH_Local_reference_2017\\figures\\vector\\Fig2\\Fig2.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SGDR_S_TOCHASTIC_G_RADIENT_D_ESCENT_WITH_Local_reference_2017\\figures\\vector\\Fig2\\Fig2.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 17.30 in\n\n形状统计 (633 个):\n  FREEFORM (5)                 491\n  TEXT_BOX (17)                142\n\n矢量形状: 633\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table1:TesterrorsofdifferentmethodsonCIFAR-10andCIFAR-100withmoderatedataaug- mentation (ﬂip/translation).In the second column kis a widening factor for WRNs.Note that the computational and memory resources used to train all WRN-28-10 are the same.In all other cases they are different, but WRNs are usually faster than original ResNets to achieve the same accuracy (e.g.,uptoafactorof8accordingtoZagoruyko&Komodakis(2016)).Boldtextisusedonlyto highlight better results and is not based on statistical tests (too few runs).",
+      "caption_en": "Table1:TesterrorsofdifferentmethodsonCIFAR-10andCIFAR-100withmoderatedataaug- mentation (ﬂip/translation).In the second column kis a widening factor for WRNs.Note that the computational and memory resources used to train all WRN-28-10 are the same.In all other cases they are different, but WRNs are usually faster than original ResNets to achieve the same accuracy (e.g.,uptoafactorof8accordingtoZagoruyko&Komodakis(2016)).Boldtextisusedonlyto highlight better results and is not based on statistical tests (too few runs).",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        443.141,
+        504.003,
+        507.899
+      ],
+      "content_bbox": [
+        108.0,
+        83.057,
+        534.728,
+        427.763
+      ],
+      "crop_bbox": [
+        108.0,
+        83.057,
+        534.728,
+        427.763
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 6,
+      "caption": "Figure3: TesterrorsofensemblemodelsbuiltfromNrunsofSGDRonWRN-28-10withM modelsnapshotsperrunmadeatepochs150,70and30(rightbeforewarmrestartsofSGDRas suggested by Huang et al. (2016a)).When M=1 (respectively, M=2), we aggregate probabilities of softmax layers of snapshot models at epoch index 150 (respectively, at epoch indexes 150 and 70).",
+      "caption_en": "Figure3: TesterrorsofensemblemodelsbuiltfromNrunsofSGDRonWRN-28-10withM modelsnapshotsperrunmadeatepochs150,70and30(rightbeforewarmrestartsofSGDRas suggested by Huang et al. (2016a)).When M=1 (respectively, M=2), we aggregate probabilities of softmax layers of snapshot models at epoch index 150 (respectively, at epoch indexes 150 and 70).",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        271.771,
+        504.003,
+        314.841
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        253.654
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        253.654
+      ],
+      "original": "figures/original/Fig3_p006.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SGDR_S_TOCHASTIC_G_RADIENT_D_ESCENT_WITH_Local_reference_2017\\figures\\vector\\Fig3\\Fig3.svg (1584x904 -> 1584x904 px, scale 1.0, 2326 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  76.1% 画面  (10.00 x 5.71 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5218545 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table 2:Test errors of ensemble models on CIFAR-10 and CIFAR-100 datasets.",
+      "caption_en": "Table 2:Test errors of ensemble models on CIFAR-10 and CIFAR-100 datasets.",
+      "caption_zh": "",
+      "caption_bbox": [
+        146.42,
+        409.939,
+        465.582,
+        419.902
+      ],
+      "content_bbox": [
+        108.0,
+        328.011,
+        509.236,
+        394.561
+      ],
+      "crop_bbox": [
+        108.0,
+        328.011,
+        509.236,
+        394.561
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 8,
+      "caption": "Figure 4:(Top) Improvements obtained by the baseline learning rate schedule and SGDR w.r.t.the best known reference classiﬁcation error on a dataset of electroencephalographic (EEG) recordings ofbrainactivityforclassiﬁcationofactualrightandlefthandandfootmovementsof14subjects with roughly 1000 trials per subject.Both considered approaches were tested with the initial learn- ingratelr=0.025(Top-Left)andlr=0.05(Top-Right).Notethatthebaselineapproachis considered with different settings of the total number of epochs:30, 60, . . ., 480.(Bottom) SGDR with lr=0.025 and lr=0.05 without and with Mmodel snapshots taken at the last M=nr/2 restarts, where nr is the total number of restarts.",
+      "caption_en": "Figure 4:(Top) Improvements obtained by the baseline learning rate schedule and SGDR w.r.t.the best known reference classiﬁcation error on a dataset of electroencephalographic (EEG) recordings ofbrainactivityforclassiﬁcationofactualrightandlefthandandfootmovementsof14subjects with roughly 1000 trials per subject.Both considered approaches were tested with the initial learn- ingratelr=0.025(Top-Left)andlr=0.05(Top-Right).Notethatthebaselineapproachis considered with different settings of the total number of epochs:30, 60, . . ., 480.(Bottom) SGDR with lr=0.025 and lr=0.05 without and with Mmodel snapshots taken at the last M=nr/2 restarts, where nr is the total number of restarts.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        450.1,
+        504.003,
+        536.866
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        431.844
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        431.844
+      ],
+      "original": "figures/original/Fig4_p008.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "raster_trace_svg+svg_pptx_wrapper+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SGDR_S_TOCHASTIC_G_RADIENT_D_ESCENT_WITH_Local_reference_2017\\figures\\vector\\Fig4\\Fig4.svg (1584x1617 -> 1584x1617 px, scale 1.0, 3759 paths, 0 images)\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  73.5% 画面  (7.35 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 6718040 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 9,
+      "caption": "Figure 5:Top-1 and Top-5 test errors obtained by SGD with momentum with the default learning rate schedule, SGDR with T0= 1, Tmult= 2 and SGDR with T0= 10, Tmult= 2 on WRN-28-10 trainedonaversionofImageNet,withallimagesfromall1000classesdownsampledto32×32 pixels.The same baseline data augmentation as for the CIFAR datasets is used.Four settings of the initial learning rate are considered:0.050, 0.025, 0.01 and 0.005.",
+      "caption_en": "Figure 5:Top-1 and Top-5 test errors obtained by SGD with momentum with the default learning rate schedule, SGDR with T0= 1, Tmult= 2 and SGDR with T0= 10, Tmult= 2 on WRN-28-10 trainedonaversionofImageNet,withallimagesfromall1000classesdownsampledto32×32 pixels.The same baseline data augmentation as for the CIFAR datasets is used.Four settings of the initial learning rate are considered:0.050, 0.025, 0.01 and 0.005.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        251.645,
+        504.003,
+        305.444
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        233.01
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        233.01
+      ],
+      "original": "figures/original/Fig5_p009.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 6.96 in\n\n形状统计 (222 个):\n  FREEFORM (5)                 156\n  TEXT_BOX (17)                66\n\n矢量形状: 222\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nfont ArialMT 无子集覆盖全部字符（缺 1 个），缺字回退系统字体 Arial\nops 222 draws 154 fs 2 polys 6 rings 0 text 66 images 0 inline 0 canvas 1948 1017\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SGDR_S_TOCHASTIC_G_RADIENT_D_ESCENT_WITH_Local_reference_2017\\figures\\vector\\Fig5\\Fig5.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\SGDR_S_TOCHASTIC_G_RADIENT_D_ESCENT_WITH_Local_reference_2017\\figures\\vector\\Fig5\\Fig5.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.96 in\n\n形状统计 (222 个):\n  FREEFORM (5)                 156\n  TEXT_BOX (17)                66\n\n矢量形状: 222\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "SGDR_S_TOCHASTIC_G_RADIENT_D_ESCENT_WITH_Local_reference_2017",
+    "title": "A BSTRACT Restart techniques are common in gradient-free optimization to deal with multi- modal functions. Partial warm restarts are also gaining popularity in gradient- based optimization to improve the rate of convergence in accelerated gradient",
+    "venue": "ICLR",
+    "venue_full": "ICLR",
+    "venue_short": "ICLR",
+    "venue_type": "会议",
+    "year": 2017,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "2a1f0f4a16fe7e17aa7f3ae623ef2a6de3b7d22cdd3385ce1a12ee3c883b4fa3",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\Z6UPFBRX\\Loshchilov和Hutter - 2017 - SGDR Stochastic gradient descent with warm restarts.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "CCF会议 B类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 B类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "raster_trace_svg+svg_pptx_wrapper",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    }
+  ]
+}

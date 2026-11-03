@@ -1,0 +1,469 @@
+{
+  "paper": "DEC_Low_Bitrate_Perceptual_Restoration_Aware_Local_reference_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 15,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Fig.2.ModuledesignofDEC.(a)TheMainInfoBranchencodesforeground-andstructure-relatedrepresentationsastheprimarystreamforreconstruction. (b)TheSideInfoBranchemploysapretrainedPCA-basedcompactionmoduletoextractthemostinformativehigh-energychannels,discardingredundant features.ThisbranchprovidescomplementarycuestotheMainInfoBranchandsubstantiallyboostsrestorationperformance.Thedashedcomponentsindicate operationsusedonlyduringthepretrainingofPCAM.(c)Theconditionaldiﬀusionmodule(DU)alternatesadaptivemodulesandattentionblocksto progressivelyreﬁnelatentfeatures.",
+      "caption_en": "Fig.2.ModuledesignofDEC.(a)TheMainInfoBranchencodesforeground-andstructure-relatedrepresentationsastheprimarystreamforreconstruction. (b)TheSideInfoBranchemploysapretrainedPCA-basedcompactionmoduletoextractthemostinformativehigh-energychannels,discardingredundant features.ThisbranchprovidescomplementarycuestotheMainInfoBranchandsubstantiallyboostsrestorationperformance.Thedashedcomponentsindicate operationsusedonlyduringthepretrainingofPCAM.(c)Theconditionaldiﬀusionmodule(DU)alternatesadaptivemodulesandattentionblocksto progressivelyreﬁnelatentfeatures.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        217.088,
+        563.029,
+        260.923
+      ],
+      "content_bbox": [
+        71.994,
+        57.691,
+        539.978,
+        205.115
+      ],
+      "crop_bbox": [
+        71.994,
+        57.691,
+        539.978,
+        205.115
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 3,
+      "caption": "TABLEI IMPLEMENTATIONDETAILSOFTHEFAMBRANCHES.THETABLELISTSTHEIRINPUTS,FEATURESIZES,UPSAMPLINGOPERATIONS,ANDTRAIN- ABLE/FROZEN STATUS,SHOWING HOW MAININFO-FAMAND SIDEINFO-FAM PROVIDE DU CONDITIONS",
+      "caption_en": "TABLEI IMPLEMENTATIONDETAILSOFTHEFAMBRANCHES.THETABLELISTSTHEIRINPUTS,FEATURESIZES,UPSAMPLINGOPERATIONS,ANDTRAIN- ABLE/FROZEN STATUS,SHOWING HOW MAININFO-FAMAND SIDEINFO-FAM PROVIDE DU CONDITIONS",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.163,
+        276.804,
+        562.837,
+        305.695
+      ],
+      "content_bbox": [
+        48.964,
+        313.764,
+        563.087,
+        389.233
+      ],
+      "crop_bbox": [
+        48.964,
+        313.764,
+        563.087,
+        389.233
+      ],
+      "original": "tables/original/Table1_p003.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 4,
+      "caption": "TABLEII",
+      "caption_en": "TABLEII",
+      "caption_zh": "",
+      "caption_bbox": [
+        289.482,
+        60.016,
+        322.518,
+        67.986
+      ],
+      "content_bbox": [
+        48.964,
+        96.976,
+        563.087,
+        227.726
+      ],
+      "crop_bbox": [
+        48.964,
+        96.976,
+        563.087,
+        227.726
+      ],
+      "original": "tables/original/Table2_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 6,
+      "caption": "Fig.3. VisualizationofthediﬀerencebetweentheMainInfoBranchandSideInfoBranch.(a)isthet-SNEvisualizationofthelatentspaceofthetwo branches,whichrevealstwowell-separatedclustersandindicatesthatthebranchesencodecomplementaryrepresentations.(b)and(c)aretheresponsemaps ontheSideInfoBranchandMainInfoBranch,respectively.(d)istheoriginallow-qualityimageusedforreference.",
+      "caption_en": "Fig.3. VisualizationofthediﬀerencebetweentheMainInfoBranchandSideInfoBranch.(a)isthet-SNEvisualizationofthelatentspaceofthetwo branches,whichrevealstwowell-separatedclustersandindicatesthatthebranchesencodecomplementaryrepresentations.(b)and(c)aretheresponsemaps ontheSideInfoBranchandMainInfoBranch,respectively.(d)istheoriginallow-qualityimageusedforreference.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        238.283,
+        563.029,
+        264.518
+      ],
+      "content_bbox": [
+        53.997,
+        57.69,
+        558.0,
+        226.705
+      ],
+      "crop_bbox": [
+        53.997,
+        57.69,
+        558.0,
+        226.705
+      ],
+      "original": "figures/original/Fig3_p006.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Fig.4. Visualizationoftheproposedcomposite-entropyscoringmethod. (a)istheoriginalimage;(b)isabarplotofthecomposite-entropyscores (sortedindescendingorder)producedbythePCAMcodecCpcam,showing thatthetopthreechannelscarrythehighestinformationcontent,whereas theremainingchannelsexhibitprogressivelydiminishingcontributions; (c)isa6×8mosaicofall48latentfeaturemaps,whereonlythetop threechannelsexhibitthesharpeststructuresandrichestdetails,indicating thatinformativecontentisconcentratedinasmallsubsetofchannelsrather thanbeinguniformlydistributed.",
+      "caption_en": "Fig.4. Visualizationoftheproposedcomposite-entropyscoringmethod. (a)istheoriginalimage;(b)isabarplotofthecomposite-entropyscores (sortedindescendingorder)producedbythePCAMcodecCpcam,showing thatthetopthreechannelscarrythehighestinformationcontent,whereas theremainingchannelsexhibitprogressivelydiminishingcontributions; (c)isa6×8mosaicofall48latentfeaturemaps,whereonlythetop threechannelsexhibitthesharpeststructuresandrichestdetails,indicating thatinformativecontentisconcentratedinasmallsubsetofchannelsrather thanbeinguniformlydistributed.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        432.168,
+        300.025,
+        511.869
+      ],
+      "content_bbox": [
+        49.486,
+        286.441,
+        299.491,
+        420.26
+      ],
+      "crop_bbox": [
+        49.486,
+        286.441,
+        299.491,
+        420.26
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Fig.5. DiﬀerencebetweenRPOandRDO.RDOdistortionmeasuresthe errorbetweenthecompressedimageˆxandtheoriginalimagex,whileRPO measurestheerrorbetweentherestoredhigh-qualityimagexhqandtheideal high-qualityimagexideal.",
+      "caption_en": "Fig.5. DiﬀerencebetweenRPOandRDO.RDOdistortionmeasuresthe errorbetweenthecompressedimageˆxandtheoriginalimagex,whileRPO measurestheerrorbetweentherestoredhigh-qualityimagexhqandtheideal high-qualityimagexideal.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        499.149,
+        563.038,
+        535.056
+      ],
+      "content_bbox": [
+        48.964,
+        57.69,
+        563.029,
+        487.833
+      ],
+      "crop_bbox": [
+        48.964,
+        57.69,
+        563.029,
+        487.833
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "TableIII.Speciﬁcally,fordenoising,weaddGaussiannoise withanoiselevelof50totheoriginalimages.ForJPEG artifactreduction,degradedimagesaresynthesizedusinga JPEGqualityfactor(QF)of10. Wetrainanend-to-endmodeltosolve10LLtasks, includingderaining,desnowing,raindropremoval,low-light enhancement,deblurring,denoising,real-worlddesnowing, real-world deblurring, real-world deraining, and inpainting. We optimizeDECusingAdamWwithβ1=0.9andβ2=0.999, andsetthelearningrateto1 × 10−4.Thetrainingobjective isdeﬁnedinEq.(15).Thetrainingbatchsizeissetto8.We ﬁrsttrainDECwithλ=1 × 10−6for600,000iterationsand thenadaptitusingthetargetλforanother500,000iterations. Wetestλintheset{0.005, 0.01, 0.05, 0.1, 0.2}.Forinference, weadoptResShiftsampling[34]with5stepsaccordingto thesampling-stepablationinTableV.Allexperimentsare conductedonasingleNVIDIAGeForceRTX4090GPU.",
+      "caption_en": "TableIII.Speciﬁcally,fordenoising,weaddGaussiannoise withanoiselevelof50totheoriginalimages.ForJPEG artifactreduction,degradedimagesaresynthesizedusinga JPEGqualityfactor(QF)of10. Wetrainanend-to-endmodeltosolve10LLtasks, includingderaining,desnowing,raindropremoval,low-light enhancement,deblurring,denoising,real-worlddesnowing, real-world deblurring, real-world deraining, and inpainting. We optimizeDECusingAdamWwithβ1=0.9andβ2=0.999, andsetthelearningrateto1 × 10−4.Thetrainingobjective isdeﬁnedinEq.(15).Thetrainingbatchsizeissetto8.We ﬁrsttrainDECwithλ=1 × 10−6for600,000iterationsand thenadaptitusingthetargetλforanother500,000iterations. Wetestλintheset{0.005, 0.01, 0.05, 0.1, 0.2}.Forinference, weadoptResShiftsampling[34]with5stepsaccordingto thesampling-stepablationinTableV.Allexperimentsare conductedonasingleNVIDIAGeForceRTX4090GPU.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        537.983,
+        563.046,
+        751.184
+      ],
+      "content_bbox": [
+        312.5,
+        318.75,
+        562.515,
+        492.483
+      ],
+      "crop_bbox": [
+        312.5,
+        318.75,
+        562.515,
+        492.483
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "TABLEIV",
+      "caption_en": "TABLEIV",
+      "caption_zh": "",
+      "caption_bbox": [
+        419.439,
+        230.13,
+        455.575,
+        238.1
+      ],
+      "content_bbox": [
+        312.5,
+        284.074,
+        562.515,
+        492.483
+      ],
+      "crop_bbox": [
+        312.5,
+        284.074,
+        562.515,
+        492.483
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 8,
+      "caption": "Fig.6. Ablationstudyoftherate-perceptionperformanceoftheMainInfo Branchonlyandthedecoupleddual-branchmodelwithdiﬀerentnumbersof selected high-energy PCAM channels. Low-light enhancement and desnowing are used as examples. Adding the ﬁrst one or two high-energy channels already improvestherate-perceptionperformanceovertheMainInfo-onlybaseline, whileselectingtheﬁrstthreechannelsconsistentlyachievesthebestLPIPS atagivenbitrate.Whenmorechannelsaretransmitted,therate-perception trade-oﬀbecomeslessfavorablebecausetheadditionalcomponentsconsume extrabitswithoutbringingproportionalperceptualgains.Thisdemonstrates that the ﬁrst three high-energy PCAM channels oﬀer the best trade-oﬀfor the SideInfoBranch.",
+      "caption_en": "Fig.6. Ablationstudyoftherate-perceptionperformanceoftheMainInfo Branchonlyandthedecoupleddual-branchmodelwithdiﬀerentnumbersof selected high-energy PCAM channels. Low-light enhancement and desnowing are used as examples. Adding the ﬁrst one or two high-energy channels already improvestherate-perceptionperformanceovertheMainInfo-onlybaseline, whileselectingtheﬁrstthreechannelsconsistentlyachievesthebestLPIPS atagivenbitrate.Whenmorechannelsaretransmitted,therate-perception trade-oﬀbecomeslessfavorablebecausetheadditionalcomponentsconsume extrabitswithoutbringingproportionalperceptualgains.Thisdemonstrates that the ﬁrst three high-energy PCAM channels oﬀer the best trade-oﬀfor the SideInfoBranch.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        164.538,
+        563.039,
+        262.172
+      ],
+      "content_bbox": [
+        317.944,
+        57.691,
+        556.958,
+        152.649
+      ],
+      "crop_bbox": [
+        317.944,
+        57.691,
+        556.958,
+        152.649
+      ],
+      "original": "figures/original/Fig6_p008.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 8,
+      "caption": "TABLEV",
+      "caption_en": "TABLEV",
+      "caption_zh": "",
+      "caption_bbox": [
+        157.752,
+        60.016,
+        191.234,
+        67.986
+      ],
+      "content_bbox": [
+        50.431,
+        105.078,
+        298.558,
+        171.144
+      ],
+      "crop_bbox": [
+        50.431,
+        105.078,
+        298.558,
+        171.144
+      ],
+      "original": "tables/original/Table5_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 8,
+      "caption": "TABLEVI",
+      "caption_en": "TABLEVI",
+      "caption_zh": "",
+      "caption_bbox": [
+        156.425,
+        250.169,
+        192.561,
+        258.139
+      ],
+      "content_bbox": [
+        50.431,
+        105.078,
+        298.558,
+        232.484
+      ],
+      "crop_bbox": [
+        50.431,
+        105.078,
+        298.558,
+        232.484
+      ],
+      "original": "tables/original/Table6_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 8,
+      "caption": "TABLEVII",
+      "caption_en": "TABLEVII",
+      "caption_zh": "",
+      "caption_bbox": [
+        418.112,
+        282.0,
+        456.902,
+        289.97
+      ],
+      "content_bbox": [
+        312.5,
+        353.836,
+        562.515,
+        605.486
+      ],
+      "crop_bbox": [
+        312.5,
+        353.836,
+        562.515,
+        605.486
+      ],
+      "original": "tables/original/Table7_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 9,
+      "caption": "Fig.7.Rate–perceptionperformancecomparisonacrosstenlow-levelimagerestorationtasks.Theperformanceisevaluatedunderﬁverepresentativeanchors. TheresultsareassessedusingLPIPSastheperceptualmetric.Acrossnearlyalltasksandbitrateranges,DECconsistentlyachieveslowerLPIPSvalues, indicatingcloserperceptualsimilaritytogroundtruth.",
+      "caption_en": "Fig.7.Rate–perceptionperformancecomparisonacrosstenlow-levelimagerestorationtasks.Theperformanceisevaluatedunderﬁverepresentativeanchors. TheresultsareassessedusingLPIPSastheperceptualmetric.Acrossnearlyalltasksandbitrateranges,DECconsistentlyachieveslowerLPIPSvalues, indicatingcloserperceptualsimilaritytogroundtruth.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        270.572,
+        563.029,
+        296.475
+      ],
+      "content_bbox": [
+        48.977,
+        57.691,
+        562.977,
+        258.683
+      ],
+      "crop_bbox": [
+        48.977,
+        57.691,
+        562.977,
+        258.683
+      ],
+      "original": "figures/original/Fig7_p009.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 9,
+      "caption": "Fig.8.QualitativeablationcomparisonbetweenDECandtheMainInfo-onlymodelundersimilarMainInfobitrates.Weselectrepresentativeexampleswhere thetwovariantshavecloseMainInfoBPPvaluesandcomparetheirrestoredresultssidebyside.TheBPP/LPIPSvaluesarereportedbeloweachimage.Red boxesindicatetheselectedregionsandthecorrespondingzoomed-indetails.Theexamplescoversnowremoval,denoising,low-lightenhancement,andimage inpainting.",
+      "caption_en": "Fig.8.QualitativeablationcomparisonbetweenDECandtheMainInfo-onlymodelundersimilarMainInfobitrates.Weselectrepresentativeexampleswhere thetwovariantshavecloseMainInfoBPPvaluesandcomparetheirrestoredresultssidebyside.TheBPP/LPIPSvaluesarereportedbeloweachimage.Red boxesindicatetheselectedregionsandthecorrespondingzoomed-indetails.Theexamplescoversnowremoval,denoising,low-lightenhancement,andimage inpainting.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        539.195,
+        563.037,
+        574.065
+      ],
+      "content_bbox": [
+        105.537,
+        324.518,
+        506.464,
+        515.8
+      ],
+      "crop_bbox": [
+        105.537,
+        324.518,
+        506.464,
+        515.8
+      ],
+      "original": "figures/original/Fig8_p009.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 12,
+      "caption": "TABLEVIII",
+      "caption_en": "TABLEVIII",
+      "caption_zh": "",
+      "caption_bbox": [
+        153.771,
+        60.016,
+        195.215,
+        67.986
+      ],
+      "content_bbox": [
+        49.486,
+        113.837,
+        299.501,
+        159.836
+      ],
+      "crop_bbox": [
+        49.486,
+        113.837,
+        299.501,
+        159.836
+      ],
+      "original": "tables/original/Table8_p012.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "DEC_Low_Bitrate_Perceptual_Restoration_Aware_Local_reference_2026",
+    "title": "DEC: Low-Bitrate Perceptual Restoration-Aware Compression via Decoupled Energy-Complementary Method",
+    "venue": "TIP",
+    "venue_full": "TIP",
+    "venue_short": "TIP",
+    "venue_type": "期刊",
+    "year": 2026,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://www.ieee.org/publications/rights/index.html",
+    "pdf_url": "https://www.ieee.org/publications/rights/index.html",
+    "access": "local_pdf",
+    "source_sha256": "2ced44f4e01d91f49e6e64176aa10c13663135852f19da1f85eeff4859727399",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\DG2VFSYK\\Xue 等 - 2026 - DEC Low-Bitrate Perceptual Restoration-Aware Compression via Decoupled Energy-Complementary Method.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 1区 · Top（2025）",
+    "cas_display": "中科院 1区 · Top（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  }
+}

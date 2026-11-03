@@ -13,5 +13,15 @@
   "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/view/27846/27718",
   "doi": "10.1609/aaai.v38i2.27846",
   "local_slug": "SphericalPseudoCylindrical_AAAI2024",
-  "access": "metadata_only_pdf_route_blocked"
+  "access": "metadata_only_pdf_route_blocked",
+  "venue_short": "AAAI",
+  "venue_full": "AAAI Conference on Artificial Intelligence",
+  "venue_type": "会议",
+  "cas_zone": null,
+  "cas_top": null,
+  "cas_display": "中科院分区：不适用（会议）",
+  "ccf_rank": "A",
+  "ccf_scope": "会议",
+  "ccf_display": "CCF会议 A类（2026）",
+  "ranking_display": "CCF会议 A类（2026）"
 }

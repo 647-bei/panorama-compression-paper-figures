@@ -23,11 +23,15 @@ def position(label: str) -> tuple[str, int, str]:
 
 def main() -> None:
     papers_catalog = json.loads((ROOT / "papers.json").read_text(encoding="utf-8"))
+    qa_path = ROOT / "metadata" / "expected_count_qa.json"
+    qa_status = {}
+    if qa_path.exists():
+        qa_status = {row.get("paper"): row.get("status") for row in json.loads(qa_path.read_text(encoding="utf-8")).get("papers", [])}
     papers: dict[str, dict] = {}
     catalog_by_slug = {p.get("local_slug"): p for p in papers_catalog if p.get("local_slug")}
     for p in papers_catalog:
         slug = p.get("local_slug")
-        if slug:
+        if slug and qa_status.get(slug, "pass") == "pass":
             papers[slug] = {
                 "id": slug,
                 "title": p.get("title", slug),
@@ -52,6 +56,8 @@ def main() -> None:
     for manifest_path in sorted(ROOT.glob("*/manifest.json")):
         data = json.loads(manifest_path.read_text(encoding="utf-8"))
         slug = manifest_path.parent.name
+        if qa_status.get(slug, "pass") != "pass":
+            continue
         metadata = {**catalog_by_slug.get(slug, {}), **(data.get("metadata") or {})}
         papers[slug] = {
             "id": slug,

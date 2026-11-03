@@ -1,0 +1,234 @@
+{
+  "paper": "D_ECOUPLED_W_EIGHT_D_ECAY_R_EGULARIZATION_Local_reference_2018",
+  "pdf": "pdf/paper.pdf",
+  "pages": 18,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 4,
+      "caption": "Figure 1:Adam performs better with decoupled weight decay (bottom row, AdamW) than with L2 regularization(toprow,Adam).Weshowtheﬁnaltesterrorofa262x64dResNetonCIFAR-10 after 100 epochs of training with ﬁxed learning rate (left column), step-drop learning rate (with drops at epoch indexes 30, 60 and 80, middle column) and cosine annealing (right column). AdamW leads to a more separable hyperparameter search space, especially when a learning rate schedule, such as step-drop and cosine annealing is applied.Cosine annealing yields clearly superior results.",
+      "caption_en": "Figure 1:Adam performs better with decoupled weight decay (bottom row, AdamW) than with L2 regularization(toprow,Adam).Weshowtheﬁnaltesterrorofa262x64dResNetonCIFAR-10 after 100 epochs of training with ﬁxed learning rate (left column), step-drop learning rate (with drops at epoch indexes 30, 60 and 80, middle column) and cosine annealing (right column). AdamW leads to a more separable hyperparameter search space, especially when a learning rate schedule, such as step-drop and cosine annealing is applied.Cosine annealing yields clearly superior results.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        315.661,
+        504.004,
+        380.649
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        302.525
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        302.525
+      ],
+      "original": "figures/original/Fig1_p004.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  92.6% 画面  (10.00 x 6.94 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6350000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 5,
+      "caption": "Figure 2:The Top-1 test error of a 26 2x64d ResNet on CIFAR-10 measured after 100 epochs.The proposed SGDW and AdamW (right column) have a more separable hyperparameter space.",
+      "caption_en": "Figure 2:The Top-1 test error of a 26 2x64d ResNet on CIFAR-10 measured after 100 epochs.The proposed SGDW and AdamW (right column) have a more separable hyperparameter space.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        337.507,
+        504.003,
+        358.428
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        324.141
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        324.141
+      ],
+      "original": "figures/original/Fig2_p005.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.01 in\n\n形状统计 (6 个):\n  PICTURE (13)                 4\n  TEXT_BOX (17)                1\n  FREEFORM (5)                 1\n\n矢量形状: 2\n位图图片: 4\n  13.3% 画面  (4.63 x 3.85 in)\n  13.3% 画面  (4.63 x 3.85 in)\n  13.3% 画面  (4.63 x 3.85 in)\n  13.3% 画面  (4.63 x 3.85 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 5,
+      "caption": "Figure3: Learningcurves(toprow)andgeneralizationresults(bottomrow)obtainedbya26 2x96d ResNet trained with Adam and AdamW on CIFAR-10.See text for details.SuppFigure 4 in the Appendix shows the same qualitative results for ImageNet32x32.",
+      "caption_en": "Figure3: Learningcurves(toprow)andgeneralizationresults(bottomrow)obtainedbya26 2x96d ResNet trained with Adam and AdamW on CIFAR-10.See text for details.SuppFigure 4 in the Appendix shows the same qualitative results for ImageNet32x32.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        637.486,
+        504.003,
+        669.367
+      ],
+      "content_bbox": [
+        147.196,
+        391.125,
+        287.044,
+        629.79
+      ],
+      "crop_bbox": [
+        147.196,
+        391.125,
+        287.044,
+        629.79
+      ],
+      "original": "figures/original/Fig3_p005.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  44.0% 画面  (4.40 x 7.50 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 7,
+      "caption": "Figure4: Top-1testerroronCIFAR-10(left)andTop-5testerroronImageNet32x32(right). Forabetterresolutionandwithtraininglosscurves,seeSuppFigure5andSuppFigure6inthe supplementary material.",
+      "caption_en": "Figure4: Top-1testerroronCIFAR-10(left)andTop-5testerroronImageNet32x32(right). Forabetterresolutionandwithtraininglosscurves,seeSuppFigure5andSuppFigure6inthe supplementary material.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.0,
+        219.535,
+        504.003,
+        251.415
+      ],
+      "content_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        213.255
+      ],
+      "crop_bbox": [
+        108.0,
+        27.813,
+        504.0,
+        213.255
+      ],
+      "original": "figures/original/Fig4_p007.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.30 in\n\n形状统计 (4 个):\n  PICTURE (13)                 2\n  TEXT_BOX (17)                1\n  FREEFORM (5)                 1\n\n矢量形状: 2\n位图图片: 2\n  27.6% 画面  (5.29 x 4.39 in)\n  27.3% 画面  (5.29 x 4.35 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer."
+  ],
+  "metadata": {
+    "local_slug": "D_ECOUPLED_W_EIGHT_D_ECAY_R_EGULARIZATION_Local_reference_2018",
+    "title": "L2 regularization and weight decay regularization are equivalent for standard stochastic gradient descent (when rescaled by the learning rate), but as we demon- strate this is not the case for adaptive gradient algorithms, such as Adam. While common implementations of these algorithms employ L2 regularization (often",
+    "venue": "ICLR",
+    "venue_full": "ICLR",
+    "venue_short": "ICLR",
+    "venue_type": "会议",
+    "year": 2018,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "4b9ce3e2928c0410e59a3d47e9c3ed9127ad98513260185b2e1137ea4aa6b53e",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\ZINUHGEL\\Loshchilov和Hutter - 2018 - Decoupled weight decay regularization.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "CCF会议 B类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 B类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    }
+  ]
+}

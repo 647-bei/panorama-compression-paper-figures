@@ -1,0 +1,486 @@
+{
+  "paper": "Leveraging_Bitstream_Metadata_for_Fast_Accurate_Generalized_Compressed_WACV_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 17,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1. Don’t Spend Megabits, Use MetaBit. Our MetaBit sys- tem takes heavily compressed frames and restores detail. The above example is stored at only 0.039bpp. For each pair, our restoration is shown with a blue border. Our method is able to faithfully restore natural textures (left trees), clothing textures/human appearance (middle woman), and artificial textures (top roof).",
+      "caption_en": "Figure 1. Don’t Spend Megabits, Use MetaBit. Our MetaBit sys- tem takes heavily compressed frames and restores detail. The above example is stored at only 0.039bpp. For each pair, our restoration is shown with a blue border. Our method is able to faithfully restore natural textures (left trees), clothing textures/human appearance (middle woman), and artificial textures (top roof).",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.566,
+        469.015,
+        546.6,
+        532.836
+      ],
+      "content_bbox": [
+        311.241,
+        232.278,
+        542.642,
+        456.969
+      ],
+      "crop_bbox": [
+        311.241,
+        232.278,
+        542.642,
+        456.969
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  77.3% 画面  (7.73 x 7.50 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 7071597 x 6858000 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 1,
+      "caption": "Figure 2. Motion Vectors. Motion vectors resemble downsampled opticalflow.Left:referenceimage.Middle:opticalflow.Right: motionvectorsextractedfromthevideobitstream.Opticalflow was computed with RAFT [11].",
+      "caption_en": "Figure 2. Motion Vectors. Motion vectors resemble downsampled opticalflow.Left:referenceimage.Middle:opticalflow.Right: motionvectorsextractedfromthevideobitstream.Opticalflow was computed with RAFT [11].",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.789,
+        230.053,
+        287.608,
+        271.943
+      ],
+      "content_bbox": [
+        52.095,
+        72.184,
+        284.196,
+        218.667
+      ],
+      "crop_bbox": [
+        52.095,
+        72.184,
+        284.196,
+        218.667
+      ],
+      "original": "figures/original/Fig2_p001.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  84.2% 画面  (10.00 x 6.32 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5777748 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 2,
+      "caption": "Figure 3. MetaBit System Overview. I-Frames are shown in Blue and P-Frames are shown in Pink. Our network takes an input (Orange) in the form of a low-quality Group-of-Pictures and first performs multi-frame correction on the I-Frame. The resulting high-quality I-Frame is used to guide correction of the low-quality P-Frames. The final output of our network (Yellow) is the entire high-quality Group-of-Pictures. Please see Section 3 for an overview of all terminology.",
+      "caption_en": "Figure 3. MetaBit System Overview. I-Frames are shown in Blue and P-Frames are shown in Pink. Our network takes an input (Orange) in the form of a low-quality Group-of-Pictures and first performs multi-frame correction on the I-Frame. The resulting high-quality I-Frame is used to guide correction of the low-quality P-Frames. The final output of our network (Yellow) is the entire high-quality Group-of-Pictures. Please see Section 3 for an overview of all terminology.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        272.784,
+        546.679,
+        314.639
+      ],
+      "content_bbox": [
+        50.333,
+        72.242,
+        544.823,
+        261.474
+      ],
+      "crop_bbox": [
+        50.333,
+        72.242,
+        544.823,
+        261.474
+      ],
+      "original": "figures/original/Fig3_p002.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.17 in\n\n形状统计 (307 个):\n  FREEFORM (5)                 246\n  TEXT_BOX (17)                38\n  PICTURE (13)                 23\n\n矢量形状: 284\n位图图片: 23\n  1.6% 画面  (1.39 x 0.78 in)\n  1.7% 画面  (1.46 x 0.82 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.46 x 0.82 in)\n  1.7% 画面  (1.46 x 0.82 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  ... 共 23 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 3,
+      "caption": "Figure4.GeneralizedQuantizationBlock.Ourbasicblockis designed to be efficient while merging information from the input feature maps and varying quantization data. The block takes the Quantization Parameters (Input QPs) and uses cross-attention to adapt features to varying levels of compression.",
+      "caption_en": "Figure4.GeneralizedQuantizationBlock.Ourbasicblockis designed to be efficient while merging information from the input feature maps and varying quantization data. The block takes the Quantization Parameters (Input QPs) and uses cross-attention to adapt features to varying levels of compression.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        312.262,
+        545.115,
+        365.214
+      ],
+      "content_bbox": [
+        309.974,
+        72.668,
+        545.791,
+        299.586
+      ],
+      "crop_bbox": [
+        309.974,
+        72.668,
+        545.791,
+        299.586
+      ],
+      "original": "figures/original/Fig4_p003.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 12.83 in\n\n形状统计 (107 个):\n  FREEFORM (5)                 95\n  TEXT_BOX (17)                10\n  PICTURE (13)                 2\n\n矢量形状: 105\n位图图片: 2\n  4.6% 画面  (2.80 x 2.80 in)\n  3.5% 画面  (2.30 x 2.58 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table 2. Throughput. We measure throughput (FPS) on an NVIDIA GTX 1080 Ti GPU. Despite having nearly twice as many parameters our network is faster than or on-par with prior works and still able to run on consumer hardware.",
+      "caption_en": "Table 2. Throughput. We measure throughput (FPS) on an NVIDIA GTX 1080 Ti GPU. Despite having nearly twice as many parameters our network is faster than or on-par with prior works and still able to run on consumer hardware.",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.789,
+        191.044,
+        286.64,
+        232.976
+      ],
+      "content_bbox": [
+        50.419,
+        244.459,
+        280.077,
+        311.549
+      ],
+      "crop_bbox": [
+        50.419,
+        244.459,
+        280.077,
+        311.549
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 5,
+      "caption": "Table 3. GAN Scores. The GAN loss allows our network to gener- ate more realistic images than the regression loss alone. Regression loss leads to worse FID scores caused by the smooth, textureless appearance of scene elements. Format is FID ↓/ LPIPS ↓",
+      "caption_en": "Table 3. GAN Scores. The GAN loss allows our network to gener- ate more realistic images than the regression loss alone. Regression loss leads to worse FID scores caused by the smooth, textureless appearance of scene elements. Format is FID ↓/ LPIPS ↓",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.584,
+        191.075,
+        546.602,
+        232.976
+      ],
+      "content_bbox": [
+        332.617,
+        248.227,
+        517.373,
+        303.786
+      ],
+      "crop_bbox": [
+        332.617,
+        248.227,
+        517.373,
+        303.786
+      ],
+      "original": "tables/original/Table3_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure 5. Qualitative Results. Please zoom in to view fine details. Note the increased quality of the MetaBit model over STDF and the enhanced sharpness and textures of the GAN method. This is particularly apparent on the trees (row 1), car (row 2), grass (row 3), and the wood texture (row 4). Additional qualitative results are shown in Appendix F and the attached supplement.",
+      "caption_en": "Figure 5. Qualitative Results. Please zoom in to view fine details. Note the increased quality of the MetaBit model over STDF and the enhanced sharpness and textures of the GAN method. This is particularly apparent on the trees (row 1), car (row 2), grass (row 3), and the wood texture (row 4). Additional qualitative results are shown in Appendix F and the attached supplement.",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.789,
+        367.903,
+        545.115,
+        398.937
+      ],
+      "content_bbox": [
+        50.835,
+        74.397,
+        543.368,
+        355.624
+      ],
+      "crop_bbox": [
+        50.835,
+        74.397,
+        543.368,
+        355.624
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  76.2% 画面  (10.00 x 5.71 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5223817 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Figure6.UVGRate-Distortion.Distortionismeasuredwith PSNR. Using AVC + MetaBit method surpasses recent fully deep- learningcodecsatlowbitrates.Asexpected,theimprovement reduces as bitrate increases. Rate here is “bits-per-pixel” (bpp).",
+      "caption_en": "Figure6.UVGRate-Distortion.Distortionismeasuredwith PSNR. Using AVC + MetaBit method surpasses recent fully deep- learningcodecsatlowbitrates.Asexpected,theimprovement reduces as bitrate increases. Rate here is “bits-per-pixel” (bpp).",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        591.896,
+        546.601,
+        633.889
+      ],
+      "content_bbox": [
+        316.341,
+        401.235,
+        533.117,
+        592.835
+      ],
+      "crop_bbox": [
+        316.341,
+        401.235,
+        533.117,
+        592.835
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.80 in\n\n形状统计 (173 个):\n  FREEFORM (5)                 149\n  TEXT_BOX (17)                24\n\n矢量形状: 173\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 6,
+      "caption": "Table 1 showsourquantitativeresults.WetestSTDFinboththe R1 (3-frame sliding window) and the R3 (7-frame sliding window) setting. Of note here is the RFDA result which de- spite being the most recent compared method made limited gains. This appears to be caused by the larger temporal range",
+      "caption_en": "Table 1 showsourquantitativeresults.WetestSTDFinboththe R1 (3-frame sliding window) and the R3 (7-frame sliding window) setting. Of note here is the RFDA result which de- spite being the most recent compared method made limited gains. This appears to be caused by the larger temporal range",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.503,
+        643.593,
+        546.767,
+        713.383
+      ],
+      "content_bbox": [
+        343.377,
+        405.345,
+        525.339,
+        568.804
+      ],
+      "crop_bbox": [
+        343.377,
+        405.345,
+        525.339,
+        568.804
+      ],
+      "original": "tables/original/Table1_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "Table4.CompressionThroughput.WemeasureFPSonan NVIDIA GTX 2080 Ti GPU compared to recent deep-learning-based codecs on 1080p frames. For encoding, our method uses AVC and thereisnoGPUrequirement.NeRV[56]encodingspeedisnot directly reported but requires training a unique network per video.",
+      "caption_en": "Table4.CompressionThroughput.WemeasureFPSonan NVIDIA GTX 2080 Ti GPU compared to recent deep-learning-based codecs on 1080p frames. For encoding, our method uses AVC and thereisnoGPUrequirement.NeRV[56]encodingspeedisnot directly reported but requires training a unique network per video.",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.816,
+        72.721,
+        286.364,
+        125.67
+      ],
+      "content_bbox": [
+        51.962,
+        140.494,
+        284.017,
+        172.298
+      ],
+      "crop_bbox": [
+        51.962,
+        140.494,
+        284.017,
+        172.298
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 7,
+      "caption": "Table 5. Ablation. Inference FPS is computed on an NVIDIA GTX 1080 Ti for 240p frames, PSNR is computed for H.264 CRF 35.",
+      "caption_en": "Table 5. Ablation. Inference FPS is computed on an NVIDIA GTX 1080 Ti for 240p frames, PSNR is computed for H.264 CRF 35.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.189,
+        72.74,
+        545.113,
+        92.796
+      ],
+      "content_bbox": [
+        310.929,
+        108.204,
+        552.232,
+        206.938
+      ],
+      "crop_bbox": [
+        310.929,
+        108.204,
+        552.232,
+        206.938
+      ],
+      "original": "tables/original/Table5_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Leveraging_Bitstream_Metadata_for_Fast_Accurate_Generalized_Compressed_WACV_2024",
+    "title": "2024-压缩视频质量增强 码流元数据-Leveraging Bitstream Metadata for Fast, Accurate, Generalized Compressed Video Quality Enhancement",
+    "venue": "WACV",
+    "venue_full": "WACV",
+    "venue_short": "WACV",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "78535f569b42a73b704a4b125373005055ebdcbcde47771d90888938879d6708",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\WACV 2024-2024-压缩视频质量增强 码流元数据-Leveraging Bitstream Metadata for Fast, Accurate, Generalized Compressed Video Quality Enhancement.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\8UXNZA8U\\Ehrlich 等 - 2023 - Leveraging Bitstream Metadata for Fast, Accurate, Generalized Compressed Video Quality Enhancement.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 C类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 C类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    }
+  ]
+}

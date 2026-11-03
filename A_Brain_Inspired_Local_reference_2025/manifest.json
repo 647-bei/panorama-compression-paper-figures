@@ -1,0 +1,324 @@
+{
+  "paper": "A_Brain_Inspired_Local_reference_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 8,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Fig.1. Perception-decisionnetworkdiagrambasedonneuralpathway anatomicalalignment",
+      "caption_en": "Fig.1. Perception-decisionnetworkdiagrambasedonneuralpathway anatomicalalignment",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        317.995,
+        563.036,
+        334.932
+      ],
+      "content_bbox": [
+        321.571,
+        201.165,
+        555.058,
+        305.18
+      ],
+      "crop_bbox": [
+        321.571,
+        201.165,
+        555.058,
+        305.18
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 1,
+      "caption": "Fig. 2.The network architecture of the BID agent is primarily composed of the perception network and the decision network. The perception module includes boththedorsalandventralpathways,whichallowthesystemtounderstandandprocessitssurroundings.Thedecisionnetworkconsistsoffivemodulesthat representdifferentregionsoftheprefrontalcortex:themedialprefrontalcortex(MPC),orbitalprefrontalcortex(OPC),caudalprefrontalcortex(CPC),dorsal prefrontalcortex(DPC),andventralprefrontalcortex(VPC).Specifically,theinputtothesystemisanRGBimageft,whichrepresentsthecurrentvisual scene.TheoutputistheactionAt,whichcontrolstheego-vehicle’smaneuveringdirectly.TheactionAtincludesthesteeringangleAs tandaccelerationAa t ofthevehicle,makingBIDabrain-inspiredandendtoendautonomousdrivingmodel.Besides,intheconstructionprocessoftrainingdataset,thedriving actionsandinputframesarepaired.",
+      "caption_en": "Fig. 2.The network architecture of the BID agent is primarily composed of the perception network and the decision network. The perception module includes boththedorsalandventralpathways,whichallowthesystemtounderstandandprocessitssurroundings.Thedecisionnetworkconsistsoffivemodulesthat representdifferentregionsoftheprefrontalcortex:themedialprefrontalcortex(MPC),orbitalprefrontalcortex(OPC),caudalprefrontalcortex(CPC),dorsal prefrontalcortex(DPC),andventralprefrontalcortex(VPC).Specifically,theinputtothesystemisanRGBimageft,whichrepresentsthecurrentvisual scene.TheoutputistheactionAt,whichcontrolstheego-vehicle’smaneuveringdirectly.TheactionAtincludesthesteeringangleAs tandaccelerationAa t ofthevehicle,makingBIDabrain-inspiredandendtoendautonomousdrivingmodel.Besides,intheconstructionprocessoftrainingdataset,thedriving actionsandinputframesarepaired.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        198.606,
+        563.038,
+        260.374
+      ],
+      "content_bbox": [
+        56.288,
+        66.375,
+        555.736,
+        182.097
+      ],
+      "crop_bbox": [
+        56.288,
+        66.375,
+        555.736,
+        182.097
+      ],
+      "original": "figures/original/Fig2_p001.png",
+      "vector": []
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Fig.3.Top:Whentheego-vehicleisdrivingontheroad,eventhoughthe trifficlightisgreen,thevehicleinfronthasstopped,buttheego-vehiclestill brakes.Bottom:Whenthevehicleismovingandencountersatrafficjamin front,itwillautomaitcallybrakeandstop.Thebrakecommandinthefigure isdisplayedinred.",
+      "caption_en": "Fig.3.Top:Whentheego-vehicleisdrivingontheroad,eventhoughthe trifficlightisgreen,thevehicleinfronthasstopped,buttheego-vehiclestill brakes.Bottom:Whenthevehicleismovingandencountersatrafficjamin front,itwillautomaitcallybrakeandstop.Thebrakecommandinthefigure isdisplayedinred.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        242.313,
+        563.036,
+        286.149
+      ],
+      "content_bbox": [
+        313.653,
+        57.358,
+        562.021,
+        228.657
+      ],
+      "crop_bbox": [
+        313.653,
+        57.358,
+        562.021,
+        228.657
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 3,
+      "caption": "Fig.4. BIDarchitectureanalysis.Weanalysefourmainfactorsincluding theinitialstepsizeinventralpathway,thenumberofrecurrentstepindorsal pathway,thepositionfeaturedimensioninVPCandthevectorembedding dimensioninDPC.EachrowpresentshowSRandTLscorechangebasedon BIDwhenthehyperparameterchanges.",
+      "caption_en": "Fig.4. BIDarchitectureanalysis.Weanalysefourmainfactorsincluding theinitialstepsizeinventralpathway,thenumberofrecurrentstepindorsal pathway,thepositionfeaturedimensioninVPCandthevectorembedding dimensioninDPC.EachrowpresentshowSRandTLscorechangebasedon BIDwhenthehyperparameterchanges.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        561.146,
+        563.038,
+        604.981
+      ],
+      "content_bbox": [
+        315.048,
+        453.451,
+        419.74,
+        541.771
+      ],
+      "crop_bbox": [
+        315.048,
+        453.451,
+        419.74,
+        541.771
+      ],
+      "original": "figures/original/Fig4_p003.png",
+      "vector": []
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "TABLEI RESULTSIN TOWN02.THEEXPERTREFERSTOREINFORCEMENTLEARNING [3],WHILE RL-COACHREFERSTO COACHIMITATIONLEARNING.CARLA ISUSEDTOEVALUATEALLMETHODS.3EXPERIMENTWITHVARIOUSRANDOMSEEDSAREUSEDTOCALCULATETHEMEANVALUESANDSTANDARD DEVIATIONS. BETTERPERFORMANCEISINDICATEDBYHIGHERVALUESFORMETRICSMARKEDWITH ↑,WHILELOWERAREPERFERREDFORTHOSE MARKEDWITH ↓.",
+      "caption_en": "TABLEI RESULTSIN TOWN02.THEEXPERTREFERSTOREINFORCEMENTLEARNING [3],WHILE RL-COACHREFERSTO COACHIMITATIONLEARNING.CARLA ISUSEDTOEVALUATEALLMETHODS.3EXPERIMENTWITHVARIOUSRANDOMSEEDSAREUSEDTOCALCULATETHEMEANVALUESANDSTANDARD DEVIATIONS. BETTERPERFORMANCEISINDICATEDBYHIGHERVALUESFORMETRICSMARKEDWITH ↑,WHILELOWERAREPERFERREDFORTHOSE MARKEDWITH ↓.",
+      "caption_zh": "",
+      "caption_bbox": [
+        52.514,
+        58.394,
+        559.491,
+        102.23
+      ],
+      "content_bbox": [
+        63.448,
+        113.001,
+        545.764,
+        172.433
+      ],
+      "crop_bbox": [
+        63.448,
+        113.001,
+        545.764,
+        172.433
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 4,
+      "caption": "TABLEII TOWN05OUTCOMESBASEDONOFFLINEMEASUREMENTS. CARLAISUSEDTOEVALUATEALLMETHODS. 3EXPERIMENTWITHVARIOUSRANDOM SEEDSAREUSEDTOCALCULATETHEMEANVALUESANDSTANDARDDEVIATIONS. BETTERPERFORMANCEISINDICATEDBYHIGHERVALUESFOR METRICSMARKEDWITH ↑,WHILELOWERAREPERFERREDFORTHOSEMARKEDWITH ↓.",
+      "caption_en": "TABLEII TOWN05OUTCOMESBASEDONOFFLINEMEASUREMENTS. CARLAISUSEDTOEVALUATEALLMETHODS. 3EXPERIMENTWITHVARIOUSRANDOM SEEDSAREUSEDTOCALCULATETHEMEANVALUESANDSTANDARDDEVIATIONS. BETTERPERFORMANCEISINDICATEDBYHIGHERVALUESFOR METRICSMARKEDWITH ↑,WHILELOWERAREPERFERREDFORTHOSEMARKEDWITH ↓.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.492,
+        188.723,
+        553.51,
+        223.593
+      ],
+      "content_bbox": [
+        63.448,
+        122.515,
+        545.764,
+        172.433
+      ],
+      "crop_bbox": [
+        63.448,
+        122.515,
+        545.764,
+        172.433
+      ],
+      "original": "tables/original/Table2_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Fig.5.DrivingperformanceandtrainingprogressofBID.AllBIDagentsareevaluatedinLBCRoutesafter30peoch.Topfigure:Thegroundtruthand modelpredictionforsteeringanglesareshowningreenandblue,respectively.Bottomfigure:Theerrorsintrainingprogressaredisplayedevery5epochs, includingthemeanabsoluteerror(MAE)forsteeringandacceleration.Whileothermetricsaretestedwithsinglerandomnumber,wedescribetheoutcome astheaveragedvalueover5testrandomnumber.Forevaluation,theofficalbenchmarkisemployed.",
+      "caption_en": "Fig.5.DrivingperformanceandtrainingprogressofBID.AllBIDagentsareevaluatedinLBCRoutesafter30peoch.Topfigure:Thegroundtruthand modelpredictionforsteeringanglesareshowningreenandblue,respectively.Bottomfigure:Theerrorsintrainingprogressaredisplayedevery5epochs, includingthemeanabsoluteerror(MAE)forsteeringandacceleration.Whileothermetricsaretestedwithsinglerandomnumber,wedescribetheoutcome astheaveragedvalueover5testrandomnumber.Forevaluation,theofficalbenchmarkisemployed.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        289.74,
+        563.035,
+        324.682
+      ],
+      "content_bbox": [
+        47.162,
+        54.623,
+        562.274,
+        278.557
+      ],
+      "crop_bbox": [
+        47.162,
+        54.623,
+        562.274,
+        278.557
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 5,
+      "caption": "TABLEIII CAMERA-BASEDIMITATIONLEARNINGAGENT’S SRONCROWDED ENVIRONMENTS.THEMEANVALUEANDDEVIATIONARECOMPUTED BASEDON 5RANDOMSEEDS. NCC:NOCRASH-CROWDED.TS:TRAIN SCENE.TW:TRAINSCENEANDWEATHERHAVENEVERSEENBEFORE.NS: NEWSCENE.NW:NEWSCENEANDWEATHERHAVENEVERSEENBEFORE. IN EDA, “(E)”DENOTESANASSEMBLYOFITERATIONSETS,WHILE “+” INDICATESTHEADDITIVEJITTERONTHEBENCHMARK.",
+      "caption_en": "TABLEIII CAMERA-BASEDIMITATIONLEARNINGAGENT’S SRONCROWDED ENVIRONMENTS.THEMEANVALUEANDDEVIATIONARECOMPUTED BASEDON 5RANDOMSEEDS. NCC:NOCRASH-CROWDED.TS:TRAIN SCENE.TW:TRAINSCENEANDWEATHERHAVENEVERSEENBEFORE.NS: NEWSCENE.NW:NEWSCENEANDWEATHERHAVENEVERSEENBEFORE. IN EDA, “(E)”DENOTESANASSEMBLYOFITERATIONSETS,WHILE “+” INDICATESTHEADDITIVEJITTERONTHEBENCHMARK.",
+      "caption_zh": "",
+      "caption_bbox": [
+        313.095,
+        342.198,
+        561.919,
+        412.934
+      ],
+      "content_bbox": [
+        314.739,
+        421.767,
+        554.696,
+        503.361
+      ],
+      "crop_bbox": [
+        314.739,
+        421.767,
+        554.696,
+        503.361
+      ],
+      "original": "tables/original/Table3_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Fig.6. ActivationmapsofBIDatanintersectioninTown02showthree highlyactivatedimageareasfromdrivingviewpoints:thelaneshoulderin theright,thecrossingpedestriansinthecenter,andthedrivingareainthe left. The causality between observation and action is demonstrated by a strong braking response (0.8530) due to the presence of pedestrians, despite the “go- straight” command. This highlights BID’s ability to prioritize pedestrian safety overotherfactorsinBID’sdecision-makingprocess.",
+      "caption_en": "Fig.6. ActivationmapsofBIDatanintersectioninTown02showthree highlyactivatedimageareasfromdrivingviewpoints:thelaneshoulderin theright,thecrossingpedestriansinthecenter,andthedrivingareainthe left. The causality between observation and action is demonstrated by a strong braking response (0.8530) due to the presence of pedestrians, despite the “go- straight” command. This highlights BID’s ability to prioritize pedestrian safety overotherfactorsinBID’sdecision-makingprocess.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        474.594,
+        300.022,
+        536.362
+      ],
+      "content_bbox": [
+        50.227,
+        295.34,
+        298.419,
+        460.761
+      ],
+      "crop_bbox": [
+        50.227,
+        295.34,
+        298.419,
+        460.761
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 6,
+      "caption": "TABLEIV ANALYZING BID’SOUTPUTEFFECTANDINFRACTIONSINSCENENEVERSEENITBEFOREWITHALOTOFPEOPLE. IP:INFRACTIONPENALTY. CWO:COLLISIONWITHOTHERS.CWP:COLLISIONWITHPEDESTRIAN. CWV:COLLISIONWITHVEHILE. IRL:INFRACTIONWITHREDLIGHT.ABD: AGENTBLOCKED.5TESTRANDOMNUMBERSEEDSAREEMPLOYEDTODISPLAYTHEMEANVALUEANDDEVIATION.",
+      "caption_en": "TABLEIV ANALYZING BID’SOUTPUTEFFECTANDINFRACTIONSINSCENENEVERSEENITBEFOREWITHALOTOFPEOPLE. IP:INFRACTIONPENALTY. CWO:COLLISIONWITHOTHERS.CWP:COLLISIONWITHPEDESTRIAN. CWV:COLLISIONWITHVEHILE. IRL:INFRACTIONWITHREDLIGHT.ABD: AGENTBLOCKED.5TESTRANDOMNUMBERSEEDSAREEMPLOYEDTODISPLAYTHEMEANVALUEANDDEVIATION.",
+      "caption_zh": "",
+      "caption_bbox": [
+        55.033,
+        58.394,
+        556.968,
+        93.263
+      ],
+      "content_bbox": [
+        0.0,
+        102.097,
+        563.041,
+        748.29
+      ],
+      "crop_bbox": [
+        0.0,
+        102.097,
+        563.041,
+        748.29
+      ],
+      "original": "tables/original/Table4_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "A_Brain_Inspired_Local_reference_2025",
+    "title": "A Brain-Inspired Perception-Decision Driving Model Based on Neural Pathway Anatomical Alignment",
+    "venue": "arXiv",
+    "venue_full": "arXiv",
+    "venue_short": "arXiv",
+    "venue_type": "期刊",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "57c5ffc19ce0c6bb48e225dccb4769022f7548750a88bc43d92f9dc6a04a63e7",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\Y8EID8IM\\Wang 等 - 2025 - A brain-inspired perception-decision driving model based on neural pathway anatomical alignment.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "",
+    "cas_display": "",
+    "ccf_display": "CCF：未收录（2026目录）"
+  }
+}

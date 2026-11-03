@@ -1,0 +1,616 @@
+{
+  "paper": "MDEformer_Mixed_Difference_Equation_Inspired_TNNLS_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 13,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig.1. ExamplesofartifactsinvideoscompressedbyH.265/HEVC codingalgorithm.ThetwovideosequenciesarefromMFQE2.0dataset, BlowingBubbles(416×240,up),andRaceHorses(416×240,down).",
+      "caption_en": "Fig.1. ExamplesofartifactsinvideoscompressedbyH.265/HEVC codingalgorithm.ThetwovideosequenciesarefromMFQE2.0dataset, BlowingBubbles(416×240,up),andRaceHorses(416×240,down).",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        216.856,
+        300.014,
+        242.759
+      ],
+      "content_bbox": [
+        50.506,
+        54.067,
+        298.472,
+        212.938
+      ],
+      "crop_bbox": [
+        50.506,
+        54.067,
+        298.472,
+        212.938
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.58 in\n\n形状统计 (103 个):\n  FREEFORM (5)                 71\n  AUTO_SHAPE (1)               18\n  PICTURE (13)                 14\n\n矢量形状: 89\n位图图片: 14\n  2.9% 画面  (1.83 x 1.83 in)\n  2.9% 画面  (1.83 x 1.83 in)\n  2.9% 画面  (1.83 x 1.83 in)\n  2.9% 画面  (1.83 x 1.83 in)\n  22.8% 画面  (6.72 x 3.88 in)\n  2.9% 画面  (1.83 x 1.82 in)\n  2.9% 画面  (1.80 x 1.82 in)\n  22.8% 画面  (6.72 x 3.88 in)\n  2.9% 画面  (1.83 x 1.83 in)\n  2.9% 画面  (1.83 x 1.83 in)\n  ... 共 14 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Fig.2. OverviewoftheproposedMDEformer.MDEformerconsistsofanSTDF-R3baselineandatransformer.CCAmodulesareleveragedtoestablish long-rangedependenciesbetweenencodersanddecodersofthetransformerundertheguidanceofMDEgraphicalconcept,wherePBSmodulesareinserted asfeedforwardnetworks.",
+      "caption_en": "Fig.2. OverviewoftheproposedMDEformer.MDEformerconsistsofanSTDF-R3baselineandatransformer.CCAmodulesareleveragedtoestablish long-rangedependenciesbetweenencodersanddecodersofthetransformerundertheguidanceofMDEgraphicalconcept,wherePBSmodulesareinserted asfeedforwardnetworks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        311.193,
+        563.024,
+        337.096
+      ],
+      "content_bbox": [
+        65.102,
+        54.067,
+        546.891,
+        309.098
+      ],
+      "crop_bbox": [
+        65.102,
+        54.067,
+        546.891,
+        309.098
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.11 in\n\n形状统计 (309 个):\n  FREEFORM (5)                 300\n  PICTURE (13)                 9\n\n矢量形状: 300\n位图图片: 9\n  3.5% 画面  (2.40 x 1.39 in)\n  3.5% 画面  (2.40 x 1.39 in)\n  3.5% 画面  (2.40 x 1.39 in)\n  3.2% 画面  (2.30 x 1.33 in)\n  3.2% 画面  (2.30 x 1.33 in)\n  3.2% 画面  (2.30 x 1.33 in)\n  0.7% 画面  (0.88 x 0.79 in)\n  0.7% 画面  (0.87 x 0.79 in)\n  0.7% 画面  (0.87 x 0.79 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Fig.3. (a)Graphicalconceptofsecond-orderMDEversus(b)connection betweentheCCAmoduleandtheencoderanddecoderoftheproposed MDEformer.",
+      "caption_en": "Fig.3. (a)Graphicalconceptofsecond-orderMDEversus(b)connection betweentheCCAmoduleandtheencoderanddecoderoftheproposed MDEformer.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        168.487,
+        563.028,
+        194.389
+      ],
+      "content_bbox": [
+        334.367,
+        54.067,
+        540.638,
+        164.568
+      ],
+      "crop_bbox": [
+        334.367,
+        54.067,
+        540.638,
+        164.568
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.19 in\n\n形状统计 (428 个):\n  FREEFORM (5)                 419\n  AUTO_SHAPE (1)               9\n\n矢量形状: 428\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 5,
+      "caption": "Fig.4. StructureoftheCCAmodule,inwhichtheDConvrepresents depthwiseconvolutionwithasizeof3×3.",
+      "caption_en": "Fig.4. StructureoftheCCAmodule,inwhichtheDConvrepresents depthwiseconvolutionwithasizeof3×3.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        226.369,
+        300.014,
+        243.306
+      ],
+      "content_bbox": [
+        62.409,
+        54.066,
+        286.57,
+        222.451
+      ],
+      "crop_bbox": [
+        62.409,
+        54.066,
+        286.57,
+        222.451
+      ],
+      "original": "figures/original/Fig4_p005.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.04 in\n\n形状统计 (303 个):\n  FREEFORM (5)                 268\n  AUTO_SHAPE (1)               35\n\n矢量形状: 303\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Fig.5. StructureofthePBSmodule.",
+      "caption_en": "Fig.5. StructureofthePBSmodule.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        191.98,
+        438.568,
+        199.95
+      ],
+      "content_bbox": [
+        313.003,
+        54.066,
+        562.003,
+        185.073
+      ],
+      "crop_bbox": [
+        313.003,
+        54.066,
+        562.003,
+        185.073
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.06 in\n\n形状统计 (633 个):\n  FREEFORM (5)                 397\n  AUTO_SHAPE (1)               236\n\n矢量形状: 633\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 7,
+      "caption": "Fig.6. VisualresultsofdifferentcompressedvideoqualityenhancementmethodsatQP=37.Thesourcesofthevideoframesinthevisualizationresults fromtoptobottomare:RaceHorses(832×480),FourPeople(1280×720),Johnny(1280×720),BQMall(832×480),BasketballDrill(832×480), respectively.",
+      "caption_en": "Fig.6. VisualresultsofdifferentcompressedvideoqualityenhancementmethodsatQP=37.Thesourcesofthevideoframesinthevisualizationresults fromtoptobottomare:RaceHorses(832×480),FourPeople(1280×720),Johnny(1280×720),BQMall(832×480),BasketballDrill(832×480), respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        361.475,
+        563.031,
+        388.356
+      ],
+      "content_bbox": [
+        54.923,
+        54.066,
+        557.069,
+        359.045
+      ],
+      "crop_bbox": [
+        54.923,
+        54.066,
+        557.069,
+        359.045
+      ],
+      "original": "figures/original/Fig6_p007.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  81.0% 画面  (10.00 x 6.07 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5554638 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 8,
+      "caption": "TABLEI",
+      "caption_en": "TABLEI",
+      "caption_zh": "",
+      "caption_bbox": [
+        290.805,
+        58.285,
+        321.187,
+        66.255
+      ],
+      "content_bbox": [
+        56.737,
+        68.793,
+        552.465,
+        376.629
+      ],
+      "crop_bbox": [
+        56.737,
+        68.793,
+        552.465,
+        376.629
+      ],
+      "original": "tables/original/Table1_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 8,
+      "caption": "TABLEII AVERAGED PVD(dB)AND SD(dB)OF TEST SEQUENCES FOR PSNRAT QP = 27, 32, 37",
+      "caption_en": "TABLEII AVERAGED PVD(dB)AND SD(dB)OF TEST SEQUENCES FOR PSNRAT QP = 27, 32, 37",
+      "caption_zh": "",
+      "caption_bbox": [
+        341.332,
+        401.568,
+        533.676,
+        430.46
+      ],
+      "content_bbox": [
+        327.212,
+        437.101,
+        545.004,
+        534.089
+      ],
+      "crop_bbox": [
+        327.212,
+        437.101,
+        545.004,
+        534.089
+      ],
+      "original": "tables/original/Table2_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 9,
+      "caption": "Fig.7. PSNRcurvesofHEVCbaseline,STDF-R3L,andoursontwotestsequencesatQP=37.Videoindexoftop:Kimonoandbottom:FourPeople.",
+      "caption_en": "Fig.7. PSNRcurvesofHEVCbaseline,STDF-R3L,andoursontwotestsequencesatQP=37.Videoindexoftop:Kimonoandbottom:FourPeople.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.959,
+        339.996,
+        555.511,
+        348.944
+      ],
+      "content_bbox": [
+        107.802,
+        54.85,
+        510.194,
+        339.996
+      ],
+      "crop_bbox": [
+        107.802,
+        54.85,
+        510.194,
+        339.996
+      ],
+      "original": "figures/original/Fig7_p009.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  94.5% 画面  (10.00 x 7.09 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6480313 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 9,
+      "caption": "Fig.8. Rate-distortionperformanceonvideoindex:KristenAndSara,Trafic, BQTerrace,FourPeople.",
+      "caption_en": "Fig.8. Rate-distortionperformanceonvideoindex:KristenAndSara,Trafic, BQTerrace,FourPeople.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.973,
+        593.079,
+        563.028,
+        610.016
+      ],
+      "content_bbox": [
+        48.959,
+        196.807,
+        562.308,
+        589.587
+      ],
+      "crop_bbox": [
+        48.959,
+        196.807,
+        562.308,
+        589.587
+      ],
+      "original": "figures/original/Fig8_p009.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.23 in\n\n形状统计 (15 个):\n  TEXT_BOX (17)                7\n  PICTURE (13)                 7\n  FREEFORM (5)                 1\n\n矢量形状: 8\n位图图片: 7\n  12.0% 画面  (4.32 x 3.80 in)\n  12.0% 画面  (4.33 x 3.80 in)\n  4.8% 画面  (1.73 x 3.80 in)\n  0.1% 画面  (10.36 x 0.01 in)\n  12.4% 画面  (4.02 x 4.21 in)\n  10.4% 画面  (2.42 x 5.90 in)\n  5.0% 画面  (4.02 x 1.69 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 10,
+      "caption": "TABLEIII",
+      "caption_en": "TABLEIII",
+      "caption_zh": "",
+      "caption_bbox": [
+        156.644,
+        58.285,
+        192.334,
+        66.255
+      ],
+      "content_bbox": [
+        66.173,
+        94.288,
+        280.016,
+        153.864
+      ],
+      "crop_bbox": [
+        66.173,
+        94.288,
+        280.016,
+        153.864
+      ],
+      "original": "tables/original/Table3_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 10,
+      "caption": "TABLEIV",
+      "caption_en": "TABLEIV",
+      "caption_zh": "",
+      "caption_bbox": [
+        156.421,
+        171.928,
+        192.557,
+        179.898
+      ],
+      "content_bbox": [
+        49.159,
+        182.437,
+        300.018,
+        247.583
+      ],
+      "crop_bbox": [
+        49.159,
+        182.437,
+        300.018,
+        247.583
+      ],
+      "original": "tables/original/Table4_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 10,
+      "caption": "TABLEV ABLATION STUDYOFTHE FRAME ALIGNMENT METHODS",
+      "caption_en": "TABLEV ABLATION STUDYOFTHE FRAME ALIGNMENT METHODS",
+      "caption_zh": "",
+      "caption_bbox": [
+        76.286,
+        265.648,
+        272.696,
+        285.573
+      ],
+      "content_bbox": [
+        67.826,
+        285.123,
+        278.362,
+        341.304
+      ],
+      "crop_bbox": [
+        67.826,
+        285.123,
+        278.362,
+        341.304
+      ],
+      "original": "tables/original/Table5_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 10,
+      "caption": "TABLEVI COMPARISONOF INFERENCE SPEEDSBY MEANSOF FRAMES PER SECOND (FPS)EVALUATION METRICS",
+      "caption_en": "TABLEVI COMPARISONOF INFERENCE SPEEDSBY MEANSOF FRAMES PER SECOND (FPS)EVALUATION METRICS",
+      "caption_zh": "",
+      "caption_bbox": [
+        70.903,
+        359.368,
+        278.079,
+        388.26
+      ],
+      "content_bbox": [
+        65.131,
+        394.702,
+        281.057,
+        445.314
+      ],
+      "crop_bbox": [
+        65.131,
+        394.702,
+        281.057,
+        445.314
+      ],
+      "original": "tables/original/Table6_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "MDEformer_Mixed_Difference_Equation_Inspired_TNNLS_2025",
+    "title": "MDEformer: Mixed Difference Equation Inspired Transformer for Compressed Video Quality Enhancement",
+    "venue": "TNNLS",
+    "venue_full": "TNNLS",
+    "venue_short": "TNNLS",
+    "venue_type": "期刊",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://www.ieee.org/publications/rights/index.html",
+    "pdf_url": "https://www.ieee.org/publications/rights/index.html",
+    "access": "local_pdf",
+    "source_sha256": "81fc40155709d78bd051316aa75c2add7add43f5e89fb4f7589ec6d57bd81ab1",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\6MBVXXZK\\TNNLS 2025MDEformer：用于压缩视频质量增强的混合差分方程启发的转换器.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\9DUIR4MQ\\TNNLS 2025MDEformer：用于压缩视频质量增强的混合差分方程启发的转换器.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 1区 · Top（2025）",
+    "cas_display": "中科院 1区 · Top（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    }
+  ]
+}

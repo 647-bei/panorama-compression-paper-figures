@@ -1,0 +1,576 @@
+{
+  "paper": "DreamUHD_Frequency_Enhanced_Variational_Autoencoder_for_AAAI_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 9,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure1:Theimpactofdifferentresamplingmethodson UHDimagerestoration.Wepresenttherestorationresults usingLanczosinterpolation,PixelShuffle,learnableresam- plingoperators(Yuetal.2024),andourVAE-basedre- sampling,alongwiththeresidualsbetweentheresultsand groundtruthintheFourieramplitudespectrum.Itisindi- cated that previous resampling methods not only lead to in- consistencies in the final restoration but also result in signif- icant loss of high-frequency information.",
+      "caption_en": "Figure1:Theimpactofdifferentresamplingmethodson UHDimagerestoration.Wepresenttherestorationresults usingLanczosinterpolation,PixelShuffle,learnableresam- plingoperators(Yuetal.2024),andourVAE-basedre- sampling,alongwiththeresidualsbetweentheresultsand groundtruthintheFourieramplitudespectrum.Itisindi- cated that previous resampling methods not only lead to in- consistencies in the final restoration but also result in signif- icant loss of high-frequency information.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        315.251,
+        558.015,
+        412.886
+      ],
+      "content_bbox": [
+        319.5,
+        216.001,
+        557.999,
+        305.174
+      ],
+      "crop_bbox": [
+        319.5,
+        216.001,
+        557.999,
+        305.174
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  49.9% 画面  (10.00 x 3.74 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2: An overview of the proposed framework FEVAE-UHD. It consists of three main components: the frozen FE-VAE, the WaveletTransform-basedAdapter,andthearbitraryrestorationnetworkIRNet.Inthisstage,FEVAE-UHDtrainingisbased on the image restoration task.",
+      "caption_en": "Figure 2: An overview of the proposed framework FEVAE-UHD. It consists of three main components: the frozen FE-VAE, the WaveletTransform-basedAdapter,andthearbitraryrestorationnetworkIRNet.Inthisstage,FEVAE-UHDtrainingisbased on the image restoration task.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        297.265,
+        558.019,
+        329.146
+      ],
+      "content_bbox": [
+        127.072,
+        54.375,
+        474.782,
+        281.309
+      ],
+      "crop_bbox": [
+        127.072,
+        54.375,
+        474.782,
+        281.309
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.74 in\n\n形状统计 (536 个):\n  FREEFORM (5)                 318\n  TEXT_BOX (17)                185\n  PICTURE (13)                 33\n\n矢量形状: 503\n位图图片: 33\n  0.4% 画面  (0.91 x 0.52 in)\n  0.4% 画面  (0.91 x 0.52 in)\n  0.1% 画面  (0.50 x 0.28 in)\n  0.1% 画面  (0.50 x 0.28 in)\n  0.3% 画面  (0.56 x 0.56 in)\n  0.3% 画面  (0.61 x 0.61 in)\n  0.2% 画面  (0.67 x 0.38 in)\n  0.2% 画面  (0.67 x 0.38 in)\n  0.9% 画面  (1.33 x 0.75 in)\n  0.2% 画面  (0.67 x 0.38 in)\n  ... 共 33 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure3:Frequency-EnhancedVAE.Inthefirststage, wetrainitusingareconstructiontask.Itconsistsof astackofFE-blocks,eachcontainingtwokeycompo- nents:Space-FrequencyAdaptiveDecomposition(SFAD) and Frequency-Aware Feature Extraction (FAFE).",
+      "caption_en": "Figure3:Frequency-EnhancedVAE.Inthefirststage, wetrainitusingareconstructiontask.Itconsistsof astackofFE-blocks,eachcontainingtwokeycompo- nents:Space-FrequencyAdaptiveDecomposition(SFAD) and Frequency-Aware Feature Extraction (FAFE).",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        158.776,
+        292.514,
+        212.574
+      ],
+      "content_bbox": [
+        55.406,
+        54.286,
+        291.539,
+        147.802
+      ],
+      "crop_bbox": [
+        55.406,
+        54.286,
+        291.539,
+        147.802
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.35 in\n\n形状统计 (152 个):\n  FREEFORM (5)                 106\n  TEXT_BOX (17)                39\n  PICTURE (13)                 7\n\n矢量形状: 145\n位图图片: 7\n  0.4% 画面  (0.73 x 0.41 in)\n  0.4% 画面  (0.73 x 0.41 in)\n  0.4% 画面  (0.73 x 0.41 in)\n  0.4% 画面  (0.73 x 0.41 in)\n  5.2% 画面  (2.43 x 1.54 in)\n  5.2% 画面  (2.43 x 1.54 in)\n  2.3% 画面  (1.61 x 1.02 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table 1: Quantitative results of image dehazing.",
+      "caption_en": "Table 1: Quantitative results of image dehazing.",
+      "caption_zh": "",
+      "caption_bbox": [
+        77.973,
+        172.675,
+        268.535,
+        182.638
+      ],
+      "content_bbox": [
+        56.392,
+        54.498,
+        290.108,
+        161.42
+      ],
+      "crop_bbox": [
+        56.392,
+        54.498,
+        290.108,
+        161.42
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table 2: Quantitative results of image deblurring.",
+      "caption_en": "Table 2: Quantitative results of image deblurring.",
+      "caption_zh": "",
+      "caption_bbox": [
+        75.204,
+        315.124,
+        271.306,
+        325.087
+      ],
+      "content_bbox": [
+        61.681,
+        196.947,
+        284.819,
+        303.929
+      ],
+      "crop_bbox": [
+        61.681,
+        196.947,
+        284.819,
+        303.929
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 5,
+      "caption": "Table3:Quantitativeresultsoflow-lightimageenhance- ment.",
+      "caption_en": "Table3:Quantitativeresultsoflow-lightimageenhance- ment.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        184.631,
+        558.015,
+        205.553
+      ],
+      "content_bbox": [
+        332.344,
+        54.498,
+        545.156,
+        174.055
+      ],
+      "crop_bbox": [
+        332.344,
+        54.498,
+        545.156,
+        174.055
+      ],
+      "original": "tables/original/Table3_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 5,
+      "caption": "Table 4: Quantitative results of image demoir´eing.",
+      "caption_en": "Table 4: Quantitative results of image demoir´eing.",
+      "caption_zh": "",
+      "caption_bbox": [
+        338.766,
+        313.837,
+        538.735,
+        323.849
+      ],
+      "content_bbox": [
+        332.344,
+        219.621,
+        545.156,
+        303.929
+      ],
+      "crop_bbox": [
+        332.344,
+        219.621,
+        545.156,
+        303.929
+      ],
+      "original": "tables/original/Table4_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 5,
+      "caption": "Figure 5 visually demonstrates our method’s superiorabilitytorestoredetailslikewalltextandlicense plate numbers.",
+      "caption_en": "Figure 5 visually demonstrates our method’s superiorabilitytorestoredetailslikewalltextandlicense plate numbers.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        466.305,
+        292.514,
+        498.185
+      ],
+      "content_bbox": [
+        319.5,
+        507.755,
+        558.53,
+        606.123
+      ],
+      "crop_bbox": [
+        319.5,
+        507.755,
+        558.53,
+        606.123
+      ],
+      "original": "tables/original/Table5_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 5,
+      "caption": "Table 6: Ablation on FE-block. FLOPs are computed based on an input size of 256 × 256.",
+      "caption_en": "Table 6: Ablation on FE-block. FLOPs are computed based on an input size of 256 × 256.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        472.765,
+        558.015,
+        493.687
+      ],
+      "content_bbox": [
+        319.95,
+        414.367,
+        557.55,
+        461.208
+      ],
+      "crop_bbox": [
+        319.95,
+        414.367,
+        557.55,
+        461.208
+      ],
+      "original": "tables/original/Table6_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 5,
+      "caption": "Table 7: Ablation on FE-block.",
+      "caption_en": "Table 7: Ablation on FE-block.",
+      "caption_zh": "",
+      "caption_bbox": [
+        376.748,
+        550.212,
+        500.758,
+        560.175
+      ],
+      "content_bbox": [
+        319.95,
+        414.367,
+        557.55,
+        461.208
+      ],
+      "crop_bbox": [
+        319.95,
+        414.367,
+        557.55,
+        461.208
+      ],
+      "original": "tables/original/Table7_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 5,
+      "caption": "Table 8: Ablation on Wavelet Transform-based Adapter.",
+      "caption_en": "Table 8: Ablation on Wavelet Transform-based Adapter.",
+      "caption_zh": "",
+      "caption_bbox": [
+        327.149,
+        616.699,
+        550.36,
+        626.662
+      ],
+      "content_bbox": [
+        319.95,
+        414.367,
+        557.55,
+        461.208
+      ],
+      "crop_bbox": [
+        319.95,
+        414.367,
+        557.55,
+        461.208
+      ],
+      "original": "tables/original/Table8_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Figure 4: Image dehazing on UHD-Haze. FEVAE-UHD generates results with minimal haze residue.",
+      "caption_en": "Figure 4: Image dehazing on UHD-Haze. FEVAE-UHD generates results with minimal haze residue.",
+      "caption_zh": "",
+      "caption_bbox": [
+        104.976,
+        144.389,
+        507.043,
+        154.352
+      ],
+      "content_bbox": [
+        117.789,
+        53.999,
+        485.712,
+        131.322
+      ],
+      "crop_bbox": [
+        117.789,
+        53.999,
+        485.712,
+        131.322
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  28.2% 画面  (10.00 x 2.11 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure 5: Image deblurring on UHD-Blur. FEVAE-UHD generates results with the sharpest details.",
+      "caption_en": "Figure 5: Image deblurring on UHD-Blur. FEVAE-UHD generates results with the sharpest details.",
+      "caption_zh": "",
+      "caption_bbox": [
+        108.557,
+        260.914,
+        503.461,
+        270.877
+      ],
+      "content_bbox": [
+        104.976,
+        144.389,
+        507.043,
+        247.847
+      ],
+      "crop_bbox": [
+        104.976,
+        144.389,
+        507.043,
+        247.847
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  34.4% 画面  (10.00 x 2.58 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Figure 6: Low-light image enhancement on UHD-LL. FEVAE-UHD generates results with the most natural color fidelity.",
+      "caption_en": "Figure 6: Low-light image enhancement on UHD-LL. FEVAE-UHD generates results with the most natural color fidelity.",
+      "caption_zh": "",
+      "caption_bbox": [
+        64.04,
+        378.371,
+        547.983,
+        388.334
+      ],
+      "content_bbox": [
+        108.557,
+        260.914,
+        503.461,
+        365.304
+      ],
+      "crop_bbox": [
+        108.557,
+        260.914,
+        503.461,
+        365.304
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  35.4% 画面  (10.00 x 2.65 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "DreamUHD_Frequency_Enhanced_Variational_Autoencoder_for_AAAI_2025",
+    "title": "DreamUHD: Frequency Enhanced Variational Autoencoder for Ultra-High-Definition Image Restoration",
+    "venue": "AAAI",
+    "venue_full": "AAAI",
+    "venue_short": "AAAI",
+    "venue_type": "会议",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "d48582684455e0469e08a1827fef31763fdd8d83620264d345ae7fd36ffcc9ae",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\AAAI 2025-2025-UHD图像恢复 频率增强VAE-DreamUHD Frequency Enhanced Variational Autoencoder for Ultra-High-Definition Image Restoration.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\V9U7T2CV\\Liu 等 - DreamUHD Frequency Enhanced Variational Autoencoder for Ultra-High-Definition Image Restoration.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    }
+  ]
+}

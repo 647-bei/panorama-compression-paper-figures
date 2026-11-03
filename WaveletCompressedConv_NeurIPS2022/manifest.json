@@ -29,19 +29,7 @@
         195.042
       ],
       "original": "figures/original/Fig1_p001.png",
-      "vector": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 7.84 in\n\n形状统计 (82 个):\n  FREEFORM (5)                 72\n  TEXT_BOX (17)                10\n\n矢量形状: 82\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 82 draws 27 fs 1 polys 1 rings 0 text 10 images 0 inline 0 canvas 1948 1145\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\WaveletCompressedConv_NeurIPS2022\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\WaveletCompressedConv_NeurIPS2022\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 7.84 in\n\n形状统计 (82 个):\n  FREEFORM (5)                 72\n  TEXT_BOX (17)                10\n\n矢量形状: 82\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "figure",
@@ -69,19 +57,8 @@
         165.623
       ],
       "original": "figures/original/Fig2_p004.png",
-      "vector": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 3.31 in\n\n形状统计 (49 个):\n  FREEFORM (5)                 31\n  PICTURE (13)                 13\n  TEXT_BOX (17)                5\n\n矢量形状: 36\n位图图片: 13\n  4.0% 画面  (1.88 x 0.94 in)\n  4.0% 画面  (1.88 x 0.94 in)\n  4.0% 画面  (1.88 x 0.94 in)\n  4.1% 画面  (1.88 x 0.96 in)\n  4.1% 画面  (1.88 x 0.96 in)\n  4.1% 画面  (1.88 x 0.96 in)\n  4.1% 画面  (1.88 x 0.96 in)\n  4.1% 画面  (1.88 x 0.96 in)\n  4.1% 画面  (1.88 x 0.96 in)\n  4.1% 画面  (1.88 x 0.96 in)\n  ... 共 13 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 49 draws 25 fs 6 polys 6 rings 0 text 5 images 0 inline 13 canvas 1948 483\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\WaveletCompressedConv_NeurIPS2022\\figures\\vector\\Fig2\\Fig2.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\WaveletCompressedConv_NeurIPS2022\\figures\\vector\\Fig2\\Fig2.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 3.31 in\n\n形状统计 (49 个):\n  FREEFORM (5)                 31\n  PICTURE (13)                 13\n  TEXT_BOX (17)                5\n\n矢量形状: 36\n位图图片: 13\n  4.0% 画面  (1.88 x 0.94 in)\n  4.0% 画面  (1.88 x 0.94 in)\n  4.0% 画面  (1.88 x 0.94 in)\n  4.1% 画面  (1.88 x 0.96 in)\n  4.1% 画面  (1.88 x 0.96 in)\n  4.1% 画面  (1.88 x 0.96 in)\n  4.1% 画面  (1.88 x 0.96 in)\n  4.1% 画面  (1.88 x 0.96 in)\n  4.1% 画面  (1.88 x 0.96 in)\n  4.1% 画面  (1.88 x 0.96 in)\n  ... 共 13 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "figure",
@@ -109,59 +86,8 @@
         288.761
       ],
       "original": "figures/original/Fig3_p006.png",
-      "vector": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\WaveletCompressedConv_NeurIPS2022\\figures\\vector\\Fig3\\Fig3.svg (1223x861 -> 1223x861 px, scale 1.0, 11331 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 2,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  93.9% 画面  (10.00 x 7.04 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6437435 px\n"
-        }
-      ]
-    },
-    {
-      "kind": "figure",
-      "label": "Fig4",
-      "page": 7,
-      "caption": "Figure4: ValidationresultsforCityscapesusing DeepLabV3plus(MobileNetV2) compared to BOPs for different bit-rate quantizations and WCC conﬁgurations.",
-      "caption_en": "Figure4: ValidationresultsforCityscapesusing DeepLabV3plus(MobileNetV2) compared to BOPs for different bit-rate quantizations and WCC conﬁgurations.",
-      "caption_zh": "",
-      "caption_bbox": [
-        285.732,
-        644.897,
-        504.172,
-        676.729
-      ],
-      "content_bbox": [
-        320.772,
-        513.125,
-        496.514,
-        635.154
-      ],
-      "crop_bbox": [
-        320.772,
-        513.125,
-        496.514,
-        635.154
-      ],
-      "original": "figures/original/Fig4_p007.png",
-      "vector": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ],
-      "vector_mode": "pdf_vector",
-      "vector_exit_code": 0,
-      "vector_log_tail": "幻灯片: 13.33 x 9.30 in\n\n形状统计 (69 个):\n  FREEFORM (5)                 53\n  TEXT_BOX (17)                16\n\n矢量形状: 69\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nops 69 draws 32 fs 1 polys 1 rings 0 text 16 images 0 inline 0 canvas 1948 1358\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\WaveletCompressedConv_NeurIPS2022\\figures\\vector\\Fig4\\Fig4.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\WaveletCompressedConv_NeurIPS2022\\figures\\vector\\Fig4\\Fig4.pptx\n\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 13.33 x 9.30 in\n\n形状统计 (69 个):\n  FREEFORM (5)                 53\n  TEXT_BOX (17)                16\n\n矢量形状: 69\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": [],
+      "vector_mode": "compact_raster_wrapper"
     },
     {
       "kind": "table",
@@ -197,26 +123,26 @@
       "kind": "table",
       "label": "Table2",
       "page": 7,
-      "caption": "Table2:ValidationresultsforPascalVOCus- ingDeepLabV3plus(MobileNetV2).Degrada- tion from the baseline is in parentheses.",
-      "caption_en": "Table2:ValidationresultsforPascalVOCus- ingDeepLabV3plus(MobileNetV2).Degrada- tion from the baseline is in parentheses.",
+      "caption": "Table 2 presents the results for Pascal VOC. Inrelativedegradation,[46]experienced adropof∼0.041between4bit/8bitand 4bit/4bit.In contrast,ourmethodexperi- ences a ∼0.014 drop when applying 50% compression, achieving an equivalent score while using a worse baseline.Figure 4 and Figure 5 compare the results for Cityscapes with different compression conﬁgurations.Note that we show compression rates that are computationally equal to",
+      "caption_en": "Table 2 presents the results for Pascal VOC. Inrelativedegradation,[46]experienced adropof∼0.041between4bit/8bitand 4bit/4bit.In contrast,ourmethodexperi- ences a ∼0.014 drop when applying 50% compression, achieving an equivalent score while using a worse baseline.Figure 4 and Figure 5 compare the results for Cityscapes with different compression conﬁgurations.Note that we show compression rates that are computationally equal to",
       "caption_zh": "",
       "caption_bbox": [
-        313.613,
-        78.979,
-        505.656,
-        110.835
+        107.641,
+        636.156,
+        504.001,
+        722.402
       ],
       "content_bbox": [
-        314.317,
-        201.165,
-        501.363,
-        273.37
+        323.076,
+        513.125,
+        496.514,
+        610.023
       ],
       "crop_bbox": [
-        314.317,
-        201.165,
-        501.363,
-        273.37
+        323.076,
+        513.125,
+        496.514,
+        610.023
       ],
       "original": "tables/original/Table2_p007.png",
       "vector": [],
@@ -249,19 +175,7 @@
         208.998
       ],
       "original": "figures/original/Fig5_p008.png",
-      "vector": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ],
-      "vector_mode": "raster_trace_svg+svg_pptx_wrapper",
-      "vector_exit_code": 0,
-      "vector_log_tail": "saved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\WaveletCompressedConv_NeurIPS2022\\figures\\vector\\Fig5\\Fig5.svg (1558x548 -> 1558x548 px, scale 1.0, 2406 paths, 0 images)\n",
-      "vector_qa": [
-        {
-          "verify_pptx_code": 0,
-          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  46.9% 画面  (10.00 x 3.52 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
-        }
-      ]
+      "vector": []
     },
     {
       "kind": "table",
@@ -308,15 +222,15 @@
       ],
       "content_bbox": [
         302.209,
-        300.194,
+        198.675,
         498.861,
-        337.155
+        239.572
       ],
       "crop_bbox": [
         302.209,
-        300.194,
+        198.675,
         498.861,
-        337.155
+        239.572
       ],
       "original": "tables/original/Table4_p009.png",
       "vector": [],
@@ -329,56 +243,31 @@
     "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
     "LaTeX tables generated by tools/build_latex_tables.py."
   ],
-  "vectorized": [
-    {
-      "label": "Fig1",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig1/Fig1.svg",
-        "figures/vector/Fig1/Fig1.pptx"
-      ]
-    },
-    {
-      "label": "Fig2",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig2/Fig2.svg",
-        "figures/vector/Fig2/Fig2.pptx"
-      ]
-    },
-    {
-      "label": "Fig3",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig3/Fig3.svg",
-        "figures/vector/Fig3/Fig3.pptx"
-      ]
-    },
-    {
-      "label": "Fig4",
-      "kind": "figure",
-      "mode": "pdf_vector",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig4/Fig4.svg",
-        "figures/vector/Fig4/Fig4.pptx"
-      ]
-    },
-    {
-      "label": "Fig5",
-      "kind": "figure",
-      "mode": "raster_trace_svg+svg_pptx_wrapper",
-      "exit_code": 0,
-      "files": [
-        "figures/vector/Fig5/Fig5.svg",
-        "figures/vector/Fig5/Fig5.pptx"
-      ]
-    }
-  ]
+  "metadata": {
+    "title": "Wavelet Feature Maps Compression for Image-to-Image CNNs",
+    "year": 2022,
+    "venue": "NeurIPS",
+    "classification": "CCF-A main conference",
+    "topic": [
+      "Haar wavelet",
+      "feature compression",
+      "CNN"
+    ],
+    "relevance": "在高分辨率特征图上使用Haar小波压缩，直接支撑小波分解卷积和低码率中间特征传输。",
+    "official_url": "https://papers.neurips.cc/paper_files/paper/2022/hash/81f19c0e9f3e06c831630ab6662fd8ea-Abstract.html",
+    "pdf_url": "https://papers.neurips.cc/paper_files/paper/2022/file/81f19c0e9f3e06c831630ab6662fd8ea-Paper-Conference.pdf",
+    "code_url": "https://github.com/BGUCompSci/WaveletCompressedConvolution",
+    "local_slug": "WaveletCompressedConv_NeurIPS2022",
+    "access": "open_pdf",
+    "venue_short": "NeurIPS",
+    "venue_full": "Conference on Neural Information Processing Systems",
+    "venue_type": "会议",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": "A",
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）"
+  }
 }

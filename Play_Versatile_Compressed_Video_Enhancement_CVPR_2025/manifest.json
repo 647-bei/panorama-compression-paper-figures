@@ -1,0 +1,686 @@
+{
+  "paper": "Play_Versatile_Compressed_Video_Enhancement_CVPR_2025",
+  "pdf": "pdf/paper.pdf",
+  "pages": 11,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure1. Theproposedcodec-awareenhancementframework reuses codec information to adaptively enhance videos across dif- ferent compression settings, while assisting in various downstream tasks in a plug-and-play manner.",
+      "caption_en": "Figure1. Theproposedcodec-awareenhancementframework reuses codec information to adaptively enhance videos across dif- ferent compression settings, while assisting in various downstream tasks in a plug-and-play manner.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        364.753,
+        553.497,
+        406.596
+      ],
+      "content_bbox": [
+        310.215,
+        213.768,
+        557.895,
+        356.351
+      ],
+      "crop_bbox": [
+        310.215,
+        213.768,
+        557.895,
+        356.351
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.72 in\n\n形状统计 (93 个):\n  FREEFORM (5)                 51\n  TEXT_BOX (17)                29\n  PICTURE (13)                 13\n\n矢量形状: 80\n位图图片: 13\n  4.8% 画面  (2.98 x 1.67 in)\n  4.8% 画面  (2.98 x 1.67 in)\n  4.8% 画面  (2.98 x 1.67 in)\n  4.9% 画面  (2.98 x 1.68 in)\n  4.9% 画面  (2.98 x 1.68 in)\n  4.9% 画面  (2.98 x 1.68 in)\n  4.9% 画面  (2.98 x 1.68 in)\n  0.6% 画面  (1.87 x 0.32 in)\n  4.9% 画面  (2.98 x 1.68 in)\n  4.9% 画面  (2.98 x 1.68 in)\n  ... 共 13 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure2. Hierarchicalstructureofqualityadjustment,where framesaredividedintomultiplegroupsofpictures(GOP).The Constant Rate Factor (CRF) affects video quality at both sequence and frame levels.An increase in the CRF value indicates a reduc- tion in video quality (e.g., lower PSNR values).",
+      "caption_en": "Figure2. Hierarchicalstructureofqualityadjustment,where framesaredividedintomultiplegroupsofpictures(GOP).The Constant Rate Factor (CRF) affects video quality at both sequence and frame levels.An increase in the CRF value indicates a reduc- tion in video quality (e.g., lower PSNR values).",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        207.109,
+        294.747,
+        259.911
+      ],
+      "content_bbox": [
+        46.084,
+        64.166,
+        314.766,
+        206.229
+      ],
+      "crop_bbox": [
+        46.084,
+        64.166,
+        314.766,
+        206.229
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.10 in\n\n形状统计 (244 个):\n  FREEFORM (5)                 160\n  AUTO_SHAPE (1)               44\n  TEXT_BOX (17)                40\n\n矢量形状: 244\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure3.TheproposedCodec-AwareEnhancementFrameworkconsistsoftwosub-networks:1)theCompression-AwareAdaptation (CAA)Network,whichhierarchicallyappliessequenceadaptationandframeadaptationtodynamicallyadjustparametersoftheen- hancement network; and 2) Bitstream-Aware Enhancement (BAE) Network, which leverages motion vectors to align frames and conducts region-aware refinement to flexibly enhance regions of different complexity.",
+      "caption_en": "Figure3.TheproposedCodec-AwareEnhancementFrameworkconsistsoftwosub-networks:1)theCompression-AwareAdaptation (CAA)Network,whichhierarchicallyappliessequenceadaptationandframeadaptationtodynamicallyadjustparametersoftheen- hancement network; and 2) Bitstream-Aware Enhancement (BAE) Network, which leverages motion vectors to align frames and conducts region-aware refinement to flexibly enhance regions of different complexity.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        303.242,
+        553.499,
+        345.085
+      ],
+      "content_bbox": [
+        86.383,
+        68.016,
+        527.633,
+        300.364
+      ],
+      "crop_bbox": [
+        86.383,
+        68.016,
+        527.633,
+        300.364
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.07 in\n\n形状统计 (397 个):\n  FREEFORM (5)                 264\n  TEXT_BOX (17)                85\n  PICTURE (13)                 48\n\n矢量形状: 349\n位图图片: 48\n  0.1% 画面  (0.27 x 0.27 in)\n  0.1% 画面  (0.27 x 0.27 in)\n  0.1% 画面  (0.29 x 0.27 in)\n  0.1% 画面  (0.55 x 0.24 in)\n  0.1% 画面  (0.27 x 0.27 in)\n  0.1% 画面  (0.27 x 0.27 in)\n  0.1% 画面  (0.31 x 0.26 in)\n  0.1% 画面  (0.28 x 0.28 in)\n  0.1% 画面  (0.53 x 0.25 in)\n  0.1% 画面  (0.36 x 0.24 in)\n  ... 共 48 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 3,
+      "caption": "Figure 4.Visualization of wn against different CRFs, where each expert shows a distinct preference for specific CRFsvalues.",
+      "caption_en": "Figure 4.Visualization of wn against different CRFs, where each expert shows a distinct preference for specific CRFsvalues.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        468.428,
+        553.503,
+        488.697
+      ],
+      "content_bbox": [
+        58.5,
+        303.242,
+        553.499,
+        467.692
+      ],
+      "crop_bbox": [
+        58.5,
+        303.242,
+        553.499,
+        467.692
+      ],
+      "original": "figures/original/Fig4_p003.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  44.4% 画面  (10.00 x 3.33 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 4,
+      "caption": "Figure5.Visualizationoffeaturesinregion-awarerefinement, wherehiandˆhiindicatetheinputandoutputfeatures,re- spectively. Therefinedfeaturesaredenotedintheformatof S(Mtype i , hi).",
+      "caption_en": "Figure5.Visualizationoffeaturesinregion-awarerefinement, wherehiandˆhiindicatetheinputandoutputfeatures,re- spectively. Therefinedfeaturesaredenotedintheformatof S(Mtype i , hi).",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        175.441,
+        294.751,
+        218.81
+      ],
+      "content_bbox": [
+        68.877,
+        68.008,
+        553.503,
+        172.117
+      ],
+      "crop_bbox": [
+        68.877,
+        68.008,
+        553.503,
+        172.117
+      ],
+      "original": "figures/original/Fig5_p004.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 2.95 in\n\n形状统计 (35 个):\n  TEXT_BOX (17)                22\n  PICTURE (13)                 11\n  FREEFORM (5)                 2\n\n矢量形状: 24\n位图图片: 11\n  7.3% 画面  (2.32 x 1.24 in)\n  7.3% 画面  (2.32 x 1.25 in)\n  4.7% 画面  (1.81 x 1.02 in)\n  0.2% 画面  (0.20 x 0.30 in)\n  0.1% 画面  (0.21 x 0.28 in)\n  7.1% 画面  (2.28 x 1.23 in)\n  7.1% 画面  (2.28 x 1.23 in)\n  7.1% 画面  (2.27 x 1.23 in)\n  0.6% 画面  (1.03 x 0.25 in)\n  0.7% 画面  (1.09 x 0.25 in)\n  ... 共 11 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 5,
+      "caption": "Figure 6.Qualitative results on quality enhancement, where our method effectively reduces the compression artifacts, achieving visually pleasant results.In contrast, the results of the compared methods still contain severe distortions (e.g., the calf in the 1st row).",
+      "caption_en": "Figure 6.Qualitative results on quality enhancement, where our method effectively reduces the compression artifacts, achieving visually pleasant results.In contrast, the results of the compared methods still contain severe distortions (e.g., the calf in the 1st row).",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        305.101,
+        553.499,
+        325.025
+      ],
+      "content_bbox": [
+        27.227,
+        162.154,
+        553.499,
+        303.999
+      ],
+      "crop_bbox": [
+        27.227,
+        162.154,
+        553.499,
+        303.999
+      ],
+      "original": "figures/original/Fig6_p005.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  36.0% 画面  (10.00 x 2.70 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table 1.Quantitative results on quality enhancement, where PSNR and SSIM (higher is better) are adopted for evaluation.The best and second best results are marked with bold and underline.Results obtained by replacing CRFiwith slice type are highlighted withgrey.",
+      "caption_en": "Table 1.Quantitative results on quality enhancement, where PSNR and SSIM (higher is better) are adopted for evaluation.The best and second best results are marked with bold and underline.Results obtained by replacing CRFiwith slice type are highlighted withgrey.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        162.154,
+        553.499,
+        182.215
+      ],
+      "content_bbox": [
+        59.099,
+        66.222,
+        552.574,
+        157.098
+      ],
+      "crop_bbox": [
+        59.099,
+        66.222,
+        552.574,
+        157.098
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table 2.Quantitative results of ×4 VSR, where the best and sec- ond best results are highlighted with bold and underline.",
+      "caption_en": "Table 2.Quantitative results of ×4 VSR, where the best and sec- ond best results are highlighted with bold and underline.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        537.445,
+        294.747,
+        557.694
+      ],
+      "content_bbox": [
+        72.14,
+        336.914,
+        283.193,
+        532.711
+      ],
+      "crop_bbox": [
+        72.14,
+        336.914,
+        283.193,
+        532.711
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 6,
+      "caption": "Figure 7.Qualitative results of ×4 VSR. Pre-enhancing with our method before VSR effectively avoids amplifying compression artifacts. While other methods cannot fully eliminate the artifacts and even severe the distortions (e.g., results of MFQE 2.0).",
+      "caption_en": "Figure 7.Qualitative results of ×4 VSR. Pre-enhancing with our method before VSR effectively avoids amplifying compression artifacts. While other methods cannot fully eliminate the artifacts and even severe the distortions (e.g., results of MFQE 2.0).",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        183.186,
+        553.504,
+        203.434
+      ],
+      "content_bbox": [
+        44.24,
+        66.023,
+        553.402,
+        182.402
+      ],
+      "crop_bbox": [
+        44.24,
+        66.023,
+        553.402,
+        182.402
+      ],
+      "original": "figures/original/Fig7_p006.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  30.5% 画面  (10.00 x 2.29 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 6,
+      "caption": "Figure 8. Qualitative results of optical flow estimation. As can be seen, pre-processing with our method effectively corrects the mispredicted optical flow, especially the boundaries of moving objects (e.g., edge of the moving car).",
+      "caption_en": "Figure 8. Qualitative results of optical flow estimation. As can be seen, pre-processing with our method effectively corrects the mispredicted optical flow, especially the boundaries of moving objects (e.g., edge of the moving car).",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        260.847,
+        553.499,
+        280.772
+      ],
+      "content_bbox": [
+        58.5,
+        208.541,
+        600.751,
+        260.815
+      ],
+      "crop_bbox": [
+        58.5,
+        208.541,
+        600.751,
+        260.815
+      ],
+      "original": "figures/original/Fig8_p006.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  12.9% 画面  (10.00 x 0.97 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table 3.Quantitative results of optical flow estimation, where we highlight the best and second best results with bold and underline.",
+      "caption_en": "Table 3.Quantitative results of optical flow estimation, where we highlight the best and second best results with bold and underline.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        482.105,
+        294.75,
+        502.03
+      ],
+      "content_bbox": [
+        79.147,
+        290.259,
+        274.104,
+        476.234
+      ],
+      "crop_bbox": [
+        79.147,
+        290.259,
+        274.104,
+        476.234
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 6,
+      "caption": "Table4.QuantitativeresultsofVOS,wherethebestandsecond best results are highlighted with bold and underline.",
+      "caption_en": "Table4.QuantitativeresultsofVOS,wherethebestandsecond best results are highlighted with bold and underline.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        480.548,
+        553.497,
+        500.473
+      ],
+      "content_bbox": [
+        318.991,
+        290.259,
+        553.093,
+        476.234
+      ],
+      "crop_bbox": [
+        318.991,
+        290.259,
+        553.093,
+        476.234
+      ],
+      "original": "tables/original/Table4_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 7,
+      "caption": "Figure 10.Qualitative results of video inpainting.As can be seen, pre-enhancing the compressed inputs with the proposed method helps to reduce the artifacts and color distortion in the removed region, providing more visually pleasant results.",
+      "caption_en": "Figure 10.Qualitative results of video inpainting.As can be seen, pre-enhancing the compressed inputs with the proposed method helps to reduce the artifacts and color distortion in the removed region, providing more visually pleasant results.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        193.217,
+        553.499,
+        226.62
+      ],
+      "content_bbox": [
+        58.5,
+        107.22,
+        553.887,
+        193.217
+      ],
+      "crop_bbox": [
+        58.5,
+        107.22,
+        553.887,
+        193.217
+      ],
+      "original": "figures/original/Fig10_p007.png",
+      "vector": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  23.2% 画面  (10.00 x 1.74 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 7,
+      "caption": "Figure 9.Qualitative results of VOS. As can be seen, directly performing VOS on compressed inputs leads to inaccurate masks, whereas pre-enhancing with our method effectively improves the accuracy, especially for the regions of irregular shapes (e.g., the windshield).",
+      "caption_en": "Figure 9.Qualitative results of VOS. As can be seen, directly performing VOS on compressed inputs leads to inaccurate masks, whereas pre-enhancing with our method effectively improves the accuracy, especially for the regions of irregular shapes (e.g., the windshield).",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        122.242,
+        553.499,
+        142.167
+      ],
+      "content_bbox": [
+        58.5,
+        31.009,
+        553.478,
+        122.213
+      ],
+      "crop_bbox": [
+        58.5,
+        31.009,
+        553.478,
+        122.213
+      ],
+      "original": "figures/original/Fig9_p007.png",
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  24.6% 画面  (10.00 x 1.84 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 7,
+      "caption": "Table 5.Ablation studies on MV alignment, region-aware refine- ment, sequence adaptation, and frame adaptation.",
+      "caption_en": "Table 5.Ablation studies on MV alignment, region-aware refine- ment, sequence adaptation, and frame adaptation.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        329.256,
+        553.497,
+        349.181
+      ],
+      "content_bbox": [
+        319.216,
+        240.685,
+        553.072,
+        323.185
+      ],
+      "crop_bbox": [
+        319.216,
+        240.685,
+        553.072,
+        323.185
+      ],
+      "original": "tables/original/Table5_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Play_Versatile_Compressed_Video_Enhancement_CVPR_2025",
+    "title": "This CVPR paper is the Open Access version, provided by the Computer Vision Foundation.",
+    "venue": "CVPR",
+    "venue_full": "CVPR",
+    "venue_short": "CVPR",
+    "venue_type": "会议",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://huimin-zeng.github.io/PnP-",
+    "pdf_url": "https://huimin-zeng.github.io/PnP-",
+    "access": "local_pdf",
+    "source_sha256": "9da4b6e603f0aaba7965fa594a6d31a1db5e43b631b9de4625efe2b66516c38a",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\CVPR 2025-2025-压缩视频质量增强-Plug-and-Play Versatile Compressed Video Enhancement.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\3T6XP9TB\\Zeng 等 - Plug-and-Play Versatile Compressed Video Enhancement.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    },
+    {
+      "label": "Fig10",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ]
+    },
+    {
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ]
+    }
+  ]
+}

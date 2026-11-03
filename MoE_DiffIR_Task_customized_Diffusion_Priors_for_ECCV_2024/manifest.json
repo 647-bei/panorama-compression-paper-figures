@@ -1,0 +1,426 @@
+{
+  "paper": "MoE_DiffIR_Task_customized_Diffusion_Priors_for_ECCV_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 29,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig. 1:VisualizationofrestoredcompressedimageswithourMoE-DiffIRonvarious imagecodecsandcodingmodes.Ourmethodcanrestorediversecompressedimages atlowbitratesthroughasinglenetworkwhilepossessinghightexturegenerationca- pability.",
+      "caption_en": "Fig. 1:VisualizationofrestoredcompressedimageswithourMoE-DiffIRonvarious imagecodecsandcodingmodes.Ourmethodcanrestorediversecompressedimages atlowbitratesthroughasinglenetworkwhilepossessinghightexturegenerationca- pability.",
+      "caption_zh": "",
+      "caption_bbox": [
+        134.765,
+        266.88,
+        480.617,
+        308.723
+      ],
+      "content_bbox": [
+        134.765,
+        92.722,
+        480.595,
+        256.42
+      ],
+      "crop_bbox": [
+        134.765,
+        92.722,
+        480.595,
+        256.42
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  63.2% 画面  (10.00 x 4.74 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4334150 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 5,
+      "caption": "Fig. 2:Comparisonofdifferentpromptinteractionmethods.Herewemainlycatego- rizethemintothreetypes:(a)SinglePrompt[47],(c)MultiplePrompts[4,39,44],(b) MoE-Prompt(Ours).WeuseMixtureofExpertsroutingmethodstoselectdifferent combinationsofpromptsforvariouscompressiontasks.In(b),DPstandsforDegra- dationPriorwhichisobtainedfromLQimagesthroughpre-trainedCLIPencoderof DACLIP.",
+      "caption_en": "Fig. 2:Comparisonofdifferentpromptinteractionmethods.Herewemainlycatego- rizethemintothreetypes:(a)SinglePrompt[47],(c)MultiplePrompts[4,39,44],(b) MoE-Prompt(Ours).WeuseMixtureofExpertsroutingmethodstoselectdifferent combinationsofpromptsforvariouscompressiontasks.In(b),DPstandsforDegra- dationPriorwhichisobtainedfromLQimagesthroughpre-trainedCLIPencoderof DACLIP.",
+      "caption_zh": "",
+      "caption_bbox": [
+        134.765,
+        234.367,
+        480.626,
+        298.128
+      ],
+      "content_bbox": [
+        134.765,
+        92.722,
+        480.559,
+        223.86
+      ],
+      "crop_bbox": [
+        134.765,
+        92.722,
+        480.559,
+        223.86
+      ],
+      "original": "figures/original/Fig2_p005.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.13 in\n\n形状统计 (129 个):\n  FREEFORM (5)                 101\n  TEXT_BOX (17)                28\n\n矢量形状: 129\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 6,
+      "caption": "Fig. 3:TheframeworkoftheproposedMoE-DiffIRenablesdynamicpromptlearning formultipleCIRtasksthrough(b)MoE-PromptGenerator,andintroducesavisual- to-textadaptertogeneratemorereasonabletexture.InMoE-DiffIR:MoE-Prompt Module(c)aimstoextractmulti-scalefeaturestointeractwith(b).Here(a)depicts theprocessoffine-tuningStableDiffusion,whichconsistsoftwostages.StageI:only theMoE-PromptModuleispre-trainedtoexcavatetask-customizeddiffusionpriors foreachCIRtask.StageII:the(d)DecoderCompensatorisfine-tunedforstructural correction.",
+      "caption_en": "Fig. 3:TheframeworkoftheproposedMoE-DiffIRenablesdynamicpromptlearning formultipleCIRtasksthrough(b)MoE-PromptGenerator,andintroducesavisual- to-textadaptertogeneratemorereasonabletexture.InMoE-DiffIR:MoE-Prompt Module(c)aimstoextractmulti-scalefeaturestointeractwith(b).Here(a)depicts theprocessoffine-tuningStableDiffusion,whichconsistsoftwostages.StageI:only theMoE-PromptModuleispre-trainedtoexcavatetask-customizeddiffusionpriors foreachCIRtask.StageII:the(d)DecoderCompensatorisfine-tunedforstructural correction.",
+      "caption_zh": "",
+      "caption_bbox": [
+        134.765,
+        310.786,
+        480.653,
+        396.464
+      ],
+      "content_bbox": [
+        134.765,
+        92.722,
+        480.589,
+        300.284
+      ],
+      "crop_bbox": [
+        134.765,
+        92.722,
+        480.589,
+        300.284
+      ],
+      "original": "figures/original/Fig3_p006.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.05 in\n\n形状统计 (429 个):\n  FREEFORM (5)                 299\n  TEXT_BOX (17)                111\n  PICTURE (13)                 19\n\n矢量形状: 410\n位图图片: 19\n  0.2% 画面  (0.41 x 0.41 in)\n  0.2% 画面  (0.41 x 0.41 in)\n  0.1% 画面  (0.24 x 0.23 in)\n  0.1% 画面  (0.24 x 0.24 in)\n  0.0% 画面  (0.18 x 0.18 in)\n  0.0% 画面  (0.16 x 0.16 in)\n  0.1% 画面  (0.27 x 0.27 in)\n  0.0% 画面  (0.12 x 0.12 in)\n  0.0% 画面  (0.12 x 0.12 in)\n  0.0% 画面  (0.12 x 0.12 in)\n  ... 共 19 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 9,
+      "caption": "Table1:Quantitativecomparisonforcompressedimagerestorationonsevencodecs (average on three distortions). Results are tested on with different compression qualities in terms of PSNR↑, SSIM↑, LPIPS↓, FID↓. Red and blue colors represent the best and secondbestperformance,respectively.Allcomparisonmethodsarereproducedonour constructedCIRdatasets.(Suggestedtozoominforbettervisualization.)",
+      "caption_en": "Table1:Quantitativecomparisonforcompressedimagerestorationonsevencodecs (average on three distortions). Results are tested on with different compression qualities in terms of PSNR↑, SSIM↑, LPIPS↓, FID↓. Red and blue colors represent the best and secondbestperformance,respectively.Allcomparisonmethodsarereproducedonour constructedCIRdatasets.(Suggestedtozoominforbettervisualization.)",
+      "caption_zh": "",
+      "caption_bbox": [
+        134.765,
+        116.334,
+        480.617,
+        169.135
+      ],
+      "content_bbox": [
+        137.737,
+        181.829,
+        479.114,
+        512.099
+      ],
+      "crop_bbox": [
+        137.737,
+        181.829,
+        479.114,
+        512.099
+      ],
+      "original": "tables/original/Table1_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 10,
+      "caption": "Fig. 4:Visualcomparisonsbetweenourmethodsandotherstateoftheartsmethods. This figure demonstrate 5 different compression tasks: JPEG (QF=10), VVC (QP=47), HEVC(QP=47),CSSIM(“Low”bitrates),CP SNR(“Low”bitrates).Morevisualresults canbefoundinSec.CoftheAppendix.",
+      "caption_en": "Fig. 4:Visualcomparisonsbetweenourmethodsandotherstateoftheartsmethods. This figure demonstrate 5 different compression tasks: JPEG (QF=10), VVC (QP=47), HEVC(QP=47),CSSIM(“Low”bitrates),CP SNR(“Low”bitrates).Morevisualresults canbefoundinSec.CoftheAppendix.",
+      "caption_zh": "",
+      "caption_bbox": [
+        134.765,
+        558.609,
+        480.625,
+        600.626
+      ],
+      "content_bbox": [
+        134.765,
+        304.981,
+        480.565,
+        548.148
+      ],
+      "crop_bbox": [
+        134.765,
+        304.981,
+        480.565,
+        548.148
+      ],
+      "original": "figures/original/Fig4_p010.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  93.8% 画面  (10.00 x 7.04 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6435156 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 11,
+      "caption": "Table2:Impactsofdifferentpromptdesigns.ResultsarereportedonLIVE1,DIV2K andICB.Forseentasks,thevalueistheaverageresultof21compressiontaskson ourCIRdataset.Forunseentasks,thevalueistheaverageresultof“CrossDegrees” (VVC:QPformvalues[32,52])and“CrossTypes”(AVC:QPfromvalues[47,42,37]). Bestperformancesareinbold.",
+      "caption_en": "Table2:Impactsofdifferentpromptdesigns.ResultsarereportedonLIVE1,DIV2K andICB.Forseentasks,thevalueistheaverageresultof21compressiontaskson ourCIRdataset.Forunseentasks,thevalueistheaverageresultof“CrossDegrees” (VVC:QPformvalues[32,52])and“CrossTypes”(AVC:QPfromvalues[47,42,37]). Bestperformancesareinbold.",
+      "caption_zh": "",
+      "caption_bbox": [
+        134.765,
+        364.916,
+        480.616,
+        417.893
+      ],
+      "content_bbox": [
+        138.564,
+        430.419,
+        478.963,
+        470.266
+      ],
+      "crop_bbox": [
+        138.564,
+        430.419,
+        478.963,
+        470.266
+      ],
+      "original": "tables/original/Table2_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 11,
+      "caption": "Table3:ImpactsofVisual2Text(V2T)adapterandDegradationPrior(DP).Results arereportedonLIVE1,BSDS500,ICB.Herethevalueistheaverageresultof21 compressiontasks.Bestperformancesareinbold.",
+      "caption_en": "Table3:ImpactsofVisual2Text(V2T)adapterandDegradationPrior(DP).Results arereportedonLIVE1,BSDS500,ICB.Herethevalueistheaverageresultof21 compressiontasks.Bestperformancesareinbold.",
+      "caption_zh": "",
+      "caption_bbox": [
+        134.765,
+        500.473,
+        480.634,
+        531.531
+      ],
+      "content_bbox": [
+        138.9,
+        430.419,
+        478.963,
+        470.266
+      ],
+      "crop_bbox": [
+        138.9,
+        430.419,
+        478.963,
+        470.266
+      ],
+      "original": "tables/original/Table3_p011.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 12,
+      "caption": "Fig. 5: Visual ablation results: different prompt interaction designs, use of V2T adapter anduseofdegradationprior(DP).",
+      "caption_en": "Fig. 5: Visual ablation results: different prompt interaction designs, use of V2T adapter anduseofdegradationprior(DP).",
+      "caption_zh": "",
+      "caption_bbox": [
+        134.765,
+        432.921,
+        480.613,
+        452.846
+      ],
+      "content_bbox": [
+        134.765,
+        242.854,
+        480.602,
+        422.46
+      ],
+      "crop_bbox": [
+        134.765,
+        242.854,
+        480.602,
+        422.46
+      ],
+      "original": "figures/original/Fig5_p012.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  69.3% 画面  (10.00 x 5.20 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4750387 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 12,
+      "caption": "Fig. 6:TheeffectofthenumberofpromptsandthevalueKoftheTop-Kfunction.",
+      "caption_en": "Fig. 6:TheeffectofthenumberofpromptsandthevalueKoftheTop-Kfunction.",
+      "caption_zh": "",
+      "caption_bbox": [
+        136.951,
+        566.602,
+        478.425,
+        575.743
+      ],
+      "content_bbox": [
+        147.569,
+        467.372,
+        467.787,
+        555.282
+      ],
+      "crop_bbox": [
+        147.569,
+        467.372,
+        467.787,
+        555.282
+      ],
+      "original": "figures/original/Fig6_p012.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  36.7% 画面  (10.00 x 2.75 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "MoE_DiffIR_Task_customized_Diffusion_Priors_for_ECCV_2024",
+    "title": "MoE-DiffIR: Task-customized Diffusion Priors for Universal Compressed Image Restoration",
+    "venue": "ECCV",
+    "venue_full": "ECCV",
+    "venue_short": "ECCV",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://renyulin-f.github.io/MoE-DiffIR.github.io/",
+    "pdf_url": "https://renyulin-f.github.io/MoE-DiffIR.github.io/",
+    "access": "local_pdf",
+    "source_sha256": "1788402f48630b1ef823c0ba8027fef5cfc1545baa0a6f639894ade50e7f5e2b",
+    "source_paths": [
+      "F:\\极低码率\\恢复增强参考论文\\ECCV 2024-2024-通用压缩图像恢复 低码率-MoE-DiffIR Task-Customized Diffusion Priors for Universal Compressed Image Restoration.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\IYIE6ASY\\Ren 等 - 2024 - MoE-DiffIR Task-customized Diffusion Priors for Universal Compressed Image Restoration.pdf"
+    ],
+    "source_scope": "F_reference",
+    "ranking_display": "CCF会议 B类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 B类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    }
+  ]
+}

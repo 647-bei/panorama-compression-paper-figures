@@ -1,0 +1,356 @@
+{
+  "paper": "Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0",
+  "pdf": "pdf/paper.pdf",
+  "pages": 16,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Figure 1. Residual blocks and Dual-stream blocks in Spiking ResNet (Fang et al., 2021a) and Spike Transformer (Zhou et al., 2023).(a) the Spiking ResNet by replacing ReLU activation layers with spiking neurons.(b) The Spiking ResNet with Dual-stream training.(c) The input of the Spike Transformer with Spiking Self-Attention (SSA) is non-spike data due to residual addition between blocks, which brings additional multiply accumulative computation to SNN. (d) Spike Transformer with a dual-stream structure is divided into a spike propagation pathway and a plug-and-play auxiliary accumulation pathway (AAP), which could compensate for full spike propagation. Note AAP could be either retained or removed in model inference.",
+      "caption_en": "Figure 1. Residual blocks and Dual-stream blocks in Spiking ResNet (Fang et al., 2021a) and Spike Transformer (Zhou et al., 2023).(a) the Spiking ResNet by replacing ReLU activation layers with spiking neurons.(b) The Spiking ResNet with Dual-stream training.(c) The input of the Spike Transformer with Spiking Self-Attention (SSA) is non-spike data due to residual addition between blocks, which brings additional multiply accumulative computation to SNN. (d) Spike Transformer with a dual-stream structure is divided into a spike propagation pathway and a plug-and-play auxiliary accumulation pathway (AAP), which could compensate for full spike propagation. Note AAP could be either retained or removed in model inference.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.938,
+        240.34,
+        543.013,
+        304.1
+      ],
+      "content_bbox": [
+        55.44,
+        47.227,
+        541.44,
+        234.112
+      ],
+      "crop_bbox": [
+        55.44,
+        47.227,
+        541.44,
+        234.112
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 5.20 in\n\n形状统计 (251 个):\n  TEXT_BOX (17)                147\n  FREEFORM (5)                 104\n\n矢量形状: 251\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nfont CambriaMath 无子集覆盖全部字符（缺 5 个），缺字回退系统字体 Cambria Math\nops 251 draws 72 fs 0 polys 75 rings 0 text 147 images 0 inline 0 canvas 1948 759\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0\\figures\\vector\\Fig1\\Fig1.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0\\figures\\vector\\Fig1\\Fig1.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.20 in\n\n形状统计 (251 个):\n  TEXT_BOX (17)                147\n  FREEFORM (5)                 104\n\n矢量形状: 251\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 4,
+      "caption": "Figure 2. The SEW Block (Fang et al., 2021a) and its Downsample blocks with a dual-stream structure.",
+      "caption_en": "Figure 2. The SEW Block (Fang et al., 2021a) and its Downsample blocks with a dual-stream structure.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.938,
+        206.588,
+        289.437,
+        226.513
+      ],
+      "content_bbox": [
+        55.44,
+        47.227,
+        541.44,
+        193.532
+      ],
+      "crop_bbox": [
+        55.44,
+        47.227,
+        541.44,
+        193.532
+      ],
+      "original": "figures/original/Fig2_p004.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 4.09 in\n\n形状统计 (239 个):\n  TEXT_BOX (17)                174\n  FREEFORM (5)                 65\n\n矢量形状: 239\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nfont CambriaMath 无子集覆盖全部字符（缺 5 个），缺字回退系统字体 Cambria Math\nops 239 draws 48 fs 0 polys 42 rings 0 text 174 images 0 inline 0 canvas 1948 598\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0\\figures\\vector\\Fig2\\Fig2.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0\\figures\\vector\\Fig2\\Fig2.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.09 in\n\n形状统计 (239 个):\n  TEXT_BOX (17)                174\n  FREEFORM (5)                 65\n\n矢量形状: 239\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table 1.List of element-wise functions g. Operator g(xt l, st l)",
+      "caption_en": "Table 1.List of element-wise functions g. Operator g(xt l, st l)",
+      "caption_zh": "",
+      "caption_bbox": [
+        323.867,
+        76.13,
+        499.58,
+        102.177
+      ],
+      "content_bbox": [
+        67.397,
+        103.383,
+        543.188,
+        403.5
+      ],
+      "crop_bbox": [
+        67.397,
+        103.383,
+        543.188,
+        403.5
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 6,
+      "caption": "Table 2. Comparison with previous Spiking ResNet on ImageNet.† denotes the estimated dynamic consumption based on the spike ﬁring rate provided in the corresponding paper.A2S represents ANN2SNN methods, FSNN and MPSNN mean Full Spike Neural Networks and Mixed-Precision Spike Neural Networks respectively.FSNN (DST) represent the FSNN is trained by the proposed DST and DSNN means APP is retained in the test phase.",
+      "caption_en": "Table 2. Comparison with previous Spiking ResNet on ImageNet.† denotes the estimated dynamic consumption based on the spike ﬁring rate provided in the corresponding paper.A2S represents ANN2SNN methods, FSNN and MPSNN mean Full Spike Neural Networks and Mixed-Precision Spike Neural Networks respectively.FSNN (DST) represent the FSNN is trained by the proposed DST and DSNN means APP is retained in the test phase.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.893,
+        76.126,
+        541.443,
+        118.293
+      ],
+      "content_bbox": [
+        55.44,
+        119.426,
+        541.463,
+        248.765
+      ],
+      "crop_bbox": [
+        55.44,
+        119.426,
+        541.463,
+        248.765
+      ],
+      "original": "tables/original/Table2_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table 3. Comparison with Spiking ResNet methods on DVS Ges- ture and CIFAR10-DVS. Once the ADD function is used as g(·), it will bring non-spiking operation to SEW (Fang et al., 2021a). The comparison with it is listed just for reference.",
+      "caption_en": "Table 3. Comparison with Spiking ResNet methods on DVS Ges- ture and CIFAR10-DVS. Once the ADD function is used as g(·), it will bring non-spiking operation to SEW (Fang et al., 2021a). The comparison with it is listed just for reference.",
+      "caption_zh": "",
+      "caption_bbox": [
+        306.893,
+        370.752,
+        543.007,
+        412.622
+      ],
+      "content_bbox": [
+        311.688,
+        416.263,
+        537.192,
+        464.691
+      ],
+      "crop_bbox": [
+        311.688,
+        416.263,
+        537.192,
+        464.691
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 7,
+      "caption": "Figure 3. TrainingSpikingResNetfromscratchonImageNet with/without Dual-Stream Training.",
+      "caption_en": "Figure 3. TrainingSpikingResNetfromscratchonImageNet with/without Dual-Stream Training.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.938,
+        211.34,
+        289.437,
+        231.333
+      ],
+      "content_bbox": [
+        55.44,
+        47.227,
+        542.933,
+        202.204
+      ],
+      "crop_bbox": [
+        55.44,
+        47.227,
+        542.933,
+        202.204
+      ],
+      "original": "figures/original/Fig3_p007.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 4.31 in\n\n形状统计 (64 个):\n  FREEFORM (5)                 32\n  TEXT_BOX (17)                30\n  PICTURE (13)                 2\n\n矢量形状: 62\n位图图片: 2\n  8.2% 画面  (2.18 x 2.17 in)\n  8.2% 画面  (2.18 x 2.17 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nglyph repair: '5' -> 's' (IoU 0.75)\nops 64 draws 13 fs 8 polys 13 rings 0 text 30 images 0 inline 2 canvas 1948 630\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0\\figures\\vector\\Fig3\\Fig3.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0\\figures\\vector\\Fig3\\Fig3.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.31 in\n\n形状统计 (64 个):\n  FREEFORM (5)                 32\n  TEXT_BOX (17)                30\n  PICTURE (13)                 2\n\n矢量形状: 62\n位图图片: 2\n  8.2% 画面  (2.18 x 2.17 in)\n  8.2% 画面  (2.18 x 2.17 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 7,
+      "caption": "Figure 4. The the t-SNE (Maaten & Hinton, 2008) plots of embed- ding features on DVS Gesture.",
+      "caption_en": "Figure 4. The the t-SNE (Maaten & Hinton, 2008) plots of embed- ding features on DVS Gesture.",
+      "caption_zh": "",
+      "caption_bbox": [
+        306.938,
+        180.836,
+        542.933,
+        200.761
+      ],
+      "content_bbox": [
+        55.44,
+        47.227,
+        541.44,
+        171.437
+      ],
+      "crop_bbox": [
+        55.44,
+        47.227,
+        541.44,
+        171.437
+      ],
+      "original": "figures/original/Fig4_p007.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "pdf_vector",
+      "vector_exit_code": 0,
+      "vector_log_tail": "幻灯片: 13.33 x 3.49 in\n\n形状统计 (43 个):\n  FREEFORM (5)                 26\n  TEXT_BOX (17)                15\n  PICTURE (13)                 2\n\n矢量形状: 41\n位图图片: 2\n  10.2% 画面  (2.19 x 2.18 in)\n  10.2% 画面  (2.19 x 2.18 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\nglyph repair: '5' -> 's' (IoU 0.75)\nops 43 draws 10 fs 5 polys 10 rings 0 text 15 images 0 inline 2 canvas 1948 510\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0\\figures\\vector\\Fig4\\Fig4.svg\nsaved C:\\博士期间相关\\相关成果\\全景TIP\\全景压缩恢复_论文图表_2026-10-31\\Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0\\figures\\vector\\Fig4\\Fig4.pptx\n\n",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.49 in\n\n形状统计 (43 个):\n  FREEFORM (5)                 26\n  TEXT_BOX (17)                15\n  PICTURE (13)                 2\n\n矢量形状: 41\n位图图片: 2\n  10.2% 画面  (2.19 x 2.18 in)\n  10.2% 画面  (2.19 x 2.18 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "Table 4. Learning Spike Transformer (Zhou et al., 2023) with DST. ADD will bring additional computational consumption from non- spike data.Spikformer (IAND) is the full-spike version of Spik- former,andSpikformer(IAND)w/DSTmeansthefull-spike Spikformer is trained by our DST.",
+      "caption_en": "Table 4. Learning Spike Transformer (Zhou et al., 2023) with DST. ADD will bring additional computational consumption from non- spike data.Spikformer (IAND) is the full-spike version of Spik- former,andSpikformer(IAND)w/DSTmeansthefull-spike Spikformer is trained by our DST.",
+      "caption_zh": "",
+      "caption_bbox": [
+        306.893,
+        407.255,
+        543.013,
+        460.057
+      ],
+      "content_bbox": [
+        307.44,
+        464.948,
+        535.847,
+        555.005
+      ],
+      "crop_bbox": [
+        307.44,
+        464.948,
+        535.847,
+        555.005
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0",
+    "title": "Training Full Spike Neural Networks via Auxiliary Accumulation Pathway Guangyao Chen 1 2 Peixi Peng 1 2 Guoqi LI 3 Yonghong Tian 1 2",
+    "venue": "arXiv",
+    "venue_full": "arXiv",
+    "venue_short": "arXiv",
+    "venue_type": "期刊",
+    "year": 2023,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "a9b75465d19f32d723867a7c628e5ea4a9afcad74afa6c74175681f0474bd69d",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\BZNKR3F9\\通过辅助累积途径训练全脉冲神经网络.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\STNV4LLR\\通过辅助累积途径训练全脉冲神经网络.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "",
+    "cas_display": "",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "pdf_vector",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    }
+  ]
+}

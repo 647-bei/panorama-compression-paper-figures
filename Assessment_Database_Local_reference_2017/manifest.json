@@ -1,0 +1,416 @@
+{
+  "paper": "Assessment_Database_Local_reference_2017",
+  "pdf": "pdf/paper.pdf",
+  "pages": 5,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig.1.Insta3604K",
+      "caption_en": "Fig.1.Insta3604K",
+      "caption_zh": "",
+      "caption_bbox": [
+        132.6,
+        265.993,
+        199.521,
+        273.959
+      ],
+      "content_bbox": [
+        59.754,
+        126.194,
+        272.447,
+        245.546
+      ],
+      "crop_bbox": [
+        59.754,
+        126.194,
+        272.447,
+        245.546
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  75.0% 画面  (10.00 x 5.63 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5146857 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 1,
+      "caption": "TABLEI FFMPEGPROCESSINGSETTINGS TABLE",
+      "caption_en": "TABLEI FFMPEGPROCESSINGSETTINGS TABLE",
+      "caption_zh": "",
+      "caption_bbox": [
+        96.351,
+        523.315,
+        235.781,
+        540.244
+      ],
+      "content_bbox": [
+        65.89,
+        549.004,
+        266.23,
+        710.13
+      ],
+      "crop_bbox": [
+        65.89,
+        549.004,
+        266.23,
+        710.13
+      ],
+      "original": "tables/original/Table1_p001.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Fig. 2.Sample scenes of the video (a)scene 1 lawn and lake; (b)scene 2 bridge; (c)scene 3 park; (d)scene 4 road; (e)scene 5 tennis court; (f)scene 6 playground; (g)scene8sidewalk;(h)scene9bicycle;(i)scene10square.",
+      "caption_en": "Fig. 2.Sample scenes of the video (a)scene 1 lawn and lake; (b)scene 2 bridge; (c)scene 3 park; (d)scene 4 road; (e)scene 5 tennis court; (f)scene 6 playground; (g)scene8sidewalk;(h)scene9bicycle;(i)scene10square.",
+      "caption_zh": "",
+      "caption_bbox": [
+        40.587,
+        342.941,
+        554.439,
+        359.87
+      ],
+      "content_bbox": [
+        55.614,
+        50.474,
+        539.406,
+        332.791
+      ],
+      "crop_bbox": [
+        55.614,
+        50.474,
+        539.406,
+        332.791
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  77.9% 画面  (10.00 x 5.84 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5341871 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 2,
+      "caption": "Fig.3.ExperimentusingHTCVive.",
+      "caption_en": "Fig.3.ExperimentusingHTCVive.",
+      "caption_zh": "",
+      "caption_bbox": [
+        104.872,
+        636.208,
+        227.249,
+        644.175
+      ],
+      "content_bbox": [
+        40.585,
+        382.603,
+        554.438,
+        634.943
+      ],
+      "crop_bbox": [
+        40.585,
+        382.603,
+        554.438,
+        634.943
+      ],
+      "original": "figures/original/Fig3_p002.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.61 in\n\n形状统计 (23 个):\n  TEXT_BOX (17)                21\n  PICTURE (13)                 1\n  FREEFORM (5)                 1\n\n矢量形状: 22\n位图图片: 1\n  19.2% 画面  (5.48 x 3.08 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 3,
+      "caption": "Fig.4.MOShistogramforIVQADatabase.",
+      "caption_en": "Fig.4.MOShistogramforIVQADatabase.",
+      "caption_zh": "",
+      "caption_bbox": [
+        92.244,
+        248.52,
+        239.875,
+        256.487
+      ],
+      "content_bbox": [
+        82.762,
+        70.999,
+        263.252,
+        230.219
+      ],
+      "crop_bbox": [
+        82.762,
+        70.999,
+        263.252,
+        230.219
+      ],
+      "original": "figures/original/Fig4_p003.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.77 in\n\n形状统计 (44 个):\n  FREEFORM (5)                 42\n  TEXT_BOX (17)                2\n\n矢量形状: 44\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 3,
+      "caption": "Fig.5.AllMOSinIVQADatabase.",
+      "caption_en": "Fig.5.AllMOSinIVQADatabase.",
+      "caption_zh": "",
+      "caption_bbox": [
+        367.534,
+        289.667,
+        490.388,
+        297.633
+      ],
+      "content_bbox": [
+        324.111,
+        73.289,
+        546.255,
+        267.953
+      ],
+      "crop_bbox": [
+        324.111,
+        73.289,
+        546.255,
+        267.953
+      ],
+      "original": "figures/original/Fig5_p003.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.70 in\n\n形状统计 (712 个):\n  FREEFORM (5)                 700\n  TEXT_BOX (17)                12\n\n矢量形状: 712\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 3,
+      "caption": "Fig.6.MOShistogramofscene2:bridge.",
+      "caption_en": "Fig.6.MOShistogramofscene2:bridge.",
+      "caption_zh": "",
+      "caption_bbox": [
+        356.114,
+        541.247,
+        501.808,
+        549.214
+      ],
+      "content_bbox": [
+        333.832,
+        342.516,
+        538.238,
+        522.414
+      ],
+      "crop_bbox": [
+        333.832,
+        342.516,
+        538.238,
+        522.414
+      ],
+      "original": "figures/original/Fig6_p003.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 11.75 in\n\n形状统计 (88 个):\n  FREEFORM (5)                 84\n  TEXT_BOX (17)                4\n\n矢量形状: 88\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 4,
+      "caption": "Fig.7.Comparisonofdifferentsituation.",
+      "caption_en": "Fig.7.Comparisonofdifferentsituation.",
+      "caption_zh": "",
+      "caption_bbox": [
+        97.272,
+        415.203,
+        234.849,
+        423.169
+      ],
+      "content_bbox": [
+        61.651,
+        55.216,
+        156.084,
+        389.32
+      ],
+      "crop_bbox": [
+        61.651,
+        55.216,
+        156.084,
+        389.32
+      ],
+      "original": "figures/original/Fig7_p004.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 46.89 in\n\n形状统计 (81 个):\n  FREEFORM (5)                 69\n  TEXT_BOX (17)                12\n\n矢量形状: 81\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Assessment_Database_Local_reference_2017",
+    "title": "IVQAD 2017: An Immersive Video Quality Assessment Database",
+    "venue": "Local reference",
+    "venue_full": "Local reference",
+    "venue_short": "Local reference",
+    "venue_type": "期刊",
+    "year": 2017,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "5b7aea75e655167bff02faf5067e6138a5b0a832ddc3be35f1850e66869374ed",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\NW8JDNTP\\IVQAD 2017：沉浸式视频质量评估数据库.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\V7HCN5DA\\IVQAD 2017：沉浸式视频质量评估数据库.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "",
+    "cas_display": "",
+    "ccf_display": ""
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    }
+  ]
+}

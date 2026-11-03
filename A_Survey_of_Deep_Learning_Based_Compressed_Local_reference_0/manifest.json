@@ -1,0 +1,586 @@
+{
+  "paper": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0",
+  "pdf": "pdf/paper.pdf",
+  "pages": 16,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig. 1. A timeline of representative methods in general-purpose compressed video quality enhancement, spanning from 2015 to 2025. This timeline highlights keymilestonesintheﬁeld.",
+      "caption_en": "Fig. 1. A timeline of representative methods in general-purpose compressed video quality enhancement, spanning from 2015 to 2025. This timeline highlights keymilestonesintheﬁeld.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        159.047,
+        563.063,
+        175.981
+      ],
+      "content_bbox": [
+        67.0,
+        53.294,
+        545.0,
+        147.201
+      ],
+      "crop_bbox": [
+        67.0,
+        53.294,
+        545.0,
+        147.201
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 2.71 in\n\n形状统计 (239 个):\n  FREEFORM (5)                 182\n  AUTO_SHAPE (1)               56\n  PICTURE (13)                 1\n\n矢量形状: 238\n位图图片: 1\n  39.5% 画面  (13.22 x 1.08 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 1,
+      "caption": "TABLEI COMPARISONOF METHODSFOR GENERAL-PURPOSE COMPRESSED VIDEO QUALITY ENHANCEMENT",
+      "caption_en": "TABLEI COMPARISONOF METHODSFOR GENERAL-PURPOSE COMPRESSED VIDEO QUALITY ENHANCEMENT",
+      "caption_zh": "",
+      "caption_bbox": [
+        134.433,
+        187.1,
+        477.6,
+        204.034
+      ],
+      "content_bbox": [
+        56.205,
+        216.175,
+        549.433,
+        314.34
+      ],
+      "crop_bbox": [
+        56.205,
+        216.175,
+        549.433,
+        314.34
+      ],
+      "original": "tables/original/Table1_p001.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 3,
+      "caption": "TABLEII PERFORMANCE COMPARISONOF INTRA-FRAME QUALITY ENHANCEMENT METHODSON HEVCCOMPRESSED VIDEOS (HM16.5)USING \u0004PSNRAND \u0004SSIMMETRICS",
+      "caption_en": "TABLEII PERFORMANCE COMPARISONOF INTRA-FRAME QUALITY ENHANCEMENT METHODSON HEVCCOMPRESSED VIDEOS (HM16.5)USING \u0004PSNRAND \u0004SSIMMETRICS",
+      "caption_zh": "",
+      "caption_bbox": [
+        49.303,
+        52.523,
+        562.694,
+        78.421
+      ],
+      "content_bbox": [
+        69.03,
+        89.556,
+        562.258,
+        294.37
+      ],
+      "crop_bbox": [
+        69.03,
+        89.556,
+        562.258,
+        294.37
+      ],
+      "original": "tables/original/Table2_p003.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 4,
+      "caption": "Fig.2. ArchitectureoftheArtifactsReductionConvolutionalNeural Network(ARCNN).Thediagramillustratesthekeycomponentsofthe network,includingExtraction,Enhancement,Mapping,andReconstruction. ThenotationK9N64S1representsakernelsizeof9,64channels,anda strideof1,appliedintheExtractionblock,whilesimilarnotationsapplyto otherlayers.Thisﬁgureisamodiﬁedversionoftheoriginaldiagramfrom Dongetal.[26].",
+      "caption_en": "Fig.2. ArchitectureoftheArtifactsReductionConvolutionalNeural Network(ARCNN).Thediagramillustratesthekeycomponentsofthe network,includingExtraction,Enhancement,Mapping,andReconstruction. ThenotationK9N64S1representsakernelsizeof9,64channels,anda strideof1,appliedintheExtractionblock,whilesimilarnotationsapplyto otherlayers.Thisﬁgureisamodiﬁedversionoftheoriginaldiagramfrom Dongetal.[26].",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        159.047,
+        300.036,
+        220.819
+      ],
+      "content_bbox": [
+        60.828,
+        53.088,
+        286.797,
+        147.552
+      ],
+      "crop_bbox": [
+        60.828,
+        53.088,
+        286.797,
+        147.552
+      ],
+      "original": "figures/original/Fig2_p004.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.64 in\n\n形状统计 (105 个):\n  FREEFORM (5)                 87\n  AUTO_SHAPE (1)               16\n  PICTURE (13)                 2\n\n矢量形状: 103\n位图图片: 2\n  8.8% 画面  (1.25 x 5.28 in)\n  8.5% 画面  (1.22 x 5.28 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Fig.3. Variable-SizeResidualConvolutionalNeuralNetwork(VRCNN) Design.Theﬁgureshowcasesthenetworkstructure,highlightingconvo- lutionallayers(Conv1toConv6)withvaryingkernelsizes,aswellas concatenation(c)andaddition(a)operationsforfeatureintegration.This design allows the network to effectively tackle diverse noise patterns caused by compression. The diagram is adapted from the original work by Dai et al. [28].",
+      "caption_en": "Fig.3. Variable-SizeResidualConvolutionalNeuralNetwork(VRCNN) Design.Theﬁgureshowcasesthenetworkstructure,highlightingconvo- lutionallayers(Conv1toConv6)withvaryingkernelsizes,aswellas concatenation(c)andaddition(a)operationsforfeatureintegration.This design allows the network to effectively tackle diverse noise patterns caused by compression. The diagram is adapted from the original work by Dai et al. [28].",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.976,
+        156.05,
+        563.054,
+        208.849
+      ],
+      "content_bbox": [
+        346.068,
+        53.316,
+        528.852,
+        144.195
+      ],
+      "crop_bbox": [
+        346.068,
+        53.316,
+        528.852,
+        144.195
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 6.69 in\n\n形状统计 (167 个):\n  FREEFORM (5)                 142\n  AUTO_SHAPE (1)               23\n  PICTURE (13)                 2\n\n矢量形状: 165\n位图图片: 2\n  4.4% 画面  (0.97 x 4.10 in)\n  4.4% 画面  (0.97 x 4.10 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 5,
+      "caption": "Fig.4. GL-Fusion[45]ModelforIn-LoopFiltering.Theﬁgureillustrates amodeldesignedtoenhancevideoqualitybyaddressingbothglobaland localdistortionsintroducedduringvideocoding.Thenetworkcomprises twoprimarybranches:theLocalDistortionBranch,whichtargetscoding artifactsfromblock-basedencoding,andtheGlobalAppearanceBranch, whichfocusesonrestoringdisruptedglobaltextures.Theoutputsofthese branchesarefusedtoachieveimprovedin-loopﬁlteringperformance.",
+      "caption_en": "Fig.4. GL-Fusion[45]ModelforIn-LoopFiltering.Theﬁgureillustrates amodeldesignedtoenhancevideoqualitybyaddressingbothglobaland localdistortionsintroducedduringvideocoding.Thenetworkcomprises twoprimarybranches:theLocalDistortionBranch,whichtargetscoding artifactsfromblock-basedencoding,andtheGlobalAppearanceBranch, whichfocusesonrestoringdisruptedglobaltextures.Theoutputsofthese branchesarefusedtoachieveimprovedin-loopﬁlteringperformance.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        170.045,
+        300.046,
+        231.817
+      ],
+      "content_bbox": [
+        53.388,
+        54.146,
+        295.092,
+        158.199
+      ],
+      "crop_bbox": [
+        53.388,
+        54.146,
+        295.092,
+        158.199
+      ],
+      "original": "figures/original/Fig4_p005.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 5.80 in\n\n形状统计 (393 个):\n  FREEFORM (5)                 382\n  AUTO_SHAPE (1)               7\n  PICTURE (13)                 4\n\n矢量形状: 389\n位图图片: 4\n  2.4% 画面  (0.95 x 1.95 in)\n  0.0% 画面  (0.03 x 0.05 in)\n  1.8% 画面  (0.78 x 1.80 in)\n  2.6% 画面  (0.99 x 2.02 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Fig.5. Decoder-sideScalableConvolutionalNeuralNetwork(DS-CNN). This ﬁgure depicts the DS-CNN model, which utilizes ten convolutional layers (Conv1 toConv10) toenhancethevisualqualityofHEVCvideostreams.By focusingonreducingdistortioninbothIandB/Pframes,themodeloperates withoutrequiringchangestotheencoder.ThescalabledesignofDS-CNN enablesﬂexibleadjustmentofcomputationalcomplexitytoaccommodate differentresourceconstraints.Thediagramisadaptedfromtheoriginal DS-CNNmodel[31].",
+      "caption_en": "Fig.5. Decoder-sideScalableConvolutionalNeuralNetwork(DS-CNN). This ﬁgure depicts the DS-CNN model, which utilizes ten convolutional layers (Conv1 toConv10) toenhancethevisualqualityofHEVCvideostreams.By focusingonreducingdistortioninbothIandB/Pframes,themodeloperates withoutrequiringchangestotheencoder.ThescalabledesignofDS-CNN enablesﬂexibleadjustmentofcomputationalcomplexitytoaccommodate differentresourceconstraints.Thediagramisadaptedfromtheoriginal DS-CNNmodel[31].",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.976,
+        183.05,
+        563.05,
+        253.786
+      ],
+      "content_bbox": [
+        333.504,
+        52.728,
+        541.501,
+        171.195
+      ],
+      "crop_bbox": [
+        333.504,
+        52.728,
+        541.501,
+        171.195
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.64 in\n\n形状统计 (222 个):\n  FREEFORM (5)                 191\n  AUTO_SHAPE (1)               29\n  PICTURE (13)                 2\n\n矢量形状: 220\n位图图片: 2\n  2.6% 画面  (0.78 x 3.40 in)\n  2.7% 画面  (0.80 x 3.38 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Fig.6. ArchitectureoftheMFQE(Multi-FrameQualityEnhancement) Framework.Thisframeworkimprovescompressedvideoqualitybyselecting PeakQualityFrames(PQFs)usingaPQFselector.Opticalﬂowisemployed toalignadjacentframesthroughwarping.Thesealignedframesarethen processedintheQualityEnhancementmodule,whichenhancesthetarget frameXt.TheoutputYtisobtainedbyaddingresidualcorrectionstoXt. ThisﬁgureisamodiﬁedversionbasedontheoriginalMFQEpaper[50]and appropriatelyreferencesitssource.",
+      "caption_en": "Fig.6. ArchitectureoftheMFQE(Multi-FrameQualityEnhancement) Framework.Thisframeworkimprovescompressedvideoqualitybyselecting PeakQualityFrames(PQFs)usingaPQFselector.Opticalﬂowisemployed toalignadjacentframesthroughwarping.Thesealignedframesarethen processedintheQualityEnhancementmodule,whichenhancesthetarget frameXt.TheoutputYtisobtainedbyaddingresidualcorrectionstoXt. ThisﬁgureisamodiﬁedversionbasedontheoriginalMFQEpaper[50]and appropriatelyreferencesitssource.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        151.046,
+        300.042,
+        221.781
+      ],
+      "content_bbox": [
+        55.989,
+        53.208,
+        293.172,
+        139.2
+      ],
+      "crop_bbox": [
+        55.989,
+        53.208,
+        293.172,
+        139.2
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.90 in\n\n形状统计 (149 个):\n  FREEFORM (5)                 111\n  AUTO_SHAPE (1)               27\n  PICTURE (13)                 11\n\n矢量形状: 138\n位图图片: 11\n  3.5% 画面  (0.62 x 3.63 in)\n  3.6% 画面  (0.64 x 3.63 in)\n  0.9% 画面  (0.17 x 3.61 in)\n  3.5% 画面  (0.64 x 3.63 in)\n  1.4% 画面  (0.27 x 3.49 in)\n  1.4% 画面  (0.43 x 2.16 in)\n  1.4% 画面  (0.43 x 2.17 in)\n  0.3% 画面  (0.10 x 2.12 in)\n  1.4% 画面  (0.43 x 2.17 in)\n  0.3% 画面  (0.08 x 2.08 in)\n  ... 共 11 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 7,
+      "caption": "Fig.7. ArchitectureoftheSpatio-TemporalDeformableFusion(STDF) Framework.TheSTDFframeworkenhancescompressedvideoqualityby aligningreferenceframesatthefeaturelevelusingSpatio-Temporal Deformable Convolution (STDC). Instead of relying on optical ﬂow, it predicts an offset ﬁeld through the Base Convolution and Offset Prediction modules to deformthespatio-temporalsamplingpositionsofconvolutions.Thealigned featuresarethenprocessedthroughtheQualityEnhancementmoduleto producetheenhancedoutputYtfromtheinputXt.Thisﬁgureisadapted fromtheoriginalSTDFpaper[85]withproperattribution.",
+      "caption_en": "Fig.7. ArchitectureoftheSpatio-TemporalDeformableFusion(STDF) Framework.TheSTDFframeworkenhancescompressedvideoqualityby aligningreferenceframesatthefeaturelevelusingSpatio-Temporal Deformable Convolution (STDC). Instead of relying on optical ﬂow, it predicts an offset ﬁeld through the Base Convolution and Offset Prediction modules to deformthespatio-temporalsamplingpositionsofconvolutions.Thealigned featuresarethenprocessedthroughtheQualityEnhancementmoduleto producetheenhancedoutputYtfromtheinputXt.Thisﬁgureisadapted fromtheoriginalSTDFpaper[85]withproperattribution.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.96,
+        153.053,
+        300.044,
+        232.752
+      ],
+      "content_bbox": [
+        54.99,
+        53.713,
+        293.772,
+        141.198
+      ],
+      "crop_bbox": [
+        54.99,
+        53.713,
+        293.772,
+        141.198
+      ],
+      "original": "figures/original/Fig7_p007.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.96 in\n\n形状统计 (449 个):\n  FREEFORM (5)                 420\n  AUTO_SHAPE (1)               23\n  PICTURE (13)                 6\n\n矢量形状: 443\n位图图片: 6\n  2.5% 画面  (0.63 x 2.64 in)\n  2.5% 画面  (0.63 x 2.64 in)\n  0.8% 画面  (0.20 x 2.64 in)\n  2.5% 画面  (0.63 x 2.63 in)\n  1.1% 画面  (0.29 x 2.55 in)\n  2.4% 画面  (0.61 x 2.63 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 7,
+      "caption": "Fig.8. ArchitectureoftheSpatio-TemporalCompensationFusion(STCF) Framework.TheSTCFframeworkaimstoreducevideocompressionartifacts byintegratingmotioncompensationandglobalcontextusingtheParallel Swin-CNNFusion(PSCF)block.ItcombinesaSwinTransformerlayer, whichutilizesatemporalself-attentionmechanismbasedonshiftedwindows tocaptureglobalcontextefﬁciently,withanAda-CNNlayerforextracting motioncompensation.Thisdiagramisamodiﬁedversionoftheoriginal STCF[88].",
+      "caption_en": "Fig.8. ArchitectureoftheSpatio-TemporalCompensationFusion(STCF) Framework.TheSTCFframeworkaimstoreducevideocompressionartifacts byintegratingmotioncompensationandglobalcontextusingtheParallel Swin-CNNFusion(PSCF)block.ItcombinesaSwinTransformerlayer, whichutilizesatemporalself-attentionmechanismbasedonshiftedwindows tocaptureglobalcontextefﬁciently,withanAda-CNNlayerforextracting motioncompensation.Thisdiagramisamodiﬁedversionoftheoriginal STCF[88].",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.976,
+        143.045,
+        563.061,
+        213.781
+      ],
+      "content_bbox": [
+        318.006,
+        53.827,
+        557.172,
+        131.199
+      ],
+      "crop_bbox": [
+        318.006,
+        53.827,
+        557.172,
+        131.199
+      ],
+      "original": "figures/original/Fig8_p007.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.39 in\n\n形状统计 (533 个):\n  FREEFORM (5)                 485\n  AUTO_SHAPE (1)               42\n  PICTURE (13)                 6\n\n矢量形状: 527\n位图图片: 6\n  2.2% 画面  (0.55 x 2.32 in)\n  2.2% 画面  (0.55 x 2.32 in)\n  0.7% 画面  (0.17 x 2.32 in)\n  2.1% 画面  (0.54 x 2.33 in)\n  0.9% 画面  (0.23 x 2.25 in)\n  2.1% 画面  (0.54 x 2.33 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 8,
+      "caption": "TABLEIII PERFORMANCE COMPARISONOF INTER-FRAME QUALITY ENHANCEMENT METHODSON HEVCCOMPRESSED VIDEOS (HM16.5) USING \u0004PSNRAND \u0004SSIMMETRICS",
+      "caption_en": "TABLEIII PERFORMANCE COMPARISONOF INTER-FRAME QUALITY ENHANCEMENT METHODSON HEVCCOMPRESSED VIDEOS (HM16.5) USING \u0004PSNRAND \u0004SSIMMETRICS",
+      "caption_zh": "",
+      "caption_bbox": [
+        85.41,
+        52.523,
+        526.545,
+        78.421
+      ],
+      "content_bbox": [
+        56.205,
+        89.235,
+        549.433,
+        253.413
+      ],
+      "crop_bbox": [
+        56.205,
+        89.235,
+        549.433,
+        253.413
+      ],
+      "original": "tables/original/Table3_p008.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 9,
+      "caption": "TABLEIV PERFORMANCE COMPARISONOF SPACE COMPLEXITY (BYTES)AND COMPUTATIONAL COMPLEXITY (FLOPS)OF VARIOUS METHODS",
+      "caption_en": "TABLEIV PERFORMANCE COMPARISONOF SPACE COMPLEXITY (BYTES)AND COMPUTATIONAL COMPLEXITY (FLOPS)OF VARIOUS METHODS",
+      "caption_zh": "",
+      "caption_bbox": [
+        321.841,
+        52.523,
+        553.173,
+        78.421
+      ],
+      "content_bbox": [
+        341.505,
+        90.956,
+        532.611,
+        221.666
+      ],
+      "crop_bbox": [
+        341.505,
+        90.956,
+        532.611,
+        221.666
+      ],
+      "original": "tables/original/Table4_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 10,
+      "caption": "TABLEV COMPARISONOF BD-RATE REDUCTION ACROSS VARIOUS METHODSFOR VIDEO QUALITY ENHANCEMENT",
+      "caption_en": "TABLEV COMPARISONOF BD-RATE REDUCTION ACROSS VARIOUS METHODSFOR VIDEO QUALITY ENHANCEMENT",
+      "caption_zh": "",
+      "caption_bbox": [
+        123.021,
+        52.523,
+        489.013,
+        69.457
+      ],
+      "content_bbox": [
+        56.205,
+        81.37,
+        549.433,
+        228.782
+      ],
+      "crop_bbox": [
+        56.205,
+        81.37,
+        549.433,
+        228.782
+      ],
+      "original": "tables/original/Table5_p010.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0",
+    "title": "IEEE TRANSACTIONS ON BROADCASTING 1 A Survey of Deep-Learning-Based Compressed Video Quality Enhancement",
+    "venue": "Local reference",
+    "venue_full": "Local reference",
+    "venue_short": "Local reference",
+    "venue_type": "期刊",
+    "year": 2025,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "https://www.ieee.org/publications/rights/index.html",
+    "pdf_url": "https://www.ieee.org/publications/rights/index.html",
+    "access": "local_pdf",
+    "source_sha256": "1a395193f4d63ccb6203f75c67127d013c520bb82dd702544337db96340a366d",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\4R9KATUM\\TBC基于深度学习的压缩视频质量提升综述.pdf",
+      "C:\\Users\\Admin\\Zotero\\storage\\DGNAWXLN\\TBC基于深度学习的压缩视频质量提升综述.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "",
+    "cas_display": "",
+    "ccf_display": ""
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    }
+  ]
+}

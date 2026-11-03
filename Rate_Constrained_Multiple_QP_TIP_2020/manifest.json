@@ -1,0 +1,485 @@
+{
+  "paper": "Rate_Constrained_Multiple_QP_TIP_2020",
+  "pdf": "pdf/paper.pdf",
+  "pages": 12,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 3,
+      "caption": "Fig. 1. Average distribution of the rate cost in HM 16.6. From the top row to the bottom row: the results of BasketballPass, BQMall and BQTerrace, respectively. From the left-most column to the right-most column: the results of LD QP = 27, 37 and RA QP = 27, 37, respectively.",
+      "caption_en": "Fig. 1. Average distribution of the rate cost in HM 16.6. From the top row to the bottom row: the results of BasketballPass, BQMall and BQTerrace, respectively. From the left-most column to the right-most column: the results of LD QP = 27, 37 and RA QP = 27, 37, respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.12,
+        421.452,
+        556.21,
+        438.467
+      ],
+      "content_bbox": [
+        46.656,
+        66.965,
+        550.656,
+        409.516
+      ],
+      "crop_bbox": [
+        46.656,
+        66.965,
+        550.656,
+        409.516
+      ],
+      "original": "figures/original/Fig1_p003.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  90.7% 画面  (10.00 x 6.80 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 6219914 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 3,
+      "caption": "TABLE I RESULTSOFTHE PERCENTAGEOF Ri(·)ATTHE CTU LEVEL",
+      "caption_en": "TABLE I RESULTSOFTHE PERCENTAGEOF Ri(·)ATTHE CTU LEVEL",
+      "caption_zh": "",
+      "caption_bbox": [
+        71.712,
+        459.378,
+        263.59,
+        476.834
+      ],
+      "content_bbox": [
+        59.652,
+        488.788,
+        275.548,
+        605.218
+      ],
+      "crop_bbox": [
+        59.652,
+        488.788,
+        275.548,
+        605.218
+      ],
+      "original": "tables/original/Table1_p003.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 4,
+      "caption": "Fig. 2. Comparisons of the scaled rate λ · Ri(·) and distortion Di(·). From the top row to the bottom row: the results of BasketballPass, BQMall and BQTerrace, respectively. From the left-most column to the right-most column: the results of LD QP = 27, 37 and RA QP = 27, 37, respectively. The statistical data of the ﬁrst 20 frames are collected.",
+      "caption_en": "Fig. 2. Comparisons of the scaled rate λ · Ri(·) and distortion Di(·). From the top row to the bottom row: the results of BasketballPass, BQMall and BQTerrace, respectively. From the left-most column to the right-most column: the results of LD QP = 27, 37 and RA QP = 27, 37, respectively. The statistical data of the ﬁrst 20 frames are collected.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.806,
+        387.959,
+        551.906,
+        414.16
+      ],
+      "content_bbox": [
+        42.937,
+        68.163,
+        546.867,
+        375.679
+      ],
+      "crop_bbox": [
+        42.937,
+        68.163,
+        546.867,
+        375.679
+      ],
+      "original": "figures/original/Fig2_p004.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  81.4% 画面  (10.00 x 6.10 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 5580696 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "TABLE II ABSOLUTE PREDICTION RESULTSIN TERMSOF BJØNTEGAARD DELTA RATE (BD-RATE)OFTHE PROPOSED COEFFICIENT SELECTION METHOD",
+      "caption_en": "TABLE II ABSOLUTE PREDICTION RESULTSIN TERMSOF BJØNTEGAARD DELTA RATE (BD-RATE)OFTHE PROPOSED COEFFICIENT SELECTION METHOD",
+      "caption_zh": "",
+      "caption_bbox": [
+        74.853,
+        65.024,
+        523.442,
+        81.958
+      ],
+      "content_bbox": [
+        92.538,
+        94.086,
+        505.324,
+        309.728
+      ],
+      "crop_bbox": [
+        92.538,
+        94.086,
+        505.324,
+        309.728
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "TABLE III PERFORMANCE COMPARISONS BETWEEN MULTIPLE-QP, ADAPTIVE-QPAND PROPOSED. THELUMINANCE (Y) COMPONENTISUSEDTO COMPUTETHE AVERAGE",
+      "caption_en": "TABLE III PERFORMANCE COMPARISONS BETWEEN MULTIPLE-QP, ADAPTIVE-QPAND PROPOSED. THELUMINANCE (Y) COMPONENTISUSEDTO COMPUTETHE AVERAGE",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.246,
+        65.024,
+        547.626,
+        81.958
+      ],
+      "content_bbox": [
+        73.503,
+        82.658,
+        516.383,
+        323.726
+      ],
+      "crop_bbox": [
+        73.503,
+        82.658,
+        516.383,
+        323.726
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 6,
+      "caption": "TABLE IV PERFORMANCE COMPARISONS BETWEEN MULTIPLE-QP, ADAPTIVE-QPAND PROPOSED. THE LUMINANCE (Y) COMPONENTISUSEDTO COMPUTETHE AVERAGE",
+      "caption_en": "TABLE IV PERFORMANCE COMPARISONS BETWEEN MULTIPLE-QP, ADAPTIVE-QPAND PROPOSED. THE LUMINANCE (Y) COMPONENTISUSEDTO COMPUTETHE AVERAGE",
+      "caption_zh": "",
+      "caption_bbox": [
+        41.76,
+        338.084,
+        548.113,
+        355.018
+      ],
+      "content_bbox": [
+        74.565,
+        355.718,
+        515.321,
+        596.786
+      ],
+      "crop_bbox": [
+        74.565,
+        355.718,
+        515.321,
+        596.786
+      ],
+      "original": "tables/original/Table4_p006.png",
+      "vector": [],
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 7,
+      "caption": "Fig. 3. Comparisons of the encoding time curves of the Class D video sequences with “MaxDeltaQP=1”. From the top row to the bottom row: the results of three conﬁgurations AI, LD, and RA, respectively. From the left-most column to the right-most column: the average encoding time curves of QP = 22, QP = 27, QP = 32, and QP = 37, respectively.",
+      "caption_en": "Fig. 3. Comparisons of the encoding time curves of the Class D video sequences with “MaxDeltaQP=1”. From the top row to the bottom row: the results of three conﬁgurations AI, LD, and RA, respectively. From the left-most column to the right-most column: the average encoding time curves of QP = 22, QP = 27, QP = 32, and QP = 37, respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.12,
+        392.24,
+        556.226,
+        418.432
+      ],
+      "content_bbox": [
+        59.157,
+        66.973,
+        539.157,
+        380.517
+      ],
+      "crop_bbox": [
+        59.157,
+        66.973,
+        539.157,
+        380.517
+      ],
+      "original": "figures/original/Fig3_p007.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.75 in\n\n形状统计 (2028 个):\n  FREEFORM (5)                 1996\n  AUTO_SHAPE (1)               32\n\n矢量形状: 2028\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 7,
+      "caption": "Fig.4. AveragecomplexitycomparisonsbetweenMultiple-QPandthe proposed method. MaxDeltaQP=1, 2, 3, 5.",
+      "caption_en": "Fig.4. AveragecomplexitycomparisonsbetweenMultiple-QPandthe proposed method. MaxDeltaQP=1, 2, 3, 5.",
+      "caption_zh": "",
+      "caption_bbox": [
+        305.136,
+        665.855,
+        556.207,
+        682.87
+      ],
+      "content_bbox": [
+        322.668,
+        449.087,
+        538.668,
+        653.919
+      ],
+      "crop_bbox": [
+        322.668,
+        449.087,
+        538.668,
+        653.919
+      ],
+      "original": "figures/original/Fig4_p007.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 12.65 in\n\n形状统计 (180 个):\n  FREEFORM (5)                 179\n  AUTO_SHAPE (1)               1\n\n矢量形状: 180\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 8,
+      "caption": "Fig.5. ComparisonresultsofSSIMontheClassDvideosequencewith“MaxDeltaQP=1”.TheﬁrstcolumnshowstheresultsoftheBasketballPassfrom QP = 22 to QP = 37. Similarly, the second, third and fourth are the results of BlowingBubbles, BQSquare and RaceHorses, respectively.",
+      "caption_en": "Fig.5. ComparisonresultsofSSIMontheClassDvideosequencewith“MaxDeltaQP=1”.TheﬁrstcolumnshowstheresultsoftheBasketballPassfrom QP = 22 to QP = 37. Similarly, the second, third and fourth are the results of BlowingBubbles, BQSquare and RaceHorses, respectively.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.907,
+        442.793,
+        552.013,
+        460.021
+      ],
+      "content_bbox": [
+        47.988,
+        67.207,
+        541.888,
+        431.07
+      ],
+      "crop_bbox": [
+        47.988,
+        67.207,
+        541.888,
+        431.07
+      ],
+      "original": "figures/original/Fig5_p008.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.85 in\n\n形状统计 (2098 个):\n  FREEFORM (5)                 1986\n  AUTO_SHAPE (1)               112\n\n矢量形状: 2098\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 9,
+      "caption": "Fig. 6. Reconstructed quality comparisons of RaceHorses with “MaxDeltaQP =1”.Fromthetoprowtothebottomrow:Raw,HM16.6,Adaptive-QP,Multiple- QP, and Proposed.",
+      "caption_en": "Fig. 6. Reconstructed quality comparisons of RaceHorses with “MaxDeltaQP =1”.Fromthetoprowtothebottomrow:Raw,HM16.6,Adaptive-QP,Multiple- QP, and Proposed.",
+      "caption_zh": "",
+      "caption_bbox": [
+        42.119,
+        697.769,
+        293.187,
+        723.748
+      ],
+      "content_bbox": [
+        47.151,
+        94.312,
+        287.871,
+        685.833
+      ],
+      "crop_bbox": [
+        47.151,
+        94.312,
+        287.871,
+        685.833
+      ],
+      "original": "figures/original/Fig6_p009.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  30.5% 画面  (3.05 x 7.50 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 9,
+      "caption": "TABLE V SSIM PERFORMANCE COMPARISONSWITH “MAXDELTAQP=1”",
+      "caption_en": "TABLE V SSIM PERFORMANCE COMPARISONSWITH “MAXDELTAQP=1”",
+      "caption_zh": "",
+      "caption_bbox": [
+        67.806,
+        65.024,
+        267.479,
+        81.958
+      ],
+      "content_bbox": [
+        47.151,
+        94.312,
+        287.871,
+        685.833
+      ],
+      "crop_bbox": [
+        47.151,
+        94.312,
+        287.871,
+        685.833
+      ],
+      "original": "tables/original/Table5_p009.png",
+      "vector": [],
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Rate_Constrained_Multiple_QP_TIP_2020",
+    "title": "Rate Constrained Multiple-QP Optimization for HEVC",
+    "venue": "TMM",
+    "venue_full": "TMM",
+    "venue_short": "TMM",
+    "venue_type": "期刊",
+    "year": 2020,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "http://ieeexplore.ieee.org",
+    "pdf_url": "http://ieeexplore.ieee.org",
+    "access": "local_pdf",
+    "source_sha256": "1d439dbf8fa04747dcb20b087ea783349848058273475a808aac37ab1fe479e4",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\YU8U8ZQ4\\Wang 等 - 2020 - Rate Constrained Multiple-QP Optimization for HEVC.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "中科院 1区 · Top（2025）",
+    "cas_display": "中科院 1区 · Top（2025）",
+    "ccf_display": "CCF：未收录（2026目录）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "paper": "Generative_Latent_Coding_for_Ultra_Local_reference_2024",
+  "pdf": "pdf/paper.pdf",
+  "pages": 11,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1. Generative latent space of VQ-VAE exhibits better align- mentwithhumanperceptionthanpixelspaceforultra-lowbi- trate compression.Under comparable distortion levels (measured by signal-to-noise ratio, SNR), latent-space compression produces reconstructionswithsuperiorperceptualquality(measuredby DISTS[15])thanpixel-spacegenerativecodecMS-ILLM[46], as the compressed latents remain in the same latent code space.",
+      "caption_en": "Figure 1. Generative latent space of VQ-VAE exhibits better align- mentwithhumanperceptionthanpixelspaceforultra-lowbi- trate compression.Under comparable distortion levels (measured by signal-to-noise ratio, SNR), latent-space compression produces reconstructionswithsuperiorperceptualquality(measuredby DISTS[15])thanpixel-spacegenerativecodecMS-ILLM[46], as the compressed latents remain in the same latent code space.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        396.738,
+        545.109,
+        471.457
+      ],
+      "content_bbox": [
+        308.862,
+        213.768,
+        545.114,
+        390.957
+      ],
+      "crop_bbox": [
+        308.862,
+        213.768,
+        545.114,
+        390.957
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 10.03 in\n\n形状统计 (208 个):\n  FREEFORM (5)                 163\n  TEXT_BOX (17)                39\n  PICTURE (13)                 6\n\n矢量形状: 202\n位图图片: 6\n  11.7% 画面  (3.97 x 3.94 in)\n  11.7% 画面  (3.96 x 3.93 in)\n  11.7% 画面  (3.96 x 3.93 in)\n  0.2% 画面  (1.06 x 0.28 in)\n  0.3% 画面  (1.12 x 0.39 in)\n  0.2% 画面  (0.34 x 0.78 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 1,
+      "caption": "Figure2.AqualitativecomparisonbetweenHiFiC[44],MS-ILLM[46],Text+Sketch[35]andtheproposedGLC.GLCproducesim- ageswithhighvisualquality,eveninregionswithcomplextexture.Incontrast,HiFiCandMS-ILLMexhibitnoticeableartifacts,and Text+Sketch generates results that deviate significantly from the input.Best viewed when zoomed in.",
+      "caption_en": "Figure2.AqualitativecomparisonbetweenHiFiC[44],MS-ILLM[46],Text+Sketch[35]andtheproposedGLC.GLCproducesim- ageswithhighvisualquality,eveninregionswithcomplextexture.Incontrast,HiFiCandMS-ILLMexhibitnoticeableartifacts,and Text+Sketch generates results that deviate significantly from the input.Best viewed when zoomed in.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        317.169,
+        545.111,
+        348.053
+      ],
+      "content_bbox": [
+        50.112,
+        72.001,
+        545.11,
+        306.335
+      ],
+      "crop_bbox": [
+        50.112,
+        72.001,
+        545.11,
+        306.335
+      ],
+      "original": "figures/original/Fig2_p001.png",
+      "vector": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  63.1% 画面  (10.00 x 4.73 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4329667 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 2,
+      "caption": "Figure 3.Illustration of the proposed Generative Latent Coding (GLC) framework.(Left) GLC firstly encodes the image into a generative latent representation (Section 3.2), then compresses the latent with transform coding (Section 3.3), and finally reconstructs image from the compressed latent.(Right) We progressively train GLC in three stages (Section 4):In stage I, we train a generative VQ-VAE to obtain a human-perception-aligned latent space.In stage II, the transform coding module learns to compress the latent with a code-prediction-based latent supervision (Figure 6).Finally, in stage III, the entire network is fine-tuned jointly with a code-prediction-based pixel supervision to further enhance the compression performance.",
+      "caption_en": "Figure 3.Illustration of the proposed Generative Latent Coding (GLC) framework.(Left) GLC firstly encodes the image into a generative latent representation (Section 3.2), then compresses the latent with transform coding (Section 3.3), and finally reconstructs image from the compressed latent.(Right) We progressively train GLC in three stages (Section 4):In stage I, we train a generative VQ-VAE to obtain a human-perception-aligned latent space.In stage II, the transform coding module learns to compress the latent with a code-prediction-based latent supervision (Figure 6).Finally, in stage III, the entire network is fine-tuned jointly with a code-prediction-based pixel supervision to further enhance the compression performance.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        241.558,
+        545.115,
+        305.4
+      ],
+      "content_bbox": [
+        50.112,
+        72.003,
+        545.08,
+        236.992
+      ],
+      "crop_bbox": [
+        50.112,
+        72.003,
+        545.08,
+        236.992
+      ],
+      "original": "figures/original/Fig3_p002.png",
+      "vector": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 4.52 in\n\n形状统计 (454 个):\n  FREEFORM (5)                 379\n  TEXT_BOX (17)                73\n  PICTURE (13)                 2\n\n矢量形状: 452\n位图图片: 2\n  1.5% 画面  (0.78 x 1.17 in)\n  1.5% 画面  (0.78 x 1.18 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 3,
+      "caption": "Figure 4.Illustration of the transform coding in latent space.(a) The model structure of the transform coding module.We further compare itwithothercodingschemesinoperationaldiagrams:(b)indices-mapcoding[27,28,43],(c)transformcodingwithfactorizedhyper module [5, 21, 38] and (d) proposed transform coding with categorical hyper module.Here AE and AD denote arithmetic encoding and decoding, VQ-E and VQ-D stand for VQ-indices-map encoding and decoding, Q refers to scalar quantization, U signifies the addition of uniform noise as a differential simulation of Q, and S denotes the spatial context entropy module.",
+      "caption_en": "Figure 4.Illustration of the transform coding in latent space.(a) The model structure of the transform coding module.We further compare itwithothercodingschemesinoperationaldiagrams:(b)indices-mapcoding[27,28,43],(c)transformcodingwithfactorizedhyper module [5, 21, 38] and (d) proposed transform coding with categorical hyper module.Here AE and AD denote arithmetic encoding and decoding, VQ-E and VQ-D stand for VQ-indices-map encoding and decoding, Q refers to scalar quantization, U signifies the addition of uniform noise as a differential simulation of Q, and S denotes the spatial context entropy module.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        192.474,
+        545.111,
+        245.275
+      ],
+      "content_bbox": [
+        60.702,
+        72.001,
+        537.5,
+        180.726
+      ],
+      "crop_bbox": [
+        60.702,
+        72.001,
+        537.5,
+        180.726
+      ],
+      "original": "figures/original/Fig4_p003.png",
+      "vector": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 3.13 in\n\n形状统计 (337 个):\n  FREEFORM (5)                 239\n  TEXT_BOX (17)                98\n\n矢量形状: 337\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 3,
+      "caption": "Figure 5.Example of comparison between factorized and categor- ical hyper modules.The proposed categorical zencodes essential semantic and structural information with much less bits.",
+      "caption_en": "Figure 5.Example of comparison between factorized and categor- ical hyper modules.The proposed categorical zencodes essential semantic and structural information with much less bits.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        446.468,
+        545.109,
+        477.352
+      ],
+      "content_bbox": [
+        308.862,
+        266.32,
+        545.114,
+        436.159
+      ],
+      "crop_bbox": [
+        308.862,
+        266.32,
+        545.114,
+        436.159
+      ],
+      "original": "figures/original/Fig5_p003.png",
+      "vector": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 9.62 in\n\n形状统计 (51 个):\n  TEXT_BOX (17)                37\n  FREEFORM (5)                 9\n  PICTURE (13)                 5\n\n矢量形状: 46\n位图图片: 5\n  9.1% 画面  (3.42 x 3.42 in)\n  9.1% 画面  (3.41 x 3.41 in)\n  9.1% 画面  (3.41 x 3.41 in)\n  9.1% 画面  (3.42 x 3.42 in)\n  9.1% 画面  (3.42 x 3.42 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 4,
+      "caption": "Figure 6.Illustration of code-prediction-based supervision.",
+      "caption_en": "Figure 6.Illustration of code-prediction-based supervision.",
+      "caption_zh": "",
+      "caption_bbox": [
+        321.006,
+        237.469,
+        532.972,
+        246.435
+      ],
+      "content_bbox": [
+        308.862,
+        71.996,
+        545.116,
+        226.635
+      ],
+      "crop_bbox": [
+        308.862,
+        71.996,
+        545.116,
+        226.635
+      ],
+      "original": "figures/original/Fig6_p004.png",
+      "vector": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 8.77 in\n\n形状统计 (677 个):\n  FREEFORM (5)                 618\n  TEXT_BOX (17)                57\n  PICTURE (13)                 2\n\n矢量形状: 675\n位图图片: 2\n  0.9% 画面  (0.86 x 1.29 in)\n  0.9% 画面  (0.86 x 1.29 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 5,
+      "caption": "Figure 7.An example of using code-prediction-based supervision after stage II. Code prediction loss enhances the semantic consis- tencyofthecompressedlatent,suchasthecolorofeyeshadow and the opening of the mouth. \\mat hcal{L}_{\\text { S tage I II}}=\\mathbf {E}_{x\\sim p_X}[\\mathcal {R}(\\hat {y})+\\lambda \\cdot \\mathcal {D}_{\\text {Stage III}}] (8)",
+      "caption_en": "Figure 7.An example of using code-prediction-based supervision after stage II. Code prediction loss enhances the semantic consis- tencyofthecompressedlatent,suchasthecolorofeyeshadow and the opening of the mouth. \\mat hcal{L}_{\\text { S tage I II}}=\\mathbf {E}_{x\\sim p_X}[\\mathcal {R}(\\hat {y})+\\lambda \\cdot \\mathcal {D}_{\\text {Stage III}}] (8)",
+      "caption_zh": "",
+      "caption_bbox": [
+        95.758,
+        208.674,
+        545.109,
+        250.517
+      ],
+      "content_bbox": [
+        308.862,
+        71.997,
+        545.118,
+        205.727
+      ],
+      "crop_bbox": [
+        308.862,
+        71.997,
+        545.118,
+        205.727
+      ],
+      "original": "figures/original/Fig7_p005.png",
+      "vector": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ],
+      "vector_mode": "existing",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 7.60 in\n\n形状统计 (28 个):\n  TEXT_BOX (17)                11\n  FREEFORM (5)                 9\n  PICTURE (13)                 8\n\n矢量形状: 20\n位图图片: 8\n  7.2% 画面  (3.04 x 2.40 in)\n  7.2% 画面  (3.04 x 2.40 in)\n  7.2% 画面  (3.04 x 2.40 in)\n  7.1% 画面  (3.02 x 2.39 in)\n  7.1% 画面  (3.02 x 2.39 in)\n  5.7% 画面  (2.39 x 2.39 in)\n  5.7% 画面  (2.39 x 2.40 in)\n  7.1% 画面  (3.02 x 2.39 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 6,
+      "caption": "Figure 8.Comparison of methods on CLIC 2020 test set and CelebAHQ.",
+      "caption_en": "Figure 8.Comparison of methods on CLIC 2020 test set and CelebAHQ.",
+      "caption_zh": "",
+      "caption_bbox": [
+        166.466,
+        348.193,
+        428.76,
+        357.159
+      ],
+      "content_bbox": [
+        46.223,
+        71.997,
+        545.111,
+        342.518
+      ],
+      "crop_bbox": [
+        46.223,
+        71.997,
+        545.111,
+        342.518
+      ],
+      "original": "figures/original/Fig8_p006.png",
+      "vector": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  72.4% 画面  (10.00 x 5.43 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 4963493 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 6,
+      "caption": "Figure 9.Qualitative examples of different methods on Kodak and CelebAHQ. More comparisons are in supplementary materials.",
+      "caption_en": "Figure 9.Qualitative examples of different methods on Kodak and CelebAHQ. More comparisons are in supplementary materials.",
+      "caption_zh": "",
+      "caption_bbox": [
+        64.152,
+        568.431,
+        531.078,
+        577.397
+      ],
+      "content_bbox": [
+        50.112,
+        348.193,
+        545.106,
+        562.649
+      ],
+      "crop_bbox": [
+        50.112,
+        348.193,
+        545.106,
+        562.649
+      ],
+      "original": "figures/original/Fig9_p006.png",
+      "vector": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 2,
+          "verify_pptx_tail": "幻灯片: 10.00 x 7.50 in\n\n形状统计 (1 个):\n  PICTURE (13)                 1\n\n矢量形状: 0\n位图图片: 1\n  57.8% 画面  (10.00 x 4.34 in)\n\n[FAIL] 发现覆盖半屏以上的位图，这是贴图不是矢量：\n  第 1 页 9144000 x 3965015 px\n"
+        }
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 7,
+      "caption": "Figure10.GenerativelatentapplicationsbuiltonGLC.Inthe practicalimagecompressionsystem,userscanchoosedifferent encoders and decoders, to compress an image (medium), compress a distorted image and decompress a clear one (top), or decode the image into another style (bottom).",
+      "caption_en": "Figure10.GenerativelatentapplicationsbuiltonGLC.Inthe practicalimagecompressionsystem,userscanchoosedifferent encoders and decoders, to compress an image (medium), compress a distorted image and decompress a clear one (top), or decode the image into another style (bottom).",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        307.833,
+        545.109,
+        360.635
+      ],
+      "content_bbox": [
+        308.862,
+        72.002,
+        545.109,
+        296.999
+      ],
+      "crop_bbox": [
+        308.862,
+        72.002,
+        545.109,
+        296.999
+      ],
+      "original": "figures/original/Fig10_p007.png",
+      "vector": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ],
+      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_exit_code": 0,
+      "vector_log_tail": "existing output reused",
+      "vector_qa": [
+        {
+          "verify_pptx_code": 0,
+          "verify_pptx_tail": "幻灯片: 13.33 x 12.70 in\n\n形状统计 (139 个):\n  FREEFORM (5)                 98\n  TEXT_BOX (17)                35\n  PICTURE (13)                 6\n\n矢量形状: 133\n位图图片: 6\n  1.8% 画面  (1.74 x 1.78 in)\n  5.7% 画面  (3.14 x 3.10 in)\n  5.7% 画面  (3.14 x 3.10 in)\n  5.7% 画面  (3.14 x 3.10 in)\n  5.8% 画面  (3.14 x 3.10 in)\n  5.8% 画面  (3.14 x 3.10 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 7,
+      "caption": "Table 1.Ablation study on latent-space compression.",
+      "caption_en": "Table 1.Ablation study on latent-space compression.",
+      "caption_zh": "",
+      "caption_bbox": [
+        72.948,
+        72.871,
+        263.529,
+        81.837
+      ],
+      "content_bbox": [
+        56.824,
+        92.547,
+        274.667,
+        148.068
+      ],
+      "crop_bbox": [
+        56.824,
+        92.547,
+        274.667,
+        148.068
+      ],
+      "original": "tables/original/Table1_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 7,
+      "caption": "Table 2.Ablation study on the code prediction module.",
+      "caption_en": "Table 2.Ablation study on the code prediction module.",
+      "caption_zh": "",
+      "caption_bbox": [
+        69.209,
+        162.382,
+        267.268,
+        171.348
+      ],
+      "content_bbox": [
+        56.824,
+        92.547,
+        274.667,
+        148.068
+      ],
+      "crop_bbox": [
+        56.824,
+        92.547,
+        274.667,
+        148.068
+      ],
+      "original": "tables/original/Table2_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 7,
+      "caption": "Table3.Comparisonfordifferentjointrestorationandcompres- sion schemes on CLIC 2020 test set.",
+      "caption_en": "Table3.Comparisonfordifferentjointrestorationandcompres- sion schemes on CLIC 2020 test set.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        378.64,
+        545.109,
+        398.565
+      ],
+      "content_bbox": [
+        310.177,
+        411.086,
+        543.515,
+        444.626
+      ],
+      "crop_bbox": [
+        310.177,
+        411.086,
+        543.515,
+        444.626
+      ],
+      "original": "tables/original/Table3_p007.png",
+      "vector": [],
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Generative_Latent_Coding_for_Ultra_Local_reference_2024",
+    "title": "This CVPR paper is the Open Access version, provided by the Computer Vision Foundation.",
+    "venue": "CVPR",
+    "venue_full": "CVPR",
+    "venue_short": "CVPR",
+    "venue_type": "会议",
+    "year": 2024,
+    "classification": "本地参考文献，分区待核验",
+    "official_url": "",
+    "pdf_url": "",
+    "access": "local_pdf",
+    "source_sha256": "ada81193f685be3a78893bd1be245d7d1350477d9760eda8ae89ed3841cbd34b",
+    "source_paths": [
+      "C:\\Users\\Admin\\Zotero\\storage\\WFNF94J5\\Jia 等 - 2024 - Generative Latent Coding for Ultra-Low Bitrate Image Compression.pdf"
+    ],
+    "source_scope": "Zotero",
+    "ranking_display": "CCF会议 A类（2026）",
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_display": "CCF会议 A类（2026）"
+  },
+  "vectorized": [
+    {
+      "label": "Fig1",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig1/Fig1.svg",
+        "figures/vector/Fig1/Fig1.pptx"
+      ]
+    },
+    {
+      "label": "Fig2",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig2/Fig2.svg",
+        "figures/vector/Fig2/Fig2.pptx"
+      ]
+    },
+    {
+      "label": "Fig3",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig3/Fig3.svg",
+        "figures/vector/Fig3/Fig3.pptx"
+      ]
+    },
+    {
+      "label": "Fig4",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig4/Fig4.svg",
+        "figures/vector/Fig4/Fig4.pptx"
+      ]
+    },
+    {
+      "label": "Fig5",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig5/Fig5.svg",
+        "figures/vector/Fig5/Fig5.pptx"
+      ]
+    },
+    {
+      "label": "Fig6",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig6/Fig6.svg",
+        "figures/vector/Fig6/Fig6.pptx"
+      ]
+    },
+    {
+      "label": "Fig7",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig7/Fig7.svg",
+        "figures/vector/Fig7/Fig7.pptx"
+      ]
+    },
+    {
+      "label": "Fig8",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig8/Fig8.svg",
+        "figures/vector/Fig8/Fig8.pptx"
+      ]
+    },
+    {
+      "label": "Fig9",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig9/Fig9.svg",
+        "figures/vector/Fig9/Fig9.pptx"
+      ]
+    },
+    {
+      "label": "Fig10",
+      "kind": "figure",
+      "mode": "existing",
+      "exit_code": 0,
+      "files": [
+        "figures/vector/Fig10/Fig10.svg",
+        "figures/vector/Fig10/Fig10.pptx"
+      ]
+    }
+  ]
+}
