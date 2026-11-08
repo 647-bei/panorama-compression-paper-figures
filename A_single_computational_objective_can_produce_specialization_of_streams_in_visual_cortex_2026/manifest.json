@@ -1,0 +1,237 @@
+{
+  "paper": "A_single_computational_objective_can_produce_specialization_of_streams_in_visual_cortex_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 19,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig. 1 | Distinct representational structure and category selectivity across visual streams in the NSD. a Multidimensional scaling (MDS) of representational similarity across participants and regions of interest (ROIs) in the Natural Scenes Dataset (NSD). Representational similarity matrices were computed from dis- tributed voxel responses to the 515 images shared across participants. We ﬁnd a rough hierarchical progression from early visual cortex (EVC) ROIs in the top-right (gray), to mid-level ROIs (light colors, middle), to high-level ROIs in the lower-left. In addition, there is a large-scale separation by stream for high-level ROIs, rather than by participant or hemisphere, with lateral high-level ROIs (blue) separated and inferior from a tight ventral cluster (red), which is in turn largely distinct from the dorsal ROIs (green, though these show greater between-participant variability). These results indicate that NSD responses exhibit distinct representational struc- ture across dorsal, lateral, and ventral cortex. b Fraction of voxels with signiﬁcant category selectivity (t > 3) for places, bodies, and faces within ROIs consisting of high-level visual cortex in each stream. Category selectivity differs systematically across streams, further demonstrating functional differentiation in the NSD responses, and replicating patterns from the literature. Points represent individual participant-hemisphere combinations. Bars indicate the mean across participants, computed after averaging across hemispheres within each participant. Error bars indicate± 1 SD across participants. Triangles: left hemisphere; circles: right. Green: dorsal; Blue: lateral; Red: ventral. Source data are provided as a Source Data ﬁle.",
+      "caption_en": "Fig. 1 | Distinct representational structure and category selectivity across visual streams in the NSD. a Multidimensional scaling (MDS) of representational similarity across participants and regions of interest (ROIs) in the Natural Scenes Dataset (NSD). Representational similarity matrices were computed from dis- tributed voxel responses to the 515 images shared across participants. We ﬁnd a rough hierarchical progression from early visual cortex (EVC) ROIs in the top-right (gray), to mid-level ROIs (light colors, middle), to high-level ROIs in the lower-left. In addition, there is a large-scale separation by stream for high-level ROIs, rather than by participant or hemisphere, with lateral high-level ROIs (blue) separated and inferior from a tight ventral cluster (red), which is in turn largely distinct from the dorsal ROIs (green, though these show greater between-participant variability). These results indicate that NSD responses exhibit distinct representational struc- ture across dorsal, lateral, and ventral cortex. b Fraction of voxels with signiﬁcant category selectivity (t > 3) for places, bodies, and faces within ROIs consisting of high-level visual cortex in each stream. Category selectivity differs systematically across streams, further demonstrating functional differentiation in the NSD responses, and replicating patterns from the literature. Points represent individual participant-hemisphere combinations. Bars indicate the mean across participants, computed after averaging across hemispheres within each participant. Error bars indicate± 1 SD across participants. Triangles: left hemisphere; circles: right. Green: dorsal; Blue: lateral; Red: ventral. Source data are provided as a Source Data ﬁle.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        632.531,
+        561.334,
+        739.131
+      ],
+      "content_bbox": [
+        90.482,
+        420.662,
+        510.597,
+        622.261
+      ],
+      "crop_bbox": [
+        90.482,
+        420.662,
+        510.597,
+        622.261
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Fig. 2 | To test competing theories, we use two candidate model classes. Mul- tiple behaviors and Spatial constraints. a Multiple Behaviors (MB): we implement separate DANNs, each trained on a stream-hypothesized task: e.g., detect the object, determine the action, and categorize the object. To compare to the brain, we generate the end region of the MB model by sampling units from the ﬁnal convolutional layer of each of the three independent DANNs, and pool them into a single combined set of candidate source units on a simulated cortical sheet that will be compared to the union of the endpoint regions of all three streams. b Spatial constraints (SC) models: we implement Topographic Deep Artiﬁcial Neural Net- works (TDANNs)41. Different than DANNs, during training the TDANN minimizes a composite loss function that has both functional and spatial loss components, with the contribution of the latter controlled by a free parameter α. As for the MB model, to test the spatial constraints model, candidate source units from the ﬁnal con- volutional layer in the TDANN are compared to the union of the endpoint regions of all three streams (c) 1-to-1 model-to-brain mapping approach. The goal is to ﬁnd the overall best functional match between each model unit and each brain voxel. 10,000s of images of natural scenes were presented to each of 8 individuals and candidate models. Responses to identical images are extracted from model units and an individual’s voxels, and correlations between each unit-voxel pair are computed. Correlations are transformed into an initial cost matrix (1 −correlation). Using the Hungarian matching algorithm73we determine the optimal mapping such that each unit is assigned to a unique voxel and the average cost across all unit- voxel pairings is minimized (black: assignment). d Evaluation. Models are eval- uated by determining spatial correspondence (left) and functional (right) corre- spondence on 515 left out images seen by all individuals. Spatial and functional correspondences are benchmarked against stream-speciﬁc noise ceilings deter- mined by human-to-human mapping of streams using the same approach (light gray).",
+      "caption_en": "Fig. 2 | To test competing theories, we use two candidate model classes. Mul- tiple behaviors and Spatial constraints. a Multiple Behaviors (MB): we implement separate DANNs, each trained on a stream-hypothesized task: e.g., detect the object, determine the action, and categorize the object. To compare to the brain, we generate the end region of the MB model by sampling units from the ﬁnal convolutional layer of each of the three independent DANNs, and pool them into a single combined set of candidate source units on a simulated cortical sheet that will be compared to the union of the endpoint regions of all three streams. b Spatial constraints (SC) models: we implement Topographic Deep Artiﬁcial Neural Net- works (TDANNs)41. Different than DANNs, during training the TDANN minimizes a composite loss function that has both functional and spatial loss components, with the contribution of the latter controlled by a free parameter α. As for the MB model, to test the spatial constraints model, candidate source units from the ﬁnal con- volutional layer in the TDANN are compared to the union of the endpoint regions of all three streams (c) 1-to-1 model-to-brain mapping approach. The goal is to ﬁnd the overall best functional match between each model unit and each brain voxel. 10,000s of images of natural scenes were presented to each of 8 individuals and candidate models. Responses to identical images are extracted from model units and an individual’s voxels, and correlations between each unit-voxel pair are computed. Correlations are transformed into an initial cost matrix (1 −correlation). Using the Hungarian matching algorithm73we determine the optimal mapping such that each unit is assigned to a unique voxel and the average cost across all unit- voxel pairings is minimized (black: assignment). d Evaluation. Models are eval- uated by determining spatial correspondence (left) and functional (right) corre- spondence on 515 left out images seen by all individuals. Spatial and functional correspondences are benchmarked against stream-speciﬁc noise ceilings deter- mined by human-to-human mapping of streams using the same approach (light gray).",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.684,
+        426.906,
+        561.359,
+        563.554
+      ],
+      "content_bbox": [
+        60.548,
+        48.757,
+        540.42,
+        416.608
+      ],
+      "crop_bbox": [
+        60.548,
+        48.757,
+        540.42,
+        416.608
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Fig. 3 | Spatial constraints models better match the spatial and functional organization of the human visual system into streams. a Unit-to-voxel mapping on an example participant’s ﬂattened cortical surface. left: multiple behaviors (MB v1) model, each voxel is colored based on the training task for its assigned unit. right: self-supervised spatial constraints model, voxels are colored by location on the simulated cortical sheet of the last convolutional layer. Note that the color scheme for the spatial constraints model represents position and not task, as in the left-hand panel. b Quantiﬁcation of spatial correspondence. c Quantiﬁcation of functional correspondence. Unit-to-voxel correlations on the test set (left-out 515 images). Each participant’s data reﬂects the average correlation across all voxels for the corresponding stream. For (b) and (c), colored bars: mean across participants (N = 8) and hemisphere, bars are colored by training task; numbers: architecture backbone, 50: ResNet-50, 18: ResNet-18; horizontal gray bars: mean noise ceiling across participants and hemispheres± SD. Orange: Supervised (Categorization) and Purple: self-supervised (SimCLR) spatial constraints models shown for an optimal weighting of the spatial loss (α = 2.5 for supervised, α = 0.25 for self- supervised). Acronyms: MB: multiple behaviors, v1 trained on detection, action recognition, and categorization; v2 trained on more recent models: detection (DETR), language-vision (CLIP), and categorization (ConvNeXt-T); v3 trained with alternative task models for the dorsal and lateral streams: depth estimation (Dep- thAnythingV2) for dorsal and human pose estimation (DEKR-Pose) for lateral, while retaining the categorization model (ResNet-50) for ventral; TDANN: topographic deep artiﬁcial neural network, implementing the spatial constraints hypothesis. Cat: categorization. Source data are provided as a Source Data ﬁle.",
+      "caption_en": "Fig. 3 | Spatial constraints models better match the spatial and functional organization of the human visual system into streams. a Unit-to-voxel mapping on an example participant’s ﬂattened cortical surface. left: multiple behaviors (MB v1) model, each voxel is colored based on the training task for its assigned unit. right: self-supervised spatial constraints model, voxels are colored by location on the simulated cortical sheet of the last convolutional layer. Note that the color scheme for the spatial constraints model represents position and not task, as in the left-hand panel. b Quantiﬁcation of spatial correspondence. c Quantiﬁcation of functional correspondence. Unit-to-voxel correlations on the test set (left-out 515 images). Each participant’s data reﬂects the average correlation across all voxels for the corresponding stream. For (b) and (c), colored bars: mean across participants (N = 8) and hemisphere, bars are colored by training task; numbers: architecture backbone, 50: ResNet-50, 18: ResNet-18; horizontal gray bars: mean noise ceiling across participants and hemispheres± SD. Orange: Supervised (Categorization) and Purple: self-supervised (SimCLR) spatial constraints models shown for an optimal weighting of the spatial loss (α = 2.5 for supervised, α = 0.25 for self- supervised). Acronyms: MB: multiple behaviors, v1 trained on detection, action recognition, and categorization; v2 trained on more recent models: detection (DETR), language-vision (CLIP), and categorization (ConvNeXt-T); v3 trained with alternative task models for the dorsal and lateral streams: depth estimation (Dep- thAnythingV2) for dorsal and human pose estimation (DEKR-Pose) for lateral, while retaining the categorization model (ResNet-50) for ventral; TDANN: topographic deep artiﬁcial neural network, implementing the spatial constraints hypothesis. Cat: categorization. Source data are provided as a Source Data ﬁle.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        366.358,
+        561.226,
+        483.107
+      ],
+      "content_bbox": [
+        120.472,
+        48.756,
+        480.558,
+        356.058
+      ],
+      "crop_bbox": [
+        120.472,
+        48.756,
+        480.558,
+        356.058
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 5,
+      "caption": "Fig. 4 | Stream-hypothesized task does not outperform other tasks in pre- dicting brain spatial or functional responses. a Multiple behaviors model to brain spatial match: proportion of units assigned to stream by training task. Hor- izontal dashed line: 33 % chance level. b Multiple behaviors model to brain func- tional match: functional similarity of units assigned to the stream by the training task. For (a) and (b) colored bars: mean across participants and hemispheres; bars are colored by training task. light green: monocular depth estimation; blue: action; lavender: vision+language; dark blue: pose estimation; orange: categorization. Outlined bars indicate the stream-hypothesized training. Horizontal gray bars: mean noise ceiling across participants and hemispheres ± SD. Source data are provided as a Source Data ﬁle.",
+      "caption_en": "Fig. 4 | Stream-hypothesized task does not outperform other tasks in pre- dicting brain spatial or functional responses. a Multiple behaviors model to brain spatial match: proportion of units assigned to stream by training task. Hor- izontal dashed line: 33 % chance level. b Multiple behaviors model to brain func- tional match: functional similarity of units assigned to the stream by the training task. For (a) and (b) colored bars: mean across participants and hemispheres; bars are colored by training task. light green: monocular depth estimation; blue: action; lavender: vision+language; dark blue: pose estimation; orange: categorization. Outlined bars indicate the stream-hypothesized training. Horizontal gray bars: mean noise ceiling across participants and hemispheres ± SD. Source data are provided as a Source Data ﬁle.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        236.135,
+        561.235,
+        292.901
+      ],
+      "content_bbox": [
+        60.491,
+        52.158,
+        540.438,
+        225.846
+      ],
+      "crop_bbox": [
+        60.491,
+        52.158,
+        540.438,
+        225.846
+      ],
+      "original": "figures/original/Fig4_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 7,
+      "caption": "Fig. 5 | Both self-supervised training and a mid-weight spatial constraint are key to predicting the functional organization into streams. a Mapping between spatial constraints models and the brain for an example participant on the ﬂattened right hemisphere. Voxels are colored by location on the simulated cortical sheet (see inset). Left: spatial constraints models trained with no spatial weighting (α = 0); Middle: spatial constraints models trained with α = 0.25, best functional similarity for self-supervised spatial constraints models; Right: spatial constraints models trained with α = 2.5, best functional similarity for spatial constraints models trained on categorization. b Across all three streams, the spatial and functional match to the brain is best for self-supervised spatial constraints models trained with 0.25 ≤α ≤0.5. Top row: Spatial similarity between unit-voxel pairings per stream. Data averaged over unit-voxel pairing for the lowest third of distances. Bottom row: average functional similarity (correlation) between unit-voxel pairings per stream. Values are averaged across participants, model seeds and hemispheres; shaded region: SD across participants. Purple: self-supervised spatial constraints model (SimCLR); Orange: supervised spatial constraints model (categorization). Hor- izontal gray bar: noise ceiling, mean ± SD. c Spatial constraints models with the most brain-like functional similarity also have the most brain-like effective dimensionality. Horizontal shaded gray bar: brain-to-brain functional similarity, averaged across participants and hemispheres (± SD across target participants). Vertical shaded gray bar: effective dimensionality of brain responses by stream, averaged across participants and hemispheres (± SD across participants). Each circle: one model seed and participant combination, averaged across hemispheres. Circles are colored by training task,and sized by spatial weight (see legend). Arrows, bolded circles: models with the highest functional correspondence (b) for each of the spatial constraints training tasks (0.25 ≤α ≤0.5: self-supervised; α = 2.5: cate- gorization). Source data are provided as a Source Data ﬁle.",
+      "caption_en": "Fig. 5 | Both self-supervised training and a mid-weight spatial constraint are key to predicting the functional organization into streams. a Mapping between spatial constraints models and the brain for an example participant on the ﬂattened right hemisphere. Voxels are colored by location on the simulated cortical sheet (see inset). Left: spatial constraints models trained with no spatial weighting (α = 0); Middle: spatial constraints models trained with α = 0.25, best functional similarity for self-supervised spatial constraints models; Right: spatial constraints models trained with α = 2.5, best functional similarity for spatial constraints models trained on categorization. b Across all three streams, the spatial and functional match to the brain is best for self-supervised spatial constraints models trained with 0.25 ≤α ≤0.5. Top row: Spatial similarity between unit-voxel pairings per stream. Data averaged over unit-voxel pairing for the lowest third of distances. Bottom row: average functional similarity (correlation) between unit-voxel pairings per stream. Values are averaged across participants, model seeds and hemispheres; shaded region: SD across participants. Purple: self-supervised spatial constraints model (SimCLR); Orange: supervised spatial constraints model (categorization). Hor- izontal gray bar: noise ceiling, mean ± SD. c Spatial constraints models with the most brain-like functional similarity also have the most brain-like effective dimensionality. Horizontal shaded gray bar: brain-to-brain functional similarity, averaged across participants and hemispheres (± SD across target participants). Vertical shaded gray bar: effective dimensionality of brain responses by stream, averaged across participants and hemispheres (± SD across participants). Each circle: one model seed and participant combination, averaged across hemispheres. Circles are colored by training task,and sized by spatial weight (see legend). Arrows, bolded circles: models with the highest functional correspondence (b) for each of the spatial constraints training tasks (0.25 ≤α ≤0.5: self-supervised; α = 2.5: cate- gorization). Source data are provided as a Source Data ﬁle.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.684,
+        510.302,
+        561.261,
+        646.783
+      ],
+      "content_bbox": [
+        60.492,
+        48.756,
+        540.489,
+        499.997
+      ],
+      "crop_bbox": [
+        60.492,
+        48.756,
+        540.489,
+        499.997
+      ],
+      "original": "figures/original/Fig5_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 8,
+      "caption": "Fig. 6 | Functional segregation, in alignment with known stream properties, emerges from the spatial constraints model. Data shown is for self-supervised spatial constraints models trained with 0.25 ≤α ≤0.5. Triangles: left hemisphere; circles: right hemisphere. Green: dorsal; Blue: lateral; Red: ventral. For (a), (b), and (d), points show individual model seed-participant-hemisphere values, after aver- aging across spatial-constraint weights (0.25 and 0.5). For (c), points show participant-hemisphere visualization values, after averaging across model seeds and spatial-constraint weights. For all panels, statistical comparisons, where reported, used paired, Bonferroni-corrected, two-sided t-tests across the N = 8 participants. a Top: example of the ﬁrst transfer task: object position prediction. Bottom: Task transfer performance (R2) on the object position task (location in pixels of the object’s center83) for units assigned to either the dorsal or ventral stream. b Top: example of the second transfer task: object category prediction. Bottom: Task transfer performance (percentage correct) on the 1000-way object categorization task on the Imagenet validation set for units mapped to the dorsal or ventral stream. c Top: Example stimuli (images from place, body, and face categories) from the fLoc dataset used to assess category selectivity. Bot- tom: Relative category selectivity across units assigned to each stream, measured using responses to the fLoc stimulus set. Bars show the fraction of units with signiﬁcant selectivity (t > 3) for each category contrast (places, bodies, faces) within each stream (dorsal, lateral, ventral); mean values across NSD participants, after averaging across model seeds, hemispheres, and the 2 spatial-constraint weights within each participant. Error bars indicate± 1 SD across participants. d Top: Schematic illustrating the principle of eccentricity. Red dot: center of the visual ﬁeld. Yellow circle: receptive ﬁeld. Bottom: Average receptive ﬁeld eccentricity for face-selective units assigned to the lateral stream or ventral stream. Box plots within violins show the median (center), interquartile range (box bounds: 25th and 75th percentiles), and whiskers extending to the smallest and largest observations within 1.5 times the interquartile range; individual overlaid points show the full data range, including minima, maxima, and any values outside the whiskers. Source data are provided as a Source Data ﬁle.",
+      "caption_en": "Fig. 6 | Functional segregation, in alignment with known stream properties, emerges from the spatial constraints model. Data shown is for self-supervised spatial constraints models trained with 0.25 ≤α ≤0.5. Triangles: left hemisphere; circles: right hemisphere. Green: dorsal; Blue: lateral; Red: ventral. For (a), (b), and (d), points show individual model seed-participant-hemisphere values, after aver- aging across spatial-constraint weights (0.25 and 0.5). For (c), points show participant-hemisphere visualization values, after averaging across model seeds and spatial-constraint weights. For all panels, statistical comparisons, where reported, used paired, Bonferroni-corrected, two-sided t-tests across the N = 8 participants. a Top: example of the ﬁrst transfer task: object position prediction. Bottom: Task transfer performance (R2) on the object position task (location in pixels of the object’s center83) for units assigned to either the dorsal or ventral stream. b Top: example of the second transfer task: object category prediction. Bottom: Task transfer performance (percentage correct) on the 1000-way object categorization task on the Imagenet validation set for units mapped to the dorsal or ventral stream. c Top: Example stimuli (images from place, body, and face categories) from the fLoc dataset used to assess category selectivity. Bot- tom: Relative category selectivity across units assigned to each stream, measured using responses to the fLoc stimulus set. Bars show the fraction of units with signiﬁcant selectivity (t > 3) for each category contrast (places, bodies, faces) within each stream (dorsal, lateral, ventral); mean values across NSD participants, after averaging across model seeds, hemispheres, and the 2 spatial-constraint weights within each participant. Error bars indicate± 1 SD across participants. d Top: Schematic illustrating the principle of eccentricity. Red dot: center of the visual ﬁeld. Yellow circle: receptive ﬁeld. Bottom: Average receptive ﬁeld eccentricity for face-selective units assigned to the lateral stream or ventral stream. Box plots within violins show the median (center), interquartile range (box bounds: 25th and 75th percentiles), and whiskers extending to the smallest and largest observations within 1.5 times the interquartile range; individual overlaid points show the full data range, including minima, maxima, and any values outside the whiskers. Source data are provided as a Source Data ﬁle.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.681,
+        288.746,
+        561.35,
+        445.18
+      ],
+      "content_bbox": [
+        90.482,
+        48.756,
+        510.463,
+        278.492
+      ],
+      "crop_bbox": [
+        90.482,
+        48.756,
+        510.463,
+        278.492
+      ],
+      "original": "figures/original/Fig6_p008.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "本批次暂不绘制 SVG/PPTX；网页明确标记为暂不可用。",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "A_single_computational_objective_can_produce_specialization_of_streams_in_visual_cortex_2026",
+    "title": "A single computational objective can produce specialization of streams in visual cortex",
+    "year": 2026,
+    "venue": "Nature Communications",
+    "venue_short": "Nature Communications",
+    "venue_full": "Nature Communications",
+    "venue_type": "期刊",
+    "classification": "published_main",
+    "topic": [
+      "visual cortex",
+      "brain-inspired vision",
+      "representation learning"
+    ],
+    "relevance": "与图像恢复、压缩恢复、失真增强、SNN/类脑视觉、KAN/小波或生物视觉相关。",
+    "official_url": "https://www.nature.com/articles/s41467-026-76098-y",
+    "pdf_url": "https://www.nature.com/articles/s41467-026-76098-y.pdf",
+    "access": "open_pdf",
+    "access_note": "Nature open-access article PDF",
+    "source_scope": "new_2026_2027",
+    "download_status": "downloaded",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：待核验（2025）",
+    "ccf_rank": null,
+    "ccf_scope": null,
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院分区：待核验（2025）",
+    "vector_status": "unavailable_temporary",
+    "ppt_status": "unavailable_temporary",
+    "svg_status": "unavailable_temporary"
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "paper": "NTIRE_2026_Challenge_on_Efficient_Burst_HDR_and_Restoration_Datasets_Methods_and_Results_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 20,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Figure 1. Overview of the proposed competition dataset. (a) A representative HDR GT RGB image and (b) a corresponding cropped patch highlighting local details. (c) The RAW reference frame, which is spatially aligned with the GT, and (d) a sequence of auxiliary RAW frames captured at varying exposure levels.",
+      "caption_en": "Figure 1. Overview of the proposed competition dataset. (a) A representative HDR GT RGB image and (b) a corresponding cropped patch highlighting local details. (c) The RAW reference frame, which is spatially aligned with the GT, and (d) a sequence of auxiliary RAW frames captured at varying exposure levels.",
+      "caption_zh": "",
+      "caption_bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_bbox": [
+        55,
+        45,
+        300,
+        225
+      ],
+      "crop_bbox": [
+        55,
+        45,
+        300,
+        225
+      ],
+      "original": "figures/original/Fig1_p003.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 2,
+      "caption": "Table 1.The final results of participants.Team Tysl achieved the highest PSNR value of 41.556 dB and Team DeepTrans recorded 2nd highest PSNR value of 41.554, where the gap is very tiny. The inference time represented in the rightmost column is measured by a single NVIDA A100 GPU.",
+      "caption_en": "Table 1.The final results of participants.Team Tysl achieved the highest PSNR value of 41.556 dB and Team DeepTrans recorded 2nd highest PSNR value of 41.554, where the gap is very tiny. The inference time represented in the rightmost column is measured by a single NVIDA A100 GPU.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        170.161,
+        553.497,
+        222.963
+      ],
+      "content_bbox": [
+        319.083,
+        72.293,
+        551.675,
+        159.034
+      ],
+      "crop_bbox": [
+        319.083,
+        72.293,
+        551.675,
+        159.034
+      ],
+      "original": "tables/original/Table1_p002.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Figure2.Qualitativecomparisonoftheparticipants’resultsonthetestset.(a)RAWinput(brightnessadjustedforvisualization), (b–h) restoration results from the competing teams—Tysl, DeepTrans, SimonLarsen, MiVideo, MFP, CVPRIITR, PSU, and CVPRTCD, respectively—and (i) the ground-truth (GT) image.Odd-numbered rows display the full-frame results, while even-numbered rows provide zoomed-in patches highlighting local structural details, texture reconstruction, and noise suppression capabilities. Top-performing methods, such as Tysl and DeepTrans, demonstrate remarkable robustness in reconstructing subtle signals and fine details in shadowed or extreme noise regions.",
+      "caption_en": "Figure2.Qualitativecomparisonoftheparticipants’resultsonthetestset.(a)RAWinput(brightnessadjustedforvisualization), (b–h) restoration results from the competing teams—Tysl, DeepTrans, SimonLarsen, MiVideo, MFP, CVPRIITR, PSU, and CVPRTCD, respectively—and (i) the ground-truth (GT) image.Odd-numbered rows display the full-frame results, while even-numbered rows provide zoomed-in patches highlighting local structural details, texture reconstruction, and noise suppression capabilities. Top-performing methods, such as Tysl and DeepTrans, demonstrate remarkable robustness in reconstructing subtle signals and fine details in shadowed or extreme noise regions.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        579.106,
+        553.5,
+        642.948
+      ],
+      "content_bbox": [
+        63.451,
+        72.005,
+        548.535,
+        568.354
+      ],
+      "crop_bbox": [
+        63.451,
+        72.005,
+        548.535,
+        568.354
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 5,
+      "caption": "Figure 3.The solution of Tysl team.To highlight the inherent inter-frame differences across the burst sequence, non-exposure-normalized frames are used for visualization here.",
+      "caption_en": "Figure 3.The solution of Tysl team.To highlight the inherent inter-frame differences across the burst sequence, non-exposure-normalized frames are used for visualization here.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        319.098,
+        553.499,
+        339.105
+      ],
+      "content_bbox": [
+        70.876,
+        71.997,
+        541.12,
+        308.346
+      ],
+      "crop_bbox": [
+        70.876,
+        71.997,
+        541.12,
+        308.346
+      ],
+      "original": "figures/original/Fig3_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Figure 4.The architecture of team DeepTrans’s solution, the RawNet.",
+      "caption_en": "Figure 4.The architecture of team DeepTrans’s solution, the RawNet.",
+      "caption_zh": "",
+      "caption_bbox": [
+        179.374,
+        272.764,
+        432.63,
+        281.812
+      ],
+      "content_bbox": [
+        58.5,
+        72.0,
+        553.502,
+        262.012
+      ],
+      "crop_bbox": [
+        58.5,
+        72.0,
+        553.502,
+        262.012
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 7,
+      "caption": "Figure 5.The architecture of team SimonLarsen’s solution, CoGRaM model.",
+      "caption_en": "Figure 5.The architecture of team SimonLarsen’s solution, CoGRaM model.",
+      "caption_zh": "",
+      "caption_bbox": [
+        166.014,
+        403.56,
+        445.99,
+        412.608
+      ],
+      "content_bbox": [
+        61.124,
+        72.151,
+        550.887,
+        392.67
+      ],
+      "crop_bbox": [
+        61.124,
+        72.151,
+        550.887,
+        392.67
+      ],
+      "original": "figures/original/Fig5_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 8,
+      "caption": "Figure 6.The solution of MiVideo team.",
+      "caption_en": "Figure 6.The solution of MiVideo team.",
+      "caption_zh": "",
+      "caption_bbox": [
+        232.427,
+        286.39,
+        379.575,
+        295.438
+      ],
+      "content_bbox": [
+        60.974,
+        72.004,
+        550.981,
+        275.638
+      ],
+      "crop_bbox": [
+        60.974,
+        72.004,
+        550.981,
+        275.638
+      ],
+      "original": "figures/original/Fig6_p008.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 9,
+      "caption": "Figure 7.The architecture of MFP team’s solution.",
+      "caption_en": "Figure 7.The architecture of MFP team’s solution.",
+      "caption_zh": "",
+      "caption_bbox": [
+        213.966,
+        372.667,
+        398.037,
+        381.715
+      ],
+      "content_bbox": [
+        58.5,
+        72.004,
+        553.465,
+        361.915
+      ],
+      "crop_bbox": [
+        58.5,
+        72.004,
+        553.465,
+        361.915
+      ],
+      "original": "figures/original/Fig7_p009.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 11,
+      "caption": "Figure 8.The architecture of team CVPRIITR’s solution, the MultiExpoRestoration.",
+      "caption_en": "Figure 8.The architecture of team CVPRIITR’s solution, the MultiExpoRestoration.",
+      "caption_zh": "",
+      "caption_bbox": [
+        150.955,
+        246.393,
+        461.047,
+        255.441
+      ],
+      "content_bbox": [
+        58.5,
+        71.998,
+        553.496,
+        235.641
+      ],
+      "crop_bbox": [
+        58.5,
+        71.998,
+        553.496,
+        235.641
+      ],
+      "original": "figures/original/Fig8_p011.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 12,
+      "caption": "Figure 10.The solution of team CVPRTCD’s solution, the BurstLite network.",
+      "caption_en": "Figure 10.The solution of team CVPRTCD’s solution, the BurstLite network.",
+      "caption_zh": "",
+      "caption_bbox": [
+        163.073,
+        397.709,
+        448.929,
+        406.757
+      ],
+      "content_bbox": [
+        58.5,
+        280.417,
+        553.481,
+        386.957
+      ],
+      "crop_bbox": [
+        58.5,
+        280.417,
+        553.481,
+        386.957
+      ],
+      "original": "figures/original/Fig10_p012.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 12,
+      "caption": "Figure 9.The architectureof teamPSU’ssolution,DUSKAN architecture.Top:Symmetric 4-level U-Net with DUSKANBlock stages, strided downsampling, PixelShuffle upsampling, and global residual learning.Bottom:DUSKANBlock detail featuring Path A (spectral- spatial global feature extraction) and Path B (Kolmogorov-Arnold polynomial-basis activations).",
+      "caption_en": "Figure 9.The architectureof teamPSU’ssolution,DUSKAN architecture.Top:Symmetric 4-level U-Net with DUSKANBlock stages, strided downsampling, PixelShuffle upsampling, and global residual learning.Bottom:DUSKANBlock detail featuring Path A (spectral- spatial global feature extraction) and Path B (Kolmogorov-Arnold polynomial-basis activations).",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        236.296,
+        553.499,
+        267.339
+      ],
+      "content_bbox": [
+        58.5,
+        72.002,
+        553.495,
+        225.621
+      ],
+      "crop_bbox": [
+        58.5,
+        72.002,
+        553.495,
+        225.621
+      ],
+      "original": "figures/original/Fig9_p012.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "本批次暂不绘制 SVG/PPTX；网页明确标记为暂不可用。",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "NTIRE_2026_Challenge_on_Efficient_Burst_HDR_and_Restoration_Datasets_Methods_and_Results_2026",
+    "title": "NTIRE 2026 Challenge on Efficient Burst HDR and Restoration: Datasets, Methods, and Results",
+    "year": 2026,
+    "venue": "CVPRW",
+    "venue_short": "CVPRW",
+    "venue_full": "CVPRW",
+    "venue_type": "会议",
+    "classification": "published_workshop",
+    "topic": [
+      "burst HDR",
+      "image restoration",
+      "KAN",
+      "efficient vision"
+    ],
+    "relevance": "与图像恢复、压缩恢复、失真增强、SNN/类脑视觉、KAN/小波或生物视觉相关。",
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Park_NTIRE_2026_Challenge_on_Efficient_Burst_HDR_and_Restoration_Datasets_CVPRW_2026_paper.pdf",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Park_NTIRE_2026_Challenge_on_Efficient_Burst_HDR_and_Restoration_Datasets_CVPRW_2026_paper.pdf",
+    "access": "open_pdf",
+    "access_note": "CVF official open PDF; includes a DUSKAN KAN restoration solution",
+    "source_scope": "new_2026_2027",
+    "download_status": "downloaded",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": null,
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议：未收录（2026目录）",
+    "ranking_display": "CCF会议：未收录（2026目录）",
+    "vector_status": "unavailable_temporary",
+    "ppt_status": "unavailable_temporary",
+    "svg_status": "unavailable_temporary"
+  }
+}

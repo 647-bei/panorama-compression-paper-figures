@@ -60,6 +60,10 @@ def load_assets(kind: str) -> list[dict]:
                 "page": asset.get("page", ""),
                 "original": rel(original_path),
                 "vectors": vectors,
+                "vector_status": asset.get("vector_status", metadata.get("vector_status", "")),
+                "ppt_status": asset.get("ppt_status", metadata.get("ppt_status", "")),
+                "svg_status": asset.get("svg_status", metadata.get("svg_status", "")),
+                "download_note": asset.get("download_note", metadata.get("download_note", "")),
                 "vector_mode": asset.get("vector_mode", ""),
                 "latex": rel(latex_path) if kind == "table" and latex_path.exists() else "",
                 "latex_mode": asset.get("latex_mode", ""),
@@ -130,6 +134,8 @@ def page_html(kind: str, rows: list[dict]) -> str:
             for index, value in enumerate(badges) if value
         )
         vector_links = "".join(f'<a class="link" href="{esc(path)}" target="_blank">打开 {esc(ext.upper())}</a>' for ext, path in row["vectors"]) if is_fig else ""
+        if is_fig and not vector_links and row.get("vector_status") == "unavailable_temporary":
+            vector_links = '<span class="meta">PPT/SVG 暂不可用（本批次暂未绘制）</span>'
         if not is_fig and row["latex"]:
             latex_label = "打开 LaTeX（可编辑）" if row["latex_mode"] == "extracted_tabular" else "打开 LaTeX（图像包装）"
             vector_links = f'<a class="link" href="{esc(row["latex"])}" download>{esc(latex_label)}</a>'

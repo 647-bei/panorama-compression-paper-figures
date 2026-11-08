@@ -1,0 +1,637 @@
+{
+  "paper": "Test_Time_Preference_Optimization_for_Image_Restoration_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 16,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure1:Weusediffusioneditingtogeneratecandidate preferenceimages.Topreservestructuralconsistency,the noise scale is limited to a suitable range.",
+      "caption_en": "Figure1:Weusediffusioneditingtogeneratecandidate preferenceimages.Topreservestructuralconsistency,the noise scale is limited to a suitable range.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        341.745,
+        558.005,
+        373.626
+      ],
+      "content_bbox": [
+        319.5,
+        215.999,
+        558.004,
+        331.667
+      ],
+      "crop_bbox": [
+        319.5,
+        215.999,
+        558.004,
+        331.667
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Figure 2: The pipeline of TTPO, which follows a generation-selection-optimization paradigm to perform test-time preference optimization for restored images. The pseudo codes are provided as Algorithm 1 in Sec. B.",
+      "caption_en": "Figure 2: The pipeline of TTPO, which follows a generation-selection-optimization paradigm to perform test-time preference optimization for restored images. The pseudo codes are provided as Algorithm 1 in Sec. B.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        218.712,
+        557.998,
+        239.634
+      ],
+      "content_bbox": [
+        54.0,
+        53.951,
+        558.035,
+        208.627
+      ],
+      "crop_bbox": [
+        54.0,
+        53.951,
+        558.035,
+        208.627
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table 1: Quantitative comparisons across various IR models and IR tasks. We underline the results where the optimized image yTTPO outperforms the restored image y0 in evaluation metrics. If yTTPO surpasses the preferred sample yw, we further highlight the result in bold. Notably, we also provide numerical metric values for ywand ylin the Table as references.",
+      "caption_en": "Table 1: Quantitative comparisons across various IR models and IR tasks. We underline the results where the optimized image yTTPO outperforms the restored image y0 in evaluation metrics. If yTTPO surpasses the preferred sample yw, we further highlight the result in bold. Notably, we also provide numerical metric values for ywand ylin the Table as references.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        436.055,
+        557.999,
+        468.547
+      ],
+      "content_bbox": [
+        56.228,
+        222.615,
+        558.005,
+        425.621
+      ],
+      "crop_bbox": [
+        56.228,
+        222.615,
+        558.005,
+        425.621
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 5,
+      "caption": "Figure3:Qualitativecomparisonsbetweentheinitiallyre- storedimagey0,optimizedimageyTTPO,preferredimage yw, and dispreferred image yl.",
+      "caption_en": "Figure3:Qualitativecomparisonsbetweentheinitiallyre- storedimagey0,optimizedimageyTTPO,preferredimage yw, and dispreferred image yl.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        336.559,
+        292.505,
+        369.051
+      ],
+      "content_bbox": [
+        54.0,
+        162.997,
+        558.002,
+        327.286
+      ],
+      "crop_bbox": [
+        54.0,
+        162.997,
+        558.002,
+        327.286
+      ],
+      "original": "figures/original/Fig3_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 5,
+      "caption": "Figure4:LosscurvesfortwoimagesinFig.3acrossall diffusion timesteps.",
+      "caption_en": "Figure4:LosscurvesfortwoimagesinFig.3acrossall diffusion timesteps.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        409.694,
+        558.005,
+        430.616
+      ],
+      "content_bbox": [
+        54.0,
+        54.38,
+        558.005,
+        388.657
+      ],
+      "crop_bbox": [
+        54.0,
+        54.38,
+        558.005,
+        388.657
+      ],
+      "original": "figures/original/Fig4_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table 2: Quantitative comparisons between TTPO and previous ZSDIR methods, DDRM (Kawar et al. 2022), DDNM (Wang, Yu,andZhang2023),andTAO(Gouetal.2024).ResultsarereportedonKodak24(Franzen1999)withthe256×256 resolution. For a fair comparison, we use the restored image y0 (rather than the distorted image) as input to all ZSDIR methods. Each method is executed multiple times to identify the optimal hyperparameter settings. The best and second-best results are bolded and underlined (values of y0 serve as reference).",
+      "caption_en": "Table 2: Quantitative comparisons between TTPO and previous ZSDIR methods, DDRM (Kawar et al. 2022), DDNM (Wang, Yu,andZhang2023),andTAO(Gouetal.2024).ResultsarereportedonKodak24(Franzen1999)withthe256×256 resolution. For a fair comparison, we use the restored image y0 (rather than the distorted image) as input to all ZSDIR methods. Each method is executed multiple times to identify the optimal hyperparameter settings. The best and second-best results are bolded and underlined (values of y0 serve as reference).",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        162.997,
+        558.002,
+        218.29
+      ],
+      "content_bbox": [
+        452.695,
+        241.873,
+        552.93,
+        307.03
+      ],
+      "crop_bbox": [
+        452.695,
+        241.873,
+        552.93,
+        307.03
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure 5: Integrating TTPO with the existing ZSDIR method DDNM (Wang, Yu, and Zhang 2023).",
+      "caption_en": "Figure 5: Integrating TTPO with the existing ZSDIR method DDNM (Wang, Yu, and Zhang 2023).",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        155.106,
+        558.005,
+        176.028
+      ],
+      "content_bbox": [
+        319.5,
+        53.999,
+        558.001,
+        147.658
+      ],
+      "crop_bbox": [
+        319.5,
+        53.999,
+        558.001,
+        147.658
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Figure 6: Qualitative comparisons between SD3 and FLUX utilized in the third stage.",
+      "caption_en": "Figure 6: Qualitative comparisons between SD3 and FLUX utilized in the third stage.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        295.533,
+        558.005,
+        316.455
+      ],
+      "content_bbox": [
+        319.427,
+        194.438,
+        557.98,
+        286.723
+      ],
+      "crop_bbox": [
+        319.427,
+        194.438,
+        557.98,
+        286.723
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table 3: Different diffusion models used in the third stage.",
+      "caption_en": "Table 3: Different diffusion models used in the third stage.",
+      "caption_zh": "",
+      "caption_bbox": [
+        322.353,
+        691.156,
+        555.149,
+        701.119
+      ],
+      "content_bbox": [
+        321.78,
+        643.218,
+        558.008,
+        677.687
+      ],
+      "crop_bbox": [
+        321.78,
+        643.218,
+        558.008,
+        677.687
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 7,
+      "caption": "Figure 7: User study of yhuman vs. other selection methods.",
+      "caption_en": "Figure 7: User study of yhuman vs. other selection methods.",
+      "caption_zh": "",
+      "caption_bbox": [
+        57.163,
+        198.004,
+        289.338,
+        209.515
+      ],
+      "content_bbox": [
+        54.0,
+        54.001,
+        292.499,
+        188.156
+      ],
+      "crop_bbox": [
+        54.0,
+        54.001,
+        292.499,
+        188.156
+      ],
+      "original": "figures/original/Fig7_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "Table 4: Effectiveness of each component in the third stage.",
+      "caption_en": "Table 4: Effectiveness of each component in the third stage.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.447,
+        311.19,
+        292.055,
+        321.153
+      ],
+      "content_bbox": [
+        319.5,
+        428.125,
+        558.007,
+        451.797
+      ],
+      "crop_bbox": [
+        319.5,
+        428.125,
+        558.007,
+        451.797
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 7,
+      "caption": "Table 5: Subjective experiments for NR-IQA metrics selec- tion.",
+      "caption_en": "Table 5: Subjective experiments for NR-IQA metrics selec- tion.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        462.168,
+        558.005,
+        483.09
+      ],
+      "content_bbox": [
+        319.5,
+        430.551,
+        558.007,
+        449.597
+      ],
+      "crop_bbox": [
+        319.5,
+        430.551,
+        558.007,
+        449.597
+      ],
+      "original": "tables/original/Table5_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 9,
+      "caption": "Figure8:Screenshotsoftheuserstudy:roundone(topleft)androundtwo(bottomleft).Examplesofvisualcomparisons (right).",
+      "caption_en": "Figure8:Screenshotsoftheuserstudy:roundone(topleft)androundtwo(bottomleft).Examplesofvisualcomparisons (right).",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        672.413,
+        557.998,
+        693.335
+      ],
+      "content_bbox": [
+        54.0,
+        251.094,
+        558.004,
+        662.335
+      ],
+      "crop_bbox": [
+        54.0,
+        251.094,
+        558.004,
+        662.335
+      ],
+      "original": "figures/original/Fig8_p009.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 10,
+      "caption": "Figure9:Morequalitativecomparisonsonimageswithlargerresolutions.OurTTPOtheoreticallysupportspreferenceopti- mization at any resolution. Left/Right is the restored/optimized image, respectively. Zoom in for better views.",
+      "caption_en": "Figure9:Morequalitativecomparisonsonimageswithlargerresolutions.OurTTPOtheoreticallysupportspreferenceopti- mization at any resolution. Left/Right is the restored/optimized image, respectively. Zoom in for better views.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        680.103,
+        557.998,
+        701.025
+      ],
+      "content_bbox": [
+        79.202,
+        54.096,
+        532.784,
+        670.025
+      ],
+      "crop_bbox": [
+        79.202,
+        54.096,
+        532.784,
+        670.025
+      ],
+      "original": "figures/original/Fig9_p010.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig10",
+      "page": 11,
+      "caption": "Figure10:MorequalitativecomparisonsonvariousIRdatasetsincludingKodak(Franzen1999),McMaster(Zhangetal. 2011), RealSR (Cai et al. 2019), and DRealSR (Wei et al. 2020).",
+      "caption_en": "Figure10:MorequalitativecomparisonsonvariousIRdatasetsincludingKodak(Franzen1999),McMaster(Zhangetal. 2011), RealSR (Cai et al. 2019), and DRealSR (Wei et al. 2020).",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        675.433,
+        557.998,
+        696.355
+      ],
+      "content_bbox": [
+        99.358,
+        58.777,
+        512.626,
+        665.355
+      ],
+      "crop_bbox": [
+        99.358,
+        58.777,
+        512.626,
+        665.355
+      ],
+      "original": "figures/original/Fig10_p011.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 12,
+      "caption": "Table 6: More quantitative comparisons across various IR datasets. We underline the results where the optimized image yTTPO outperforms the restored image y0in evaluation metrics. If yTTPOsurpasses the preferred sample yw, we further highlight the result in bold. Notably, we also provide numerical metric values for ywand ylin the Table as references.†For computational efficiency, we select the first 104 images (out of 3000 cropped patches) from the DIV2K-Val dataset.",
+      "caption_en": "Table 6: More quantitative comparisons across various IR datasets. We underline the results where the optimized image yTTPO outperforms the restored image y0in evaluation metrics. If yTTPOsurpasses the preferred sample yw, we further highlight the result in bold. Notably, we also provide numerical metric values for ywand ylin the Table as references.†For computational efficiency, we select the first 104 images (out of 3000 cropped patches) from the DIV2K-Val dataset.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        210.379,
+        558.002,
+        253.449
+      ],
+      "content_bbox": [
+        54.0,
+        274.541,
+        292.503,
+        329.153
+      ],
+      "crop_bbox": [
+        54.0,
+        274.541,
+        292.503,
+        329.153
+      ],
+      "original": "tables/original/Table6_p012.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 12,
+      "caption": "Table 7: Results of hyperparameters ablation studies. We re- port results on image denoising (DN), SwinIR (Liang et al. 2021), Kodak24 (Franzen 1999).",
+      "caption_en": "Table 7: Results of hyperparameters ablation studies. We re- port results on image denoising (DN), SwinIR (Liang et al. 2021), Kodak24 (Franzen 1999).",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        339.517,
+        292.505,
+        371.398
+      ],
+      "content_bbox": [
+        54.0,
+        274.541,
+        292.502,
+        329.153
+      ],
+      "crop_bbox": [
+        54.0,
+        274.541,
+        292.502,
+        329.153
+      ],
+      "original": "tables/original/Table7_p012.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table8",
+      "page": 12,
+      "caption": "Table8:Ablationsfordenoisingsteps.Wereportresults onimagedenoising(DN),SwinIR(Liangetal.2021),Ko- dak24 (Franzen 1999).",
+      "caption_en": "Table8:Ablationsfordenoisingsteps.Wereportresults onimagedenoising(DN),SwinIR(Liangetal.2021),Ko- dak24 (Franzen 1999).",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        448.944,
+        292.505,
+        480.825
+      ],
+      "content_bbox": [
+        95.739,
+        390.358,
+        250.761,
+        438.49
+      ],
+      "crop_bbox": [
+        95.739,
+        390.358,
+        250.761,
+        438.49
+      ],
+      "original": "tables/original/Table8_p012.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table8.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "本批次暂不绘制 SVG/PPTX；网页明确标记为暂不可用。",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Test_Time_Preference_Optimization_for_Image_Restoration_2026",
+    "title": "Test-Time Preference Optimization for Image Restoration",
+    "year": 2026,
+    "venue": "AAAI",
+    "venue_short": "AAAI",
+    "venue_full": "AAAI",
+    "venue_type": "会议",
+    "classification": "published_main",
+    "topic": [
+      "image restoration",
+      "perceptual quality",
+      "test-time optimization"
+    ],
+    "relevance": "与图像恢复、压缩恢复、失真增强、SNN/类脑视觉、KAN/小波或生物视觉相关。",
+    "official_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37520",
+    "pdf_url": "https://arxiv.org/pdf/2511.19169",
+    "access": "open_pdf",
+    "access_note": "AAAI-26 publication; open arXiv preprint used for figure extraction",
+    "source_scope": "new_2026_2027",
+    "download_status": "downloaded",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": "A",
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）",
+    "vector_status": "unavailable_temporary",
+    "ppt_status": "unavailable_temporary",
+    "svg_status": "unavailable_temporary"
+  }
+}

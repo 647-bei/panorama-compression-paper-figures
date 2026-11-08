@@ -1,0 +1,401 @@
+{
+  "paper": "PerFuSe_Personalized_Full_Image_Restoration_via_Modular_Fusion_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 10,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1.PerFuSe:a) shows the Low Quality (LQ) Input Images b) shows the crop of the same input images c) shows a similar crop of the output image ofSeeSR[30]d)showstheoutputofStableSR[24]e)showstheoutputofInvSR[34],f)showstheoutputofSUPIR[32],andg)showstheoutputof PerFuSe.The figure shows that PerFuSe not only preserves the identity to produce realistic images but also reconstructs the background very well.No past work (to the best of our knowledge) can handle them together.",
+      "caption_en": "Figure 1.PerFuSe:a) shows the Low Quality (LQ) Input Images b) shows the crop of the same input images c) shows a similar crop of the output image ofSeeSR[30]d)showstheoutputofStableSR[24]e)showstheoutputofInvSR[34],f)showstheoutputofSUPIR[32],andg)showstheoutputof PerFuSe.The figure shows that PerFuSe not only preserves the identity to produce realistic images but also reconstructs the background very well.No past work (to the best of our knowledge) can handle them together.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        336.417,
+        553.502,
+        373.536
+      ],
+      "content_bbox": [
+        60.463,
+        189.904,
+        553.31,
+        319.397
+      ],
+      "crop_bbox": [
+        60.463,
+        189.904,
+        553.31,
+        319.397
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2.PerFuSe’s System Overview.shows the full system overview of PerFuSe, with the face extraction process followed by modular reconstruction through PFR, GFR and GFIR modules with a quality/fidelity control.Finally the output of three modules is combined via mask guided adaptive blending to produce the final output.",
+      "caption_en": "Figure 2.PerFuSe’s System Overview.shows the full system overview of PerFuSe, with the face extraction process followed by modular reconstruction through PFR, GFR and GFIR modules with a quality/fidelity control.Finally the output of three modules is combined via mask guided adaptive blending to produce the final output.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        231.312,
+        553.499,
+        258.967
+      ],
+      "content_bbox": [
+        60.865,
+        71.932,
+        550.508,
+        218.375
+      ],
+      "crop_bbox": [
+        60.865,
+        71.932,
+        550.508,
+        218.375
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 2,
+      "caption": "Figure 3.Sequential Generative Space Constraining. The figure shows the two step iterative generative space constraining.",
+      "caption_en": "Figure 3.Sequential Generative Space Constraining. The figure shows the two step iterative generative space constraining.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        304.852,
+        553.5,
+        323.042
+      ],
+      "content_bbox": [
+        318.218,
+        267.817,
+        552.53,
+        294.353
+      ],
+      "crop_bbox": [
+        318.218,
+        267.817,
+        552.53,
+        294.353
+      ],
+      "original": "figures/original/Fig3_p002.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure 4.Mask Guided Context-Aware Blending.This figure shows the step-by-step mask guided context-aware blending method.The restored faces, their extraction location and GFIR output are given as input to this step as shown on the left side of the image.These inputs are processed together to make facemasked,context-awaresourceimage,andthetargetimage(GFIR)whicharethencombinedviaGaussianandLaplacianpyramidasshownonthe figure.",
+      "caption_en": "Figure 4.Mask Guided Context-Aware Blending.This figure shows the step-by-step mask guided context-aware blending method.The restored faces, their extraction location and GFIR output are given as input to this step as shown on the left side of the image.These inputs are processed together to make facemasked,context-awaresourceimage,andthetargetimage(GFIR)whicharethencombinedviaGaussianandLaplacianpyramidasshownonthe figure.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        248.074,
+        553.5,
+        285.194
+      ],
+      "content_bbox": [
+        60.615,
+        71.611,
+        552.502,
+        235.992
+      ],
+      "crop_bbox": [
+        60.615,
+        71.611,
+        552.502,
+        235.992
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Figure 5.Qualitative Results.The qualitative performance of PerFuSe and state-of-the-art methods on two example images.[Zoom-in for better view]",
+      "caption_en": "Figure 5.Qualitative Results.The qualitative performance of PerFuSe and state-of-the-art methods on two example images.[Zoom-in for better view]",
+      "caption_zh": "",
+      "caption_bbox": [
+        61.295,
+        506.178,
+        550.702,
+        515.144
+      ],
+      "content_bbox": [
+        0.0,
+        43.243,
+        612.0,
+        506.178
+      ],
+      "crop_bbox": [
+        0.0,
+        43.243,
+        612.0,
+        506.178
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table 1.Quantitative Comparison SSIM [27], PSNR, LPIPS [37], MUSIQ [12], CLIPIQA [23], MANIQA [31], and TOPIQNR [3] scores of PerFuSe against baselines",
+      "caption_en": "Table 1.Quantitative Comparison SSIM [27], PSNR, LPIPS [37], MUSIQ [12], CLIPIQA [23], MANIQA [31], and TOPIQNR [3] scores of PerFuSe against baselines",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        131.297,
+        553.503,
+        149.487
+      ],
+      "content_bbox": [
+        119.993,
+        72.191,
+        491.905,
+        127.472
+      ],
+      "crop_bbox": [
+        119.993,
+        72.191,
+        491.905,
+        127.472
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Figure 6.Temporal Vs Non-Temporal Sampling.a) shows the low quality input images captured in different years,b) shows the output of PFR when trained with images sampled from a single year (non-temporal sampling) c) shows the performance of PFR when trained on images sampled across different years by following an exponential distribution (temporal sampling) d) shows the reference image examples from each year.[Zoom-in for better view]",
+      "caption_en": "Figure 6.Temporal Vs Non-Temporal Sampling.a) shows the low quality input images captured in different years,b) shows the output of PFR when trained with images sampled from a single year (non-temporal sampling) c) shows the performance of PFR when trained on images sampled across different years by following an exponential distribution (temporal sampling) d) shows the reference image examples from each year.[Zoom-in for better view]",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        239.215,
+        553.503,
+        266.87
+      ],
+      "content_bbox": [
+        49.946,
+        67.57,
+        555.974,
+        232.779
+      ],
+      "crop_bbox": [
+        49.946,
+        67.57,
+        555.974,
+        232.779
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 6,
+      "caption": "Figure 7.PerFuSe’s Quality vs Fidelity Control.The figure shows the outputs of PFR and GFR with different controllability parameters.",
+      "caption_en": "Figure 7.PerFuSe’s Quality vs Fidelity Control.The figure shows the outputs of PFR and GFR with different controllability parameters.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        371.903,
+        553.5,
+        390.094
+      ],
+      "content_bbox": [
+        325.979,
+        270.209,
+        552.801,
+        361.587
+      ],
+      "crop_bbox": [
+        325.979,
+        270.209,
+        552.801,
+        361.587
+      ],
+      "original": "figures/original/Fig7_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 7,
+      "caption": "Figure 8.Restoration across Different Input Image Qualities.The fig- urequalitativelyshowstheperformanceofPerFuSewithGFIRonly,Per- FuSewithGFIR&GFR,andPerFuSewithPFR,GFR&GFIRwithdif- ferent quality input images.",
+      "caption_en": "Figure 8.Restoration across Different Input Image Qualities.The fig- urequalitativelyshowstheperformanceofPerFuSewithGFIRonly,Per- FuSewithGFIR&GFR,andPerFuSewithPFR,GFR&GFIRwithdif- ferent quality input images.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        324.733,
+        294.754,
+        361.852
+      ],
+      "content_bbox": [
+        68.459,
+        72.191,
+        553.503,
+        311.562
+      ],
+      "crop_bbox": [
+        68.459,
+        72.191,
+        553.503,
+        311.562
+      ],
+      "original": "figures/original/Fig8_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig9",
+      "page": 7,
+      "caption": "Figure9.ImpactofTrainingIterationsonPFR.a)LQinputimages b-d)theoutputimageswhenPFRwastrainedfor500,1000and5000 iterations.e)sampleimagesfromtheuserlibraryPFRwaspersonalized on.[Zoom-in for better view]",
+      "caption_en": "Figure9.ImpactofTrainingIterationsonPFR.a)LQinputimages b-d)theoutputimageswhenPFRwastrainedfor500,1000and5000 iterations.e)sampleimagesfromtheuserlibraryPFRwaspersonalized on.[Zoom-in for better view]",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        244.319,
+        553.503,
+        281.439
+      ],
+      "content_bbox": [
+        115.112,
+        122.976,
+        552.734,
+        235.773
+      ],
+      "crop_bbox": [
+        115.112,
+        122.976,
+        552.734,
+        235.773
+      ],
+      "original": "figures/original/Fig9_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 7,
+      "caption": "Table 2.FID and LPIPS scores.The table presents identity scores of the image restored from different quality inputs.",
+      "caption_en": "Table 2.FID and LPIPS scores.The table presents identity scores of the image restored from different quality inputs.",
+      "caption_zh": "",
+      "caption_bbox": [
+        115.112,
+        122.976,
+        496.885,
+        131.942
+      ],
+      "content_bbox": [
+        96.766,
+        72.191,
+        513.219,
+        119.151
+      ],
+      "crop_bbox": [
+        96.766,
+        72.191,
+        513.219,
+        119.151
+      ],
+      "original": "tables/original/Table2_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "本批次暂不绘制 SVG/PPTX；网页明确标记为暂不可用。",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "PerFuSe_Personalized_Full_Image_Restoration_via_Modular_Fusion_2026",
+    "title": "PerFuSe: Personalized Full-Image Restoration via Modular Fusion",
+    "year": 2026,
+    "venue": "CVPRW",
+    "venue_short": "CVPRW",
+    "venue_full": "CVPRW",
+    "venue_type": "会议",
+    "classification": "published_workshop",
+    "topic": [
+      "image restoration",
+      "personalized restoration",
+      "diffusion"
+    ],
+    "relevance": "与图像恢复、压缩恢复、失真增强、SNN/类脑视觉、KAN/小波或生物视觉相关。",
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026W/P13N/html/Naeem_PerFuSe_Personalized_Full-Image_Restoration_via_Modular_Fusion_CVPRW_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026W/P13N/papers/Naeem_PerFuSe_Personalized_Full-Image_Restoration_via_Modular_Fusion_CVPRW_2026_paper.pdf",
+    "access": "open_pdf",
+    "access_note": "CVF official open PDF",
+    "source_scope": "new_2026_2027",
+    "download_status": "downloaded",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": null,
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议：未收录（2026目录）",
+    "ranking_display": "CCF会议：未收录（2026目录）",
+    "vector_status": "unavailable_temporary",
+    "ppt_status": "unavailable_temporary",
+    "svg_status": "unavailable_temporary"
+  }
+}

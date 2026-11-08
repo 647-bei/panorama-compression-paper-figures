@@ -1,0 +1,236 @@
+{
+  "paper": "Neuronal_tuning_aligns_dynamically_with_object_and_texture_manifolds_across_the_visual_hierarchy_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 29,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig. 1 | Texture and object image manifolds as parameterized by DeePSim and BigGAN.a, Most visual neurons respond strongly to sets of natural images with little semantic relation. Each curve shows responses to randomly sampled images (top, most activating; bottom, least activating). Shaded areas: s.e.m. b, Architecture and image statistics of the two generative models. (i) DeePSim uses an up-convolutional architecture that generates texture-like, less photorealistic images with a 4,096-dimensional latent space. (ii) BigGAN combines class and noise embeddings into a 256-dimensional latent space and produces object-centric, photorealistic images. Each generator defines a continuous image manifold mapping latent codes to naturalistic images. c, Conceptual framework: neuronal firing rates guide searches across generative manifolds to locate response maxima. Parallel optimizations in DeePSim (texture manifold) and BigGAN (object manifold) reveal complementary aspects of neuronal tuning across the visual cortex.",
+      "caption_en": "Fig. 1 | Texture and object image manifolds as parameterized by DeePSim and BigGAN.a, Most visual neurons respond strongly to sets of natural images with little semantic relation. Each curve shows responses to randomly sampled images (top, most activating; bottom, least activating). Shaded areas: s.e.m. b, Architecture and image statistics of the two generative models. (i) DeePSim uses an up-convolutional architecture that generates texture-like, less photorealistic images with a 4,096-dimensional latent space. (ii) BigGAN combines class and noise embeddings into a 256-dimensional latent space and produces object-centric, photorealistic images. Each generator defines a continuous image manifold mapping latent codes to naturalistic images. c, Conceptual framework: neuronal firing rates guide searches across generative manifolds to locate response maxima. Parallel optimizations in DeePSim (texture manifold) and BigGAN (object manifold) reveal complementary aspects of neuronal tuning across the visual cortex.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.678,
+        370.764,
+        559.904,
+        439.532
+      ],
+      "content_bbox": [
+        82.772,
+        50.915,
+        520.009,
+        365.684
+      ],
+      "crop_bbox": [
+        82.772,
+        50.915,
+        520.009,
+        365.684
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Fig. 2 | Example of a successful paired evolution from an inferotemporal cortex site.a, Schematic of the parallel evolution design. Synthetic images from DeePSim (texture-like) and BigGAN (object-like) were interleaved and optimized independently in a closed loop using CMA-ES. b, Mean firing rate per generation for one PIT multi-unit. Lines show means; shading, s.e.m. Red and blue traces show responses to BigGAN and DeePSim images; gray trace shows reference images; dotted lines indicate baseline (0–50 ms). c, Example images from successive generations in each space. Frames are color-coded by the mean evoked firing rate per block. d, PSTHs across generations for the same site. Lines show means across images in each block; shading, s.e.m.",
+      "caption_en": "Fig. 2 | Example of a successful paired evolution from an inferotemporal cortex site.a, Schematic of the parallel evolution design. Synthetic images from DeePSim (texture-like) and BigGAN (object-like) were interleaved and optimized independently in a closed loop using CMA-ES. b, Mean firing rate per generation for one PIT multi-unit. Lines show means; shading, s.e.m. Red and blue traces show responses to BigGAN and DeePSim images; gray trace shows reference images; dotted lines indicate baseline (0–50 ms). c, Example images from successive generations in each space. Frames are color-coded by the mean evoked firing rate per block. d, PSTHs across generations for the same site. Lines show means across images in each block; shading, s.e.m.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        439.775,
+        556.723,
+        488.537
+      ],
+      "content_bbox": [
+        86.946,
+        54.197,
+        514.307,
+        434.488
+      ],
+      "crop_bbox": [
+        86.946,
+        54.197,
+        514.307,
+        434.488
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Fig. 3 | Optimized images showed local feature similarity.a, Example paired evolution from a PIT multi-unit (monkey B, channel 20). Synthetic images evolved over generations in DeePSim (texture-like) and BigGAN (object-like) spaces. b, Mean firing rate per generation for the same site during texture (blue) and object (red) evolutions. Shading, s.e.m. c,d, Attribution masks were derived by regressing neuronal responses onto spatial CNN features (AlexNet conv5), with mask intensity indicating local adjusted R2; example masks are shown for the same driver site in c and for different drivers in d. e, Attribution-mask correlations were higher for the same driver than for different drivers. f, (i) Additional examples of evolved images. (ii) PSTHs for the most activating blocks (mean ± s.e.m.). (iii) Re-optimized ‘feature exemplars’ from computational models of the recorded evolutions. g, Image similarity (ResNet50 layer 4 embeddings) was inversely correlated with PSTH differences across paired evolutions (Pearson’s r = −0.29, P = 6.0 × 10−3, n = 87, two-sided).",
+      "caption_en": "Fig. 3 | Optimized images showed local feature similarity.a, Example paired evolution from a PIT multi-unit (monkey B, channel 20). Synthetic images evolved over generations in DeePSim (texture-like) and BigGAN (object-like) spaces. b, Mean firing rate per generation for the same site during texture (blue) and object (red) evolutions. Shading, s.e.m. c,d, Attribution masks were derived by regressing neuronal responses onto spatial CNN features (AlexNet conv5), with mask intensity indicating local adjusted R2; example masks are shown for the same driver site in c and for different drivers in d. e, Attribution-mask correlations were higher for the same driver than for different drivers. f, (i) Additional examples of evolved images. (ii) PSTHs for the most activating blocks (mean ± s.e.m.). (iii) Re-optimized ‘feature exemplars’ from computational models of the recorded evolutions. g, Image similarity (ResNet50 layer 4 embeddings) was inversely correlated with PSTH differences across paired evolutions (Pearson’s r = −0.29, P = 6.0 × 10−3, n = 87, two-sided).",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.664,
+        490.453,
+        558.656,
+        559.221
+      ],
+      "content_bbox": [
+        121.046,
+        50.904,
+        471.357,
+        486.497
+      ],
+      "crop_bbox": [
+        121.046,
+        50.904,
+        471.357,
+        486.497
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 5,
+      "caption": "Fig. 4 | Differential alignment with DeePSim and BigGAN across the ventral hierarchy.a, Alignment measured by evolution success rate. Success was defined as a significant increase in firing rate relative to the initial two blocks (t-test, P < 0.01, two-sided, same below). Numbers indicate successful sessions per area and generator. b, Alignment measured by achieved activation. Normalized neuronal activity before (left; initial block) and after optimization (right; final block). For each paired evolution, firing rates were averaged across trials within each block and normalized by the maximum block-wise mean across all blocks and both threads (the same normalization in c and d). Red points indicate object-optimized threads and blue points indicate texture-optimized threads (error bars denote mean ± s.e.m within block); gray lines connect threads in paired evolutions targeting the same neuronal site. Sessions were included if at least one thread met the success criterion. Differences between texture (DeePSim) and object (BigGAN)-optimization values were assessed using a two-sided paired t-test. For DeePSim > BigGAN, the test yielded the following values: before optimization: V1:t9= −3.49,P = 6.8 × 10−3; V4: t36= −4.25,P = 1.4 × 10−4; and IT: t85= −7.32,P = 1.3 × 10−10 after optimization: V1: t9= 4.65,P = 1.2 × 10−3; V4: t36= 5.99,P = 7.3 × 10−7; and IT: t85= −1.41,P = 0.16. Sample sizes (sessions in which at least one thread succeeded, P < 0.05) were V1, n = 10; V4, n = 37; and IT, n = 86. **P < 0.01; ***P < 0.001; ****P < 0.0001. c, Alignment measured by evolution trajectory. Normalized block-mean response trajectories or sessions in which both threads succeeded. Thin lines indicate the trajectory of individual threads; thick line indicates the mean across threads; shading indicates s.e.m. Sample sizes (sessions in which both threads succeeded, P < 0.05) were V1, n = 2; V4, n = 24; and IT, n = 61. d, Convergence time constants for successful threads. Time constants were estimated from normalized response trajectories for successful threads. Small dots represent individual evolution threads, and large symbols denote the mean and 95% CI of the mean. Sample sizes (successful threads, unpaired, P < 0.01) were DeePSim (blue dots): V1, n = 10; V4, n = 37; and IT, n = 67; BigGAN (red dots): V1, n = 0; V4, n = 20; IT, n = 65. e, Schematic summary. Along the ventral hierarchy, neuronal alignment with DeePSim (blue) decreased while alignment with BigGAN (red) increased, converging at a similar level in PIT.",
+      "caption_en": "Fig. 4 | Differential alignment with DeePSim and BigGAN across the ventral hierarchy.a, Alignment measured by evolution success rate. Success was defined as a significant increase in firing rate relative to the initial two blocks (t-test, P < 0.01, two-sided, same below). Numbers indicate successful sessions per area and generator. b, Alignment measured by achieved activation. Normalized neuronal activity before (left; initial block) and after optimization (right; final block). For each paired evolution, firing rates were averaged across trials within each block and normalized by the maximum block-wise mean across all blocks and both threads (the same normalization in c and d). Red points indicate object-optimized threads and blue points indicate texture-optimized threads (error bars denote mean ± s.e.m within block); gray lines connect threads in paired evolutions targeting the same neuronal site. Sessions were included if at least one thread met the success criterion. Differences between texture (DeePSim) and object (BigGAN)-optimization values were assessed using a two-sided paired t-test. For DeePSim > BigGAN, the test yielded the following values: before optimization: V1:t9= −3.49,P = 6.8 × 10−3; V4: t36= −4.25,P = 1.4 × 10−4; and IT: t85= −7.32,P = 1.3 × 10−10 after optimization: V1: t9= 4.65,P = 1.2 × 10−3; V4: t36= 5.99,P = 7.3 × 10−7; and IT: t85= −1.41,P = 0.16. Sample sizes (sessions in which at least one thread succeeded, P < 0.05) were V1, n = 10; V4, n = 37; and IT, n = 86. **P < 0.01; ***P < 0.001; ****P < 0.0001. c, Alignment measured by evolution trajectory. Normalized block-mean response trajectories or sessions in which both threads succeeded. Thin lines indicate the trajectory of individual threads; thick line indicates the mean across threads; shading indicates s.e.m. Sample sizes (sessions in which both threads succeeded, P < 0.05) were V1, n = 2; V4, n = 24; and IT, n = 61. d, Convergence time constants for successful threads. Time constants were estimated from normalized response trajectories for successful threads. Small dots represent individual evolution threads, and large symbols denote the mean and 95% CI of the mean. Sample sizes (successful threads, unpaired, P < 0.01) were DeePSim (blue dots): V1, n = 10; V4, n = 37; and IT, n = 67; BigGAN (red dots): V1, n = 0; V4, n = 20; IT, n = 65. e, Schematic summary. Along the ventral hierarchy, neuronal alignment with DeePSim (blue) decreased while alignment with BigGAN (red) increased, converging at a similar level in PIT.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        485.196,
+        562.349,
+        656.003
+      ],
+      "content_bbox": [
+        47.581,
+        55.996,
+        561.268,
+        479.909
+      ],
+      "crop_bbox": [
+        47.581,
+        55.996,
+        561.268,
+        479.909
+      ],
+      "original": "figures/original/Fig4_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 7,
+      "caption": "Fig. 5 | Object space preferentially activated late responses in PIT neurons. a, Population-averaged PSTHs from V1, V4 and PIT before (top) and after (bottom) optimization. Thick lines indicate means across threads; shading, s.e.m. Sample sizes (sessions in which at least one thread succeeded, P < 0.05) were: V1, n = 10; V4, n = 37; and IT, n = 86. b, Schematic of the time-binned analysis. Evoked firing rates were computed in fine (10 ms) windows and tracked across generations to obtain temporal evolution trajectories. c, Evolution trajectories of V4 and PIT neurons for representative 10 ms time bins (mean ± s.e.m.). In PIT, texture-based evolutions (blue) dominated early responses, whereas object- based evolutions (red) prevailed in later windows. Filled circles denote blocks with significant differences after false discovery rate (FDR) correction (paired t-test, two-sided). Sample sizes (sessions in which both threads succeeded, P < 0.05) were V4, n = 24; IT, n = 61.",
+      "caption_en": "Fig. 5 | Object space preferentially activated late responses in PIT neurons. a, Population-averaged PSTHs from V1, V4 and PIT before (top) and after (bottom) optimization. Thick lines indicate means across threads; shading, s.e.m. Sample sizes (sessions in which at least one thread succeeded, P < 0.05) were: V1, n = 10; V4, n = 37; and IT, n = 86. b, Schematic of the time-binned analysis. Evoked firing rates were computed in fine (10 ms) windows and tracked across generations to obtain temporal evolution trajectories. c, Evolution trajectories of V4 and PIT neurons for representative 10 ms time bins (mean ± s.e.m.). In PIT, texture-based evolutions (blue) dominated early responses, whereas object- based evolutions (red) prevailed in later windows. Filled circles denote blocks with significant differences after false discovery rate (FDR) correction (paired t-test, two-sided). Sample sizes (sessions in which both threads succeeded, P < 0.05) were V4, n = 24; IT, n = 61.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        671.217,
+        555.241,
+        739.985
+      ],
+      "content_bbox": [
+        132.191,
+        50.936,
+        476.467,
+        666.202
+      ],
+      "crop_bbox": [
+        132.191,
+        50.936,
+        476.467,
+        666.202
+      ],
+      "original": "figures/original/Fig5_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 8,
+      "caption": "Fig. 6 | Geometry of tuning landscapes in BigGAN latent space.a, Hessian tuning design. After evolution, tuning was sampled along orthogonal axes in the BigGAN latent space originating from the final mean vector (red star). Firing rates were measured for images generated at incremental latent space steps. b, Signed image distances (LPIPS) along two example axes (class and noise) illustrate systematic changes in image content with controlled distance values. c, Example PIT site (#5, monkey B, multi-unit (MU)) showing bell-shaped tuning along a sampled axis. Responses (mean ± s.e.m.) plotted against signed image distance were fit with Gaussian (black) and linear (green) tuning functions. Red curve shows the Gaussian-process regression (GPR). d, Neuronal responses along different eigen-axes in class space; for example, driver sites, showing structured tuning across eigenvector dimensions (one eigen-axis per row, same signed image distance per column). Left: following successful BigGAN evolution (#68, monkey C); right: following unsuccessful ones (#57, monkey A). e, Distribution of tuning curve peak locations. Tuning curves following successful evolutions have peaks at (or close to) the center of the sampled axes, while those after unsuccessful evolutions have peaks distributed across the axes. Bars indicate the fraction of tuning curves peaking at each location (summing to 1), with error bars showing Wilson binomial confidence intervals. Sample sizes (number of significantly modulated tuning curves, P < 0.01): successful group, n = 342; unsuccessful group, n = 103. f, Distribution of tuning curve types. Fraction of significantly modulated tuning curves (per ANOVA) classified as bell-shaped (blue) or ramp-shaped (orange) for neuronal sites, conditioned on the preceding evolution experiment successfully having increased firing rate. Each bar represents the fraction of tuning curves, and error bars reflect beta- distribution-based confidence intervals. Sample sizes (number of significantly modulated tuning curves, P < 0.01): successful group n = 342; unsuccessful group n = 103. g, Conceptual illustration showing how sampling range within image space influences apparent tuning shape.",
+      "caption_en": "Fig. 6 | Geometry of tuning landscapes in BigGAN latent space.a, Hessian tuning design. After evolution, tuning was sampled along orthogonal axes in the BigGAN latent space originating from the final mean vector (red star). Firing rates were measured for images generated at incremental latent space steps. b, Signed image distances (LPIPS) along two example axes (class and noise) illustrate systematic changes in image content with controlled distance values. c, Example PIT site (#5, monkey B, multi-unit (MU)) showing bell-shaped tuning along a sampled axis. Responses (mean ± s.e.m.) plotted against signed image distance were fit with Gaussian (black) and linear (green) tuning functions. Red curve shows the Gaussian-process regression (GPR). d, Neuronal responses along different eigen-axes in class space; for example, driver sites, showing structured tuning across eigenvector dimensions (one eigen-axis per row, same signed image distance per column). Left: following successful BigGAN evolution (#68, monkey C); right: following unsuccessful ones (#57, monkey A). e, Distribution of tuning curve peak locations. Tuning curves following successful evolutions have peaks at (or close to) the center of the sampled axes, while those after unsuccessful evolutions have peaks distributed across the axes. Bars indicate the fraction of tuning curves peaking at each location (summing to 1), with error bars showing Wilson binomial confidence intervals. Sample sizes (number of significantly modulated tuning curves, P < 0.01): successful group, n = 342; unsuccessful group, n = 103. f, Distribution of tuning curve types. Fraction of significantly modulated tuning curves (per ANOVA) classified as bell-shaped (blue) or ramp-shaped (orange) for neuronal sites, conditioned on the preceding evolution experiment successfully having increased firing rate. Each bar represents the fraction of tuning curves, and error bars reflect beta- distribution-based confidence intervals. Sample sizes (number of significantly modulated tuning curves, P < 0.01): successful group n = 342; unsuccessful group n = 103. g, Conceptual illustration showing how sampling range within image space influences apparent tuning shape.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.678,
+        503.839,
+        561.992,
+        652.631
+      ],
+      "content_bbox": [
+        40.048,
+        70.409,
+        559.278,
+        498.552
+      ],
+      "crop_bbox": [
+        40.048,
+        70.409,
+        559.278,
+        498.552
+      ],
+      "original": "figures/original/Fig6_p008.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "本批次暂不绘制 SVG/PPTX；网页明确标记为暂不可用。"
+  ],
+  "metadata": {
+    "local_slug": "Neuronal_tuning_aligns_dynamically_with_object_and_texture_manifolds_across_the_visual_hierarchy_2026",
+    "title": "Neuronal tuning aligns dynamically with object and texture manifolds across the visual hierarchy",
+    "year": 2026,
+    "venue": "Nature Neuroscience",
+    "venue_short": "Nature Neuroscience",
+    "venue_full": "Nature Neuroscience",
+    "venue_type": "期刊",
+    "classification": "published_main",
+    "topic": [
+      "visual cortex",
+      "neural representation",
+      "biological vision"
+    ],
+    "relevance": "与图像恢复、压缩恢复、失真增强、SNN/类脑视觉、KAN/小波或生物视觉相关。",
+    "official_url": "https://www.nature.com/articles/s41593-026-02207-1",
+    "pdf_url": "https://www.nature.com/articles/s41593-026-02207-1.pdf",
+    "access": "open_pdf",
+    "access_note": "Nature article PDF",
+    "source_scope": "new_2026_2027",
+    "download_status": "downloaded",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：待核验（2025）",
+    "ccf_rank": null,
+    "ccf_scope": null,
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院分区：待核验（2025）",
+    "vector_status": "unavailable_temporary",
+    "ppt_status": "unavailable_temporary",
+    "svg_status": "unavailable_temporary"
+  }
+}

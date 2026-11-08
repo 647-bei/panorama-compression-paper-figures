@@ -1,0 +1,236 @@
+{
+  "paper": "Adopting_a_human_developmental_visual_diet_yields_robust_and_shape_based_AI_vision_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 17,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Fig. 1 | Following the developmental trajectory of visual acuity, chromatic sensitivity and contrast sensitivity from newborn to 25 years old, as an effective means of training robust AI vision systems.a, Schematic of our training and analysis pipeline for comprehensively evaluating DVD versus standard training regimes for ANNs. b–d, Developmental trajectories of the three aspects of vision modelled by DVD (visual acuity (b), contrast sensitivity (c), chromatic sensitivity (d)), as synthesized from a multitude of psychophysical experiments across age groups. In our main experiments, we represent contrast by the peak sensitivity across spatial frequencies at each age; however, see Supplementary Fig. 6 for results based on full frequency-dependent developmental profiles, and see Supplementary Fig. 14 for results based on CSF multiplication and frequency pooling (Methods). e, DVD example images at selected developmental stages, illustrating the progression of visual experience from newborns to adults.",
+      "caption_en": "Fig. 1 | Following the developmental trajectory of visual acuity, chromatic sensitivity and contrast sensitivity from newborn to 25 years old, as an effective means of training robust AI vision systems.a, Schematic of our training and analysis pipeline for comprehensively evaluating DVD versus standard training regimes for ANNs. b–d, Developmental trajectories of the three aspects of vision modelled by DVD (visual acuity (b), contrast sensitivity (c), chromatic sensitivity (d)), as synthesized from a multitude of psychophysical experiments across age groups. In our main experiments, we represent contrast by the peak sensitivity across spatial frequencies at each age; however, see Supplementary Fig. 6 for results based on full frequency-dependent developmental profiles, and see Supplementary Fig. 14 for results based on CSF multiplication and frequency pooling (Methods). e, DVD example images at selected developmental stages, illustrating the progression of visual experience from newborns to adults.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        552.537,
+        557.99,
+        621.305
+      ],
+      "content_bbox": [
+        42.607,
+        52.422,
+        559.753,
+        548.581
+      ],
+      "crop_bbox": [
+        42.607,
+        52.422,
+        559.753,
+        548.581
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Fig. 2 | Models trained with DVD close the gap to human-level shape bias. a, Example cue–conflict stimuli from the 16 object categories tested. Shape and texture cues are intentionally mismatched (for example, an object with the shape of an airplane is shown with the texture of elephant skin), to test which of the two feature types underlies human and AI decisions. Shape categories are indicated in black, texture categories in grey. b, Trade-off between object recognition accuracy and shape bias across models trained on mini-ecoset (0.28 million images) and full ecoset (1.5 million images). Three exemplary DVD-trained models were selected for subsequent analyses: a high recognition performance variant (DVD-P); and a balanced variant (DVD-B), which achieves close to human-level shape bias while incurring only a modest cost in accuracy; and a model prioritizing shape-based decision-making (DVD-S). c, Comparison of shape bias between DVD models, standard supervised vision models, self-supervised learning (SSL) vision models, large-scale multimodal VLMs and humans across different age groups. Boxplots show the distribution of shape/texture biases across the 16 cue–conflict object categories (n = 16; unit of analysis = category; shape bias: high values, texture bias: low values), boxplot midline represents the median, bounds indicate the 25th and 75th percentiles, and whiskers extend to the 5th and 95th percentiles. Each model corresponds to one independently trained instance (one seed). Human data: 4–6 years (n = 21), 7–9 years (n = 11), 10–12 years (n = 12), 13–15 years (n = 8) and adults (n = 97). The dotted line indicates the lower bound of average human-level shape bias (88% average shape-based decisions of 4–6-year-old humans).",
+      "caption_en": "Fig. 2 | Models trained with DVD close the gap to human-level shape bias. a, Example cue–conflict stimuli from the 16 object categories tested. Shape and texture cues are intentionally mismatched (for example, an object with the shape of an airplane is shown with the texture of elephant skin), to test which of the two feature types underlies human and AI decisions. Shape categories are indicated in black, texture categories in grey. b, Trade-off between object recognition accuracy and shape bias across models trained on mini-ecoset (0.28 million images) and full ecoset (1.5 million images). Three exemplary DVD-trained models were selected for subsequent analyses: a high recognition performance variant (DVD-P); and a balanced variant (DVD-B), which achieves close to human-level shape bias while incurring only a modest cost in accuracy; and a model prioritizing shape-based decision-making (DVD-S). c, Comparison of shape bias between DVD models, standard supervised vision models, self-supervised learning (SSL) vision models, large-scale multimodal VLMs and humans across different age groups. Boxplots show the distribution of shape/texture biases across the 16 cue–conflict object categories (n = 16; unit of analysis = category; shape bias: high values, texture bias: low values), boxplot midline represents the median, bounds indicate the 25th and 75th percentiles, and whiskers extend to the 5th and 95th percentiles. Each model corresponds to one independently trained instance (one seed). Human data: 4–6 years (n = 21), 7–9 years (n = 11), 10–12 years (n = 12), 13–15 years (n = 8) and adults (n = 97). The dotted line indicates the lower bound of average human-level shape bias (88% average shape-based decisions of 4–6-year-old humans).",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.321,
+        405.412,
+        557.3,
+        514.192
+      ],
+      "content_bbox": [
+        40.912,
+        64.512,
+        561.049,
+        339.448
+      ],
+      "crop_bbox": [
+        40.912,
+        64.512,
+        561.049,
+        339.448
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Fig. 3 | Results generalization across vision datasets and ANN architectures. a, Generalization of results across training datasets (0.28 million mini-ecoset, 1.50 million ecoset and 1.28 million ImageNet-1K). Comparable generalization is also observed for self-supervised DVD-B models (Supplementary Fig. 16). b, Generalization of results across a range of DNN architectures, including both CNNs and ViTs. Boxplots summarize category-wise shape bias across the 16 cue– conflict object categories (n = 16; unit of analysis = category) for each model (one seed; independently trained model instance). Human sample sizes and boxplot conventions are identical to Fig. 2c.",
+      "caption_en": "Fig. 3 | Results generalization across vision datasets and ANN architectures. a, Generalization of results across training datasets (0.28 million mini-ecoset, 1.50 million ecoset and 1.28 million ImageNet-1K). Comparable generalization is also observed for self-supervised DVD-B models (Supplementary Fig. 16). b, Generalization of results across a range of DNN architectures, including both CNNs and ViTs. Boxplots summarize category-wise shape bias across the 16 cue– conflict object categories (n = 16; unit of analysis = category) for each model (one seed; independently trained model instance). Human sample sizes and boxplot conventions are identical to Fig. 2c.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        294.794,
+        554.495,
+        343.556
+      ],
+      "content_bbox": [
+        85.272,
+        64.742,
+        518.973,
+        288.039
+      ],
+      "crop_bbox": [
+        85.272,
+        64.742,
+        518.973,
+        288.039
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Fig. 4 | In-depth investigation of the emergence of shape bias in ANNs and the underlying feature selectivity.a, Evolving shape bias in the DVD-B model from birth to 25 years old (300 months; 2 months per epoch for DVD-B; see also Supplementary Fig. 2 for the evolution of the shape bias metric), as reflected by a rising proportion of shape-based choices on cue–conflict trials (that is, predictions matching the shape category). By contrast, the baseline model exhibits a consistent preference for texture-based choices. Mean across three independently trained seeds shown per model (n = 3); error bars indicate the ±1 standard deviation across seeds. b, Feature attribution using Grad-CAM, indicating that DVD-B relies more strongly on image regions corresponding to the object in question (data shown for a model instance; see also Supplementary Fig. 4 for feature importance visualization using LRP). c, Controlled rearing experiments to study the role of different visual aspects in development (based on DVD-B) indicate a strong impact of contrast sensitivity development (see Supplementary Fig. 11 for an illustration of its critical role). Including all three aspects of visual development yields the most consistent shape bias across categories. Boxplots summarize category-wise shape bias across the 16 cue– conflict object categories (n = 16; unit of analysis = category); data of each rearing condition based on a single instance (one seed; independently trained model instance). Boxplot conventions as in Fig. 2c.",
+      "caption_en": "Fig. 4 | In-depth investigation of the emergence of shape bias in ANNs and the underlying feature selectivity.a, Evolving shape bias in the DVD-B model from birth to 25 years old (300 months; 2 months per epoch for DVD-B; see also Supplementary Fig. 2 for the evolution of the shape bias metric), as reflected by a rising proportion of shape-based choices on cue–conflict trials (that is, predictions matching the shape category). By contrast, the baseline model exhibits a consistent preference for texture-based choices. Mean across three independently trained seeds shown per model (n = 3); error bars indicate the ±1 standard deviation across seeds. b, Feature attribution using Grad-CAM, indicating that DVD-B relies more strongly on image regions corresponding to the object in question (data shown for a model instance; see also Supplementary Fig. 4 for feature importance visualization using LRP). c, Controlled rearing experiments to study the role of different visual aspects in development (based on DVD-B) indicate a strong impact of contrast sensitivity development (see Supplementary Fig. 11 for an illustration of its critical role). Including all three aspects of visual development yields the most consistent shape bias across categories. Boxplots summarize category-wise shape bias across the 16 cue– conflict object categories (n = 16; unit of analysis = category); data of each rearing condition based on a single instance (one seed; independently trained model instance). Boxplot conventions as in Fig. 2c.",
+      "caption_zh": "",
+      "caption_bbox": [
+        37.314,
+        431.82,
+        561.652,
+        530.597
+      ],
+      "content_bbox": [
+        40.077,
+        66.032,
+        550.671,
+        426.533
+      ],
+      "crop_bbox": [
+        40.077,
+        66.032,
+        550.671,
+        426.533
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Fig. 5 | Models trained with DVD exhibit enhanced recognition of abstract shapes hidden within complex scenes.a, Example IllusionBench stimuli of abstract shapes hidden in scene contexts. b, Shape recall versus scene recall benchmark for DVD-trained models, as well as a large range of control models, including supervised models, self-supervised learning (SSL) models, models trained on Stylized-ImageNet (SIN), AI foundation models and large-scale multimodal VLMs. c, t-SNE embeddings of IllusionBench images, colour coded by object category. Only DVD-trained models cluster images according to their abstract shape categories, whereas other models predominantly cluster images based on their scene contexts (also see Supplementary Fig. 5).",
+      "caption_en": "Fig. 5 | Models trained with DVD exhibit enhanced recognition of abstract shapes hidden within complex scenes.a, Example IllusionBench stimuli of abstract shapes hidden in scene contexts. b, Shape recall versus scene recall benchmark for DVD-trained models, as well as a large range of control models, including supervised models, self-supervised learning (SSL) models, models trained on Stylized-ImageNet (SIN), AI foundation models and large-scale multimodal VLMs. c, t-SNE embeddings of IllusionBench images, colour coded by object category. Only DVD-trained models cluster images according to their abstract shape categories, whereas other models predominantly cluster images based on their scene contexts (also see Supplementary Fig. 5).",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.678,
+        590.131,
+        556.957,
+        638.893
+      ],
+      "content_bbox": [
+        66.721,
+        469.777,
+        546.229,
+        584.844
+      ],
+      "crop_bbox": [
+        66.721,
+        469.777,
+        546.229,
+        584.844
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 7,
+      "caption": "Fig. 6 | ANNs trained with DVD exhibit enhanced degradation robustness to image degradations and adversarial attacks. a, Alignment of DVD-B-trained and baseline models with human data for blur and noise robustness. b, Resilience to various image degradations, including different levels of noise, blurring, image quality deficits and weather effects. c, Improved resilience to white-box and black-box adversarial attacks.",
+      "caption_en": "Fig. 6 | ANNs trained with DVD exhibit enhanced degradation robustness to image degradations and adversarial attacks. a, Alignment of DVD-B-trained and baseline models with human data for blur and noise robustness. b, Resilience to various image degradations, including different levels of noise, blurring, image quality deficits and weather effects. c, Improved resilience to white-box and black-box adversarial attacks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_bbox": [
+        38,
+        42,
+        562,
+        714
+      ],
+      "crop_bbox": [
+        38,
+        42,
+        562,
+        714
+      ],
+      "original": "figures/original/Fig6_p008.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "本批次暂不绘制 SVG/PPTX；网页明确标记为暂不可用。"
+  ],
+  "metadata": {
+    "local_slug": "Adopting_a_human_developmental_visual_diet_yields_robust_and_shape_based_AI_vision_2026",
+    "title": "Adopting a human developmental visual diet yields robust and shape-based AI vision",
+    "year": 2026,
+    "venue": "Nature Machine Intelligence",
+    "venue_short": "Nature Machine Intelligence",
+    "venue_full": "Nature Machine Intelligence",
+    "venue_type": "期刊",
+    "classification": "published_main",
+    "topic": [
+      "biological vision",
+      "visual development",
+      "image corruption robustness"
+    ],
+    "relevance": "与图像恢复、压缩恢复、失真增强、SNN/类脑视觉、KAN/小波或生物视觉相关。",
+    "official_url": "https://www.nature.com/articles/s42256-026-01228-6",
+    "pdf_url": "https://www.nature.com/articles/s42256-026-01228-6.pdf",
+    "access": "open_pdf",
+    "access_note": "Nature open-access article PDF",
+    "source_scope": "new_2026_2027",
+    "download_status": "downloaded",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：待核验（2025）",
+    "ccf_rank": null,
+    "ccf_scope": null,
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院分区：待核验（2025）",
+    "vector_status": "unavailable_temporary",
+    "ppt_status": "unavailable_temporary",
+    "svg_status": "unavailable_temporary"
+  }
+}

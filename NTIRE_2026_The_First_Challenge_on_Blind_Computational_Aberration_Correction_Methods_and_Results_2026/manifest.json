@@ -1,0 +1,309 @@
+{
+  "paper": "NTIRE_2026_The_First_Challenge_on_Blind_Computational_Aberration_Correction_Methods_and_Results_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 18,
+  "assets": [
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 2,
+      "caption": "Table 1.Results of NTIRE 2026 Blind Computational Aberration Correction Challenge.",
+      "caption_en": "Table 1.Results of NTIRE 2026 Blind Computational Aberration Correction Challenge.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        191.626,
+        294.747,
+        211.551
+      ],
+      "content_bbox": [
+        58.5,
+        72.199,
+        298.479,
+        180.593
+      ],
+      "crop_bbox": [
+        58.5,
+        72.199,
+        298.479,
+        180.593
+      ],
+      "original": "tables/original/Table1_p002.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 4,
+      "caption": "Figure 1.Overview of the PSFPrivKD framework.In Stage 1 the teacher is pre-trained with PSF maps. In Stage 2 the frozen teacher supervisestheblindstudentviadistillationlossesLkd,whilere- construction losses are computed against the ground truth.",
+      "caption_en": "Figure 1.Overview of the PSFPrivKD framework.In Stage 1 the teacher is pre-trained with PSF maps. In Stage 2 the frozen teacher supervisestheblindstudentviadistillationlossesLkd,whilere- construction losses are computed against the ground truth.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        264.194,
+        294.747,
+        306.037
+      ],
+      "content_bbox": [
+        58.5,
+        74.823,
+        291.377,
+        250.186
+      ],
+      "crop_bbox": [
+        58.5,
+        74.823,
+        291.377,
+        250.186
+      ],
+      "original": "figures/original/Fig1_p004.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table 2.Results on validation and test sets.",
+      "caption_en": "Table 2.Results on validation and test sets.",
+      "caption_zh": "",
+      "caption_bbox": [
+        99.246,
+        169.305,
+        254.006,
+        178.271
+      ],
+      "content_bbox": [
+        77.836,
+        193.753,
+        275.414,
+        261.541
+      ],
+      "crop_bbox": [
+        77.836,
+        193.753,
+        275.414,
+        261.541
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 6,
+      "caption": "Figure 2.Overall pipeline of the proposed method (DERNet) for computational aberration correction.",
+      "caption_en": "Figure 2.Overall pipeline of the proposed method (DERNet) for computational aberration correction.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        209.85,
+        553.497,
+        229.775
+      ],
+      "content_bbox": [
+        320.921,
+        80.153,
+        550.051,
+        184.563
+      ],
+      "crop_bbox": [
+        320.921,
+        80.153,
+        550.051,
+        184.563
+      ],
+      "original": "figures/original/Fig2_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 7,
+      "caption": "Figure3. OverviewoftheproposedCoordinate-AwareMulti- HeadArchitecture.Thepipelineconsistsofasharedencoder,a coordinate-awarefeaturefusionmodule,andspecializeddecoder heads for different regions.The framework explicitly incorporates normalized(x, y)coordinatesandradialdistancertoachieve adaptive restoration.",
+      "caption_en": "Figure3. OverviewoftheproposedCoordinate-AwareMulti- HeadArchitecture.Thepipelineconsistsofasharedencoder,a coordinate-awarefeaturefusionmodule,andspecializeddecoder heads for different regions.The framework explicitly incorporates normalized(x, y)coordinatesandradialdistancertoachieve adaptive restoration.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        200.666,
+        294.765,
+        264.426
+      ],
+      "content_bbox": [
+        58.5,
+        71.998,
+        294.748,
+        189.832
+      ],
+      "crop_bbox": [
+        58.5,
+        71.998,
+        294.748,
+        189.832
+      ],
+      "original": "figures/original/Fig3_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 8,
+      "caption": "Table 3.Quantitative comparison of the proposed methods on the validation set.",
+      "caption_en": "Table 3.Quantitative comparison of the proposed methods on the validation set.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        72.871,
+        553.497,
+        92.796
+      ],
+      "content_bbox": [
+        319.56,
+        104.065,
+        551.201,
+        149.146
+      ],
+      "crop_bbox": [
+        319.56,
+        104.065,
+        551.201,
+        149.146
+      ],
+      "original": "tables/original/Table3_p008.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 10,
+      "caption": "Figure 4.Network architecture of DHAC",
+      "caption_en": "Figure 4.Network architecture of DHAC",
+      "caption_zh": "",
+      "caption_bbox": [
+        361.376,
+        157.296,
+        509.375,
+        166.262
+      ],
+      "content_bbox": [
+        340.875,
+        72.0,
+        529.875,
+        146.462
+      ],
+      "crop_bbox": [
+        340.875,
+        72.0,
+        529.875,
+        146.462
+      ],
+      "original": "figures/original/Fig4_p010.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 11,
+      "caption": "Table4.Comparisonoftheproposedmethodsonthevalidation set and test set.",
+      "caption_en": "Table4.Comparisonoftheproposedmethodsonthevalidation set and test set.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        72.871,
+        294.747,
+        92.796
+      ],
+      "content_bbox": [
+        61.158,
+        104.093,
+        292.101,
+        143.216
+      ],
+      "crop_bbox": [
+        61.158,
+        104.093,
+        292.101,
+        143.216
+      ],
+      "original": "tables/original/Table4_p011.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "本批次暂不绘制 SVG/PPTX；网页明确标记为暂不可用。",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "NTIRE_2026_The_First_Challenge_on_Blind_Computational_Aberration_Correction_Methods_and_Results_2026",
+    "title": "NTIRE 2026 The First Challenge on Blind Computational Aberration Correction: Methods and Results",
+    "year": 2026,
+    "venue": "CVPRW",
+    "venue_short": "CVPRW",
+    "venue_full": "CVPRW",
+    "venue_type": "会议",
+    "classification": "published_workshop",
+    "topic": [
+      "optical aberration",
+      "image restoration",
+      "physics-based vision"
+    ],
+    "relevance": "与图像恢复、压缩恢复、失真增强、SNN/类脑视觉、KAN/小波或生物视觉相关。",
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Sun_NTIRE_2026_The_First_Challenge_on_Blind_Computational_Aberration_Correction_CVPRW_2026_paper.pdf",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Sun_NTIRE_2026_The_First_Challenge_on_Blind_Computational_Aberration_Correction_CVPRW_2026_paper.pdf",
+    "access": "open_pdf",
+    "access_note": "CVF official open PDF",
+    "source_scope": "new_2026_2027",
+    "download_status": "downloaded",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": null,
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议：未收录（2026目录）",
+    "ranking_display": "CCF会议：未收录（2026目录）",
+    "vector_status": "unavailable_temporary",
+    "ppt_status": "unavailable_temporary",
+    "svg_status": "unavailable_temporary"
+  }
+}

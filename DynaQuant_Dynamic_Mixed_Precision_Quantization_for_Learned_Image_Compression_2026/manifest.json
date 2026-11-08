@@ -1,0 +1,373 @@
+{
+  "paper": "DynaQuant_Dynamic_Mixed_Precision_Quantization_for_Learned_Image_Compression_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 13,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure1:VisualandquantitativecomparisonoftheDy- naQuant method on the kodim04, using Cheng2020 (Cheng et al. 2020) as the baseline. Our proposed two quantization strategies—fixed bit-width quantization (Q-Cheng) and dy- namic bit-width quantization (DQ-Cheng)—achieve compa- rable performance to the full-precision method while deliv- ering approximately 5 × speedup.",
+      "caption_en": "Figure1:VisualandquantitativecomparisonoftheDy- naQuant method on the kodim04, using Cheng2020 (Cheng et al. 2020) as the baseline. Our proposed two quantization strategies—fixed bit-width quantization (Q-Cheng) and dy- namic bit-width quantization (DQ-Cheng)—achieve compa- rable performance to the full-precision method while deliv- ering approximately 5 × speedup.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        366.084,
+        558.005,
+        441.8
+      ],
+      "content_bbox": [
+        319.44,
+        236.439,
+        563.465,
+        358.646
+      ],
+      "crop_bbox": [
+        319.44,
+        236.439,
+        563.465,
+        358.646
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure2:Gradientproxyfunction(top)anditsderiva- tive(bottom).Thederivativeexhibitsperiodicoscillations, reachingminimaatx=0andx=1withpeaksatx=0.5.All valuesremainstrictlypositive,andtheamplitudeismodu- lated by β, ensuring adaptive gradient scaling.",
+      "caption_en": "Figure2:Gradientproxyfunction(top)anditsderiva- tive(bottom).Thederivativeexhibitsperiodicoscillations, reachingminimaatx=0andx=1withpeaksatx=0.5.All valuesremainstrictlypositive,andtheamplitudeismodu- lated by β, ensuring adaptive gradient scaling.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        254.255,
+        558.014,
+        308.054
+      ],
+      "content_bbox": [
+        319.165,
+        53.999,
+        558.337,
+        244.177
+      ],
+      "crop_bbox": [
+        319.165,
+        53.999,
+        558.337,
+        244.177
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure 3: (a) DynaQuant Framework Overview. DQ-Block is the dynamic quantization block, and Bit-Width Selector is the bit- width selector that dynamically allocates quantization precision for each layer. (b) Bit-Width Selector and DQ-Block Structure. The bit-width selector processes input activation A through adaptive pooling, MLP, and Gumbel Softmax to output bit-width selection probability distribution p1, p2, . . . , pn. DQ-Block quantizes the input {X} and learnable parameters {W} within the module according to the corresponding bit-widths based on the probability distribution, and finally generates the output through probability-weighted fusion.",
+      "caption_en": "Figure 3: (a) DynaQuant Framework Overview. DQ-Block is the dynamic quantization block, and Bit-Width Selector is the bit- width selector that dynamically allocates quantization precision for each layer. (b) Bit-Width Selector and DQ-Block Structure. The bit-width selector processes input activation A through adaptive pooling, MLP, and Gumbel Softmax to output bit-width selection probability distribution p1, p2, . . . , pn. DQ-Block quantizes the input {X} and learnable parameters {W} within the module according to the corresponding bit-widths based on the probability distribution, and finally generates the output through probability-weighted fusion.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        256.749,
+        558.002,
+        321.506
+      ],
+      "content_bbox": [
+        105.279,
+        55.08,
+        506.001,
+        245.686
+      ],
+      "crop_bbox": [
+        105.279,
+        55.08,
+        506.001,
+        245.686
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure 4: R-D Performance.(a) Kodak; (b) JPEG-AI; (c) CLIC. Quantization schemes: [FP32] for original 32-bit float, [INT8] foruniform8-bitquantization,and[INTX.YY]forourmixed-precisionquantizationwhereX.YYindicatestheaveragebit- width(e.g.,6.81-bitforDQ-ELIC,6.20-bitforDQ-Cheng).“Q-ELIC”referstoapplyingDPAtoeachlayerofELIC,while “DQ-ELIC” denotes the application of a DBWS to each layer of ELIC. Best viewed in color.",
+      "caption_en": "Figure 4: R-D Performance.(a) Kodak; (b) JPEG-AI; (c) CLIC. Quantization schemes: [FP32] for original 32-bit float, [INT8] foruniform8-bitquantization,and[INTX.YY]forourmixed-precisionquantizationwhereX.YYindicatestheaveragebit- width(e.g.,6.81-bitforDQ-ELIC,6.20-bitforDQ-Cheng).“Q-ELIC”referstoapplyingDPAtoeachlayerofELIC,while “DQ-ELIC” denotes the application of a DBWS to each layer of ELIC. Best viewed in color.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        208.612,
+        557.998,
+        251.542
+      ],
+      "content_bbox": [
+        53.728,
+        53.777,
+        558.216,
+        197.802
+      ],
+      "crop_bbox": [
+        53.728,
+        53.777,
+        558.216,
+        197.802
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table 1: BD-Rate loss (%) and computational speed up (×) relative to baseline 32-bit full precision models on three standard datasets:Kodak,JPEG-AI,andCLIC.“Q-ELIC”referstoapplyingDynamicParameterAdaptation(DPA)toeachlayerof ELIC, while “DQ-ELIC” denotes the application of a Dynamic Bit-Width Selector (DBWS) to each layer of ELIC. A dash“–” denotes unreported results; the asterisk “*” indicates our calculated results.",
+      "caption_en": "Table 1: BD-Rate loss (%) and computational speed up (×) relative to baseline 32-bit full precision models on three standard datasets:Kodak,JPEG-AI,andCLIC.“Q-ELIC”referstoapplyingDynamicParameterAdaptation(DPA)toeachlayerof ELIC, while “DQ-ELIC” denotes the application of a Dynamic Bit-Width Selector (DBWS) to each layer of ELIC. A dash“–” denotes unreported results; the asterisk “*” indicates our calculated results.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        53.756,
+        557.998,
+        96.955
+      ],
+      "content_bbox": [
+        55.845,
+        127.26,
+        556.155,
+        176.285
+      ],
+      "crop_bbox": [
+        55.845,
+        127.26,
+        556.155,
+        176.285
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table2:Generalablationstudyofourtwoquantization strategies:DPA(fixedbit-width,INT8/INT6)andDPA- DQ (dynamic bit-width quantization, DBWS), compared to Vanilla and PAMS quantization.",
+      "caption_en": "Table2:Generalablationstudyofourtwoquantization strategies:DPA(fixedbit-width,INT8/INT6)andDPA- DQ (dynamic bit-width quantization, DBWS), compared to Vanilla and PAMS quantization.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        340.047,
+        292.505,
+        382.887
+      ],
+      "content_bbox": [
+        55.845,
+        295.576,
+        556.155,
+        317.819
+      ],
+      "crop_bbox": [
+        55.845,
+        295.576,
+        556.155,
+        317.819
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 5,
+      "caption": "Table3 showsthatremovinganyDPAcomponentdegradesper- formance(e.g.,excludingsreducesPSNRfrom36.649",
+      "caption_en": "Table3 showsthatremovinganyDPAcomponentdegradesper- formance(e.g.,excludingsreducesPSNRfrom36.649",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        672.436,
+        292.505,
+        704.407
+      ],
+      "content_bbox": [
+        54.0,
+        480.039,
+        295.025,
+        534.028
+      ],
+      "crop_bbox": [
+        54.0,
+        480.039,
+        295.025,
+        534.028
+      ],
+      "original": "tables/original/Table3_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 5,
+      "caption": "Table 4 shows that the dynamic bit-width strategy (DBWS) remains effec- tiveacrossdifferentbit-widthsets.The{6, 8, 10}setof- fers a better trade-off between efficiency and fidelity, while {4, 6, 8} achieves lower average bit-width at the cost of re- duced PSNR.",
+      "caption_en": "Table 4 shows that the dynamic bit-width strategy (DBWS) remains effec- tiveacrossdifferentbit-widthsets.The{6, 8, 10}setof- fers a better trade-off between efficiency and fidelity, while {4, 6, 8} achieves lower average bit-width at the cost of re- duced PSNR.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        639.559,
+        558.005,
+        704.407
+      ],
+      "content_bbox": [
+        319.5,
+        437.308,
+        567.01,
+        544.944
+      ],
+      "crop_bbox": [
+        319.5,
+        437.308,
+        567.01,
+        544.944
+      ],
+      "original": "tables/original/Table4_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure 5: Qualitative comparison on a Kodak image (e.g., “kodim23”) using the base model Cheng2020. (a) Full-size images (first row). (b) Zoomed-in regions highlighting texture/edge details (second row). Methods: From left to right—Ground Truth, 32-bit full-precision, Application of our Dynamic Parameter Adaptation (Q-Cheng), and application of a Dynamic Bit-Width Selector (DQ-Cheng). Metrics include bpp, PSNR, and speedup. Best viewed digitally and zoomed in.",
+      "caption_en": "Figure 5: Qualitative comparison on a Kodak image (e.g., “kodim23”) using the base model Cheng2020. (a) Full-size images (first row). (b) Zoomed-in regions highlighting texture/edge details (second row). Methods: From left to right—Ground Truth, 32-bit full-precision, Application of our Dynamic Parameter Adaptation (Q-Cheng), and application of a Dynamic Bit-Width Selector (DQ-Cheng). Metrics include bpp, PSNR, and speedup. Best viewed digitally and zoomed in.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        241.821,
+        557.998,
+        284.836
+      ],
+      "content_bbox": [
+        54.0,
+        53.927,
+        558.148,
+        233.351
+      ],
+      "crop_bbox": [
+        54.0,
+        53.927,
+        558.148,
+        233.351
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Figure6:Learnedbit-widthallocationacrossnetworklay- ersbasedonCheng2020.Left:Kodim14/15/16testimages (toptobottom).Right:Optimizedbit-widthsautomatically assigned to each layer.",
+      "caption_en": "Figure6:Learnedbit-widthallocationacrossnetworklay- ersbasedonCheng2020.Left:Kodim14/15/16testimages (toptobottom).Right:Optimizedbit-widthsautomatically assigned to each layer.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        494.595,
+        558.005,
+        537.434
+      ],
+      "content_bbox": [
+        319.5,
+        305.643,
+        557.999,
+        484.517
+      ],
+      "crop_bbox": [
+        319.5,
+        305.643,
+        557.999,
+        484.517
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "本批次暂不绘制 SVG/PPTX；网页明确标记为暂不可用。",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "DynaQuant_Dynamic_Mixed_Precision_Quantization_for_Learned_Image_Compression_2026",
+    "title": "DynaQuant: Dynamic Mixed-Precision Quantization for Learned Image Compression",
+    "year": 2026,
+    "venue": "AAAI",
+    "venue_short": "AAAI",
+    "venue_full": "AAAI",
+    "venue_type": "会议",
+    "classification": "published_main",
+    "topic": [
+      "learned image compression",
+      "quantization",
+      "low complexity"
+    ],
+    "relevance": "与图像恢复、压缩恢复、失真增强、SNN/类脑视觉、KAN/小波或生物视觉相关。",
+    "official_url": "https://ojs.aaai.org/index.php/AAAI/article/view/38464",
+    "pdf_url": "https://arxiv.org/pdf/2511.07903",
+    "access": "open_pdf",
+    "access_note": "AAAI-26 publication; open arXiv preprint used for figure extraction",
+    "source_scope": "new_2026_2027",
+    "download_status": "downloaded",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": "A",
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）",
+    "vector_status": "unavailable_temporary",
+    "ppt_status": "unavailable_temporary",
+    "svg_status": "unavailable_temporary"
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "paper": "HCF_Hierarchical_Cascade_Framework_for_Distributed_Multi_Stage_Image_Compression_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 9,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Figure 1: The Distributed Recompression Framework (DRF) extendsSICtodistributedcompressionacrossmultiple nodes. It repeats the decompression-compression cycle at in- termediatenodes.Specifically,eachNodekcompressesthe image at quality level s −k followed by the full decompres- sion operations of quality level s −k + 1.",
+      "caption_en": "Figure 1: The Distributed Recompression Framework (DRF) extendsSICtodistributedcompressionacrossmultiple nodes. It repeats the decompression-compression cycle at in- termediatenodes.Specifically,eachNodekcompressesthe image at quality level s −k followed by the full decompres- sion operations of quality level s −k + 1.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        93.196,
+        292.505,
+        157.953
+      ],
+      "content_bbox": [
+        54.0,
+        51.848,
+        292.275,
+        84.096
+      ],
+      "crop_bbox": [
+        54.0,
+        51.848,
+        292.275,
+        84.096
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Figure2:HierarchicalCascadeFramework(HCF).(a)Three4-levelcompressionexamplesina2-stagecompressionsys- tem,eachcorrespondingtoadifferentpolicyvectorπ∈{[1, 0, 0, 1], [0, 1, 0, 1], [0, 0, 1, 1]}thatdeterminesthequantization placementinthetransformationchain.Ateachlevelk,theprocesstypefollowsthedefinitioninEq.(8).(b)Architectureof transform modules ϕk→k−1 designed for cascade processing. Mdenotes the number of channels in the latent representation. In convolutions, the change of the channel dimension is denoted by ↓(×1",
+      "caption_en": "Figure2:HierarchicalCascadeFramework(HCF).(a)Three4-levelcompressionexamplesina2-stagecompressionsys- tem,eachcorrespondingtoadifferentpolicyvectorπ∈{[1, 0, 0, 1], [0, 1, 0, 1], [0, 0, 1, 1]}thatdeterminesthequantization placementinthetransformationchain.Ateachlevelk,theprocesstypefollowsthedefinitioninEq.(8).(b)Architectureof transform modules ϕk→k−1 designed for cascade processing. Mdenotes the number of channels in the latent representation. In convolutions, the change of the channel dimension is denoted by ↓(×1",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        283.007,
+        558.037,
+        337.036
+      ],
+      "content_bbox": [
+        54.0,
+        51.498,
+        558.003,
+        273.158
+      ],
+      "crop_bbox": [
+        54.0,
+        51.498,
+        558.003,
+        273.158
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table 1: Representative quantization policy comparison using MLIC++ with HCF on Kodak dataset. Bold entries show consis- tently superior performance of πedgestrategies (↑higher is better, ↓lower is better). Complete analysis across all quantization frequencies, configurations, and additional datasets in Supplementary Material.",
+      "caption_en": "Table 1: Representative quantization policy comparison using MLIC++ with HCF on Kodak dataset. Bold entries show consis- tently superior performance of πedgestrategies (↑higher is better, ↓lower is better). Complete analysis across all quantization frequencies, configurations, and additional datasets in Supplementary Material.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        130.947,
+        557.998,
+        162.828
+      ],
+      "content_bbox": [
+        54.0,
+        184.42,
+        558.005,
+        633.904
+      ],
+      "crop_bbox": [
+        54.0,
+        184.42,
+        558.005,
+        633.904
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 5,
+      "caption": "Figure 3: Differential entropy evolution across compression levels for HCF’s three quantization policies using MLIC++ on Kodak in a 2-stage, 4-level system. Stars indicate quanti- zation points; ↑show entropy increases after quantization. 0.2001 31.027 | 13.449 Bpp PSNR | MS-SSIM (dB)",
+      "caption_en": "Figure 3: Differential entropy evolution across compression levels for HCF’s three quantization policies using MLIC++ on Kodak in a 2-stage, 4-level system. Stars indicate quanti- zation points; ↑show entropy increases after quantization. 0.2001 31.027 | 13.449 Bpp PSNR | MS-SSIM (dB)",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        129.229,
+        549.615,
+        172.068
+      ],
+      "content_bbox": [
+        54.0,
+        52.248,
+        557.538,
+        119.151
+      ],
+      "crop_bbox": [
+        54.0,
+        52.248,
+        557.538,
+        119.151
+      ],
+      "original": "figures/original/Fig3_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 5,
+      "caption": "Figure 4: Visual quality comparison of HCF policies on Ko- dakdatasetusingMLIC++.πedge=[1, 0, 0, 1]preserves more details compared to alternatives at equivalent bitrates.",
+      "caption_en": "Figure 4: Visual quality comparison of HCF policies on Ko- dakdatasetusingMLIC++.πedge=[1, 0, 0, 1]preserves more details compared to alternatives at equivalent bitrates.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        178.206,
+        558.014,
+        210.087
+      ],
+      "content_bbox": [
+        300.758,
+        45.228,
+        578.8,
+        178.206
+      ],
+      "crop_bbox": [
+        300.758,
+        45.228,
+        578.8,
+        178.206
+      ],
+      "original": "figures/original/Fig4_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table2:BD-metricevaluationrelativetoHCFwithπedge policyusingMLIC++.DRFistheMLIC++DRFvariant. Others are PCF variants. ↑higher is better, ↓lower is better.",
+      "caption_en": "Table2:BD-metricevaluationrelativetoHCFwithπedge policyusingMLIC++.DRFistheMLIC++DRFvariant. Others are PCF variants. ↑higher is better, ↓lower is better.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        324.092,
+        558.005,
+        357.321
+      ],
+      "content_bbox": [
+        318.736,
+        53.024,
+        558.386,
+        167.534
+      ],
+      "crop_bbox": [
+        318.736,
+        53.024,
+        558.386,
+        167.534
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure5:Rate-distortioncomparisonusingPSNRonKo- dak dataset and MS-SSIM on CLIC dataset. HCF with πedge policy outperforms PCF and DRF baselines while approach- ingSSFperformance.ShadedareasindicateHCF’sperfor- mance advantage over DRF. Upper-left is better.",
+      "caption_en": "Figure5:Rate-distortioncomparisonusingPSNRonKo- dak dataset and MS-SSIM on CLIC dataset. HCF with πedge policy outperforms PCF and DRF baselines while approach- ingSSFperformance.ShadedareasindicateHCF’sperfor- mance advantage over DRF. Upper-left is better.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        269.963,
+        292.505,
+        323.762
+      ],
+      "content_bbox": [
+        52.891,
+        43.647,
+        590.911,
+        269.498
+      ],
+      "crop_bbox": [
+        52.891,
+        43.647,
+        590.911,
+        269.498
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Figure 6: Ablation study comparing complete HCF (ϕinter+ ϕintra) with ϕinter-only and ϕintra-only variants on CLIC2020- mobile dataset under πedgepolicy. Both modules are essen- tial for superior performance. Upper-left is better.",
+      "caption_en": "Figure 6: Ablation study comparing complete HCF (ϕinter+ ϕintra) with ϕinter-only and ϕintra-only variants on CLIC2020- mobile dataset under πedgepolicy. Both modules are essen- tial for superior performance. Upper-left is better.",
+      "caption_zh": "",
+      "caption_bbox": [
+        319.5,
+        404.95,
+        558.002,
+        449.138
+      ],
+      "content_bbox": [
+        52.891,
+        43.647,
+        590.911,
+        395.807
+      ],
+      "crop_bbox": [
+        52.891,
+        43.647,
+        590.911,
+        395.807
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table3:Computationalefficiencycomparison:HCFvs.DRFacrossfiveprocessingnodes.ValuesshowHCF’spercentage reduction in FLOPs/Parameters/GPU Memory/Execution Time relative to DRF for transform operations. ↑higher is better.",
+      "caption_en": "Table3:Computationalefficiencycomparison:HCFvs.DRFacrossfiveprocessingnodes.ValuesshowHCF’spercentage reduction in FLOPs/Parameters/GPU Memory/Execution Time relative to DRF for transform operations. ↑higher is better.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        119.831,
+        557.998,
+        140.753
+      ],
+      "content_bbox": [
+        52.891,
+        160.45,
+        558.141,
+        264.431
+      ],
+      "crop_bbox": [
+        52.891,
+        160.45,
+        558.141,
+        264.431
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 6,
+      "caption": "Table 4 demonstrates this usingcheng2020attnonCLIC2020-mobile,whereshorter compression paths (e.g., 5 →1) achieve better BD-RateP re- ductions by 7.13–10.87% over longer paths (e.g., 6 →1) to the same target quality. This validated HCF’s effective error accumulationcontrol—longerspansintroducemorecumu- lative distortion, while our learned transformations mitigate degradation without retraining, with additional results across architectures provided in Supplementary Material.",
+      "caption_en": "Table 4 demonstrates this usingcheng2020attnonCLIC2020-mobile,whereshorter compression paths (e.g., 5 →1) achieve better BD-RateP re- ductions by 7.13–10.87% over longer paths (e.g., 6 →1) to the same target quality. This validated HCF’s effective error accumulationcontrol—longerspansintroducemorecumu- lative distortion, while our learned transformations mitigate degradation without retraining, with additional results across architectures provided in Supplementary Material.",
+      "caption_zh": "",
+      "caption_bbox": [
+        54.0,
+        526.448,
+        292.505,
+        624.082
+      ],
+      "content_bbox": [
+        319.213,
+        276.618,
+        558.282,
+        395.807
+      ],
+      "crop_bbox": [
+        319.213,
+        276.618,
+        558.282,
+        395.807
+      ],
+      "original": "tables/original/Table4_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "本批次暂不绘制 SVG/PPTX；网页明确标记为暂不可用。",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "HCF_Hierarchical_Cascade_Framework_for_Distributed_Multi_Stage_Image_Compression_2026",
+    "title": "HCF: Hierarchical Cascade Framework for Distributed Multi-Stage Image Compression",
+    "year": 2026,
+    "venue": "AAAI",
+    "venue_short": "AAAI",
+    "venue_full": "AAAI",
+    "venue_type": "会议",
+    "classification": "published_main",
+    "topic": [
+      "image compression",
+      "multi-stage compression",
+      "rate-distortion"
+    ],
+    "relevance": "与图像恢复、压缩恢复、失真增强、SNN/类脑视觉、KAN/小波或生物视觉相关。",
+    "official_url": "https://ojs.aaai.org/index.php/AAAI/article/view/38467",
+    "pdf_url": "https://arxiv.org/pdf/2508.02051",
+    "access": "open_pdf",
+    "access_note": "AAAI-26 publication; open arXiv preprint used for figure extraction",
+    "source_scope": "new_2026_2027",
+    "download_status": "downloaded",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": "A",
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）",
+    "vector_status": "unavailable_temporary",
+    "ppt_status": "unavailable_temporary",
+    "svg_status": "unavailable_temporary"
+  }
+}

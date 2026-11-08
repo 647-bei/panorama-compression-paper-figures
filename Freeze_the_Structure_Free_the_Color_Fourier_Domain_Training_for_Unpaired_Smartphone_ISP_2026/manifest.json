@@ -1,0 +1,241 @@
+{
+  "paper": "Freeze_the_Structure_Free_the_Color_Fourier_Domain_Training_for_Unpaired_Smartphone_ISP_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 9,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 1,
+      "caption": "Figure 1.Qualitative results on the NTIRE 2026 test set.Top row:bilinear demosaic of the raw sensor input (no gamma correction, as fed to the model).Bottom row:sRGB output produced by our framework.The generator recovers natural color, contrast, and tone from the dark, low-quality RAW input without any paired supervision.",
+      "caption_en": "Figure 1.Qualitative results on the NTIRE 2026 test set.Top row:bilinear demosaic of the raw sensor input (no gamma correction, as fed to the model).Bottom row:sRGB output produced by our framework.The generator recovers natural color, contrast, and tone from the dark, low-quality RAW input without any paired supervision.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        284.088,
+        553.499,
+        315.054
+      ],
+      "content_bbox": [
+        58.5,
+        72.0,
+        553.501,
+        273.336
+      ],
+      "crop_bbox": [
+        58.5,
+        72.0,
+        553.501,
+        273.336
+      ],
+      "original": "figures/original/Fig1_p001.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Figure 2.Overview of the proposed training framework.The FourierISP generator [6] decomposes the RAW-to-sRGB mapping into three sub-networks:PhaseNet(structuralreconstruction,frozenafterwarmup),AmplitudeNet(tonalrestoration),andColorAdaptationNet (fusion and refinement).Our contributions surround the generator:a ViT-based color discriminator operating on Gaussian-blurred images for global color distribution matching, an Inverse Net for cycle-consistency content anchoring through pixel-level and VGG-19 perceptual losses, and a four-phase curriculum training schedule.",
+      "caption_en": "Figure 2.Overview of the proposed training framework.The FourierISP generator [6] decomposes the RAW-to-sRGB mapping into three sub-networks:PhaseNet(structuralreconstruction,frozenafterwarmup),AmplitudeNet(tonalrestoration),andColorAdaptationNet (fusion and refinement).Our contributions surround the generator:a ViT-based color discriminator operating on Gaussian-blurred images for global color distribution matching, an Inverse Net for cycle-consistency content anchoring through pixel-level and VGG-19 perceptual losses, and a four-phase curriculum training schedule.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        361.337,
+        553.499,
+        414.138
+      ],
+      "content_bbox": [
+        58.5,
+        71.995,
+        553.496,
+        353.474
+      ],
+      "crop_bbox": [
+        58.5,
+        71.995,
+        553.496,
+        353.474
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 5,
+      "caption": "Table 1.Challenge results on the final test set.The ranking metric is PSNR (↑), with SSIM (↑) and ∆E(↓) as secondary metrics.",
+      "caption_en": "Table 1.Challenge results on the final test set.The ranking metric is PSNR (↑), with SSIM (↑) and ∆E(↓) as secondary metrics.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        72.871,
+        553.497,
+        92.796
+      ],
+      "content_bbox": [
+        319.469,
+        104.279,
+        551.28,
+        179.36
+      ],
+      "crop_bbox": [
+        319.469,
+        104.279,
+        551.28,
+        179.36
+      ],
+      "original": "tables/original/Table1_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table 2.Technical summary.Inference time measured on a single NVIDIA RTX A5000 per 256 × 256 RAW input (512 × 512 out- put).",
+      "caption_en": "Table 2.Technical summary.Inference time measured on a single NVIDIA RTX A5000 per 256 × 256 RAW input (512 × 512 out- put).",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        193.102,
+        553.506,
+        223.986
+      ],
+      "content_bbox": [
+        340.149,
+        235.469,
+        530.602,
+        252.575
+      ],
+      "crop_bbox": [
+        340.149,
+        235.469,
+        530.602,
+        252.575
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 6,
+      "caption": "Figure 3.Training curves across the four-phase curriculum sched- ule.Verticaldashedlinesindicatephaseboundaries(Phase2at step3K,Phase3at3.2K,Phase4at3.3K).(a)Totalgenerator loss.(b) Content, inverse, and identity losses.(c) Adversarial gen- erator and discriminator color losses, active from Phase 2 onward. (d) Total variation regularization loss.",
+      "caption_en": "Figure 3.Training curves across the four-phase curriculum sched- ule.Verticaldashedlinesindicatephaseboundaries(Phase2at step3K,Phase3at3.2K,Phase4at3.3K).(a)Totalgenerator loss.(b) Content, inverse, and identity losses.(c) Adversarial gen- erator and discriminator color losses, active from Phase 2 onward. (d) Total variation regularization loss.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        253.997,
+        294.747,
+        317.758
+      ],
+      "content_bbox": [
+        57.687,
+        72.0,
+        294.746,
+        243.163
+      ],
+      "crop_bbox": [
+        57.687,
+        72.0,
+        294.746,
+        243.163
+      ],
+      "original": "figures/original/Fig3_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Figure 4.Qualitative ablation study.Top: with Phase Net freezing but without histogram matching (3D-LUT)—outputs are stable but dark.Middle:withbothfreezingandhistogrammatching(final pipeline)—stableandwell-exposed.Bottom:withoutPhaseNet freezing—mode collapse occurs by step 60K, producing uniform- color outputs.",
+      "caption_en": "Figure 4.Qualitative ablation study.Top: with Phase Net freezing but without histogram matching (3D-LUT)—outputs are stable but dark.Middle:withbothfreezingandhistogrammatching(final pipeline)—stableandwell-exposed.Bottom:withoutPhaseNet freezing—mode collapse occurs by step 60K, producing uniform- color outputs.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        226.766,
+        553.497,
+        290.609
+      ],
+      "content_bbox": [
+        78.978,
+        72.001,
+        553.499,
+        226.766
+      ],
+      "crop_bbox": [
+        78.978,
+        72.001,
+        553.499,
+        226.766
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "本批次暂不绘制 SVG/PPTX；网页明确标记为暂不可用。",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Freeze_the_Structure_Free_the_Color_Fourier_Domain_Training_for_Unpaired_Smartphone_ISP_2026",
+    "title": "Freeze the Structure, Free the Color: Fourier-Domain Training for Unpaired Smartphone ISP",
+    "year": 2026,
+    "venue": "CVPRW",
+    "venue_short": "CVPRW",
+    "venue_full": "CVPRW",
+    "venue_type": "会议",
+    "classification": "published_workshop",
+    "topic": [
+      "image enhancement",
+      "Fourier domain",
+      "smartphone ISP"
+    ],
+    "relevance": "与图像恢复、压缩恢复、失真增强、SNN/类脑视觉、KAN/小波或生物视觉相关。",
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Kim_Freeze_the_Structure_Free_the_Color_Fourier-Domain_Training_for_Unpaired_CVPRW_2026_paper.pdf",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Kim_Freeze_the_Structure_Free_the_Color_Fourier-Domain_Training_for_Unpaired_CVPRW_2026_paper.pdf",
+    "access": "open_pdf",
+    "access_note": "CVF official open PDF",
+    "source_scope": "new_2026_2027",
+    "download_status": "downloaded",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": null,
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议：未收录（2026目录）",
+    "ranking_display": "CCF会议：未收录（2026目录）",
+    "vector_status": "unavailable_temporary",
+    "ppt_status": "unavailable_temporary",
+    "svg_status": "unavailable_temporary"
+  }
+}

@@ -43,6 +43,32 @@
       "status": "review"
     },
     {
+      "paper": "A_single_computational_objective_can_produce_specialization_of_streams_in_visual_cortex_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
       "paper": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0",
       "expected_figures": [
         "Fig1",
@@ -230,6 +256,37 @@
       "status": "review"
     },
     {
+      "paper": "Adopting_a_human_developmental_visual_diet_yields_robust_and_shape_based_AI_vision_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [],
+      "extended_or_supplementary": [
+        "Fig11",
+        "Fig2",
+        "Fig9",
+        "Table1"
+      ],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
       "paper": "AFD_Former_A_Hybrid_Transformer_With_Local_reference_2023",
       "expected_figures": [
         "Fig1",
@@ -266,6 +323,34 @@
         "Table8",
         "Table9"
       ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "An_Agentic_Framework_for_Quality_Aware_and_Scenario_Adaptive_Image_Compression_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "expected_tables": [],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7"
+      ],
+      "extracted_tables": [],
       "missing": [],
       "extra": [],
       "duplicate": [],
@@ -425,6 +510,42 @@
         "Fig7",
         "Fig8",
         "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "CHROMA_MILL_Joint_Low_Light_Enhancement_and_White_Balance_under_Colored_Illumination_2027",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
       ],
       "extracted_tables": [
         "Table1",
@@ -766,6 +887,42 @@
       "status": "pass"
     },
     {
+      "paper": "DynaQuant_Dynamic_Mixed_Precision_Quantization_for_Learned_Image_Compression_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
       "paper": "Enhancing_Quality_of_Compressed_Images_by_Mitigating_Enhancement_Bias_Towards_CVPR_2024",
       "expected_figures": [
         "Fig1",
@@ -938,6 +1095,34 @@
       "status": "pass"
     },
     {
+      "paper": "Freeze_the_Structure_Free_the_Color_Fourier_Domain_Training_for_Unpaired_Smartphone_ISP_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
       "paper": "FSTA_SNN_Frequency_Based_Spatial_Temporal_Attention_Module_for_Spiking_Local_reference_2025",
       "expected_figures": [
         "Fig1",
@@ -1095,6 +1280,42 @@
         "Table3",
         "Table4",
         "Table5"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "HCF_Hierarchical_Cascade_Framework_for_Distributed_Multi_Stage_Image_Compression_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
       ],
       "missing": [],
       "extra": [],
@@ -1490,6 +1711,36 @@
       "status": "pass"
     },
     {
+      "paper": "LoViF_2026_Challenge_on_Real_World_All_in_One_Image_Restoration_Methods_and_Results_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [
+        "Table1"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [
+        "Table1"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
       "paper": "Low_Complexity_Super_Resolution_for_ICASSP_2025",
       "expected_figures": [
         "Fig1",
@@ -1826,6 +2077,130 @@
       "status": "pass"
     },
     {
+      "paper": "Neural_sampling_from_cognitive_maps_enables_goal_directed_imagination_and_planning_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [],
+      "extended_or_supplementary": [
+        "Fig2"
+      ],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Neuronal_tuning_aligns_dynamically_with_object_and_texture_manifolds_across_the_visual_hierarchy_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "expected_tables": [],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6"
+      ],
+      "extracted_tables": [],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "NTIRE_2026_Challenge_on_Efficient_Burst_HDR_and_Restoration_Datasets_Methods_and_Results_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "NTIRE_2026_The_First_Challenge_on_Blind_Computational_Aberration_Correction_Methods_and_Results_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
       "paper": "One_Step_Effective_Diffusion_Network_for_NeurIPS_2024",
       "expected_figures": [
         "Fig1",
@@ -1947,6 +2322,44 @@
       ],
       "extracted_tables": [
         "Table1"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "PerFuSe_Personalized_Full_Image_Restoration_via_Modular_Fusion_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2"
       ],
       "missing": [],
       "extra": [],
@@ -2269,6 +2682,52 @@
         "Table7",
         "Table8",
         "Table9"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Restore_Assess_Repeat_A_Unified_Framework_for_Iterative_Image_Restoration_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7"
       ],
       "missing": [],
       "extra": [],
@@ -2689,6 +3148,80 @@
         "Table1",
         "Table2",
         "Table3"
+      ],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Temporal_coding_enables_hyperacuity_in_event_based_vision_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "expected_tables": [],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig2",
+        "Fig3",
+        "Fig4"
+      ],
+      "extracted_tables": [],
+      "missing": [],
+      "extra": [],
+      "duplicate": [],
+      "status": "pass"
+    },
+    {
+      "paper": "Test_Time_Preference_Optimization_for_Image_Restoration_2026",
+      "expected_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "expected_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8"
+      ],
+      "extended_or_supplementary": [],
+      "extracted_figures": [
+        "Fig1",
+        "Fig10",
+        "Fig2",
+        "Fig3",
+        "Fig4",
+        "Fig5",
+        "Fig6",
+        "Fig7",
+        "Fig8",
+        "Fig9"
+      ],
+      "extracted_tables": [
+        "Table1",
+        "Table2",
+        "Table3",
+        "Table4",
+        "Table5",
+        "Table6",
+        "Table7",
+        "Table8"
       ],
       "missing": [],
       "extra": [],

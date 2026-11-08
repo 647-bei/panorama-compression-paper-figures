@@ -1,0 +1,373 @@
+{
+  "paper": "CHROMA_MILL_Joint_Low_Light_Enhancement_and_White_Balance_under_Colored_Illumination_2027",
+  "pdf": "pdf/paper.pdf",
+  "pages": 16,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure1.OverviewofCHROMA-MILL.Scenesarecapturedunderjointlyvaryingilluminationandintensity.TheCIE1931diagram shows the four captured illuminants (three colored and one white); linear-RAW blending places the effective illuminant anywhere in their convex hull (dashed triangle).Each mixture is captured over 11 intensity levels, from well-lit to near-dark.The well-lit white-illuminant capture (Level 11, Reference) is the ground truth.",
+      "caption_en": "Figure1.OverviewofCHROMA-MILL.Scenesarecapturedunderjointlyvaryingilluminationandintensity.TheCIE1931diagram shows the four captured illuminants (three colored and one white); linear-RAW blending places the effective illuminant anywhere in their convex hull (dashed triangle).Each mixture is captured over 11 intensity levels, from well-lit to near-dark.The well-lit white-illuminant capture (Level 11, Reference) is the ground truth.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        412.308,
+        553.499,
+        454.15
+      ],
+      "content_bbox": [
+        72.524,
+        256.777,
+        528.205,
+        409.038
+      ],
+      "crop_bbox": [
+        72.524,
+        256.777,
+        528.205,
+        409.038
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure 2.One scene of CHROMA-MILL under the four illuminants (white and three colors), shown at the ten low-light levels (Level 1 is the darkest) and at Level 11, each illuminant’s maximum-power capture.The white Level 11 capture (amber frame) is the ground truth and is shared by all rows.All cells use the same linear-to-sRGB transform.",
+      "caption_en": "Figure 2.One scene of CHROMA-MILL under the four illuminants (white and three colors), shown at the ten low-light levels (Level 1 is the darkest) and at Level 11, each illuminant’s maximum-power capture.The white Level 11 capture (amber frame) is the ground truth and is shared by all rows.All cells use the same linear-to-sRGB transform.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        246.781,
+        553.499,
+        277.664
+      ],
+      "content_bbox": [
+        68.462,
+        74.14,
+        555.742,
+        233.556
+      ],
+      "crop_bbox": [
+        68.462,
+        74.14,
+        555.742,
+        233.556
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure3.Examplesofilluminantmixtures:threeblendsofthe blue and red illuminants and one three-illuminant mixture.Same linear-to-sRGB transform as Fig. 2.",
+      "caption_en": "Figure3.Examplesofilluminantmixtures:threeblendsofthe blue and red illuminants and one three-illuminant mixture.Same linear-to-sRGB transform as Fig. 2.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        433.045,
+        553.497,
+        463.929
+      ],
+      "content_bbox": [
+        58.5,
+        135.705,
+        570.175,
+        420.463
+      ],
+      "crop_bbox": [
+        58.5,
+        135.705,
+        570.175,
+        420.463
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 3,
+      "caption": "Table 1.Quantitative comparison on the DSLR test set of CHROMA-MILL. Results are averaged over all test images.Every two-stage pipelineisevaluatedinbothcascadeorderingsandwereportthebetterone,markinglow-lightenhancement-firstrowswith†. Best, second best, andthird bestresults are highlighted.",
+      "caption_en": "Table 1.Quantitative comparison on the DSLR test set of CHROMA-MILL. Results are averaged over all test images.Every two-stage pipelineisevaluatedinbothcascadeorderingsandwereportthebetterone,markinglow-lightenhancement-firstrowswith†. Best, second best, andthird bestresults are highlighted.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        72.871,
+        553.499,
+        105.988
+      ],
+      "content_bbox": [
+        64.478,
+        135.705,
+        562.179,
+        358.45
+      ],
+      "crop_bbox": [
+        64.478,
+        135.705,
+        562.179,
+        358.45
+      ],
+      "original": "tables/original/Table1_p003.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 4,
+      "caption": "Table 2.Quantitative comparison on the phone test set of CHROMA-MILL. Each enhancer is shown with its best-ranking white-balance module; the full grid is in the supplementary.Orderings and highlighting follow Table 1.",
+      "caption_en": "Table 2.Quantitative comparison on the phone test set of CHROMA-MILL. Each enhancer is shown with its best-ranking white-balance module; the full grid is in the supplementary.Orderings and highlighting follow Table 1.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        72.871,
+        553.499,
+        92.796
+      ],
+      "content_bbox": [
+        121.874,
+        107.759,
+        496.105,
+        192.949
+      ],
+      "crop_bbox": [
+        121.874,
+        107.759,
+        496.105,
+        192.949
+      ],
+      "original": "tables/original/Table2_p004.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 5,
+      "caption": "Figure 4.Visual comparison on CHROMA-MILL. From left to right:input, MIRNet+DWB, DarkIR+DWB, PromptNorm+RL-AWB, TI- Retinexformer+DWB, ours, and ground truth.We show three examples under different illuminant colors, with a zoomed-in region below each.The baselines are the four best-performing pipelines of Table 1.Same linear-to-sRGB transform as Fig. 2.",
+      "caption_en": "Figure 4.Visual comparison on CHROMA-MILL. From left to right:input, MIRNet+DWB, DarkIR+DWB, PromptNorm+RL-AWB, TI- Retinexformer+DWB, ours, and ground truth.We show three examples under different illuminant colors, with a zoomed-in region below each.The baselines are the four best-performing pipelines of Table 1.Same linear-to-sRGB transform as Fig. 2.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        460.248,
+        553.499,
+        491.132
+      ],
+      "content_bbox": [
+        58.5,
+        90.896,
+        554.747,
+        451.497
+      ],
+      "crop_bbox": [
+        58.5,
+        90.896,
+        554.747,
+        451.497
+      ],
+      "original": "figures/original/Fig4_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 6,
+      "caption": "Figure 5.Generalization to other datasets.Rows, top to bottom:one image from DICM [20], two from the Rendered WB dataset [2], and one from LOLv1 [36].Columns follow Fig. 4:input, the four best-performing pipelines of Table 1, and ours.No ground truth is available for these datasets, so no metrics are reported.All models are trained on CHROMA-MILL only, with no fine-tuning.Same linear-to-sRGB transform as Fig. 2.",
+      "caption_en": "Figure 5.Generalization to other datasets.Rows, top to bottom:one image from DICM [20], two from the Rendered WB dataset [2], and one from LOLv1 [36].Columns follow Fig. 4:input, the four best-performing pipelines of Table 1, and ours.No ground truth is available for these datasets, so no metrics are reported.All models are trained on CHROMA-MILL only, with no fine-tuning.Same linear-to-sRGB transform as Fig. 2.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        326.858,
+        553.499,
+        368.701
+      ],
+      "content_bbox": [
+        58.5,
+        90.898,
+        553.746,
+        312.438
+      ],
+      "crop_bbox": [
+        58.5,
+        90.898,
+        553.746,
+        312.438
+      ],
+      "original": "figures/original/Fig5_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 6,
+      "caption": "Table 3 reports performance across input intensity levels fortheNikoncamera.OnlythebestresultsfromTable1 are presented.Our method obtains the best results in 12 out of16cases,beingsecondin3otherones.Theadvantage isnotuniformacrosslevels:atthebrightestinputs(Lev- els 7–10), Retinexformer+RL-AWB leads on PSNRL by up to2.7 dB,whileoursstillleadson∆E00.AthighSNR, enhancement is close to the identity and the white-balance modulereceivesawell-exposedinput,solittleerrorcom- pounds at the interface.",
+      "caption_en": "Table 3 reports performance across input intensity levels fortheNikoncamera.OnlythebestresultsfromTable1 are presented.Our method obtains the best results in 12 out of16cases,beingsecondin3otherones.Theadvantage isnotuniformacrosslevels:atthebrightestinputs(Lev- els 7–10), Retinexformer+RL-AWB leads on PSNRL by up to2.7 dB,whileoursstillleadson∆E00.AthighSNR, enhancement is close to the identity and the white-balance modulereceivesawell-exposedinput,solittleerrorcom- pounds at the interface.",
+      "caption_zh": "",
+      "caption_bbox": [
+        317.25,
+        464.502,
+        553.503,
+        594.017
+      ],
+      "content_bbox": [
+        58.5,
+        203.475,
+        553.746,
+        312.438
+      ],
+      "crop_bbox": [
+        58.5,
+        203.475,
+        553.746,
+        312.438
+      ],
+      "original": "tables/original/Table3_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "image_wrapper"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 7,
+      "caption": "Figure 6. Response of the bottleneck to a change of a single factor. Eachanchor(leftcolumn)iscomparedagainsteachcapture(top row);everypairdiffersinexactlyonefactor,sothemaindiago- nalchangesthesceneatafixedilluminantandtheanti-diagonal changes the illuminant at a fixed scene.",
+      "caption_en": "Figure 6. Response of the bottleneck to a change of a single factor. Eachanchor(leftcolumn)iscomparedagainsteachcapture(top row);everypairdiffersinexactlyonefactor,sothemaindiago- nalchangesthesceneatafixedilluminantandtheanti-diagonal changes the illuminant at a fixed scene.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        346.483,
+        294.747,
+        399.285
+      ],
+      "content_bbox": [
+        58.5,
+        137.155,
+        294.766,
+        332.914
+      ],
+      "crop_bbox": [
+        58.5,
+        137.155,
+        294.766,
+        332.914
+      ],
+      "original": "figures/original/Fig6_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "Table4.AblationofthelosstermsontheDSLRtestset.Each rowenablesadifferentsubsetoftheauxiliarylosses;therecon- struction loss Lreis always active and every row is trained jointly to the final ground truth, from scratch, with the same training con- figuration.",
+      "caption_en": "Table4.AblationofthelosstermsontheDSLRtestset.Each rowenablesadifferentsubsetoftheauxiliarylosses;therecon- struction loss Lreis always active and every row is trained jointly to the final ground truth, from scratch, with the same training con- figuration.",
+      "caption_zh": "",
+      "caption_bbox": [
+        58.5,
+        72.871,
+        294.747,
+        125.673
+      ],
+      "content_bbox": [
+        58.5,
+        137.155,
+        294.766,
+        332.914
+      ],
+      "crop_bbox": [
+        58.5,
+        137.155,
+        294.766,
+        332.914
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "image_wrapper"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "本批次暂不绘制 SVG/PPTX；网页明确标记为暂不可用。",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "CHROMA_MILL_Joint_Low_Light_Enhancement_and_White_Balance_under_Colored_Illumination_2027",
+    "title": "CHROMA-MILL: Joint Low-Light Enhancement and White Balance under Colored Illumination",
+    "year": 2027,
+    "venue": "WACV",
+    "venue_short": "WACV",
+    "venue_full": "WACV",
+    "venue_type": "会议",
+    "classification": "accepted_wacv_2027_preprint",
+    "topic": [
+      "low-light enhancement",
+      "physical imaging",
+      "color correction"
+    ],
+    "relevance": "与图像恢复、压缩恢复、失真增强、SNN/类脑视觉、KAN/小波或生物视觉相关。",
+    "official_url": "https://arxiv.org/abs/2611.04092",
+    "pdf_url": "https://arxiv.org/pdf/2611.04092",
+    "access": "open_pdf",
+    "access_note": "arXiv preprint marked Accepted at WACV 2027; proceedings not yet available",
+    "source_scope": "new_2026_2027",
+    "download_status": "downloaded",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": null,
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议：未收录（2026目录）",
+    "ranking_display": "CCF会议：未收录（2026目录）",
+    "vector_status": "unavailable_temporary",
+    "ppt_status": "unavailable_temporary",
+    "svg_status": "unavailable_temporary"
+  }
+}

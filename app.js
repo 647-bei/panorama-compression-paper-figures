@@ -79,7 +79,9 @@
 
   function vectorLinks(asset) {
     if (asset.kind !== "figure") return '<span class="muted">表格仅提供 LaTeX 下载</span>';
-    if (!asset.vectors?.length) return '<span class="muted">暂无 SVG/PPTX</span>';
+    if (!asset.vectors?.length) return asset.vector_status === "unavailable_temporary"
+      ? '<span class="muted">PPT/SVG 暂不可用（本批次暂未绘制）</span>'
+      : '<span class="muted">暂无 SVG/PPTX</span>';
     return asset.vectors.map((item) => `<a class="small-link" href="${escapeHtml(item.path)}" target="_blank">打开 ${escapeHtml(item.type.toUpperCase())}</a>`).join("");
   }
 
@@ -97,8 +99,9 @@
     const pptx = (asset.vectors || []).find((item) => item.type === "pptx");
     const svg = (asset.vectors || []).find((item) => item.type === "svg");
     if (pptx) links.push(`<a class="download-link primary" href="${escapeHtml(pptx.path)}" download>下载高清 PPTX</a>`);
-    else links.push('<span class="muted">暂无可编辑 PPTX</span>');
+    else links.push(`<span class="muted">${asset.ppt_status === "unavailable_temporary" ? "高清 PPTX 暂不可用（本批次暂未绘制）" : "暂无可编辑 PPTX"}</span>`);
     if (svg) links.push(`<a class="download-link" href="${escapeHtml(svg.path)}" download>下载 SVG</a>`);
+    else if (asset.svg_status === "unavailable_temporary") links.push('<span class="muted">SVG 暂不可用（本批次暂未绘制）</span>');
     return links.join("");
   }
 

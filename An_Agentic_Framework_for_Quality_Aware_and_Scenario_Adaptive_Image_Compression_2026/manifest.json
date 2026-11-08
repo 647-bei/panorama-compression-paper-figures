@@ -1,0 +1,268 @@
+{
+  "paper": "An_Agentic_Framework_for_Quality_Aware_and_Scenario_Adaptive_Image_Compression_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 13,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 3,
+      "caption": "Fig.1:OverviewofthePracticalImageCompressionAgent(PICA)framework,consistingoffourcollaborativeagents:the Perceptionagent,theImprovementagent,theCodingagent,andtheAfter-codingimprovementagent.",
+      "caption_en": "Fig.1:OverviewofthePracticalImageCompressionAgent(PICA)framework,consistingoffourcollaborativeagents:the Perceptionagent,theImprovementagent,theCodingagent,andtheAfter-codingimprovementagent.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        218.281,
+        563.034,
+        240.29
+      ],
+      "content_bbox": [
+        48.964,
+        56.069,
+        563.351,
+        211.298
+      ],
+      "crop_bbox": [
+        48.964,
+        56.069,
+        563.351,
+        211.298
+      ],
+      "original": "figures/original/Fig1_p003.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 4,
+      "caption": "Fig.2:TheCodingAgentworkflowcomprisestwocomponents:GlobalQCSearchandAgenticROICoding(AROIC).",
+      "caption_en": "Fig.2:TheCodingAgentworkflowcomprisestwocomponents:GlobalQCSearchandAgenticROICoding(AROIC).",
+      "caption_zh": "",
+      "caption_bbox": [
+        59.844,
+        216.441,
+        552.156,
+        226.404
+      ],
+      "content_bbox": [
+        48.964,
+        56.069,
+        563.03,
+        209.846
+      ],
+      "crop_bbox": [
+        48.964,
+        56.069,
+        563.03,
+        209.846
+      ],
+      "original": "figures/original/Fig2_p004.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 5,
+      "caption": "Fig.3:Quality-rateperformanceonthe(a)clean,(b)noisy,and(c)blurredKodakbenchmarks.Bitrateismeasuredinbitsper pixel(bpps),whilereconstructionqualityisevaluatedagainsttheoriginalcleanreferenceimages.",
+      "caption_en": "Fig.3:Quality-rateperformanceonthe(a)clean,(b)noisy,and(c)blurredKodakbenchmarks.Bitrateismeasuredinbitsper pixel(bpps),whilereconstructionqualityisevaluatedagainsttheoriginalcleanreferenceimages.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        445.285,
+        563.034,
+        467.203
+      ],
+      "content_bbox": [
+        48.964,
+        56.07,
+        563.066,
+        437.672
+      ],
+      "crop_bbox": [
+        48.964,
+        56.07,
+        563.066,
+        437.672
+      ],
+      "original": "figures/original/Fig3_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Fig.4:Quality-rateperformanceonthe(a)clean,(b)noisy,and(c)blurredCLIC2020benchmarks.Bitrateismeasuredinbits perpixel(bpps),whilereconstructionqualityisevaluatedagainsttheoriginalcleanreferenceimages.",
+      "caption_en": "Fig.4:Quality-rateperformanceonthe(a)clean,(b)noisy,and(c)blurredCLIC2020benchmarks.Bitrateismeasuredinbits perpixel(bpps),whilereconstructionqualityisevaluatedagainsttheoriginalcleanreferenceimages.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        465.356,
+        563.034,
+        487.274
+      ],
+      "content_bbox": [
+        48.964,
+        56.069,
+        563.048,
+        457.743
+      ],
+      "crop_bbox": [
+        48.964,
+        56.069,
+        563.048,
+        457.743
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 7,
+      "caption": "Fig.5:Quality–rateperformanceonthe(a)clean,(b)noisy, and (c) blurred benchmarks derived from HEVC Classes C and D.Bitrateismeasuredinbitsperpixel(bpp),whileobject detectionperformanceisevaluatedonthereconstructedim- agesusingmAP[0.50:0.95](%).Thegraydashedlinesindicate detectionperformanceonuncompressedcleaninputs.",
+      "caption_en": "Fig.5:Quality–rateperformanceonthe(a)clean,(b)noisy, and (c) blurred benchmarks derived from HEVC Classes C and D.Bitrateismeasuredinbitsperpixel(bpp),whileobject detectionperformanceisevaluatedonthereconstructedim- agesusingmAP[0.50:0.95](%).Thegraydashedlinesindicate detectionperformanceonuncompressedcleaninputs.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        420.28,
+        300.022,
+        490.019
+      ],
+      "content_bbox": [
+        48.964,
+        56.068,
+        563.038,
+        412.667
+      ],
+      "crop_bbox": [
+        48.964,
+        56.068,
+        563.038,
+        412.667
+      ],
+      "original": "figures/original/Fig5_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 7,
+      "caption": "Fig. 6: Ablation studies of (a)–(b) the effectiveness of individ- ualagentsontheblurredKodakdataset,whereP,I,C,andA denote the Perception, Improvement, Coding, and After-coding Improvement Agents, respectively, and (c) PICA with different VLMsasagentbackbonesonthenoisyKodakdataset.",
+      "caption_en": "Fig. 6: Ablation studies of (a)–(b) the effectiveness of individ- ualagentsontheblurredKodakdataset,whereP,I,C,andA denote the Perception, Improvement, Coding, and After-coding Improvement Agents, respectively, and (c) PICA with different VLMsasagentbackbonesonthenoisyKodakdataset.",
+      "caption_zh": "",
+      "caption_bbox": [
+        311.978,
+        420.273,
+        563.036,
+        478.056
+      ],
+      "content_bbox": [
+        48.964,
+        56.068,
+        563.038,
+        412.667
+      ],
+      "crop_bbox": [
+        48.964,
+        56.068,
+        563.038,
+        412.667
+      ],
+      "original": "figures/original/Fig6_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 8,
+      "caption": "Fig. 7: Qualitative comparison of PICA using VVC and Cheng2020 as base codecs against their corresponding baseline codecs.",
+      "caption_en": "Fig. 7: Qualitative comparison of PICA using VVC and Cheng2020 as base codecs against their corresponding baseline codecs.",
+      "caption_zh": "",
+      "caption_bbox": [
+        48.964,
+        722.977,
+        563.034,
+        732.939
+      ],
+      "content_bbox": [
+        48.964,
+        56.067,
+        563.076,
+        716.417
+      ],
+      "crop_bbox": [
+        48.964,
+        56.067,
+        563.076,
+        716.417
+      ],
+      "original": "figures/original/Fig7_p008.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "本批次暂不绘制 SVG/PPTX；网页明确标记为暂不可用。"
+  ],
+  "metadata": {
+    "local_slug": "An_Agentic_Framework_for_Quality_Aware_and_Scenario_Adaptive_Image_Compression_2026",
+    "title": "An Agentic Framework for Quality-Aware and Scenario-Adaptive Image Compression",
+    "year": 2026,
+    "venue": "arXiv",
+    "venue_short": "arXiv",
+    "venue_full": "arXiv",
+    "venue_type": "预印本",
+    "classification": "preprint",
+    "topic": [
+      "image compression",
+      "quality-aware coding",
+      "restoration"
+    ],
+    "relevance": "与图像恢复、压缩恢复、失真增强、SNN/类脑视觉、KAN/小波或生物视觉相关。",
+    "official_url": "https://arxiv.org/abs/2611.04960",
+    "pdf_url": "https://arxiv.org/pdf/2611.04960",
+    "access": "open_pdf",
+    "access_note": "arXiv preprint posted November 2026",
+    "source_scope": "new_2026_2027",
+    "download_status": "downloaded",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（预印本）",
+    "ccf_rank": null,
+    "ccf_scope": null,
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院分区：不适用（预印本）",
+    "vector_status": "unavailable_temporary",
+    "ppt_status": "unavailable_temporary",
+    "svg_status": "unavailable_temporary"
+  }
+}

@@ -1,0 +1,829 @@
+[
+  {
+    "title": "CHROMA-MILL: Joint Low-Light Enhancement and White Balance under Colored Illumination",
+    "year": 2027,
+    "venue": "WACV",
+    "status": "accepted_wacv_2027_preprint",
+    "topic_tags": [
+      "low-light enhancement",
+      "physical imaging",
+      "color correction"
+    ],
+    "official_url": "https://arxiv.org/abs/2611.04092",
+    "pdf_url": "https://arxiv.org/pdf/2611.04092",
+    "access_note": "arXiv preprint marked Accepted at WACV 2027; proceedings not yet available",
+    "downloadable": true,
+    "local_slug": "CHROMA_MILL_Joint_Low_Light_Enhancement_and_White_Balance_under_Colored_Illumination_2027",
+    "download_status": "downloaded",
+    "source_sha256": "8d399c0cd3b7303facd14dc9204c3d8f78e32c24ebcccdfc2ce489d49c7410c4"
+  },
+  {
+    "title": "REPAIR: Validity-guided agentic planning for image restoration under extreme compound degradations",
+    "year": 2027,
+    "venue": "Pattern Recognition",
+    "status": "in_press_2027",
+    "topic_tags": [
+      "compound degradation",
+      "image restoration",
+      "agentic planning"
+    ],
+    "official_url": "https://doi.org/10.1016/j.patcog.2026.115189",
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0031320326021527",
+    "access_note": "Publisher record dated April 2027; full PDF requires an institutional route",
+    "downloadable": false,
+    "local_slug": "REPAIR_Validity_guided_agentic_planning_for_image_restoration_under_extreme_compound_degradations_2027",
+    "download_status": "unavailable"
+  },
+  {
+    "title": "Spiking Pyramid Wavelet Transformation for High-efficient and Low-energy Image Restoration",
+    "year": 2026,
+    "venue": "arXiv",
+    "status": "preprint",
+    "topic_tags": [
+      "SNN",
+      "wavelet",
+      "image restoration",
+      "energy efficiency"
+    ],
+    "official_url": "https://arxiv.org/abs/2606.18644",
+    "pdf_url": "https://arxiv.org/pdf/2606.18644",
+    "access_note": "公开PDF；arXiv预印本"
+  },
+  {
+    "title": "Efficient JPEG Restoration in the Wavelet Domain via Mean Flows",
+    "year": 2026,
+    "venue": "arXiv",
+    "status": "preprint",
+    "topic_tags": [
+      "JPEG compression",
+      "wavelet",
+      "image restoration",
+      "MeanFlow"
+    ],
+    "official_url": "https://arxiv.org/abs/2608.28730",
+    "pdf_url": "https://arxiv.org/pdf/2608.28730",
+    "access_note": "公开PDF；arXiv预印本"
+  },
+  {
+    "title": "An Agentic Framework for Quality-Aware and Scenario-Adaptive Image Compression",
+    "year": 2026,
+    "venue": "arXiv",
+    "status": "preprint",
+    "topic_tags": [
+      "image compression",
+      "quality-aware coding",
+      "restoration"
+    ],
+    "official_url": "https://arxiv.org/abs/2611.04960",
+    "pdf_url": "https://arxiv.org/pdf/2611.04960",
+    "access_note": "arXiv preprint posted November 2026",
+    "downloadable": true,
+    "local_slug": "An_Agentic_Framework_for_Quality_Aware_and_Scenario_Adaptive_Image_Compression_2026",
+    "download_status": "downloaded",
+    "source_sha256": "3651b4446fffd684f96326e98cf7211708132a9b18b72f83b24c6e4ec23838f8"
+  },
+  {
+    "title": "Single-step Diffusion for Image Compression at Ultra-Low Bitrates",
+    "year": 2026,
+    "venue": "WACV",
+    "status": "published_main",
+    "topic_tags": [
+      "ultra-low bitrate",
+      "image compression",
+      "diffusion",
+      "single step"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/WACV2026/html/Park_Single-step_Diffusion_for_Image_Compression_at_Ultra-Low_Bitrates_WACV_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/WACV2026/papers/Park_Single-step_Diffusion_for_Image_Compression_at_Ultra-Low_Bitrates_WACV_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "SNNSIR: A fully Spiking Neural Network for Stereo Image Restoration",
+    "year": 2026,
+    "venue": "Pattern Recognition",
+    "status": "published_ahead_of_print",
+    "topic_tags": [
+      "SNN",
+      "stereo image restoration",
+      "energy efficiency"
+    ],
+    "official_url": "https://www.sciencedirect.com/science/article/pii/S0031320326015104",
+    "pdf_url": "https://doi.org/10.1016/j.patcog.2026.114546",
+    "access_note": "Publisher record; full PDF requires an institutional route",
+    "downloadable": false,
+    "local_slug": "SNNSIR_A_fully_Spiking_Neural_Network_for_Stereo_Image_Restoration_2026",
+    "download_status": "unavailable"
+  },
+  {
+    "title": "Neuronal tuning aligns dynamically with object and texture manifolds across the visual hierarchy",
+    "year": 2026,
+    "venue": "Nature Neuroscience",
+    "status": "published_main",
+    "topic_tags": [
+      "visual cortex",
+      "neural representation",
+      "biological vision"
+    ],
+    "official_url": "https://www.nature.com/articles/s41593-026-02207-1",
+    "pdf_url": "https://www.nature.com/articles/s41593-026-02207-1.pdf",
+    "access_note": "Nature article PDF",
+    "downloadable": true,
+    "local_slug": "Neuronal_tuning_aligns_dynamically_with_object_and_texture_manifolds_across_the_visual_hierarchy_2026",
+    "download_status": "downloaded",
+    "source_sha256": "1de499528d5215c1f9cd6ad4345cf8cc79afa005679466b74ba7a9ffd10a15fd"
+  },
+  {
+    "title": "Neural sampling from cognitive maps enables goal-directed imagination and planning",
+    "year": 2026,
+    "venue": "Nature Machine Intelligence",
+    "status": "published_main",
+    "topic_tags": [
+      "brain-inspired",
+      "cognitive maps",
+      "neuromorphic computing"
+    ],
+    "official_url": "https://www.nature.com/articles/s42256-026-01254-4",
+    "pdf_url": "https://www.nature.com/articles/s42256-026-01254-4.pdf",
+    "access_note": "Nature open-access article PDF",
+    "downloadable": true,
+    "local_slug": "Neural_sampling_from_cognitive_maps_enables_goal_directed_imagination_and_planning_2026",
+    "download_status": "downloaded",
+    "source_sha256": "f2f40eeadc338fa2835948eb1d961d6279f39a54843b1765d13a2e043904bd44"
+  },
+  {
+    "title": "Adopting a human developmental visual diet yields robust and shape-based AI vision",
+    "year": 2026,
+    "venue": "Nature Machine Intelligence",
+    "status": "published_main",
+    "topic_tags": [
+      "biological vision",
+      "visual development",
+      "image corruption robustness"
+    ],
+    "official_url": "https://www.nature.com/articles/s42256-026-01228-6",
+    "pdf_url": "https://www.nature.com/articles/s42256-026-01228-6.pdf",
+    "access_note": "Nature open-access article PDF",
+    "downloadable": true,
+    "local_slug": "Adopting_a_human_developmental_visual_diet_yields_robust_and_shape_based_AI_vision_2026",
+    "download_status": "downloaded",
+    "source_sha256": "fe114d0f8f0ef5584494face5cb561c8ceaff05c94c41013fd1e290bfedeaf04"
+  },
+  {
+    "title": "Temporal coding enables hyperacuity in event-based vision",
+    "year": 2026,
+    "venue": "Nature Communications",
+    "status": "published_main",
+    "topic_tags": [
+      "biological vision",
+      "event vision",
+      "temporal coding"
+    ],
+    "official_url": "https://www.nature.com/articles/s41467-026-76878-6",
+    "pdf_url": "https://www.nature.com/articles/s41467-026-76878-6.pdf",
+    "access_note": "Nature open-access article PDF",
+    "downloadable": true,
+    "local_slug": "Temporal_coding_enables_hyperacuity_in_event_based_vision_2026",
+    "download_status": "downloaded",
+    "source_sha256": "18057ffe83d65fb726379ee3b4516564052881e4a9ca799df3722ecb73e96ea5"
+  },
+  {
+    "title": "A single computational objective can produce specialization of streams in visual cortex",
+    "year": 2026,
+    "venue": "Nature Communications",
+    "status": "published_main",
+    "topic_tags": [
+      "visual cortex",
+      "brain-inspired vision",
+      "representation learning"
+    ],
+    "official_url": "https://www.nature.com/articles/s41467-026-76098-y",
+    "pdf_url": "https://www.nature.com/articles/s41467-026-76098-y.pdf",
+    "access_note": "Nature open-access article PDF",
+    "downloadable": true,
+    "local_slug": "A_single_computational_objective_can_produce_specialization_of_streams_in_visual_cortex_2026",
+    "download_status": "downloaded",
+    "source_sha256": "022d6a2dea11884a5be30e33ebf2e512353bdaaed86344acbf9c75a5677f47c3"
+  },
+  {
+    "title": "Efficiently Training Time-to-First-Spike Spiking Neural Networks from Scratch",
+    "year": 2026,
+    "venue": "ICML",
+    "status": "published_main",
+    "topic_tags": [
+      "SNN",
+      "time-to-first-spike",
+      "neuromorphic computing",
+      "energy efficiency"
+    ],
+    "official_url": "https://proceedings.mlr.press/v306/che26a.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/che26a/che26a.pdf",
+    "access_note": "PMLR官方页面；公开PDF"
+  },
+  {
+    "title": "Bio-Vision-Inspired Spiking Neural Networks for Object Detection with Event Cameras",
+    "year": 2026,
+    "venue": "ICML",
+    "status": "published_main",
+    "topic_tags": [
+      "SNN",
+      "biological vision",
+      "retina",
+      "visual cortex",
+      "event camera"
+    ],
+    "official_url": "https://proceedings.mlr.press/v306/ma26x.html",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ma26x/ma26x.pdf",
+    "access_note": "PMLR官方页面；公开PDF"
+  },
+  {
+    "title": "Towards Lossless Memory-efficient Training of Spiking Neural Networks via Gradient Checkpointing and Spike Compression",
+    "year": 2026,
+    "venue": "ICLR",
+    "status": "published_main",
+    "topic_tags": [
+      "SNN",
+      "spike compression",
+      "memory efficiency",
+      "neuromorphic computing"
+    ],
+    "official_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/6d44b1617ca7001a5ba7ea4f28039d41-Abstract-Conference.html",
+    "pdf_url": "https://openreview.net/pdf?id=nrBJ0Uvj7c",
+    "access_note": "ICLR官方论文页；OpenReview公开PDF"
+  },
+  {
+    "title": "Difference Predictive Coding for Training Spiking Neural Networks",
+    "year": 2026,
+    "venue": "ICLR",
+    "status": "published_main",
+    "topic_tags": [
+      "SNN",
+      "predictive coding",
+      "biologically plausible learning",
+      "neuromorphic computing"
+    ],
+    "official_url": "https://openreview.net/forum?id=iu9dbz2lB9",
+    "pdf_url": "https://openreview.net/pdf?id=iu9dbz2lB9",
+    "access_note": "OpenReview官方页面；公开PDF"
+  },
+  {
+    "title": "PerFuSe: Personalized Full-Image Restoration via Modular Fusion",
+    "year": 2026,
+    "venue": "CVPRW",
+    "status": "published_workshop",
+    "topic_tags": [
+      "image restoration",
+      "personalized restoration",
+      "diffusion"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026W/P13N/html/Naeem_PerFuSe_Personalized_Full-Image_Restoration_via_Modular_Fusion_CVPRW_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026W/P13N/papers/Naeem_PerFuSe_Personalized_Full-Image_Restoration_via_Modular_Fusion_CVPRW_2026_paper.pdf",
+    "access_note": "CVF official open PDF",
+    "downloadable": true,
+    "local_slug": "PerFuSe_Personalized_Full_Image_Restoration_via_Modular_Fusion_2026",
+    "download_status": "downloaded",
+    "source_sha256": "f328377f703950711abbde7703e7f39eaa81c684933d6334521e443a080d93b3"
+  },
+  {
+    "title": "NTIRE 2026 The First Challenge on Blind Computational Aberration Correction: Methods and Results",
+    "year": 2026,
+    "venue": "CVPRW",
+    "status": "published_workshop",
+    "topic_tags": [
+      "optical aberration",
+      "image restoration",
+      "physics-based vision"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Sun_NTIRE_2026_The_First_Challenge_on_Blind_Computational_Aberration_Correction_CVPRW_2026_paper.pdf",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Sun_NTIRE_2026_The_First_Challenge_on_Blind_Computational_Aberration_Correction_CVPRW_2026_paper.pdf",
+    "access_note": "CVF official open PDF",
+    "downloadable": true,
+    "local_slug": "NTIRE_2026_The_First_Challenge_on_Blind_Computational_Aberration_Correction_Methods_and_Results_2026",
+    "download_status": "downloaded",
+    "source_sha256": "804074ab641901bb48b16074ceee8721844b19d03d1b7e40c682d2c2407d2295"
+  },
+  {
+    "title": "NTIRE 2026 Challenge on Efficient Burst HDR and Restoration: Datasets, Methods, and Results",
+    "year": 2026,
+    "venue": "CVPRW",
+    "status": "published_workshop",
+    "topic_tags": [
+      "burst HDR",
+      "image restoration",
+      "KAN",
+      "efficient vision"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Park_NTIRE_2026_Challenge_on_Efficient_Burst_HDR_and_Restoration_Datasets_CVPRW_2026_paper.pdf",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Park_NTIRE_2026_Challenge_on_Efficient_Burst_HDR_and_Restoration_Datasets_CVPRW_2026_paper.pdf",
+    "access_note": "CVF official open PDF; includes a DUSKAN KAN restoration solution",
+    "downloadable": true,
+    "local_slug": "NTIRE_2026_Challenge_on_Efficient_Burst_HDR_and_Restoration_Datasets_Methods_and_Results_2026",
+    "download_status": "downloaded",
+    "source_sha256": "7ce09ad06c287602b30aea0a94cde3e4fe6e27bfe2e5903960e53bdcda4eb990"
+  },
+  {
+    "title": "LoViF 2026 Challenge on Real-World All-in-One Image Restoration: Methods and Results",
+    "year": 2026,
+    "venue": "CVPRW",
+    "status": "published_workshop",
+    "topic_tags": [
+      "all-in-one restoration",
+      "real-world degradation",
+      "challenge"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026W/LoViF/html/Chen_LoViF_2026_Challenge_on_Real-World_All-in-One_Image_Restoration_Methods_and_CVPRW_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026W/LoViF/papers/Chen_LoViF_2026_Challenge_on_Real-World_All-in-One_Image_Restoration_Methods_and_CVPRW_2026_paper.pdf",
+    "access_note": "CVF official open PDF",
+    "downloadable": true,
+    "local_slug": "LoViF_2026_Challenge_on_Real_World_All_in_One_Image_Restoration_Methods_and_Results_2026",
+    "download_status": "downloaded",
+    "source_sha256": "ad38153c2fdf5f5a661f213da63449755b20a984243e153f32567175d6e761b0"
+  },
+  {
+    "title": "Freeze the Structure, Free the Color: Fourier-Domain Training for Unpaired Smartphone ISP",
+    "year": 2026,
+    "venue": "CVPRW",
+    "status": "published_workshop",
+    "topic_tags": [
+      "image enhancement",
+      "Fourier domain",
+      "smartphone ISP"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Kim_Freeze_the_Structure_Free_the_Color_Fourier-Domain_Training_for_Unpaired_CVPRW_2026_paper.pdf",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Kim_Freeze_the_Structure_Free_the_Color_Fourier-Domain_Training_for_Unpaired_CVPRW_2026_paper.pdf",
+    "access_note": "CVF official open PDF",
+    "downloadable": true,
+    "local_slug": "Freeze_the_Structure_Free_the_Color_Fourier_Domain_Training_for_Unpaired_Smartphone_ISP_2026",
+    "download_status": "downloaded",
+    "source_sha256": "081674a1011cc07711732c5dc1f75ee2dc0a2f402d4bc869e9255489668824bd"
+  },
+  {
+    "title": "WIRSR-TEFA-Net: Wavelet-Based Infrared Remote Sensing Super-Resolution with Texture-Edge-Frequency Attention",
+    "year": 2026,
+    "venue": "CVPR Workshop (NTIRE)",
+    "status": "published_workshop",
+    "topic_tags": [
+      "wavelet",
+      "super-resolution",
+      "infrared imaging",
+      "frequency attention"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/html/Chen_WIRSR-TEFA-Net_Wavelet-Based_Infrared_Remote_Sensing_Super-Resolution_with_Texture-Edge-Frequency_Attention_CVPRW_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Chen_WIRSR-TEFA-Net_Wavelet-Based_Infrared_Remote_Sensing_Super-Resolution_with_Texture-Edge-Frequency_Attention_CVPRW_2026_paper.pdf",
+    "access_note": "CVPR/NTIRE Workshop；CVF官方开放PDF"
+  },
+  {
+    "title": "Restore-R1: Efficient Image Restoration Agents via Reinforcement Learning with Multimodal LLM Perceptual Feedback",
+    "year": 2026,
+    "venue": "CVPR Findings",
+    "status": "published_findings",
+    "topic_tags": [
+      "image restoration",
+      "reinforcement learning",
+      "restoration agents",
+      "perceptual feedback"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026F/html/Lu_Restore-R1_Efficient_Image_Restoration_Agents_via_Reinforcement_Learning_with_Multimodal_CVPRF_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Lu_Restore-R1_Efficient_Image_Restoration_Agents_via_Reinforcement_Learning_with_Multimodal_CVPRF_2026_paper.pdf",
+    "access_note": "CVPR Findings；CVF官方开放PDF"
+  },
+  {
+    "title": "Optical Tolerance-Compensated Diffusion Model for Image Restoration",
+    "year": 2026,
+    "venue": "CVPR Findings",
+    "status": "published_findings",
+    "topic_tags": [
+      "physical optics",
+      "spatially varying blur",
+      "image restoration",
+      "diffusion"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026F/html/Dong_Optical_Tolerance-Compensated_Diffusion_Model_for_Image_Restoration_CVPRF_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Dong_Optical_Tolerance-Compensated_Diffusion_Model_for_Image_Restoration_CVPRF_2026_paper.pdf",
+    "access_note": "CVPR Findings；CVF官方开放PDF"
+  },
+  {
+    "title": "How far have we gone in Generative Image Restoration? A study on its capability, limitations and evaluation practices",
+    "year": 2026,
+    "venue": "CVPR Findings",
+    "status": "published_findings",
+    "topic_tags": [
+      "generative restoration",
+      "image restoration",
+      "evaluation",
+      "survey"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026F/html/Yin_How_far_have_we_gone_in_Generative_Image_Restoration_A_CVPRF_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Yin_How_far_have_we_gone_in_Generative_Image_Restoration_A_CVPRF_2026_paper.pdf",
+    "access_note": "CVPR Findings；CVF官方开放PDF"
+  },
+  {
+    "title": "Evolutionary Multi-Agent Collaboration for Real-World Video Face Restoration",
+    "year": 2026,
+    "venue": "CVPR Findings",
+    "status": "published_findings",
+    "topic_tags": [
+      "video restoration",
+      "face restoration",
+      "real-world degradation",
+      "multi-agent"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026F/html/Tang_Evolutionary_Multi-Agent_Collaboration_for_Real-World_Video_Face_Restoration_CVPRF_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Tang_Evolutionary_Multi-Agent_Collaboration_for_Real-World_Video_Face_Restoration_CVPRF_2026_paper.pdf",
+    "access_note": "CVPR Findings；CVF官方开放PDF"
+  },
+  {
+    "title": "Blockwise Divide-and-Aggregate for Image Restoration using Diffusion Priors",
+    "year": 2026,
+    "venue": "CVPR Findings",
+    "status": "published_findings",
+    "topic_tags": [
+      "inverse problems",
+      "compressed sensing",
+      "image restoration",
+      "diffusion prior"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026F/html/Purohit_Blockwise_Divide-and-Aggregate_for_Image_Restoration_using_Diffusion_Priors_CVPRF_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Purohit_Blockwise_Divide-and-Aggregate_for_Image_Restoration_using_Diffusion_Priors_CVPRF_2026_paper.pdf",
+    "access_note": "CVPR Findings；CVF官方开放PDF"
+  },
+  {
+    "title": "ZeroIDIR: Zero-Reference Illumination Degradation Image Restoration with Perturbed Consistency Diffusion Models",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "image restoration",
+      "illumination degradation",
+      "diffusion",
+      "zero reference"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_ZeroIDIR_Zero-Reference_Illumination_Degradation_Image_Restoration_with_Perturbed_Consistency_Diffusion_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_ZeroIDIR_Zero-Reference_Illumination_Degradation_Image_Restoration_with_Perturbed_Consistency_Diffusion_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "What Matters in Practical Learned Image Compression",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "learned compression",
+      "image compression",
+      "practical deployment",
+      "rate distortion"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Tatwawadi_What_Matters_in_Practical_Learned_Image_Compression_CVPR_2026_paper.pdf",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Tatwawadi_What_Matters_in_Practical_Learned_Image_Compression_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方PDF直链；检索到的是官方PDF页面"
+  },
+  {
+    "title": "Sparsely Timing the Change: A Spiking Temporal Framework for Remote Sensing Interpretation",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "SNN",
+      "brain-inspired vision",
+      "time-to-first-spike",
+      "temporal modeling"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Sparsely_Timing_the_Change_A_Spiking_Temporal_Framework_for_Remote_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Sparsely_Timing_the_Change_A_Spiking_Temporal_Framework_for_Remote_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "ShiftLUT: Spatial Shift Enhanced Look-Up Tables for Efficient Image Restoration",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "efficient restoration",
+      "LUT",
+      "image restoration",
+      "compression"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zeng_ShiftLUT_Spatial_Shift_Enhanced_Look-Up_Tables_for_Efficient_Image_Restoration_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zeng_ShiftLUT_Spatial_Shift_Enhanced_Look-Up_Tables_for_Efficient_Image_Restoration_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "Robust Spiking Neural Networks by Temporal Mutual Information",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "SNN",
+      "robustness",
+      "temporal information",
+      "brain-inspired computing"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Robust_Spiking_Neural_Networks_by_Temporal_Mutual_Information_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_Robust_Spiking_Neural_Networks_by_Temporal_Mutual_Information_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "Rethinking SNN Online Training and Deployment: Gradient-Coherent Learning via Hybrid-Driven LIF Model",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "SNN",
+      "LIF",
+      "online training",
+      "model compression",
+      "energy efficiency"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hao_Rethinking_SNN_Online_Training_and_Deployment_Gradient-Coherent_Learning_via_Hybrid-Driven_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Hao_Rethinking_SNN_Online_Training_and_Deployment_Gradient-Coherent_Learning_via_Hybrid-Driven_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "Restore, Assess, Repeat: A Unified Framework for Iterative Image Restoration",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "image restoration",
+      "iterative refinement",
+      "quality assessment"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Restore_Assess_Repeat_A_Unified_Framework_for_Iterative_Image_Restoration_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_Restore_Assess_Repeat_A_Unified_Framework_for_Iterative_Image_Restoration_CVPR_2026_paper.pdf",
+    "access_note": "CVF official open PDF",
+    "downloadable": true,
+    "local_slug": "Restore_Assess_Repeat_A_Unified_Framework_for_Iterative_Image_Restoration_2026",
+    "download_status": "downloaded",
+    "source_sha256": "1b011dcac6ccbbfb81a85a47070cae1314e9412d6c772ccf5b1c5a3bfcdba901"
+  },
+  {
+    "title": "MMDIR: Multimodal Instruction-Driven Framework for Mixed-Degradation Document Image Restoration",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "document restoration",
+      "mixed degradation",
+      "multimodal instruction",
+      "image restoration"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_MMDIR_Multimodal_Instruction-Driven_Framework_for_Mixed-Degradation_Document_Image_Restoration_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_MMDIR_Multimodal_Instruction-Driven_Framework_for_Mixed-Degradation_Document_Image_Restoration_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "Hybrid Agents for Image Restoration",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "image restoration",
+      "mixed degradation",
+      "restoration agents",
+      "adaptive restoration"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Hybrid_Agents_for_Image_Restoration_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Hybrid_Agents_for_Image_Restoration_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "HDW-SR: High-Frequency Guided Diffusion Model based on Wavelet Decomposition for Image Super-Resolution",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "wavelet",
+      "super-resolution",
+      "high frequency",
+      "diffusion"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_HDW-SR_High-Frequency_Guided_Diffusion_Model_based_on_Wavelet_Decomposition_for_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_HDW-SR_High-Frequency_Guided_Diffusion_Model_based_on_Wavelet_Decomposition_for_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "Face2Scene: Using Facial Degradation as an Oracle for Diffusion-Based Scene Restoration",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "scene restoration",
+      "compression degradation",
+      "diffusion",
+      "face restoration"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kazerouni_Face2Scene_Using_Facial_Degradation_as_an_Oracle_for_Diffusion-Based_Scene_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kazerouni_Face2Scene_Using_Facial_Degradation_as_an_Oracle_for_Diffusion-Based_Scene_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "FAPE-IR: Frequency-Aware Planning and Execution Framework for All-in-One Image Restoration",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "image restoration",
+      "frequency domain",
+      "all-in-one restoration",
+      "mixed degradation"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liu_FAPE-IR_Frequency-Aware_Planning_and_Execution_Framework_for_All-in-One_Image_Restoration_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Liu_FAPE-IR_Frequency-Aware_Planning_and_Execution_Framework_for_All-in-One_Image_Restoration_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "DiT-IC: Aligned Diffusion Transformer for Efficient Image Compression",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "image compression",
+      "diffusion transformer",
+      "rate distortion",
+      "efficiency"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Shi_DiT-IC_Aligned_Diffusion_Transformer_for_Efficient_Image_Compression_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Shi_DiT-IC_Aligned_Diffusion_Transformer_for_Efficient_Image_Compression_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "Degradation-Consistent Test-Time Adaptation for All-in-One Image Restoration",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "test-time adaptation",
+      "all-in-one restoration",
+      "degradation consistency",
+      "image restoration"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_Degradation-Consistent_Test-Time_Adaptation_for_All-in-One_Image_Restoration_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Tang_Degradation-Consistent_Test-Time_Adaptation_for_All-in-One_Image_Restoration_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "CoD: A Diffusion Foundation Model for Image Compression",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "image compression",
+      "diffusion",
+      "learned compression",
+      "low bitrate"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jia_CoD_A_Diffusion_Foundation_Model_for_Image_Compression_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jia_CoD_A_Diffusion_Foundation_Model_for_Image_Compression_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "CADC: Content Adaptive Diffusion-Based Generative Image Compression",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "image compression",
+      "diffusion",
+      "content adaptive",
+      "generative compression"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Sheng_CADC_Content_Adaptive_Diffusion-Based_Generative_Image_Compression_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Sheng_CADC_Content_Adaptive_Diffusion-Based_Generative_Image_Compression_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "Beyond the Ground Truth: Enhanced Supervision for Image Restoration",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "image restoration",
+      "frequency mask",
+      "supervision",
+      "real-world degradation"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Ryou_Beyond_the_Ground_Truth_Enhanced_Supervision_for_Image_Restoration_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Ryou_Beyond_the_Ground_Truth_Enhanced_Supervision_for_Image_Restoration_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "Beyond Ground-Truth: Leveraging Image Quality Priors for Real-World Image Restoration",
+    "year": 2026,
+    "venue": "CVPR",
+    "status": "published_main",
+    "topic_tags": [
+      "image restoration",
+      "image quality prior",
+      "real-world degradation",
+      "NR-IQA"
+    ],
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xiao_Beyond_Ground-Truth_Leveraging_Image_Quality_Priors_for_Real-World_Image_Restoration_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xiao_Beyond_Ground-Truth_Leveraging_Image_Quality_Priors_for_Real-World_Image_Restoration_CVPR_2026_paper.pdf",
+    "access_note": "CVF官方开放PDF"
+  },
+  {
+    "title": "Universal Compressed Image Restoration via Codec-Aware Conditioning with Reinforcement Learning",
+    "year": 2026,
+    "venue": "AAAI",
+    "status": "published_main",
+    "topic_tags": [
+      "compressed image restoration",
+      "codec-aware",
+      "reinforcement learning"
+    ],
+    "official_url": "https://ojs.aaai.org/index.php/AAAI/article/view/42452",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/42452/46413",
+    "access_note": "AAAI-26 official page; PDF route is temporarily unavailable to automated download",
+    "downloadable": false,
+    "local_slug": "Universal_Compressed_Image_Restoration_via_Codec_Aware_Conditioning_with_Reinforcement_Learning_2026",
+    "download_status": "unavailable"
+  },
+  {
+    "title": "Towards Efficient Low-rate Image Compression with Frequency-aware Diffusion Prior Refinement",
+    "year": 2026,
+    "venue": "AAAI",
+    "status": "published_main",
+    "topic_tags": [
+      "low-rate compression",
+      "frequency",
+      "diffusion",
+      "image restoration"
+    ],
+    "official_url": "https://ojs.aaai.org/index.php/AAAI/article/view/38071",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/38071/42033",
+    "access_note": "AAAI-26 official page; PDF route is temporarily unavailable to automated download",
+    "downloadable": false,
+    "local_slug": "Towards_Efficient_Low_rate_Image_Compression_with_Frequency_aware_Diffusion_Prior_Refinement_2026",
+    "download_status": "unavailable"
+  },
+  {
+    "title": "Test-Time Preference Optimization for Image Restoration",
+    "year": 2026,
+    "venue": "AAAI",
+    "status": "published_main",
+    "topic_tags": [
+      "image restoration",
+      "perceptual quality",
+      "test-time optimization"
+    ],
+    "official_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37520",
+    "pdf_url": "https://arxiv.org/pdf/2511.19169",
+    "access_note": "AAAI-26 publication; open arXiv preprint used for figure extraction",
+    "downloadable": true,
+    "local_slug": "Test_Time_Preference_Optimization_for_Image_Restoration_2026",
+    "download_status": "downloaded",
+    "source_sha256": "c5904ed8974695f19d6ceafb824f4725a69b1147275f3b6de52c313a68ab8950"
+  },
+  {
+    "title": "SpikingIR: A Novel Converted Spiking Neural Network for Efficient Image Restoration",
+    "year": 2026,
+    "venue": "AAAI",
+    "status": "published_main",
+    "topic_tags": [
+      "SNN",
+      "image restoration",
+      "energy efficiency"
+    ],
+    "official_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37769",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/37769/41731",
+    "access_note": "AAAI-26 official page; PDF route is temporarily unavailable to automated download",
+    "downloadable": false,
+    "local_slug": "SpikingIR_A_Novel_Converted_Spiking_Neural_Network_for_Efficient_Image_Restoration_2026",
+    "download_status": "unavailable"
+  },
+  {
+    "title": "HCF: Hierarchical Cascade Framework for Distributed Multi-Stage Image Compression",
+    "year": 2026,
+    "venue": "AAAI",
+    "status": "published_main",
+    "topic_tags": [
+      "image compression",
+      "multi-stage compression",
+      "rate-distortion"
+    ],
+    "official_url": "https://ojs.aaai.org/index.php/AAAI/article/view/38467",
+    "pdf_url": "https://arxiv.org/pdf/2508.02051",
+    "access_note": "AAAI-26 publication; open arXiv preprint used for figure extraction",
+    "downloadable": true,
+    "local_slug": "HCF_Hierarchical_Cascade_Framework_for_Distributed_Multi_Stage_Image_Compression_2026",
+    "download_status": "downloaded",
+    "source_sha256": "aab821ae253ca7424c1b8c80b28ab7604c30f020a423710e54df386018bd042e"
+  },
+  {
+    "title": "DynaQuant: Dynamic Mixed-Precision Quantization for Learned Image Compression",
+    "year": 2026,
+    "venue": "AAAI",
+    "status": "published_main",
+    "topic_tags": [
+      "learned image compression",
+      "quantization",
+      "low complexity"
+    ],
+    "official_url": "https://ojs.aaai.org/index.php/AAAI/article/view/38464",
+    "pdf_url": "https://arxiv.org/pdf/2511.07903",
+    "access_note": "AAAI-26 publication; open arXiv preprint used for figure extraction",
+    "downloadable": true,
+    "local_slug": "DynaQuant_Dynamic_Mixed_Precision_Quantization_for_Learned_Image_Compression_2026",
+    "download_status": "downloaded",
+    "source_sha256": "4cd1d1f38f3f68f618165e3a91ce2470d8e5d8b336ea53447c60df0f8b4484f5"
+  }
+]

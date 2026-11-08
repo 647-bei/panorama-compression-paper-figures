@@ -1,0 +1,16 @@
+% Auto-extracted table snippet; requires \usepackage{booktabs}.
+% Caption: Table 4 demonstrates this usingcheng2020attnonCLIC2020-mobile,whereshorter compression paths (e.g., 5 →1) achieve better BD-RateP re- ductions by 7.13–10.87\% over longer paths (e.g., 6 →1) to the same target quality. This validated HCF’s effective error accumulationcontrol—longerspansintroducemorecumu- lative distortion, while our learned transformations mitigate degradation without retraining, with additional results across architectures provided in Supplementary Material.
+\begin{tabular}{lllllllllllll}
+\toprule
+FLOPs Reduction / Parameters Reduction / GPU Memory Reduction / Execution Time Reduction (\%) ↑ Model Node Node Node Node Node 1 2 3 4 5 cheng2020 attn 97.8/68.7/95.5/90.0 97.8/68.7/95.5/90.0 97.4/65.8/95.0/87.6 97.8/68.7/96.5/83.5 97.8/68.7/96.5/83.5 cheng2020 anchor 97.5/62.7/95.4/87.1 97.5/62.7/95.4/87.1 97.1/60.2/94.8/83.9 97.5/62.7/96.5/77.9 97.5/62.7/96.5/77.9 Table 3: Computational efficiency comparison: HCF vs. DRF across fvie processing nodes. Values show HCF’s percentage reduction in FLOPs/Parameters/GPU Memory/Execution Time relative to DRF for transform operations. ↑higher is better. Kodak CLIC 33 16 Compression Path BD-Rate BD-Rate MLIC++ (HCF) MLIC++ (SSF) Model P M MLIC++ (DRF) MLIC++ (HCF) Comparison (\%) ↓ (\%) ↓ (dB) 31 15 MLIC++ (DRF) S HS CF F 5 →1 vs. 6 →1 -7.13 -7.29 (dB) DRF cheng2020 attn 4 →1 vs. 5 →1 -7.36 -7.02 MS-SSIM 29 M ML LI IC C+ ++ + ( (H DRC FF )) T Leia en ( ( PP CC FF )) 14 H MC LF IC > + +DRF 3 →1 vs. 4 →1 -10.87 -7.80 PSNR 27 P Lir e (Pst Ca F ( )PCF) J Do ih an os (t Po Cn F(P )CF) 13 c ch he en ng g2 20 02 20 0\_ \_a at nt cn hor DeepHQ (PCF) Toderici (PCF) mbt2018 Table 4: HCF cross-quality adaptation without retraining Jeon (PCF) Jpeg2000 (PCF) mbt2018mean 25 12 \_ on CLIC2020-mobile dataset. BD-Rate reductions validate 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.1 0.15 0.2 0.25 0.3 0.35 Bits Per Pixel (bpp) Bits Per Pixel (bpp) controlled error accumulation. ↓lower is better. &  &  &  &  &  &  &  &  &  &  &  &  \\
+\midrule
+Kodak CLIC 33 16 MLIC++ (HCF) MLIC++ (SSF) MLIC++ (DRF) MLIC++ (HCF) (dB) 31 15 SSF (dB) MLIC++ (DRF) HCF DRF MS-SSIM 29 MLIC++ (HCF) Tian (PCF) 14 HCF > PSNR MLIC++ (DRF) Lee (PCF) MLIC++ Presta (PCF) Johnston (PCF) cheng20 27 Li (PCF) Diao (PCF) 13 cheng20 DeepHQ (PCF) Toderici (PCF) mbt201 Jeon (PCF) Jpeg2000 (PCF) mbt201 25 12 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.1 0.15 0.2 0.25 0. Bits Per Pixel (bpp) Bits Per Pixel ( &  &  &  &  &  &  &  &  &  &  &  &  \\
+ &  & MLI & C++ ( & HCF) &  &  &  &  &  &  & MLIC & ++ (SSF) CF) \\
+ & ML & IC++ & (DRF & ) &  &  &  &  &  & MLI ) & C++ (H &  \\
+ &  &  &  &  &  &  &  &  &  &  &  & SSF DRF) HCF DRF \\
+ &  &  &  &  &  &  &  &  &  &  & LIC++ ( &  \\
+ &  & M M Pr & LIC+ LIC+ esta ( & + (HC + (DR PCF) &  & F) F) J & Tian ( Lee (P ohns & PCF) CF) ton (P & CF) &  &  & HCF > MLIC++ cheng20 \\
+ &  & Li De Je & (PCF epHQ on (P & ) (PCF CF) &  & ) J & Diao ( Toder peg2 & PCF) ici (P 000 ( & CF) PCF) &  &  & cheng20 mbt201 mbt201 \\
+ &  &  &  &  &  &  &  &  &  &  & .1 0.15 0.2 0.25 0. Bits Per Pixel ( &  \\
+\bottomrule
+\end{tabular}

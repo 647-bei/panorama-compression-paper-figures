@@ -122,6 +122,10 @@ def main() -> None:
                 "original": original.relative_to(ROOT).as_posix(),
                 "vectors": vectors,
                 "vector_mode": vector_mode,
+                "vector_status": asset.get("vector_status", metadata.get("vector_status", "")),
+                "ppt_status": asset.get("ppt_status", metadata.get("ppt_status", "")),
+                "svg_status": asset.get("svg_status", metadata.get("svg_status", "")),
+                "download_note": asset.get("download_note", metadata.get("download_note", "")),
                 "latex": latex_path.relative_to(ROOT).as_posix() if asset.get("latex") and latex_path.exists() else "",
                 "latex_mode": asset.get("latex_mode", ""),
             })

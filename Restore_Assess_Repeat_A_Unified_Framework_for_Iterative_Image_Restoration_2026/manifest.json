@@ -1,0 +1,539 @@
+{
+  "paper": "Restore_Assess_Repeat_A_Unified_Framework_for_Iterative_Image_Restoration_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 10,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 0,
+      "caption": "Figure 1.Overview of RAR. Given an input image with unknown composite degradations,RAR operates entirely in latent by itera- tivelyassessingcurrentimagequality,restoringtheimagebased on the assessment, and verifying the quality improvement.",
+      "caption_en": "Figure 1.Overview of RAR. Given an input image with unknown composite degradations,RAR operates entirely in latent by itera- tivelyassessingcurrentimagequality,restoringtheimagebased on the assessment, and verifying the quality improvement.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        388.263,
+        545.109,
+        430.188
+      ],
+      "content_bbox": [
+        310.043,
+        241.664,
+        543.936,
+        377.49
+      ],
+      "crop_bbox": [
+        310.043,
+        241.664,
+        543.936,
+        377.49
+      ],
+      "original": "figures/original/Fig1_p000.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 2,
+      "caption": "Figure2.ToenableourRARprocess,wedefineanLQAthatfullyintegratestheinputandoutoftheIQAintothelatentspaceofthe restorationmodule,usingadaptersAIandAQ,respectively.Then,weinstoreafeedbackloopbetweenthetwomodulestoiteratively recover best image quality.The dashed-line is only used for the very first iteration to feed z0 degto the restoration model.",
+      "caption_en": "Figure2.ToenableourRARprocess,wedefineanLQAthatfullyintegratestheinputandoutoftheIQAintothelatentspaceofthe restorationmodule,usingadaptersAIandAQ,respectively.Then,weinstoreafeedbackloopbetweenthetwomodulestoiteratively recover best image quality.The dashed-line is only used for the very first iteration to feed z0 degto the restoration model.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        191.668,
+        545.112,
+        223.548
+      ],
+      "content_bbox": [
+        50.112,
+        72.0,
+        545.102,
+        180.834
+      ],
+      "crop_bbox": [
+        50.112,
+        72.0,
+        545.102,
+        180.834
+      ],
+      "original": "figures/original/Fig2_p002.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 3,
+      "caption": "Figure 3.We illustrate our quality verification step.This is used at inference time to define a stopping criterion of the RAR process.",
+      "caption_en": "Figure 3.We illustrate our quality verification step.This is used at inference time to define a stopping criterion of the RAR process.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        157.251,
+        286.359,
+        177.176
+      ],
+      "content_bbox": [
+        50.112,
+        72.0,
+        286.363,
+        146.417
+      ],
+      "crop_bbox": [
+        50.112,
+        72.0,
+        286.363,
+        146.417
+      ],
+      "original": "figures/original/Fig3_p003.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 4,
+      "caption": "Figure 4.Qualitative comparison on Composite Degradation.",
+      "caption_en": "Figure 4.Qualitative comparison on Composite Degradation.",
+      "caption_zh": "",
+      "caption_bbox": [
+        310.994,
+        256.171,
+        542.982,
+        265.219
+      ],
+      "content_bbox": [
+        311.345,
+        69.007,
+        542.629,
+        247.034
+      ],
+      "crop_bbox": [
+        311.345,
+        69.007,
+        542.629,
+        247.034
+      ],
+      "original": "figures/original/Fig4_p004.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table1",
+      "page": 4,
+      "caption": "Table1.QuantitativeresultsforCompositeDegradations.Re- sults taken from AgenticIR [48]",
+      "caption_en": "Table1.QuantitativeresultsforCompositeDegradations.Re- sults taken from AgenticIR [48]",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        282.875,
+        545.109,
+        302.882
+      ],
+      "content_bbox": [
+        310.483,
+        328.128,
+        546.464,
+        501.818
+      ],
+      "crop_bbox": [
+        310.483,
+        328.128,
+        546.464,
+        501.818
+      ],
+      "original": "tables/original/Table1_p004.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table1.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig5",
+      "page": 5,
+      "caption": "Figure 5.Qualitative analysis:Comparison with other multi-round methods (AutoDIR [14], AgenticIR [48]).Intermediate steps for our methodareshownforillustrativepurposes.Firstrow:Compositedegradations(haze+noise).RARidentifiesandcorrectsthem,also enhances contrast, making the result visually clearer.Second row:Single degradation (low light).AgenticIR fails due to inadequate tools for very dark scenes.Third row:Single degradation (haze).RAR successfully dehazes, but also improves low light, lowering the fidelity to ground truth.Fourth row:Unknown degradations.RAR demonstrates stronger generalization (also improving over ground truth).",
+      "caption_en": "Figure 5.Qualitative analysis:Comparison with other multi-round methods (AutoDIR [14], AgenticIR [48]).Intermediate steps for our methodareshownforillustrativepurposes.Firstrow:Compositedegradations(haze+noise).RARidentifiesandcorrectsthem,also enhances contrast, making the result visually clearer.Second row:Single degradation (low light).AgenticIR fails due to inadequate tools for very dark scenes.Third row:Single degradation (haze).RAR successfully dehazes, but also improves low light, lowering the fidelity to ground truth.Fourth row:Unknown degradations.RAR demonstrates stronger generalization (also improving over ground truth).",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        358.738,
+        545.111,
+        411.622
+      ],
+      "content_bbox": [
+        51.108,
+        72.0,
+        548.17,
+        347.073
+      ],
+      "crop_bbox": [
+        51.108,
+        72.0,
+        548.17,
+        347.073
+      ],
+      "original": "figures/original/Fig5_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table2",
+      "page": 5,
+      "caption": "Table 2. Results for Unknown Degradations on the UDC dataset.",
+      "caption_en": "Table 2. Results for Unknown Degradations on the UDC dataset.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        433.458,
+        286.359,
+        442.506
+      ],
+      "content_bbox": [
+        55.617,
+        472.029,
+        278.365,
+        552.373
+      ],
+      "crop_bbox": [
+        55.617,
+        472.029,
+        278.365,
+        552.373
+      ],
+      "original": "tables/original/Table2_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table2.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table3",
+      "page": 5,
+      "caption": "Table 3.Quantitative comparison on Single Degradation tasks.",
+      "caption_en": "Table 3.Quantitative comparison on Single Degradation tasks.",
+      "caption_zh": "",
+      "caption_bbox": [
+        312.568,
+        433.458,
+        541.408,
+        442.506
+      ],
+      "content_bbox": [
+        308.862,
+        467.509,
+        545.119,
+        528.01
+      ],
+      "crop_bbox": [
+        308.862,
+        467.509,
+        545.119,
+        528.01
+      ],
+      "original": "tables/original/Table3_p005.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table3.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig6",
+      "page": 6,
+      "caption": "Figure 6.Qualitative comparison on single degradation:Row1:Kodak24 (noise), Row2:GoPro (blur), Row3:Rain100L (rain), Row4: SOTS (haze), In the single-degradation setting, our method produces clearer images that better align with human visual perception.This results lower fidelity scores but higher perceptual scores.",
+      "caption_en": "Figure 6.Qualitative comparison on single degradation:Row1:Kodak24 (noise), Row2:GoPro (blur), Row3:Rain100L (rain), Row4: SOTS (haze), In the single-degradation setting, our method produces clearer images that better align with human visual perception.This results lower fidelity scores but higher perceptual scores.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        307.667,
+        545.111,
+        338.633
+      ],
+      "content_bbox": [
+        53.061,
+        72.0,
+        542.164,
+        296.002
+      ],
+      "crop_bbox": [
+        53.061,
+        72.0,
+        542.164,
+        296.002
+      ],
+      "original": "figures/original/Fig6_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig7",
+      "page": 7,
+      "caption": "Figure 7.Noise vs.noise-free flow matching formulation.No- tice how noise affects the eye of the parrot (zoom required).",
+      "caption_en": "Figure 7.Noise vs.noise-free flow matching formulation.No- tice how noise affects the eye of the parrot (zoom required).",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        278.686,
+        286.359,
+        298.693
+      ],
+      "content_bbox": [
+        50.112,
+        72.789,
+        545.126,
+        278.686
+      ],
+      "crop_bbox": [
+        50.112,
+        72.789,
+        545.126,
+        278.686
+      ],
+      "original": "figures/original/Fig7_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig8",
+      "page": 7,
+      "caption": "Figure 8.Text vs.embeddings as conditioning inputs.Embed- dings provide more efficient and informative conditioning.",
+      "caption_en": "Figure 8.Text vs.embeddings as conditioning inputs.Embed- dings provide more efficient and informative conditioning.",
+      "caption_zh": "",
+      "caption_bbox": [
+        50.112,
+        403.974,
+        286.359,
+        423.98
+      ],
+      "content_bbox": [
+        50.112,
+        72.789,
+        545.126,
+        392.308
+      ],
+      "crop_bbox": [
+        50.112,
+        72.789,
+        545.126,
+        392.308
+      ],
+      "original": "figures/original/Fig8_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "table",
+      "label": "Table4",
+      "page": 7,
+      "caption": "Table 4.Ablation of the integration process between the IQA and the UIR modules.",
+      "caption_en": "Table 4.Ablation of the integration process between the IQA and the UIR modules.",
+      "caption_zh": "",
+      "caption_bbox": [
+        146.485,
+        72.789,
+        448.742,
+        81.837
+      ],
+      "content_bbox": [
+        50.112,
+        93.183,
+        545.114,
+        178.093
+      ],
+      "crop_bbox": [
+        50.112,
+        93.183,
+        545.114,
+        178.093
+      ],
+      "original": "tables/original/Table4_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table4.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table5",
+      "page": 7,
+      "caption": "Table 5.Role of the RAR iterative process.Intermediate assess- ments are not accurate for SD1.5 due to the noised latents. Instead, our noise-free FM variant improves across all metrics and datasets.",
+      "caption_en": "Table 5.Role of the RAR iterative process.Intermediate assess- ments are not accurate for SD1.5 due to the noised latents. Instead, our noise-free FM variant improves across all metrics and datasets.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        200.904,
+        545.109,
+        231.87
+      ],
+      "content_bbox": [
+        50.112,
+        93.183,
+        545.114,
+        178.093
+      ],
+      "crop_bbox": [
+        50.112,
+        93.183,
+        545.114,
+        178.093
+      ],
+      "original": "tables/original/Table5_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table5.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table6",
+      "page": 7,
+      "caption": "Table 6. Stopping Criterion Analysis. Results for unknown com- posite degradations on the UDC dataset.",
+      "caption_en": "Table 6. Stopping Criterion Analysis. Results for unknown com- posite degradations on the UDC dataset.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        303.704,
+        545.109,
+        323.711
+      ],
+      "content_bbox": [
+        308.862,
+        243.136,
+        545.114,
+        288.876
+      ],
+      "crop_bbox": [
+        308.862,
+        243.136,
+        545.114,
+        288.876
+      ],
+      "original": "tables/original/Table6_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table6.tex",
+      "latex_mode": "extracted_tabular"
+    },
+    {
+      "kind": "table",
+      "label": "Table7",
+      "page": 7,
+      "caption": "Table7.AnalysisofComputationalEfficiency.Comparison with iterative approaches in terms of latency and performance.",
+      "caption_en": "Table7.AnalysisofComputationalEfficiency.Comparison with iterative approaches in terms of latency and performance.",
+      "caption_zh": "",
+      "caption_bbox": [
+        308.862,
+        400.245,
+        545.109,
+        420.252
+      ],
+      "content_bbox": [
+        308.862,
+        334.996,
+        545.114,
+        385.31
+      ],
+      "crop_bbox": [
+        308.862,
+        334.996,
+        545.114,
+        385.31
+      ],
+      "original": "tables/original/Table7_p007.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。",
+      "latex": "tables/latex/Table7.tex",
+      "latex_mode": "extracted_tabular"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "本批次暂不绘制 SVG/PPTX；网页明确标记为暂不可用。",
+    "LaTeX tables generated by tools/build_latex_tables.py."
+  ],
+  "metadata": {
+    "local_slug": "Restore_Assess_Repeat_A_Unified_Framework_for_Iterative_Image_Restoration_2026",
+    "title": "Restore, Assess, Repeat: A Unified Framework for Iterative Image Restoration",
+    "year": 2026,
+    "venue": "CVPR",
+    "venue_short": "CVPR",
+    "venue_full": "CVPR",
+    "venue_type": "会议",
+    "classification": "published_main",
+    "topic": [
+      "image restoration",
+      "iterative refinement",
+      "quality assessment"
+    ],
+    "relevance": "与图像恢复、压缩恢复、失真增强、SNN/类脑视觉、KAN/小波或生物视觉相关。",
+    "official_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Restore_Assess_Repeat_A_Unified_Framework_for_Iterative_Image_Restoration_CVPR_2026_paper.html",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Chen_Restore_Assess_Repeat_A_Unified_Framework_for_Iterative_Image_Restoration_CVPR_2026_paper.pdf",
+    "access": "open_pdf",
+    "access_note": "CVF official open PDF",
+    "source_scope": "new_2026_2027",
+    "download_status": "downloaded",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：不适用（会议）",
+    "ccf_rank": "A",
+    "ccf_scope": "会议",
+    "ccf_display": "CCF会议 A类（2026）",
+    "ranking_display": "CCF会议 A类（2026）",
+    "vector_status": "unavailable_temporary",
+    "ppt_status": "unavailable_temporary",
+    "svg_status": "unavailable_temporary"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "paper": "Temporal_coding_enables_hyperacuity_in_event_based_vision_2026",
+  "pdf": "pdf/paper.pdf",
+  "pages": 13,
+  "assets": [
+    {
+      "kind": "figure",
+      "label": "Fig1",
+      "page": 2,
+      "caption": "Fig. 1 | Experimental setup and data collected. A Photo of the setup used to acquire the tiny image datasets. The setup includes an EB camera mounted on a small robotic device, allowing it to rotate and a computer screen displaying the symbols. Symbols are displayed at their original resolution of 28 × 28 pixels, as shown in the inset in the bottom right corner. B, C 3D (x, y, t) raster plots of events acquired during a single motion while an MNIST symbol was displayed in front of the camera. The time axis is marked, and the orthogonal 2D plane represents the 2D sensor’s pixel matrix plane; point colors correspond to the events' timestamps (t value), with darker colors indicating later events. Only positive events are plotted. The label above each panel indicates the corresponding original symbol digit. B ebtMNIST-D1 sample; 28 events. C ebtMNIST-D2 sample; 18 events. D Full size, N-MNIST30sample; 180 events. E Cropped frames acquired with the event-based camera of four MNIST symbols at distance D1 (fbtMNIST-D1 dataset); the size of the cropped area is 10 × 10 pixels. F Histogram of the time it took the EB camera to generate 48 events, starting from t=100 ms (100 ms after the motor command was sent) for the 60,000 ebtMNIST-D1 dataset training set samples. G Inter-Event Interval (IEI) histogram. Histogram of the time differences between any two con- secutive events over all the pixels on the sensor. H Event rate (events/ms) during a single horizontal rotation. Data from the ebtMNIST-D1 dataset acquisition (MNIST samples at distance D1). Mean± STD over 60,000 training set samples. I Horizontal angular velocity of the camera during the ebtMNIST-D1 dataset acquisition. The black dashed line and gray area represent the mean and STD over 60,000 training samples, respectively; colored traces (red, blue, and green) show traces from 3 single-sample acquisitions. B, C, D, H, I Time '0' corresponds to the motor com- mand initiation. Source data are provided as a Source Data ﬁle.",
+      "caption_en": "Fig. 1 | Experimental setup and data collected. A Photo of the setup used to acquire the tiny image datasets. The setup includes an EB camera mounted on a small robotic device, allowing it to rotate and a computer screen displaying the symbols. Symbols are displayed at their original resolution of 28 × 28 pixels, as shown in the inset in the bottom right corner. B, C 3D (x, y, t) raster plots of events acquired during a single motion while an MNIST symbol was displayed in front of the camera. The time axis is marked, and the orthogonal 2D plane represents the 2D sensor’s pixel matrix plane; point colors correspond to the events' timestamps (t value), with darker colors indicating later events. Only positive events are plotted. The label above each panel indicates the corresponding original symbol digit. B ebtMNIST-D1 sample; 28 events. C ebtMNIST-D2 sample; 18 events. D Full size, N-MNIST30sample; 180 events. E Cropped frames acquired with the event-based camera of four MNIST symbols at distance D1 (fbtMNIST-D1 dataset); the size of the cropped area is 10 × 10 pixels. F Histogram of the time it took the EB camera to generate 48 events, starting from t=100 ms (100 ms after the motor command was sent) for the 60,000 ebtMNIST-D1 dataset training set samples. G Inter-Event Interval (IEI) histogram. Histogram of the time differences between any two con- secutive events over all the pixels on the sensor. H Event rate (events/ms) during a single horizontal rotation. Data from the ebtMNIST-D1 dataset acquisition (MNIST samples at distance D1). Mean± STD over 60,000 training set samples. I Horizontal angular velocity of the camera during the ebtMNIST-D1 dataset acquisition. The black dashed line and gray area represent the mean and STD over 60,000 training samples, respectively; colored traces (red, blue, and green) show traces from 3 single-sample acquisitions. B, C, D, H, I Time '0' corresponds to the motor com- mand initiation. Source data are provided as a Source Data ﬁle.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        383.763,
+        561.367,
+        510.262
+      ],
+      "content_bbox": [
+        63.156,
+        64.146,
+        539.459,
+        372.83
+      ],
+      "crop_bbox": [
+        63.156,
+        64.146,
+        539.459,
+        372.83
+      ],
+      "original": "figures/original/Fig1_p002.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig2",
+      "page": 3,
+      "caption": "Fig. 2 | A, B Classiﬁcation accuracy for tiny image datasets is shown versus the number of events, for acquisition distance D1 (A) and D2 (B). The dashed lines denote FB classiﬁcation accuracy (Resnet-18) for the corresponding datasets and conditions. C, D Importance of temporal precision for tiny images: MNIST at dis- tance D1 is evaluated in the presence of temporal jitter added during training, testing, or both. A zoomed-in version of the top left part of (C) is presented in (D). Different jitter conditions are indicated using different markers and line styles (see legend) and different event count is indicated using color (48 events- blue, 96 events- red). E Temporal jitter has no visible effect on classiﬁcation accuracy for large images, as demonstrated on the N-MNIST dataset. Representative spatio- temporal raster plots are shown in Fig. 1D, and accuracyversus spike count is shown in Supplementary Fig. S1C. F Information from (A) and (B) presented in a table. Large circles in (A) and (B), as well as bold text in table in (F), correspond to conditions where EB models' accuracy is signiﬁcantly different and larger than corresponding FB models accuracy (p < 0.05, two-tailed Wilcoxon rank-sum test over 5 training repetitions for each condition). In plots (A, B) mean accuracy is shown; in plots (C–E), Mean accuracy± STD is shown (as error-bars), in most cases error-bars are too small to be noticed (Supplementary tables Table S2 and Table S3 include the numerical values). Source data are provided as a Source Data ﬁle.",
+      "caption_en": "Fig. 2 | A, B Classiﬁcation accuracy for tiny image datasets is shown versus the number of events, for acquisition distance D1 (A) and D2 (B). The dashed lines denote FB classiﬁcation accuracy (Resnet-18) for the corresponding datasets and conditions. C, D Importance of temporal precision for tiny images: MNIST at dis- tance D1 is evaluated in the presence of temporal jitter added during training, testing, or both. A zoomed-in version of the top left part of (C) is presented in (D). Different jitter conditions are indicated using different markers and line styles (see legend) and different event count is indicated using color (48 events- blue, 96 events- red). E Temporal jitter has no visible effect on classiﬁcation accuracy for large images, as demonstrated on the N-MNIST dataset. Representative spatio- temporal raster plots are shown in Fig. 1D, and accuracyversus spike count is shown in Supplementary Fig. S1C. F Information from (A) and (B) presented in a table. Large circles in (A) and (B), as well as bold text in table in (F), correspond to conditions where EB models' accuracy is signiﬁcantly different and larger than corresponding FB models accuracy (p < 0.05, two-tailed Wilcoxon rank-sum test over 5 training repetitions for each condition). In plots (A, B) mean accuracy is shown; in plots (C–E), Mean accuracy± STD is shown (as error-bars), in most cases error-bars are too small to be noticed (Supplementary tables Table S2 and Table S3 include the numerical values). Source data are provided as a Source Data ﬁle.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        566.963,
+        561.346,
+        663.673
+      ],
+      "content_bbox": [
+        60.491,
+        48.756,
+        540.489,
+        556.759
+      ],
+      "crop_bbox": [
+        60.491,
+        48.756,
+        540.489,
+        556.759
+      ],
+      "original": "figures/original/Fig2_p003.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig3",
+      "page": 4,
+      "caption": "Fig. 3 | Data augmentation and contrastive learning with event sequences. A contrastive learning is achieved by rewarding the similarity of neural repre- sentations across different time intervals of the same stimulus while discouraging similarity when the intervals correspond to different stimuli. Augmentation is performed by using a variety of time intervals during the training phase. B Accuracy when learning from training data augmented by sequences from surrounding time intervals compared to accuracy when restricting training data to the test interval; train, train set; validation, validation set. Shown here is a representative learning curve for ebtMNIST-D1, 48 events. The learning rate slowdown began at epoch 40, which explains the abrupt rise in accuracy around this time. C, D The impact of contrastive pre-training is shown across datasets, network sizes, and ﬁne-tuning methods. C Absolute test accuracies. D Differences relative to the reference clas- siﬁer reported in Fig. 2 Small dots represent individual data. '*' and '**' denote p < 0.05 and p < 0.01 in two sided Wilcoxon ranksums test (no multiple compar- isons were made). Precise p-values and Cohen’s effect size are supplied in the Source Data ﬁle.",
+      "caption_en": "Fig. 3 | Data augmentation and contrastive learning with event sequences. A contrastive learning is achieved by rewarding the similarity of neural repre- sentations across different time intervals of the same stimulus while discouraging similarity when the intervals correspond to different stimuli. Augmentation is performed by using a variety of time intervals during the training phase. B Accuracy when learning from training data augmented by sequences from surrounding time intervals compared to accuracy when restricting training data to the test interval; train, train set; validation, validation set. Shown here is a representative learning curve for ebtMNIST-D1, 48 events. The learning rate slowdown began at epoch 40, which explains the abrupt rise in accuracy around this time. C, D The impact of contrastive pre-training is shown across datasets, network sizes, and ﬁne-tuning methods. C Absolute test accuracies. D Differences relative to the reference clas- siﬁer reported in Fig. 2 Small dots represent individual data. '*' and '**' denote p < 0.05 and p < 0.01 in two sided Wilcoxon ranksums test (no multiple compar- isons were made). Precise p-values and Cohen’s effect size are supplied in the Source Data ﬁle.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.685,
+        396.519,
+        561.274,
+        473.469
+      ],
+      "content_bbox": [
+        60.434,
+        46.177,
+        540.256,
+        386.253
+      ],
+      "crop_bbox": [
+        60.434,
+        46.177,
+        540.256,
+        386.253
+      ],
+      "original": "figures/original/Fig3_p004.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    },
+    {
+      "kind": "figure",
+      "label": "Fig4",
+      "page": 6,
+      "caption": "Fig. 4 | Vernier task. A Task illustration: The agent must report whether the top of the bar is shifted left or right relative to the bottom. A Training is done with large offsets, and testing is performed with small offsets. B A sensor activation raster plot showing events emitted by a column of 60 photosensors when crossing a Vernier stimulus like the one shown in (A; top-left) while rotating to the right. Numbers on the y-axis correspond to the photosensor index within the column. The dashed red line indicates the vertical position of the Vernier bar shift. Events below and above the red dashed line are shifted by less than 10 ms, corresponding to a sensor speed of~ 30 deg/s. Events are not perfectly aligned in time across photosensors due to sensory and motor noise; a single crossing of the edge results in the generation of bursts of events lasting~ 15 ms. C Same as (B) but for a small edge where the edge’s vertical dimension on the display is equivalent to a single MNIST symbol (28 pixels), corresponding to~ 5 photosensors at D1 distance. The examples depicted in (B) and (C) correspond to an offset of a single photosensor (large offset) for clarity. D Accuracy in the Vernier task with small edges (see C). Results are shown for readout from the ﬁrst and last transformer block in an ANN trained as a classiﬁer of ebtMNIST-D1. Offsets of 6-7 pixels were used as training data, and offsets of 5-1 pixels were used as test data. Between 50 and 51 examples of each offset were presented. Error bars indicate Mean± SEM values. Shades of orange represent the added jitter (shown for the last layer only). Black dashed line indicates the chance-level accuracy. Small dots represent individual data. '*' and '**' denote p < 0.05 and p < 0.01 in two-sided Wilcoxon ranksums test (no multiple comparisons were made). Precise p-values and Cohen’s effect size are supplied in the Source Data ﬁle.",
+      "caption_en": "Fig. 4 | Vernier task. A Task illustration: The agent must report whether the top of the bar is shifted left or right relative to the bottom. A Training is done with large offsets, and testing is performed with small offsets. B A sensor activation raster plot showing events emitted by a column of 60 photosensors when crossing a Vernier stimulus like the one shown in (A; top-left) while rotating to the right. Numbers on the y-axis correspond to the photosensor index within the column. The dashed red line indicates the vertical position of the Vernier bar shift. Events below and above the red dashed line are shifted by less than 10 ms, corresponding to a sensor speed of~ 30 deg/s. Events are not perfectly aligned in time across photosensors due to sensory and motor noise; a single crossing of the edge results in the generation of bursts of events lasting~ 15 ms. C Same as (B) but for a small edge where the edge’s vertical dimension on the display is equivalent to a single MNIST symbol (28 pixels), corresponding to~ 5 photosensors at D1 distance. The examples depicted in (B) and (C) correspond to an offset of a single photosensor (large offset) for clarity. D Accuracy in the Vernier task with small edges (see C). Results are shown for readout from the ﬁrst and last transformer block in an ANN trained as a classiﬁer of ebtMNIST-D1. Offsets of 6-7 pixels were used as training data, and offsets of 5-1 pixels were used as test data. Between 50 and 51 examples of each offset were presented. Error bars indicate Mean± SEM values. Shades of orange represent the added jitter (shown for the last layer only). Black dashed line indicates the chance-level accuracy. Small dots represent individual data. '*' and '**' denote p < 0.05 and p < 0.01 in two-sided Wilcoxon ranksums test (no multiple comparisons were made). Precise p-values and Cohen’s effect size are supplied in the Source Data ﬁle.",
+      "caption_zh": "",
+      "caption_bbox": [
+        39.684,
+        179.669,
+        561.335,
+        296.418
+      ],
+      "content_bbox": [
+        81.417,
+        65.779,
+        537.212,
+        168.875
+      ],
+      "crop_bbox": [
+        81.417,
+        65.779,
+        537.212,
+        168.875
+      ],
+      "original": "figures/original/Fig4_p006.png",
+      "vector": [],
+      "vector_status": "unavailable_temporary",
+      "ppt_status": "unavailable_temporary",
+      "svg_status": "unavailable_temporary",
+      "download_note": "PPT/SVG 暂不可用；当前提供去 caption 的原始 PNG；表格另提供 LaTeX。"
+    }
+  ],
+  "notes": [
+    "Coordinates use PDF points and page indexes start at 0.",
+    "Original crops contain only figure/table content; captions are stored as metadata for the web viewer.",
+    "本批次暂不绘制 SVG/PPTX；网页明确标记为暂不可用。"
+  ],
+  "metadata": {
+    "local_slug": "Temporal_coding_enables_hyperacuity_in_event_based_vision_2026",
+    "title": "Temporal coding enables hyperacuity in event-based vision",
+    "year": 2026,
+    "venue": "Nature Communications",
+    "venue_short": "Nature Communications",
+    "venue_full": "Nature Communications",
+    "venue_type": "期刊",
+    "classification": "published_main",
+    "topic": [
+      "biological vision",
+      "event vision",
+      "temporal coding"
+    ],
+    "relevance": "与图像恢复、压缩恢复、失真增强、SNN/类脑视觉、KAN/小波或生物视觉相关。",
+    "official_url": "https://www.nature.com/articles/s41467-026-76878-6",
+    "pdf_url": "https://www.nature.com/articles/s41467-026-76878-6.pdf",
+    "access": "open_pdf",
+    "access_note": "Nature open-access article PDF",
+    "source_scope": "new_2026_2027",
+    "download_status": "downloaded",
+    "cas_zone": null,
+    "cas_top": null,
+    "cas_display": "中科院分区：待核验（2025）",
+    "ccf_rank": null,
+    "ccf_scope": null,
+    "ccf_display": "CCF：未收录（2026目录）",
+    "ranking_display": "中科院分区：待核验（2025）",
+    "vector_status": "unavailable_temporary",
+    "ppt_status": "unavailable_temporary",
+    "svg_status": "unavailable_temporary"
+  }
+}
