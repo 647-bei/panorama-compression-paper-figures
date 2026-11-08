@@ -1,5 +1,5 @@
 window.SITE_DATA = {
-  "generated": "2026-11-03",
+  "generated": "2026-11-08",
   "papers": [
     {
       "id": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0",
@@ -73,7 +73,7 @@ window.SITE_DATA = {
       "venue_type": "期刊",
       "year": 2023,
       "classification": "本地参考文献，分区待核验",
-      "cas_zone": null,
+      "cas_zone": 1,
       "cas_display": "中科院 2区（2025）",
       "ccf_rank": null,
       "ccf_scope": null,
@@ -450,13 +450,13 @@ window.SITE_DATA = {
       "venue_full": "TCSVT",
       "venue_type": "期刊",
       "year": 2024,
-      "classification": "本地参考文献，分区待核验",
-      "cas_zone": null,
-      "cas_display": "中科院 2区（2025）",
+      "classification": "中科院 1区 TOP（2025）",
+      "cas_zone": 1,
+      "cas_display": "中科院 1区 TOP（2025）",
       "ccf_rank": null,
       "ccf_scope": null,
       "ccf_display": "CCF：未收录（2026目录）",
-      "ranking_display": "中科院 2区（2025）",
+      "ranking_display": "中科院 1区 TOP（2025）",
       "official_url": "https://www.ieee.org/publications/rights/index.html",
       "pdf_url": "https://www.ieee.org/publications/rights/index.html",
       "access": "local_pdf",
@@ -471,13 +471,13 @@ window.SITE_DATA = {
       "venue_full": "TCSVT",
       "venue_type": "期刊",
       "year": 2025,
-      "classification": "本地参考文献，分区待核验",
-      "cas_zone": null,
-      "cas_display": "中科院 2区（2025）",
+      "classification": "中科院 1区 TOP（2025）",
+      "cas_zone": 1,
+      "cas_display": "中科院 1区 TOP（2025）",
       "ccf_rank": null,
       "ccf_scope": null,
       "ccf_display": "CCF：未收录（2026目录）",
-      "ranking_display": "中科院 2区（2025）",
+      "ranking_display": "中科院 1区 TOP（2025）",
       "official_url": "https://www.ieee.org/publications/rights/index.html",
       "pdf_url": "https://www.ieee.org/publications/rights/index.html",
       "access": "local_pdf",
@@ -744,13 +744,13 @@ window.SITE_DATA = {
       "venue_full": "TCSVT",
       "venue_type": "期刊",
       "year": 2025,
-      "classification": "本地参考文献，分区待核验",
-      "cas_zone": null,
-      "cas_display": "中科院 2区（2025）",
+      "classification": "中科院 1区 TOP（2025）",
+      "cas_zone": 1,
+      "cas_display": "中科院 1区 TOP（2025）",
       "ccf_rank": null,
       "ccf_scope": null,
       "ccf_display": "CCF：未收录（2026目录）",
-      "ranking_display": "中科院 2区（2025）",
+      "ranking_display": "中科院 1区 TOP（2025）",
       "official_url": "https://www.ieee.org/publications/rights/index.html",
       "pdf_url": "https://www.ieee.org/publications/rights/index.html",
       "access": "local_pdf",
@@ -1227,13 +1227,13 @@ window.SITE_DATA = {
       "venue_full": "TCSVT",
       "venue_type": "期刊",
       "year": 2022,
-      "classification": "本地参考文献，分区待核验",
-      "cas_zone": null,
-      "cas_display": "中科院 2区（2025）",
+      "classification": "中科院 1区 TOP（2025）",
+      "cas_zone": 1,
+      "cas_display": "中科院 1区 TOP（2025）",
       "ccf_rank": null,
       "ccf_scope": null,
       "ccf_display": "CCF：未收录（2026目录）",
-      "ranking_display": "中科院 2区（2025）",
+      "ranking_display": "中科院 1区 TOP（2025）",
       "official_url": "https://www.ieee.org/publications/rights/index.html",
       "pdf_url": "https://www.ieee.org/publications/rights/index.html",
       "access": "local_pdf",
@@ -1584,13 +1584,13 @@ window.SITE_DATA = {
       "venue_full": "TCSVT",
       "venue_type": "期刊",
       "year": 2022,
-      "classification": "本地参考文献，分区待核验",
-      "cas_zone": null,
-      "cas_display": "中科院 2区（2025）",
+      "classification": "中科院 1区 TOP（2025）",
+      "cas_zone": 1,
+      "cas_display": "中科院 1区 TOP（2025）",
       "ccf_rank": null,
       "ccf_scope": null,
       "ccf_display": "CCF：未收录（2026目录）",
-      "ranking_display": "中科院 2区（2025）",
+      "ranking_display": "中科院 1区 TOP（2025）",
       "official_url": "https://www.ieee.org/publications/rights/index.html",
       "pdf_url": "https://www.ieee.org/publications/rights/index.html",
       "access": "local_pdf",
@@ -1668,13 +1668,13 @@ window.SITE_DATA = {
       "venue_full": "TCSVT",
       "venue_type": "期刊",
       "year": 2021,
-      "classification": "本地参考文献，分区待核验",
-      "cas_zone": null,
-      "cas_display": "中科院 2区（2025）",
+      "classification": "中科院 1区 TOP（2025）",
+      "cas_zone": 1,
+      "cas_display": "中科院 1区 TOP（2025）",
       "ccf_rank": null,
       "ccf_scope": null,
       "ccf_display": "CCF：未收录（2026目录）",
-      "ranking_display": "中科院 2区（2025）",
+      "ranking_display": "中科院 1区 TOP（2025）",
       "official_url": "https://vision.nju.edu.cn/20/86/c29466a467078/",
       "pdf_url": "https://vision.nju.edu.cn/20/86/c29466a467078/",
       "access": "local_pdf",
@@ -1822,16 +1822,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.2. ArchitectureoftheArtifactsReductionConvolutionalNeural Network(ARCNN).Thediagramillustratesthekeycomponentsofthe network,includingExtraction,Enhancement,Mapping,andReconstruction. ThenotationK9N64S1representsakernelsizeof9,64channels,anda strideof1,appliedintheExtractionblock,whilesimilarnotationsapplyto otherlayers.Thisﬁgureisamodiﬁedversionoftheoriginaldiagramfrom Dongetal.[26].",
       "caption_zh": "",
       "original": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/original/Fig2_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -1876,16 +1867,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.4. GL-Fusion[45]ModelforIn-LoopFiltering.Theﬁgureillustrates amodeldesignedtoenhancevideoqualitybyaddressingbothglobaland localdistortionsintroducedduringvideocoding.Thenetworkcomprises twoprimarybranches:theLocalDistortionBranch,whichtargetscoding artifactsfromblock-basedencoding,andtheGlobalAppearanceBranch, whichfocusesonrestoringdisruptedglobaltextures.Theoutputsofthese branchesarefusedtoachieveimprovedin-loopﬁlteringperformance.",
       "caption_zh": "",
       "original": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/original/Fig4_p005.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/vector/Fig4/Fig4.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/vector/Fig4/Fig4.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -1930,16 +1912,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.6. ArchitectureoftheMFQE(Multi-FrameQualityEnhancement) Framework.Thisframeworkimprovescompressedvideoqualitybyselecting PeakQualityFrames(PQFs)usingaPQFselector.Opticalﬂowisemployed toalignadjacentframesthroughwarping.Thesealignedframesarethen processedintheQualityEnhancementmodule,whichenhancesthetarget frameXt.TheoutputYtisobtainedbyaddingresidualcorrectionstoXt. ThisﬁgureisamodiﬁedversionbasedontheoriginalMFQEpaper[50]and appropriatelyreferencesitssource.",
       "caption_zh": "",
       "original": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/original/Fig6_p006.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/vector/Fig6/Fig6.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/vector/Fig6/Fig6.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -1957,16 +1930,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.7. ArchitectureoftheSpatio-TemporalDeformableFusion(STDF) Framework.TheSTDFframeworkenhancescompressedvideoqualityby aligningreferenceframesatthefeaturelevelusingSpatio-Temporal Deformable Convolution (STDC). Instead of relying on optical ﬂow, it predicts an offset ﬁeld through the Base Convolution and Offset Prediction modules to deformthespatio-temporalsamplingpositionsofconvolutions.Thealigned featuresarethenprocessedthroughtheQualityEnhancementmoduleto producetheenhancedoutputYtfromtheinputXt.Thisﬁgureisadapted fromtheoriginalSTDFpaper[85]withproperattribution.",
       "caption_zh": "",
       "original": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/original/Fig7_p007.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/vector/Fig7/Fig7.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/vector/Fig7/Fig7.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -1984,16 +1948,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.8. ArchitectureoftheSpatio-TemporalCompensationFusion(STCF) Framework.TheSTCFframeworkaimstoreducevideocompressionartifacts byintegratingmotioncompensationandglobalcontextusingtheParallel Swin-CNNFusion(PSCF)block.ItcombinesaSwinTransformerlayer, whichutilizesatemporalself-attentionmechanismbasedonshiftedwindows tocaptureglobalcontextefﬁciently,withanAda-CNNlayerforextracting motioncompensation.Thisdiagramisamodiﬁedversionoftheoriginal STCF[88].",
       "caption_zh": "",
       "original": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/original/Fig8_p007.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/vector/Fig8/Fig8.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "A_Survey_of_Deep_Learning_Based_Compressed_Local_reference_0/figures/vector/Fig8/Fig8.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -2065,16 +2020,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 1.a, Top:a classical artiﬁcial neural unit computes a weighted sum over input activations and then computes an output activation from this sum using a non-linear transfer functionf().Time is modeled as iterated recomputation of the network graph.Bottom:Spiking neurons receive spikes that are weighted and added to the internal state (membrane potential) that further develops through time following differential equations.When the membrane potential crosses a threshold, a spike is emitted and the potential is reset.b, Example architecture of a Spiking Recurrent Neural Network:an input layer projects to a layer of recurrently connected spiking neurons.Recurrent layers then project to a read-out layer.Multiple recurrent layers can be connected in a feedforward fashion, here shown for two recurrent layers.c, The decaying threshold and membrane potential of the LIF and ALIF neurons can be modeled as an internal state induced by self-recurrency.d, Roll-out of the computational graph of a spiking neuron as used for backpropagation-through-time.e, Illustration of different surrogate gradient functionsˆf′ s as a function of the neuron’s membrane potential and threshold.",
       "caption_zh": "",
       "original": "Accurate_and_efficient_time_domain_classification_Nature_Machine_Intelligence_0/figures/original/Fig1_p001.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Accurate_and_efficient_time_domain_classification_Nature_Machine_Intelligence_0/figures/vector/Fig1/Fig1.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Accurate_and_efficient_time_domain_classification_Nature_Machine_Intelligence_0/figures/vector/Fig1/Fig1.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -2092,16 +2038,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 2.a, Theoretical energy computation of different layers.The computational complexity calculation follows20.b, LIF, ALIF and LSTM internal operation schematic.",
       "caption_zh": "",
       "original": "Accurate_and_efficient_time_domain_classification_Nature_Machine_Intelligence_0/figures/original/Fig2_p002.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Accurate_and_efficient_time_domain_classification_Nature_Machine_Intelligence_0/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Accurate_and_efficient_time_domain_classification_Nature_Machine_Intelligence_0/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -2273,7 +2210,7 @@ window.SITE_DATA = {
           "path": "AdaIR_Adaptive_All_in_One_Image_Restoration_ICLR_2025/figures/vector/Fig3/Fig3.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -2614,16 +2551,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.2. ProposedframeworkofAFD-former.",
       "caption_zh": "",
       "original": "AFD_Former_A_Hybrid_Transformer_With_Local_reference_2023/figures/original/Fig2_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "AFD_Former_A_Hybrid_Transformer_With_Local_reference_2023/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "AFD_Former_A_Hybrid_Transformer_With_Local_reference_2023/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -3046,16 +2974,7 @@ window.SITE_DATA = {
       "caption_en": "Figure1.ComparisonofPSNR(dB),per-frameprocessingtime (720Pvideo),andFLOPsevaluatedontheMFQEv2.0testset atQP=37.Circledimensionsindicatecomputationalcomplex- ity.RivuletMLP achieves an optimal balance between quality en- hancement and processing efficiency. andtransmitvideobyexploitingbothtemporalandspa- tialredundancieswithinthecontent. Nevertheless,this lossycompressionapproach,whichinherentlysacrifices quality to achieve lower bitrates, invariably introduces var- iousvisualartifactssuchasblockingeffects,ringingdis- tortions,andimageblurring[4,5]. Suchcompression- induceddegradationnotonlysubstantiallycompromises users’subjectiveQualityofExperience(QoE)[6,7]but alsomarkedlyimpairstheperformanceofcrucialvisual computingtasks,includingobjectdetectionandaction recognition.Mostnotably,theinterplaybetweenmotion estimationandquantizationprocessesinvideocodingre- sultsinqualitydegradationwithcomplexspatiotemporal patterns[8,9],makingvideoqualityrestorationanexcep- tionally challenging task. In recent years, researchers have explored diverse techni- cal approaches to enhance compressed video quality.Early methodologiescenteredontransformcoefficientoptimiza- tion[10,11],employingspecializedmathematicalmodels tomitigateartifacts.Althoughtheseapproachesexhibited remarkable performance in specific contexts, their heavy re-",
       "caption_zh": "",
       "original": "based_Architecture_for_Efficient_Compressed_Video_Quality_Enhancement_CVPR_2025/figures/original/Fig1_p000.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "based_Architecture_for_Efficient_Compressed_Video_Quality_Enhancement_CVPR_2025/figures/vector/Fig1/Fig1.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "based_Architecture_for_Efficient_Compressed_Video_Quality_Enhancement_CVPR_2025/figures/vector/Fig1/Fig1.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -3073,16 +2992,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 2.Architecture overview of our proposed method:(a) RivuletMLP pipeline.(b) Spatio-temporal Feature Flow (SFF) Module.(c) BenignSelectionCompensation(BSC)Module.(d)Spacetime-GateMLP(SG-MLP)forfeatureaggregation.(e)LocallyRefinedMLP (LR-MLP) is a core BSC component.",
       "caption_zh": "",
       "original": "based_Architecture_for_Efficient_Compressed_Video_Quality_Enhancement_CVPR_2025/figures/original/Fig2_p002.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "based_Architecture_for_Efficient_Compressed_Video_Quality_Enhancement_CVPR_2025/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "based_Architecture_for_Efficient_Compressed_Video_Quality_Enhancement_CVPR_2025/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -3127,16 +3037,7 @@ window.SITE_DATA = {
       "caption_en": "Figure4.ThearchitectureofFFB,whichconsistsoffivecom- ponents:windowpartitioning,featureflowing,featuremapping, featurebacktracking,andwindowmerging.Theredareasrepre- sent the receptive regions of patch-based MLP. 3.3.2 Spacetime-Gate MLP",
       "caption_zh": "",
       "original": "based_Architecture_for_Efficient_Compressed_Video_Quality_Enhancement_CVPR_2025/figures/original/Fig4_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "based_Architecture_for_Efficient_Compressed_Video_Quality_Enhancement_CVPR_2025/figures/vector/Fig4/Fig4.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "based_Architecture_for_Efficient_Compressed_Video_Quality_Enhancement_CVPR_2025/figures/vector/Fig4/Fig4.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -3551,7 +3452,7 @@ window.SITE_DATA = {
           "path": "C_ONTROLLING_V_ISION_L_ANGUAGE_M_ODELS_FOR_ICLR_2024/figures/vector/Fig2/Fig2.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -3829,16 +3730,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 1: A coarse-to-fine image processing pipeline inspired by human visual perception.",
       "caption_zh": "",
       "original": "ClearAIR_A_Human_Visual_Perception_Inspired_All_in_One_Image_Local_reference_2026/figures/original/Fig1_p001.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "ClearAIR_A_Human_Visual_Perception_Inspired_All_in_One_Image_Local_reference_2026/figures/vector/Fig1/Fig1.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "ClearAIR_A_Human_Visual_Perception_Inspired_All_in_One_Image_Local_reference_2026/figures/vector/Fig1/Fig1.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -3856,16 +3748,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 2: An overview architecture of the proposed ClearAIR.",
       "caption_zh": "",
       "original": "ClearAIR_A_Human_Visual_Perception_Inspired_All_in_One_Image_Local_reference_2026/figures/original/Fig2_p002.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "ClearAIR_A_Human_Visual_Perception_Inspired_All_in_One_Image_Local_reference_2026/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "ClearAIR_A_Human_Visual_Perception_Inspired_All_in_One_Image_Local_reference_2026/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -4387,16 +4270,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 1: The network architecture of the Artifacts Removal Mixture of Experts (ARMoE) model is illustrated. In the Frequency Domain Mixture of Experts (FMoE) module, selected experts are indicated by solid black lines, while unselected experts are represented by dashed gray lines.",
       "caption_zh": "",
       "original": "Compression_Artifacts_Removal_for_VVC_with_Frequency_Domain_Mixture_of_AAAI_2026/figures/original/Fig1_p002.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Compression_Artifacts_Removal_for_VVC_with_Frequency_Domain_Mixture_of_AAAI_2026/figures/vector/Fig1/Fig1.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Compression_Artifacts_Removal_for_VVC_with_Frequency_Domain_Mixture_of_AAAI_2026/figures/vector/Fig1/Fig1.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -4694,7 +4568,7 @@ window.SITE_DATA = {
           "path": "DCTMamba_Advancing_JPEG_Image_Restoration_Through_AAAI_2025/figures/vector/Fig2/Fig2.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -4901,7 +4775,7 @@ window.SITE_DATA = {
           "path": "Debiased_All_in_one_Image_Restoration_with_Task_Uncertainty_Regularization_AAAI_2025/figures/vector/Fig2/Fig2.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -5287,16 +5161,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 2.The effects of condition information on generated results. The 2nd row shows that directly using LQ images as conditions causes unpleasant artifacts induced by different degradations (Gaus- sian, speckle, Poisson, and JPEG compression noises).While our DiffBIR’s two-stage pipeline is more stable (see 3rd-row).",
       "caption_zh": "",
       "original": "DiffBIR_Towards_Blind_Image_Restoration_with_Generative_Diffusion_Prior_ECCV_2024/figures/original/Fig2_p002.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "DiffBIR_Towards_Blind_Image_Restoration_with_Generative_Diffusion_Prior_ECCV_2024/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "DiffBIR_Towards_Blind_Image_Restoration_with_Generative_Diffusion_Prior_ECCV_2024/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -5314,16 +5179,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 3.The two-stage pipeline of DiffBIR. 1) Restoration Module (RM) for degradation removal; 2) Generation Module (GM) for realistic image reconstruction with optional region-adaptive restoration guidance for a trade-off between quality and fidelity.",
       "caption_zh": "",
       "original": "DiffBIR_Towards_Blind_Image_Restoration_with_Generative_Diffusion_Prior_ECCV_2024/figures/original/Fig3_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "DiffBIR_Towards_Blind_Image_Restoration_with_Generative_Diffusion_Prior_ECCV_2024/figures/vector/Fig3/Fig3.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "DiffBIR_Towards_Blind_Image_Restoration_with_Generative_Diffusion_Prior_ECCV_2024/figures/vector/Fig3/Fig3.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -5341,16 +5197,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 4.Architectures of our IRControlNet and four model variants.",
       "caption_zh": "",
       "original": "DiffBIR_Towards_Blind_Image_Restoration_with_Generative_Diffusion_Prior_ECCV_2024/figures/original/Fig4_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "DiffBIR_Towards_Blind_Image_Restoration_with_Generative_Diffusion_Prior_ECCV_2024/figures/vector/Fig4/Fig4.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "DiffBIR_Towards_Blind_Image_Restoration_with_Generative_Diffusion_Prior_ECCV_2024/figures/vector/Fig4/Fig4.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -5927,7 +5774,7 @@ window.SITE_DATA = {
           "path": "DreamUHD_Frequency_Enhanced_Variational_Autoencoder_for_AAAI_2025/figures/vector/Fig2/Fig2.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -6862,16 +6709,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.3. OverallframeworkoftheproposedEMAFAmodel.Itmainlyinvolvesthreeunits:Spatio-TemporalFeatureAlignment(STFA)unitforcoarse feature alignment, Bidirectional Dense Feature Propagation (BDFP) unit for fine feature alignment and Residual Feature Enhancement(RFE) unit for residual learning.TheSTFAunitinvolvesmulti-scaleatrousoffsetprediction,deformableconvolutionprocessandmulti-directionfrequencyenhancement(MDFE) module.ThefirsttwoconstitutetheMSADAmodule.TheBDFPunitincludestwodensefeaturepropagationlayersφandϕ.EachlayercontainsaPIPA moduleandanMDFEmodule.TheRFEunitconsistsofachannelattentionlayerandseveralresidualblockswiththeMDFEmodule.",
       "caption_zh": "",
       "original": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024/figures/original/Fig3_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024/figures/vector/Fig3/Fig3.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024/figures/vector/Fig3/Fig3.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -6889,16 +6727,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.4. Thearchitectureofthemulti-directionfrequencyenhancement (MDFE)module.",
       "caption_zh": "",
       "original": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024/figures/original/Fig4_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024/figures/vector/Fig4/Fig4.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024/figures/vector/Fig4/Fig4.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -6943,16 +6772,7 @@ window.SITE_DATA = {
       "caption_en": "Fig. 6. The illustration of Pixel-Wise and Patch-Wise Deformable Alignment (PIPA)block.Itconsistsofregularpixel-wisedeformableconvolutionand patch-wisedeformableconvolution.",
       "caption_zh": "",
       "original": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024/figures/original/Fig6_p005.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024/figures/vector/Fig6/Fig6.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024/figures/vector/Fig6/Fig6.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -7186,16 +7006,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.14. VisualizationoffeaturemapproducedbytheproposedPIPA module.(a)Referenceframe.(b)Overlayoftargetframeandreferenceframe. (c)Featuremapofpixel-wisedeformableconvolution.(d)Featuremapof patch-wisedeformableconvolution. video.Fig.10showsthatourmethodhasabettersubjective visual experience in both the texture and structure regions than thatofSTDR.Inparticular,ourmodeleffectivelymitigates compressionartifacts,suchasblockinessandmotionblur.",
       "caption_zh": "",
       "original": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024/figures/original/Fig14_p009.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024/figures/vector/Fig14/Fig14.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Enlarged_Motion_Aware_and_Frequency_Aware_TCSVT_2024/figures/vector/Fig14/Fig14.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -7474,16 +7285,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.4. OverviewoftheproposedSTHSNNarchitecture.TheSTHSNNconsistsofSTHandMSTHneurons.Foreachtimestep,asetofadjacentvoxel gridsisfedintotheSTHSNN.ThepredictionlayerincreasestheprecisionofthereconstructedimagethroughMSTHneurons.",
       "caption_zh": "",
       "original": "Event_Based_Video_Reconstruction_via_Local_reference_2025/figures/original/Fig4_p006.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Event_Based_Video_Reconstruction_via_Local_reference_2025/figures/vector/Fig4/Fig4.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Event_Based_Video_Reconstruction_via_Local_reference_2025/figures/vector/Fig4/Fig4.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -7528,16 +7330,7 @@ window.SITE_DATA = {
       "caption_en": "Fig. 6. Overview of the proposed TFCSNN architecture. The TFCSNN improves the STHSNN by adding two modules based on the Fourier transform, the TFCMAandTFCMB,whicharepositionedattheheadandtailofthemodel,respectively.TFCMsenhanceimagecontrastbycalibratingfrequency-domain features.",
       "caption_zh": "",
       "original": "Event_Based_Video_Reconstruction_via_Local_reference_2025/figures/original/Fig6_p007.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Event_Based_Video_Reconstruction_via_Local_reference_2025/figures/vector/Fig6/Fig6.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Event_Based_Video_Reconstruction_via_Local_reference_2025/figures/vector/Fig6/Fig6.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -8213,7 +8006,7 @@ window.SITE_DATA = {
           "path": "FSTA_SNN_Frequency_Based_Spatial_Temporal_Attention_Module_for_Spiking_Local_reference_2025/figures/vector/Fig1/Fig1.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -8537,7 +8330,7 @@ window.SITE_DATA = {
           "path": "Generative_Latent_Coding_for_Ultra_Local_reference_2024/figures/vector/Fig4/Fig4.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -8852,7 +8645,7 @@ window.SITE_DATA = {
           "path": "Guided_Aggregation_Network_for_Compressed_Video_Quality_Enhancement_CVPR_2024/figures/vector/Fig3/Fig3.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -9121,16 +8914,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 2:Overview of HFUR for compressed video quality enhancement.HFUR consists of two modules:implicit frequency upsampling module and hierarchical and iterative refinement module.Note that ImpFreqUp∗is a special upsampling module that achieves ×1 upsampling.",
       "caption_zh": "",
       "original": "H_IERARCHICAL_F_REQUENCY_BASED_U_PSAMPLING_AND_Local_reference_0/figures/original/Fig2_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "H_IERARCHICAL_F_REQUENCY_BASED_U_PSAMPLING_AND_Local_reference_0/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "H_IERARCHICAL_F_REQUENCY_BASED_U_PSAMPLING_AND_Local_reference_0/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -9148,16 +8932,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 3:Architecture of ImpFreqUp.",
       "caption_zh": "",
       "original": "H_IERARCHICAL_F_REQUENCY_BASED_U_PSAMPLING_AND_Local_reference_0/figures/original/Fig3_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "H_IERARCHICAL_F_REQUENCY_BASED_U_PSAMPLING_AND_Local_reference_0/figures/vector/Fig3/Fig3.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "H_IERARCHICAL_F_REQUENCY_BASED_U_PSAMPLING_AND_Local_reference_0/figures/vector/Fig3/Fig3.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -9175,16 +8950,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 4:Architecture of HIR",
       "caption_zh": "",
       "original": "H_IERARCHICAL_F_REQUENCY_BASED_U_PSAMPLING_AND_Local_reference_0/figures/original/Fig4_p005.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "H_IERARCHICAL_F_REQUENCY_BASED_U_PSAMPLING_AND_Local_reference_0/figures/vector/Fig4/Fig4.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "H_IERARCHICAL_F_REQUENCY_BASED_U_PSAMPLING_AND_Local_reference_0/figures/vector/Fig4/Fig4.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -9598,16 +9364,7 @@ window.SITE_DATA = {
       "caption_en": "Fig. 2. (a) The overall architecture of HFP-SAN, which explicitly prioritizes high-frequency components by designing a symmetric encoder-decoder framework whilehandlinglow-frequencycomponentswithasmallerresidualnetwork,therebyproportionallyallocatingcomputationalresourcesbasedontheirrelative importance. (b) Illustration of HFSSA. Instead of applying a dense attention mechanism that computes relationships across all regions and processes every pixel, HFSSA dynamically and selectively focuses on regions with strong mutual correlations in their high-frequency details while avoiding computations in areas with weak correlations or irrelevant black regions.",
       "caption_zh": "",
       "original": "High_Frequency_Prioritized_Sparse_Attention_Local_reference_2026/figures/original/Fig2_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "High_Frequency_Prioritized_Sparse_Attention_Local_reference_2026/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "High_Frequency_Prioritized_Sparse_Attention_Local_reference_2026/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -9985,16 +9742,7 @@ window.SITE_DATA = {
       "caption_en": "Fig. 4:InstructionConditionBlock(ICB) using an approximation of task routing [72] formany-taskslearning(SeeEq.2).This mechanism allows the neural network to se- lect and prioritize specific features depend- ingontheinstruction,similarlytoaMix- tureofExperts(MoE).",
       "caption_zh": "",
       "original": "InstructIR_High_Quality_Image_Restoration_ECCV_2024/figures/original/Fig4_p005.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "InstructIR_High_Quality_Image_Restoration_ECCV_2024/figures/vector/Fig4/Fig4.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "InstructIR_High_Quality_Image_Restoration_ECCV_2024/figures/vector/Fig4/Fig4.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -10589,7 +10337,7 @@ window.SITE_DATA = {
           "path": "JND_LIC_Learned_Image_Compression_via_Just_Local_reference_2025/figures/vector/Fig1/Fig1.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -11597,7 +11345,7 @@ window.SITE_DATA = {
           "path": "Leveraging_Bitstream_Metadata_for_Fast_Accurate_Generalized_Compressed_WACV_2024/figures/vector/Fig3/Fig3.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -12244,16 +11992,7 @@ window.SITE_DATA = {
       "caption_en": "Fig. 1.Network structure of proposed super resolution model. The red number indicates the number of channels. In this paper, we assume that the input video sequenceisinYUV420format.Consequently,thechromacomponentsoftheinputlow-resolutionreconstructionrecUV LRisupsampledbynearestneighbour methodtothesameresolutionoflumacomponentsrecY LRbeforebeingfedintothenetwork.TheRPRupsamplingdenotesupsamplingwithRPRfilter whichisanon-CNNfilter.",
       "caption_zh": "",
       "original": "Low_Complexity_Super_Resolution_for_ICASSP_2025/figures/original/Fig1_p001.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Low_Complexity_Super_Resolution_for_ICASSP_2025/figures/vector/Fig1/Fig1.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Low_Complexity_Super_Resolution_for_ICASSP_2025/figures/vector/Fig1/Fig1.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -12271,16 +12010,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.2.Networkstructureoflowcomplexitybackboneblock.ThesepCONV denotesdepth-wiseconvolutionandtherednumberpresentsthenumberof channels.Inthispaper,C1andCare64and16,respectively.",
       "caption_zh": "",
       "original": "Low_Complexity_Super_Resolution_for_ICASSP_2025/figures/original/Fig2_p001.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Low_Complexity_Super_Resolution_for_ICASSP_2025/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Low_Complexity_Super_Resolution_for_ICASSP_2025/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -12298,16 +12028,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.3.Complexitycomparisonforbackboneblock.",
       "caption_zh": "",
       "original": "Low_Complexity_Super_Resolution_for_ICASSP_2025/figures/original/Fig3_p002.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Low_Complexity_Super_Resolution_for_ICASSP_2025/figures/vector/Fig3/Fig3.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Low_Complexity_Super_Resolution_for_ICASSP_2025/figures/vector/Fig3/Fig3.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -12451,16 +12172,7 @@ window.SITE_DATA = {
       "caption_en": "Fig. 1 | Overview of the two-stage motion perception system.a, Stage I mimics the V1 function by detecting local motion, whereas stage II uses a graph network for recurrent motion integration and segregation, mimicking the middle temporal cortex. Stage I employs dual channels to process both first- and higher- order motion. The first-order channel captures Fourier-based motion in motion energy units (red route), and the higher-order channel uses normative 3D CNN layers to extract advanced features (grey route). Natural videos are used to train the entire model for motion flow estimation. b, Illustration of motion energy units in stage I after training. b(i), Distribution of preferred moving directions and speeds. b(ii), Spatiotemporal receptive field of one motion energy unit, characterized by a pair of Gabor kernel and exponentially decayed sinusoidal kernel. The neuron’s receptive field is from ref. 91. b(iii), A demo showing how a rightward-moving grating activates specific motion energy units and decodes to a perceptual response. b(iv), Direction tuning curves of a specific motion energy unit to grating and plaid stimuli. RF, receptive field.",
       "caption_zh": "",
       "original": "Machine_learning_modelling_for_multi_order_Local_reference_2025/figures/original/Fig1_p002.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Machine_learning_modelling_for_multi_order_Local_reference_2025/figures/vector/Fig1/Fig1.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Machine_learning_modelling_for_multi_order_Local_reference_2025/figures/vector/Fig1/Fig1.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -12641,7 +12353,7 @@ window.SITE_DATA = {
           "path": "MambaIR_A_Simple_Baseline_for_Image_ECCV_2024/figures/vector/Fig2/Fig2.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -12965,7 +12677,7 @@ window.SITE_DATA = {
           "path": "MambaIRv2_Attentive_State_Space_Restoration_CVPR_2025/figures/vector/Fig3/Fig3.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -13207,16 +12919,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.2. OverviewoftheproposedMDEformer.MDEformerconsistsofanSTDF-R3baselineandatransformer.CCAmodulesareleveragedtoestablish long-rangedependenciesbetweenencodersanddecodersofthetransformerundertheguidanceofMDEgraphicalconcept,wherePBSmodulesareinserted asfeedforwardnetworks.",
       "caption_zh": "",
       "original": "MDEformer_Mixed_Difference_Equation_Inspired_TNNLS_2025/figures/original/Fig2_p002.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "MDEformer_Mixed_Difference_Equation_Inspired_TNNLS_2025/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "MDEformer_Mixed_Difference_Equation_Inspired_TNNLS_2025/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -13783,16 +13486,7 @@ window.SITE_DATA = {
       "caption_en": "Fig. 3:TheframeworkoftheproposedMoE-DiffIRenablesdynamicpromptlearning formultipleCIRtasksthrough(b)MoE-PromptGenerator,andintroducesavisual- to-textadaptertogeneratemorereasonabletexture.InMoE-DiffIR:MoE-Prompt Module(c)aimstoextractmulti-scalefeaturestointeractwith(b).Here(a)depicts theprocessoffine-tuningStableDiffusion,whichconsistsoftwostages.StageI:only theMoE-PromptModuleispre-trainedtoexcavatetask-customizeddiffusionpriors foreachCIRtask.StageII:the(d)DecoderCompensatorisfine-tunedforstructural correction.",
       "caption_zh": "",
       "original": "MoE_DiffIR_Task_customized_Diffusion_Priors_for_ECCV_2024/figures/original/Fig3_p006.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "MoE_DiffIR_Task_customized_Diffusion_Priors_for_ECCV_2024/figures/vector/Fig3/Fig3.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "MoE_DiffIR_Task_customized_Diffusion_Priors_for_ECCV_2024/figures/vector/Fig3/Fig3.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -13972,16 +13666,7 @@ window.SITE_DATA = {
       "caption_en": "Fig. 2 | Schematic of the WIEN-INR architecture.a, We design a hierarchical encoding process. Encoding begins with the input of p-dimensional coordinates (for example, detector coordinates x = [i, j]), which are normalized and passed to separate MLPs, each trained to predict the wavelet coefficients (coarse to fine) of the signal at different resolution scales. b, Within each MLP, we introduce a novel enhancement module that refines the output of the previous coarser-scale MLP by (1) extracting a local neighbourhood of size (2nr + 1) per input dimension, centred at the input coordinate x in coefficients space; (2) inputting the extracted local neighbourhood to two INRs—one uses coordinates upsampled from the neighbourhood to query the coarser-scale MLP to provide an approximation of the higher resolution (this network is fixed), and the other, a learnable INR that acts as local refinement; (3) and then applying the dot product to the outputs of these two networks to match the target finer-scale wavelet coefficients. This operation is rasterized across all coordinates of interest, refining the coarser outputs into finer-scale outputs. c, After training, the decoding process allows users to query specific ROIs at any desired resolution using the outputs of the separate networks. To map the outputs to the true signal domain, the localized IDWT is applied to the output coefficients. Beyond the improved rate distortion and accuracy, the hierarchical encoding and decoding process also supports multiscale analysis (from coarse to fine details), revealing phenomena at different frequency bands. Beyond scale, the INR-based framework supports decoding at an arbitrary resolution: without interpolation, one can query increasingly fine resolutions to obtain a truly continuous representation.",
       "caption_zh": "",
       "original": "Multi_resolution_enhancement_for_Local_reference_2026/figures/original/Fig2_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Multi_resolution_enhancement_for_Local_reference_2026/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Multi_resolution_enhancement_for_Local_reference_2026/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -13999,16 +13684,7 @@ window.SITE_DATA = {
       "caption_en": "Fig. 3 | Improved rate distortion.a, An important metric to quantify whether representations preserve the full spectrum of information is how well the decoded wavelet coefficients match those of the original signal. The wavelet transform is known to be superior to Fourier analysis in transient or localized phenomena, as different scales capture more complete information: coarser bands represent broad, low-frequency trends, whereas finer bands capture localized phenomena, such as sharp transitions and HF details25. We quantify fidelity across scales by comparing the ℓ2 norm of the wavelet coefficients between the decoded and original signals. Results are shown across four scales and the approximation coefficients of the reconstructed DWT (Haar), sub-bands for four benchmark scientific datasets. Although all baselines remain close to the ground truth at coarse levels, they deviate for finer scales, WIEN-INR closely follows the true DWT distribution (black line), demonstrating robust recovery of fine-scale content and full-spectrum fidelity. b, Rate-distortion comparison across four scientific datasets, showing compression rate versus PSNR, with stronger methods achieving higher accuracy at smaller compression rates. WIEN- INR consistently attains a higher PSNR than competing INR methods at the same compression rates (that is, with fewer network parameters). Performance gains depend on the data characteristics, with the greatest improvements on datasets containing dense, fine-scale structure (for example, the X-ray measurements), where the adaptive time–frequency allocation and finest band enhancement of WIEN-INR is the most effective. c, Another important aspect of the utility is encoding efficiency, that is, the time to achieve a given accuracy level. We plot the encoding latency versus the accuracy achieved (PSNR) for the same networks used in a and b, trained for the same number of global epochs. WAVELET-INR achieves faster per-epoch encoding due to simpler architecture, but reaches a lower maximum PSNR. MINER scales up nicely to larger models due to its multiscale, multipatch design and block selection/dropping35. Please note that MINER was not implemented on the neutron scattering data due to limitations posed by the 4D input dimension.",
       "caption_zh": "",
       "original": "Multi_resolution_enhancement_for_Local_reference_2026/figures/original/Fig3_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Multi_resolution_enhancement_for_Local_reference_2026/figures/vector/Fig3/Fig3.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Multi_resolution_enhancement_for_Local_reference_2026/figures/vector/Fig3/Fig3.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -14287,16 +13963,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 2:The training framework of OSEDiff.The LQ image is passed through a trainable encoder Eθ, a LoRA finetuned diffusion network ϵθand a frozen decoder Dθto obtain the desired HQ image. Inaddition,textpromptsareextractedfromtheLQimageandinputtothediffusionnetworkto stimulate its generation capacity.Meanwhile, the output of the diffusion network ϵθwill be sent to two regularizer networks (a frozen pre-trained one and a fine-tuned one), where variational score distillation is performed in latent space to ensure that the output of ϵθfollows HQ natural image distribution.The regularization loss will be back-propagated to update Eθand ϵθ.Once training is finished, only Eθ, ϵθand Dθwill be used in inference.",
       "caption_zh": "",
       "original": "One_Step_Effective_Diffusion_Network_for_NeurIPS_2024/figures/original/Fig2_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "One_Step_Effective_Diffusion_Network_for_NeurIPS_2024/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "One_Step_Effective_Diffusion_Network_for_NeurIPS_2024/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -14558,7 +14225,7 @@ window.SITE_DATA = {
           "path": "OSCAR_One_Step_Diffusion_Codec_TIP_2026/figures/vector/Fig3/Fig3.pptx"
         }
       ],
-      "vector_mode": "existing",
+      "vector_mode": "architecture_raster_trace_editable_shapes_fallback",
       "latex": "",
       "latex_mode": ""
     },
@@ -15322,16 +14989,7 @@ window.SITE_DATA = {
       "caption_en": "Figure2:Schematicdiagramofthecorrespondence between (𝜙, 𝜃) and (𝑥, 𝑦) coordinates.",
       "caption_zh": "",
       "original": "Panonut360_A_Head_and_Eye_Tracking_Dataset_Local_reference_2024/figures/original/Fig2_p002.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Panonut360_A_Head_and_Eye_Tracking_Dataset_Local_reference_2024/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Panonut360_A_Head_and_Eye_Tracking_Dataset_Local_reference_2024/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -15548,7 +15206,7 @@ window.SITE_DATA = {
           "path": "PerCo_SD_Open_Perceptual_Compression_arXiv_2024/figures/vector/Fig2/Fig2.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -15620,7 +15278,7 @@ window.SITE_DATA = {
           "path": "Play_Versatile_Compressed_Video_Enhancement_CVPR_2025/figures/vector/Fig1/Fig1.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -15674,7 +15332,7 @@ window.SITE_DATA = {
           "path": "Play_Versatile_Compressed_Video_Enhancement_CVPR_2025/figures/vector/Fig3/Fig3.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -16007,7 +15665,7 @@ window.SITE_DATA = {
           "path": "Prompt_In_Prompt_Learning_for_Universal_Image_Restoration_CVPR_2024/figures/vector/Fig2/Fig2.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -16286,7 +15944,7 @@ window.SITE_DATA = {
           "path": "PromptCIR_Blind_Compressed_Image_Restoration_with_Prompt_Learning_CVPRW_2024/figures/vector/Fig2/Fig2.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -16313,7 +15971,7 @@ window.SITE_DATA = {
           "path": "PromptCIR_Blind_Compressed_Image_Restoration_with_Prompt_Learning_CVPRW_2024/figures/vector/Fig3/Fig3.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -16340,7 +15998,7 @@ window.SITE_DATA = {
           "path": "PromptCIR_Blind_Compressed_Image_Restoration_with_Prompt_Learning_CVPRW_2024/figures/vector/Fig4/Fig4.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -16537,16 +16195,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 2:The architecture of our proposed PromptFix.",
       "caption_zh": "",
       "original": "PromptFix_You_Prompt_and_We_Fix_the_Photo_ECCV_2024/figures/original/Fig2_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "PromptFix_You_Prompt_and_We_Fix_the_Photo_ECCV_2024/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "PromptFix_You_Prompt_and_We_Fix_the_Photo_ECCV_2024/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -16636,16 +16285,7 @@ window.SITE_DATA = {
       "caption_en": "Figure5:Preservationoflow-levelimagedetailsusingtheproposedHigh-frequencyGuidance Sampling (HGS) method, compared to previous VAE-based baselines [19, 21, 44] utilizing stable- diffusion architecture.",
       "caption_zh": "",
       "original": "PromptFix_You_Prompt_and_We_Fix_the_Photo_ECCV_2024/figures/original/Fig5_p008.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "PromptFix_You_Prompt_and_We_Fix_the_Photo_ECCV_2024/figures/vector/Fig5/Fig5.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "PromptFix_You_Prompt_and_We_Fix_the_Photo_ECCV_2024/figures/vector/Fig5/Fig5.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "raster_trace_svg+svg_pptx_wrapper+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -16817,7 +16457,7 @@ window.SITE_DATA = {
           "path": "PyTorch_An_Imperative_Style_High_Performance_Local_reference_2019/figures/vector/Fig3/Fig3.pptx"
         }
       ],
-      "vector_mode": "existing",
+      "vector_mode": "architecture_raster_trace_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -16844,7 +16484,7 @@ window.SITE_DATA = {
           "path": "Q_UANTIZED_S_PIKE_DRIVEN_T_RANSFORMER_Local_reference_2025/figures/vector/Fig1/Fig1.pptx"
         }
       ],
-      "vector_mode": "pdf_vector+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -17393,7 +17033,7 @@ window.SITE_DATA = {
           "path": "RDEN_Residual_Distillation_Enhanced_Local_reference_2022/figures/vector/Fig3/Fig3.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -17501,7 +17141,7 @@ window.SITE_DATA = {
           "path": "RDEN_Residual_Distillation_Enhanced_Local_reference_2022/figures/vector/Fig7/Fig7.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -17914,16 +17554,7 @@ window.SITE_DATA = {
       "caption_en": "Fig. 4. The overview of E-SpikeFormer. In general, we follow the design of Meta-SpikeFormer [28] on a macro level, such as CNN-based and Transformer-based SNN blocks and their proportions at each stage. We redesign the interior of CNN-based and Transformer SNN blocks with the goal of efﬁcient architecture. In this ﬁgure, we have marked all upgraded designs in green or pink. In the green part, we insert a BN layer and a spiking neuron layer after the DWConv layer in the CNN-based block to avoid the increase in power caused by the larger convolution kernel size after re-parameterization. In the pink part, the Re-parameterization Convolution(RepConv)in[28]isreplacedbyalinearlayertoreducepower,andwecompensateforthepotentialperformancelossbyexpandingthechannel number of VS. In addition, we add a Spike Separable Convolution (SpikeSepConv) module to the Transformer-based SNN block in [28], which helps performance.",
       "caption_zh": "",
       "original": "Scaling_Spike_Driven_Transformer_With_Efficient_Local_reference_2025/figures/original/Fig4_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Scaling_Spike_Driven_Transformer_With_Efficient_Local_reference_2025/figures/vector/Fig4/Fig4.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Scaling_Spike_Driven_Transformer_With_Efficient_Local_reference_2025/figures/vector/Fig4/Fig4.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -17941,16 +17572,7 @@ window.SITE_DATA = {
       "caption_en": "Fig. 5. The overview of MIM pre-train in E-SpikeFormer. It consists of a SNN encoder and a ANN decoder. The encoder processes only the visible pixels. The decoder reconstructs the images to learn representations, which will be removed in the ﬁne-tuning stage. Using Vanilla Spike Convolution (VSC) as an encoder willleadtoinformationleakage,sowedesignedSpikeSparseConvolution(SSC)toavoidthisﬂaw.Whiteandblackintheﬁgurerepresenttheone/zeroarea respectively. Exploiting VSC will cause the black zero area to continue to grow as the depth increases until there is no valid information. We show that SSC is a natural ﬁt for neuromorphic chips due to the spike-driven nature of SNNs (Section VI-B).",
       "caption_zh": "",
       "original": "Scaling_Spike_Driven_Transformer_With_Efficient_Local_reference_2025/figures/original/Fig5_p006.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Scaling_Spike_Driven_Transformer_With_Efficient_Local_reference_2025/figures/vector/Fig5/Fig5.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Scaling_Spike_Driven_Transformer_With_Efficient_Local_reference_2025/figures/vector/Fig5/Fig5.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -18292,16 +17914,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 2.Overview of SeeSR. (a) In the first stage, we train a degradation-aware prompt extractor (DAPE), which is initialized from a tag model.DAPE is trained to align the encoding of the degraded LR image to the encoding of the corresponding HR image by a tag model (e.g.,RAM [77] in our work),enabling DAPE the degradation-awareness.(b) In the second stage,the well-trained DAPE provides both soft prompts (representation embedding) and hard prompts (tagging text), which are combined with the LR image to control a pretrained T2I model (e.g., SD [46] in our work).The detailed structure of the controlled T2I diffusion model is shown in (c).",
       "caption_zh": "",
       "original": "SeeSR_Towards_Semantics_CVPR_2024/figures/original/Fig2_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "SeeSR_Towards_Semantics_CVPR_2024/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "SeeSR_Towards_Semantics_CVPR_2024/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -18635,7 +18248,7 @@ window.SITE_DATA = {
           "path": "SODiff_Semantic_Oriented_Diffusion_Model_AAAI_2026/figures/vector/Fig2/Fig2.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -18689,7 +18302,7 @@ window.SITE_DATA = {
           "path": "SODiff_Semantic_Oriented_Diffusion_Model_AAAI_2026/figures/vector/Fig4/Fig4.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -18869,7 +18482,7 @@ window.SITE_DATA = {
           "path": "Spatio_Temporal_Interactive_Learning_for_Efficient_NeurIPS_2024/figures/vector/Fig3/Fig3.pptx"
         }
       ],
-      "vector_mode": "pdf_vector+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -19246,16 +18859,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 2:The overview of Spike-driven Transformer.We follow the network structure in [20], but make two new key designs.First, we propose a Spike-driven Self-Attention (SDSA) module, which consists of only mask and sparse addition operations (Fig. 1(b)).Second, we redesign the shortcuts in the whole network, involving position embedding, self-attention, and MLP parts.As indicated by the red line, the shortcut is constructed before the spike neuron layer.That is, we establish residual connections between membrane potentials to make sure that the values in the spike matrix are all binary, which allows the multiplication of the spike and weight matrices to be converted into addition operations.By contrast, previous works [20, 19] build shortcut between spike tensors in different layers, resulting in the output of spike neurons as multi-bit (integer) spikes.",
       "caption_zh": "",
       "original": "Spike_driven_Transformer_Local_reference_0/figures/original/Fig2_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Spike_driven_Transformer_Local_reference_0/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Spike_driven_Transformer_Local_reference_0/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -19445,7 +19049,7 @@ window.SITE_DATA = {
           "path": "SpikeHCD_Spiking_Transformer_With_Parallel_Local_reference_2025/figures/vector/Fig2/Fig2.pptx"
         }
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -19805,7 +19409,7 @@ window.SITE_DATA = {
           "path": "SpikeTrack_A_Spike_driven_Framework_for_Efficient_Visual_Tracking_Local_reference_2026/figures/vector/Fig3/Fig3.pptx"
         }
       ],
-      "vector_mode": "pdf_vector+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "latex": "",
       "latex_mode": ""
     },
@@ -20218,16 +19822,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 2: The overall architecture of SyFormer. A disentanglement architecture processes both the structure map and the original input in a parallel manner, allowing meticulous semantic examination of contextual features.",
       "caption_zh": "",
       "original": "SyFormer_Structure_Guided_Synergism_Transformer_for_Large_Portion_Image_AAAI_2024/figures/original/Fig2_p002.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "SyFormer_Structure_Guided_Synergism_Transformer_for_Large_Portion_Image_AAAI_2024/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "SyFormer_Structure_Guided_Synergism_Transformer_for_Large_Portion_Image_AAAI_2024/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -20272,16 +19867,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 4: Feature decoding alignment block.",
       "caption_zh": "",
       "original": "SyFormer_Structure_Guided_Synergism_Transformer_for_Large_Portion_Image_AAAI_2024/figures/original/Fig4_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "SyFormer_Structure_Guided_Synergism_Transformer_for_Large_Portion_Image_AAAI_2024/figures/vector/Fig4/Fig4.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "SyFormer_Structure_Guided_Synergism_Transformer_for_Large_Portion_Image_AAAI_2024/figures/vector/Fig4/Fig4.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -20380,16 +19966,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.1:(a)AsimpleneuralnetworkarchitecturewithBack- wardResidual(BackReswithn=2)connectionsisshown. Thelayers inBlock1areunrolledn = 2timestoperformthe BackRescomputationwithweightsofConvlayerreusedat each unrolling step. (b) A network with 2 unique convolutional layersinBlock1isshown.Note,BackRescomputationin(a) achievesthesamelogicaldepthofthenetworkin(b).",
       "caption_zh": "",
       "original": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0/figures/original/Fig1_p001.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0/figures/vector/Fig1/Fig1.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0/figures/vector/Fig1/Fig1.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -20461,16 +20038,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.4:ConversionofANNwithBackResblocksintoSNNs usingthresholdbalancing.Here,duringBackRescomputa- tions,weneedtousemultiplethresholdvthresh1,2IFneurons IF1, IF2to match the input-output activity between ANN and SNNateachunrollingstepn = 1, 2.",
       "caption_zh": "",
       "original": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0/figures/original/Fig4_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0/figures/vector/Fig4/Fig4.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0/figures/vector/Fig4/Fig4.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -20488,16 +20056,7 @@ window.SITE_DATA = {
       "caption_en": "Fig. 5: AGD backpropagation chain rule update with BackRes connections.TheBackResblockisessentiallyunrolledn timesandthelossispropagatedthroughtheunrolledgraph tocomputetheweightupdatesateachunrollingstepn = 1, 2 asshown.Note,theConvlayerweightswoftheBackRes blockreceivetwoupdateswithdifferentinputandoutput combinationsgivingrisetodiversegradients.",
       "caption_zh": "",
       "original": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0/figures/original/Fig5_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0/figures/vector/Fig5/Fig5.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0/figures/vector/Fig5/Fig5.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -20515,16 +20074,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.6:AhybridnetworkarchitecturewithReLUactivationinitiallyandLIFactivationinlatterlayersforAGDtrainingis shown. During AGD backpropagation, the SNN −blockis unrolled and the weight updates are calculated through the unrolled graphoverdifferenttime-stepsusingchain-rule.ThelossgradientfromtheSNN−block, ∂Loss ∂WSNN,isthenbackpropagated throughtheANNcomputationalgraphtocalculatetheANNlossgradients ∂Loss ∂WANN.Note,theSNN−blockrecievesthe real-valuedinputXcomputedfromtheANN−blockateachtime-step.",
       "caption_zh": "",
       "original": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0/figures/original/Fig6_p006.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0/figures/vector/Fig6/Fig6.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Towards_Scalable_Efficient_and_Accurate_Deep_Local_reference_0/figures/vector/Fig6/Fig6.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -20875,16 +20425,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 1. Residual blocks and Dual-stream blocks in Spiking ResNet (Fang et al., 2021a) and Spike Transformer (Zhou et al., 2023).(a) the Spiking ResNet by replacing ReLU activation layers with spiking neurons.(b) The Spiking ResNet with Dual-stream training.(c) The input of the Spike Transformer with Spiking Self-Attention (SSA) is non-spike data due to residual addition between blocks, which brings additional multiply accumulative computation to SNN. (d) Spike Transformer with a dual-stream structure is divided into a spike propagation pathway and a plug-and-play auxiliary accumulation pathway (AAP), which could compensate for full spike propagation. Note AAP could be either retained or removed in model inference.",
       "caption_zh": "",
       "original": "Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0/figures/original/Fig1_p002.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0/figures/vector/Fig1/Fig1.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0/figures/vector/Fig1/Fig1.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "pdf_vector",
       "latex": "",
       "latex_mode": ""
@@ -20902,16 +20443,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 2. The SEW Block (Fang et al., 2021a) and its Downsample blocks with a dual-stream structure.",
       "caption_zh": "",
       "original": "Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0/figures/original/Fig2_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Training_Full_Spike_Neural_Networks_via_Auxiliary_Accumulation_Pathway_Local_reference_0/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "pdf_vector",
       "latex": "",
       "latex_mode": ""
@@ -21082,16 +20614,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.2. TheoverallframeworkoftheproposedTSAN-basedsynthesizedviewqualityenhancementmethodfor3D-HEVC.",
       "caption_zh": "",
       "original": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022/figures/original/Fig2_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -21109,16 +20632,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.3. ThearchitectureofourpeoposedTSAN,wheredifferentcolorsrepresentdifferentoperations.Thedescriptionofeachoperationisgiveninthe bottomrightcorner.",
       "caption_zh": "",
       "original": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022/figures/original/Fig3_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022/figures/vector/Fig3/Fig3.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022/figures/vector/Fig3/Fig3.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -21181,16 +20695,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.5. Schematicof2×pixel-unshufﬂeoperation,wheretheleftisinput image,andtherightaresub-imagesafterpixel-unshufﬂelayer.",
       "caption_zh": "",
       "original": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022/figures/original/Fig5_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022/figures/vector/Fig5/Fig5.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022/figures/vector/Fig5/Fig5.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -21208,16 +20713,7 @@ window.SITE_DATA = {
       "caption_en": "Fig.6. Schematicof2×pixel-shufﬂeoperation,wheretheleftareinput featuremaps,andtherightisupsampledoutput.",
       "caption_zh": "",
       "original": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022/figures/original/Fig6_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022/figures/vector/Fig6/Fig6.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "TSAN_Synthesized_View_Quality_Enhancement_via_Local_reference_2022/figures/vector/Fig6/Fig6.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -21532,16 +21028,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 1: The overview of our contributions.",
       "caption_zh": "",
       "original": "UCF_Crime_DVS_A_Novel_Event_Based_Dataset_Local_reference_2025/figures/original/Fig1_p000.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "UCF_Crime_DVS_A_Novel_Event_Based_Dataset_Local_reference_2025/figures/vector/Fig1/Fig1.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "UCF_Crime_DVS_A_Novel_Event_Based_Dataset_Local_reference_2025/figures/vector/Fig1/Fig1.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -21631,16 +21118,7 @@ window.SITE_DATA = {
       "caption_en": "Figure4:TheframeworkofourproposedMSF.TheLSFandGSFrepresentsthelocalandglobalspikingfeatureextractor module, respectively. LCEdenotes cross-entropy loss, and LCdenotes center loss.",
       "caption_zh": "",
       "original": "UCF_Crime_DVS_A_Novel_Event_Based_Dataset_Local_reference_2025/figures/original/Fig4_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "UCF_Crime_DVS_A_Novel_Event_Based_Dataset_Local_reference_2025/figures/vector/Fig4/Fig4.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "UCF_Crime_DVS_A_Novel_Event_Based_Dataset_Local_reference_2025/figures/vector/Fig4/Fig4.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -21838,16 +21316,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 3.Block-based correlations using different block-based features.Upper:DCT blocks are dequantized before calculating feature values.Lower:DCT blocks remain quantized.",
       "caption_zh": "",
       "original": "Uncover_Treasures_in_DCT_Advancing_JPEG_Quality_Enhancement_by_Exploiting_ICCV_2025/figures/original/Fig3_p002.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Uncover_Treasures_in_DCT_Advancing_JPEG_Quality_Enhancement_by_Exploiting_ICCV_2025/figures/vector/Fig3/Fig3.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Uncover_Treasures_in_DCT_Advancing_JPEG_Quality_Enhancement_by_Exploiting_ICCV_2025/figures/vector/Fig3/Fig3.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -21892,16 +21361,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 5.Overview of the proposed AJQE method.Our method directly accesses the JPEG bitstream as input, enhances the quality of the DCT coefﬁcients within the bitstream, and outputs the enhanced coefﬁcients.",
       "caption_zh": "",
       "original": "Uncover_Treasures_in_DCT_Advancing_JPEG_Quality_Enhancement_by_Exploiting_ICCV_2025/figures/original/Fig5_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Uncover_Treasures_in_DCT_Advancing_JPEG_Quality_Enhancement_by_Exploiting_ICCV_2025/figures/vector/Fig5/Fig5.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Uncover_Treasures_in_DCT_Advancing_JPEG_Quality_Enhancement_by_Exploiting_ICCV_2025/figures/vector/Fig5/Fig5.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -21919,16 +21379,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 6.Architecture of EMBC.",
       "caption_zh": "",
       "original": "Uncover_Treasures_in_DCT_Advancing_JPEG_Quality_Enhancement_by_Exploiting_ICCV_2025/figures/original/Fig6_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Uncover_Treasures_in_DCT_Advancing_JPEG_Quality_Enhancement_by_Exploiting_ICCV_2025/figures/vector/Fig6/Fig6.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Uncover_Treasures_in_DCT_Advancing_JPEG_Quality_Enhancement_by_Exploiting_ICCV_2025/figures/vector/Fig6/Fig6.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -21946,16 +21397,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 7.Architecture of EMPC.",
       "caption_zh": "",
       "original": "Uncover_Treasures_in_DCT_Advancing_JPEG_Quality_Enhancement_by_Exploiting_ICCV_2025/figures/original/Fig7_p004.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Uncover_Treasures_in_DCT_Advancing_JPEG_Quality_Enhancement_by_Exploiting_ICCV_2025/figures/vector/Fig7/Fig7.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Uncover_Treasures_in_DCT_Advancing_JPEG_Quality_Enhancement_by_Exploiting_ICCV_2025/figures/vector/Fig7/Fig7.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing",
       "latex": "",
       "latex_mode": ""
@@ -22081,16 +21523,7 @@ window.SITE_DATA = {
       "caption_en": "Figure1:OverviewofourproposedUCIRframework.(a)depictsStage1,whereP-Netistrainedtopredictcodec-aware conditions,andR-Nettorestoreimagesusingground-truthconditions.R-NetconsistsofTransformerblocks,theRHAGs adapted from HAT (Chen et al. 2023), and the CCMs. (b) shows Stage 2, in which P-Net and R-Net are jointly optimized. P-Net generates conditions for R-Net and is fine-tuned using reward and reconstruction losses. (c) shows the structure of CCM, which fuses the conditions and image feature, generating a fused feature to guide restoration. (d) illustrates the reward module, which computes the reward for P-Net training based on the sampled conditions.",
       "caption_zh": "",
       "original": "Universal_Compressed_Image_Restoration_via_Codec_Aware_Conditioning_with_AAAI_2026/figures/original/Fig1_p002.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Universal_Compressed_Image_Restoration_via_Codec_Aware_Conditioning_with_AAAI_2026/figures/vector/Fig1/Fig1.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Universal_Compressed_Image_Restoration_via_Codec_Aware_Conditioning_with_AAAI_2026/figures/vector/Fig1/Fig1.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -22702,16 +22135,7 @@ window.SITE_DATA = {
       "caption_en": "Fig. 1. (a) High-level conceptual diagram of the proposed visual-in-visual network. (b) Overview of the image restoration tasks supported by the method, covering various degradation settings and application domains.",
       "caption_zh": "",
       "original": "Visual_in_Visual_A_Unified_and_Efficient_Baseline_for_Local_reference_2026/figures/original/Fig1_p001.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Visual_in_Visual_A_Unified_and_Efficient_Baseline_for_Local_reference_2026/figures/vector/Fig1/Fig1.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Visual_in_Visual_A_Unified_and_Efficient_Baseline_for_Local_reference_2026/figures/vector/Fig1/Fig1.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -22756,16 +22180,7 @@ window.SITE_DATA = {
       "caption_en": "Fig. 3. (a) Architecture of the Visual-in-Visual Network (VIVNet) for universal image restoration, featuring a U-shaped macro visual design and micro visual basic blocks at each stage. (b) Each basic block primarily comprises the proposed Brain-Inspired Module (BIM) and a feed-forward network (FFN) [14]. (c) The BIM includes three processing stages: 1) the encoding stage captures visual cues at multiple spatial scales by emulating foveal and peripheral vision mechanisms; 2) the similarity-aware weighting mechanism assigns weights based on a cosine similarity map to emphasize informative features and suppress redundancy; and 3) the iterative use of element-wise multiplication combined with depth-wise convolutions to model high-order interactions. Overall, the BIM leverages lightweight operations to mimic human visual processing while maintaining high efﬁciency.",
       "caption_zh": "",
       "original": "Visual_in_Visual_A_Unified_and_Efficient_Baseline_for_Local_reference_2026/figures/original/Fig3_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Visual_in_Visual_A_Unified_and_Efficient_Baseline_for_Local_reference_2026/figures/vector/Fig3/Fig3.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Visual_in_Visual_A_Unified_and_Efficient_Baseline_for_Local_reference_2026/figures/vector/Fig3/Fig3.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -23854,16 +23269,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 1: Framework of the proposed zero-shot video restoration and enhancement.",
       "caption_zh": "",
       "original": "Zero_Shot_Video_Restoration_and_Enhancement_Using_Pre_Trained_AAAI_2025/figures/original/Fig1_p002.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Zero_Shot_Video_Restoration_and_Enhancement_Using_Pre_Trained_AAAI_2025/figures/vector/Fig1/Fig1.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Zero_Shot_Video_Restoration_and_Enhancement_Using_Pre_Trained_AAAI_2025/figures/vector/Fig1/Fig1.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""
@@ -23881,16 +23287,7 @@ window.SITE_DATA = {
       "caption_en": "Figure 2: Architecture of the proposed SLR Temporal Attention. (a) The two modules in SLR temporal attention: cross-neighbor- frame attention and self-corrected trajectory attention, focus on short-range and long-range temporal correlation between frames, respectively. (b) The cross-neighbor-frame attention is applied first, and its output serves as the query for the self-corrected trajectory attention. (c) The procedure of self-corrected trajectory sampling. The red, yellow, and green trajectories denote the flow-based, similarity-based, and historically-best trajectories, respectively.",
       "caption_zh": "",
       "original": "Zero_Shot_Video_Restoration_and_Enhancement_Using_Pre_Trained_AAAI_2025/figures/original/Fig2_p003.png",
-      "vectors": [
-        {
-          "type": "svg",
-          "path": "Zero_Shot_Video_Restoration_and_Enhancement_Using_Pre_Trained_AAAI_2025/figures/vector/Fig2/Fig2.svg"
-        },
-        {
-          "type": "pptx",
-          "path": "Zero_Shot_Video_Restoration_and_Enhancement_Using_Pre_Trained_AAAI_2025/figures/vector/Fig2/Fig2.pptx"
-        }
-      ],
+      "vectors": [],
       "vector_mode": "existing+compact_raster_wrapper",
       "latex": "",
       "latex_mode": ""

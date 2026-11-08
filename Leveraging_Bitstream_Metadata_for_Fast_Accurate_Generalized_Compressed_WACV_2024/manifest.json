@@ -113,7 +113,7 @@
         "figures/vector/Fig3/Fig3.svg",
         "figures/vector/Fig3/Fig3.pptx"
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "vector_exit_code": 0,
       "vector_log_tail": "existing output reused",
       "vector_qa": [
@@ -121,7 +121,8 @@
           "verify_pptx_code": 0,
           "verify_pptx_tail": "幻灯片: 13.33 x 5.17 in\n\n形状统计 (307 个):\n  FREEFORM (5)                 246\n  TEXT_BOX (17)                38\n  PICTURE (13)                 23\n\n矢量形状: 284\n位图图片: 23\n  1.6% 画面  (1.39 x 0.78 in)\n  1.7% 画面  (1.46 x 0.82 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.46 x 0.82 in)\n  1.7% 画面  (1.46 x 0.82 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  ... 共 23 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
-      ]
+      ],
+      "vector_qa_architecture": "幻灯片: 13.33 x 5.17 in\n\n形状统计 (307 个):\n  FREEFORM (5)                 246\n  TEXT_BOX (17)                38\n  PICTURE (13)                 23\n\n矢量形状: 284\n位图图片: 23\n  1.6% 画面  (1.39 x 0.78 in)\n  1.7% 画面  (1.46 x 0.82 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.46 x 0.82 in)\n  1.7% 画面  (1.46 x 0.82 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  1.7% 画面  (1.45 x 0.81 in)\n  ... 共 23 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
     },
     {
       "kind": "figure",
@@ -161,7 +162,8 @@
           "verify_pptx_code": 0,
           "verify_pptx_tail": "幻灯片: 13.33 x 12.83 in\n\n形状统计 (107 个):\n  FREEFORM (5)                 95\n  TEXT_BOX (17)                10\n  PICTURE (13)                 2\n\n矢量形状: 105\n位图图片: 2\n  4.6% 画面  (2.80 x 2.80 in)\n  3.5% 画面  (2.30 x 2.58 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
-      ]
+      ],
+      "vector_qa_architecture": "verified_editable_shapes"
     },
     {
       "kind": "table",

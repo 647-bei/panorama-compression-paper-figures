@@ -121,7 +121,8 @@
           "verify_pptx_code": 0,
           "verify_pptx_tail": "幻灯片: 13.33 x 4.52 in\n\n形状统计 (454 个):\n  FREEFORM (5)                 379\n  TEXT_BOX (17)                73\n  PICTURE (13)                 2\n\n矢量形状: 452\n位图图片: 2\n  1.5% 画面  (0.78 x 1.17 in)\n  1.5% 画面  (0.78 x 1.18 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
-      ]
+      ],
+      "vector_qa_architecture": "verified_editable_shapes"
     },
     {
       "kind": "figure",
@@ -153,7 +154,7 @@
         "figures/vector/Fig4/Fig4.svg",
         "figures/vector/Fig4/Fig4.pptx"
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "vector_exit_code": 0,
       "vector_log_tail": "existing output reused",
       "vector_qa": [
@@ -161,7 +162,8 @@
           "verify_pptx_code": 0,
           "verify_pptx_tail": "幻灯片: 13.33 x 3.13 in\n\n形状统计 (337 个):\n  FREEFORM (5)                 239\n  TEXT_BOX (17)                98\n\n矢量形状: 337\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
-      ]
+      ],
+      "vector_qa_architecture": "幻灯片: 13.33 x 3.13 in\n\n形状统计 (337 个):\n  FREEFORM (5)                 239\n  TEXT_BOX (17)                98\n\n矢量形状: 337\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
     },
     {
       "kind": "figure",

@@ -8,6 +8,11 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+ARCHITECTURE_CAPTION = re.compile(
+    r"architecture|framework|pipeline|workflow|overview|schematic|structure\s+of|"
+    r"network\s+architecture|overall\s+network|model\s+architecture|module\s+design|block",
+    re.I,
+)
 LABEL_RE = re.compile(r"^(?:Fig(?:ure)?|Table)\s*([0-9]+)([A-Za-z]?)$", re.I)
 
 
@@ -85,7 +90,19 @@ def main() -> None:
                 continue
             pos, number, suffix = position(asset.get("label", ""))
             vectors = []
+            caption_for_asset = asset.get("caption_en", asset.get("caption", ""))
+            architecture_caption = asset.get("kind") == "figure" and ARCHITECTURE_CAPTION.search(str(caption_for_asset))
+            vector_mode = str(asset.get("vector_mode", ""))
+            editable_architecture = (
+                vector_mode.startswith("architecture_") and not vector_mode.endswith("_FAILED_VERIFY")
+            ) or asset.get("vector_qa_architecture") == "verified_editable_shapes"
             for vector in asset.get("vector", []):
+                # Do not expose an image-only PPTX/SVG as an editable download
+                # for an architecture/framework figure. Such figures remain
+                # browsable as caption-free PNGs until a shape-level rebuild is
+                # verified by pdf-figure-vector's PPTX checker.
+                if architecture_caption and not editable_architecture:
+                    continue
                 vector_path = manifest_path.parent / vector
                 if vector_path.exists():
                     vectors.append({"type": vector_path.suffix.lower().lstrip("."), "path": vector_path.relative_to(ROOT).as_posix()})
@@ -104,7 +121,7 @@ def main() -> None:
                 "caption_zh": asset.get("caption_zh", ""),
                 "original": original.relative_to(ROOT).as_posix(),
                 "vectors": vectors,
-                "vector_mode": asset.get("vector_mode", ""),
+                "vector_mode": vector_mode,
                 "latex": latex_path.relative_to(ROOT).as_posix() if asset.get("latex") and latex_path.exists() else "",
                 "latex_mode": asset.get("latex_mode", ""),
             })

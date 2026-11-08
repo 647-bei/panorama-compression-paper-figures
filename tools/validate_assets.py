@@ -37,7 +37,11 @@ def main() -> None:
             tree = ET.parse(p)
             root_tag = tree.getroot().tag.lower()
             text = p.read_text(encoding="utf-8", errors="ignore")
-            ok = root_tag.endswith("svg") and ("<path" in text or "<text" in text or "<image" in text)
+            # Native PDF extraction may use polygons, polylines, rectangles and
+            # circles instead of path/text/image nodes.  Treat any drawable SVG
+            # primitive as valid; the PPTX verifier separately checks editability.
+            drawable = ("<path", "<text", "<image", "<polygon", "<polyline", "<rect", "<circle", "<ellipse", "<line")
+            ok = root_tag.endswith("svg") and any(token in text for token in drawable)
             report["svgs"].append({"file": str(p.relative_to(root)), "ok": ok, "bytes": p.stat().st_size})
             if not ok:
                 report["errors"].append(f"SVG {p}")

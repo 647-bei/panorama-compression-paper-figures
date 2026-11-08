@@ -827,7 +827,7 @@
     "venue_short": "TCSVT",
     "venue_type": "期刊",
     "year": 2025,
-    "classification": "本地参考文献，分区待核验",
+    "classification": "中科院 1区 TOP（2025）",
     "official_url": "https://www.ieee.org/publications/rights/index.html",
     "pdf_url": "https://www.ieee.org/publications/rights/index.html",
     "access": "local_pdf",
@@ -836,9 +836,10 @@
       "C:\\Users\\Admin\\Zotero\\storage\\IEYFKC8E\\Yu 等 - 2025 - Event-Based Video Reconstruction Via Spatial–Temporal Heterogeneous Spiking Neural Network.pdf"
     ],
     "source_scope": "Zotero",
-    "ranking_display": "中科院 2区（2025）",
-    "cas_display": "中科院 2区（2025）",
-    "ccf_display": "CCF：未收录（2026目录）"
+    "ranking_display": "中科院 1区 TOP（2025）",
+    "cas_display": "中科院 1区 TOP（2025）",
+    "ccf_display": "CCF：未收录（2026目录）",
+    "cas_zone": 1
   },
   "vectorized": [
     {

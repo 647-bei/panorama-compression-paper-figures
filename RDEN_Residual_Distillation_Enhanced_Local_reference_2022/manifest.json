@@ -141,7 +141,8 @@
           "verify_pptx_code": 0,
           "verify_pptx_tail": "幻灯片: 13.33 x 3.86 in\n\n形状统计 (488 个):\n  FREEFORM (5)                 391\n  PICTURE (13)                 97\n\n矢量形状: 391\n位图图片: 97\n  0.0% 画面  (0.23 x 0.03 in)\n  0.0% 画面  (0.18 x 0.02 in)\n  0.0% 画面  (0.14 x 0.02 in)\n  0.0% 画面  (0.10 x 0.03 in)\n  0.0% 画面  (0.04 x 0.02 in)\n  0.0% 画面  (0.03 x 0.02 in)\n  0.0% 画面  (0.08 x 0.03 in)\n  0.0% 画面  (0.78 x 0.02 in)\n  0.0% 画面  (0.09 x 0.02 in)\n  0.0% 画面  (0.02 x 0.02 in)\n  ... 共 97 张\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
-      ]
+      ],
+      "vector_qa_architecture": "verified_editable_shapes"
     },
     {
       "kind": "table",
@@ -203,7 +204,7 @@
         "figures/vector/Fig3/Fig3.svg",
         "figures/vector/Fig3/Fig3.pptx"
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "vector_exit_code": 0,
       "vector_log_tail": "existing output reused",
       "vector_qa": [
@@ -211,7 +212,8 @@
           "verify_pptx_code": 0,
           "verify_pptx_tail": "幻灯片: 13.33 x 9.66 in\n\n形状统计 (299 个):\n  FREEFORM (5)                 299\n\n矢量形状: 299\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
-      ]
+      ],
+      "vector_qa_architecture": "幻灯片: 13.33 x 9.66 in\n\n形状统计 (299 个):\n  FREEFORM (5)                 299\n\n矢量形状: 299\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
     },
     {
       "kind": "figure",
@@ -251,7 +253,8 @@
           "verify_pptx_code": 0,
           "verify_pptx_tail": "幻灯片: 13.33 x 4.20 in\n\n形状统计 (162 个):\n  FREEFORM (5)                 162\n\n矢量形状: 162\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
-      ]
+      ],
+      "vector_qa_architecture": "verified_editable_shapes"
     },
     {
       "kind": "figure",
@@ -363,7 +366,7 @@
         "figures/vector/Fig7/Fig7.svg",
         "figures/vector/Fig7/Fig7.pptx"
       ],
-      "vector_mode": "existing+compact_raster_wrapper",
+      "vector_mode": "architecture_pdf_native_editable_shapes",
       "vector_exit_code": 0,
       "vector_log_tail": "existing output reused",
       "vector_qa": [
@@ -371,7 +374,8 @@
           "verify_pptx_code": 0,
           "verify_pptx_tail": "幻灯片: 13.33 x 8.88 in\n\n形状统计 (208 个):\n  FREEFORM (5)                 208\n\n矢量形状: 208\n位图图片: 0\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
         }
-      ]
+      ],
+      "vector_qa_architecture": "幻灯片: 13.33 x 17.49 in\n\n形状统计 (251 个):\n  FREEFORM (5)                 236\n  TEXT_BOX (17)                13\n  PICTURE (13)                 2\n\n矢量形状: 249\n位图图片: 2\n  13.6% 画面  (6.23 x 5.08 in)\n  13.9% 画面  (6.26 x 5.20 in)\n\n[OK] 不是全屏贴图，主体是可编辑矢量形状\n提示：在 PowerPoint 里点一下图形，能选中单个形状/路径即为矢量；若整张图只能作为一个对象选中，则仍是位图。\n"
     },
     {
       "kind": "table",
@@ -887,7 +891,7 @@
     "venue_short": "TCSVT",
     "venue_type": "期刊",
     "year": 2022,
-    "classification": "本地参考文献，分区待核验",
+    "classification": "中科院 1区 TOP（2025）",
     "official_url": "https://www.ieee.org/publications/rights/index.html",
     "pdf_url": "https://www.ieee.org/publications/rights/index.html",
     "access": "local_pdf",
@@ -896,9 +900,10 @@
       "C:\\Users\\Admin\\Zotero\\storage\\MKVAFRW9\\Pan 等 - 2022 - RDEN Residual Distillation Enhanced Network-Guided Lightweight Synthesized View Quality Enhancement.pdf"
     ],
     "source_scope": "Zotero",
-    "ranking_display": "中科院 2区（2025）",
-    "cas_display": "中科院 2区（2025）",
-    "ccf_display": "CCF：未收录（2026目录）"
+    "ranking_display": "中科院 1区 TOP（2025）",
+    "cas_display": "中科院 1区 TOP（2025）",
+    "ccf_display": "CCF：未收录（2026目录）",
+    "cas_zone": 1
   },
   "vectorized": [
     {
