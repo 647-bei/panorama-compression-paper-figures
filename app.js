@@ -12,6 +12,10 @@
   };
 
   const FAVORITES_KEY = "panorama-paper-figure-favorites-v1";
+  // The Pages deployment currently publishes raster figures/tables and LaTeX only.
+  // Keep local vector files in the repository, but do not expose links to files
+  // intentionally omitted from the hosted artifact while the package is reduced.
+  const HOSTED_VECTOR_DOWNLOADS = false;
   const loadFavorites = () => {
     try {
       const value = JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]");
@@ -96,6 +100,7 @@
 
   function vectorLinks(asset) {
     if (asset.kind !== "figure") return '<span class="muted">表格仅提供 LaTeX 下载</span>';
+    if (!HOSTED_VECTOR_DOWNLOADS) return '<span class="muted">PPT/SVG 暂不可用（当前在线资源包未发布矢量文件）</span>';
     if (!asset.vectors?.length) return asset.vector_status === "unavailable_temporary"
       ? '<span class="muted">PPT/SVG 暂不可用（本批次暂未绘制）</span>'
       : '<span class="muted">暂无 SVG/PPTX</span>';
@@ -113,8 +118,8 @@
       }
       return links.join("");
     }
-    const pptx = (asset.vectors || []).find((item) => item.type === "pptx");
-    const svg = (asset.vectors || []).find((item) => item.type === "svg");
+    const pptx = HOSTED_VECTOR_DOWNLOADS ? (asset.vectors || []).find((item) => item.type === "pptx") : null;
+    const svg = HOSTED_VECTOR_DOWNLOADS ? (asset.vectors || []).find((item) => item.type === "svg") : null;
     if (pptx) links.push(`<a class="download-link primary" href="${escapeHtml(pptx.path)}" download>下载高清 PPTX</a>`);
     else links.push(`<span class="muted">${asset.ppt_status === "unavailable_temporary" ? "高清 PPTX 暂不可用（本批次暂未绘制）" : "暂无可编辑 PPTX"}</span>`);
     if (svg) links.push(`<a class="download-link" href="${escapeHtml(svg.path)}" download>下载 SVG</a>`);
