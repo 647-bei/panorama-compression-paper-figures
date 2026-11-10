@@ -31,10 +31,26 @@ jobs:
           rsync -a \
             --exclude='.git' \
             --exclude='_pages_dist' \
+            --exclude='*.png' \
             --exclude='*.pptx' \
             --exclude='*.svg' \
             --exclude='*.ttf' \
             ./ _pages_dist/
+          while IFS= read -r -d '' source; do
+            relative="${source#./}"
+            target="_pages_dist/${relative%.png}.webp"
+            mkdir -p "$(dirname "$target")"
+            ffmpeg -y -loglevel error -i "$source" -c:v libwebp -lossless 1 "$target"
+          done < <(find . -path './_pages_dist' -prune -o -type f -name '*.png' -print0)
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("_pages_dist/site_data.js")
+          text = path.read_text(encoding="utf-8")
+          text = re.sub(r'(["\'])([^"\']*?)\.png\1', r'\1\2.webp\1', text)
+          path.write_text(text, encoding="utf-8")
+          PY
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -108,7 +108,7 @@
   }
 
   function downloadLinks(asset) {
-    const links = [`<a class="download-link" href="${escapeHtml(asset.original)}" download>下载原始 PNG</a>`];
+    const links = [`<a class="download-link" href="${escapeHtml(asset.original)}" download>下载无损 WebP（在线）</a>`];
     if (asset.kind === "table") {
       if (asset.latex) {
         const label = asset.latex_mode === "extracted_tabular" ? "下载 LaTeX（可编辑）" : "下载 LaTeX（图像包装）";
