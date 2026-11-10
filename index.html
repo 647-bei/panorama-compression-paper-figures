@@ -23,6 +23,7 @@
         <div class="control"><label for="asset-sort">图片/表格排序</label><select id="asset-sort"><option value="number_asc">编号：小到大</option><option value="number_desc">编号：大到小</option><option value="page_asc">PDF 页码</option><option value="label">标签</option></select></div>
         <div class="control"><label for="year">年份筛选</label><select id="year"><option value="all">全部年份</option></select></div>
         <div class="control"><label for="paper-filter">论文筛选</label><select id="paper-filter"><option value="all">全部论文</option></select></div>
+        <div class="control"><label for="favorite-filter">收藏筛选</label><select id="favorite-filter"><option value="all">全部资料</option><option value="favorites">仅看收藏</option></select></div>
         <button class="reset" id="reset" type="button">重置筛选</button>
       </div>
     </div>
@@ -31,7 +32,7 @@
     <div class="summary-bar"><p id="summary" class="summary"></p><span id="view-label"></span></div>
     <div id="content"></div>
   </main>
-  <footer class="footer">论文标题链接到官方论文页面。图片裁切不包含 caption；图片提供 SVG/PPTX，表格提供 LaTeX。</footer>
+  <footer class="footer">论文标题链接到官方论文页面。图片裁切不包含 caption；图片提供 SVG/PPTX，表格提供 LaTeX。收藏保存在当前浏览器中。</footer>
   <script src="site_data.js"></script>
   <script src="app.js"></script>
 </body>

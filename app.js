@@ -8,6 +8,22 @@
     assetSort: "number_asc",
     year: "all",
     query: "",
+    favoriteFilter: "all",
+  };
+
+  const FAVORITES_KEY = "panorama-paper-figure-favorites-v1";
+  const loadFavorites = () => {
+    try {
+      const value = JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]");
+      return new Set(Array.isArray(value) ? value.filter((id) => typeof id === "string") : []);
+    } catch (_) { return new Set(); }
+  };
+  const favorites = loadFavorites();
+  const saveFavorites = () => { try { localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites])); } catch (_) {} };
+  const isFavorite = (asset) => favorites.has(asset.id);
+  const favoriteButton = (asset) => {
+    const active = isFavorite(asset);
+    return `<button class="favorite-button${active ? " is-favorite" : ""}" type="button" data-favorite-id="${escapeHtml(asset.id)}" aria-pressed="${active}" title="${active ? "取消收藏" : "收藏此" + (asset.kind === "figure" ? "图片" : "表格")}"><span class="favorite-star" aria-hidden="true">${active ? "★" : "☆"}</span><span class="favorite-text">${active ? "已收藏" : "收藏"}</span></button>`;
   };
 
   const $ = (id) => document.getElementById(id);
@@ -71,6 +87,7 @@
       if (asset.kind !== state.kind) return false;
       const paper = paperMap.get(asset.paper_id) || {};
       if (state.year !== "all" && String(paper.year) !== state.year) return false;
+      if (state.favoriteFilter === "favorites" && !isFavorite(asset)) return false;
       if (!q) return true;
       const text = [paper.title, paper.venue, paper.venue_short, paper.cas_display, paper.ccf_display, paper.year, asset.paper_id, asset.label, asset.position_key, asset.caption_en, asset.caption_zh, asset.caption].join(" ").toLowerCase();
       return text.includes(q);
@@ -111,7 +128,7 @@
     return `<article class="asset-tile ${maxHeight}">
       <a class="image-link" href="${escapeHtml(asset.original)}" target="_blank"><img loading="lazy" src="${escapeHtml(asset.original)}" alt="${escapeHtml(asset.label)} ${escapeHtml(paper.title)}"></a>
       <div class="tile-body">
-        <div class="tile-label"><span class="asset-position">${escapeHtml(asset.label)}</span><span class="paper-badges">${paperBadgesHtml(paper)}</span></div>
+        <div class="tile-label"><span class="asset-position">${escapeHtml(asset.label)}</span><span class="paper-badges">${paperBadgesHtml(paper)}</span>${favoriteButton(asset)}</div>
         <h3>${paperTitle(paper)}</h3>
         <div class="tile-meta">${escapeHtml(paperVenueMeta(paper))}PDF 第 ${asset.page + 1} 页（页索引 ${asset.page}）</div>
         ${captionHtml(asset)}
@@ -122,7 +139,7 @@
 
   function assetDownloadRow(asset) {
     const paper = paperMap.get(asset.paper_id) || {};
-    return `<article class="download-item"><div class="download-item-main"><strong>${escapeHtml(asset.label)}</strong><span class="paper-badges">${paperBadgesHtml(paper)}</span><span>${escapeHtml(paperVenueMeta(paper))}PDF 第 ${asset.page + 1} 页</span>${captionHtml(asset)}</div><div class="download-group">${downloadLinks(asset)}</div></article>`;
+    return `<article class="download-item"><div class="download-item-main"><div class="download-item-head"><strong>${escapeHtml(asset.label)}</strong>${favoriteButton(asset)}<span class="paper-badges">${paperBadgesHtml(paper)}</span><span>${escapeHtml(paperVenueMeta(paper))}PDF 第 ${asset.page + 1} 页</span></div>${captionHtml(asset)}</div><div class="download-group">${downloadLinks(asset)}</div></article>`;
   }
 
   function renderPositionView(assets) {
@@ -193,7 +210,8 @@
     $("mode-download").classList.toggle("active", state.mode === "download");
     $("mode-browse").setAttribute("aria-selected", String(state.mode === "browse"));
     $("mode-download").setAttribute("aria-selected", String(state.mode === "download"));
-    $("summary").textContent = `共 ${allForKind.length} 个${state.kind === "figure" ? "图片" : "表格"}，当前显示 ${assets.length} 个，${new Set(assets.map((asset) => asset.paper_id)).size} 篇论文`;
+    const favoriteCount = data.assets.filter((asset) => asset.kind === state.kind && isFavorite(asset)).length;
+    $("summary").textContent = `共 ${allForKind.length} 个${state.kind === "figure" ? "图片" : "表格"}，当前显示 ${assets.length} 个，${new Set(assets.map((asset) => asset.paper_id)).size} 篇论文；已收藏 ${favoriteCount} 个`;
     const body = state.mode === "download" ? renderDownloadView(assets) : (state.view === "position" ? renderPositionView(assets) : renderPaperView(assets));
     $("content").innerHTML = assets.length ? body : '<div class="empty">没有匹配结果，请调整筛选条件。</div>';
   }
@@ -207,8 +225,18 @@
     $("asset-sort").addEventListener("change", (event) => { state.assetSort = event.target.value; render(); });
     $("year").addEventListener("change", (event) => { state.year = event.target.value; render(); });
     $("paper-filter").addEventListener("change", render);
+    $("favorite-filter").addEventListener("change", (event) => { state.favoriteFilter = event.target.value; render(); });
     $("search").addEventListener("input", (event) => { state.query = event.target.value; render(); });
-    $("reset").addEventListener("click", () => { state.query = ""; state.year = "all"; $("search").value = ""; $("year").value = "all"; $("paper-filter").value = "all"; render(); });
+    $("content").addEventListener("click", (event) => {
+      const button = event.target.closest("[data-favorite-id]");
+      if (!button) return;
+      event.preventDefault();
+      const id = button.getAttribute("data-favorite-id");
+      if (favorites.has(id)) favorites.delete(id); else favorites.add(id);
+      saveFavorites();
+      render();
+    });
+    $("reset").addEventListener("click", () => { state.query = ""; state.year = "all"; state.favoriteFilter = "all"; $("search").value = ""; $("year").value = "all"; $("paper-filter").value = "all"; $("favorite-filter").value = "all"; render(); });
   }
 
   function start() {
