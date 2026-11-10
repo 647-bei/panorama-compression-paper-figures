@@ -27,8 +27,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install image conversion tool
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg
+          sudo apt-get install -y -qq --no-install-recommends ffmpeg
       - name: Prepare lightweight Pages artifact
         run: |
           mkdir _pages_dist
