@@ -12,6 +12,8 @@
   };
 
   const FAVORITES_KEY = "panorama-paper-figure-favorites-v1";
+  const INITIAL_VISIBLE_ASSETS = 18;
+  const REVEAL_STEP = 18;
   // The Pages deployment currently publishes raster figures/tables and LaTeX only.
   // Keep local vector files in the repository, but do not expose links to files
   // intentionally omitted from the hosted artifact while the package is reduced.
@@ -23,6 +25,7 @@
     } catch (_) { return new Set(); }
   };
   const favorites = loadFavorites();
+  const expandedGroups = new Map();
   const saveFavorites = () => { try { localStorage.setItem(FAVORITES_KEY, JSON.stringify([...favorites])); } catch (_) {} };
   const isFavorite = (asset) => favorites.has(asset.id);
   const favoriteButton = (asset) => {
@@ -67,6 +70,8 @@
     if (!zh || zh === en) return `<p>${escapeHtml(en)}</p>`;
     return `<div class="caption-pair"><p><span class="caption-label">EN</span>${escapeHtml(en)}</p><p><span class="caption-label">中文</span>${escapeHtml(zh)}</p></div>`;
   };
+
+  const displayImage = (asset) => asset.preview || asset.original;
 
   function orderedPapers() {
     const ids = new Set(filteredAssets().map((asset) => asset.paper_id));
@@ -131,7 +136,7 @@
     const paper = paperMap.get(asset.paper_id) || {};
     const maxHeight = state.kind === "table" ? "table-media" : "";
     return `<article class="asset-tile ${maxHeight}">
-      <a class="image-link" href="${escapeHtml(asset.original)}" target="_blank"><img loading="lazy" src="${escapeHtml(asset.original)}" alt="${escapeHtml(asset.label)} ${escapeHtml(paper.title)}"></a>
+      <a class="image-link" href="${escapeHtml(asset.original)}" target="_blank"><img loading="lazy" decoding="async" fetchpriority="low" src="${escapeHtml(displayImage(asset))}" alt="${escapeHtml(asset.label)} ${escapeHtml(paper.title)}"></a>
       <div class="tile-body">
         <div class="tile-label"><span class="asset-position">${escapeHtml(asset.label)}</span><span class="paper-badges">${paperBadgesHtml(paper)}</span>${favoriteButton(asset)}</div>
         <h3>${paperTitle(paper)}</h3>
@@ -164,7 +169,14 @@
         const pa = orderedPapers().findIndex((p) => p.id === paperA.id), pb = orderedPapers().findIndex((p) => p.id === paperB.id);
         return pa - pb;
       });
-      return `<section class="compare-row"><header class="row-header"><div><span class="eyebrow">同位置跨论文比较</span><h2>${escapeHtml(positionText(group[0]))}</h2></div><span class="row-count">${group.length} 篇论文</span></header><div class="asset-grid">${group.map(assetTile).join("")}</div></section>`;
+      const groupId = `position:${state.kind}:${key}`;
+      const visibleCount = expandedGroups.get(groupId) || INITIAL_VISIBLE_ASSETS;
+      const visible = group.slice(0, visibleCount);
+      const remaining = group.length - visible.length;
+      const loadMore = remaining > 0
+        ? `<button class="load-more" type="button" data-load-group="${escapeHtml(groupId)}">加载更多（还剩 ${remaining} 个）</button>`
+        : "";
+      return `<section class="compare-row"><header class="row-header"><div><span class="eyebrow">同位置跨论文比较</span><h2>${escapeHtml(positionText(group[0]))}</h2></div><span class="row-count">${group.length} 篇论文</span></header><div class="asset-grid">${visible.map(assetTile).join("")}${loadMore}</div></section>`;
     }).join("");
   }
 
@@ -177,7 +189,14 @@
     return orderedPapers().map((paper) => {
       const rows = (byPaper.get(paper.id) || []).sort(assetCompare);
       if (!rows.length) return "";
-      return `<section class="compare-row paper-row"><header class="row-header"><div><span class="eyebrow">同一论文内部浏览</span><h2>${paperTitle(paper, "paper-heading-link")}</h2><div class="row-meta"><span class="paper-badges">${paperBadgesHtml(paper)}</span>${escapeHtml(paperVenueMeta(paper))}${escapeHtml(paper.classification || "")}</div></div><span class="row-count">${rows.length} 个${state.kind === "figure" ? "图片" : "表格"}</span></header><div class="asset-grid">${rows.map(assetTile).join("")}</div></section>`;
+      const groupId = `paper:${state.kind}:${paper.id}`;
+      const visibleCount = expandedGroups.get(groupId) || INITIAL_VISIBLE_ASSETS;
+      const visible = rows.slice(0, visibleCount);
+      const remaining = rows.length - visible.length;
+      const loadMore = remaining > 0
+        ? `<button class="load-more" type="button" data-load-group="${escapeHtml(groupId)}">加载更多（还剩 ${remaining} 个）</button>`
+        : "";
+      return `<section class="compare-row paper-row"><header class="row-header"><div><span class="eyebrow">同一论文内部浏览</span><h2>${paperTitle(paper, "paper-heading-link")}</h2><div class="row-meta"><span class="paper-badges">${paperBadgesHtml(paper)}</span>${escapeHtml(paperVenueMeta(paper))}${escapeHtml(paper.classification || "")}</div></div><span class="row-count">${rows.length} 个${state.kind === "figure" ? "图片" : "表格"}</span></header><div class="asset-grid">${visible.map(assetTile).join("")}${loadMore}</div></section>`;
     }).join("");
   }
 
@@ -233,6 +252,13 @@
     $("favorite-filter").addEventListener("change", (event) => { state.favoriteFilter = event.target.value; render(); });
     $("search").addEventListener("input", (event) => { state.query = event.target.value; render(); });
     $("content").addEventListener("click", (event) => {
+      const loadMore = event.target.closest("[data-load-group]");
+      if (loadMore) {
+        const groupId = loadMore.getAttribute("data-load-group");
+        expandedGroups.set(groupId, (expandedGroups.get(groupId) || INITIAL_VISIBLE_ASSETS) + REVEAL_STEP);
+        render();
+        return;
+      }
       const button = event.target.closest("[data-favorite-id]");
       if (!button) return;
       event.preventDefault();

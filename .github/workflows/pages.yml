@@ -42,7 +42,7 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           from PIL import Image
-          import re
+          import json
 
           for source in Path(".").rglob("*.png"):
               if "_pages_dist" in source.parts:
@@ -51,11 +51,21 @@ jobs:
               target.parent.mkdir(parents=True, exist_ok=True)
               with Image.open(source) as image:
                   image.save(target, format="WEBP", lossless=True, quality=100, method=6)
+                  preview = image.copy()
+                  preview.thumbnail((1200, 1200), Image.Resampling.LANCZOS)
+                  preview_target = target.with_name(target.stem + ".preview.webp")
+                  preview.save(preview_target, format="WEBP", quality=82, method=6)
 
           path = Path("_pages_dist/site_data.js")
           text = path.read_text(encoding="utf-8")
-          text = re.sub(r'(["\'])([^"\']*?)\.png\1', r'\1\2.webp\1', text)
-          path.write_text(text, encoding="utf-8")
+          payload = json.loads(text.split("=", 1)[1].strip().rstrip(";"))
+          for asset in payload.get("assets", []):
+              original = asset.get("original", "")
+              if original.endswith(".png"):
+                  original = original[:-4] + ".webp"
+                  asset["original"] = original
+                  asset["preview"] = original[:-5] + ".preview.webp"
+          path.write_text("window.SITE_DATA = " + json.dumps(payload, ensure_ascii=False, indent=2) + ";\n", encoding="utf-8")
           PY
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
